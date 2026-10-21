@@ -1,16 +1,11 @@
 # Ferruddle
 
-Extract the main content from HTML as clean HTML or Markdown, with its title,
-author and other metadata. Ferruddle is a native Rust port of
-[Defuddle](https://github.com/kepano/defuddle).
-
-Give it HTML you have already fetched. Ferruddle removes navigation and other
-clutter while preserving articles, code, lists, tables, images and footnotes.
-No browser or JavaScript runtime is required.
+Ferruddle extracts the main content from HTML as clean HTML or Markdown.
+It is a native Rust port of [Defuddle](https://github.com/kepano/defuddle).
 
 ## Use
 
-Requires Rust 1.88 or newer. Until the first crates.io release, use the repository:
+Use Rust 1.88 or newer. Add the Git dependency to `Cargo.toml`:
 
 ```toml
 [dependencies]
@@ -20,43 +15,50 @@ ferruddle = { git = "https://github.com/robo-monk/ferruddle" }
 ```rust
 use ferruddle::{extract, Options};
 
-let html = "<article><h1>Example</h1><p>A useful article paragraph.</p></article>";
-let result = extract(
-    html,
+let page = extract(
+    "<article><h1>Example</h1><p>A useful paragraph.</p></article>",
     Some("https://example.com/article"),
     &Options { markdown: true, ..Options::default() },
 ).unwrap();
 
-println!("{}", result.content); // Cleaned HTML
-println!("{}", result.content_markdown.as_deref().unwrap());
+println!("{}", page.content);
+println!("{}", page.content_markdown.unwrap());
 ```
 
-`content` always contains HTML. Requesting Markdown adds `content_markdown`.
-The URL resolves relative links and selects site rules; it does not fetch the page.
-Use `html_to_markdown(html, url)` to convert supplied HTML without article selection.
+`content` contains cleaned HTML. Set `markdown: true` to also get `content_markdown`.
+The result includes metadata such as the title and author.
+
+Supply HTML that you have fetched. The optional URL resolves relative links and
+selects site rules. Ferruddle does not fetch pages or run JavaScript.
+
+To convert HTML without selecting its main content, use `html_to_markdown(html, url)`.
+See the [API and options](https://github.com/robo-monk/ferruddle/blob/main/docs/api.md).
 
 ## CLI
 
+Install the CLI:
+
 ```sh
 cargo install --git https://github.com/robo-monk/ferruddle --locked ferruddle
+```
+
+Extract Markdown from a file, or read HTML from stdin:
+
+```sh
 ferruddle page.html --url https://example.com/article --markdown
 cat page.html | ferruddle --json
 ```
 
-## Scope
+## Limits
 
-Ferruddle works on static HTML, including content already embedded in the page.
-It does not render JavaScript or retrieve remote content.
+Ferruddle uses content present in the supplied HTML. It cannot recover content
+that requires JavaScript or a network request.
 
-**Math conversion is not included.** Detected math produces the warning
-“Math support is not yet included.” Safe source material can remain in output.
+Math conversion is excluded. Detected math returns the warning
+`Math support is not yet included.` Safe source can remain in the output.
 
-The library is checked against 226 real upstream HTML cases. The extraction code
-has measured speedups of 7.29–7.48× for HTML and 7.38–7.61× for HTML plus Markdown
-against TypeScript under Vitest/linkedom. See the
-[benchmark report](https://github.com/robo-monk/ferruddle/blob/main/docs/benchmarks/README.md)
-for the method, raw results and host limits.
+Read the [compatibility notes](https://github.com/robo-monk/ferruddle/blob/main/docs/scope.md),
+[quality contracts](https://github.com/robo-monk/ferruddle/blob/main/docs/quality.md),
+and [benchmarks](https://github.com/robo-monk/ferruddle/blob/main/docs/benchmarks/README.md) for details.
 
-[API and options](https://github.com/robo-monk/ferruddle/blob/main/docs/api.md) ·
-[Compatibility](https://github.com/robo-monk/ferruddle/blob/main/docs/scope.md) ·
-[MIT license](LICENSE)
+Licensed under [MIT](LICENSE).

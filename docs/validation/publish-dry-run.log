@@ -1,9 +1,0 @@
-    Updating crates.io index
-   Packaging ferruddle v0.1.0 (/home/robomonk/Work/defuddle)
-    Updating crates.io index
-    Packaged 533 files, 8.2MiB (1.1MiB compressed)
-   Verifying ferruddle v0.1.0 (/home/robomonk/Work/defuddle)
-   Compiling ferruddle v0.1.0 (/home/robomonk/.cache/ferruddle-migration/target/package/ferruddle-0.1.0)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.28s
-   Uploading ferruddle v0.1.0 (/home/robomonk/Work/defuddle)
-warning: aborting upload due to dry run

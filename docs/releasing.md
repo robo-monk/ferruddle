@@ -1,56 +1,52 @@
-# Releasing Ferruddle
+# Release procedure
 
-The crate and CLI are named `ferruddle`, version 0.1.0, under the MIT license.
-The repository is `https://github.com/robo-monk/ferruddle`. Registry publication
-is manual; CI does not upload a crate.
+The crate and CLI are named `ferruddle`. `Cargo.toml` defines the release version
+and minimum Rust version. Publication is manual; CI does not upload a crate.
 
-## Validate the candidate
+## Validate a candidate
 
-Run from the repository root on the intended release commit:
+Run the [development checks](development.md) on the intended release commit.
+Test the minimum supported version and inspect the package:
 
 ```sh
-cargo test --locked
 cargo +1.88.0 test --locked
-cargo clippy --locked --all-targets -- -D warnings
-cargo fmt --check
-RUSTDOCFLAGS="-D warnings" cargo doc --locked --no-deps
 cargo package --locked --list
 cargo publish --locked --dry-run
 python3 docs/benchmarks/tools/verify.py
 ```
 
-The package includes library/CLI source, examples, all tests and fixtures, README,
-changelog, license and lockfile. It excludes raw benchmarks, review logs,
-research archives and local build/reference directories. The 226 real HTML cases
-remain in the package so its quality gate can run from an unpacked crate.
+The package includes library and CLI source, examples, tests, fixtures, README,
+changelog, license and lockfile. It excludes `docs/`, benchmark tooling and local
+build/reference directories. All 226 upstream HTML cases remain in the package.
 
-Inspect `target/package/ferruddle-0.1.0.crate` and run the unpacked tests before
-publication. Local preparation on an uncommitted tree needs `--allow-dirty`;
-CI and the release commit should not.
+Inspect `target/package/ferruddle-<version>.crate`. Run the unpacked tests with a
+separate Cargo target, as the [CI workflow](../.github/workflows/ci.yml) does.
+For local package checks on an uncommitted tree, Cargo requires `--allow-dirty`.
+Use a clean commit for release.
 
-The [benchmark verifier](benchmarks/tools/verify.py) checks preserved raw results
-against the archived sources. It also checks that the current extraction code
-still matches the measured implementation after the crate/CLI rename,
-documentation changes and move to the repository root. Historical source hashes
-are never rewritten to describe the new layout.
+The [benchmark verifier](benchmarks/tools/verify.py) checks raw evidence, source
+archives and measured inputs. Its current-source check permits only explicit
+crate/CLI naming, layout and documentation differences. If extraction code or
+locked dependencies differ, run a new comparison before making performance
+claims. Preserve saved measurements and source hashes.
 
 ## Publish
 
-After the release commit passes Linux, macOS, Windows and minimum-version CI:
+Wait for Linux, macOS, Windows and minimum-version CI to pass on the release
+commit. Then:
 
-1. Confirm crates.io name availability and ownership. `ferruddle` was unregistered
-   during preparation; availability is not a reservation. Authenticate with Cargo
+1. Confirm crates.io name availability and ownership. Authenticate with Cargo
    without saving a token in this repository.
-2. Replace the README's temporary Git dependency with `ferruddle = "0.1"`, update
-   the CLI installation command to `cargo install --locked ferruddle`, date the
-   changelog and rerun the candidate checks on the reviewed commit.
+2. Set the README dependency and CLI install command for the registry release.
+   Date the changelog and validate the reviewed release commit.
 3. Run `cargo publish --locked`.
-4. Tag that commit `v0.1.0`, push the tag and create release notes from
-   `CHANGELOG.md`. Verify docs.rs and the published CLI installation.
+4. Tag the published commit as `v<version>`. Push the tag and create release notes
+   from [CHANGELOG.md](../CHANGELOG.md).
+5. Verify docs.rs and installation of the published CLI.
 
 CI checks that `v*` tags agree with `Cargo.toml`. Rust crate versions are
-independent of the upstream TypeScript release version.
+independent of the upstream TypeScript version.
 
 Cargo's [publishing guide](https://doc.rust-lang.org/cargo/reference/publishing.html)
 and [package reference](https://doc.rust-lang.org/cargo/commands/cargo-package.html)
-describe the dry run and archive checks.
+describe registry and archive checks.

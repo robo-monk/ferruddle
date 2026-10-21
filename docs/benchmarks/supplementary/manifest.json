@@ -1,0 +1,60 @@
+{
+  "sourceCommit": "8f103a942cf1f6f95a1b9e0fc2ff3665118774b9",
+  "files": [
+    {
+      "path": "supplementary/reference/rust.json",
+      "sourcePath": "docs/archive/initial-benchmark/rust.json",
+      "sha256": "c14e6fd2776428fe94686b53205389f061a73108bf3ae685f85504fbf165183e"
+    },
+    {
+      "path": "supplementary/reference/typescript.json",
+      "sourcePath": "docs/archive/initial-benchmark/typescript.json",
+      "sha256": "39fc7e9347cd9e81d39ac832397f65b4af3372354bc46a92437ea889521e1c2f"
+    },
+    {
+      "path": "supplementary/reference/selection.json",
+      "sourcePath": "docs/archive/initial-benchmark/selection.json",
+      "sha256": "9f08b3c84fa144f1765822148c0f29b1925abee4d8914f5b8b5aed8bdefb4791"
+    },
+    {
+      "path": "supplementary/reference/summary.json",
+      "sourcePath": "docs/archive/initial-benchmark/summary.json",
+      "sha256": "5d26e260d76b4f416e63a30552319d558763710443b81000354fd2fddb2e3e4b"
+    },
+    {
+      "path": "supplementary/native/baseline-1.json",
+      "sourcePath": "docs/archive/reviews/performance-evidence/bench7-base-1.json",
+      "sha256": "7ad4ecc5a9bd79a9c007ec72c32615a6fbefd48688b8f66003d379a5246e8d3d"
+    },
+    {
+      "path": "supplementary/native/baseline-2.json",
+      "sourcePath": "docs/archive/reviews/performance-evidence/bench7-base-2.json",
+      "sha256": "444e26a3fe1c02a938a4a419841a2db11f61129c04a34015c28cf0a63819e40a"
+    },
+    {
+      "path": "supplementary/native/candidate-1.json",
+      "sourcePath": "docs/archive/reviews/performance-evidence/bench7-exp6-1.json",
+      "sha256": "7f179ef669c4debbed352b057cb81215a5bc63fe881ae99771923a674097a862"
+    },
+    {
+      "path": "supplementary/native/candidate-2.json",
+      "sourcePath": "docs/archive/reviews/performance-evidence/bench7-exp6-2.json",
+      "sha256": "30f655016b47acfca9a71412ac795be3677a4612381b513a13cd7dab84b87a6c"
+    },
+    {
+      "path": "supplementary/native/verification.json",
+      "sourcePath": "docs/archive/reviews/performance-evidence/verification.json",
+      "sha256": "a9011f08acc16d61aadc54377cf711f8932ae443ae21e5e391c9c6610d265e41"
+    },
+    {
+      "path": "supplementary/native/source.patch",
+      "sourcePath": "docs/archive/reviews/performance-evidence/experiment.patch",
+      "sha256": "0c77a9c29c8db07b1a9be352956fd77b4efcdb10b8ee588639e3e08317840d05"
+    },
+    {
+      "path": "supplementary/native/tests.log",
+      "sourcePath": "docs/archive/reviews/performance-evidence/experiment-tests.log",
+      "sha256": "654a6597479fde213f94ed6861b88d255b340a084f48cf69fcb32f108d564f4c"
+    }
+  ]
+}

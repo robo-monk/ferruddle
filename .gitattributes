@@ -3,6 +3,6 @@
 /tests/fixtures/** -text
 /tests/expected/** -text
 /docs/benchmarks/results/** -text
-/docs/archive/** -text
+/docs/benchmarks/supplementary/** -text
 /docs/** linguist-documentation
 /tests/data/** linguist-vendored

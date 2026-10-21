@@ -60,7 +60,7 @@ it. Standardization retains upstream spacing behavior and can insert separators.
 | `include_replies` | `Extractors` | Include available local replies; `None` excludes them |
 | `debug` | `false` | Return diagnostics and preserve diagnostic attributes |
 
-`IncludeReplies::All` currently selects the same offline replies as `Extractors`,
+`IncludeReplies::All` selects the same offline replies as `Extractors`,
 matching the source behavior. No option enables fetching replies.
 
 Sanitization runs with every option combination, including schema and adapter
@@ -88,7 +88,7 @@ Detected MathML, KaTeX, MathJax or TeX returns one warning:
 ```
 
 Safe original source can remain in output. Formula conversion and full math
-rendering are outside the current scope.
+rendering are outside the scope.
 
 ## CLI
 

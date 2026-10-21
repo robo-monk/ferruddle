@@ -1,55 +1,54 @@
-# Port contract
+# Scope and compatibility
 
-The accepted scope is a native, synchronous, offline Rust library at the repository root.
-It accepts HTML and an optional page URL. `content` always contains cleaned HTML;
-requesting Markdown adds `content_markdown`.
-
-Math conversion is excluded. Detect math in original markup and in content
-materialized from schema or adapters. Return one warning with code
-`math_not_supported` and message `Math support is not yet included.` Preserve safe
-source material where practical. Do not include a math conversion dependency.
-
-Target extraction quality rather than a particular DOM serializer's bytes. Keep
-source-backed improvements such as preserved code, link destinations, list
-hierarchy, and footnote continuations. The default corpus gate compares rendered
-semantics; every accepted difference has an explicit case ID, explanation, and
-fixed fingerprints. Runtime code must not contain fixture-specific exceptions.
-
-Sanitization is unconditional, including cleanup disabled, retry, schema, adapter,
-and selected-root paths. Determine unsafe root identity before any retagging.
-Traverse inert template content and foreign namespaces. Build page-derived HTML
-through DOM setters or escape interpolated values at the point of construction.
+Ferruddle is a native, synchronous Rust library for supplied UTF-8 HTML and an
+optional page URL. It returns cleaned HTML, metadata and optional Markdown.
+It targets Defuddle's extraction quality, with reviewed semantic differences
+rather than exact HTML serialization.
 
 The pinned reference is Defuddle 0.19.5 at revision
-`556d74e8c8fd68c49912d4b11a4ae9ec04d7b2b5`. Original TypeScript source, fixtures,
-and expectations remain unchanged. The portable corpus carries hashes and the
-upstream MIT license. See [quality contract](quality.md) for acceptance evidence.
-The original TypeScript implementation is preserved in the benchmark source
-archive; this repository's maintained application source is Rust.
+`556d74e8c8fd68c49912d4b11a4ae9ec04d7b2b5`. The
+[upstream corpus](../tests/data/upstream/manifest.json) preserves original HTML,
+URLs, expectations, hashes and provenance. The
+[quality contracts](quality.md) define acceptance. Runtime code contains no
+fixture-specific exceptions.
 
-Performance comparisons must use identical input strings and URLs, equivalent
-cleanup options, no network, fresh DOM parsing, and both HTML and HTML+Markdown
-modes. Exclude unsupported math cases from both implementations. Save raw samples,
-source hashes, environment details, warmup policy, and reproduction commands.
+## Supported content
 
-## Runtime coverage
+The pipeline handles static declarative shadow roots, React streaming markup,
+lazy images, rich code, footnotes, callouts, tables, lists and media. Offline
+site adapters use the DOM or embedded JSON for social posts, discussions,
+GitHub, Substack, mail, conversations and video metadata.
 
-The pipeline includes static shadow-root and React streaming recovery, lazy
-images, rich code, footnotes, callouts, tables, lists and media. Offline site
-adapters handle content present in the DOM or embedded JSON, including social
-posts, discussions, GitHub, Substack, mail, conversations and video metadata.
+The [API reference](api.md) describes cleanup options, local replies, URL
+resolution and standalone Markdown conversion. Sanitization runs regardless
+of cleanup options. Metadata remains untrusted page data.
 
-Browser layout, JavaScript rendering, HTTP retrieval, network-only oEmbed/C2Wiki
-extraction and remote captions are outside this library. YouTube supports supplied
-DOM transcripts and embedded metadata; some upstream chapter and speaker
-heuristics are not implemented. Site dispatch retains upstream domain matching.
+## Limits
 
-The HTML5 parser and mutable selector tree use `dom_query`/`html5ever`; URL parsing
-uses `url`, matching uses `regex`, and structured data uses `serde`. A focused
-Markdown renderer shares the sanitized DOM. No JavaScript runtime or formula
-conversion dependency is embedded.
+Ferruddle performs no HTTP retrieval, JavaScript execution or browser layout.
+It cannot retrieve network-only oEmbed or C2Wiki content, remote replies or
+captions. YouTube extraction uses supplied DOM transcripts and embedded
+metadata; some upstream chapter and speaker heuristics are absent.
+Site dispatch retains upstream domain matching.
 
-The port is based on the upstream MIT-licensed project and retains its license.
-It aims for equivalent extraction quality, with reviewed semantic differences,
-rather than exact HTML serialization. It is an independent Rust implementation,
-not a published release of the upstream TypeScript package.
+Inputs are Rust UTF-8 strings. JavaScript inputs containing lone UTF-16
+surrogates have no direct Rust string equivalent.
+
+Math conversion is excluded. Detection covers original markup and sources
+materialized by adapters or schema. It returns one warning with code
+`math_not_supported` and message `Math support is not yet included.` Safe source
+can remain in the output; this does not provide formula rendering.
+
+Word counts describe cleaned content with structural block boundaries. They
+can differ from the reference's tag-stripping count. Standalone Markdown
+omits a leading H1 article title, matching the extraction dialect.
+
+## Implementation and license
+
+`dom_query` supplies an HTML5 parser and a mutable DOM with selectors.
+Ferruddle uses `url` for URLs, `regex` for matching, `serde` for structured data
+and a Markdown renderer over the sanitized DOM. Builds require no JavaScript
+runtime or formula conversion library.
+
+Ferruddle is an independent Rust port of the MIT-licensed Defuddle project.
+It retains the [upstream license](../LICENSE).
