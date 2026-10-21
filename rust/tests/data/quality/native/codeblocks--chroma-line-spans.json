@@ -1,0 +1,55 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Example Go code."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "go",
+      "text": "package main\n\ntype Person struct {\n    Name string\n    Age  int\n}\n\nfunc (p *Person) Sleep() int {\n    p.Age += 1\n    return p.Age\n}"
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Example Go code."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "go",
+      "text": "package main\n\ntype Person struct {\n    Name string\n    Age  int\n}\n\nfunc (p *Person) Sleep() int {\n    p.Age += 1\n    return p.Age\n}"
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "chroma-line-spans",
+    "title": "Chroma Code Block",
+    "description": "",
+    "domain": "chroma-line-spans",
+    "favicon": "https://chroma-line-spans/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 26,
+  "extractorType": null
+}

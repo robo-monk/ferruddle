@@ -1,0 +1,263 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Article with Appendix Section"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the main article content discussing an important topic. It contains multiple paragraphs of text that establish it as the primary content of the page."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Introduction"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The introduction provides background information about the subject matter. We explore the key concepts and methodologies used in our analysis of the data."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Results"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Our analysis revealed several interesting findings that warrant further discussion. The data shows clear trends across all measured variables."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Appendix I"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Below is a detailed breakdown of results across all test conditions and parameters used in the study."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The raw data tables show measurements taken at regular intervals throughout the experiment."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Acknowledgements"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Thanks to all contributors who made this research possible."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Article with Appendix Section"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the main article content discussing an important topic. It contains multiple paragraphs of text that establish it as the primary content of the page."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Introduction"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The introduction provides background information about the subject matter. We explore the key concepts and methodologies used in our analysis of the data."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Results"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Our analysis revealed several interesting findings that warrant further discussion. The data shows clear trends across all measured variables."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Appendix I"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Below is a detailed breakdown of results across all test conditions and parameters used in the study."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The raw data tables show measurements taken at regular intervals throughout the experiment."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Acknowledgements"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Thanks to all contributors who made this research possible."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "appendix-heading",
+    "title": "Article with Appendix",
+    "description": "",
+    "domain": "appendix-heading",
+    "favicon": "https://appendix-heading/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 116,
+  "extractorType": null
+}

@@ -1,0 +1,717 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the post body with some content."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Comments"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "user_alpha"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://reddit.com/r/test/comments/abc123/test_post/comment1/"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2025-01-15"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · 42 points"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "This is a top-level comment with some thoughts on the topic."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "blockquote",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "p",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "user_beta"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " · "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://reddit.com/r/test/comments/abc123/test_post/comment2/"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "2025-01-15"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " · 15 points"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "p",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Great point! I agree with this."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "blockquote",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "strong",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "user_alpha"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "text": " · "
+                    },
+                    {
+                      "kind": "element",
+                      "name": "a",
+                      "attributes": [
+                        [
+                          "href",
+                          "https://reddit.com/r/test/comments/abc123/test_post/comment3/"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "2025-01-15"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "text": " · 8 points"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Thanks for the reply!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "blockquote",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "p",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "user_gamma"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " · "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://reddit.com/r/test/comments/abc123/test_post/comment4/"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "2025-01-15"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " · 3 points"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "p",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Different perspective here."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "user_delta"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://reddit.com/r/test/comments/abc123/test_post/comment5/"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2025-01-15"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · 20 points"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Another top-level comment with a "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://example.com/"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "link"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the post body with some content."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Comments"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "user_alpha"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://reddit.com/r/test/comments/abc123/test_post/comment1/"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2025-01-15"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · 42 points"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "This is a top-level comment with some thoughts on the topic."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "blockquote",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "p",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "user_beta"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " · "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://reddit.com/r/test/comments/abc123/test_post/comment2/"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "2025-01-15"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " · 15 points"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "p",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Great point! I agree with this."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "blockquote",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "strong",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "user_alpha"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "text": " · "
+                    },
+                    {
+                      "kind": "element",
+                      "name": "a",
+                      "attributes": [
+                        [
+                          "href",
+                          "https://reddit.com/r/test/comments/abc123/test_post/comment3/"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "2025-01-15"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "text": " · 8 points"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Thanks for the reply!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "blockquote",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "p",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "user_gamma"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " · "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://reddit.com/r/test/comments/abc123/test_post/comment4/"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "2025-01-15"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " · 3 points"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "p",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Different perspective here."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "user_delta"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://reddit.com/r/test/comments/abc123/test_post/comment5/"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2025-01-15"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · 20 points"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Another top-level comment with a "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://example.com/"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "link"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "r/test",
+    "title": "Test Post",
+    "description": "This is the post body with some content.",
+    "domain": "old.reddit.com",
+    "favicon": "https://old.reddit.com/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "2025-01-15T10:30:00Z",
+    "author": "poster_user"
+  },
+  "warnings": [],
+  "wordCount": 69,
+  "extractorType": "reddit"
+}

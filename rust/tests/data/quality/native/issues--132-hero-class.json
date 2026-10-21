@@ -1,0 +1,65 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the hero section with important introductory content that should not be removed."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the main body of the article."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the hero section with important introductory content that should not be removed."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the main body of the article."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "132-hero-class",
+    "title": "Page with Hero Section",
+    "description": "",
+    "domain": "132-hero-class",
+    "favicon": "https://132-hero-class/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 22,
+  "extractorType": null
+}

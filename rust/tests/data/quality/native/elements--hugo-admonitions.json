@@ -1,0 +1,225 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is some content before the admonitions."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Note"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is an informational note about the topic."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Warning"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Be careful when modifying these settings."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Danger"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This action cannot be undone."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Helpful tip"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Use this shortcut to save time."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is some content after the admonitions."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is some content before the admonitions."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "[!info] Note This is an informational note about the topic."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "[!warning] Warning Be careful when modifying these settings."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "[!danger] Danger This action cannot be undone."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "[!tip] Helpful tip Use this shortcut to save time."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is some content after the admonitions."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "hugo-admonitions",
+    "title": "Hugo admonitions test",
+    "description": "",
+    "domain": "hugo-admonitions",
+    "favicon": "https://hugo-admonitions/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 44,
+  "extractorType": null
+}

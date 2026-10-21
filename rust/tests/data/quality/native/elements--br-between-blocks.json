@@ -1,0 +1,279 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Article title"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "First paragraph with some introductory text."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Second paragraph after a br spacer."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "src",
+          "https://example.com/image.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A sample figure."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Third paragraph after a figure and br."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Fourth paragraph with trailing br inside."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Fifth paragraph after a p-with-inner-br."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Section heading"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Sixth paragraph after a heading and br."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Seventh paragraph after an hr and br."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Article title"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "First paragraph with some introductory text."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Second paragraph after a br spacer."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          ""
+        ],
+        [
+          "src",
+          "https://example.com/image.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A sample figure."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Third paragraph after a figure and br."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Fourth paragraph with trailing br inside."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Fifth paragraph after a p-with-inner-br."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Section heading"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Sixth paragraph after a heading and br."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Seventh paragraph after an hr and br."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "br-between-blocks",
+    "title": "BR between blocks test",
+    "description": "",
+    "domain": "br-between-blocks",
+    "favicon": "https://br-between-blocks/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 51,
+  "extractorType": null
+}

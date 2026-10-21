@@ -1,0 +1,1635 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We measured the response latency of several popular frameworks under realistic workloads. Here are the results:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Framework"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Latency (ms)"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Year"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Runtime"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Notes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://example.com/alpha"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Alpha"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "12"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2019"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Native"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Fastest overall"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://example.com/bravo"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Bravo"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "25"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2020"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "JIT"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Uses "
+                },
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "aggressive caching"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://example.com/charlie"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Charlie 2.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "40"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2018"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Interpreted"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Legacy support only"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Delta "
+                },
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "optimized"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "55"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2021"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Native"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Requires "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://example.com/config"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "custom config"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://example.com/echo"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Echo"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "90"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2017"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "VM"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Most popular"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " in surveys"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Foxtrot"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "150"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2022"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Interpreted"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Still in "
+                },
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "beta"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The fastest frameworks tend to use native compilation, while interpreted runtimes show higher latency across the board."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Memory Usage"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Framework"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Peak Memory (MB)"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Idle Memory (MB)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Alpha"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "45"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Bravo"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "120"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "38"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Charlie 2.0"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "200"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "95"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Echo"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "310"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "150"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Memory consumption varies widely and does not always correlate with latency performance."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We measured the response latency of several popular frameworks under realistic workloads. Here are the results:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Framework"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Latency (ms)"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Year"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Runtime"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Notes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://example.com/alpha"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Alpha"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "12"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2019"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Native"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Fastest overall"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://example.com/bravo"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Bravo"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "25"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2020"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "JIT"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Uses "
+                },
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "aggressive caching"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://example.com/charlie"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Charlie 2.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "40"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2018"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Interpreted"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Legacy support only"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Delta "
+                },
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "optimized"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "55"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2021"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Native"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Requires "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://example.com/config"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "custom config"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://example.com/echo"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Echo"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "90"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2017"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "VM"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Most popular"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " in surveys"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Foxtrot"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "150"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2022"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Interpreted"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Still in "
+                },
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "beta"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The fastest frameworks tend to use native compilation, while interpreted runtimes show higher latency across the board."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Memory Usage"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Framework"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Peak Memory (MB)"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Idle Memory (MB)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Alpha"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "45"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Bravo"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "120"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "38"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Charlie 2.0"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "200"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "95"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Echo"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "310"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "150"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Memory consumption varies widely and does not always correlate with latency performance."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Jordan Lee",
+    "title": "Framework Performance Benchmarks",
+    "description": "",
+    "domain": "complex-tables",
+    "favicon": "https://complex-tables/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": "Jordan Lee"
+  },
+  "warnings": [],
+  "wordCount": 117,
+  "extractorType": null
+}

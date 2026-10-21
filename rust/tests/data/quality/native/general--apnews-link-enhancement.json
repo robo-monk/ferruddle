@@ -1,0 +1,189 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Health care subsidies at risk in shutdown"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "WASHINGTON (AP) — The first caller on a telephone town hall with Maryland Rep. Andy Harris came ready with a question about the Affordable Care Act. Her cousin's disabled son is at risk of losing the insurance he gained "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://apnews.com/article/aca-credits-health-care-subsidies"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "under that law"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", the caller said."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The caller's question underscored the high stakes of a potential government shutdown. The "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://apnews.com/article/aca-credits-subsidies-government-shutdown"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "subsidies that make insurance affordable"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " for millions of Americans could be at risk."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is a regular paragraph with no links, providing additional context about the story and the political dynamics involved in the debate over health care subsidies and government funding."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Health care subsidies at risk in shutdown"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "WASHINGTON (AP) — The first caller on a telephone town hall with Maryland Rep. Andy Harris came ready with a question about the Affordable Care Act. Her cousin's disabled son is at risk of losing the insurance he gained "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://apnews.com/article/aca-credits-health-care-subsidies"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "under that law"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", the caller said."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The caller's question underscored the high stakes of a potential government shutdown. The "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://apnews.com/article/aca-credits-subsidies-government-shutdown"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "subsidies that make insurance affordable"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " for millions of Americans could be at risk."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is a regular paragraph with no links, providing additional context about the story and the political dynamics involved in the debate over health care subsidies and government funding."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Test Author",
+    "title": "Health care subsidies article",
+    "description": "",
+    "domain": "apnews-link-enhancement",
+    "favicon": "https://apnews-link-enhancement/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": "Test Author"
+  },
+  "warnings": [],
+  "wordCount": 107,
+  "extractorType": null
+}

@@ -1,0 +1,104 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Predicate Logic"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "— For all , if is a man, then is mortal."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Quadratic Formula"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": []
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Predicate Logic"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "— For all , if is a man, then is mortal."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Quadratic Formula"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": []
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "gemini.google.com",
+    "title": "Gemini - Math response",
+    "description": "",
+    "domain": "gemini.google.com",
+    "favicon": "https://gemini.google.com/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [
+    {
+      "code": "math_not_supported",
+      "message": "Math support is not yet included."
+    }
+  ],
+  "wordCount": 15,
+  "extractorType": null
+}

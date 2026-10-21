@@ -1,0 +1,277 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Example bit-shift analysis: a common simplification is to replace "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "x & ~0"
+        },
+        {
+          "kind": "text",
+          "text": " with "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "x"
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:1"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Other paragraph content follows that explains the broader idea in more detail."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is an additional paragraph with more prose to give the post enough weight for the content detection scoring. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Thanks to everyone for reading. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "anchor",
+          "id": "fn:1"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Possibly with masking of the top bit if our IR semantics have defined wrapping/truncation behavior: "
+            },
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "x & 0x7fff..ffff"
+            },
+            {
+              "kind": "text",
+              "text": "."
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:1"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Example bit-shift analysis: a common simplification is to replace "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "x & ~0"
+        },
+        {
+          "kind": "text",
+          "text": " with "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "x"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Other paragraph content follows that explains the broader idea in more detail."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is an additional paragraph with more prose to give the post enough weight for the content detection scoring. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Thanks to everyone for reading. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "anchor",
+      "id": "note-1"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Possibly with masking of the top bit if our IR semantics have defined wrapping/truncation behavior: "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "x & 0x7fff..ffff"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "pulldown-cmark-footnote-definition",
+    "title": "Example post with a footnote",
+    "description": "",
+    "domain": "pulldown-cmark-footnote-definition",
+    "favicon": "https://pulldown-cmark-footnote-definition/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 104,
+  "extractorType": null
+}

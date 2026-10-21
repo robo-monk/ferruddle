@@ -1,0 +1,99 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "RSA example"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is the key generation code:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "python",
+      "text": "p = 61\nq = 97\n\nprint(f\"n={p*q}\")\n# n=5917\n\nphi = (p-1)*(q-1)\n\nprint(f\"phi={phi}\")\n# phi=5760"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This gives us the public and private keys."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "RSA example"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is the key generation code:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "python",
+      "text": "p = 61\nq = 97\n\nprint(f\"n={p*q}\")\n# n=5917\n\nphi = (p-1)*(q-1)\n\nprint(f\"phi={phi}\")\n# phi=5760"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This gives us the public and private keys."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "chroma-inline-linenums",
+    "title": "Sample Python Post",
+    "description": "",
+    "domain": "chroma-inline-linenums",
+    "favicon": "https://chroma-inline-linenums/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 31,
+  "extractorType": null
+}

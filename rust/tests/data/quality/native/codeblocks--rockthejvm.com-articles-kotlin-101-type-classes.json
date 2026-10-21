@@ -1,0 +1,428 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In this article, we explore the concept of "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "type classes"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " in Kotlin, a powerful tool that allows developers to abstract logic for different data types. We'll take data validation as an example to show how type classes can be used to write generic and reusable code. Our implementation will be based on the "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://arrow-kt.io/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Arrow Kt"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " library, which will exploit Kotlin's context receivers. So, without further ado, let's get the party started."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Tip"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Type classes are tough. If you need to become proficient in Kotlin "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "quickly"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and with thousands of lines of code and a project under your belt, you'll love "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://rockthejvm.com/courses/kotlin-essentials"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Kotlin Essentials"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". It's a jam-packed course on "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "everything"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " you'll ever need to work with Kotlin for any platform."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Setting the Stage"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We'll use version 1.9.22 of Kotlin and version 1.2.1 of the Arrow library. We'll also use Kotlin's context receivers, which are still an experimental feature. We need to modify the Gradle configuration:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "kotlin",
+      "text": "tasks.withType<KotlinCompile>().configureEach {\n    kotlinOptions {\n        freeCompilerArgs = freeCompilerArgs + \"-Xcontext-receivers\"\n    }\n}"
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The Problem"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In this article, we'll simulate a system for validating user portfolios in a fintech startup. Data validation is crucial in software development, especially in financial data transactions. Ensuring data conforms to expected formats and rules is vital for maintaining the system's integrity."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "So, first, let's define the data we want to validate. The first DTO represents the creation of a new portfolio:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "kotlin",
+      "text": "data class CreatePortfolioDTO(val userId: String, val amount: Double)"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The above code could be more optimal and maintainable. We can abstract the validation process in a dedicated function using type classes, which is a common pattern in functional programming."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In this article, we explore the concept of "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "type classes"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " in Kotlin, a powerful tool that allows developers to abstract logic for different data types. We'll take data validation as an example to show how type classes can be used to write generic and reusable code. Our implementation will be based on the "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://arrow-kt.io/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Arrow Kt"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " library, which will exploit Kotlin's context receivers. So, without further ado, let's get the party started."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "[!tip] Tip Type classes are tough. If you need to become proficient in Kotlin "
+            },
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "quickly"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " and with thousands of lines of code and a project under your belt, you'll love "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://rockthejvm.com/courses/kotlin-essentials"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Kotlin Essentials"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ". It's a jam-packed course on "
+            },
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "everything"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " you'll ever need to work with Kotlin for any platform."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Setting the Stage"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We'll use version 1.9.22 of Kotlin and version 1.2.1 of the Arrow library. We'll also use Kotlin's context receivers, which are still an experimental feature. We need to modify the Gradle configuration:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "kotlin",
+      "text": "tasks.withType<KotlinCompile>().configureEach {\n    kotlinOptions {\n        freeCompilerArgs = freeCompilerArgs + \"-Xcontext-receivers\"\n    }\n}"
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The Problem"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In this article, we'll simulate a system for validating user portfolios in a fintech startup. Data validation is crucial in software development, especially in financial data transactions. Ensuring data conforms to expected formats and rules is vital for maintaining the system's integrity."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "So, first, let's define the data we want to validate. The first DTO represents the creation of a new portfolio:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "kotlin",
+      "text": "data class CreatePortfolioDTO(val userId: String, val amount: Double)"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The above code could be more optimal and maintainable. We can abstract the validation process in a dedicated function using type classes, which is a common pattern in functional programming."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Riccardo Cardin",
+            "url": "https://rockthejvm.com//authors/riccardo-cardin"
+          }
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "Rock the JVM",
+          "url": "https://rockthejvm.com/"
+        },
+        "datePublished": "2024-02-06T00:00:00.000Z",
+        "headline": "Kotlin 101: Type Classes Quickly Explained"
+      }
+    ],
+    "site": "Rock the JVM",
+    "title": "Kotlin 101: Type Classes Quickly Explained",
+    "description": "Discover type classes in Kotlin: a powerful pattern to organize your code for improved readability, maintainability, and flexibility",
+    "domain": "rockthejvm.com",
+    "favicon": "https://rockthejvm.com/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "2024-02-06T00:00:00.000Z",
+    "author": "Riccardo Cardin"
+  },
+  "warnings": [],
+  "wordCount": 266,
+  "extractorType": null
+}

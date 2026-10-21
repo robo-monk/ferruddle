@@ -1,0 +1,1211 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "On our "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://obsidian.md/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "About page"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", we describe the guiding principles that have shaped Obsidian since the start. Privacy is one of these principles, and we go to great lengths to make sure we can uphold this statement:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "We believe that your thoughts and ideas belong to you and deserve complete privacy. That’s why your data is stored on your device, inaccessible to us. When you use our online services, your data is protected with end-to-end encryption for maximum security."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "When you use "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://obsidian.md/sync"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian Sync"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", your data is end-to-end encrypted. But how can you be sure that is true?"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In this guide, we provide step-by-step instructions so that you can trustlessly verify the end-to-end encryption of your data when it is sent and received via our Sync servers."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "How Obsidian Sync works"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Let’s review how Obsidian Sync encryption works:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "You provide a vault password, or let our managed server generate one for you. This password is separate from your account password and is only used for establishing a remote vault."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "The Obsidian app generates a unique "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://en.wikipedia.org/wiki/Salt_(cryptography)"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "salt"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " for each vault. A salt is random data used to protect your password by mixing it with your password before hashing."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Your base key is derived from your password + salt using an algorithm called "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://en.wikipedia.org/wiki/Scrypt"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "scrypt"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Your encryption key is derived from the base key using an algorithm called "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://en.wikipedia.org/wiki/HKDF"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "HKDF"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ". If your vault was created using the "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://help.obsidian.md/sync/migrate"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "older encryption version"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", the encryption key uses the base key directly."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "This encryption key is used to encrypt/decrypt data with "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://en.wikipedia.org/wiki/Advanced_Encryption_Standard"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "AES-256"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " using "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://en.wikipedia.org/wiki/Galois/Counter_Mode"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Galois/Counter Mode"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In the next few steps, you’ll learn how to get your vault’s salt, and test the encryption of your data."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Getting your vault’s salt and encryption version"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "First, get the salt used to derive your encryption key by following these steps:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Make sure that Obsidian Sync is turned on."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Open Developer Tools in the Obsidian app using the hotkey "
+            },
+            {
+              "kind": "element",
+              "name": "kbd",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Cmd+Opt+I"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " on macOS or "
+            },
+            {
+              "kind": "element",
+              "name": "kbd",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Ctrl+Shift+I"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " on Windows."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Go to the Console and run the following code, by copy/pasting it and pressing the Return key:"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "js",
+      "text": "let data = await (await fetch('https://api.obsidian.md/vault/list', {method:'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({token: JSON.parse(localStorage.getItem('obsidian-account')).token})})).json();\nlet vaults = [].concat(data.shared, data.vaults);\nlet vault = vaults.find(v => v.id === app.internalPlugins.getEnabledPluginById('sync').vaultId);\nconsole.log(`The salt of your vault ${vault.name} is: \"${vault.salt}\" with encryptionVersion ${vault.encryption_version}`);"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "You should see a message containing your salt and encryption version:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "The salt of your vault Notes is: \"8II2%?YeNpddlbd@4Z)c\" with encryptionVersion 0"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Decrypting data"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Next, find an example of a sync event and decrypt it. Here we will use the Network tab of Developers Tools. This is where all sync events are logged, so you can see data that is being sent and received by the Obsidian app, and confirm that it is using your encryption key."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Go to the Network tab of the Developer Tools, and filter by \"Socket\" types (for "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://en.wikipedia.org/wiki/WebSocket"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "WebSocket"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ")."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Find the WebSocket connection to Obsidian Sync. It will look like "
+            },
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "sync-xx.obsidian.md"
+            },
+            {
+              "kind": "text",
+              "text": " — you may need to reload Obsidian to see it."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "In the WebSocket data stream, go to the Message tab. There you will see binary messages of uploads and downloads. If you aren’t seeing them, you can easily trigger one by modifying any synced note in your vault."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Right click on one of them and choose "
+            },
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "Copy message > Copy as Base64"
+            },
+            {
+              "kind": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Using the following code, enter your password, your salt, and base64 binary data, and change the encryption version if necessary. Then, run the decryption routine in the Console (alternatively you can run it in a NodeJS prompt or script)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "js",
+      "text": "// Use the standard crypto package from NodeJS\nlet crypto = require('crypto');\n\n// Enter your password, salt, and base64 binary data\nlet password = '8VbM0dCTdyX4QzO(@)Y7';\nlet salt = '8zUqk?w*rnU7LneIzJR&';\nlet data = Buffer.from('sAsic1PU9IpdteFDoff+dSVHTL1KnOWaGE5PJnYf51L8qPJFslqHWcqZAdrYaUMdXqirdlw4rDhtvWb9Lg==', 'base64');\n\n// Enter the encryption protocol version (0 or 3)\nlet encryptionVersion = 3;\n\n// Derive the encryption/decryption key from your password and salt\nlet key = crypto.scryptSync(Buffer.from(password.normalize('NFKC'), 'utf8'), Buffer.from(salt.normalize('NFKC'), 'utf8'),\n    32, {N: 32768, r: 8, p: 1, maxmem: 128 * 32768 * 8 * 2});\nlet aesKey = key;\nif (encryptionVersion === 3) {\n    aesKey = crypto.hkdfSync('sha256', key, '', 'ObsidianAesGcm', 32);\n}\n\n// Split up the data blob into the 12-bytes IV, the encrypted data, and the 16-bytes auth tag.\nlet iv = data.subarray(0, 12);\nlet encryptedData = data.subarray(12, data.length - 16);\nlet authTag = data.subarray(data.length - 16);\n\n// Decrypt the data\nlet decipher = crypto.createDecipheriv('aes-256-gcm', aesKey, iv);\ndecipher.setAuthTag(authTag);\nlet decrypted = Buffer.concat([decipher.update(encryptedData), decipher.final()]);\n\n// Print it to a string\nconsole.log(decrypted.toString('utf8'));"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The data that is returned should be a revision of a file that was sent or received via the Obsidian Sync’s servers. That’s it! If it properly decrypts, you’ll know your encryption key is working."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "2025-09-05 edit:"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " Updated instructions to support "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://obsidian.md/changelog/2025-08-22-sync/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "new Sync version"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "On our "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://obsidian.md/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "About page"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", we describe the guiding principles that have shaped Obsidian since the start. Privacy is one of these principles, and we go to great lengths to make sure we can uphold this statement:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "We believe that your thoughts and ideas belong to you and deserve complete privacy. That’s why your data is stored on your device, inaccessible to us. When you use our online services, your data is protected with end-to-end encryption for maximum security."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "When you use "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://obsidian.md/sync"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian Sync"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", your data is end-to-end encrypted. But how can you be sure that is true?"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In this guide, we provide step-by-step instructions so that you can trustlessly verify the end-to-end encryption of your data when it is sent and received via our Sync servers."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "How Obsidian Sync works"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Let’s review how Obsidian Sync encryption works:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "You provide a vault password, or let our managed server generate one for you. This password is separate from your account password and is only used for establishing a remote vault."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "The Obsidian app generates a unique "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://en.wikipedia.org/wiki/Salt_(cryptography)"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "salt"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " for each vault. A salt is random data used to protect your password by mixing it with your password before hashing."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Your base key is derived from your password + salt using an algorithm called "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://en.wikipedia.org/wiki/Scrypt"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "scrypt"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Your encryption key is derived from the base key using an algorithm called "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://en.wikipedia.org/wiki/HKDF"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "HKDF"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ". If your vault was created using the "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://help.obsidian.md/sync/migrate"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "older encryption version"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", the encryption key uses the base key directly."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "This encryption key is used to encrypt/decrypt data with "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://en.wikipedia.org/wiki/Advanced_Encryption_Standard"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "AES-256"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " using "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://en.wikipedia.org/wiki/Galois/Counter_Mode"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Galois/Counter Mode"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In the next few steps, you’ll learn how to get your vault’s salt, and test the encryption of your data."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Getting your vault’s salt and encryption version"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "First, get the salt used to derive your encryption key by following these steps:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Make sure that Obsidian Sync is turned on."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Open Developer Tools in the Obsidian app using the hotkey Cmd+Opt+I on macOS or Ctrl+Shift+I on Windows."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Go to the Console and run the following code, by copy/pasting it and pressing the Return key:"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "js",
+      "text": "let data = await (await fetch('https://api.obsidian.md/vault/list', {method:'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({token: JSON.parse(localStorage.getItem('obsidian-account')).token})})).json();\nlet vaults = [].concat(data.shared, data.vaults);\nlet vault = vaults.find(v => v.id === app.internalPlugins.getEnabledPluginById('sync').vaultId);\nconsole.log(`The salt of your vault ${vault.name} is: \"${vault.salt}\" with encryptionVersion ${vault.encryption_version}`);"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "You should see a message containing your salt and encryption version:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "The salt of your vault Notes is: \"8II2%?YeNpddlbd@4Z)c\" with encryptionVersion 0"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Decrypting data"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Next, find an example of a sync event and decrypt it. Here we will use the Network tab of Developers Tools. This is where all sync events are logged, so you can see data that is being sent and received by the Obsidian app, and confirm that it is using your encryption key."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Go to the Network tab of the Developer Tools, and filter by \"Socket\" types (for "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://en.wikipedia.org/wiki/WebSocket"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "WebSocket"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ")."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Find the WebSocket connection to Obsidian Sync. It will look like "
+            },
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "sync-xx.obsidian.md"
+            },
+            {
+              "kind": "text",
+              "text": " — you may need to reload Obsidian to see it."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "In the WebSocket data stream, go to the Message tab. There you will see binary messages of uploads and downloads. If you aren’t seeing them, you can easily trigger one by modifying any synced note in your vault."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Right click on one of them and choose "
+            },
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "Copy message > Copy as Base64"
+            },
+            {
+              "kind": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Using the following code, enter your password, your salt, and base64 binary data, and change the encryption version if necessary. Then, run the decryption routine in the Console (alternatively you can run it in a NodeJS prompt or script)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "js",
+      "text": "// Use the standard crypto package from NodeJS\nlet crypto = require('crypto');\n\n// Enter your password, salt, and base64 binary data\nlet password = '8VbM0dCTdyX4QzO(@)Y7';\nlet salt = '8zUqk?w*rnU7LneIzJR&';\nlet data = Buffer.from('sAsic1PU9IpdteFDoff+dSVHTL1KnOWaGE5PJnYf51L8qPJFslqHWcqZAdrYaUMdXqirdlw4rDhtvWb9Lg==', 'base64');\n\n// Enter the encryption protocol version (0 or 3)\nlet encryptionVersion = 3;\n\n// Derive the encryption/decryption key from your password and salt\nlet key = crypto.scryptSync(Buffer.from(password.normalize('NFKC'), 'utf8'), Buffer.from(salt.normalize('NFKC'), 'utf8'),\n    32, {N: 32768, r: 8, p: 1, maxmem: 128 * 32768 * 8 * 2});\nlet aesKey = key;\nif (encryptionVersion === 3) {\n    aesKey = crypto.hkdfSync('sha256', key, '', 'ObsidianAesGcm', 32);\n}\n\n// Split up the data blob into the 12-bytes IV, the encrypted data, and the 16-bytes auth tag.\nlet iv = data.subarray(0, 12);\nlet encryptedData = data.subarray(12, data.length - 16);\nlet authTag = data.subarray(data.length - 16);\n\n// Decrypt the data\nlet decipher = crypto.createDecipheriv('aes-256-gcm', aesKey, iv);\ndecipher.setAuthTag(authTag);\nlet decrypted = Buffer.concat([decipher.update(encryptedData), decipher.final()]);\n\n// Print it to a string\nconsole.log(decrypted.toString('utf8'));"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The data that is returned should be a revision of a file that was sent or received via the Obsidian Sync’s servers. That’s it! If it properly decrypts, you’ll know your encryption key is working."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "2025-09-05 edit:"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " Updated instructions to support "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://obsidian.md/changelog/2025-08-22-sync/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "new Sync version"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Obsidian",
+    "title": "How to verify Obsidian Sync's end-to-end encryption",
+    "description": "How can you be sure that your data is end-to-end encrypted? In this guide, we provide step-by-step instructions to trustlessly verify the end-to-end encryption of your data using Obsidian Sync.",
+    "domain": "obsidian.md-blog-verify-obsidian-sync-encryption",
+    "favicon": "/favicon.ico",
+    "image": "https://obsidian.md/images/banner.png",
+    "language": "en",
+    "published": "2023-06-05T00:00:00+00:00",
+    "author": "Licat"
+  },
+  "warnings": [],
+  "wordCount": 780,
+  "extractorType": null
+}

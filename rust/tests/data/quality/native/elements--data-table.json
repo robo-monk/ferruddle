@@ -1,0 +1,821 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Programming Language Comparison"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is a comparison of popular programming languages:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Language"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Year"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Typing"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Primary Use"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Python"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1991"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Dynamic"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "General purpose, data science"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Rust"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2015"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Static"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Systems programming"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "TypeScript"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2012"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Static"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Web development"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Go"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2009"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Static"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Cloud infrastructure"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Each language has its strengths and trade-offs."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Without thead"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Name"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Score"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Alice"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "95"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Bob"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "87"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Programming Language Comparison"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is a comparison of popular programming languages:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Language"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Year"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Typing"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Primary Use"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Python"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1991"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Dynamic"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "General purpose, data science"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Rust"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2015"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Static"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Systems programming"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "TypeScript"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2012"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Static"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Web development"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Go"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2009"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Static"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Cloud infrastructure"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Each language has its strengths and trade-offs."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Without thead"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Name"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Score"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Alice"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "95"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Bob"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "87"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "data-table",
+    "title": "Data Table Test",
+    "description": "",
+    "domain": "data-table",
+    "favicon": "https://data-table/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 53,
+  "extractorType": null
+}

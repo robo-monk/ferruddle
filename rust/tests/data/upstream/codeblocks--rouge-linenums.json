@@ -1,0 +1,20 @@
+{
+  "id": "codeblocks--rouge-linenums",
+  "url": "https://rouge-linenums",
+  "inputHtml": "<!DOCTYPE html>\n<html lang=\"en\">\n<head><title>Sample C++ Post</title></head>\n<body>\n<article>\n  <h3>User-friendly assert in C++26</h3>\n\n  <p>Here is a code example using the new assert features:</p>\n\n  <div class=\"language-cpp highlighter-rouge\" lang=\"cpp\"><div class=\"highlight\"><code><table class=\"rouge-table\"><tbody><tr><td class=\"rouge-gutter gl\"><pre class=\"lineno\">1\n2\n3\n4\n5\n6\n7\n</pre></td><td class=\"rouge-code\"><pre><span class=\"c1\">// https://godbolt.org/z/9sqM7PvWh</span>\n<span class=\"k\">using</span> <span class=\"n\">Int</span> <span class=\"o\">=</span> <span class=\"kt\">int</span><span class=\"p\">;</span>\n<span class=\"kt\">int</span> <span class=\"n\">x</span> <span class=\"o\">=</span> <span class=\"mi\">1</span><span class=\"p\">,</span> <span class=\"n\">y</span> <span class=\"o\">=</span> <span class=\"mi\">2</span><span class=\"p\">;</span>\n\n<span class=\"n\">assert</span><span class=\"p\">(</span><span class=\"n\">std</span><span class=\"o\">::</span><span class=\"n\">is_same</span><span class=\"o\">&lt;</span><span class=\"kt\">int</span><span class=\"p\">,</span> <span class=\"n\">Int</span><span class=\"o\">&gt;::</span><span class=\"n\">value</span><span class=\"p\">);</span>\n<span class=\"n\">assert</span><span class=\"p\">([</span><span class=\"n\">x</span><span class=\"p\">,</span> <span class=\"n\">y</span><span class=\"p\">]()</span> <span class=\"p\">{</span> <span class=\"k\">return</span> <span class=\"n\">x</span> <span class=\"o\">&lt;</span> <span class=\"n\">y</span><span class=\"p\">;</span> <span class=\"p\">}()</span> <span class=\"o\">==</span> <span class=\"mi\">1</span><span class=\"p\">);</span>\n<span class=\"n\">assert</span><span class=\"p\">(</span><span class=\"n\">std</span><span class=\"o\">::</span><span class=\"n\">vector</span><span class=\"o\">&lt;</span><span class=\"kt\">int</span><span class=\"o\">&gt;</span><span class=\"p\">{</span><span class=\"mi\">1</span><span class=\"p\">,</span> <span class=\"mi\">2</span><span class=\"p\">,</span> <span class=\"mi\">3</span><span class=\"p\">}.</span><span class=\"n\">size</span><span class=\"p\">()</span> <span class=\"o\">==</span> <span class=\"mi\">3</span><span class=\"p\">);</span>\n</pre></td></tr></tbody></table></code></div></div>\n\n  <p>The assert macro now provides better diagnostics.</p>\n</article>\n</body>\n</html>\n",
+  "inputSha256": "aaf7724bc99f11b94d8de5e9fe4454c4d0adcffdf62570169222f5595dd8d3f6",
+  "upstreamFixture": "tests/fixtures/codeblocks--rouge-linenums.html",
+  "markdownGoldenSha256": "70f5710d76ab5ecd06dad6909b12c0585a6d74490a36baf70c7f8ae2ce4206cf",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article> <h3>User-friendly assert in C++26</h3> <p>Here is a code example using the new assert features:</p> <pre><code class=\"language-cpp\" data-lang=\"cpp\">// https://godbolt.org/z/9sqM7PvWh\nusing Int = int;\nint x = 1, y = 2;\n\nassert(std::is_same&lt;int, Int&gt;::value);\nassert([x, y]() { return x &lt; y; }() == 1);\nassert(std::vector&lt;int&gt;{1, 2, 3}.size() == 3);</code></pre> <p>The assert macro now provides better diagnostics.</p> </article>",
+    "contentMarkdown": "### User-friendly assert in C++26\n\nHere is a code example using the new assert features:\n\n```cpp\n// https://godbolt.org/z/9sqM7PvWh\nusing Int = int;\nint x = 1, y = 2;\n\nassert(std::is_same<int, Int>::value);\nassert([x, y]() { return x < y; }() == 1);\nassert(std::vector<int>{1, 2, 3}.size() == 3);\n```\n\nThe assert macro now provides better diagnostics.",
+    "title": "Sample C++ Post",
+    "author": "",
+    "site": "rouge-linenums",
+    "published": "",
+    "wordCount": 51,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

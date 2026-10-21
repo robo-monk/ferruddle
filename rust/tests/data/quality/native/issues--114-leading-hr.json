@@ -1,0 +1,109 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The web browser is the most used program on any desktop. And many users regularly visit sites in foreign languages."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For such users, a browser extension for translation is a must-have tool. And I want to introduce you to Linguist — a browser extension for translation that I have been working on for the past few years."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Features"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Linguist supports full page translation, selected text translation, and translation of text in input fields."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The web browser is the most used program on any desktop. And many users regularly visit sites in foreign languages."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For such users, a browser extension for translation is a must-have tool. And I want to introduce you to Linguist — a browser extension for translation that I have been working on for the past few years."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Features"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Linguist supports full page translation, selected text translation, and translation of text in input fields."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "114-leading-hr",
+    "title": "Linguist, an ultimate browser extension for translation",
+    "description": "",
+    "domain": "114-leading-hr",
+    "favicon": "https://114-leading-hr/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "2023-07-13T00:00:00+00:00",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 73,
+  "extractorType": null
+}

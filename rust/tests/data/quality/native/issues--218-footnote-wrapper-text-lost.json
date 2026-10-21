@@ -1,0 +1,376 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "First paragraph with enough content to ensure stable extraction. This text discusses various topics and provides a baseline for the content scoring algorithm to work with."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some sites wrap line-break hints around footnote-adjacent text. The word before the footnote is inside the same wrapper span as the reference."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:1"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " This continues after the footnote."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Additional paragraph for content scoring stability. The algorithm needs sufficient text to correctly identify this as the main content area of the page."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Another example where the wrapped word should be preserved."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:2"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " More text follows here."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Final paragraph to ensure there is enough content for reliable extraction and to help the scoring algorithm identify the article body correctly."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "anchor",
+          "id": "fn:1"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "First footnote content."
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:1"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:2"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Second footnote content."
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:2"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "First paragraph with enough content to ensure stable extraction. This text discusses various topics and provides a baseline for the content scoring algorithm to work with."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some sites wrap line-break hints around footnote-adjacent text. The word before the footnote is inside the same wrapper span as the reference."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " This continues after the footnote."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Additional paragraph for content scoring stability. The algorithm needs sufficient text to correctly identify this as the main content area of the page."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Another example where the wrapped word should be preserved."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " More text follows here."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Final paragraph to ensure there is enough content for reliable extraction and to help the scoring algorithm identify the article body correctly."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-1"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "First footnote content."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-2"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Second footnote content."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "example.org",
+    "title": "Footnotes in Wrapper Spans",
+    "description": "",
+    "domain": "example.org",
+    "favicon": "https://example.org/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 117,
+  "extractorType": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": "footnotes--aside-ol-start",
+  "url": "https://aside-ol-start",
+  "inputHtml": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Article with Aside Footnotes</title>\n</head>\n<body>\n<article>\n\n<div class=\"with-aside\"><div class=\"with-aside-content\">\n<p>We built a new library.<sup class=\"aside-link\">1</sup></p>\n<p>If that was enough of a pitch, <a href=\"https://example.com/docs\">check it out here</a>.</p>\n<p>If not, let me explain why it matters.</p>\n</div><aside><ol start=\"1\"><li>It's a philosophy joke.</li></ol></aside></div>\n\n<h2>What is property-based testing?</h2>\n\n<div class=\"with-aside\"><div class=\"with-aside-content\">\n<p>The main<sup class=\"aside-link\">2</sup> benefits are:</p>\n<ul>\n<li>High-quality generators for building test inputs.</li>\n<li>Automatic shrinking to minimal failing examples.<sup class=\"aside-link\">3</sup></li>\n<li>A test database that replays failures fast.</li>\n</ul>\n</div><aside><ol start=\"2\"><li>There are other benefits too, but these are the ones you notice first.</li></ol></aside></div>\n\n<div class=\"with-aside\"><div class=\"with-aside-content\">\n<p>Shrinking is remarkably useful in practice.</p>\n</div><aside><ol start=\"3\"><li>Shrinking finds the smallest input that triggers the bug. See <a href=\"https://example.com/shrinking\">this post</a> for details.</li></ol></aside></div>\n\n</article>\n</body>\n</html>\n",
+  "inputSha256": "5c0e163c68d329e2af300afccf41884d51a5d5aba0bd3ea9bba762899011b10e",
+  "upstreamFixture": "tests/fixtures/footnotes--aside-ol-start.html",
+  "markdownGoldenSha256": "7445518cce44483e97fe9f0c2d089b2112de783ee1929ef63dd55464e9a8929c",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>We built a new library.<sup id=\"fnref:1\"><a href=\"#fn:1\">1</a></sup></p> <p>If that was enough of a pitch, <a href=\"https://example.com/docs\">check it out here</a>.</p> <p>If not, let me explain why it matters.</p>  <h2>What is property-based testing?</h2> <div> <p>The main<sup id=\"fnref:2\"><a href=\"#fn:2\">2</a></sup> benefits are:</p> <ul> <li>High-quality generators for building test inputs.</li> <li>Automatic shrinking to minimal failing examples.<sup id=\"fnref:3\"><a href=\"#fn:3\">3</a></sup></li> <li>A test database that replays failures fast.</li> </ul> </div>  <p>Shrinking is remarkably useful in practice.</p>  <div id=\"footnotes\"><ol><li id=\"fn:1\"><p>It's a philosophy joke.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:1\">↩</a></p></li> <li id=\"fn:2\"><p>There are other benefits too, but these are the ones you notice first.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:2\">↩</a></p></li> <li id=\"fn:3\"><p>Shrinking finds the smallest input that triggers the bug. See <a href=\"https://example.com/shrinking\">this post</a> for details.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:3\">↩</a></p></li></ol></div></article>",
+    "contentMarkdown": "We built a new library.[^1]\n\nIf that was enough of a pitch, [check it out here](https://example.com/docs).\n\nIf not, let me explain why it matters.\n\n## What is property-based testing?\n\nThe main[^2] benefits are:\n\n- High-quality generators for building test inputs.\n- Automatic shrinking to minimal failing examples.[^3]\n- A test database that replays failures fast.\n\nShrinking is remarkably useful in practice.\n\n[^1]: It's a philosophy joke.\n\n[^2]: There are other benefits too, but these are the ones you notice first.\n\n[^3]: Shrinking finds the smallest input that triggers the bug. See [this post](https://example.com/shrinking) for details.",
+    "title": "Article with Aside Footnotes",
+    "author": "",
+    "site": "aside-ol-start",
+    "published": "",
+    "wordCount": 95,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

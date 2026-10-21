@@ -1,0 +1,671 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "mode"
+        },
+        {
+          "kind": "text",
+          "text": " prop controls how "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "SanityImage"
+        },
+        {
+          "kind": "text",
+          "text": " handles aspect ratio changes when you specify both "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "width"
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "height"
+        },
+        {
+          "kind": "text",
+          "text": ". Understanding the difference between "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "cover"
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "contain"
+        },
+        {
+          "kind": "text",
+          "text": " is essential for getting the exact image behavior you need."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The Two Modes"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Contain Mode (Default)"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contain"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " mode treats the dimensions you provide as boundaries, resizing the image to fit inside of them. The output image will match the aspect ratio of the original image—no cropping will occur."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "tsx",
+      "text": "<SanityImage\n  id={image._id}\n  baseUrl=\"https://cdn.sanity.io/images/abcd1234/production/\"\n  width={500}\n  height={300}\n  mode=\"contain\" // or omit, as this is the default\n  alt=\"Product image\"\n/>"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "With contain mode, if your original image is 1200×800 (3:2 ratio) and you request 500×300 (5:3 ratio), the image will be resized to fit within those boundaries while maintaining its 3:2 aspect ratio."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Cover Mode"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Cover"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " mode treats the dimensions you provide as a container, resizing the image to completely fill the dimensions. The output image will match the aspect ratio of the dimensions you provide."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "tsx",
+      "text": "<SanityImage\n  id={image._id}\n  baseUrl=\"https://cdn.sanity.io/images/abcd1234/production/\"\n  width={500}\n  height={300}\n  mode=\"cover\"\n  alt=\"Product image\"\n/>"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "With cover mode, if your original image is 1200×800 (3:2 ratio) and you request 500×300 (5:3 ratio), the image will be cropped to exactly 500×300 to match your requested aspect ratio."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Choosing the Right Mode"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Use "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "contain"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " when:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "You want to preserve the full image without any cropping"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "The image might have a different aspect ratio than the display area"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "You are displaying photos where every part of the image matters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Use "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cover"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " when:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "You need the image to fill a specific area completely"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Some cropping is acceptable"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "You are creating thumbnails or hero images with fixed dimensions"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "mode"
+        },
+        {
+          "kind": "text",
+          "text": " prop controls how "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "SanityImage"
+        },
+        {
+          "kind": "text",
+          "text": " handles aspect ratio changes when you specify both "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "width"
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "height"
+        },
+        {
+          "kind": "text",
+          "text": ". Understanding the difference between "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "cover"
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "contain"
+        },
+        {
+          "kind": "text",
+          "text": " is essential for getting the exact image behavior you need."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The Two Modes"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Contain Mode (Default)"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contain"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " mode treats the dimensions you provide as boundaries, resizing the image to fit inside of them. The output image will match the aspect ratio of the original image—no cropping will occur."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "tsx",
+      "text": "<SanityImage\n  id={image._id}\n  baseUrl=\"https://cdn.sanity.io/images/abcd1234/production/\"\n  width={500}\n  height={300}\n  mode=\"contain\" // or omit, as this is the default\n  alt=\"Product image\"\n/>"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "With contain mode, if your original image is 1200×800 (3:2 ratio) and you request 500×300 (5:3 ratio), the image will be resized to fit within those boundaries while maintaining its 3:2 aspect ratio."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Cover Mode"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Cover"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " mode treats the dimensions you provide as a container, resizing the image to completely fill the dimensions. The output image will match the aspect ratio of the dimensions you provide."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "tsx",
+      "text": "<SanityImage\n  id={image._id}\n  baseUrl=\"https://cdn.sanity.io/images/abcd1234/production/\"\n  width={500}\n  height={300}\n  mode=\"cover\"\n  alt=\"Product image\"\n/>"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "With cover mode, if your original image is 1200×800 (3:2 ratio) and you request 500×300 (5:3 ratio), the image will be cropped to exactly 500×300 to match your requested aspect ratio."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Choosing the Right Mode"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Use "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "contain"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " when:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "You want to preserve the full image without any cropping"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "The image might have a different aspect ratio than the display area"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "You are displaying photos where every part of the image matters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Use "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cover"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " when:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "You need the image to fill a specific area completely"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Some cropping is acceptable"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "You are creating thumbnails or hero images with fixed dimensions"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Sanity Image",
+    "title": "Cover vs Contain Modes",
+    "description": "Learn the difference between cover and contain modes and when to use each one",
+    "domain": "mintlify",
+    "favicon": "https://mintlify/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 262,
+  "extractorType": null
+}

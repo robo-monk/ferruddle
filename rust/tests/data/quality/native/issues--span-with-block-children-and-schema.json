@@ -1,0 +1,378 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.org/images/sculpture.jpg"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "element",
+              "name": "img",
+              "attributes": [
+                [
+                  "src",
+                  "https://example.org/images/sculpture.jpg"
+                ]
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Systems come in many forms. Some are rigid, with fixed boundaries and strict coupling between components. Others are elastic, stretching under pressure but returning to their original shape."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The key insight is that constraints are not inherently limiting. Without constraints there is no structure, and without structure there is no evolution."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This taxonomy helps us understand different system architectures and their resilience characteristics."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Rigid"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.org/images/rigid.png"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "element",
+              "name": "img",
+              "attributes": [
+                [
+                  "src",
+                  "https://example.org/images/rigid.png"
+                ]
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Rigid systems appear stable but can fail catastrophically."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Elastic"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.org/images/elastic.png"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "element",
+              "name": "img",
+              "attributes": [
+                [
+                  "src",
+                  "https://example.org/images/elastic.png"
+                ]
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Elastic systems absorb stress but have limits."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The most resilient systems combine multiple constraint types, adapting their structure to changing conditions."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.org/images/sculpture.jpg"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "element",
+              "name": "img",
+              "attributes": [
+                [
+                  "alt",
+                  ""
+                ],
+                [
+                  "src",
+                  "https://example.org/images/sculpture.jpg"
+                ]
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Systems come in many forms. Some are rigid, with fixed boundaries and strict coupling between components. Others are elastic, stretching under pressure but returning to their original shape."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The key insight is that constraints are not inherently limiting. Without constraints there is no structure, and without structure there is no evolution."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This taxonomy helps us understand different system architectures and their resilience characteristics."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Rigid"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.org/images/rigid.png"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "element",
+              "name": "img",
+              "attributes": [
+                [
+                  "alt",
+                  ""
+                ],
+                [
+                  "src",
+                  "https://example.org/images/rigid.png"
+                ]
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Rigid systems appear stable but can fail catastrophically."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Elastic"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.org/images/elastic.png"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "element",
+              "name": "img",
+              "attributes": [
+                [
+                  "alt",
+                  ""
+                ],
+                [
+                  "src",
+                  "https://example.org/images/elastic.png"
+                ]
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Elastic systems absorb stress but have limits."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The most resilient systems combine multiple constraint types, adapting their structure to changing conditions."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [
+      [
+        [
+          {
+            "@context": "https://schema.org/",
+            "@graph": [
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Home",
+                "url": "https://example.org/"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "About",
+                "url": "https://example.org/about"
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org/",
+            "@type": "BlogPosting",
+            "headline": "Post About Systems",
+            "datePublished": "2024-01-15T00:00:00+00:00",
+            "author": {
+              "@type": "Person",
+              "name": "Author Name"
+            },
+            "articleBody": "Systems come in many forms. Some are rigid, with fixed boundaries and strict coupling between components. Others are elastic, stretching under pressure but returning to their original shape. The key insight is that constraints are not inherently limiting. Without constraints there is no structure, and without structure there is no evolution. This taxonomy helps us understand different system architectures and their resilience characteristics. Rigid systems appear stable but can fail catastrophically. Elastic systems absorb stress but have limits. The most resilient systems combine multiple constraint types, adapting their structure to changing conditions."
+          }
+        ]
+      ]
+    ],
+    "site": "Author Name",
+    "title": "Post About Systems",
+    "description": "A discussion of different system types and how they interact.",
+    "domain": "example.org",
+    "favicon": "https://example.org/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "2024-01-15T00:00:00+00:00",
+    "author": "Author Name"
+  },
+  "warnings": [],
+  "wordCount": 94,
+  "extractorType": null
+}

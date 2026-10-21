@@ -1,0 +1,797 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Neural networks are the fundamental building block of modern AI. Let's start with the simplest example: 1 input, 1 parameter, 1 output."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "svg",
+      "attributes": [
+        [
+          ":xmlns",
+          "http://www.w3.org/2000/svg"
+        ],
+        [
+          "aria-hidden",
+          "true"
+        ],
+        [
+          "fill",
+          "none"
+        ],
+        [
+          "height",
+          "100%"
+        ],
+        [
+          "preserveAspectRatio",
+          "xMidYMid meet"
+        ],
+        [
+          "viewBox",
+          "0 0 400 100"
+        ],
+        [
+          "width",
+          "100%"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "circle",
+          "attributes": [
+            [
+              "cx",
+              "50"
+            ],
+            [
+              "cy",
+              "50"
+            ],
+            [
+              "fill",
+              "Canvas"
+            ],
+            [
+              "r",
+              "30"
+            ],
+            [
+              "stroke",
+              "#d97706"
+            ],
+            [
+              "stroke-width",
+              "2"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "text",
+          "attributes": [
+            [
+              "dominant-baseline",
+              "central"
+            ],
+            [
+              "fill",
+              "currentColor"
+            ],
+            [
+              "font-size",
+              "16"
+            ],
+            [
+              "text-anchor",
+              "middle"
+            ],
+            [
+              "x",
+              "50"
+            ],
+            [
+              "y",
+              "50"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "2.0"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "path",
+          "attributes": [
+            [
+              "d",
+              "M 80 50 L 320 50"
+            ],
+            [
+              "fill",
+              "none"
+            ],
+            [
+              "stroke",
+              "#94a3b8"
+            ],
+            [
+              "stroke-width",
+              "2"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "circle",
+          "attributes": [
+            [
+              "cx",
+              "350"
+            ],
+            [
+              "cy",
+              "50"
+            ],
+            [
+              "fill",
+              "Canvas"
+            ],
+            [
+              "r",
+              "30"
+            ],
+            [
+              "stroke",
+              "#16a34a"
+            ],
+            [
+              "stroke-width",
+              "2"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "text",
+          "attributes": [
+            [
+              "dominant-baseline",
+              "central"
+            ],
+            [
+              "fill",
+              "currentColor"
+            ],
+            [
+              "font-size",
+              "16"
+            ],
+            [
+              "text-anchor",
+              "middle"
+            ],
+            [
+              "x",
+              "350"
+            ],
+            [
+              "y",
+              "50"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "1.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The network multiplies the input by the parameter to produce the output."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "svg",
+      "attributes": [
+        [
+          ":xmlns",
+          "http://www.w3.org/2000/svg"
+        ],
+        [
+          "aria-hidden",
+          "true"
+        ],
+        [
+          "fill",
+          "none"
+        ],
+        [
+          "height",
+          "100%"
+        ],
+        [
+          "viewBox",
+          "0 0 200 100"
+        ],
+        [
+          "width",
+          "100%"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "line",
+          "attributes": [
+            [
+              "stroke",
+              "#a1a1aa"
+            ],
+            [
+              "stroke-dasharray",
+              "4 4"
+            ],
+            [
+              "stroke-width",
+              "1.5"
+            ],
+            [
+              "x1",
+              "20"
+            ],
+            [
+              "x2",
+              "180"
+            ],
+            [
+              "y1",
+              "50"
+            ],
+            [
+              "y2",
+              "50"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "circle",
+          "attributes": [
+            [
+              "cx",
+              "50"
+            ],
+            [
+              "cy",
+              "50"
+            ],
+            [
+              "fill",
+              "#f97316"
+            ],
+            [
+              "r",
+              "8"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "circle",
+          "attributes": [
+            [
+              "cx",
+              "150"
+            ],
+            [
+              "cy",
+              "50"
+            ],
+            [
+              "fill",
+              "#f59e0b"
+            ],
+            [
+              "r",
+              "8"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "text",
+          "attributes": [
+            [
+              "fill",
+              "#f59e0b"
+            ],
+            [
+              "style",
+              "font-size:14px;font-weight:600"
+            ],
+            [
+              "text-anchor",
+              "middle"
+            ],
+            [
+              "x",
+              "100"
+            ],
+            [
+              "y",
+              "90"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "-0.50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Each connection in the network has a weight that determines how strongly the input influences the output."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "python",
+      "text": "model = NeuralNetwork(layers=[1, 4, 1])"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This simple model can be trained to approximate many functions with sufficient layers and parameters."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Neural networks are the fundamental building block of modern AI. Let's start with the simplest example: 1 input, 1 parameter, 1 output."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "svg",
+      "attributes": [
+        [
+          ":xmlns",
+          "http://www.w3.org/2000/svg"
+        ],
+        [
+          "aria-hidden",
+          "true"
+        ],
+        [
+          "fill",
+          "none"
+        ],
+        [
+          "height",
+          "100%"
+        ],
+        [
+          "preserveAspectRatio",
+          "xMidYMid meet"
+        ],
+        [
+          "viewBox",
+          "0 0 400 100"
+        ],
+        [
+          "width",
+          "100%"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "circle",
+          "attributes": [
+            [
+              "cx",
+              "50"
+            ],
+            [
+              "cy",
+              "50"
+            ],
+            [
+              "fill",
+              "Canvas"
+            ],
+            [
+              "r",
+              "30"
+            ],
+            [
+              "stroke",
+              "#d97706"
+            ],
+            [
+              "stroke-width",
+              "2"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "text",
+          "attributes": [
+            [
+              "dominant-baseline",
+              "central"
+            ],
+            [
+              "fill",
+              "currentColor"
+            ],
+            [
+              "font-size",
+              "16"
+            ],
+            [
+              "text-anchor",
+              "middle"
+            ],
+            [
+              "x",
+              "50"
+            ],
+            [
+              "y",
+              "50"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "2.0"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "path",
+          "attributes": [
+            [
+              "d",
+              "M 80 50 L 320 50"
+            ],
+            [
+              "fill",
+              "none"
+            ],
+            [
+              "stroke",
+              "#94a3b8"
+            ],
+            [
+              "stroke-width",
+              "2"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "circle",
+          "attributes": [
+            [
+              "cx",
+              "350"
+            ],
+            [
+              "cy",
+              "50"
+            ],
+            [
+              "fill",
+              "Canvas"
+            ],
+            [
+              "r",
+              "30"
+            ],
+            [
+              "stroke",
+              "#16a34a"
+            ],
+            [
+              "stroke-width",
+              "2"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "text",
+          "attributes": [
+            [
+              "dominant-baseline",
+              "central"
+            ],
+            [
+              "fill",
+              "currentColor"
+            ],
+            [
+              "font-size",
+              "16"
+            ],
+            [
+              "text-anchor",
+              "middle"
+            ],
+            [
+              "x",
+              "350"
+            ],
+            [
+              "y",
+              "50"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "1.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The network multiplies the input by the parameter to produce the output."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "svg",
+      "attributes": [
+        [
+          ":xmlns",
+          "http://www.w3.org/2000/svg"
+        ],
+        [
+          "aria-hidden",
+          "true"
+        ],
+        [
+          "fill",
+          "none"
+        ],
+        [
+          "height",
+          "100%"
+        ],
+        [
+          "viewBox",
+          "0 0 200 100"
+        ],
+        [
+          "width",
+          "100%"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "line",
+          "attributes": [
+            [
+              "stroke",
+              "#a1a1aa"
+            ],
+            [
+              "stroke-dasharray",
+              "4 4"
+            ],
+            [
+              "stroke-width",
+              "1.5"
+            ],
+            [
+              "x1",
+              "20"
+            ],
+            [
+              "x2",
+              "180"
+            ],
+            [
+              "y1",
+              "50"
+            ],
+            [
+              "y2",
+              "50"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "circle",
+          "attributes": [
+            [
+              "cx",
+              "50"
+            ],
+            [
+              "cy",
+              "50"
+            ],
+            [
+              "fill",
+              "#f97316"
+            ],
+            [
+              "r",
+              "8"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "circle",
+          "attributes": [
+            [
+              "cx",
+              "150"
+            ],
+            [
+              "cy",
+              "50"
+            ],
+            [
+              "fill",
+              "#f59e0b"
+            ],
+            [
+              "r",
+              "8"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "text",
+          "attributes": [
+            [
+              "fill",
+              "#f59e0b"
+            ],
+            [
+              "style",
+              "font-size:14px;font-weight:600"
+            ],
+            [
+              "text-anchor",
+              "middle"
+            ],
+            [
+              "x",
+              "100"
+            ],
+            [
+              "y",
+              "90"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "-0.50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Each connection in the network has a weight that determines how strongly the input influences the output."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "python",
+      "text": "model = NeuralNetwork(layers=[1, 4, 1])"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This simple model can be trained to approximate many functions with sufficient layers and parameters."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Jane Smith",
+    "title": "Understanding Neural Networks",
+    "description": "",
+    "domain": "example.com",
+    "favicon": "https://example.com/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": "Jane Smith"
+  },
+  "warnings": [],
+  "wordCount": 74,
+  "extractorType": null
+}

@@ -1,0 +1,405 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Google's former CEO says traditional user interfaces \"are going to go away.\""
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "It sounds far-fetched but Google is already rolling out the technology to make it happen."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "It's called A2UI - and it's quietly transforming how products like Opal and Gemini generate interfaces on the fly, personalized to each user in real-time."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Why this matters for product teams"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Instead of designing fixed screens, with A2UI you're defining a vocabulary of components that AI agents can dynamically compose based on user intent."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Designers focus less on screen layouts, more on flexible component libraries. Engineers build rendering pipelines, not bespoke UIs. A simple request like \"book a table for 2 tomorrow at 7pm\" can generate a pre-filled form - collapsing 3-4 screens into one contextual interface."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "The strategic implications"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "External agents (OpenTable, restaurant systems) can send UI through your app while respecting your visual identity."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This enables a \"headless agent\" business model; you provide the specialized intelligence (booking, CRM, expense management), partners provide the surface. Charge per agent interaction, take rev-share on transactions, or license access to your agent network."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Platforms that host these agents become more valuable when they have rich component catalogs that make third-party agents look native and polished."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Google's already using this across some of its experimental new products and v0.8 of the protocol is now live."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Read the 🧠 Knowledge Series with technical workflows, real implementation examples, and hands-on tools: "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://departmentofproduct.substack.com/p/agent-driven-user-interfaces-explained"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "departmentofproduct.sub…"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Google's former CEO says traditional user interfaces \"are going to go away.\""
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "It sounds far-fetched but Google is already rolling out the technology to make it happen."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "It's called A2UI - and it's quietly transforming how products like Opal and Gemini generate interfaces on the fly, personalized to each user in real-time."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Why this matters for product teams"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Instead of designing fixed screens, with A2UI you're defining a vocabulary of components that AI agents can dynamically compose based on user intent."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Designers focus less on screen layouts, more on flexible component libraries. Engineers build rendering pipelines, not bespoke UIs. A simple request like \"book a table for 2 tomorrow at 7pm\" can generate a pre-filled form - collapsing 3-4 screens into one contextual interface."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "The strategic implications"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "External agents (OpenTable, restaurant systems) can send UI through your app while respecting your visual identity."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This enables a \"headless agent\" business model; you provide the specialized intelligence (booking, CRM, expense management), partners provide the surface. Charge per agent interaction, take rev-share on transactions, or license access to your agent network."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Platforms that host these agents become more valuable when they have rich component catalogs that make third-party agents look native and polished."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Google's already using this across some of its experimental new products and v0.8 of the protocol is now live."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Read the 🧠 Knowledge Series with technical workflows, real implementation examples, and hands-on tools: "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://departmentofproduct.substack.com/p/agent-driven-user-interfaces-explained"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "departmentofproduct.sub…"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [
+      {
+        "@context": "https://schema.org",
+        "@type": "SocialMediaPosting",
+        "identifier": "c-202380205",
+        "url": "https://substack.com/note/c-202380205",
+        "dateCreated": "2026-01-20T02:25:59-08:00",
+        "dateModified": "2026-01-20T03:47:30-08:00",
+        "author": {
+          "@type": "Person",
+          "name": "Rich Holmes",
+          "identifier": "123225933"
+        },
+        "text": "Google's former CEO says traditional user interfaces \"are going to go away.\"\n\nIt sounds far-fetched but Google is already rolling out the technology to make it happen.\n\nIt's called A2UI - and it's quietly transforming how products like Opal and Gemini generate interfaces on the fly, personalized to each user in real-time.\n\n\n\n\n\nWhy this matters for product teams\n\nInstead of designing fixed screens, with A2UI you're defining a vocabulary of components that AI agents can dynamically compose based on user intent.\n\nDesigners focus less on screen layouts, more on flexible component libraries. Engineers build rendering pipelines, not bespoke UIs. A simple request like \"book a table for 2 tomorrow at 7pm\" can generate a pre-filled form - collapsing 3-4 screens into one contextual interface.\n\n\n\n\n\nThe strategic implications\n\nExternal agents (OpenTable, restaurant systems) can send UI through your app while respecting your visual identity.\n\nThis enables a \"headless agent\" business model; you provide the specialized intelligence (booking, CRM, expense management), partners provide the surface. Charge per agent interaction, take rev-share on transactions, or license access to your agent network.\n\nPlatforms that host these agents become more valuable when they have rich component catalogs that make third-party agents look native and polished.\n\nGoogle's already using this across some of its experimental new products and  v0.8 of the protocol is now live.\n\nRead the 🧠 Knowledge Series with technical workflows, real implementation examples, and hands-on tools: https://departmentofproduct.substack.com/p/agent-driven-user-interfaces-explained",
+        "interactionStatistic": [
+          {
+            "@type": "InteractionCounter",
+            "interactionType": "https://schema.org/LikeAction",
+            "userInteractionCount": 160
+          },
+          {
+            "@type": "InteractionCounter",
+            "interactionType": "https://schema.org/ShareAction",
+            "userInteractionCount": 25
+          },
+          {
+            "@type": "InteractionCounter",
+            "interactionType": "https://schema.org/CommentAction",
+            "userInteractionCount": 14
+          }
+        ]
+      }
+    ],
+    "site": "Substack",
+    "title": "Rich Holmes (@richholmes)",
+    "description": "Google's former CEO says traditional user interfaces \"are going to go away.\"\nIt sounds far-fetched but Google is already rolling out the technology to make it happen.\nIt's called A2UI - and it's quietly transforming how products like Opal and Gemini generate interfaces on the fly, personalized to each user in real-time.\nWhy this matters for product teams\nInstead of designing fixed screens, with A2UI you're defining a vocabulary of components that AI agents can dynamically compose based on user intent.\nDesigners focus less on screen layouts, more on flexible component libraries. Engineers build rendering pipelines, not bespoke UIs. A simple request like \"book a table for 2 tomorrow at 7pm\" can generate a pre-filled form - collapsing 3-4 screens into one contextual interface.\nThe strategic implications\nExternal agents (OpenTable, restaurant systems) can send UI through your app while respecting your visual identity.\nThis enables a \"headless agent\" business model; you provide the specialized intelligence (booking, CRM, expense management), partners provide the surface. Charge per agent interaction, take rev-share on transactions, or license access to your agent network.\nPlatforms that host these agents become more valuable when they have rich component catalogs that make third-party agents look native and polished.\nGoogle's already using this across some of its experimental new products and  v0.8 of the protocol is now live.\nRead the 🧠 Knowledge Series with technical workflows, real implementation examples, and hands-on tools: https://departmentofproduct.substack.com/p/agent-driven-user-interfaces-explained",
+    "domain": "substack-app",
+    "favicon": "https://substackcdn.com/icons/substack/icon.svg",
+    "image": "https://substackcdn.com/image/fetch/$s_!4Id3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb8fae3e6-4223-44ed-8e64-508cfe1bd090_1644x2431.png",
+    "language": "en",
+    "published": "",
+    "author": "Substack"
+  },
+  "warnings": [],
+  "wordCount": 234,
+  "extractorType": null
+}

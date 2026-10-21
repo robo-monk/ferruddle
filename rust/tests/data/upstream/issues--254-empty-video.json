@@ -1,0 +1,20 @@
+{
+  "id": "issues--254-empty-video",
+  "url": "https://254-empty-video",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n<title>Empty Video Placeholder</title>\n</head>\n<body>\n<article>\n<h1>Empty Video Placeholder</h1>\n<p>This fixture models a page that includes a JavaScript-driven video shell without any media source in the static HTML. The article text is intentionally long enough to keep main content detection stable during tests and to ensure the empty player is evaluated as part of the extracted content.</p>\n<video id=\"video\" playsinline controls controlsList=\"nodownload\" width=\"100%\" height=\"100%\" onplay=\"player.start();\"></video>\n<p>The player above should be removed because it has no src attribute and no source child elements. Keeping it would leak useless raw HTML into the extracted markdown output.</p>\n</article>\n</body>\n</html>\n",
+  "inputSha256": "db46bb3c0751327b02dbf57a8dd21628b7b59275cb57868eee3598281525f740",
+  "upstreamFixture": "tests/fixtures/issues--254-empty-video.html",
+  "markdownGoldenSha256": "797d5845899ee911fd5073c6ab1a3d86c0e737037faa5cf0e30d81b06fec6968",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>This fixture models a page that includes a JavaScript-driven video shell without any media source in the static HTML. The article text is intentionally long enough to keep main content detection stable during tests and to ensure the empty player is evaluated as part of the extracted content.</p>  <p>The player above should be removed because it has no src attribute and no source child elements. Keeping it would leak useless raw HTML into the extracted markdown output.</p> </article>",
+    "contentMarkdown": "This fixture models a page that includes a JavaScript-driven video shell without any media source in the static HTML. The article text is intentionally long enough to keep main content detection stable during tests and to ensure the empty player is evaluated as part of the extracted content.\n\nThe player above should be removed because it has no src attribute and no source child elements. Keeping it would leak useless raw HTML into the extracted markdown output.",
+    "title": "Empty Video Placeholder",
+    "author": "",
+    "site": "254-empty-video",
+    "published": "",
+    "wordCount": 77,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

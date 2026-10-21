@@ -1,0 +1,363 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This article describes three mathematical expressions. Each equation includes its structured representation or its original source."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "math",
+      "attributes": [
+        [
+          "alttext",
+          "x"
+        ],
+        [
+          "display",
+          "block"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "semantics",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mi",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "x"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "annotation",
+              "attributes": [
+                [
+                  "encoding",
+                  "application/x-tex"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "x"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "text": " "
+    },
+    {
+      "kind": "element",
+      "name": "math",
+      "attributes": [
+        [
+          "alttext",
+          "y"
+        ],
+        [
+          "display",
+          "block"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "semantics",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mi",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "y"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "annotation",
+              "attributes": [
+                [
+                  "encoding",
+                  "application/x-tex"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "y"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "text": " "
+    },
+    {
+      "kind": "element",
+      "name": "math",
+      "attributes": [
+        [
+          "display",
+          "block"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "semantics",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "annotation",
+              "attributes": [
+                [
+                  "encoding",
+                  "application/x-tex"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "z"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The expressions appear in order, with each equation occurring once. Structured MathML should remain available, while annotation-only equations retain a visible fallback."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This article describes three mathematical expressions. Each equation includes its structured representation or its original source."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [
+            [
+              "alttext",
+              "x"
+            ],
+            [
+              "display",
+              "block"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "element",
+              "name": "semantics",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "x"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "annotation",
+                  "attributes": [
+                    [
+                      "encoding",
+                      "application/x-tex"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "x"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [
+            [
+              "alttext",
+              "y"
+            ],
+            [
+              "display",
+              "block"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "element",
+              "name": "semantics",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "y"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "annotation",
+                  "attributes": [
+                    [
+                      "encoding",
+                      "application/x-tex"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "y"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [
+            [
+              "display",
+              "block"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "element",
+              "name": "semantics",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "annotation",
+                  "attributes": [
+                    [
+                      "encoding",
+                      "application/x-tex"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "z"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The expressions appear in order, with each equation occurring once. Structured MathML should remain available, while annotation-only equations retain a visible fallback."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "example.com",
+    "title": "Equation representations",
+    "description": "",
+    "domain": "example.com",
+    "favicon": "https://example.com/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [
+    {
+      "code": "math_not_supported",
+      "message": "Math support is not yet included."
+    }
+  ],
+  "wordCount": 41,
+  "extractorType": null
+}

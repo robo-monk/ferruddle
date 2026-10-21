@@ -1,0 +1,20 @@
+{
+  "id": "issues--374-explicit-image-sources",
+  "url": "https://example.com/article",
+  "inputHtml": "<!-- {\"url\":\"https://example.com/article\"} -->\n<!doctype html><html><head><title>Explicit image sources</title></head><body><article>\n<p>Lazy sources can be relative URLs without file extensions. Metadata must never supply an image source, even when its filename resembles an image or a placeholder.</p>\n<p><img data-src=\"photo\" alt=\"Relative\"></p>\n<p><img data-src=\"?image=123\" alt=\"Query\"></p>\n<p><img src=\"/blank.gif\" resource=\"https://example.com/wiki/File:photo.jpg\" data-echo=\"https://example.com/unrelated.jpg\" loading=\"lazy\" alt=\"Blank\"></p>\n<p><img src=\"/assets/loader.gif\" data-backup=\"https://example.com/unrelated.jpg\" loading=\"lazy\" alt=\"Loader\"></p>\n<p>The explicit source determines each image independently of attribute order, filename, and unrelated metadata.</p>\n</article></body></html>\n",
+  "inputSha256": "dec9ced0f0807332f2ac1a9c3a66f0afeb6760568245b8987a42f00375452909",
+  "upstreamFixture": "tests/fixtures/issues--374-explicit-image-sources.html",
+  "markdownGoldenSha256": "bd5cb76cbca299ee4a916bfd3f191a922992c9cec21e132f96aafc55c95d610a",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article> <p>Lazy sources can be relative URLs without file extensions. Metadata must never supply an image source, even when its filename resembles an image or a placeholder.</p> <p><img src=\"https://example.com/photo\" alt=\"Relative\"></p> <p><img src=\"https://example.com/article?image=123\" alt=\"Query\"></p> <p><img src=\"https://example.com/blank.gif\" alt=\"Blank\"></p> <p><img src=\"https://example.com/assets/loader.gif\" alt=\"Loader\"></p> <p>The explicit source determines each image independently of attribute order, filename, and unrelated metadata.</p> </article>",
+    "contentMarkdown": "Lazy sources can be relative URLs without file extensions. Metadata must never supply an image source, even when its filename resembles an image or a placeholder.\n\n![Relative](https://example.com/photo)\n\n![Query](https://example.com/article?image=123)\n\n![Blank](https://example.com/blank.gif)\n\n![Loader](https://example.com/assets/loader.gif)\n\nThe explicit source determines each image independently of attribute order, filename, and unrelated metadata.",
+    "title": "Explicit image sources",
+    "author": "",
+    "site": "example.com",
+    "published": "",
+    "wordCount": 40,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

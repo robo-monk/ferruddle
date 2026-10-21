@@ -1,0 +1,119 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is the top-level directory layout for the project:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h4",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Plain Text"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "AGENTS.md\nARCHITECTURE.md\ndocs/\n├── design-docs/\n│   ├── index.md\n│   └── core-beliefs.md\nsrc/\n└── main.ts"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Each agent is defined in its own module under "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "src/agents/"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is the top-level directory layout for the project:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h4",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Plain Text"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "AGENTS.md\nARCHITECTURE.md\ndocs/\n├── design-docs/\n│   ├── index.md\n│   └── core-beliefs.md\nsrc/\n└── main.ts"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Each agent is defined in its own module under "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "src/agents/"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Example Engineering",
+    "title": "Agent Architecture",
+    "description": "How we structured our multi-agent codebase.",
+    "domain": "example.com",
+    "favicon": "https://example.com/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 35,
+  "extractorType": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": "math--raw-latex",
+  "url": "https://raw-latex",
+  "inputHtml": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>Raw LaTeX Math Delimiters</title>\n    <script src=\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js\"></script>\n</head>\n<body>\n    <article>\n        <h1>Raw LaTeX Math Delimiters</h1>\n\n        <p>The attention mechanism computes $$h_{i}^{\\ell+1} = \\text{Attention} \\left( Q^{\\ell} h_{i}^{\\ell}, K^{\\ell} h_{j}^{\\ell}, V^{\\ell} h_{j}^{\\ell} \\right)$$ for each node in the graph.</p>\n\n        <p>Here $f(x) = \\sum_{i=0}^{n} \\frac{a_i}{i!} x^i$ is the Taylor expansion and $g(x) = \\int_0^1 e^{-t^2} dt$ is the Gaussian integral.</p>\n\n        <p>The loss function is defined as:</p>\n\n        <p>$$\\mathcal{L}(\\theta) = -\\frac{1}{N} \\sum_{i=1}^{N} \\log p_\\theta(x_i)$$</p>\n\n        <p>This costs $100 per unit, which is not math.</p>\n\n        <p>Let $x$ be a variable and $n$ be an integer.</p>\n\n        <p>The backslash delimiters work too: \\(E = mc^2\\) is inline and</p>\n\n        <p>\\[F = ma\\]</p>\n\n        <pre>This $\\alpha$ should not be touched inside pre tags.</pre>\n    </article>\n</body>\n</html>\n",
+  "inputSha256": "bd2a0c5977d38a90502d2eaddf9f6f75643ee3fe36d9b2577873290f663a1e3d",
+  "upstreamFixture": "tests/fixtures/math--raw-latex.html",
+  "markdownGoldenSha256": "4f9996fa1d4a76dd35d7ad32042070562e683244306833b8316f02b43e433498",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>The attention mechanism computes <math data-latex=\"h_{i}^{\\ell+1} = \\text{Attention} \\left( Q^{\\ell} h_{i}^{\\ell}, K^{\\ell} h_{j}^{\\ell}, V^{\\ell} h_{j}^{\\ell} \\right)\" display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\">h_{i}^{\\ell+1} = \\text{Attention} \\left( Q^{\\ell} h_{i}^{\\ell}, K^{\\ell} h_{j}^{\\ell}, V^{\\ell} h_{j}^{\\ell} \\right)</math> for each node in the graph.</p> <p>Here <math data-latex=\"f(x) = \\sum_{i=0}^{n} \\frac{a_i}{i!} x^i\" display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\">f(x) = \\sum_{i=0}^{n} \\frac{a_i}{i!} x^i</math> is the Taylor expansion and <math data-latex=\"g(x) = \\int_0^1 e^{-t^2} dt\" display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\">g(x) = \\int_0^1 e^{-t^2} dt</math> is the Gaussian integral.</p> <p>The loss function is defined as:</p> <p><math data-latex=\"\\mathcal{L}(\\theta) = -\\frac{1}{N} \\sum_{i=1}^{N} \\log p_\\theta(x_i)\" display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\">\\mathcal{L}(\\theta) = -\\frac{1}{N} \\sum_{i=1}^{N} \\log p_\\theta(x_i)</math></p> <p>This costs $100 per unit, which is not math.</p> <p>Let $x$ be a variable and $n$ be an integer.</p> <p>The backslash delimiters work too: <math data-latex=\"E = mc^2\" display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\">E = mc^2</math> is inline and</p> <p><math data-latex=\"F = ma\" display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\">F = ma</math></p> <pre><code>This $\\alpha$ should not be touched inside pre tags.</code></pre> </article>",
+    "contentMarkdown": "The attention mechanism computes $h_{i}^{\\ell+1} = \\text{Attention} \\left( Q^{\\ell} h_{i}^{\\ell}, K^{\\ell} h_{j}^{\\ell}, V^{\\ell} h_{j}^{\\ell} \\right)$ for each node in the graph.\n\nHere $f(x) = \\sum_{i=0}^{n} \\frac{a_i}{i!} x^i$ is the Taylor expansion and $g(x) = \\int_0^1 e^{-t^2} dt$ is the Gaussian integral.\n\nThe loss function is defined as:\n\n$$\n\\mathcal{L}(\\theta) = -\\frac{1}{N} \\sum_{i=1}^{N} \\log p_\\theta(x_i)\n$$\n\nThis costs $100 per unit, which is not math.\n\nLet $x$ be a variable and $n$ be an integer.\n\nThe backslash delimiters work too: $E = mc^2$ is inline and\n\n$$\nF = ma\n$$\n\n```\nThis $\\alpha$ should not be touched inside pre tags.\n```",
+    "title": "Raw LaTeX Math Delimiters",
+    "author": "",
+    "site": "raw-latex",
+    "published": "",
+    "wordCount": 95,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

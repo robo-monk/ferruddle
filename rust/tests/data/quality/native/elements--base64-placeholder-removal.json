@@ -1,0 +1,254 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Base64 Placeholder Images"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This article tests removal of unresolvable base64 placeholder images while preserving resolvable ones."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some article text between images with enough words for content detection to function properly here."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Resolvable from picture source."
+        ],
+        [
+          "src",
+          "https://www.example.com/images/resolved.webp"
+        ],
+        [
+          "srcset",
+          "https://www.example.com/images/resolved.webp 2x, https://www.example.com/images/resolved-small.webp 1x"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Resolvable from picture source. Photo credit."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "More article text with enough content for the parser to work with on this test article page."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Resolvable from data-src."
+        ],
+        [
+          "src",
+          "https://www.example.com/images/lazy-loaded.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "A real image."
+        ],
+        [
+          "src",
+          "https://www.example.com/images/real-image.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Final paragraph with concluding article text for the content detection scoring algorithm."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Base64 Placeholder Images"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This article tests removal of unresolvable base64 placeholder images while preserving resolvable ones."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some article text between images with enough words for content detection to function properly here."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Resolvable from picture source."
+        ],
+        [
+          "src",
+          "https://www.example.com/images/resolved.webp"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Resolvable from picture source. Photo credit."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "More article text with enough content for the parser to work with on this test article page."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              "Resolvable from data-src."
+            ],
+            [
+              "src",
+              "https://www.example.com/images/lazy-loaded.jpg"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              "A real image."
+            ],
+            [
+              "src",
+              "https://www.example.com/images/real-image.jpg"
+            ]
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Final paragraph with concluding article text for the content detection scoring algorithm."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "example.com",
+    "title": "Base64 Placeholder Image Handling",
+    "description": "",
+    "domain": "example.com",
+    "favicon": "https://www.example.com/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 66,
+  "extractorType": null
+}

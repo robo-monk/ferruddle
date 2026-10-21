@@ -1,0 +1,20 @@
+{
+  "id": "metadata--email-style-header-block",
+  "url": "https://example.com/posts/announcement-reflection/",
+  "inputHtml": "<!-- {\"url\":\"https://example.com/posts/announcement-reflection/\"} -->\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <meta property=\"og:site_name\" content=\"Example\">\n  <meta property=\"og:title\" content=\"Announcement Reflection | EXAMPLE\">\n  <title>Announcement Reflection | EXAMPLE</title>\n</head>\n<body>\n  <main>\n    <article>\n      <h1>Announcement Reflection</h1>\n      <div class=\"email-meta\">\n        <p><span>Date:</span> <span>Wed, 08 Apr 2026</span></p>\n        <p><span>From:</span> <span>Example Team &lt;hello@example.com&gt;</span></p>\n        <p><span>To:</span> <span>Readers</span></p>\n        <p><span>Subject:</span> <span>Announcement Reflection</span></p>\n      </div>\n      <div class=\"letter-body\">\n        <p>\n          We are sharing a short reflection on the announcement and the work that led\n          up to it. The project came together through many small decisions about scope,\n          timing, and what readers would need from the first release.\n        </p>\n        <p>\n          This note preserves the email-style header because it is part of the article\n          presentation rather than site chrome. Removing one row changes the meaning of\n          the format and makes the extracted document feel incomplete.\n        </p>\n      </div>\n    </article>\n  </main>\n</body>\n</html>\n",
+  "inputSha256": "3b7fba674d40e5ae2b2f1aa3da79e2a47a01ea0af072d256889bbe718414cf44",
+  "upstreamFixture": "tests/fixtures/metadata--email-style-header-block.html",
+  "markdownGoldenSha256": "b5e84a35192463ccd26aaf8e007c9282fe2a1417936c9319c7d041a5f921d7ca",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article> <p>Date: Wed, 08 Apr 2026</p> <p>From: Example Team &lt;hello@example.com&gt;</p> <p>To: Readers</p> <p>Subject: Announcement Reflection</p> <p> We are sharing a short reflection on the announcement and the work that led up to it. The project came together through many small decisions about scope, timing, and what readers would need from the first release. </p> <p> This note preserves the email-style header because it is part of the article presentation rather than site chrome. Removing one row changes the meaning of the format and makes the extracted document feel incomplete. </p> </article>",
+    "contentMarkdown": "Date: Wed, 08 Apr 2026\n\nFrom: Example Team <hello@example.com>\n\nTo: Readers\n\nSubject: Announcement Reflection\n\nWe are sharing a short reflection on the announcement and the work that led up to it. The project came together through many small decisions about scope, timing, and what readers would need from the first release.\n\nThis note preserves the email-style header because it is part of the article presentation rather than site chrome. Removing one row changes the meaning of the format and makes the extracted document feel incomplete.",
+    "title": "Announcement Reflection",
+    "author": "",
+    "site": "Example",
+    "published": "",
+    "wordCount": 85,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

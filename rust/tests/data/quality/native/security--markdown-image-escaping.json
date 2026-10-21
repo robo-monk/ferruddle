@@ -1,0 +1,95 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This example article contains an image with literal brackets in its description."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Photo [one]"
+        ],
+        [
+          "src",
+          "https://example.com/photo.png"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The description should remain plain image text when the article is converted to Markdown."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This example article contains an image with literal brackets in its description."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Photo [one]"
+        ],
+        [
+          "src",
+          "https://example.com/photo.png"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The description should remain plain image text when the article is converted to Markdown."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "example.com",
+    "title": "Markdown image escaping",
+    "description": "",
+    "domain": "example.com",
+    "favicon": "https://example.com/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 26,
+  "extractorType": null
+}

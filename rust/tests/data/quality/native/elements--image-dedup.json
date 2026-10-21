@@ -1,0 +1,359 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Image Deduplication"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This article tests deduplication of lazy-loaded image duplicates while preserving legitimate repeated images."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "A landscape photo."
+        ],
+        [
+          "src",
+          "https://www.example.com/images/photo-large.webp"
+        ],
+        [
+          "srcset",
+          "https://www.example.com/images/photo-large.webp 2x, https://www.example.com/images/photo-medium.webp 1x"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A landscape photo. Photo credit."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Paragraph of text between the images to separate content sections properly for the parser to work with."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "src",
+          "https://www.example.com/images/portrait-large.webp"
+        ],
+        [
+          "srcset",
+          "https://www.example.com/images/portrait-large.webp 2x"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A portrait photo. Photographer name."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "More article text here with enough words for the content detection scoring algorithm to work properly."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is a formula:"
+        },
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              "E equals mc squared"
+            ],
+            [
+              "src",
+              "https://www.example.com/latex/formula.png"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": "in context."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The same formula"
+        },
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              "E equals mc squared"
+            ],
+            [
+              "src",
+              "https://www.example.com/latex/formula.png"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": "appears again here."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Final paragraph of the article with some concluding text for the content parser."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Image Deduplication"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This article tests deduplication of lazy-loaded image duplicates while preserving legitimate repeated images."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "A landscape photo."
+        ],
+        [
+          "src",
+          "https://www.example.com/images/photo-large.webp"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A landscape photo. Photo credit."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Paragraph of text between the images to separate content sections properly for the parser to work with."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          ""
+        ],
+        [
+          "src",
+          "https://www.example.com/images/portrait-large.webp"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A portrait photo. Photographer name."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "More article text here with enough words for the content detection scoring algorithm to work properly."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is a formula:"
+        },
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              "E equals mc squared"
+            ],
+            [
+              "src",
+              "https://www.example.com/latex/formula.png"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": "in context."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The same formula"
+        },
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              "E equals mc squared"
+            ],
+            [
+              "src",
+              "https://www.example.com/latex/formula.png"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": "appears again here."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Final paragraph of the article with some concluding text for the content parser."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "example.com",
+    "title": "Image Deduplication Test",
+    "description": "",
+    "domain": "example.com",
+    "favicon": "https://www.example.com/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 83,
+  "extractorType": null
+}

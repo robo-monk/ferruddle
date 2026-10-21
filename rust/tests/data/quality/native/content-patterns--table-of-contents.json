@@ -1,0 +1,1375 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Installation Guide"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This guide walks through the complete installation process for setting up the system with encryption and a custom bootloader on a single disk."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "1. Start Here"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The system is installed as the sole operating system on a single disk using a two-partition layout."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Partition "
+            },
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "pool"
+            },
+            {
+              "kind": "text",
+              "text": " is formatted with the custom filesystem using native encryption."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Partition "
+            },
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "esp"
+            },
+            {
+              "kind": "text",
+              "text": " serves as the EFI system partition formatted with "
+            },
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "fat32"
+            },
+            {
+              "kind": "text",
+              "text": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Acquire the image"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Download the latest live ISO install image from the project website."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Verify the image integrity:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "sha256sum -c --ignore-missing sha256sums.txt"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Prepare the USB"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Write the installer to an unmounted USB storage device:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "dd bs=4M conv=fsync oflag=direct status=progress if=installer.iso of=/dev/sdx"
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "2. Configure the Environment"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Boot the target device from the installation media."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Set the font"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "If the existing font size appears too small, run:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "setfont -d"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Set the keyboard"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Default keymap is "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "us"
+        },
+        {
+          "kind": "text",
+          "text": ". Set a different keymap with:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "loadkeys dvorak"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Verify boot mode"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Check that the system booted in UEFI mode:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "ls /sys/firmware/efi/efivars"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Connect to the internet"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Verify network connectivity:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "ping -c 3 example.org"
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "3. Prepare the Disk"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Define variables"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Set the disk variable for the target device:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "DISK=/dev/sda"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Wipe disk"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Clear any existing partition data:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "sgdisk --zap-all $DISK"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Partition disk"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Create the partition layout:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "sgdisk -n1:1M:+512M -t1:EF00 $DISK\nsgdisk -n2:0:0 -t2:BF00 $DISK"
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "4. Installation"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Install the base system packages:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "apk add base-system"
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "5. Configure the System"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Chroot"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Enter the new system:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "chroot /mnt /bin/sh"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Set password"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Set the root password:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "passwd"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Packages"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Install additional packages:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "apk add vim openssh"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Timezone"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Set the timezone:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Hostname"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Set the hostname:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "echo \"myhost\" > /etc/hostname"
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "6. Finish Up"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Unmount"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Exit chroot and unmount:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "exit\numount -R /mnt"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Reboot"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Remove installation media and reboot:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "reboot"
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "7. Resources"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For more information, consult the official documentation and community forums."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Installation Guide"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This guide walks through the complete installation process for setting up the system with encryption and a custom bootloader on a single disk."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "1. Start Here"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The system is installed as the sole operating system on a single disk using a two-partition layout."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Partition "
+            },
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "pool"
+            },
+            {
+              "kind": "text",
+              "text": " is formatted with the custom filesystem using native encryption."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Partition "
+            },
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "esp"
+            },
+            {
+              "kind": "text",
+              "text": " serves as the EFI system partition formatted with "
+            },
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "fat32"
+            },
+            {
+              "kind": "text",
+              "text": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Acquire the image"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Download the latest live ISO install image from the project website."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Verify the image integrity:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "sha256sum -c --ignore-missing sha256sums.txt"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Prepare the USB"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Write the installer to an unmounted USB storage device:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "dd bs=4M conv=fsync oflag=direct status=progress if=installer.iso of=/dev/sdx"
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "2. Configure the Environment"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Boot the target device from the installation media."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Set the font"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "If the existing font size appears too small, run:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "setfont -d"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Set the keyboard"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Default keymap is "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "us"
+        },
+        {
+          "kind": "text",
+          "text": ". Set a different keymap with:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "loadkeys dvorak"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Verify boot mode"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Check that the system booted in UEFI mode:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "ls /sys/firmware/efi/efivars"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Connect to the internet"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Verify network connectivity:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "ping -c 3 example.org"
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "3. Prepare the Disk"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Define variables"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Set the disk variable for the target device:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "DISK=/dev/sda"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Wipe disk"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Clear any existing partition data:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "sgdisk --zap-all $DISK"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Partition disk"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Create the partition layout:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "sgdisk -n1:1M:+512M -t1:EF00 $DISK\nsgdisk -n2:0:0 -t2:BF00 $DISK"
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "4. Installation"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Install the base system packages:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "apk add base-system"
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "5. Configure the System"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Chroot"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Enter the new system:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "chroot /mnt /bin/sh"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Set password"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Set the root password:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "passwd"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Packages"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Install additional packages:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "apk add vim openssh"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Timezone"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Set the timezone:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Hostname"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Set the hostname:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "echo \"myhost\" > /etc/hostname"
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "6. Finish Up"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Unmount"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Exit chroot and unmount:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "exit\numount -R /mnt"
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Reboot"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Remove installation media and reboot:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "reboot"
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "7. Resources"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For more information, consult the official documentation and community forums."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Jane Doe",
+    "title": "Installation Guide — Example Blog",
+    "description": "",
+    "domain": "example.org",
+    "favicon": "https://www.example.org/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": "Jane Doe"
+  },
+  "warnings": [],
+  "wordCount": 295,
+  "extractorType": null
+}

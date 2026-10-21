@@ -1,0 +1,281 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A YouTube video:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "iframe",
+      "attributes": [
+        [
+          "allowfullscreen",
+          "true"
+        ],
+        [
+          "src",
+          "https://www.youtube.com/embed/b_PXuEPxN50"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A YouTube nocookie video:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "iframe",
+      "attributes": [
+        [
+          "allowfullscreen",
+          "true"
+        ],
+        [
+          "src",
+          "https://www.youtube-nocookie.com/embed/b_PXuEPxN50"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A tweet:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "iframe",
+      "attributes": [
+        [
+          "src",
+          "https://platform.twitter.com/embed/Tweet.html?id=1675626836821409792"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "An X.com embed:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "iframe",
+      "attributes": [
+        [
+          "src",
+          "https://x.com/kepano/status/1675626836821409792"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A Vimeo video should stay as iframe:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "iframe",
+      "attributes": [
+        [
+          "allow",
+          "autoplay; fullscreen; picture-in-picture"
+        ],
+        [
+          "allowfullscreen",
+          "true"
+        ],
+        [
+          "src",
+          "https://player.vimeo.com/video/45725193?h=a290f71a57"
+        ]
+      ],
+      "children": []
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A YouTube video:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          ""
+        ],
+        [
+          "src",
+          "https://www.youtube.com/watch?v=b_PXuEPxN50"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A YouTube nocookie video:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          ""
+        ],
+        [
+          "src",
+          "https://www.youtube.com/watch?v=b_PXuEPxN50"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A tweet:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          ""
+        ],
+        [
+          "src",
+          "https://x.com/i/status/1675626836821409792"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "An X.com embed:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          ""
+        ],
+        [
+          "src",
+          "https://x.com/kepano/status/1675626836821409792"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A Vimeo video should stay as iframe:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "iframe",
+      "attributes": [
+        [
+          "allow",
+          "autoplay; fullscreen; picture-in-picture"
+        ],
+        [
+          "allowfullscreen",
+          "true"
+        ],
+        [
+          "src",
+          "https://player.vimeo.com/video/45725193?h=a290f71a57"
+        ]
+      ],
+      "children": []
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "embedded-videos",
+    "title": "Embedded videos test",
+    "description": "",
+    "domain": "embedded-videos",
+    "favicon": "https://embedded-videos/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 19,
+  "extractorType": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": "issues--159-lean-verso-missing-section-gap",
+  "url": "https://lean-lang.org/theorem_proving_in_lean4/Dependent-Type-Theory/",
+  "inputHtml": "<!-- {\"url\":\"https://lean-lang.org/theorem_proving_in_lean4/Dependent-Type-Theory/\"} -->\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <title>Dependent Type Theory</title>\n</head>\n<body>\n  <main>\n    <article>\n      <h1>Dependent Type Theory</h1>\n      <p>\n        This fixture verifies we preserve an intentional blank line between adjacent Verso code\n        fragments when one fragment ends with an extra newline before the next section header.\n      </p>\n\n      <div class=\"example\" id=\"example-section-gap\">\n        <code class=\"hl lean block\" data-lean-context=\"examples\"><span class=\"inter-text\">def b2 : Bool := false\n\n</span></code>\n        <code class=\"hl lean block\" data-lean-context=\"examples\"><span class=\"inter-text\">/- Check their types. -/\n\n#check m</span></code>\n        <pre class=\"hl lean lean-output information\"><span class=\"verso-message\"><span class=\"highlighted\"><span class=\"inter-text\">m : Nat</span></span></span></pre>\n      </div>\n\n      <p>Trailing prose ensures extraction continues normally.</p>\n    </article>\n  </main>\n</body>\n</html>\n",
+  "inputSha256": "deffce8171c0f254163189e8e42bf9e9abe71ad330e803a2cbe5f856f1ef311e",
+  "upstreamFixture": "tests/fixtures/issues--159-lean-verso-missing-section-gap.html",
+  "markdownGoldenSha256": "8fa708afcf3cd1ab748c67bef2ff214d64c4173d24bfcc4efa58dbee6978f822",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p> This fixture verifies we preserve an intentional blank line between adjacent Verso code fragments when one fragment ends with an extra newline before the next section header. </p> <div> <pre><code class=\"language-lean\" data-lang=\"lean\">def b2 : Bool := false\n\n/- Check their types. -/\n\n#check m\nm : Nat</code></pre></div> <p>Trailing prose ensures extraction continues normally.</p> </article>",
+    "contentMarkdown": "This fixture verifies we preserve an intentional blank line between adjacent Verso code fragments when one fragment ends with an extra newline before the next section header.\n\n```lean\ndef b2 : Bool := false\n\n/- Check their types. -/\n\n#check m\nm : Nat\n```\n\nTrailing prose ensures extraction continues normally.",
+    "title": "Dependent Type Theory",
+    "author": "",
+    "site": "lean-lang.org",
+    "published": "",
+    "wordCount": 49,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

@@ -1,0 +1,99 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some intro text here to make the article long enough for defuddle to pick it up as content. This is a test article with enough words to pass the word count threshold. We need to make sure defuddle picks this up properly so we can test the code block behavior with rehype-pretty-copy output."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The rehype-pretty-copy plugin injects a copy button and a style element directly inside the code element. These should be stripped from the extracted content."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "yaml",
+      "text": "tags:\n  - Projects/Open       # status: Open, Inbox, Hold, Dropped, Done\narea: next-act           # life area the project belongs to\nreview-cycle: 7          # days before the project is considered stale\nstart-date: 2026-01-15\ncomplete-date:            # set when marked done"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Each project file uses YAML front matter to track status and review cadence."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some intro text here to make the article long enough for defuddle to pick it up as content. This is a test article with enough words to pass the word count threshold. We need to make sure defuddle picks this up properly so we can test the code block behavior with rehype-pretty-copy output."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The rehype-pretty-copy plugin injects a copy button and a style element directly inside the code element. These should be stripped from the extracted content."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "yaml",
+      "text": "tags:\n  - Projects/Open       # status: Open, Inbox, Hold, Dropped, Done\narea: next-act           # life area the project belongs to\nreview-cycle: 7          # days before the project is considered stale\nstart-date: 2026-01-15\ncomplete-date:            # set when marked done"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Each project file uses YAML front matter to track status and review cadence."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Jane Smith",
+    "title": "Weekly Project Review",
+    "description": "Test for rehype-pretty-copy injected button and style elements inside code blocks",
+    "domain": "rehype-pretty-copy",
+    "favicon": "https://rehype-pretty-copy/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": "Jane Smith"
+  },
+  "warnings": [],
+  "wordCount": 127,
+  "extractorType": null
+}

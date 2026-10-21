@@ -1,0 +1,20 @@
+{
+  "id": "issues--232-dismiss-in-hidden-content",
+  "url": "https://example.com/posts/sample/",
+  "inputHtml": "<!-- {\"url\":\"https://example.com/posts/sample/\"} -->\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <meta property=\"og:site_name\" content=\"Example\">\n  <meta property=\"og:title\" content=\"Sample Post | EXAMPLE\">\n  <meta name=\"description\" content=\"Example is a company building software.\">\n  <title>Sample Post | EXAMPLE</title>\n  <link rel=\"stylesheet\" href=\"/static/styles.css\">\n</head>\n<body class=\"skip-intro\">\n  <div class=\"announcement-banner\" role=\"banner\">\n    <a href=\"/posts/press-release/\">ANNOUNCING THINGS →</a>\n  </div>\n\n  <canvas id=\"canvas\"></canvas>\n\n  <a href=\"/\" class=\"center-logo\">\n    <img class=\"main-logo\" id=\"logo\" src=\"/static/logo.svg\" alt=\"Example\">\n  </a>\n\n  <div class=\"page\">\n    <div class=\"updates-overlay overlay--posts overlay--post-detail\" aria-hidden=\"true\">\n      <div class=\"updates-letter\" role=\"dialog\" aria-label=\"Posts\">\n        <a class=\"updates-dismiss\" href=\"/posts/\" aria-label=\"Dismiss\" data-dismiss-url=\"/posts/\">&lt;</a>\n        <div class=\"updates-scroll-content\">\n          <div class=\"email-meta\">\n            <p><span>From:</span> Example &lt;hello@example.com&gt;</p>\n            <p><span>To:</span> You</p>\n            <p><span>Subject:</span> Sample Post</p>\n          </div>\n          <div class=\"letter-body\">\n            <p>\n              We are excited to share an update on our work. Over the past several months\n              the team has been focused on building tools that are simple, reliable, and open.\n            </p>\n            <p>\n              Our goal is to create software that earns trust over time. We believe in building\n              in the open, sharing progress publicly, and making decisions legible. This post\n              outlines what we have been working on and where we are headed next.\n            </p>\n          </div>\n          <div class=\"letter-footer\">\n            <div class=\"signature-delimiter\">--</div>\n            <div class=\"signature-detail\"><a href=\"https://example.com\">example.com</a></div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <nav class=\"top-nav\">\n    <a class=\"nav-link\" href=\"/about/\">About</a>\n    <a class=\"nav-link\" href=\"/posts/\">Posts</a>\n  </nav>\n\n  <div id=\"site-footer\">EXAMPLE INC.</div>\n</body>\n</html>\n",
+  "inputSha256": "90ce42ea8c23ae05782f5b3a48eb1ce8d6fecbc7df27453af3fd78a2a79ff778",
+  "upstreamFixture": "tests/fixtures/issues--232-dismiss-in-hidden-content.html",
+  "markdownGoldenSha256": "fe9026188bfddfabc19a29987159dd3c090b1923e1bd5c182fd8d7678fc24a09",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<div> <p>From: Example &lt;hello@example.com&gt;</p> <p>To: You</p> <p>Subject: Sample Post</p> <p> We are excited to share an update on our work. Over the past several months the team has been focused on building tools that are simple, reliable, and open. </p> <p> Our goal is to create software that earns trust over time. We believe in building in the open, sharing progress publicly, and making decisions legible. This post outlines what we have been working on and where we are headed next. </p> <p>--</p> <p><a href=\"https://example.com/\">example.com</a></p> </div>",
+    "contentMarkdown": "From: Example <hello@example.com>\n\nTo: You\n\nSubject: Sample Post\n\nWe are excited to share an update on our work. Over the past several months the team has been focused on building tools that are simple, reliable, and open.\n\nOur goal is to create software that earns trust over time. We believe in building in the open, sharing progress publicly, and making decisions legible. This post outlines what we have been working on and where we are headed next.\n\n\\--\n\n[example.com](https://example.com/)",
+    "title": "Sample Post",
+    "author": "",
+    "site": "Example",
+    "published": "",
+    "wordCount": 79,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

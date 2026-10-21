@@ -1,0 +1,15 @@
+✔ paired passes reverse both implementation order and mode order (1.625591ms)
+✔ selection hashes exactly the pinned HTML and URL and rejects changed inputs/exclusions (1.776826ms)
+✔ source provenance rejects changed, missing, and newly added files (1.997355ms)
+✔ run validation checks identity, every sample dimension, mode order, and raw sample agreement (1.434621ms)
+✔ combined runs retain all measured and warmup samples and require stable outputs (0.680005ms)
+✔ descriptive statistics expose slower individual cases even when aggregate is faster (0.681181ms)
+✔ small samples name the maximum and reserve p95 for at least 20 samples (0.20711ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 88.105546

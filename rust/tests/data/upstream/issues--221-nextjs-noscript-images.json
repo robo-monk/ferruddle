@@ -1,0 +1,20 @@
+{
+  "id": "issues--221-nextjs-noscript-images",
+  "url": "https://www.example.com/blog/example-post",
+  "inputHtml": "<!DOCTYPE html>\n<!-- {\"url\":\"https://www.example.com/blog/example-post\"} -->\n<html>\n<head>\n\t<title>Example Post</title>\n</head>\n<body>\n\t<main>\n\t\t<article>\n\t\t\t<h1>Example Post</h1>\n\t\t\t<p>Here is an architecture diagram:</p>\n\t\t\t<span>\n\t\t\t\t<span style=\"display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0\">\n\t\t\t\t\t<img alt=\"\" aria-hidden=\"true\" src=\"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271280%27%20height=%27720%27/%3e\"/>\n\t\t\t\t</span>\n\t\t\t\t<img alt=\"Architecture diagram.\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" decoding=\"async\" data-nimg=\"intrinsic\"/>\n\t\t\t\t<noscript>\n\t\t\t\t\t<img alt=\"Architecture diagram.\" loading=\"lazy\" decoding=\"async\" data-nimg=\"intrinsic\" srcSet=\"/images/architecture.png?imwidth=3840 1x\" src=\"/images/architecture.png?imwidth=3840\"/>\n\t\t\t\t</noscript>\n\t\t\t</span>\n\t\t\t<p>And here is a second diagram:</p>\n\t\t\t<span>\n\t\t\t\t<span style=\"display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0\">\n\t\t\t\t\t<img alt=\"\" aria-hidden=\"true\" src=\"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%272000%27%20height=%271200%27/%3e\"/>\n\t\t\t\t</span>\n\t\t\t\t<img alt=\"Flow diagram.\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" decoding=\"async\" data-nimg=\"intrinsic\"/>\n\t\t\t\t<noscript>\n\t\t\t\t\t<img alt=\"Flow diagram.\" loading=\"lazy\" decoding=\"async\" data-nimg=\"intrinsic\" src=\"/images/flow.png?imwidth=3840\"/>\n\t\t\t\t</noscript>\n\t\t\t</span>\n\t\t\t<p>That concludes our overview.</p>\n\t\t</article>\n\t</main>\n</body>\n</html>\n",
+  "inputSha256": "8100c5c00c508687350eb7b488ddb936133eafbd3ec1cbfc6928f66624dc99c6",
+  "upstreamFixture": "tests/fixtures/issues--221-nextjs-noscript-images.html",
+  "markdownGoldenSha256": "2a073e599060ced85610438c54f17f3c8f961c50aa5fb70579e752d290ee1c80",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>Here is an architecture diagram:</p> <figure><img srcset=\"https://www.example.com/images/architecture.png?imwidth=3840 1x\" alt=\"Architecture diagram.\" src=\"https://www.example.com/images/architecture.png?imwidth=3840\"> <figcaption>Architecture diagram.</figcaption></figure> <p>And here is a second diagram:</p> <figure><img alt=\"Flow diagram.\" src=\"https://www.example.com/images/flow.png?imwidth=3840\"> <figcaption>Flow diagram.</figcaption></figure> <p>That concludes our overview.</p> </article>",
+    "contentMarkdown": "Here is an architecture diagram:\n\n![Architecture diagram.](https://www.example.com/images/architecture.png?imwidth=3840)\n\nArchitecture diagram.\n\nAnd here is a second diagram:\n\n![Flow diagram.](https://www.example.com/images/flow.png?imwidth=3840)\n\nFlow diagram.\n\nThat concludes our overview.",
+    "title": "Example Post",
+    "author": "",
+    "site": "example.com",
+    "published": "",
+    "wordCount": 19,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

@@ -1,0 +1,87 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Plants grow through a process called photosynthesis, converting sunlight into chemical energy. This process occurs primarily in the leaves, where chlorophyll absorbs light."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The rate of growth depends on several factors including light intensity, water availability, and soil nutrients. Most houseplants thrive in indirect sunlight with regular watering."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Research has shown that talking to plants does not significantly affect their growth rate, despite popular belief. However, the carbon dioxide from breathing nearby may provide a marginal benefit."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Plants grow through a process called photosynthesis, converting sunlight into chemical energy. This process occurs primarily in the leaves, where chlorophyll absorbs light."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The rate of growth depends on several factors including light intensity, water availability, and soil nutrients. Most houseplants thrive in indirect sunlight with regular watering."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Research has shown that talking to plants does not significantly affect their growth rate, despite popular belief. However, the carbon dioxide from breathing nearby may provide a marginal benefit."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "content-patterns--social-engagement-counter",
+    "title": "Understanding Plant Growth",
+    "description": "",
+    "domain": "content-patterns--social-engagement-counter",
+    "favicon": "https://content-patterns--social-engagement-counter/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 77,
+  "extractorType": null
+}

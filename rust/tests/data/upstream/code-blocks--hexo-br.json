@@ -1,0 +1,20 @@
+{
+  "id": "code-blocks--hexo-br",
+  "url": "https://code-blocks--hexo-br",
+  "inputHtml": "<!DOCTYPE html>\n<html lang=\"en\">\n<head><title>Sample Technical Post</title></head>\n<body>\n<article>\n  <p>This post shows how to use the sample API. Here is the code:</p>\n\n  <figure class=\"highlight sh\"><table><tr>\n    <td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td>\n    <td class=\"code\"><pre><span class=\"line\"><span class=\"built_in\">echo</span> hello</span><br></pre></td>\n  </tr></table></figure>\n\n  <p>Here is a longer example with multiple lines:</p>\n\n  <figure class=\"highlight cpp\"><table><tr>\n    <td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br><span class=\"line\">7</span><br></pre></td>\n    <td class=\"code\"><pre><span class=\"line\"><span class=\"meta\">#<span class=\"keyword\">include</span> <span class=\"string\">&lt;iostream&gt;</span></span></span><br><span class=\"line\"></span><br><span class=\"line\"><span class=\"function\"><span class=\"type\">int</span> <span class=\"title\">main</span><span class=\"params\">()</span> </span>{</span><br><span class=\"line\">  std::cout &lt;&lt; <span class=\"string\">&quot;hello&quot;</span>;</span><br><span class=\"line\">  <span class=\"keyword\">return</span> <span class=\"number\">0</span>;</span><br><span class=\"line\">}</span><br></pre></td>\n  </tr></table></figure>\n\n  <p>And a plain text block:</p>\n\n  <figure class=\"highlight plaintext\"><table><tr>\n    <td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br></pre></td>\n    <td class=\"code\"><pre><span class=\"line\">foo bar</span><br><span class=\"line\">baz qux</span><br></pre></td>\n  </tr></table></figure>\n\n  <p>That is all for this post.</p>\n</article>\n</body>\n</html>\n",
+  "inputSha256": "06b860561d65e235de01d6ad9fc5fe383531d1e29d443acd5e38fb3b3d92a3da",
+  "upstreamFixture": "tests/fixtures/code-blocks--hexo-br.html",
+  "markdownGoldenSha256": "0edbeb7453157d563a426f5c2e4cf8c3c67b08b593c92abf95dec17196412bc1",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article> <p>This post shows how to use the sample API. Here is the code:</p> <pre><code class=\"language-sh\" data-lang=\"sh\">echo hello</code></pre> <p>Here is a longer example with multiple lines:</p> <pre><code class=\"language-cpp\" data-lang=\"cpp\">#include &lt;iostream&gt;\n\nint main() {\n  std::cout &lt;&lt; \"hello\";\n  return 0;\n}</code></pre> <p>And a plain text block:</p> <pre><code>foo bar\nbaz qux</code></pre> <p>That is all for this post.</p> </article>",
+    "contentMarkdown": "This post shows how to use the sample API. Here is the code:\n\n```sh\necho hello\n```\n\nHere is a longer example with multiple lines:\n\n```cpp\n#include <iostream>\n\nint main() {\n  std::cout << \"hello\";\n  return 0;\n}\n```\n\nAnd a plain text block:\n\n```\nfoo bar\nbaz qux\n```\n\nThat is all for this post.",
+    "title": "Sample Technical Post",
+    "author": "",
+    "site": "code-blocks--hexo-br",
+    "published": "",
+    "wordCount": 49,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

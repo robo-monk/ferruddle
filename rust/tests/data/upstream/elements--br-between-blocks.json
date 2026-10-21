@@ -1,0 +1,20 @@
+{
+  "id": "elements--br-between-blocks",
+  "url": "https://br-between-blocks",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\"/>\n  <title>BR between blocks test</title>\n</head>\n<body>\n  <!--\n    Some CMS editors (e.g. Craft CMS, WordPress classic editor) insert\n    standalone <br> elements between block-level elements as visual spacers.\n    These are redundant because block elements already produce spacing and\n    should be removed during standardization.\n  -->\n  <article>\n    <h1>Article title</h1>\n\n    <p>First paragraph with some introductory text.</p><br>\n    <p>Second paragraph after a br spacer.</p><br>\n    <figure><img src=\"https://example.com/image.jpg\"><figcaption>A sample figure.</figcaption></figure><br>\n    <p>Third paragraph after a figure and br.</p> <br>\n    <p>Fourth paragraph with trailing br inside. <br></p><br>\n    <p>Fifth paragraph after a p-with-inner-br.</p><br>\n    <h2>Section heading</h2><br>\n    <p>Sixth paragraph after a heading and br.</p><br>\n    <hr><br>\n    <p>Seventh paragraph after an hr and br.</p>\n  </article>\n</body>\n</html>\n",
+  "inputSha256": "9d3b63685ea3f3c45cd21d2f7b06ab25e806e87714599254adbf256d111eef8f",
+  "upstreamFixture": "tests/fixtures/elements--br-between-blocks.html",
+  "markdownGoldenSha256": "25a10270f6bfbe125a49c4402d7535e7a7ee13615450a7206a79df0c010e0f8a",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article> <h2>Article title</h2> <p>First paragraph with some introductory text.</p> <p>Second paragraph after a br spacer.</p> <figure><img src=\"https://example.com/image.jpg\"> <figcaption>A sample figure.</figcaption></figure> <p>Third paragraph after a figure and br.</p>  <p>Fourth paragraph with trailing br inside. </p> <p>Fifth paragraph after a p-with-inner-br.</p> <h2>Section heading</h2> <p>Sixth paragraph after a heading and br.</p> <hr> <p>Seventh paragraph after an hr and br.</p> </article>",
+    "contentMarkdown": "## Article title\n\nFirst paragraph with some introductory text.\n\nSecond paragraph after a br spacer.\n\n![](https://example.com/image.jpg)\n\nA sample figure.\n\nThird paragraph after a figure and br.\n\nFourth paragraph with trailing br inside.\n\nFifth paragraph after a p-with-inner-br.\n\n## Section heading\n\nSixth paragraph after a heading and br.\n\n---\n\nSeventh paragraph after an hr and br.",
+    "title": "BR between blocks test",
+    "author": "",
+    "site": "br-between-blocks",
+    "published": "",
+    "wordCount": 51,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

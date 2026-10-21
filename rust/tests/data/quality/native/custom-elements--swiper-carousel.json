@@ -1,0 +1,165 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some introductory text about the topic."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Gallery"
+        },
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "src",
+              "https://example.com/a.jpg"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "src",
+              "https://example.com/b.png"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "src",
+              "https://example.com/c.jpg"
+            ]
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Text after the carousel."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some introductory text about the topic."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Gallery"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          ""
+        ],
+        [
+          "src",
+          "https://example.com/a.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          ""
+        ],
+        [
+          "src",
+          "https://example.com/b.png"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          ""
+        ],
+        [
+          "src",
+          "https://example.com/c.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Text after the carousel."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Example",
+    "title": "Article Title",
+    "description": "",
+    "domain": "custom-elements--swiper-carousel",
+    "favicon": "https://custom-elements--swiper-carousel/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 11,
+  "extractorType": null
+}

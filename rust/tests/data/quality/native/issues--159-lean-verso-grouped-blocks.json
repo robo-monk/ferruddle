@@ -1,0 +1,77 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This fixture verifies that Verso-style Lean command and output fragments are merged into a single fenced code block. It also checks that hidden hover metadata does not leak into visible code text during extraction. The paragraph is intentionally verbose so content detection remains stable and deterministic across environments."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "lean",
+      "text": "#check Nat\nNat : Type\n#check Bool\nBool : Type\n#check Nat → Bool\nNat → Bool : Type"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Text after the example ensures that downstream markdown rendering keeps non-code prose separate from the merged block output."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This fixture verifies that Verso-style Lean command and output fragments are merged into a single fenced code block. It also checks that hidden hover metadata does not leak into visible code text during extraction. The paragraph is intentionally verbose so content detection remains stable and deterministic across environments."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "lean",
+      "text": "#check Nat\nNat : Type\n#check Bool\nBool : Type\n#check Nat → Bool\nNat → Bool : Type"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Text after the example ensures that downstream markdown rendering keeps non-code prose separate from the merged block output."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "lean-lang.org",
+    "title": "Dependent Type Theory",
+    "description": "",
+    "domain": "lean-lang.org",
+    "favicon": "https://lean-lang.org/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 85,
+  "extractorType": null
+}

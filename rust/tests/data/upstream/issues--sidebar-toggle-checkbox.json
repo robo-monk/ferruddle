@@ -1,0 +1,20 @@
+{
+  "id": "issues--sidebar-toggle-checkbox",
+  "url": "https://sidebar-toggle-checkbox",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n<title>Article With Sidebar Toggle</title>\n</head>\n<body>\n<!-- Hidden checkbox used to toggle the sidebar via a sibling label -->\n<input type=\"checkbox\" class=\"sidebar-checkbox\" id=\"sidebar-checkbox\">\n<!-- Mobile menu trigger pattern (obdev.at) -->\n<input type=\"checkbox\" id=\"mm-trigger\" class=\"mm-trigger\">\n\n<div class=\"sidebar\" id=\"sidebar\">\n<nav class=\"sidebar-nav\">\n<a class=\"sidebar-nav-item\" href=\"/\">Home</a>\n<a class=\"sidebar-nav-item\" href=\"/about\">About</a>\n</nav>\n</div>\n\n<div class=\"wrap\">\n<div class=\"container content\">\n<h1>Article With Sidebar Toggle</h1>\n<p>The first paragraph introduces the topic with enough text to score as the main content of the page so that the body extractor will pick this section.</p>\n<p>A second paragraph keeps the prose flowing and ensures the article has more than one block of substantive text to anchor the content score.</p>\n<figure>\n<img alt=\"Storage migration: SD to NVMe\" src=\"/media/orangepi-storage-migration.svg\">\n<figcaption>Storage migration: SD to NVMe</figcaption>\n</figure>\n<p>A closing paragraph after the diagram explains what the figure shows and gives the article a tidy conclusion that should survive extraction.</p>\n</div>\n</div>\n\n<label for=\"sidebar-checkbox\" class=\"sidebar-toggle\"></label>\n</body>\n</html>\n",
+  "inputSha256": "c3c9b34dba8146df17aaacc4f4833d8faac7af6e24b7dfdad5c131ed41a1c607",
+  "upstreamFixture": "tests/fixtures/issues--sidebar-toggle-checkbox.html",
+  "markdownGoldenSha256": "e40d3a147a951e17dc4a7c95775f87c3733d30fc5777f82eabeb5cfbe7a7597c",
+  "htmlGoldenSha256": "bdec7d07d7b01260aac2567be2e99a9a71c68cd706d1730ef19c33f035533b77",
+  "expected": {
+    "content": "<body>       <div>  <p>The first paragraph introduces the topic with enough text to score as the main content of the page so that the body extractor will pick this section.</p> <p>A second paragraph keeps the prose flowing and ensures the article has more than one block of substantive text to anchor the content score.</p> <figure><img alt=\"Storage migration: SD to NVMe\" src=\"https://sidebar-toggle-checkbox/media/orangepi-storage-migration.svg\"> <figcaption>Storage migration: SD to NVMe</figcaption></figure> <p>A closing paragraph after the diagram explains what the figure shows and gives the article a tidy conclusion that should survive extraction.</p> </div>   </body>",
+    "contentMarkdown": "The first paragraph introduces the topic with enough text to score as the main content of the page so that the body extractor will pick this section.\n\nA second paragraph keeps the prose flowing and ensures the article has more than one block of substantive text to anchor the content score.\n\n![Storage migration: SD to NVMe](https://sidebar-toggle-checkbox/media/orangepi-storage-migration.svg)\n\nStorage migration: SD to NVMe\n\nA closing paragraph after the diagram explains what the figure shows and gives the article a tidy conclusion that should survive extraction.",
+    "title": "Article With Sidebar Toggle",
+    "author": "",
+    "site": "sidebar-toggle-checkbox",
+    "published": "",
+    "wordCount": 78,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

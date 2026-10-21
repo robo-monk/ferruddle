@@ -1,0 +1,133 @@
+{
+  "before": {
+    "at": "2026-10-20T22:18:17.556216+00:00",
+    "loadAverage": [
+      48.49658203125,
+      48.77294921875,
+      48.70654296875
+    ],
+    "logicalCpus": 8,
+    "cpuJiffies": [
+      2748225,
+      227851,
+      909346,
+      1100353202,
+      193502,
+      291674,
+      193184,
+      0,
+      0,
+      0
+    ],
+    "swapPagesIn": 91700,
+    "swapPagesOut": 2533913,
+    "memoryKiB": {
+      "MemTotal": 16240232,
+      "MemFree": 1233772,
+      "MemAvailable": 8461072,
+      "SwapTotal": 32479384,
+      "SwapFree": 22812024
+    },
+    "blockedTasksByWaitChannel": {
+      "-": 2,
+      "amdgpu": 46
+    }
+  },
+  "after": {
+    "at": "2026-10-20T22:22:23.821232+00:00",
+    "loadAverage": [
+      49.79443359375,
+      49.3427734375,
+      48.9609375
+    ],
+    "logicalCpus": 8,
+    "cpuJiffies": [
+      2785306,
+      227851,
+      911240,
+      1100511363,
+      193580,
+      292000,
+      193377,
+      0,
+      0,
+      0
+    ],
+    "swapPagesIn": 98286,
+    "swapPagesOut": 2534109,
+    "memoryKiB": {
+      "MemTotal": 16240232,
+      "MemFree": 1588580,
+      "MemAvailable": 8101224,
+      "SwapTotal": 32479384,
+      "SwapFree": 22837504
+    },
+    "blockedTasksByWaitChannel": {
+      "-": 2,
+      "amdgpu": 46
+    }
+  },
+  "monitor": {
+    "sampleIntervalSeconds": 5,
+    "samples": 48,
+    "firstBootAverageExcluded": true,
+    "idlePercentMedian": 85.0,
+    "idlePercentMin": 61,
+    "userPlusSystemPercentMedian": 15.0,
+    "userPlusSystemPercentMax": 39,
+    "swapInOutNonzeroSamples": 14,
+    "swapPagesInDelta": 6586,
+    "swapPagesOutDelta": 196,
+    "runnableMax": 11,
+    "ioWaitPercentMax": 0
+  },
+  "vmstatLogSha256": "d16ca296505789eb4b2b896578bf97a869287bb2269c367a1699035f9d88211e",
+  "runnerSha256": "afc64bc8d1254f0e007c2e56c6d62b1f3b18f9d342d0cb02be4003d1ffe7140e",
+  "prebuiltArtifacts": {
+    "at": "2026-10-20T22:08:22.205247+00:00",
+    "runtimeSourceHashes": {
+      "rust/src/bin/defuddle.rs": "c8ea6bc3c9b4602d1705131fc21b26562490fef74e7fe865970f26009bf7f4bd",
+      "rust/src/callouts.rs": "12fe1117acf2b862f6f39b2d3c6f63019258df38f8b46c6e825458b4de809b67",
+      "rust/src/code.rs": "2bd3150899a3b132d20615feca2e3f61a144d49cdb3cedeecbd299cc51aa4866",
+      "rust/src/constants.rs": "5046d93b670219a52ece52762da4d8dc67971d48e79f699b24a964ef9cb5407b",
+      "rust/src/dom/selectors.rs": "c34238032d1f4b5ff69cdabdc6853a6db498e67de2465250d477b249c9c7d9ab",
+      "rust/src/dom.rs": "57fc6dda6319e79d6bb9776f803247f555f38fe6697db0eea52f4e5fce0031e8",
+      "rust/src/extractors/comments.rs": "b0c7b9b201da81872de95469380f519d985c314f7a83aa0a2f56a59c647ccb4e",
+      "rust/src/extractors/conversations.rs": "fa0b567508e0a64f2cada21582ae2c9e6c0207ded69810de3f527bff392d919e",
+      "rust/src/extractors/embedded.rs": "d1eb0fe8112a9ebcfa76115b0e69e33414661944cfff25c0cf7f0019a766fac9",
+      "rust/src/extractors/rich_social.rs": "ead2ae96885b6f82b290345240db5054895eb37626d39c648bcb648513c418f1",
+      "rust/src/extractors/social.rs": "7a797c958745c584145867e2320643806de38c0bff519e7dec755998c957885e",
+      "rust/src/extractors/video.rs": "6086c196e3ad78fa70a3f76021bec2b2c0425340fb80a303f09a2d803bad293b",
+      "rust/src/extractors.rs": "1c4db664518ca60bc77205d706b45d4b6bb1fe607d619fe551a6990b4e5cd7ec",
+      "rust/src/finalize.rs": "80e692ad68b18ae84277586e3014a022948d2cdf9efa29c118d0781dd2481d80",
+      "rust/src/footnotes.rs": "da68a9ccecd1daa22739688ebc5af4f9290a746891d41db6caf0211974fab9a1",
+      "rust/src/images.rs": "215a436ce0c9babf7d5ea38a92105c4ed9599e877f65f488832505b0b5d67532",
+      "rust/src/lib.rs": "282efc8f0ac62aac382413c029ab640d05a35f7818072e9ec38d0d3b6fe7ca24",
+      "rust/src/markdown.rs": "967da51e33499e4065d6081886cf98d60825caee64d335bdb4154514e7dec61d",
+      "rust/src/math.rs": "d951f3119d6f8961a5ee4378cc69548b2dd59c15ed96153183c6c4236903f8e8",
+      "rust/src/metadata.rs": "f92e5f6a4ffbbb0ee64f9aea77c694f3cd9e2e417151698716fe5623baae1263",
+      "rust/src/patterns.rs": "e756a2b3c945c00c30d9b21153c87e3febb755e83748c9b173a8e62bbb87b66e",
+      "rust/src/pipeline.rs": "c3ac5aeb13c7f57ee5347195263339f7378465008cad187a971673aa632fe49c",
+      "rust/src/removals.rs": "0001d66520358aa3d93207568c301e5831bd7f8b6ef3412f913e8d829d1f1a96",
+      "rust/src/safety.rs": "18ecc2b806d46a6f7112d6e6125ec2d7f27253f92a05be4e22d01ab7b77e28d7",
+      "rust/src/selection.rs": "c9e40b6399af24510e3bd1c51b93abe62b4437767749ba56692f4962d1808ff4",
+      "rust/src/standardize.rs": "1afb27a1c30f899f5ad32a837fe9b669c573772357da85cfaf615b4beb263435",
+      "rust/src/types.rs": "fc5183ce4f39d562043b138a5389a2186dfc94676a7566b0abab614bbd14802f",
+      "rust/src/utils.rs": "f2c4b20a700e9f87b29d43a9ad2d8ae0da64e6fa08ae5000daf75b9da8b067ea"
+    },
+    "currentExecutable": "/home/robomonk/.cache/defuddle-port-hardening/target/release/examples/benchmark",
+    "currentExecutableSha256": "03f2927b8da8d4599ab2936ba65a99c490cbacb91961193cfc21e8969f2d706e",
+    "baselineExecutable": "/home/robomonk/.cache/defuddle-port-hardening/target-benchmark-baseline/release/examples/benchmark",
+    "baselineExecutableSha256": "98dfbb119c7a18dc443b6b6f9ed64359a32d53444a2e90a3d45e0defc5c11bac",
+    "releaseCliSha256": "4f67be265fa1ffaf3a7bb06e48f36f16fef708bbce6a1d10ea30a712fd6b6fc2",
+    "workerSha256": "4354908ace377154055129b8eeed1d6b82fef8238be3c3dabf3696dfd66aa4bd",
+    "cargoInputs": {
+      "rust/Cargo.toml": "4df75104b054b6dd36a57801a51909c37cbf218043d8bb32b34c042f03a18a10",
+      "rust/Cargo.lock": "9a31f68015500787d890ccef929e2e9ab43e8ae9e51ebbd521f25df0c20a7ddd"
+    },
+    "buildLog": "release-r3.log"
+  },
+  "runtimeAndBinaryHashesUnchanged": true,
+  "allCommandsExitedZero": true,
+  "notes": "No other task agents/builds/tests active. Load average includes preexisting GPU-driver waits; assess CPU idle and swap IO, not load average alone. Interval CPU activity also includes the benchmark workers import/validation phases."
+}

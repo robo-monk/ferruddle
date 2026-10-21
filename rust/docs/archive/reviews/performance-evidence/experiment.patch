@@ -1,0 +1,815 @@
+diff --git a/rust/src/code.rs b/rust/src/code.rs
+--- a/rust/src/code.rs
++++ b/rust/src/code.rs
+@@ -17,7 +17,7 @@
+         // A source wrapper may enclose several independent examples. Its pre
+         // children will be processed separately instead of collapsing examples.
+         let pres = dom::select(node, "pre");
+-        if tag(node) != "pre" && pres.len() > 1 && dom::select(node, "table").is_empty() {
++        if tag(node) != "pre" && pres.len() > 1 && !crate::dom::exists(node, "table") {
+             continue;
+         }
+         let target = extraction_target(node);
+@@ -113,7 +113,7 @@
+         || (node.has_class("code-block")
+             && (node.has_attr("data-lang") || node.has_attr("language")));
+     wrapper
+-        && (!dom::select(node, "pre,code,.line,.cm-content,td.blob-code").is_empty()
++        && (crate::dom::exists(node, "pre,code,.line,.cm-content,td.blob-code")
+             || node.has_class("code-block"))
+ }
+ 
+@@ -126,7 +126,7 @@
+         return node;
+     }
+     let pres = dom::select(node, "pre");
+-    pres.iter().copied().find(|pre| !dom::select(*pre, "code[data-lang],code[data-language],code[language],code[class*=language-],.line,[data-line]").is_empty() && !is_gutter(*pre))
++    pres.iter().copied().find(|pre| crate::dom::exists(*pre, "code[data-lang],code[data-language],code[language],code[class*=language-],.line,[data-line]") && !is_gutter(*pre))
+         .or_else(|| pres.iter().copied().find(|pre| !is_gutter(*pre)))
+         .unwrap_or(node)
+ }
+@@ -236,7 +236,7 @@
+                 .ancestors_it(None)
+                 .take_while(|ancestor| !dom::same_node(*ancestor, root))
+                 .any(line)
+-            && dom::select(node, "pre,.line,[data-line]").is_empty()
++            && !crate::dom::exists(node, "pre,.line,[data-line]")
+         {
+             node.remove_from_parent();
+         }
+diff --git a/rust/src/dom.rs b/rust/src/dom.rs
+--- a/rust/src/dom.rs
++++ b/rust/src/dom.rs
+@@ -491,3 +491,122 @@
+         }
+     }
+ }
++
++/// A selector list that evaluates only selectors whose rightmost compound can
++/// apply to an element's tag, id, classes, or attribute names. Each candidate
++/// is still verified by its full matcher, so results equal the joined list.
++pub struct SelectorIndex {
++    matchers: Vec<Matcher>,
++    always: Vec<usize>,
++    tags: HashMap<String, Vec<usize>>,
++    classes: HashMap<String, Vec<usize>>,
++    ids: HashMap<String, Vec<usize>>,
++    attrs: HashMap<String, Vec<usize>>,
++}
++
++impl SelectorIndex {
++    pub fn new(selectors: &[&str]) -> Self {
++        let mut index = SelectorIndex {
++            matchers: Vec::new(),
++            always: Vec::new(),
++            tags: HashMap::new(),
++            classes: HashMap::new(),
++            ids: HashMap::new(),
++            attrs: HashMap::new(),
++        };
++        for selector in selectors {
++            let Ok(matcher) = Matcher::new(selector) else {
++                continue;
++            };
++            let position = index.matchers.len();
++            index.matchers.push(matcher);
++            let bucket = match rightmost_key(selector) {
++                Some((b'.', name)) => index.classes.entry(name),
++                Some((b'#', name)) => index.ids.entry(name),
++                Some((b'[', name)) => index.attrs.entry(name.to_ascii_lowercase()),
++                Some((_, name)) => index.tags.entry(name.to_ascii_lowercase()),
++                None => {
++                    index.always.push(position);
++                    continue;
++                }
++            };
++            bucket.or_default().push(position);
++        }
++        index
++    }
++
++    pub fn matches(&self, node: NodeRef<'_>) -> bool {
++        let mut candidates = self.always.clone();
++        node.query(|data| {
++            let NodeData::Element(element) = &data.data else {
++                return;
++            };
++            let local = element.name.local.to_ascii_lowercase();
++            candidates.extend(self.tags.get(&*local).into_iter().flatten());
++            for attr in &element.attrs {
++                let name = attr.name.local.to_ascii_lowercase();
++                candidates.extend(self.attrs.get(&*name).into_iter().flatten());
++                match &*name {
++                    "id" => candidates.extend(self.ids.get(attr.value.as_ref()).into_iter().flatten()),
++                    "class" => {
++                        for class in attr.value.split_ascii_whitespace() {
++                            candidates.extend(self.classes.get(class).into_iter().flatten());
++                        }
++                    }
++                    _ => (),
++                }
++            }
++        });
++        candidates.iter().any(|&i| node.is_match(&self.matchers[i]))
++    }
++
++    /// Matching descendants in document order, like [`select`].
++    pub fn select<'a>(&self, root: NodeRef<'a>) -> Vec<NodeRef<'a>> {
++        root.descendants_it()
++            .filter(|node| node.is_element() && self.matches(*node))
++            .collect()
++    }
++}
++
++/// The first simple selector of the rightmost compound, when it is a plain
++/// type, class, id, or attribute-name test that every match must satisfy.
++fn rightmost_key(selector: &str) -> Option<(u8, String)> {
++    let (mut depth, mut quote, mut start) = (0i32, None, 0);
++    for (i, byte) in selector.bytes().enumerate() {
++        match (quote, byte) {
++            (Some(q), b) if b == q => quote = None,
++            (Some(_), _) => (),
++            (None, b'"' | b'\'') => quote = Some(byte),
++            (None, b'[' | b'(') => depth += 1,
++            (None, b']' | b')') => depth -= 1,
++            (None, b',') if depth == 0 => return None,
++            (None, b' ' | b'>' | b'+' | b'~') if depth == 0 => start = i + 1,
++            _ => (),
++        }
++    }
++    let compound = selector[start..].trim();
++    let first = *compound.as_bytes().first()?;
++    let rest = match first {
++        b'.' | b'#' | b'[' => &compound[1..],
++        b if b.is_ascii_alphabetic() => compound,
++        _ => return None,
++    };
++    let name: String = rest
++        .chars()
++        .take_while(|c| c.is_ascii_alphanumeric() || matches!(c, '-' | '_'))
++        .collect();
++    let end = rest.as_bytes().get(name.len()).copied();
++    // Escapes or unusual characters make the key unreliable; check always.
++    if name.is_empty() || matches!(end, Some(b'\\' | b'|')) {
++        return None;
++    }
++    Some((if first.is_ascii_alphabetic() { b't' } else { first }, name))
++}
++
++/// Whether any descendant matches, stopping at the first match.
++pub fn exists(root: NodeRef<'_>, selector: &str) -> bool {
++    matcher(selector).is_some_and(|matcher| {
++        root.descendants_it()
++            .any(|node| node.is_element() && node.is_match(&matcher))
++    })
++}
+diff --git a/rust/src/finalize.rs b/rust/src/finalize.rs
+--- a/rust/src/finalize.rs
++++ b/rust/src/finalize.rs
+@@ -215,7 +215,7 @@
+         }
+         if parent.element_children().iter().any(|n| {
+             crate::utils::tag(*n) == "a"
+-                && !select(*n, "img").is_empty()
++                && crate::dom::exists(*n, "img")
+                 && normalized(&attribute(*n, "href")) == normalized(&src)
+         }) {
+             image.remove_from_parent()
+@@ -247,7 +247,7 @@
+             })
+             .unwrap_or(src);
+         metadata.image = best;
+-        if !closest(image, "figure").is_some_and(|f| !select(f, "figcaption").is_empty()) {
++        if !closest(image, "figure").is_some_and(|f| crate::dom::exists(f, "figcaption")) {
+             image.remove_from_parent()
+         }
+         break;
+diff --git a/rust/src/footnotes.rs b/rust/src/footnotes.rs
+--- a/rust/src/footnotes.rs
++++ b/rust/src/footnotes.rs
+@@ -308,7 +308,7 @@
+                 label.replace_with(&self.reference(index));
+             }
+         }
+-        if !select(self.root, "label.footref").is_empty()
++        if crate::dom::exists(self.root, "label.footref")
+             || self
+                 .notes
+                 .iter()
+@@ -316,7 +316,7 @@
+         {
+             for footer in select(self.root, "footer")
+                 .into_iter()
+-                .filter(|footer| !select(*footer, ".footdef").is_empty())
++                .filter(|footer| crate::dom::exists(*footer, ".footdef"))
+             {
+                 self.remove(footer);
+             }
+@@ -448,7 +448,7 @@
+                 if let Some(parent) = container.parent().filter(|parent| {
+                     parent.has_class("footnotes")
+                         && !same_node(*parent, self.root)
+-                        && select(*parent, "h1,h2,h3,h4,h5,h6").is_empty()
++                        && !crate::dom::exists(*parent, "h1,h2,h3,h4,h5,h6")
+                 }) {
+                     self.remove(parent);
+                 }
+@@ -928,7 +928,7 @@
+                 .into_iter()
+                 .rfind(|paragraph| {
+                     !paragraph.text().trim().is_empty()
+-                        || !select(*paragraph, "img,video,audio,iframe,svg,math").is_empty()
++                        || crate::dom::exists(*paragraph, "img,video,audio,iframe,svg,math")
+                 })
+                 .unwrap_or(item);
+             for (index, id) in note.refs.iter().enumerate() {
+diff --git a/rust/src/images.rs b/rust/src/images.rs
+--- a/rust/src/images.rs
++++ b/rust/src/images.rs
+@@ -98,7 +98,7 @@
+             }
+             container.element_children().into_iter().find(|n| {
+                 matches!(tag(*n).as_str(), "em" | "i" | "small" | "cite" | "span")
+-                    && dom::select(*n, "img,video").is_empty()
++                    && !crate::dom::exists(*n, "img,video")
+                     && meaningful_caption(&n.text())
+             })
+         });
+diff --git a/rust/src/patterns.rs b/rust/src/patterns.rs
+--- a/rust/src/patterns.rs
++++ b/rust/src/patterns.rs
+@@ -3,7 +3,7 @@
+     DebugRemoval, Metadata,
+     dom::{closest, is_before, select},
+     selection::HEADINGS,
+-    utils::{attribute, contains, count_words, normalize_text, tag, utf16_len},
++    utils::{attribute, contains, count_words, normalize_text, tag, utf16_len, words_at_most},
+ };
+ use dom_query::NodeRef;
+ use regex::Regex;
+@@ -23,7 +23,7 @@
+     r"(?i)\d+\s*min(?:ute)?s?\s+read\b|(?:read(?:ing)?\s+time)\s*:?\s*\d+\s*min(?:ute)?s?\b";
+ const RELATED: &str = r"(?i)^(?:related (?:posts?|articles?|content|stories|reads?|reading)|you (?:might|may|could) (?:also )?(?:like|enjoy|be interested in)|read (?:next|more|also)|further reading|see also|more (?:from .*|from|articles?|posts?|like this)|more to (?:read|explore)|explore more|about (?:the )?author|latest (?:news|events?|posts?|articles?|stories)(?:\s*[&+]\s*(?:news|events?|posts?|articles?|stories))?)$";
+ const CTA: &str = r"(?i)^(?:subscribe|sign up|follow us|share this|stay (?:updated|connected)|join (?:us|our)|search (?:the |our )?(?:site|blog|archives?|newsroom|website|catalog|store|shop|database))$";
+-const NEWSLETTER: &str = r"(?i)\bsubscribe\b[\s\S]{0,40}\bnewsletter\b|\bnewsletter\b[\s\S]{0,40}\bsubscribe\b|\bsign[- ]up\b[\s\S]{0,80}\b(?:newsletter|email alert)|\b(?:don[’']?t (?:want to )?miss|never miss)\b[\s\S]{0,80}\b(?:latest|best|exclusive|reports?|updates?|source)";
++const NEWSLETTER: &str = r"(?i)\bsubscribe\b(?s:.){0,40}\bnewsletter\b|\bnewsletter\b(?s:.){0,40}\bsubscribe\b|\bsign[- ]up\b(?s:.){0,80}\b(?:newsletter|email alert)|\b(?:don[’']?t (?:want to )?miss|never miss)\b(?s:.){0,80}\b(?:latest|best|exclusive|reports?|updates?|source)";
+ 
+ fn remove(node: NodeRef<'_>, reason: &str, debug: bool, removals: &mut Vec<DebugRemoval>) {
+     if debug {
+@@ -125,10 +125,10 @@
+     {
+         return false;
+     }
+-    if !select(node, "script,style,[role=dialog],[role=alertdialog]").is_empty() {
++    if crate::dom::exists(node, "script,style,[role=dialog],[role=alertdialog]") {
+         return false;
+     }
+-    if name == "div" && select(node, "p").is_empty() {
++    if name == "div" && !crate::dom::exists(node, "p") {
+         return false;
+     }
+     let text = node.text();
+@@ -151,15 +151,15 @@
+     let title = select(root, "h1,h2")
+         .into_iter()
+         .find(|h| !normalized.is_empty() && normalize_text(&h.text()) == normalized);
+-    let candidates: Vec<_> = select(root, "p,div,section,article,blockquote,font")
++    let mut candidates = select(root, "p,div,section,article,blockquote,font")
+         .into_iter()
+-        .filter(|n| title.is_none_or(|h| is_before(h, *n)) && prose(*n))
+-        .collect();
+-    let leaf = candidates
+-        .iter()
+-        .find(|n| ["p", "blockquote", "font"].contains(&tag(**n).as_str()))
+-        .copied();
+-    let container = candidates.first().copied().map(|mut node| {
++        .filter(|n| title.is_none_or(|h| is_before(h, *n)) && prose(*n));
++    let first = candidates.next();
++    let leaf = std::iter::once(first)
++        .flatten()
++        .chain(candidates)
++        .find(|n| ["p", "blockquote", "font"].contains(&tag(*n).as_str()));
++    let container = first.map(|mut node| {
+         loop {
+             let children: Vec<_> = node
+                 .element_children()
+@@ -202,7 +202,7 @@
+     let text = prev.text();
+     let w = count_words(&text);
+     if (1..=6).contains(&w)&&text.trim().chars().count()<=40&&!text.contains(['.','!','?'])&&!re!(DATE).is_match(&text)
+-        && select(prev,"img,picture,video,iframe,figure,table,pre,code,time,[datetime],h1,h2,h3,h4,h5,h6,ul,ol,blockquote").is_empty(){remove(prev,"eyebrow label",debug,removals)}
++        && !crate::dom::exists(prev,"img,picture,video,iframe,figure,table,pre,code,time,[datetime],h1,h2,h3,h4,h5,h6,ul,ol,blockquote"){remove(prev,"eyebrow label",debug,removals)}
+ }
+ 
+ pub fn remove_patterns(
+@@ -242,7 +242,7 @@
+                 let h = attribute(*a, "href");
+                 h == "/" || h.trim_matches('/').split('/').count() == 1
+             })
+-            && select(list, "img,p,figure,blockquote").is_empty()
++            && !crate::dom::exists(list, "img,p,figure,blockquote")
+         {
+             remove(
+                 wrapper(list, root),
+@@ -256,8 +256,8 @@
+         for a in select(root, "a[href]") {
+             if is_before(a, h1)
+                 && words(a) <= 25
+-                && !select(a, "div").is_empty()
+-                && select(a, "img,picture,video").is_empty()
++                && crate::dom::exists(a, "div")
++                && !crate::dom::exists(a, "img,picture,video")
+                 && !re!(r"[.!?]\s").is_match(&a.text())
+             {
+                 remove(a, "promotional banner link", debug, removals)
+@@ -272,7 +272,7 @@
+         let mut best = None;
+         let mut current = time.parent();
+         while let Some(n) = current.filter(|n| n.id != root.id) {
+-            if !select(n, "h1,h2").is_empty() && pre(n) {
++            if crate::dom::exists(n, "h1,h2") && pre(n) {
+                 let mut metadata = Vec::new();
+                 for node in select(n, "h1,h2,h3,time,[aria-label]") {
+                     if !metadata.iter().any(|existing| contains(*existing, node)) {
+@@ -293,7 +293,7 @@
+         }
+     }
+     for media in select(root, "audio,video") {
+-        if !media.has_attr("src") && select(media, "source").is_empty() {
++        if !media.has_attr("src") && !crate::dom::exists(media, "source") {
+             continue;
+         }
+         let mut target = media;
+@@ -313,7 +313,7 @@
+     for list in select(root, "ul,ol") {
+         if protected(list)
+             || pos(list) > content_length * 3 / 10
+-            || !select(list, CONTENT).is_empty()
++            || crate::dom::exists(list, CONTENT)
+         {
+             continue;
+         }
+@@ -366,15 +366,16 @@
+         let text = node.text();
+         let text = text.trim();
+         let w = count_words(text);
+-        if w == 0 || w > 15 || !select(node, NO_IMG).is_empty() {
++        if w == 0 || w > 15 || crate::dom::exists(node, NO_IMG) {
+             continue;
+         }
++        // Ancestor text contains the node's text, so word counts only grow.
+         if std::iter::once(node)
+             .chain(node.ancestors_it(None).take_while(|p| p.id != root.id))
++            .take_while(|n| words_at_most(*n, 15))
+             .any(|n| {
+-                words(n) <= 15
+-                    && re!(r"(?i)^(?:date|published|updated|posted|from|to|subject)\s*:")
+-                        .is_match(n.text().trim())
++                re!(r"(?i)^(?:date|published|updated|posted|from|to|subject)\s*:")
++                    .is_match(n.text().trim())
+             })
+         {
+             continue;
+@@ -383,7 +384,7 @@
+         let has_date = re!(DATE).is_match(text);
+         let readtime = re!(READ_TIME).is_match(text)
+             && (if has_date {
+-                select(node, "p,div,section,article").is_empty()
++                !crate::dom::exists(node, "p,div,section,article")
+             } else {
+                 w <= 5 && pre(node)
+             })
+@@ -400,7 +401,7 @@
+             && pre(node)
+             && ((!title.is_empty() && normalized == title)
+                 || (!desc.is_empty() && normalized == desc));
+-        let timezone = pos(node) <= 300 && re!(r"(?i)^current time in$").is_match(text);
++        let timezone = re!(r"(?i)^current time in$").is_match(text) && pos(node) <= 300;
+         let pinned = re!(r"(?i)^pinned$").is_match(text);
+         let relative = pre(node)
+             && re!(r"(?i)^\d+\s+(?:second|minute|hour|day|week|month|year)s?\s+ago$")
+@@ -472,7 +473,7 @@
+         }
+     }
+     for list in select(root, "ul,ol,dl") {
+-        if protected(list) || !contains(root, list) || !select(list, CONTENT).is_empty() {
++        if protected(list) || !contains(root, list) || crate::dom::exists(list, CONTENT) {
+             continue;
+         }
+         let items: Vec<_> = list
+@@ -502,7 +503,7 @@
+         let prev = list.prev_element_sibling();
+         if prev.is_some_and(|p| {
+             HEADINGS.split(',').any(|h| h == tag(p))
+-                || !select(p, HEADINGS).is_empty()
++                || crate::dom::exists(p, HEADINGS)
+                 || p.text().trim().ends_with(':')
+         }) {
+             continue;
+@@ -517,7 +518,7 @@
+     // Parent-path navigation is a common unlabeled back link.
+     if let Some(base) = page_url.and_then(|s| Url::parse(s).ok()) {
+         for a in select(root, "a[href]") {
+-            if words(a) > 8 || protected(a) || !select(a, CONTENT).is_empty() {
++            if words(a) > 8 || protected(a) || crate::dom::exists(a, CONTENT) {
+                 continue;
+             }
+             let href = attribute(a, "href");
+@@ -598,18 +599,21 @@
+         }
+     }
+     for node in select(root, "div,section,aside,ul") {
+-        if !contains(root, node) || protected(node) || !select(node, CONTENT).is_empty() {
++        if !contains(root, node) || protected(node) || crate::dom::exists(node, CONTENT) {
+             continue;
+         }
+         let limit = if tag(node) == "ul" { 30 } else { 60 };
+         let text = node.text();
++        if !(2..=limit).contains(&count_words(&text)) {
++            continue;
++        }
+         let normalized = re!(r"([a-z])([A-Z])").replace_all(&text, "$1 $2");
+-        if (2..=limit).contains(&words(node)) && re!(NEWSLETTER).is_match(&normalized) {
++        if re!(NEWSLETTER).is_match(&normalized) {
+             let mut target = node;
+             let max = words(node) * 2 + 15;
+             while let Some(parent) = target
+                 .parent()
+-                .filter(|p| p.id != root.id && words(*p) <= max && select(*p, CONTENT).is_empty())
++                .filter(|p| p.id != root.id && words(*p) <= max && !crate::dom::exists(*p, CONTENT))
+             {
+                 target = parent
+             }
+@@ -663,7 +667,7 @@
+         });
+         let contact = re!(r"[\w.-]+@[\w.-]+\.\w+|\(?\d{3}\)?[\s.‑–-]?\d{3}[\s.‑–-]?\d{4}")
+             .is_match(&text)
+-            || !select(node, "a[href^='mailto:']").is_empty();
++            || crate::dom::exists(node, "a[href^='mailto:']");
+         if label && contact {
+             remove(
+                 isolated(node, root),
+@@ -680,8 +684,8 @@
+         }
+         let text = node.text();
+         let t = text.trim();
+-        let w = words(node);
+-        if w<=50&&pos(node)>200&&re!(r"(?i)^(?:This (?:article|story|piece) (?:appeared|was published|originally appeared) in\b|A version of this (?:article|story) (?:appeared|was published) in\b|Originally (?:published|appeared) (?:in|on|at)\b|Any re-?use permitted\b|©\s*(?:Copyright\s+)?\d{4}|Comments?$|Leave a (?:comment|reply)$|Loading\.{3}$|Affiliate links\b.*\b(?:earn|commission)|Thank you for (?:being part of|joining) our community\b)|\bRead our Comment Policy\b").is_match(t) {
++        let w = count_words(&text);
++        if w<=50&&re!(r"(?i)^(?:This (?:article|story|piece) (?:appeared|was published|originally appeared) in\b|A version of this (?:article|story) (?:appeared|was published) in\b|Originally (?:published|appeared) (?:in|on|at)\b|Any re-?use permitted\b|©\s*(?:Copyright\s+)?\d{4}|Comments?$|Leave a (?:comment|reply)$|Loading\.{3}$|Affiliate links\b.*\b(?:earn|commission)|Thank you for (?:being part of|joining) our community\b)|\bRead our Comment Policy\b").is_match(t)&&pos(node)>200 {
+             let mut target=node;while target.next_element_sibling().is_none(){let Some(parent)=target.parent().filter(|p|p.id!=root.id)else{break};target=parent}
+             if pos(target) < 200 {
+                 if target.id != node.id && node.next_element_sibling().is_none() { remove(node,"boilerplate text",debug,removals); }
+@@ -694,7 +698,7 @@
+             let mut target = node;
+             while let Some(parent) = target
+                 .parent()
+-                .filter(|p| p.id != root.id && words(*p) <= 15 && select(*p, NO_IMG).is_empty())
++                .filter(|p| p.id != root.id && words(*p) <= 15 && !crate::dom::exists(*p, NO_IMG))
+             {
+                 target = parent
+             }
+@@ -704,7 +708,7 @@
+             && (1..=10).contains(&w)
+             && near_end(node, 300)
+             && !text.contains(['.', '!', '?'])
+-            && select(node, CONTENT).is_empty()
++            && !crate::dom::exists(node, CONTENT)
+         {
+             let link_len: usize = select(node, "a").iter().map(|a| a.text().len()).sum();
+             if link_len as f64 / (text.trim().len().max(1) as f64) >= 0.8 && link_len > 0 {
+@@ -748,10 +752,10 @@
+         }
+         if let Some(prev) = target.prev_element_sibling() {
+             let preceded = prev.prev_element_sibling().is_some_and(|p| {
+-                !select(p, HEADINGS).is_empty() || HEADINGS.split(',').any(|h| h == tag(p))
++                crate::dom::exists(p, HEADINGS) || HEADINGS.split(',').any(|h| h == tag(p))
+             });
+             if words(prev) < 50
+-                && select(prev, CONTENT).is_empty()
++                && !crate::dom::exists(prev, CONTENT)
+                 && !preceded
+                 && !HEADINGS.split(',').any(|h| h == tag(prev))
+             {
+@@ -764,7 +768,7 @@
+         if contains(root, node)
+             && !protected(node)
+             && words(node) <= 20
+-            && select(node, CONTENT).is_empty()
++            && !crate::dom::exists(node, CONTENT)
+             && re!(r"(?i)^for more (?:on|about)\b").is_match(node.text().trim())
+         {
+             remove(node, "related content intro", debug, removals);
+@@ -784,15 +788,15 @@
+                 .find(&first_text)
+                 .is_some_and(|offset| utf16_len(&content_text[..offset]) >= 500)
+         } else {
+-            children.iter().all(|n| !select(*n, "a[href]").is_empty())
++            children.iter().all(|n| crate::dom::exists(*n, "a[href]"))
+                 && preceding_prose_words(node, root) >= 100
+         };
+         if children.len() >= 2
+             && children
+                 .iter()
+                 .filter(|c| {
+-                    !select(**c, "img,picture").is_empty()
+-                        && !select(**c, "h2,h3,h4,a[href]").is_empty()
++                    crate::dom::exists(**c, "img,picture")
++                        && crate::dom::exists(**c, "h2,h3,h4,a[href]")
+                 })
+                 .count()
+                 * 10
+diff --git a/rust/src/pipeline.rs b/rust/src/pipeline.rs
+--- a/rust/src/pipeline.rs
++++ b/rust/src/pipeline.rs
+@@ -5,6 +5,7 @@
+     utils::{count_words, tag},
+ };
+ use dom_query::{Document, NodeId, NodeRef};
++use std::cell::OnceCell;
+ use serde_json::Value;
+ 
+ pub fn extract(html: &str, page_url: Option<&str>, options: &Options) -> Result<Extraction, Error> {
+@@ -58,18 +59,20 @@
+                 &adapter.metadata,
+                 &warnings,
+                 None,
++                &OnceCell::new(),
+             );
+             result.extractor_type = Some(adapter.extractor_type);
+             return Ok(result);
+         }
+     }
+-    let mut result = attempt(&original, page_url, options, &metadata, &warnings, None);
++    let main = OnceCell::new();
++    let mut result = attempt(&original, page_url, options, &metadata, &warnings, None, &main);
+     // Disabling a selective pass must make a substantial difference before it
+     // can replace a successful short article with surrounding page furniture.
+     if result.word_count < 200 && options.remove_partial_selectors {
+         let mut retry = options.clone();
+         retry.remove_partial_selectors = false;
+-        let candidate = attempt(&original, page_url, &retry, &metadata, &warnings, None);
++        let candidate = attempt(&original, page_url, &retry, &metadata, &warnings, None, &main);
+         if candidate.word_count > result.word_count * 2 {
+             result = candidate
+         }
+@@ -77,7 +80,7 @@
+     if result.word_count < 50 && options.remove_hidden_elements {
+         let mut retry = options.clone();
+         retry.remove_hidden_elements = false;
+-        let candidate = attempt(&original, page_url, &retry, &metadata, &warnings, None);
++        let candidate = attempt(&original, page_url, &retry, &metadata, &warnings, None, &main);
+         if candidate.word_count > result.word_count * 2 {
+             result = candidate
+         }
+@@ -99,6 +102,7 @@
+                 &metadata,
+                 &warnings,
+                 Some(hidden.id),
++                &main,
+             );
+             if candidate.word_count > result.word_count
+                 || (candidate.word_count > 20.max(result.word_count * 7 / 10)
+@@ -113,7 +117,7 @@
+         retry.remove_low_scoring = false;
+         retry.remove_partial_selectors = false;
+         retry.remove_content_patterns = false;
+-        let candidate = attempt(&original, page_url, &retry, &metadata, &warnings, None);
++        let candidate = attempt(&original, page_url, &retry, &metadata, &warnings, None, &main);
+         if candidate.word_count > result.word_count {
+             result = candidate
+         }
+@@ -130,6 +134,7 @@
+                 &metadata,
+                 &warnings,
+                 Some(node.id),
++                &main,
+             );
+         } else {
+             result = from_html(
+@@ -153,6 +158,7 @@
+     metadata: &Metadata,
+     warnings: &[Warning],
+     forced: Option<NodeId>,
++    main: &OnceCell<Option<NodeId>>,
+ ) -> Extraction {
+     let clone = doc.clone();
+     // Selector adapters can materialize images and math from embedded JSON
+@@ -170,7 +176,14 @@
+     let body = clone.tree.body().unwrap_or(clone.root());
+     let mut root = forced
+         .map(|id| NodeRef::new(id, &clone.tree))
+-        .or_else(|| selection::find_main(&clone, options.content_selector.as_deref()))
++        .or_else(|| {
++            // Every attempt clones the same unmodified document, so node IDs
++            // and the selected root are identical across retries.
++            main.get_or_init(|| {
++                selection::find_main(&clone, options.content_selector.as_deref()).map(|n| n.id)
++            })
++            .map(|id| NodeRef::new(id, &clone.tree))
++        })
+         .unwrap_or(body);
+     if tag(root) == "body"
+         && let Some(node) = schema_element(&clone, schema_text(&metadata.schema_org_data, 0))
+diff --git a/rust/src/removals.rs b/rust/src/removals.rs
+--- a/rust/src/removals.rs
++++ b/rust/src/removals.rs
+@@ -12,7 +12,6 @@
+     utils::{attribute, contains, matches, parse_number, tag, utf16_len},
+ };
+ 
+-static EXACT: LazyLock<String> = LazyLock::new(|| EXACT_SELECTORS.join(","));
+ static PARTIAL: LazyLock<Regex> = LazyLock::new(|| {
+     let patterns: Vec<_> = PARTIAL_SELECTORS
+         .iter()
+@@ -86,10 +85,10 @@
+ 
+ pub fn remove_hidden(root: NodeRef<'_>, debug: bool, removals: &mut Vec<DebugRemoval>) {
+     for node in select(root, "*") {
+-        if tag(node) == "math" || !select(node, "math,[data-mathml],.katex-mathml").is_empty() {
+-            continue;
+-        }
+-        if is_hidden(node) {
++        if is_hidden(node)
++            && tag(node) != "math"
++            && !crate::dom::exists(node, "math,[data-mathml],.katex-mathml")
++        {
+             record(
+                 node,
+                 "removeHiddenElements",
+@@ -150,7 +149,10 @@
+     let mut targets = Vec::new();
+     let mut seen = HashSet::new();
+     if options.remove_exact_selectors {
+-        for node in select(root, &EXACT) {
++        thread_local! {
++            static EXACT_INDEX: crate::dom::SelectorIndex = crate::dom::SelectorIndex::new(EXACT_SELECTORS);
++        }
++        for node in EXACT_INDEX.with(|index| index.select(root)) {
+             if closest(node, "pre,code").is_some() {
+                 continue;
+             }
+@@ -174,10 +176,7 @@
+             root,
+             "[class],[id],[data-component],[data-test],[data-testid],[data-test-id],[data-qa],[data-cy]",
+         ) {
+-            if seen.contains(&node.id)
+-                || closest(node, "code,pre,[data-defuddle]").is_some()
+-                || !select(node, "pre").is_empty()
+-            {
++            if seen.contains(&node.id) {
+                 continue;
+             }
+             let heading = matches!(tag(node).as_str(), "h1" | "h2" | "h3" | "h4" | "h5" | "h6");
+@@ -207,6 +206,8 @@
+                 .chars()
+                 .any(|c| c.is_whitespace() || matches!(c, '_' | '-' | ':' | '.'));
+             if (partial_match(&attrs, false) || partial_match(&id, !delimited))
++                && closest(node, "code,pre,[data-defuddle]").is_none()
++                && !crate::dom::exists(node, "pre")
+                 && seen.insert(node.id)
+             {
+                 targets.push((node, "partial selector match"));
+@@ -236,7 +237,7 @@
+             continue;
+         }
+         if matches(node, FOOTNOTE_LIST_SELECTORS)
+-            || !select(node, FOOTNOTE_LIST_SELECTORS).is_empty()
++            || crate::dom::exists(node, FOOTNOTE_LIST_SELECTORS)
+             || node
+                 .parent()
+                 .is_some_and(|p| matches(p, FOOTNOTE_LIST_SELECTORS))
+diff --git a/rust/src/selection.rs b/rust/src/selection.rs
+--- a/rust/src/selection.rs
++++ b/rust/src/selection.rs
+@@ -96,12 +96,12 @@
+     RegexSet::new(
+         NAVIGATION
+             .iter()
+-            .map(|s| format!(r"(?i)\b{}\b", s.replace(' ', r"\s+"))),
++            .map(|s| format!(r"(?i)(?-u:\b){}(?-u:\b)", s.replace(' ', r"\s+"))),
+     )
+     .unwrap()
+ });
+ static CONTENT_DATE: LazyLock<Regex> = LazyLock::new(|| {
+-    Regex::new(r"(?i)\b(?:(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{1,2},?\s+\d{4}|\d{1,2}(?:st|nd|rd|th)?\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*,?\s+\d{4})\b").unwrap()
++    Regex::new(r"(?i)(?-u:\b)(?:(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{1,2},?\s+\d{4}|\d{1,2}(?:st|nd|rd|th)?\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*,?\s+\d{4})(?-u:\b)").unwrap()
+ });
+ static DATE: LazyLock<Regex> = LazyLock::new(|| {
+     Regex::new(r"(?i)(?:(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{1,2}|\d{1,2}(?:st|nd|rd|th)?\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*)").unwrap()
+@@ -140,10 +140,10 @@
+     {
+         score += 15.0;
+     }
+-    if !select(element, FOOTNOTE_INLINE_REFERENCES).is_empty() {
++    if crate::dom::exists(element, FOOTNOTE_INLINE_REFERENCES) {
+         score += 10.0;
+     }
+-    if !select(element, FOOTNOTE_LIST_SELECTORS).is_empty() {
++    if crate::dom::exists(element, FOOTNOTE_LIST_SELECTORS) {
+         score += 10.0;
+     }
+     score -= select(element, "table").len() as f64 * 5.0;
+@@ -311,7 +311,7 @@
+     if CONTENT.iter().any(|indicator| attrs.contains(indicator)) {
+         return true;
+     }
+-    if !select(element, "pre,table,figure,picture").is_empty() {
++    if crate::dom::exists(element, "pre,table,figure,picture") {
+         return true;
+     }
+     let text = element.text();
+@@ -348,7 +348,7 @@
+ 
+ pub fn clutter_score(element: NodeRef<'_>) -> f64 {
+     if closest(element, FOOTNOTE_LIST_SELECTORS).is_some()
+-        || !select(element, FOOTNOTE_LIST_SELECTORS).is_empty()
++        || crate::dom::exists(element, FOOTNOTE_LIST_SELECTORS)
+     {
+         return 0.0;
+     }
+diff --git a/rust/src/standardize.rs b/rust/src/standardize.rs
+--- a/rust/src/standardize.rs
++++ b/rust/src/standardize.rs
+@@ -246,7 +246,7 @@
+         outer.remove_from_parent();
+     }
+     for link in select(root, "a.ltx_ref") {
+-        if !select(link, ".ltx_ref_tag").is_empty() {
++        if crate::dom::exists(link, ".ltx_ref_tag") {
+             dom::unwrap(link);
+         }
+     }
+@@ -278,7 +278,7 @@
+         let cells = select(table, "td,th");
+         if !cells.is_empty()
+             && cells.iter().all(|cell| cell.text().trim().is_empty())
+-            && select(table, "img,picture,video,audio,iframe,svg,math").is_empty()
++            && !crate::dom::exists(table, "img,picture,video,audio,iframe,svg,math")
+         {
+             hoist_table_captions(table);
+             table.remove_from_parent();
+@@ -368,7 +368,7 @@
+             .iter()
+             .copied()
+             .filter(|cell| {
+-                !cell.text().trim().is_empty() || !select(*cell, "img,video,svg,math").is_empty()
++                !cell.text().trim().is_empty() || crate::dom::exists(*cell, "img,video,svg,math")
+             })
+             .collect();
+         let single_content_cell = nonempty.len() == 1
+@@ -606,7 +606,7 @@
+             && (matches!(
+                 tag(node).as_str(),
+                 "img" | "video" | "audio" | "iframe" | "svg" | "math"
+-            ) || !select(node, "img,video,audio,iframe,svg,math").is_empty()))
++            ) || crate::dom::exists(node, "img,video,audio,iframe,svg,math")))
+ }
+ 
+ fn remove_trailing_headings(root: NodeRef<'_>) {
+diff --git a/rust/src/utils.rs b/rust/src/utils.rs
+--- a/rust/src/utils.rs
++++ b/rust/src/utils.rs
+@@ -19,6 +19,42 @@
+     count
+ }
+ 
++/// Whether a node's text (`node.text()`) has at most `limit` words, stopping
++/// once the limit is exceeded instead of materializing the subtree text.
++pub fn words_at_most(node: dom_query::NodeRef<'_>, limit: usize) -> bool {
++    let mut count = 0;
++    let mut in_word = false;
++    for current in std::iter::once(node).chain(node.descendants_it()) {
++        let exceeded = current.query_or(false, |n| {
++            let dom_query::NodeData::Text { contents } = &n.data else {
++                return false;
++            };
++            for ch in contents.chars() {
++                let cjk = matches!(ch as u32,
++                    0x3040..=0x309f | 0x30a0..=0x30ff | 0x3400..=0x4dbf |
++                    0x4e00..=0x9fff | 0xf900..=0xfaff | 0xac00..=0xd7af);
++                if cjk {
++                    count += 1;
++                    in_word = false;
++                } else if ch <= ' ' {
++                    in_word = false;
++                } else if !in_word {
++                    count += 1;
++                    in_word = true;
++                }
++                if count > limit {
++                    return true;
++                }
++            }
++            false
++        });
++        if exceeded {
++            return false;
++        }
++    }
++    true
++}
++
+ /// Count visible words with separators between structural blocks. Inline
+ /// wrappers do not split a word (e.g. `<em>re</em>tain` remains one word).
+ pub fn count_content_words(root: dom_query::NodeRef<'_>) -> usize {

@@ -1,0 +1,335 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The company has officially announced the successor to its popular product today. After years of waiting, the new model is finally here."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Available to order next week"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The new model features a next-generation chip that enables improved performance across the board."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The chip also powers an upgraded noise cancellation experience. Per the company:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"With the incredible performance of the new chip, users get up to 1.5x more effective noise cancellation for the ultimate listening experience,\" said a company spokesperson."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "New features include:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Live Translation"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Adaptive Audio"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Voice Isolation"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Gesture Controls"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The new model supports high-resolution lossless audio when connected with the included cable."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "It costs $549 and will be available to order starting next Wednesday."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The new model comes in five color options: midnight, starlight, orange, purple, and blue."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The company has officially announced the successor to its popular product today. After years of waiting, the new model is finally here."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Available to order next week"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The new model features a next-generation chip that enables improved performance across the board."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The chip also powers an upgraded noise cancellation experience. Per the company:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"With the incredible performance of the new chip, users get up to 1.5x more effective noise cancellation for the ultimate listening experience,\" said a company spokesperson."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "New features include:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Live Translation"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Adaptive Audio"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Voice Isolation"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Gesture Controls"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The new model supports high-resolution lossless audio when connected with the included cable."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "It costs $549 and will be available to order starting next Wednesday."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The new model comes in five color options: midnight, starlight, orange, purple, and blue."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Jane Smith",
+    "title": "New Product Announced with Major Upgrades",
+    "description": "",
+    "domain": "example.com",
+    "favicon": "https://example.com/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": "Jane Smith"
+  },
+  "warnings": [],
+  "wordCount": 129,
+  "extractorType": null
+}

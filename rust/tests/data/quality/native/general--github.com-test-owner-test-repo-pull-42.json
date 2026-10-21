@@ -1,0 +1,603 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Summary"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This fixes a regression where content was clipped partway through extraction."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The root cause was a malformed "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "<figure>"
+        },
+        {
+          "kind": "text",
+          "text": " in the source HTML."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Changes"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Skip processing when element contains unexpected content"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Preserve remaining content after extraction"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Add regression fixture and test coverage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Testing"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "npm test"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Comments"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "reviewer-bot"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · 2026-01-15"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Consider removing just the image element instead of the entire anchor, to preserve any text content inside the link."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "reviewer-bot"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · 2026-01-15"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "The early return here might skip valid figures that happen to contain extra whitespace nodes. Consider checking for actual block-level content instead."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "author-one"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · 2026-01-15"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Posted a follow-up commit to address the review comments."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "ul",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "li",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Preserve linked text when stripping the image"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "li",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Check for block-level content instead of early return"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Summary"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This fixes a regression where content was clipped partway through extraction."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The root cause was a malformed "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "<figure>"
+        },
+        {
+          "kind": "text",
+          "text": " in the source HTML."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Changes"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Skip processing when element contains unexpected content"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Preserve remaining content after extraction"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Add regression fixture and test coverage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Testing"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "npm test"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Comments"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "reviewer-bot"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · 2026-01-15"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Consider removing just the image element instead of the entire anchor, to preserve any text content inside the link."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "reviewer-bot"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · 2026-01-15"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "The early return here might skip valid figures that happen to contain extra whitespace nodes. Consider checking for actual block-level content instead."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "author-one"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · 2026-01-15"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Posted a follow-up commit to address the review comments."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "ul",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "li",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Preserve linked text when stripping the image"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "li",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Check for block-level content instead of early return"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "GitHub - test-owner/test-repo",
+    "title": "Fix rendering when malformed elements nest content · Pull Request #42 · test-owner/test-repo",
+    "description": "Summary This fixes a regression where content was clipped partway through extraction. The root cause was a malformed <fi",
+    "domain": "github.com",
+    "favicon": "https://github.com/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "2026-01-15T10:30:00Z",
+    "author": "author-one"
+  },
+  "warnings": [],
+  "wordCount": 120,
+  "extractorType": "github"
+}

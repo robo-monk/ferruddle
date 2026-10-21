@@ -1,0 +1,20 @@
+{
+  "id": "footnotes--pulldown-cmark-footnote-definition",
+  "url": "https://pulldown-cmark-footnote-definition",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\"/>\n  <title>pulldown-cmark footnote-definition</title>\n</head>\n<body>\n  <!--\n    Pattern: pulldown-cmark / mdBook / zola unwrapped footnote definitions.\n    Inline ref: <sup class=\"footnote-reference\"><a href=\"#N\">N</a></sup>\n    Definition: <div class=\"footnote-definition\" id=\"N\"><sup class=\"footnote-definition-label\">N</sup>\n                  <p>content</p>\n                </div>\n    No wrapping container — each definition is a top-level sibling of the content,\n    typically preceded by an <hr>.\n  -->\n  <article>\n    <h1>Example post with a footnote</h1>\n\n    <p>Example bit-shift analysis: a common simplification is to replace\n    <code>x &amp; ~0</code> with <code>x</code><sup class=\"footnote-reference\"><a href=\"#1\">1</a></sup>.\n    Other paragraph content follows that explains the broader idea in more detail.</p>\n\n    <p>This is an additional paragraph with more prose to give the post enough weight\n    for the content detection scoring. Lorem ipsum dolor sit amet, consectetur adipiscing\n    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\n\n    <p>Thanks to everyone for reading. Ut enim ad minim veniam, quis nostrud exercitation\n    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>\n    <hr>\n    <div class=\"footnote-definition\" id=\"1\"><sup class=\"footnote-definition-label\">1</sup>\n    <p>Possibly with masking of the top bit if our IR semantics have\n    defined wrapping/truncation behavior: <code>x &amp; 0x7fff..ffff</code>.</p>\n    </div>\n  </article>\n</body>\n</html>\n",
+  "inputSha256": "a99a8c205e57c5a474599ad0d5e3b8d80e89deff94de5b120af07c52c2ca0fe5",
+  "upstreamFixture": "tests/fixtures/footnotes--pulldown-cmark-footnote-definition.html",
+  "markdownGoldenSha256": "96d29e4f28c320a5a9c5430ab01383d06579e2c06062cfaa7fbd0d01c32c51e7",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>Example bit-shift analysis: a common simplification is to replace <code>x &amp; ~0</code> with <code>x</code><sup id=\"fnref:1\"><a href=\"#fn:1\">1</a></sup>. Other paragraph content follows that explains the broader idea in more detail.</p> <p>This is an additional paragraph with more prose to give the post enough weight for the content detection scoring. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> <p>Thanks to everyone for reading. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>   <div id=\"footnotes\"><ol><li id=\"fn:1\"><p>Possibly with masking of the top bit if our IR semantics have defined wrapping/truncation behavior: <code>x &amp; 0x7fff..ffff</code>.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:1\">↩</a></p></li></ol></div></article>",
+    "contentMarkdown": "Example bit-shift analysis: a common simplification is to replace `x & ~0` with `x`[^1]. Other paragraph content follows that explains the broader idea in more detail.\n\nThis is an additional paragraph with more prose to give the post enough weight for the content detection scoring. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\nThanks to everyone for reading. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n[^1]: Possibly with masking of the top bit if our IR semantics have defined wrapping/truncation behavior: `x & 0x7fff..ffff`.",
+    "title": "Example post with a footnote",
+    "author": "",
+    "site": "pulldown-cmark-footnote-definition",
+    "published": "",
+    "wordCount": 108,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

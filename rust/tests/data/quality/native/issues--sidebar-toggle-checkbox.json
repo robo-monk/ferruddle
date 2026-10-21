@@ -1,0 +1,139 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The first paragraph introduces the topic with enough text to score as the main content of the page so that the body extractor will pick this section."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A second paragraph keeps the prose flowing and ensures the article has more than one block of substantive text to anchor the content score."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Storage migration: SD to NVMe"
+        ],
+        [
+          "src",
+          "https://sidebar-toggle-checkbox/media/orangepi-storage-migration.svg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Storage migration: SD to NVMe"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A closing paragraph after the diagram explains what the figure shows and gives the article a tidy conclusion that should survive extraction."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The first paragraph introduces the topic with enough text to score as the main content of the page so that the body extractor will pick this section."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A second paragraph keeps the prose flowing and ensures the article has more than one block of substantive text to anchor the content score."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Storage migration: SD to NVMe"
+        ],
+        [
+          "src",
+          "https://sidebar-toggle-checkbox/media/orangepi-storage-migration.svg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Storage migration: SD to NVMe"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A closing paragraph after the diagram explains what the figure shows and gives the article a tidy conclusion that should survive extraction."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "sidebar-toggle-checkbox",
+    "title": "Article With Sidebar Toggle",
+    "description": "",
+    "domain": "sidebar-toggle-checkbox",
+    "favicon": "https://sidebar-toggle-checkbox/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 78,
+  "extractorType": null
+}

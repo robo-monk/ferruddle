@@ -1,0 +1,1093 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The first contribution was a foundational sorting algorithm "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:1"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " that became widely used. It relied on a partitioning technique "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:2"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " described in an earlier paper."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Later work introduced an axiomatic framework for reasoning about programs "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:3"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:3"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". This built on prior research into formal semantics "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:4"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:4"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Concurrency mechanisms were addressed in subsequent publications "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:3-2"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:3"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:5"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:5"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h4",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "References and notes"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "anchor",
+          "id": "fn:1"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "A. Author: "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "The Sorting Algorithm"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", in "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Journal of Computing"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", vol. 5, no. 1, pages 10–16, 1962."
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:1"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:2"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "A. Author: "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Partitioning Methods"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", in "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Proceedings of the Computing Conference"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", pages 102–116, 1963."
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:2"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:3"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "A. Author: "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "An Axiomatic Basis for Programs"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", in "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Communications of Computing"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", vol. 12, no. 10, pages 576–583, 1969."
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:3"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:3-2"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:4"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "B. Scholar: "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Assigning Meanings to Programs"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", in "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mathematical Foundations of Computing"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", vol. 19, pages 19–31, 1967."
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:4"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:5"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "A. Author: "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Communicating Sequential Processes"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", in "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Communications of Computing"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", vol. 21, no. 8, pages 666–677, 1978."
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:5"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The first contribution was a foundational sorting algorithm "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " that became widely used. It relied on a partitioning technique "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " described in an earlier paper."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Later work introduced an axiomatic framework for reasoning about programs "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-3"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". This built on prior research into formal semantics "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-4"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Concurrency mechanisms were addressed in subsequent publications "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-3"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-5"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h4",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "References and notes"
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-1"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A. Author: "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "The Sorting Algorithm"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", in "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Journal of Computing"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", vol. 5, no. 1, pages 10–16, 1962."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-2"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A. Author: "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Partitioning Methods"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", in "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Proceedings of the Computing Conference"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", pages 102–116, 1963."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-3"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A. Author: "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "An Axiomatic Basis for Programs"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", in "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Communications of Computing"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", vol. 12, no. 10, pages 576–583, 1969."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-4"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "B. Scholar: "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Assigning Meanings to Programs"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", in "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Mathematical Foundations of Computing"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", vol. 19, pages 19–31, 1967."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-5"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A. Author: "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Communicating Sequential Processes"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", in "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Communications of Computing"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", vol. 21, no. 8, pages 666–677, 1978."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "child-anchor-id",
+    "title": "Anchor-ID Footnote Pattern",
+    "description": "",
+    "domain": "child-anchor-id",
+    "favicon": "https://child-anchor-id/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 137,
+  "extractorType": null
+}

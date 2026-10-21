@@ -1,0 +1,95 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Sample note text for testing the Substack extractor."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "It has multiple paragraphs to verify the content is captured correctly."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          ""
+        ],
+        [
+          "src",
+          "https://example.com/image/full-res.jpg"
+        ]
+      ],
+      "children": []
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Sample note text for testing the Substack extractor."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "It has multiple paragraphs to verify the content is captured correctly."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          ""
+        ],
+        [
+          "src",
+          "https://example.com/image/full-res.jpg"
+        ]
+      ],
+      "children": []
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Substack",
+    "title": "Test User (@testuser)",
+    "description": "Sample note text for testing the Substack extractor.",
+    "domain": "substack.com",
+    "favicon": "https://substack.com/favicon.ico",
+    "image": "https://example.com/image/full-res.jpg",
+    "language": "en",
+    "published": "",
+    "author": "Test User"
+  },
+  "warnings": [],
+  "wordCount": 19,
+  "extractorType": "substack"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "footnotes--orgmode-css-sidenotes",
+  "url": "https://orgmode-css-sidenotes",
+  "inputHtml": "<html>\n<head>\n<meta charset=\"utf-8\">\n<title>Example Article</title>\n</head>\n<body>\n<article>\n<header>\n<h1>Example Article</h1>\n</header>\n<div class=\"content\">\n<p>\nFirst paragraph with a sidenote reference.<label class=\"footref\" for=\"fn.1\">1</label><input id=\"fn.1\" class=\"footref-toggle\" type=\"checkbox\"><span class=\"sidenote\"><sup>1</sup> This is the first footnote content.</span> More text continues here.\n</p>\n\n<p>\nSecond paragraph with another reference.<label class=\"footref\" for=\"fn.2\">2</label><input id=\"fn.2\" class=\"footref-toggle\" type=\"checkbox\"><span class=\"sidenote\"><sup>2</sup> This is the second footnote with more detail about the topic.</span>\n</p>\n\n<p>\nThird paragraph with a final reference.<label class=\"footref\" for=\"fn.3\">3</label><input id=\"fn.3\" class=\"footref-toggle\" type=\"checkbox\"><span class=\"sidenote\"><sup>3</sup> A reader suggested an alternative approach, which has some merit.</span>\n</p>\n<footer>\n<h1>Sidenotes</h1>\n<div class=\"footdef\"><sup><a id=\"fn.1\" class=\"footnum\" href=\"#fnr.1\" role=\"doc-backlink\">1</a></sup> <div class=\"footpara\" role=\"doc-footnote\"><p class=\"footpara\">This is the first footnote content.</p></div></div>\n<div class=\"footdef\"><sup><a id=\"fn.2\" class=\"footnum\" href=\"#fnr.2\" role=\"doc-backlink\">2</a></sup> <div class=\"footpara\" role=\"doc-footnote\"><p class=\"footpara\">This is the second footnote with more detail about the topic.</p></div></div>\n<div class=\"footdef\"><sup><a id=\"fn.3\" class=\"footnum\" href=\"#fnr.3\" role=\"doc-backlink\">3</a></sup> <div class=\"footpara\" role=\"doc-footnote\"><p class=\"footpara\">A reader suggested an alternative approach, which has some merit.</p></div></div>\n</footer>\n</div>\n</article>\n</body>\n</html>\n",
+  "inputSha256": "d97d33bc7dd09e872912b5c4321d6b676a6705d800b9eb1c99f62130d88719a7",
+  "upstreamFixture": "tests/fixtures/footnotes--orgmode-css-sidenotes.html",
+  "markdownGoldenSha256": "0424877898231b2979e1d89df43fe192c0ecb3c6e1b8409d3204e2f944014999",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>   <p> First paragraph with a sidenote reference.<sup id=\"fnref:1\"><a href=\"#fn:1\">1</a></sup> More text continues here. </p> <p> Second paragraph with another reference.<sup id=\"fnref:2\"><a href=\"#fn:2\">2</a></sup> </p> <p> Third paragraph with a final reference.<sup id=\"fnref:3\"><a href=\"#fn:3\">3</a></sup> </p>   <div id=\"footnotes\"><ol><li id=\"fn:1\"><p> This is the first footnote content.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:1\">↩</a></p></li> <li id=\"fn:2\"><p> This is the second footnote with more detail about the topic.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:2\">↩</a></p></li> <li id=\"fn:3\"><p> A reader suggested an alternative approach, which has some merit.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:3\">↩</a></p></li></ol></div></article>",
+    "contentMarkdown": "First paragraph with a sidenote reference.[^1] More text continues here.\n\nSecond paragraph with another reference.[^2]\n\nThird paragraph with a final reference.[^3]\n\n[^1]: This is the first footnote content.\n\n[^2]: This is the second footnote with more detail about the topic.\n\n[^3]: A reader suggested an alternative approach, which has some merit.",
+    "title": "Example Article",
+    "author": "",
+    "site": "orgmode-css-sidenotes",
+    "published": "",
+    "wordCount": 54,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

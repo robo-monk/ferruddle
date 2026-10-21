@@ -1,0 +1,99 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "User-friendly assert in C++26"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is a code example using the new assert features:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "cpp",
+      "text": "// https://godbolt.org/z/9sqM7PvWh\nusing Int = int;\nint x = 1, y = 2;\n\nassert(std::is_same<int, Int>::value);\nassert([x, y]() { return x < y; }() == 1);\nassert(std::vector<int>{1, 2, 3}.size() == 3);"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The assert macro now provides better diagnostics."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "User-friendly assert in C++26"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is a code example using the new assert features:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "cpp",
+      "text": "// https://godbolt.org/z/9sqM7PvWh\nusing Int = int;\nint x = 1, y = 2;\n\nassert(std::is_same<int, Int>::value);\nassert([x, y]() { return x < y; }() == 1);\nassert(std::vector<int>{1, 2, 3}.size() == 3);"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The assert macro now provides better diagnostics."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "rouge-linenums",
+    "title": "Sample C++ Post",
+    "description": "",
+    "domain": "rouge-linenums",
+    "favicon": "https://rouge-linenums/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 51,
+  "extractorType": null
+}

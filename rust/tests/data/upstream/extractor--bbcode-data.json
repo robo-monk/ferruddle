@@ -1,0 +1,20 @@
+{
+  "id": "extractor--bbcode-data",
+  "url": "https://store.example.com/news/app/123456/view/987654321",
+  "inputHtml": "<!-- {\"url\": \"https://store.example.com/news/app/123456/view/987654321\"} -->\n<html>\n<head>\n<title>Example Game - Patch 1.2.3 is now LIVE! - Example Store News</title>\n<meta property=\"article:published_time\" content=\"2025-01-15T12:00:00Z\">\n<meta name=\"Description\" content=\"Patch 1.2.3 is now live! Available on all platforms!\">\n</head>\n<body>\n<div id=\"application_config\"\n\tdata-partnereventstore=\"[{&quot;gid&quot;:&quot;987654321&quot;,&quot;event_name&quot;:&quot;Patch 1.2.3 is now LIVE!&quot;,&quot;appid&quot;:123456,&quot;announcement_body&quot;:{&quot;gid&quot;:&quot;987654322&quot;,&quot;headline&quot;:&quot;Patch 1.2.3 is now LIVE!&quot;,&quot;posttime&quot;:1736942400,&quot;body&quot;:&quot;[p]Patch 1.2.3 is now live! This is build 500, network compatible. Available on all platforms! You can read the [url=\\&quot;https:\\/\\/docs.example.com\\/patch-123\\&quot;]full patch notes here[\\/url].\\n\\nOr, watch the video patch notes below:\\n\\n[\\/p][previewyoutube=\\&quot;dQw4w9WgXcQ;full\\&quot;][\\/previewyoutube]&quot;}}]\"\n\tdata-groupvanityinfo=\"[{&quot;success&quot;:1,&quot;group_name&quot;:&quot;Example Game&quot;,&quot;vanity_url&quot;:&quot;examplegame&quot;}]\"\n></div>\n<div id=\"application_root\"></div>\n</body>\n</html>\n",
+  "inputSha256": "d8b2cc9a38d8bcb71082785b1c08c45502203efe41f5e50a6bc8403b71f4e37a",
+  "upstreamFixture": "tests/fixtures/extractor--bbcode-data.html",
+  "markdownGoldenSha256": "53ae71ccffaae92c0e66e9a5bf7c3314c45186e11372b2138bff4fcd4e3e8afa",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<p>Patch 1.2.3 is now live! This is build 500, network compatible. Available on all platforms! You can read the <a href=\"https://docs.example.com/patch-123\">full patch notes here</a>.<br><br>Or, watch the video patch notes below:<br></p><img src=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\">",
+    "contentMarkdown": "Patch 1.2.3 is now live! This is build 500, network compatible. Available on all platforms! You can read the [full patch notes here](https://docs.example.com/patch-123).  \n  \nOr, watch the video patch notes below:  \n\n![](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+    "title": "Patch 1.2.3 is now LIVE!",
+    "author": "Example Game",
+    "site": "store.example.com",
+    "published": "2025-01-15T12:00:00.000Z",
+    "wordCount": 31,
+    "extractorType": "bbcodedata"
+  },
+  "synchronousDifferenceFields": []
+}

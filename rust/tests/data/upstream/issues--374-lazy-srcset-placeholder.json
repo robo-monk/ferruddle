@@ -1,0 +1,20 @@
+{
+  "id": "issues--374-lazy-srcset-placeholder",
+  "url": "https://example.com/article",
+  "inputHtml": "<!-- {\"url\":\"https://example.com/article\"} -->\n<!doctype html>\n<html><head><title>Lazy srcset placeholder</title></head><body><article>\n<p>Lazy images may ship a tiny inline placeholder in both src and srcset while the real responsive sources wait in data-srcset.</p>\n<p><img src=\"data:image/gif;base64,R0lGODlhAQABAAAAACw=\" srcset=\"data:image/gif;base64,R0lGODlhAQABAAAAACw= 1w\" data-srcset=\"https://images.example.com/photo-600.jpg 600w, https://images.example.com/photo-1200.jpg 1200w\" class=\"lazyload\" alt=\"Photo\"></p>\n<p><img src=\"data:image/gif;base64,R0lGODlhAQABAAAAACw=\" srcset=\"data:image/gif;base64,R0lGODlhAQABAAAAACw= 1w\" data-lazy-srcset=\"https://images.example.com/other-600.jpg 600w, https://images.example.com/other-1200.jpg 1200w\" class=\"lazyload\" alt=\"Other\"></p>\n<p>The extracted image should use the real responsive sources rather than the placeholder source set.</p>\n</article></body></html>\n",
+  "inputSha256": "7ff687ca815bb3c0b1f98458832ddf32ea6c78520d2472266f92721d4130c843",
+  "upstreamFixture": "tests/fixtures/issues--374-lazy-srcset-placeholder.html",
+  "markdownGoldenSha256": "3b6ca0a624439f49ed17bce130a851987e053a34646e299dcd3f6945337d0e73",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article> <p>Lazy images may ship a tiny inline placeholder in both src and srcset while the real responsive sources wait in data-srcset.</p> <p><img src=\"data:image/gif;base64,R0lGODlhAQABAAAAACw=\" srcset=\"https://images.example.com/photo-600.jpg 600w, https://images.example.com/photo-1200.jpg 1200w\" alt=\"Photo\"></p> <p><img src=\"data:image/gif;base64,R0lGODlhAQABAAAAACw=\" srcset=\"https://images.example.com/other-600.jpg 600w, https://images.example.com/other-1200.jpg 1200w\" alt=\"Other\"></p> <p>The extracted image should use the real responsive sources rather than the placeholder source set.</p> </article>",
+    "contentMarkdown": "Lazy images may ship a tiny inline placeholder in both src and srcset while the real responsive sources wait in data-srcset.\n\n![Photo](https://images.example.com/photo-1200.jpg)\n\n![Other](https://images.example.com/other-1200.jpg)\n\nThe extracted image should use the real responsive sources rather than the placeholder source set.",
+    "title": "Lazy srcset placeholder",
+    "author": "",
+    "site": "example.com",
+    "published": "",
+    "wordCount": 36,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

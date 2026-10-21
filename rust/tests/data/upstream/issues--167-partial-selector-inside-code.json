@@ -1,0 +1,20 @@
+{
+  "id": "issues--167-partial-selector-inside-code",
+  "url": "https://example.org/docs/type-theory",
+  "inputHtml": "<!-- {\"url\":\"https://example.org/docs/type-theory\"} -->\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <title>Type Theory Reference</title>\n</head>\n<body>\n  <main>\n    <article>\n      <h1>Type Theory Reference</h1>\n      <p>\n        This page defines helper functions for working with natural numbers.\n        The code blocks below use span elements with generated anchor IDs\n        that happen to match partial selector patterns like \"next-\".\n      </p>\n\n      <code class=\"hl lean block\" data-lean-context=\"examples\">\n        <span class=\"keyword token\">def</span><span class=\"inter-text\"> </span><span class=\"const token\" data-binding=\"const-h1\" id=\"f-next-next\">h1</span><span class=\"inter-text\"> (x : Nat) : Nat :=</span>\n      </code>\n\n      <p>\n        The function h1 takes a natural number and returns a natural number.\n        Below is a second definition that should also be preserved.\n      </p>\n\n      <code class=\"hl lean block\" data-lean-context=\"examples\">\n        <span class=\"keyword token\">def</span><span class=\"inter-text\"> </span><span class=\"const token\" data-binding=\"const-h2\" id=\"f-next-prev\">h2</span><span class=\"inter-text\"> (x : Nat) : Nat :=</span>\n      </code>\n\n      <p>\n        Both h1 and h2 should appear in the output. If partial selector removal\n        strips the span elements inside code, the function names will be missing.\n      </p>\n    </article>\n  </main>\n</body>\n</html>\n",
+  "inputSha256": "c2586ace82a31e58c0b8d5485ce81309a43cd5d27c254cac5ac8ec41cf2a313e",
+  "upstreamFixture": "tests/fixtures/issues--167-partial-selector-inside-code.html",
+  "markdownGoldenSha256": "330af397a2eb5cae1fbd6ed59947352348835f7feebb992f678e0e17de36bdc9",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p> This page defines helper functions for working with natural numbers. The code blocks below use span elements with generated anchor IDs that happen to match partial selector patterns like \"next-\". </p> <pre><code class=\"language-lean\" data-lang=\"lean\">        def h1 (x : Nat) : Nat :=\n</code></pre> <p> The function h1 takes a natural number and returns a natural number. Below is a second definition that should also be preserved. </p> <pre><code class=\"language-lean\" data-lang=\"lean\">        def h2 (x : Nat) : Nat :=\n</code></pre> <p> Both h1 and h2 should appear in the output. If partial selector removal strips the span elements inside code, the function names will be missing. </p> </article>",
+    "contentMarkdown": "This page defines helper functions for working with natural numbers. The code blocks below use span elements with generated anchor IDs that happen to match partial selector patterns like \"next-\".\n\n```lean\ndef h1 (x : Nat) : Nat :=\n```\n\nThe function h1 takes a natural number and returns a natural number. Below is a second definition that should also be preserved.\n\n```lean\ndef h2 (x : Nat) : Nat :=\n```\n\nBoth h1 and h2 should appear in the output. If partial selector removal strips the span elements inside code, the function names will be missing.",
+    "title": "Type Theory Reference",
+    "author": "",
+    "site": "example.org",
+    "published": "",
+    "wordCount": 93,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

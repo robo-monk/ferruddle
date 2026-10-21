@@ -1,0 +1,20 @@
+{
+  "id": "issues--131-category-links",
+  "url": "https://131-category-links",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n<title>Blog Post with Categories</title>\n</head>\n<body>\n<article>\n<h1>Blog Post with Categories</h1>\n<p>This is the main content of the blog post about web development.</p>\n<p>For more on this topic, see our <a href=\"/category/web-development\">Web Development</a> and <a href=\"/categories/javascript\">JavaScript</a> sections.</p>\n<p>We also have resources in <a href=\"/category/tutorials\">Tutorials</a>.</p>\n</article>\n</body>\n</html>\n",
+  "inputSha256": "362c279abfce52c9931875216f65dce5a76a0f9356dbb8c755c88092ee463916",
+  "upstreamFixture": "tests/fixtures/issues--131-category-links.html",
+  "markdownGoldenSha256": "6629519107f3773afe349f831712df43429c35a3cf4c515f90ed95fc623f936a",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>This is the main content of the blog post about web development.</p> <p>For more on this topic, see our <a href=\"https://131-category-links/category/web-development\">Web Development</a> and <a href=\"https://131-category-links/categories/javascript\">JavaScript</a> sections.</p> <p>We also have resources in <a href=\"https://131-category-links/category/tutorials\">Tutorials</a>.</p> </article>",
+    "contentMarkdown": "This is the main content of the blog post about web development.\n\nFor more on this topic, see our [Web Development](https://131-category-links/category/web-development) and [JavaScript](https://131-category-links/categories/javascript) sections.\n\nWe also have resources in [Tutorials](https://131-category-links/category/tutorials).",
+    "title": "Blog Post with Categories",
+    "author": "",
+    "site": "131-category-links",
+    "published": "",
+    "wordCount": 31,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

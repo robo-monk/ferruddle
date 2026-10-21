@@ -1,0 +1,140 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Patch 1.2.3 is now live! This is build 500, network compatible. Available on all platforms! You can read the "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://docs.example.com/patch-123"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "full patch notes here"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": "Or, watch the video patch notes below:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          ""
+        ],
+        [
+          "src",
+          "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        ]
+      ],
+      "children": []
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Patch 1.2.3 is now live! This is build 500, network compatible. Available on all platforms! You can read the "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://docs.example.com/patch-123"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "full patch notes here"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Or, watch the video patch notes below:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          ""
+        ],
+        [
+          "src",
+          "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        ]
+      ],
+      "children": []
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "store.example.com",
+    "title": "Patch 1.2.3 is now LIVE!",
+    "description": "Patch 1.2.3 is now live! Available on all platforms!",
+    "domain": "store.example.com",
+    "favicon": "https://store.example.com/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "2025-01-15T12:00:00.000Z",
+    "author": "Example Game"
+  },
+  "warnings": [],
+  "wordCount": 30,
+  "extractorType": "bbcodedata"
+}

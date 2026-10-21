@@ -1,0 +1,2847 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Group estimation strategies"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The body of placeholder prose establishes the article as the main content so the scoring pipeline keeps this section. We restate the joint estimate, its standard deviation, and its precision below."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Reliability of the joint estimate"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We assume that the group computes its joint estimate by averaging the individual estimates:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "mjx-container",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "mjx-math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mjx-mrow",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mjx-mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mjx-c",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "𝑧"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mjx-mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mjx-c",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "="
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mjx-mrow",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mjx-mfrac",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-frac",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-num",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-nstrut",
+                                  "attributes": [],
+                                  "children": []
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-mn",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-c",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "1"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mjx-dbox",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-dtable",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-line",
+                                      "attributes": [],
+                                      "children": []
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-row",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-den",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "element",
+                                              "name": "mjx-dstrut",
+                                              "attributes": [],
+                                              "children": []
+                                            },
+                                            {
+                                              "kind": "element",
+                                              "name": "mjx-mi",
+                                              "attributes": [],
+                                              "children": [
+                                                {
+                                                  "kind": "element",
+                                                  "name": "mjx-c",
+                                                  "attributes": [],
+                                                  "children": [
+                                                    {
+                                                      "kind": "text",
+                                                      "text": "𝑛"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mjx-mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-c",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "⁢"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mjx-mrow",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-munderover",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-over",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-c",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "𝑛"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mjx-box",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-munder",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-row",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-base",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "element",
+                                              "name": "mjx-mrow",
+                                              "attributes": [],
+                                              "children": [
+                                                {
+                                                  "kind": "element",
+                                                  "name": "mjx-mo",
+                                                  "attributes": [],
+                                                  "children": [
+                                                    {
+                                                      "kind": "element",
+                                                      "name": "mjx-c",
+                                                      "attributes": [],
+                                                      "children": [
+                                                        {
+                                                          "kind": "text",
+                                                          "text": "∑"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-row",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-under",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "element",
+                                              "name": "mjx-mrow",
+                                              "attributes": [],
+                                              "children": [
+                                                {
+                                                  "kind": "element",
+                                                  "name": "mjx-mi",
+                                                  "attributes": [],
+                                                  "children": [
+                                                    {
+                                                      "kind": "element",
+                                                      "name": "mjx-c",
+                                                      "attributes": [],
+                                                      "children": [
+                                                        {
+                                                          "kind": "text",
+                                                          "text": "𝑖"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "element",
+                                                  "name": "mjx-mo",
+                                                  "attributes": [],
+                                                  "children": [
+                                                    {
+                                                      "kind": "element",
+                                                      "name": "mjx-c",
+                                                      "attributes": [],
+                                                      "children": [
+                                                        {
+                                                          "kind": "text",
+                                                          "text": "="
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "element",
+                                                  "name": "mjx-mn",
+                                                  "attributes": [],
+                                                  "children": [
+                                                    {
+                                                      "kind": "element",
+                                                      "name": "mjx-c",
+                                                      "attributes": [],
+                                                      "children": [
+                                                        {
+                                                          "kind": "text",
+                                                          "text": "1"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mjx-mrow",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-msub",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-c",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "𝑥"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-script",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-mi",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-c",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "𝑖"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For a given group size, the standard deviation of the joint estimate is"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "mjx-container",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "mjx-math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mjx-mrow",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mjx-mrow",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mjx-msub",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-c",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "𝜎"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mjx-script",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-mrow",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-c",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "g"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-c",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "r"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-c",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "o"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-c",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "u"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-c",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "p"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mjx-mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mjx-c",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "="
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mjx-mfrac",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mjx-frac",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-num",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-nstrut",
+                              "attributes": [],
+                              "children": []
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mjx-mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-c",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "𝜎"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mjx-dbox",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-dtable",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-line",
+                                  "attributes": [],
+                                  "children": []
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-row",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-den",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-dstrut",
+                                          "attributes": [],
+                                          "children": []
+                                        },
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-mrow",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "element",
+                                              "name": "mjx-msqrt",
+                                              "attributes": [],
+                                              "children": [
+                                                {
+                                                  "kind": "element",
+                                                  "name": "mjx-sqrt",
+                                                  "attributes": [],
+                                                  "children": [
+                                                    {
+                                                      "kind": "element",
+                                                      "name": "mjx-surd",
+                                                      "attributes": [],
+                                                      "children": [
+                                                        {
+                                                          "kind": "element",
+                                                          "name": "mjx-mo",
+                                                          "attributes": [],
+                                                          "children": [
+                                                            {
+                                                              "kind": "element",
+                                                              "name": "mjx-c",
+                                                              "attributes": [],
+                                                              "children": [
+                                                                {
+                                                                  "kind": "text",
+                                                                  "text": "√"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "kind": "element",
+                                                      "name": "mjx-box",
+                                                      "attributes": [],
+                                                      "children": [
+                                                        {
+                                                          "kind": "element",
+                                                          "name": "mjx-mi",
+                                                          "attributes": [],
+                                                          "children": [
+                                                            {
+                                                              "kind": "element",
+                                                              "name": "mjx-c",
+                                                              "attributes": [],
+                                                              "children": [
+                                                                {
+                                                                  "kind": "text",
+                                                                  "text": "𝑛"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "and the precision of the joint estimate is"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "mjx-container",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "mjx-math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mjx-mrow",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mjx-mrow",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mjx-msub",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-c",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "𝑝"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mjx-script",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-mrow",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-c",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "g"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-c",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "r"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-c",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "o"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-c",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "u"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-c",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "p"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mjx-mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mjx-c",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "="
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mjx-mfrac",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mjx-frac",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-num",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-nstrut",
+                              "attributes": [],
+                              "children": []
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mjx-mn",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-c",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "1"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mjx-dbox",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-dtable",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-line",
+                                  "attributes": [],
+                                  "children": []
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-row",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-den",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-dstrut",
+                                          "attributes": [],
+                                          "children": []
+                                        },
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-mrow",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "element",
+                                              "name": "mjx-msubsup",
+                                              "attributes": [],
+                                              "children": [
+                                                {
+                                                  "kind": "element",
+                                                  "name": "mjx-mi",
+                                                  "attributes": [],
+                                                  "children": [
+                                                    {
+                                                      "kind": "element",
+                                                      "name": "mjx-c",
+                                                      "attributes": [],
+                                                      "children": [
+                                                        {
+                                                          "kind": "text",
+                                                          "text": "𝜎"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "element",
+                                                  "name": "mjx-script",
+                                                  "attributes": [],
+                                                  "children": [
+                                                    {
+                                                      "kind": "element",
+                                                      "name": "mjx-mn",
+                                                      "attributes": [],
+                                                      "children": [
+                                                        {
+                                                          "kind": "element",
+                                                          "name": "mjx-c",
+                                                          "attributes": [],
+                                                          "children": [
+                                                            {
+                                                              "kind": "text",
+                                                              "text": "2"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "kind": "element",
+                                                      "name": "mjx-spacer",
+                                                      "attributes": [],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "kind": "element",
+                                                      "name": "mjx-mrow",
+                                                      "attributes": [],
+                                                      "children": [
+                                                        {
+                                                          "kind": "element",
+                                                          "name": "mjx-mi",
+                                                          "attributes": [],
+                                                          "children": [
+                                                            {
+                                                              "kind": "element",
+                                                              "name": "mjx-c",
+                                                              "attributes": [],
+                                                              "children": [
+                                                                {
+                                                                  "kind": "text",
+                                                                  "text": "g"
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "element",
+                                                              "name": "mjx-c",
+                                                              "attributes": [],
+                                                              "children": [
+                                                                {
+                                                                  "kind": "text",
+                                                                  "text": "r"
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "element",
+                                                              "name": "mjx-c",
+                                                              "attributes": [],
+                                                              "children": [
+                                                                {
+                                                                  "kind": "text",
+                                                                  "text": "o"
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "element",
+                                                              "name": "mjx-c",
+                                                              "attributes": [],
+                                                              "children": [
+                                                                {
+                                                                  "kind": "text",
+                                                                  "text": "u"
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "element",
+                                                              "name": "mjx-c",
+                                                              "attributes": [],
+                                                              "children": [
+                                                                {
+                                                                  "kind": "text",
+                                                                  "text": "p"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Each estimate is drawn from a Gaussian distribution "
+        },
+        {
+          "kind": "element",
+          "name": "mjx-container",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mjx-math",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mjx-mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mjx-c",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "𝑁"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mjx-mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mjx-c",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "⁡"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mjx-mrow",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mjx-mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-c",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "("
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mjx-mrow",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-c",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "𝑠"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mjx-mo",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-c",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ","
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mjx-msubsup",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-c",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "𝜎"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mjx-script",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-mn",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-c",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "2"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-spacer",
+                                  "attributes": [],
+                                  "children": []
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-c",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "𝑖"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mjx-mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-c",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": ")"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " with a fixed mean."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Unrendered formula"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This lazily-loaded formula was never rendered and has no recoverable content, so it is dropped:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The surrounding prose continues after the dropped placeholder so the section is not empty."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Group estimation strategies"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The body of placeholder prose establishes the article as the main content so the scoring pipeline keeps this section. We restate the joint estimate, its standard deviation, and its precision below."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Reliability of the joint estimate"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We assume that the group computes its joint estimate by averaging the individual estimates:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "mjx-container",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mjx-math",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mjx-mrow",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mjx-mi",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-c",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "𝑧"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mjx-mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-c",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "="
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mjx-mrow",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-mfrac",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-frac",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-num",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-nstrut",
+                                      "attributes": [],
+                                      "children": []
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-mn",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-c",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "1"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-dbox",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-dtable",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-line",
+                                          "attributes": [],
+                                          "children": []
+                                        },
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-row",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "element",
+                                              "name": "mjx-den",
+                                              "attributes": [],
+                                              "children": [
+                                                {
+                                                  "kind": "element",
+                                                  "name": "mjx-dstrut",
+                                                  "attributes": [],
+                                                  "children": []
+                                                },
+                                                {
+                                                  "kind": "element",
+                                                  "name": "mjx-mi",
+                                                  "attributes": [],
+                                                  "children": [
+                                                    {
+                                                      "kind": "element",
+                                                      "name": "mjx-c",
+                                                      "attributes": [],
+                                                      "children": [
+                                                        {
+                                                          "kind": "text",
+                                                          "text": "𝑛"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mjx-mo",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-c",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "⁢"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mjx-mrow",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-munderover",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-over",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-mi",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-c",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "𝑛"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-box",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-munder",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-row",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "element",
+                                              "name": "mjx-base",
+                                              "attributes": [],
+                                              "children": [
+                                                {
+                                                  "kind": "element",
+                                                  "name": "mjx-mrow",
+                                                  "attributes": [],
+                                                  "children": [
+                                                    {
+                                                      "kind": "element",
+                                                      "name": "mjx-mo",
+                                                      "attributes": [],
+                                                      "children": [
+                                                        {
+                                                          "kind": "element",
+                                                          "name": "mjx-c",
+                                                          "attributes": [],
+                                                          "children": [
+                                                            {
+                                                              "kind": "text",
+                                                              "text": "∑"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-row",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "element",
+                                              "name": "mjx-under",
+                                              "attributes": [],
+                                              "children": [
+                                                {
+                                                  "kind": "element",
+                                                  "name": "mjx-mrow",
+                                                  "attributes": [],
+                                                  "children": [
+                                                    {
+                                                      "kind": "element",
+                                                      "name": "mjx-mi",
+                                                      "attributes": [],
+                                                      "children": [
+                                                        {
+                                                          "kind": "element",
+                                                          "name": "mjx-c",
+                                                          "attributes": [],
+                                                          "children": [
+                                                            {
+                                                              "kind": "text",
+                                                              "text": "𝑖"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "kind": "element",
+                                                      "name": "mjx-mo",
+                                                      "attributes": [],
+                                                      "children": [
+                                                        {
+                                                          "kind": "element",
+                                                          "name": "mjx-c",
+                                                          "attributes": [],
+                                                          "children": [
+                                                            {
+                                                              "kind": "text",
+                                                              "text": "="
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "kind": "element",
+                                                      "name": "mjx-mn",
+                                                      "attributes": [],
+                                                      "children": [
+                                                        {
+                                                          "kind": "element",
+                                                          "name": "mjx-c",
+                                                          "attributes": [],
+                                                          "children": [
+                                                            {
+                                                              "kind": "text",
+                                                              "text": "1"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mjx-mrow",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-msub",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-mi",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-c",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "𝑥"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-script",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-mi",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "element",
+                                              "name": "mjx-c",
+                                              "attributes": [],
+                                              "children": [
+                                                {
+                                                  "kind": "text",
+                                                  "text": "𝑖"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For a given group size, the standard deviation of the joint estimate is"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "mjx-container",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mjx-math",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mjx-mrow",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mjx-mrow",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-msub",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-c",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "𝜎"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mjx-script",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-mrow",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-mi",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-c",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "g"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-c",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "r"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-c",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "o"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-c",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "u"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-c",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "p"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mjx-mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-c",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "="
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mjx-mfrac",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-frac",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-num",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-nstrut",
+                                  "attributes": [],
+                                  "children": []
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-c",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "𝜎"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mjx-dbox",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-dtable",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-line",
+                                      "attributes": [],
+                                      "children": []
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-row",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-den",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "element",
+                                              "name": "mjx-dstrut",
+                                              "attributes": [],
+                                              "children": []
+                                            },
+                                            {
+                                              "kind": "element",
+                                              "name": "mjx-mrow",
+                                              "attributes": [],
+                                              "children": [
+                                                {
+                                                  "kind": "element",
+                                                  "name": "mjx-msqrt",
+                                                  "attributes": [],
+                                                  "children": [
+                                                    {
+                                                      "kind": "element",
+                                                      "name": "mjx-sqrt",
+                                                      "attributes": [],
+                                                      "children": [
+                                                        {
+                                                          "kind": "element",
+                                                          "name": "mjx-surd",
+                                                          "attributes": [],
+                                                          "children": [
+                                                            {
+                                                              "kind": "element",
+                                                              "name": "mjx-mo",
+                                                              "attributes": [],
+                                                              "children": [
+                                                                {
+                                                                  "kind": "element",
+                                                                  "name": "mjx-c",
+                                                                  "attributes": [],
+                                                                  "children": [
+                                                                    {
+                                                                      "kind": "text",
+                                                                      "text": "√"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "kind": "element",
+                                                          "name": "mjx-box",
+                                                          "attributes": [],
+                                                          "children": [
+                                                            {
+                                                              "kind": "element",
+                                                              "name": "mjx-mi",
+                                                              "attributes": [],
+                                                              "children": [
+                                                                {
+                                                                  "kind": "element",
+                                                                  "name": "mjx-c",
+                                                                  "attributes": [],
+                                                                  "children": [
+                                                                    {
+                                                                      "kind": "text",
+                                                                      "text": "𝑛"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "and the precision of the joint estimate is"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "mjx-container",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mjx-math",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mjx-mrow",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mjx-mrow",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-msub",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-c",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "𝑝"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mjx-script",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-mrow",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-mi",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-c",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "g"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-c",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "r"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-c",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "o"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-c",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "u"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-c",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "p"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mjx-mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-c",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "="
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mjx-mfrac",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-frac",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-num",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-nstrut",
+                                  "attributes": [],
+                                  "children": []
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-mn",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-c",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "1"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mjx-dbox",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-dtable",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-line",
+                                      "attributes": [],
+                                      "children": []
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-row",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mjx-den",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "element",
+                                              "name": "mjx-dstrut",
+                                              "attributes": [],
+                                              "children": []
+                                            },
+                                            {
+                                              "kind": "element",
+                                              "name": "mjx-mrow",
+                                              "attributes": [],
+                                              "children": [
+                                                {
+                                                  "kind": "element",
+                                                  "name": "mjx-msubsup",
+                                                  "attributes": [],
+                                                  "children": [
+                                                    {
+                                                      "kind": "element",
+                                                      "name": "mjx-mi",
+                                                      "attributes": [],
+                                                      "children": [
+                                                        {
+                                                          "kind": "element",
+                                                          "name": "mjx-c",
+                                                          "attributes": [],
+                                                          "children": [
+                                                            {
+                                                              "kind": "text",
+                                                              "text": "𝜎"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "kind": "element",
+                                                      "name": "mjx-script",
+                                                      "attributes": [],
+                                                      "children": [
+                                                        {
+                                                          "kind": "element",
+                                                          "name": "mjx-mn",
+                                                          "attributes": [],
+                                                          "children": [
+                                                            {
+                                                              "kind": "element",
+                                                              "name": "mjx-c",
+                                                              "attributes": [],
+                                                              "children": [
+                                                                {
+                                                                  "kind": "text",
+                                                                  "text": "2"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "kind": "element",
+                                                          "name": "mjx-spacer",
+                                                          "attributes": [],
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "kind": "element",
+                                                          "name": "mjx-mrow",
+                                                          "attributes": [],
+                                                          "children": [
+                                                            {
+                                                              "kind": "element",
+                                                              "name": "mjx-mi",
+                                                              "attributes": [],
+                                                              "children": [
+                                                                {
+                                                                  "kind": "element",
+                                                                  "name": "mjx-c",
+                                                                  "attributes": [],
+                                                                  "children": [
+                                                                    {
+                                                                      "kind": "text",
+                                                                      "text": "g"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "kind": "element",
+                                                                  "name": "mjx-c",
+                                                                  "attributes": [],
+                                                                  "children": [
+                                                                    {
+                                                                      "kind": "text",
+                                                                      "text": "r"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "kind": "element",
+                                                                  "name": "mjx-c",
+                                                                  "attributes": [],
+                                                                  "children": [
+                                                                    {
+                                                                      "kind": "text",
+                                                                      "text": "o"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "kind": "element",
+                                                                  "name": "mjx-c",
+                                                                  "attributes": [],
+                                                                  "children": [
+                                                                    {
+                                                                      "kind": "text",
+                                                                      "text": "u"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "kind": "element",
+                                                                  "name": "mjx-c",
+                                                                  "attributes": [],
+                                                                  "children": [
+                                                                    {
+                                                                      "kind": "text",
+                                                                      "text": "p"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Each estimate is drawn from a Gaussian distribution "
+        },
+        {
+          "kind": "element",
+          "name": "mjx-container",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mjx-math",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mjx-mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mjx-c",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "𝑁"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mjx-mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mjx-c",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "⁡"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mjx-mrow",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mjx-mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-c",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "("
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mjx-mrow",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-c",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "𝑠"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mjx-mo",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-c",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ","
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mjx-msubsup",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mjx-mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-c",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "𝜎"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mjx-script",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-mn",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-c",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "2"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-spacer",
+                                  "attributes": [],
+                                  "children": []
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mjx-mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mjx-c",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "𝑖"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mjx-mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mjx-c",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": ")"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " with a fixed mean."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Unrendered formula"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This lazily-loaded formula was never rendered and has no recoverable content, so it is dropped:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The surrounding prose continues after the dropped placeholder so the section is not empty."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "mathjax-chtml-no-assistive",
+    "title": "MathJax CHTML without assistive MathML",
+    "description": "",
+    "domain": "mathjax-chtml-no-assistive",
+    "favicon": "https://mathjax-chtml-no-assistive/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [
+    {
+      "code": "math_not_supported",
+      "message": "Math support is not yet included."
+    }
+  ],
+  "wordCount": 121,
+  "extractorType": null
+}

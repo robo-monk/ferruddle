@@ -1,0 +1,65 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This article remains available in the page when an external content source returns nothing. Its paragraphs should still be extracted so readers can access the information already present in the document."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A failed external lookup should not hide this second paragraph either. The article contains useful text independently of that service, while navigation and footer text belong outside the extracted result."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This article remains available in the page when an external content source returns nothing. Its paragraphs should still be extracted so readers can access the information already present in the document."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A failed external lookup should not hide this second paragraph either. The article contains useful text independently of that service, while navigation and footer text belong outside the extracted result."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "example.com",
+    "title": "Available Article",
+    "description": "",
+    "domain": "example.com",
+    "favicon": "https://example.com/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 61,
+  "extractorType": null
+}

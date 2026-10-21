@@ -1,0 +1,20 @@
+{
+  "id": "issues--374-invalid-lazy-source",
+  "url": "https://example.com/article",
+  "inputHtml": "<!-- {\"url\":\"https://example.com/article\"} -->\n<!doctype html>\n<html><head><title>Invalid lazy sources</title></head><body><article>\n<p>Lazy-loading attributes sometimes hold empty or unsafe values instead of image URLs, and must not overwrite a working source.</p>\n<p><img src=\"https://images.example.com/empty.jpg\" data-src=\"  \" class=\"lazyload\" alt=\"Empty\"></p>\n<p><img src=\"https://images.example.com/script.jpg\" data-src=\"javascript:alert(1)\" class=\"lazyload\" alt=\"Script\"></p>\n<p><img src=\"https://images.example.com/inline.jpg\" data-original=\"data:text/html,&lt;script&gt;alert(1)&lt;/script&gt;\" class=\"lazyload\" alt=\"Inline\"></p>\n<p><img src=\"https://images.example.com/fallback.jpg\" data-src=\"  \" data-lazy-src=\"https://images.example.com/real.jpg\" class=\"lazyload\" alt=\"Fallback\"></p>\n<p>Each image should keep a usable source that points to an actual image rather than an empty or unsafe URL.</p>\n</article></body></html>\n",
+  "inputSha256": "c040bc7a53e277b110eb0307557562ade3ac4f78fa22741674c4d1bc4d9cf5e3",
+  "upstreamFixture": "tests/fixtures/issues--374-invalid-lazy-source.html",
+  "markdownGoldenSha256": "4ff828da93794b1dc97316030f71cef0ef6e5faca3d52f94b221bdb34b6c58cf",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article> <p>Lazy-loading attributes sometimes hold empty or unsafe values instead of image URLs, and must not overwrite a working source.</p> <p><img src=\"https://images.example.com/empty.jpg\" alt=\"Empty\"></p> <p><img src=\"https://images.example.com/script.jpg\" alt=\"Script\"></p> <p><img src=\"https://images.example.com/inline.jpg\" alt=\"Inline\"></p> <p><img src=\"https://images.example.com/real.jpg\" alt=\"Fallback\"></p> <p>Each image should keep a usable source that points to an actual image rather than an empty or unsafe URL.</p> </article>",
+    "contentMarkdown": "Lazy-loading attributes sometimes hold empty or unsafe values instead of image URLs, and must not overwrite a working source.\n\n![Empty](https://images.example.com/empty.jpg)\n\n![Script](https://images.example.com/script.jpg)\n\n![Inline](https://images.example.com/inline.jpg)\n\n![Fallback](https://images.example.com/real.jpg)\n\nEach image should keep a usable source that points to an actual image rather than an empty or unsafe URL.",
+    "title": "Invalid lazy sources",
+    "author": "",
+    "site": "example.com",
+    "published": "",
+    "wordCount": 39,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

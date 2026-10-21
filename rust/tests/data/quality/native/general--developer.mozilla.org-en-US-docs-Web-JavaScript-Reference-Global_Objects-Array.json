@@ -1,0 +1,1018 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Array"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Array"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " object enables storing a collection of multiple items under a single variable name, and has members for performing common array operations."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Description"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In JavaScript, arrays aren't primitives but are instead Array objects with the following core characteristics:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "JavaScript arrays are resizable"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " and "
+            },
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "can contain a mix of different data types"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "JavaScript arrays are not associative arrays"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " and so, array elements cannot be accessed using nonnumeric strings as indexes."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "JavaScript arrays are zero-indexed"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ": the first element of an array is at index 0, the second is at index 1, and so on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Iterative methods"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Several methods take as arguments functions to be called back while processing the array. When these methods are called, the length of the array is sampled, and any element added beyond this length from within the callback is not visited."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Generic Array methods"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Array methods are always generic — they don't access any internal data of the array object. They only access the array elements through the length property and the indexed elements."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Constructor"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "dl",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "dt",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "Array()"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dd",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Creates a new Array object."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Static methods"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "dl",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "dt",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "Array.from()"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dd",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Creates a new Array instance from an iterable or array-like object."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dt",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "Array.isArray()"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dd",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Returns true if the argument is an array, or false otherwise."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dt",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "Array.of()"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dd",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Creates a new Array instance with a variable number of arguments."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Instance methods"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "dl",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "dt",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "Array.prototype.at()"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dd",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Returns the array item at the given index."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dt",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "Array.prototype.concat()"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dd",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Returns a new array that is the calling array joined with other array(s) and/or value(s)."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dt",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "Array.prototype.filter()"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dd",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Returns a new array containing all elements of the calling array for which the provided filtering function returns true."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dt",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "Array.prototype.find()"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dd",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Returns the value of the first element in the array that satisfies the provided testing function, or undefined if no appropriate element is found."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dt",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "Array.prototype.map()"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dd",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Returns a new array containing the results of invoking a function on every element in the calling array."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dt",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "Array.prototype.push()"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dd",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Adds one or more elements to the end of an array, and returns the new length of the array."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dt",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "Array.prototype.reduce()"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dd",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Executes a user-supplied \"reducer\" callback function on each element of the array."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Array"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Array"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " object enables storing a collection of multiple items under a single variable name, and has members for performing common array operations."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Description"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In JavaScript, arrays aren't primitives but are instead Array objects with the following core characteristics:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "JavaScript arrays are resizable"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " and "
+            },
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "can contain a mix of different data types"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "JavaScript arrays are not associative arrays"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " and so, array elements cannot be accessed using nonnumeric strings as indexes."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "JavaScript arrays are zero-indexed"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ": the first element of an array is at index 0, the second is at index 1, and so on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Iterative methods"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Several methods take as arguments functions to be called back while processing the array. When these methods are called, the length of the array is sampled, and any element added beyond this length from within the callback is not visited."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Generic Array methods"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Array methods are always generic — they don't access any internal data of the array object. They only access the array elements through the length property and the indexed elements."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Constructor"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "Array()"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Creates a new Array object."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Static methods"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "Array.from()"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Creates a new Array instance from an iterable or array-like object."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "Array.isArray()"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Returns true if the argument is an array, or false otherwise."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "Array.of()"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Creates a new Array instance with a variable number of arguments."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Instance methods"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "Array.prototype.at()"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Returns the array item at the given index."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "Array.prototype.concat()"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Returns a new array that is the calling array joined with other array(s) and/or value(s)."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "Array.prototype.filter()"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Returns a new array containing all elements of the calling array for which the provided filtering function returns true."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "Array.prototype.find()"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Returns the value of the first element in the array that satisfies the provided testing function, or undefined if no appropriate element is found."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "Array.prototype.map()"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Returns a new array containing the results of invoking a function on every element in the calling array."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "Array.prototype.push()"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Adds one or more elements to the end of an array, and returns the new length of the array."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "Array.prototype.reduce()"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Executes a user-supplied \"reducer\" callback function on each element of the array."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "MDN",
+    "title": "Array - JavaScript",
+    "description": "The Array object enables storing a collection of multiple items under a single variable name.",
+    "domain": "developer.mozilla.org-en-us-docs-web-javascript-reference-global_objects-array",
+    "favicon": "https://developer.mozilla.org-en-us-docs-web-javascript-reference-global_objects-array/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 338,
+  "extractorType": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": "general--x.com-article",
+  "url": "https://x.com-article",
+  "inputHtml": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Test X Article</title>\n</head>\n<body>\n    <div data-testid=\"twitterArticleRichTextView\">\n        <div data-testid=\"twitter-article-title\">Lorem Ipsum Dolor Sit Amet</div>\n        <div itemprop=\"author\">\n            <meta itemprop=\"name\" content=\"Jane Doe\">\n            <meta itemprop=\"additionalName\" content=\"janedoe\">\n        </div>\n        <div class=\"longform-unstyled\">\n            <div class=\"public-DraftStyleDefault-block\" data-offset-key=\"abc123\">\n                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n            </div>\n        </div>\n        <div class=\"longform-unstyled\">\n            <div class=\"public-DraftStyleDefault-block\" data-offset-key=\"def456\">\n                <span style=\"font-weight: bold\">Ut enim ad minim:</span> Veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n            </div>\n        </div>\n        <div data-testid=\"tweetPhoto\">\n            <img src=\"https://example.com/media/placeholder.jpg?format=jpg&name=medium\" alt=\"Placeholder image\">\n        </div>\n        <div class=\"longform-unstyled\">\n            <div class=\"public-DraftStyleDefault-block\" data-offset-key=\"ghi789\">\n                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n            </div>\n        </div>\n    </div>\n</body>\n</html>\n",
+  "inputSha256": "08b17188a27423f8522e26eb504f5b2690800a7d3123824f6652005af75f20be",
+  "upstreamFixture": "tests/fixtures/general--x.com-article.html",
+  "markdownGoldenSha256": "590e7903ec5be3825a626de7c7ff522d7488f80c3fd1edbfba8dba0f9e00553f",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article class=\"x-article\">\n        <div>Lorem Ipsum Dolor Sit Amet</div>\n        <div>\n            <meta>\n            <meta>\n        </div>\n        <p>\n            \n                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n            \n        </p>\n        <p>\n            \n                <strong>Ut enim ad minim:</strong> Veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n            \n        </p>\n        <div>\n            <img src=\"https://example.com/media/placeholder.jpg?format=jpg&name=large\" alt=\"Placeholder image\">\n        </div>\n        <p>\n            \n                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n            \n        </p>\n    </article>",
+    "contentMarkdown": "Lorem Ipsum Dolor Sit Amet\n\n \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n**Ut enim ad minim:** Veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n![Placeholder image](https://example.com/media/placeholder.jpg?format=jpg&name=large)\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "title": "Lorem Ipsum Dolor Sit Amet",
+    "author": "Jane Doe (@janedoe)",
+    "site": "X (Twitter)",
+    "published": "",
+    "wordCount": 57,
+    "extractorType": "xarticle"
+  },
+  "synchronousDifferenceFields": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "footnotes--numeric-anchor-id",
+  "url": "https://numeric-anchor-id",
+  "inputHtml": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Numeric Anchor-ID Footnote Pattern</title>\n</head>\n<body>\n<article class=\"article-body\">\n<p>Dietary guidelines were examined in the first study <a href=\"#ref1\">[1]</a> with follow-up findings in subsequent research <a href=\"#ref2\">[2]</a> and a meta-analysis <a href=\"#ref3\">[3]</a>.</p>\n\n<div class=\"references\">\n<h3>References</h3>\n<div class=\"reference\">\n<a class=\"reference-number\" id=\"ref1\">1.</a>\n<div class=\"reference-content\">A. Author, B. Researcher. <em>Dietary Guidelines and Health Outcomes</em>. <em>Journal of Nutrition</em>. 2020;150(3):500-510. doi:10.1000/jn.2020.001</div>\n</div>\n<div class=\"reference\">\n<a class=\"reference-number\" id=\"ref2\">2.</a>\n<div class=\"reference-content\">C. Scholar, D. Investigator. <em>Follow-up Analysis of Nutritional Patterns</em>. <em>American Journal of Medicine</em>. 2021;134(5):720-731. doi:10.1000/ajm.2021.042</div>\n</div>\n<div class=\"reference\">\n<a class=\"reference-number\" id=\"ref3\">3.</a>\n<div class=\"reference-content\">E. Analyst, F. Reviewer. <em>Meta-analysis of Dietary Intervention Studies</em>. <em>Clinical Nutrition</em>. 2022;41(8):1200-1215. doi:10.1000/cn.2022.088</div>\n</div>\n</div>\n</article>\n</body>\n</html>\n",
+  "inputSha256": "ab2a25d6ce83fcf564ed38525fa431a9a52334072c70c7c535c8a4b2cd75d92b",
+  "upstreamFixture": "tests/fixtures/footnotes--numeric-anchor-id.html",
+  "markdownGoldenSha256": "07e4d703f8f50dc1af1b23816f7025204e274f666140af023683814ffe6e9f1b",
+  "htmlGoldenSha256": "c9187486ea29d991b29143ac92978d632db81a6a50e0a8afa92d64d6028b9c82",
+  "expected": {
+    "content": "<article> <p>Dietary guidelines were examined in the first study <sup id=\"fnref:1\"><a href=\"#fn:1\">1</a></sup> with follow-up findings in subsequent research <sup id=\"fnref:2\"><a href=\"#fn:2\">2</a></sup> and a meta-analysis <sup id=\"fnref:3\"><a href=\"#fn:3\">3</a></sup>.</p>  <div id=\"footnotes\"><ol><li id=\"fn:1\"> <p>A. Author, B. Researcher. <em>Dietary Guidelines and Health Outcomes</em>. <em>Journal of Nutrition</em>. 2020;150(3):500-510. doi:10.1000/jn.2020.001</p> <a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:1\">↩</a></li> <li id=\"fn:2\"> <p>C. Scholar, D. Investigator. <em>Follow-up Analysis of Nutritional Patterns</em>. <em>American Journal of Medicine</em>. 2021;134(5):720-731. doi:10.1000/ajm.2021.042</p> <a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:2\">↩</a></li> <li id=\"fn:3\"> <p>E. Analyst, F. Reviewer. <em>Meta-analysis of Dietary Intervention Studies</em>. <em>Clinical Nutrition</em>. 2022;41(8):1200-1215. doi:10.1000/cn.2022.088</p> <a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:3\">↩</a></li></ol></div></article>",
+    "contentMarkdown": "Dietary guidelines were examined in the first study [^1] with follow-up findings in subsequent research [^2] and a meta-analysis [^3].\n\n[^1]: A. Author, B. Researcher. *Dietary Guidelines and Health Outcomes*. *Journal of Nutrition*. 2020;150(3):500-510. doi:10.1000/jn.2020.001\n\n[^2]: C. Scholar, D. Investigator. *Follow-up Analysis of Nutritional Patterns*. *American Journal of Medicine*. 2021;134(5):720-731. doi:10.1000/ajm.2021.042\n\n[^3]: E. Analyst, F. Reviewer. *Meta-analysis of Dietary Intervention Studies*. *Clinical Nutrition*. 2022;41(8):1200-1215. doi:10.1000/cn.2022.088",
+    "title": "Numeric Anchor-ID Footnote Pattern",
+    "author": "",
+    "site": "numeric-anchor-id",
+    "published": "",
+    "wordCount": 72,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

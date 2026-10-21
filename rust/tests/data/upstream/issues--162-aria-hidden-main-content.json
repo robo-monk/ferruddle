@@ -1,0 +1,20 @@
+{
+  "id": "issues--162-aria-hidden-main-content",
+  "url": "https://earendil.com/posts/invitation/",
+  "inputHtml": "<!-- {\"url\":\"https://earendil.com/posts/invitation/\"} -->\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <title>Invitation</title>\n</head>\n<body>\n  <main>\n    <div class=\"updates-overlay\" aria-hidden=\"true\">\n      <div class=\"updates-letter\">\n        <div class=\"letter-body\">\n          <h1>Invitation</h1>\n          <p>\n            Hello, we believe in building in the open and sharing progress publicly with people\n            who care about resilient infrastructure, peer-to-peer systems, and practical tools.\n            This invitation outlines the next phase of work and explains why we are focusing on\n            reliability, documentation, and long-term maintainability over short-term growth.\n          </p>\n          <p>\n            Over the coming months, we will publish architecture notes, design tradeoffs, and\n            implementation updates. We aim to make decisions legible, reduce operational surprises,\n            and create a clearer path for contributors who want to understand the system deeply.\n          </p>\n        </div>\n      </div>\n    </div>\n\n    <div id=\"fps\">FPS: --</div>\n    <div id=\"site-footer\">EARENDIL INC.</div>\n  </main>\n</body>\n</html>\n",
+  "inputSha256": "450becfc5fd45ad5525e9717f6407be4792fcdcf1cecab8484550ebc56f7771b",
+  "upstreamFixture": "tests/fixtures/issues--162-aria-hidden-main-content.html",
+  "markdownGoldenSha256": "57563f03b6a452c9a095344af1e8bd4424a592b3517021e855e554f7d44fce9d",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<div>    <p> Hello, we believe in building in the open and sharing progress publicly with people who care about resilient infrastructure, peer-to-peer systems, and practical tools. This invitation outlines the next phase of work and explains why we are focusing on reliability, documentation, and long-term maintainability over short-term growth. </p> <p> Over the coming months, we will publish architecture notes, design tradeoffs, and implementation updates. We aim to make decisions legible, reduce operational surprises, and create a clearer path for contributors who want to understand the system deeply. </p>   </div>",
+    "contentMarkdown": "Hello, we believe in building in the open and sharing progress publicly with people who care about resilient infrastructure, peer-to-peer systems, and practical tools. This invitation outlines the next phase of work and explains why we are focusing on reliability, documentation, and long-term maintainability over short-term growth.\n\nOver the coming months, we will publish architecture notes, design tradeoffs, and implementation updates. We aim to make decisions legible, reduce operational surprises, and create a clearer path for contributors who want to understand the system deeply.",
+    "title": "Invitation",
+    "author": "",
+    "site": "earendil.com",
+    "published": "",
+    "wordCount": 84,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

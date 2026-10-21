@@ -1,0 +1,20 @@
+{
+  "id": "issues--143-arxiv-cross-references",
+  "url": "https://143-arxiv-cross-references",
+  "inputHtml": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>arXiv Cross-References</title>\n</head>\n<body>\n<article class=\"ltx_document\">\n<div class=\"ltx_page_content\">\n<div class=\"ltx_document\">\n<section id=\"S3\" class=\"ltx_section\">\n<h2 class=\"ltx_title ltx_title_section\">Model Architecture</h2>\n<div class=\"ltx_para\">\n<p class=\"ltx_p\">The Transformer follows an encoder-decoder structure as shown in the left and right halves of Figure <a href=\"#S3.F1\" title=\"Figure 1 ‣ 3 Model Architecture\" class=\"ltx_ref\"><span class=\"ltx_text ltx_ref_tag\">1</span></a>, respectively. We describe the multi-head attention in Section <a href=\"#S3.SS2\" title=\"3.2 Attention ‣ 3 Model Architecture\" class=\"ltx_ref\"><span class=\"ltx_text ltx_ref_tag\">3.2</span></a>. The results are shown in Table <a href=\"#S3.T1\" title=\"Table 1 ‣ 3 Model Architecture\" class=\"ltx_ref\"><span class=\"ltx_text ltx_ref_tag\">1</span></a>.</p>\n</div>\n</section>\n</div>\n</div>\n</article>\n</body>\n</html>\n",
+  "inputSha256": "4245a305bb12e7a620476e4ae166fd4d8fecec8af4a10c953360a91ad7bc599a",
+  "upstreamFixture": "tests/fixtures/issues--143-arxiv-cross-references.html",
+  "markdownGoldenSha256": "32630e8844b5cae54e81bafe1a38311da99329f356b8f84766ed6e0e471aa9a4",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>    <h2>Model Architecture</h2>  <p>The Transformer follows an encoder-decoder structure as shown in the left and right halves of Figure 1, respectively. We describe the multi-head attention in Section 3.2. The results are shown in Table 1.</p>     </article>",
+    "contentMarkdown": "## Model Architecture\n\nThe Transformer follows an encoder-decoder structure as shown in the left and right halves of Figure 1, respectively. We describe the multi-head attention in Section 3.2. The results are shown in Table 1.",
+    "title": "arXiv Cross-References",
+    "author": "",
+    "site": "143-arxiv-cross-references",
+    "published": "",
+    "wordCount": 35,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "extractor--chatgpt-post-thought-content",
+  "url": "https://chatgpt.com/share/example-post-thought-content",
+  "inputHtml": "<!DOCTYPE html>\n<!-- {\"url\":\"https://chatgpt.com/share/example-post-thought-content\"} -->\n<html>\n<head>\n\t<title>ChatGPT post-Thought content fixture</title>\n</head>\n<body>\n\t<main>\n\t\t<div data-testid=\"conversation-turn-1\">\n\t\t\t<h5 class=\"sr-only\">You said:</h5>\n\t\t\t<div data-message-author-role=\"user\">\n\t\t\t\t<div class=\"whitespace-pre-wrap\">Please help me plan a simple weekend picnic.</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div data-testid=\"conversation-turn-2\">\n\t\t\t<h5 class=\"sr-only\">ChatGPT said:</h5>\n\t\t\t<div data-message-author-role=\"assistant\">\n\t\t\t\t<div class=\"markdown\">\n\t\t\t\t\t<p>Start with a simple checklist before choosing the location.</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<button type=\"button\">\n\t\t\t\t<span data-state=\"closed\">Thought for 12s</span>\n\t\t\t</button>\n\t\t\t<div data-message-author-role=\"assistant\">\n\t\t\t\t<div class=\"markdown\">\n\t\t\t\t\t<p>Pick a nearby park, check the weather, and choose food that travels well.</p>\n\t\t\t\t\t<p>Bring water, napkins, a blanket, and a small bag for cleanup.</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</main>\n</body>\n</html>\n",
+  "inputSha256": "de0b072c96696854039cbd9c6abf268e1ca1ec54c88e5328316a9d4a494f1cf8",
+  "upstreamFixture": "tests/fixtures/extractor--chatgpt-post-thought-content.html",
+  "markdownGoldenSha256": "0faee45bbf7b250a6963bc9e6bf8cab671f3677f684638476bc1ac986fb86da4",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p><strong>You said</strong></p>   <p>Please help me plan a simple weekend picnic.</p>   <hr>   <p><strong>ChatGPT said</strong></p>   <p>Start with a simple checklist before choosing the location.</p> <p>Pick a nearby park, check the weather, and choose food that travels well.</p> <p>Bring water, napkins, a blanket, and a small bag for cleanup.</p>  </article>",
+    "contentMarkdown": "**You said**\n\nPlease help me plan a simple weekend picnic.\n\n---\n\n**ChatGPT said**\n\nStart with a simple checklist before choosing the location.\n\nPick a nearby park, check the weather, and choose food that travels well.\n\nBring water, napkins, a blanket, and a small bag for cleanup.",
+    "title": "ChatGPT post-Thought content fixture",
+    "author": "",
+    "site": "ChatGPT",
+    "published": "",
+    "wordCount": 45,
+    "extractorType": "chatgpt"
+  },
+  "synchronousDifferenceFields": []
+}

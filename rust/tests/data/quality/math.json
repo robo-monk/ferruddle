@@ -1,0 +1,164 @@
+{
+  "general--cp4space-jordan-algebra": {
+    "reason": "Math conversion is excluded. Preserve 20 original formula sources selected by img, including repeated sources, and the surrounding article prose containing \"Hermitian matrices\". Detected math must produce the exact unsupported-math warning.",
+    "actualSemanticsHash": "a6ba320eaa8fa4a711b46a7e75aaf786c48c7a04d50fee5394cf0472b40fda7b",
+    "sourceContract": {
+      "selector": "img",
+      "count": 20,
+      "prose": "Hermitian matrices"
+    }
+  },
+  "issues--141-arxiv-equation-tables": {
+    "reason": "Math conversion is excluded. Preserve 2 original formula sources selected by math, including repeated sources, and the surrounding article prose containing \"Scaled Dot-Product Attention\". Detected math must produce the exact unsupported-math warning.",
+    "actualSemanticsHash": "3d184be9c5fbe5bd2a6d82512d258a198e7d546698ebfdd73f6f82e3966d65d1",
+    "sourceContract": {
+      "selector": "math",
+      "count": 2,
+      "prose": "Scaled Dot-Product Attention"
+    }
+  },
+  "issues--169-svg-classname-crash": {
+    "reason": "Math conversion is excluded. Preserve 1 original formula sources selected by math, including repeated sources, and the surrounding article prose containing \"graph traversal\". Detected math must produce the exact unsupported-math warning.",
+    "actualSemanticsHash": "4146b13ee0dfe4b6bf8c670598b794ff2a2fac9687caa34f73bd399d2bd82341",
+    "sourceContract": {
+      "selector": "math",
+      "count": 1,
+      "prose": "graph traversal"
+    }
+  },
+  "math--equation-table-mathml": {
+    "reason": "Math conversion is excluded. Preserve 3 original formula sources selected by math, including repeated sources, and the surrounding article prose containing \"three mathematical expressions\". Detected math must produce the exact unsupported-math warning.",
+    "actualSemanticsHash": "bea07a05b5d29adf3f2dbaba454d8fb573809a28561a5a33e76ee1e8a5a15003",
+    "sourceContract": {
+      "selector": "math",
+      "count": 3,
+      "prose": "three mathematical expressions"
+    }
+  },
+  "math--katex": {
+    "reason": "Math conversion is excluded. Preserve 7 original formula sources selected by math, including repeated sources, and the surrounding article prose containing \"Repeating fractions\". Detected math must produce the exact unsupported-math warning.",
+    "actualSemanticsHash": "1535c0aa56b3a74f0e01f91f7fa93c24d6452dd06f97a361a3ccf69a769563c8",
+    "sourceContract": {
+      "selector": "math",
+      "count": 7,
+      "prose": "Repeating fractions"
+    }
+  },
+  "math--katex-centraliser": {
+    "reason": "Math conversion is excluded. Preserve 28 original formula sources selected by math, including repeated sources, and the surrounding article prose containing \"Theorem\". Detected math must produce the exact unsupported-math warning.",
+    "actualSemanticsHash": "305542e3ca66e3ba594c86917fc7e9a8198608d25e860b98ccb9a9b3e55b2dd5",
+    "sourceContract": {
+      "selector": "math",
+      "count": 28,
+      "prose": "Theorem"
+    }
+  },
+  "math--katex-data-math": {
+    "reason": "Math conversion is excluded. Preserve 5 original formula sources selected by [data-math], including repeated sources, and the surrounding article prose containing \"Quadratic Formula\". Detected math must produce the exact unsupported-math warning.",
+    "actualSemanticsHash": "25fb28b62bbd5646716ea67abd2a87496bb9716518740e93e5ebb9667b06f380",
+    "sourceContract": {
+      "selector": "[data-math]",
+      "count": 5,
+      "prose": "Quadratic Formula"
+    }
+  },
+  "math--latex-image-services": {
+    "reason": "Math conversion is excluded. Preserve 4 original formula sources selected by img, including repeated sources, and the surrounding article prose containing \"Path-based service\". Detected math must produce the exact unsupported-math warning.",
+    "actualSemanticsHash": "5a95377f7165137cc7aabe200f3ca7134bf4af574743314307da8e481a1b6a1e",
+    "sourceContract": {
+      "selector": "img",
+      "count": 4,
+      "prose": "Path-based service"
+    }
+  },
+  "math--mathjax": {
+    "reason": "Math conversion is excluded. Preserve 13 original formula sources selected by math, including repeated sources, and the surrounding article prose containing \"The Lorenz Equations\". Detected math must produce the exact unsupported-math warning.",
+    "actualSemanticsHash": "737d445e60d88fd8321c234963afa6e52bd0026ee79e009b6f696f46ce5cc25a",
+    "sourceContract": {
+      "selector": "math",
+      "count": 13,
+      "prose": "The Lorenz Equations"
+    }
+  },
+  "math--mathjax-chtml-no-assistive": {
+    "reason": "Math conversion is excluded. Preserve 4 original formula sources selected by mjx-container:has(mjx-math), including repeated sources, and the surrounding article prose containing \"Reliability of the joint estimate\". Detected math must produce the exact unsupported-math warning.",
+    "actualSemanticsHash": "e34e26fa91daf76ac0cc9682e8c9e75a796189e5bca745f7336f00a002c5a4e3",
+    "sourceContract": {
+      "selector": "mjx-container:has(mjx-math)",
+      "count": 4,
+      "prose": "Reliability of the joint estimate"
+    }
+  },
+  "math--mathjax-svg": {
+    "reason": "Math conversion is excluded. Preserve 2 original formula sources selected by math, including repeated sources, and the surrounding article prose containing \"The full formula is\". Detected math must produce the exact unsupported-math warning.",
+    "actualSemanticsHash": "e1e191d4efe8ada6cb07e469a354727d822e1d1c1d3955f04fe336a8d8e552a1",
+    "sourceContract": {
+      "selector": "math",
+      "count": 2,
+      "prose": "The full formula is"
+    }
+  },
+  "math--mathjax-tagged-equation": {
+    "reason": "Math conversion is excluded. Preserve 2 original formula sources selected by math, including repeated sources, and the surrounding article prose containing \"A genuine multi-row aligned system\". Detected math must produce the exact unsupported-math warning.",
+    "actualSemanticsHash": "c591fa8961748e3a18ceac77d6239611b1d9b5479aabb968b72851df836f3f8d",
+    "sourceContract": {
+      "selector": "math",
+      "count": 2,
+      "prose": "A genuine multi-row aligned system"
+    }
+  },
+  "math--mathjax-tex-scripts": {
+    "reason": "Math conversion is excluded. Preserve 10 original formula sources selected by script[type^='math/'], including repeated sources, and the surrounding article prose containing \"The key result is\". Detected math must produce the exact unsupported-math warning.",
+    "actualSemanticsHash": "ad57f6d54a6f0a796a12b7700a19612810e24f95960d392f41ae7d7c64f95a70",
+    "sourceContract": {
+      "selector": "script[type^='math/']",
+      "count": 10,
+      "prose": "The key result is"
+    }
+  },
+  "math--raw-latex": {
+    "reason": "Math conversion is excluded. Preserve raw authored TeX delimiters, including repeated sources, and the surrounding article prose containing \"The attention mechanism computes\". Detected math must produce the exact unsupported-math warning.",
+    "actualSemanticsHash": "266cfb90a0971b392dd6bf57dc997ccce2c21587a35737315857a670087d620f",
+    "sourceContract": {
+      "selector": "",
+      "count": 0,
+      "prose": "The attention mechanism computes"
+    }
+  },
+  "math--small-equation-image": {
+    "reason": "Math conversion is excluded. Preserve 2 original formula sources selected by img, including repeated sources, and the surrounding article prose containing \"elementary functions\". Detected math must produce the exact unsupported-math warning.",
+    "actualSemanticsHash": "156b656ef37c97de245b236e1832b2066ed149d04378ae07dc9a051ab2641477",
+    "sourceContract": {
+      "selector": "img",
+      "count": 2,
+      "prose": "elementary functions"
+    }
+  },
+  "math--temml": {
+    "reason": "Math conversion is excluded. Preserve 21 original formula sources selected by math, including repeated sources, and the surrounding article prose containing \"Fractions and Roots\". Detected math must produce the exact unsupported-math warning.",
+    "actualSemanticsHash": "cdf33d11f2e61bcee39f23e0d7d5744c3a247f046eda2d3126458c0271ce9641",
+    "sourceContract": {
+      "selector": "math",
+      "count": 21,
+      "prose": "Fractions and Roots"
+    }
+  },
+  "math--wikipedia-mathml": {
+    "reason": "Math conversion is excluded. Preserve 3 original formula sources selected by math, including repeated sources, and the surrounding article prose containing \"discriminant\". Detected math must produce the exact unsupported-math warning.",
+    "actualSemanticsHash": "9cd4cf419dfc8bce171f6378d2debf56a49bf9ec48034b323a7a778997a42cde",
+    "sourceContract": {
+      "selector": "math",
+      "count": 3,
+      "prose": "discriminant"
+    }
+  },
+  "security--math-literal-text": {
+    "reason": "Math conversion is excluded. Preserve 1 original formula sources selected by math, including repeated sources, and the surrounding article prose containing \"spaces are significant\". Detected math must produce the exact unsupported-math warning.",
+    "actualSemanticsHash": "d6b36e6b4b49d71e22b09b993490aad7fc6c2565152da60c00daab75c2197eaa",
+    "sourceContract": {
+      "selector": "math",
+      "count": 1,
+      "prose": "spaces are significant"
+    }
+  }
+}

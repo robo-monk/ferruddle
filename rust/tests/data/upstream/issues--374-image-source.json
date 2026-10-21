@@ -1,0 +1,20 @@
+{
+  "id": "issues--374-image-source",
+  "url": "https://example.com/article",
+  "inputHtml": "<!-- {\"url\":\"https://example.com/article\"} -->\n<!doctype html><html><head><title>Image sources</title></head><body><article><p>Images should retain their real source even when metadata attributes also contain URLs ending in image extensions.</p>\n<p><img resource=\"https://example.com/wiki/File:diagram.png\" src=\"//images.example.com/diagram.png\" loading=\"lazy\" alt=\"Diagram\"></p>\n<p><img data-page=\"https://example.com/wiki/File:chart.png\" src=\"/images/chart.png\" loading=\"lazy\" alt=\"Chart\"></p>\n<p>Both images have usable sources that should remain intact after extraction. Metadata must not replace either the relative source or the protocol-relative source.</p></article></body></html>",
+  "inputSha256": "a37f3667b73bbbdb00b9dc51dd9d15b4cb2341a97b9a7da91dec28c5d35dc862",
+  "upstreamFixture": "tests/fixtures/issues--374-image-source.html",
+  "markdownGoldenSha256": "f163fcd32a34fb07285340bcd905cd6b8e42db132f93412e416527c18e94d4e1",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article><p>Images should retain their real source even when metadata attributes also contain URLs ending in image extensions.</p> <p><img src=\"https://images.example.com/diagram.png\" alt=\"Diagram\"></p> <p><img src=\"https://example.com/images/chart.png\" alt=\"Chart\"></p> <p>Both images have usable sources that should remain intact after extraction. Metadata must not replace either the relative source or the protocol-relative source.</p></article>",
+    "contentMarkdown": "Images should retain their real source even when metadata attributes also contain URLs ending in image extensions.\n\n![Diagram](https://images.example.com/diagram.png)\n\n![Chart](https://example.com/images/chart.png)\n\nBoth images have usable sources that should remain intact after extraction. Metadata must not replace either the relative source or the protocol-relative source.",
+    "title": "Image sources",
+    "author": "",
+    "site": "example.com",
+    "published": "",
+    "wordCount": 40,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

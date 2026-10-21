@@ -1,0 +1,20 @@
+{
+  "id": "elements--whitespace-newlines",
+  "url": "https://whitespace-newlines",
+  "inputHtml": "<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Whitespace and newline handling</title>\n</head>\n<body>\n<article>\n<h2>Newlines in paragraphs</h2>\n<p>This is a paragraph with\nnewlines between sentences.\nBrowsers collapse these to spaces.</p>\n<p>This paragraph has\n\n\nmultiple blank lines that should also collapse to spaces.</p>\n<h2>Whitespace-preserving code</h2>\n<div style=\"display: flex\"><code style=\"white-space: pre\">\n/ip address\nadd address=192.168.88.1/24 interface=bridge1\nadd address=172.16.0.1/24 interface=ether1\n</code></div>\n<p>The code above uses white-space: pre on a code element without a pre wrapper.</p>\n<pre><code>This is a normal pre+code block.\nIt should be preserved as-is.\n  Including indentation.</code></pre>\n</article>\n</body>\n</html>\n",
+  "inputSha256": "4633f097fa0ea2b000f2cf1bcdbec03d15348ff6a7d0ab784e0ab8c2405149e5",
+  "upstreamFixture": "tests/fixtures/elements--whitespace-newlines.html",
+  "markdownGoldenSha256": "37ede563c053ee7e9eb257d6b24a0c26bc7f69fe0f388d35cec7537c9ef02418",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article> <h2>Newlines in paragraphs</h2> <p>This is a paragraph with newlines between sentences. Browsers collapse these to spaces.</p> <p>This paragraph has multiple blank lines that should also collapse to spaces.</p> <h2>Whitespace-preserving code</h2> <div><pre><code>/ip address\nadd address=192.168.88.1/24 interface=bridge1\nadd address=172.16.0.1/24 interface=ether1</code></pre></div> <p>The code above uses white-space: pre on a code element without a pre wrapper.</p> <pre><code>This is a normal pre+code block.\nIt should be preserved as-is.\n  Including indentation.</code></pre> </article>",
+    "contentMarkdown": "## Newlines in paragraphs\n\nThis is a paragraph with newlines between sentences. Browsers collapse these to spaces.\n\nThis paragraph has multiple blank lines that should also collapse to spaces.\n\n## Whitespace-preserving code\n\n```\n/ip address\nadd address=192.168.88.1/24 interface=bridge1\nadd address=172.16.0.1/24 interface=ether1\n```\n\nThe code above uses white-space: pre on a code element without a pre wrapper.\n\n```\nThis is a normal pre+code block.\nIt should be preserved as-is.\n  Including indentation.\n```",
+    "title": "Whitespace and newline handling",
+    "author": "",
+    "site": "whitespace-newlines",
+    "published": "",
+    "wordCount": 65,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

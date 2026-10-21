@@ -1,0 +1,838 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Introduction"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Recurrent models typically factor computation along the symbol positions of the input and output sequences, as explored in prior work "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:6"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:6"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:1"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:2"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Some models use a single citation "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:5"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:5"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " while others reference two works "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:3"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:3"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:4"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:4"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "References"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "anchor",
+          "id": "fn:1"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly learning to align and translate. "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "CoRR"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", 2014. "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:1"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:2"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Junyoung Chung, Caglar Gulcehre, KyungHyun Cho, and Yoshua Bengio. Empirical evaluation of gated recurrent neural networks on sequence modeling. 2014. "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:2"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:3"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, and Yann N. Dauphin. Convolutional sequence to sequence learning. 2017. "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:3"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:4"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Alex Graves. Generating sequences with recurrent neural networks. 2013. "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:4"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:5"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Sepp Hochreiter and Jurgen Schmidhuber. Long short-term memory. 1997. "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:5"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:6"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Ilya Sutskever, Oriol Vinyals, and Quoc V. Le. Sequence to sequence learning with neural networks. 2014. "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:6"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Introduction"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Recurrent models typically factor computation along the symbol positions of the input and output sequences, as explored in prior work "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-3"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Some models use a single citation "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-4"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " while others reference two works "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-5"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-6"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "References"
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-2"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly learning to align and translate. "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "CoRR"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", 2014."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-3"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Junyoung Chung, Caglar Gulcehre, KyungHyun Cho, and Yoshua Bengio. Empirical evaluation of gated recurrent neural networks on sequence modeling. 2014."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-5"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, and Yann N. Dauphin. Convolutional sequence to sequence learning. 2017."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-6"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Alex Graves. Generating sequences with recurrent neural networks. 2013."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-4"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Sepp Hochreiter and Jurgen Schmidhuber. Long short-term memory. 1997."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-1"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Ilya Sutskever, Oriol Vinyals, and Quoc V. Le. Sequence to sequence learning with neural networks. 2014."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "142-arxiv-multi-citations",
+    "title": "arXiv Multi-Citations",
+    "description": "",
+    "domain": "142-arxiv-multi-citations",
+    "favicon": "https://142-arxiv-multi-citations/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 136,
+  "extractorType": null
+}

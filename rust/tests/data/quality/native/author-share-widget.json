@@ -1,0 +1,285 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the first paragraph of a long blog post. It discusses an important topic that many people care about. The author shares insights based on years of experience."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Background"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Before we dive into the details, let us understand the context. The landscape has changed significantly over the past few years. New technologies have emerged, user expectations have evolved, and the competitive environment has shifted dramatically."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We have been working on this problem for a long time. Our approach has always been to prioritize simplicity and user experience. This philosophy guides every decision we make."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "What's Changing"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Today we are announcing several important changes. First, we are simplifying our pricing structure. Second, we are adding new features that our users have been requesting. Third, we are improving the overall experience for everyone."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "These changes reflect our commitment to providing the best possible value. We listened to your feedback and made adjustments accordingly."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "New Features"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The new features include improved collaboration tools, better security controls, and a redesigned dashboard. Each of these addresses specific pain points that our users have identified."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We are especially excited about the collaboration improvements. Teams can now work together more seamlessly, with real-time updates and better notification controls."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Conclusion"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We believe these changes will make a real difference for our users. Thank you, as always, for your support."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the first paragraph of a long blog post. It discusses an important topic that many people care about. The author shares insights based on years of experience."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Background"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Before we dive into the details, let us understand the context. The landscape has changed significantly over the past few years. New technologies have emerged, user expectations have evolved, and the competitive environment has shifted dramatically."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We have been working on this problem for a long time. Our approach has always been to prioritize simplicity and user experience. This philosophy guides every decision we make."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "What's Changing"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Today we are announcing several important changes. First, we are simplifying our pricing structure. Second, we are adding new features that our users have been requesting. Third, we are improving the overall experience for everyone."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "These changes reflect our commitment to providing the best possible value. We listened to your feedback and made adjustments accordingly."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "New Features"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The new features include improved collaboration tools, better security controls, and a redesigned dashboard. Each of these addresses specific pain points that our users have identified."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We are especially excited about the collaboration improvements. Teams can now work together more seamlessly, with real-time updates and better notification controls."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Conclusion"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We believe these changes will make a real difference for our users. Thank you, as always, for your support."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Company Blog",
+    "title": "Blog Post Title",
+    "description": "A blog post about an interesting topic.",
+    "domain": "author-share-widget",
+    "favicon": "https://author-share-widget/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "2025-04-08T00:00:00.000Z",
+    "author": "Jane Smith"
+  },
+  "warnings": [],
+  "wordCount": 222,
+  "extractorType": null
+}

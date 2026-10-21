@@ -1,0 +1,76 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some CMSes leave unresolved template literals like the ones in this page's meta tags. Defuddle should skip over these and fall back to the next valid source."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In this fixture, og:title, og:site_name, og:description, and article:published_time are all template placeholders. The name meta description and the name author are both literal \"..\". The real values come from the schema and twitter:description tags."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some CMSes leave unresolved template literals like the ones in this page's meta tags. Defuddle should skip over these and fall back to the next valid source."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In this fixture, og:title, og:site_name, og:description, and article:published_time are all template placeholders. The name meta description and the name author are both literal \"..\". The real values come from the schema and twitter:description tags."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Placeholder Fallbacks",
+        "datePublished": "2026-03-15T10:00:00+00:00",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Example Blog"
+        }
+      }
+    ],
+    "site": "Example Blog",
+    "title": "Placeholder Fallbacks",
+    "description": "A post demonstrating that defuddle falls back past placeholder metadata values.",
+    "domain": "blog.example.com",
+    "favicon": "https://blog.example.com/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "2026-03-15T10:00:00+00:00",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 61,
+  "extractorType": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": "math--equation-table-mathml",
+  "url": "https://example.com/equations",
+  "inputHtml": "<!-- {\"url\":\"https://example.com/equations\"} -->\n<!doctype html>\n<html lang=\"en\">\n<head><title>Equation representations</title></head>\n<body>\n<article>\n<h1>Equation representations</h1>\n<p>This article describes three mathematical expressions. Each equation includes its structured representation or its original source.</p>\n<table class=\"ltx_equationgroup\">\n<tr><td><table class=\"ltx_equation\"><tr><td>\n<math display=\"block\" alttext=\"x\"><semantics><mi>x</mi><annotation encoding=\"application/x-tex\">x</annotation></semantics></math>\n</td></tr></table></td></tr>\n<tr><td><table class=\"ltx_equation\"><tr><td>\n<math display=\"block\" alttext=\"y\"><semantics><mi>y</mi><annotation encoding=\"application/x-tex\">y</annotation></semantics></math>\n</td></tr></table></td></tr>\n<tr><td><table class=\"ltx_equation\"><tr><td>\n<math display=\"block\"><semantics><annotation encoding=\"application/x-tex\">z</annotation></semantics></math>\n</td></tr></table></td></tr>\n</table>\n<p>The expressions appear in order, with each equation occurring once. Structured MathML should remain available, while annotation-only equations retain a visible fallback.</p>\n</article>\n</body>\n</html>\n",
+  "inputSha256": "cadbfe06f7b1287053dd6ab7957baa6965c815ea4c90ed2861e49d84cbcfd006",
+  "upstreamFixture": "tests/fixtures/math--equation-table-mathml.html",
+  "markdownGoldenSha256": "0bbcd992b9c842731d4a0c522d4da37640453eb4faf557d6ecaf713b290ef15e",
+  "htmlGoldenSha256": "e7f26ebdef171c27c75859d19fbf2211a08b8a3a9870a8506d918a8eef1c4be3",
+  "expected": {
+    "content": "<article>  <p>This article describes three mathematical expressions. Each equation includes its structured representation or its original source.</p> <math data-latex=\"x\" display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi> <annotation>x</annotation></semantics></math> <math data-latex=\"y\" display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi> <annotation>y</annotation></semantics></math> <math data-latex=\"z\" display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\">z</math> <p>The expressions appear in order, with each equation occurring once. Structured MathML should remain available, while annotation-only equations retain a visible fallback.</p> </article>",
+    "contentMarkdown": "This article describes three mathematical expressions. Each equation includes its structured representation or its original source.\n\n$$\nx\n$$\n \n$$\ny\n$$\n \n$$\nz\n$$\n\nThe expressions appear in order, with each equation occurring once. Structured MathML should remain available, while annotation-only equations retain a visible fallback.",
+    "title": "Equation representations",
+    "author": "",
+    "site": "example.com",
+    "published": "",
+    "wordCount": 43,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

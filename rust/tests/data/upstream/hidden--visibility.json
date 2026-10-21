@@ -1,0 +1,20 @@
+{
+  "id": "hidden--visibility",
+  "url": "https://visibility",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\"/>\n  <title>Visibility hidden test</title>\n</head>\n<body>\n  <article>\n    <h1>Lorem</h1>\n    <div style=\"visibility: hidden;\">\n      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n        tempor incididunt ut labore et dolore magna aliqua.</p>\n      <p>Ut enim ad minim veniam,\n      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\n      consequat.</p>\n      <iframe src=\"about:blank\">Iframe fallback test</iframe>\n      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse\n      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non\n      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n    </div>\n    <h2>Foo</h2>\n    <div>\n      <p>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\n      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\n      consequat.</p>\n      <object data=\"foo.swf\" type=\"application/x-shockwave-flash\" width=\"88\" height=\"31\">\n        <param movie=\"foo.swf\" />\n      </object>\n      <embed src=\"foo.swf\"/>\n      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse\n      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non\n      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n    </div>\n  </article>\n</body>\n</html>\n",
+  "inputSha256": "c033dcb5b1d27bf2a8e918f03db913ad2f08d6246614d451ce749d30bc64bfc3",
+  "upstreamFixture": "tests/fixtures/hidden--visibility.html",
+  "markdownGoldenSha256": "d741c51497829705642ba45424b6cb5076287cbce679ecb437fe8855325a3f4a",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article> <h2>Lorem</h2>  <h2>Foo</h2>  <p>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  </article>",
+    "contentMarkdown": "## Lorem\n\n## Foo\n\nTempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "title": "Visibility hidden test",
+    "author": "",
+    "site": "visibility",
+    "published": "",
+    "wordCount": 60,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

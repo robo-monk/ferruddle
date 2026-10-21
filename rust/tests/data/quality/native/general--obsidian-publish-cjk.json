@@ -1,0 +1,247 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "如果你熟悉 TypeScript 或 CSS，你可以开发自己的 "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://publish.obsidian.md/help-zh/%E6%89%A9%E5%B1%95+Obsidian/%E7%AC%AC%E4%B8%89%E6%96%B9%E6%8F%92%E4%BB%B6"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "第三方插件"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " 和 "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://publish.obsidian.md/help-zh/%E6%89%A9%E5%B1%95+Obsidian/%E4%B8%BB%E9%A2%98"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "主题"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " 。"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "了解更多信息，请访问 "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://docs.obsidian.md/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian 开发者文档"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " 。"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "如果想帮助改进我们的开发者文档，请向 "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://github.com/obsidianmd/obsidian-developer-docs"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian 开发者文档仓库"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " 提交请求。"
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "如果你熟悉 TypeScript 或 CSS，你可以开发自己的 "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://publish.obsidian.md/help-zh/%E6%89%A9%E5%B1%95+Obsidian/%E7%AC%AC%E4%B8%89%E6%96%B9%E6%8F%92%E4%BB%B6"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "第三方插件"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " 和 "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://publish.obsidian.md/help-zh/%E6%89%A9%E5%B1%95+Obsidian/%E4%B8%BB%E9%A2%98"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "主题"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " 。"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "了解更多信息，请访问 "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://docs.obsidian.md/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian 开发者文档"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " 。"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "如果想帮助改进我们的开发者文档，请向 "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://github.com/obsidianmd/obsidian-developer-docs"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian 开发者文档仓库"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " 提交请求。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Obsidian 中文帮助",
+    "title": "开发者 - Obsidian 中文帮助",
+    "description": "",
+    "domain": "obsidian-publish-cjk",
+    "favicon": "https://obsidian-publish-cjk/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 73,
+  "extractorType": null
+}

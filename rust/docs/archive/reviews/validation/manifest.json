@@ -1,0 +1,22 @@
+{
+  "nativePassed": 242,
+  "nativeIgnoredDiagnosticHelpers": 8,
+  "typeScriptPassedPerBackend": 826,
+  "nodeHarnessChecks": 7,
+  "files": {
+    "rust/reviews/validation/benchmark-checks.log": "9c42d17c30ff7bf070a4cf04ac4fae01a19968509974169623621d761d0808bd",
+    "rust/reviews/validation/clippy.log": "5ca3932cb682090c4d1bf2490a1099fad15d1e807311606596b1b340fd1ae0c7",
+    "rust/reviews/validation/hidden-retry-after.log": "c059bc3dbf2af6bec5215949e8afc45a6b9855106d1d4825cbd6c993c39db12c",
+    "rust/reviews/validation/hidden-retry-before.log": "1a0db4f8eb51152ba983626ebb898083a30c33eb66e47b2255649d6d10dcb0d9",
+    "rust/reviews/validation/native-tests.log": "e2fa7f7d7c1091264530a6e8c938ce640b2ae9f75384e94cbd40937b879d548e",
+    "rust/reviews/validation/release-build.log": "5aeb565ef5cffdf0f4b271b40840315834763f28acc815902c5964d72b78157b",
+    "rust/reviews/validation/rust188-check.log": "3abc967bbc475bf52cc6e33e6b8a7ceb4696c2a52f657533390164926642eda4",
+    "rust/reviews/validation/rustfmt.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rust/reviews/validation/typescript-build.log": "95f8446729f3aefed94ba7d6130b2e4daafaa9caa634c5cd1b65494cddfdc675",
+    "rust/reviews/validation/typescript-jsdom.log": "8068767f20482cba2ef6b8f685e510629042f940b79acf23be92abe65f53c915",
+    "rust/reviews/validation/typescript-linkedom.log": "2f8e6e612b7642928c824b3e9b9fdc6b60cf612ea871182e7d73be362412f614",
+    "rust/reviews/validation/verify-final.py": "8e0bcaa1d4ad0d9a90d1cb7272e39635477f22f642fbfe9e0eb4b442124692ca",
+    "rust/reviews/validation/final-integrity.log": "3bc89b87be13423b7650500c79f05dc6d2e9583f4c8bce5f0dfcde86d71c82bc"
+  },
+  "finalIntegrity": "all final runtime/harness/input hashes, executable pairs, baseline archive and documentation links matched"
+}

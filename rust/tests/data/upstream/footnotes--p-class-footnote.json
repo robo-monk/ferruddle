@@ -1,0 +1,20 @@
+{
+  "id": "footnotes--p-class-footnote",
+  "url": "https://p-class-footnote",
+  "inputHtml": "<html>\n<head><title>Testing Patterns</title></head>\n<body>\n<article>\n<h1>Testing Patterns</h1>\n<p>This pattern language<sup>1</sup> describes a new approach. It avoids the common problems with testing and provides better reliability.</p>\n<p class=\"footnote\"><sup>1</sup>The structure of this article was inspired by a well-known pattern language for information integrity.</p>\n<h2>Getting Started</h2>\n<p>To begin, you need to understand the basic concepts<sup>2</sup> behind the approach.</p>\n<p class=\"footnote\"><sup>2</sup>These concepts were first described in a seminal paper on software architecture.</p>\n<p>The rest of the content continues here with more details about the testing patterns.</p>\n</article>\n</body>\n</html>\n",
+  "inputSha256": "de995c515256867c054d7119de1e4b32a1b2c020d06da47fe2a20b26310b475f",
+  "upstreamFixture": "tests/fixtures/footnotes--p-class-footnote.html",
+  "markdownGoldenSha256": "abac51c668992075c12cb61276bbd7f0e84326699edec5a4ba99913752b92d0d",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>This pattern language<sup id=\"fnref:1\"><a href=\"#fn:1\">1</a></sup> describes a new approach. It avoids the common problems with testing and provides better reliability.</p>  <h2>Getting Started</h2> <p>To begin, you need to understand the basic concepts<sup id=\"fnref:2\"><a href=\"#fn:2\">2</a></sup> behind the approach.</p>  <p>The rest of the content continues here with more details about the testing patterns.</p> <div id=\"footnotes\"><ol><li id=\"fn:1\"><p>The structure of this article was inspired by a well-known pattern language for information integrity.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:1\">↩</a></p></li> <li id=\"fn:2\"><p>These concepts were first described in a seminal paper on software architecture.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:2\">↩</a></p></li></ol></div></article>",
+    "contentMarkdown": "This pattern language[^1] describes a new approach. It avoids the common problems with testing and provides better reliability.\n\n## Getting Started\n\nTo begin, you need to understand the basic concepts[^2] behind the approach.\n\nThe rest of the content continues here with more details about the testing patterns.\n\n[^1]: The structure of this article was inspired by a well-known pattern language for information integrity.\n\n[^2]: These concepts were first described in a seminal paper on software architecture.",
+    "title": "Testing Patterns",
+    "author": "",
+    "site": "p-class-footnote",
+    "published": "",
+    "wordCount": 77,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

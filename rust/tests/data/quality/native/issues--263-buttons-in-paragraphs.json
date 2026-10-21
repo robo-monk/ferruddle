@@ -1,0 +1,379 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Given a string "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "s"
+        },
+        {
+          "kind": "text",
+          "text": ", return "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "the longest"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "special"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "subsequence"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " in "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "s"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Example 1:"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "Input: s = \"babad\"\nOutput: \"bab\"\nExplanation: \"aba\" is also a valid answer."
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Example 2:"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "Input: s = \"cbbd\"\nOutput: \"bb\""
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Constraints:"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "1 <= s.length <= 1000"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "s"
+            },
+            {
+              "kind": "text",
+              "text": " consists of only digits and English letters."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Given a string "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "s"
+        },
+        {
+          "kind": "text",
+          "text": ", return "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "the longest"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "special"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "subsequence"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " in "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "s"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Example 1:"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "Input: s = \"babad\"\nOutput: \"bab\"\nExplanation: \"aba\" is also a valid answer."
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Example 2:"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "Input: s = \"cbbd\"\nOutput: \"bb\""
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Constraints:"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "1 <= s.length <= 1000"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "code",
+              "block": false,
+              "language": "",
+              "text": "s"
+            },
+            {
+              "kind": "text",
+              "text": " consists of only digits and English letters."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "LeetCode",
+    "title": "Longest Special Sequence",
+    "description": "",
+    "domain": "leetcode.com",
+    "favicon": "https://leetcode.com/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 48,
+  "extractorType": "leetcode"
+}

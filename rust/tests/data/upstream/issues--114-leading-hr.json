@@ -1,0 +1,20 @@
+{
+  "id": "issues--114-leading-hr",
+  "url": "https://114-leading-hr",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n<title>Linguist, an ultimate browser extension for translation</title>\n</head>\n<body>\n<article class=\"post\">\n<div class=\"head\">\n<h1>Linguist, an ultimate browser extension for translation</h1>\n<div class=\"meta\">\n<span>July 13, 2023</span>\n<span>5 min read</span>\n</div>\n</div>\n<hr>\n<div class=\"body\">\n<p>The web browser is the most used program on any desktop. And many users regularly visit sites in foreign languages.</p>\n<p>For such users, a browser extension for translation is a must-have tool. And I want to introduce you to Linguist — a browser extension for translation that I have been working on for the past few years.</p>\n<h2>Features</h2>\n<p>Linguist supports full page translation, selected text translation, and translation of text in input fields.</p>\n</div>\n</article>\n</body>\n</html>\n",
+  "inputSha256": "5619ecbad6c111965a11f1edeb78d38d98ce044579e613348f507e4eba48c285",
+  "upstreamFixture": "tests/fixtures/issues--114-leading-hr.html",
+  "markdownGoldenSha256": "c52aaa9ae3ce3711142870179a6579f20c670ceb365646ea554977db87c5fcc8",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>    <p>The web browser is the most used program on any desktop. And many users regularly visit sites in foreign languages.</p> <p>For such users, a browser extension for translation is a must-have tool. And I want to introduce you to Linguist — a browser extension for translation that I have been working on for the past few years.</p> <h2>Features</h2> <p>Linguist supports full page translation, selected text translation, and translation of text in input fields.</p>  </article>",
+    "contentMarkdown": "The web browser is the most used program on any desktop. And many users regularly visit sites in foreign languages.\n\nFor such users, a browser extension for translation is a must-have tool. And I want to introduce you to Linguist — a browser extension for translation that I have been working on for the past few years.\n\n## Features\n\nLinguist supports full page translation, selected text translation, and translation of text in input fields.",
+    "title": "Linguist, an ultimate browser extension for translation",
+    "author": "",
+    "site": "114-leading-hr",
+    "published": "2023-07-13T00:00:00+00:00",
+    "wordCount": 73,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

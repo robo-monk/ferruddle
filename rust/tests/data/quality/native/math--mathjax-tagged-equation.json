@@ -1,0 +1,842 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A tagged single equation produced by "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "\\tag{}"
+        },
+        {
+          "kind": "text",
+          "text": " is wrapped by MathJax in an "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "mtable"
+        },
+        {
+          "kind": "text",
+          "text": " with a single "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "mlabeledtr"
+        },
+        {
+          "kind": "text",
+          "text": ". It should stay on one horizontal line, not collapse into a vertical stack."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "mjx-container",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "mjx-math",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "mjx-assistive-mml",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "math",
+              "attributes": [
+                [
+                  ":xmlns",
+                  "http://www.w3.org/1998/Math/MathML"
+                ],
+                [
+                  "display",
+                  "block"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mtable",
+                  "attributes": [
+                    [
+                      "displaystyle",
+                      "true"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mlabeledtr",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mtd",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mtext",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "("
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mrow",
+                              "attributes": [
+                                [
+                                  "data-mjx-texclass",
+                                  "ORD"
+                                ]
+                              ],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mo",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "⋆"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mtext",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ")"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mtd",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "a"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "="
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "b"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "+"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "c"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A genuine multi-row aligned system uses several "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "mtr"
+        },
+        {
+          "kind": "text",
+          "text": " rows and must be preserved as an aligned environment."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "mjx-container",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "mjx-math",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "mjx-assistive-mml",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "math",
+              "attributes": [
+                [
+                  ":xmlns",
+                  "http://www.w3.org/1998/Math/MathML"
+                ],
+                [
+                  "display",
+                  "block"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mtable",
+                  "attributes": [
+                    [
+                      "columnalign",
+                      "right center left"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mtr",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mtd",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "x"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mtd",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "="
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mtd",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "y"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mtr",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mtd",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "u"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mtd",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "="
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mtd",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "v"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A tagged single equation produced by "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "\\tag{}"
+        },
+        {
+          "kind": "text",
+          "text": " is wrapped by MathJax in an "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "mtable"
+        },
+        {
+          "kind": "text",
+          "text": " with a single "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "mlabeledtr"
+        },
+        {
+          "kind": "text",
+          "text": ". It should stay on one horizontal line, not collapse into a vertical stack."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "mjx-container",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mjx-math",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "element",
+              "name": "mjx-assistive-mml",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [
+                    [
+                      ":xmlns",
+                      "http://www.w3.org/1998/Math/MathML"
+                    ],
+                    [
+                      "display",
+                      "block"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mtable",
+                      "attributes": [
+                        [
+                          "displaystyle",
+                          "true"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mlabeledtr",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mtd",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mtext",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "("
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mrow",
+                                  "attributes": [
+                                    [
+                                      "data-mjx-texclass",
+                                      "ORD"
+                                    ]
+                                  ],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mo",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "⋆"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mtext",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": ")"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mtd",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "a"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mo",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "="
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "b"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mo",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "+"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "c"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A genuine multi-row aligned system uses several "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "mtr"
+        },
+        {
+          "kind": "text",
+          "text": " rows and must be preserved as an aligned environment."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "mjx-container",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mjx-math",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "element",
+              "name": "mjx-assistive-mml",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [
+                    [
+                      ":xmlns",
+                      "http://www.w3.org/1998/Math/MathML"
+                    ],
+                    [
+                      "display",
+                      "block"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mtable",
+                      "attributes": [
+                        [
+                          "columnalign",
+                          "right center left"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mtr",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mtd",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "x"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mtd",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mo",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "="
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mtd",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "y"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mtr",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mtd",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "u"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mtd",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mo",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "="
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mtd",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "v"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "mathjax-tagged-equation",
+    "title": "Tagged Equation Test",
+    "description": "",
+    "domain": "mathjax-tagged-equation",
+    "favicon": "https://mathjax-tagged-equation/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [
+    {
+      "code": "math_not_supported",
+      "message": "Math support is not yet included."
+    }
+  ],
+  "wordCount": 50,
+  "extractorType": null
+}

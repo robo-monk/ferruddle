@@ -1,0 +1,5544 @@
+{
+  "scope": "Two complete paired runs; statistics remain per-run, without pooling different host windows. Each run has14 measured samples perpage/mode/implementation. All own output proofs and source/harness/input/binary hashes match across runs.",
+  "caseCount": 208,
+  "excludedMathCases": 18,
+  "inputBytes": 1372181,
+  "warmSourceAndOutputStabilityAcrossRuns": true,
+  "allRuntimeSourcesMatchCurrentTree": true,
+  "runs": [
+    {
+      "directory": "2026-10-21-hardening",
+      "summarySha256": "ebcf30caa94cb2f1094a70fe1afc62d244192e41156ede756916e8606c506dd6",
+      "nativeSummarySha256": "4f71b93a3a67a0b813a79669c0ee3fb629d59fa1fd215103e07b056991ed9f5b",
+      "quietWindowSha256": "d9813ee2c3ca365fbdfdbc3a4afe413bf7e6790218c67b6b87458a2fc5d430a0",
+      "currentExecutableSha256": "03f2927b8da8d4599ab2936ba65a99c490cbacb91961193cfc21e8969f2d706e",
+      "baselineExecutableSha256": "98dfbb119c7a18dc443b6b6f9ed64359a32d53444a2e90a3d45e0defc5c11bac",
+      "monitor": {
+        "sampleIntervalSeconds": 5,
+        "samples": 47,
+        "firstBootAverageExcluded": true,
+        "idlePercentMedian": 86,
+        "idlePercentMin": 70,
+        "userPlusSystemPercentMedian": 14,
+        "userPlusSystemPercentMax": 30,
+        "swapInOutNonzeroSamples": 15,
+        "swapPagesInDelta": 178,
+        "swapPagesOutDelta": 1491,
+        "runnableMax": 4,
+        "ioWaitPercentMax": 1
+      }
+    },
+    {
+      "directory": "2026-10-21-hardening-repeat",
+      "summarySha256": "d2a492ab1d63dc082c48eff506b9f7add462518d12bb51d0a3b13645028ac4af",
+      "nativeSummarySha256": "bf499dedd5da60895fe6afb29241c307da0cec5956bc93ffd4a4a09d50c1755b",
+      "quietWindowSha256": "265c69fe699f36caeeff13a92981518ac566860701949ee28fa7c834181dedd3",
+      "currentExecutableSha256": "03f2927b8da8d4599ab2936ba65a99c490cbacb91961193cfc21e8969f2d706e",
+      "baselineExecutableSha256": "98dfbb119c7a18dc443b6b6f9ed64359a32d53444a2e90a3d45e0defc5c11bac",
+      "monitor": {
+        "sampleIntervalSeconds": 5,
+        "samples": 48,
+        "firstBootAverageExcluded": true,
+        "idlePercentMedian": 85.0,
+        "idlePercentMin": 61,
+        "userPlusSystemPercentMedian": 15.0,
+        "userPlusSystemPercentMax": 39,
+        "swapInOutNonzeroSamples": 14,
+        "swapPagesInDelta": 6586,
+        "swapPagesOutDelta": 196,
+        "runnableMax": 11,
+        "ioWaitPercentMax": 0
+      }
+    }
+  ],
+  "modes": [
+    {
+      "mode": "html",
+      "typescriptRustSpeedupRange": [
+        7.293244028953084,
+        7.482149128506361
+      ],
+      "nativeCorpusTimeReductionPercentRange": [
+        39.43649086536469,
+        40.22583090513218
+      ],
+      "over5PercentInAllFourNativePasses": [],
+      "nativePerCase": [
+        {
+          "id": "author-contact-block",
+          "currentToBaselineMedianRatios": [
+            0.7444466146143477,
+            0.7396814633651091
+          ],
+          "passRatios": [
+            0.8246869610938133,
+            0.7155620150153466,
+            0.7619164792491431,
+            0.6806319953126282
+          ]
+        },
+        {
+          "id": "author-share-widget",
+          "currentToBaselineMedianRatios": [
+            0.9357266759166066,
+            0.9728040327835216
+          ],
+          "passRatios": [
+            0.9827930271382537,
+            0.8655101584126684,
+            1.0158180592353618,
+            0.8509547593428302
+          ]
+        },
+        {
+          "id": "callouts--obsidian-publish-callouts",
+          "currentToBaselineMedianRatios": [
+            0.7390705530755898,
+            0.7439229088516961
+          ],
+          "passRatios": [
+            0.767715416085073,
+            0.7368190463226448,
+            0.8140883183422067,
+            0.675050765775054
+          ]
+        },
+        {
+          "id": "code-blocks--chroma-linenums",
+          "currentToBaselineMedianRatios": [
+            0.6427680038111737,
+            0.6461251930597003
+          ],
+          "passRatios": [
+            0.6483441814439235,
+            0.6322602366281291,
+            0.6694269037273345,
+            0.6489623598972402
+          ]
+        },
+        {
+          "id": "code-blocks--hexo-br",
+          "currentToBaselineMedianRatios": [
+            0.5808428526830187,
+            0.5738928221348398
+          ],
+          "passRatios": [
+            0.5832790711259991,
+            0.5739301544858769,
+            0.5947324195401632,
+            0.5602355505666364
+          ]
+        },
+        {
+          "id": "codeblocks--chatgpt-codemirror",
+          "currentToBaselineMedianRatios": [
+            0.9571772591923633,
+            0.979878668617445
+          ],
+          "passRatios": [
+            1.0115904609720443,
+            0.9334303618354558,
+            1.0340549330319404,
+            0.9475053626680261
+          ]
+        },
+        {
+          "id": "codeblocks--chroma-inline-linenums",
+          "currentToBaselineMedianRatios": [
+            0.5560391890376025,
+            0.5541483160832428
+          ],
+          "passRatios": [
+            0.6019625894282024,
+            0.551927050657152,
+            0.5913676455158867,
+            0.5171035697759611
+          ]
+        },
+        {
+          "id": "codeblocks--chroma-line-spans",
+          "currentToBaselineMedianRatios": [
+            0.5790323372766694,
+            0.5932209489339204
+          ],
+          "passRatios": [
+            0.6228810544679283,
+            0.5692244375465176,
+            0.615644910363525,
+            0.6181206520663234
+          ]
+        },
+        {
+          "id": "codeblocks--code-pre-nesting",
+          "currentToBaselineMedianRatios": [
+            0.7852540063149416,
+            0.8278478254449559
+          ],
+          "passRatios": [
+            0.8699964798830754,
+            0.7508771812963467,
+            0.9128266201399964,
+            0.7763044766586726
+          ]
+        },
+        {
+          "id": "codeblocks--flex-row-gutter",
+          "currentToBaselineMedianRatios": [
+            0.6598734698348309,
+            0.7102333119581165
+          ],
+          "passRatios": [
+            0.6977830621454115,
+            0.6465428434617083,
+            0.7233775815615126,
+            0.7012313992669679
+          ]
+        },
+        {
+          "id": "codeblocks--hljs-header",
+          "currentToBaselineMedianRatios": [
+            0.687429955709986,
+            0.7269378724842038
+          ],
+          "passRatios": [
+            0.7256107772346193,
+            0.6749282167698064,
+            0.7587528958788788,
+            0.7140706157651556
+          ]
+        },
+        {
+          "id": "codeblocks--mintlify",
+          "currentToBaselineMedianRatios": [
+            0.765349741532085,
+            0.8317395563102707
+          ],
+          "passRatios": [
+            0.8172753218523852,
+            0.7543507036381473,
+            0.8645093892583209,
+            0.797750775270252
+          ]
+        },
+        {
+          "id": "codeblocks--pygments-lineno",
+          "currentToBaselineMedianRatios": [
+            0.6432790604925113,
+            0.6857352968305926
+          ],
+          "passRatios": [
+            0.6757549291329449,
+            0.6027753651409405,
+            0.7151121541851202,
+            0.6525387241934483
+          ]
+        },
+        {
+          "id": "codeblocks--react-syntax-highlighter-linenums",
+          "currentToBaselineMedianRatios": [
+            0.6516387203747642,
+            0.6737674954356667
+          ],
+          "passRatios": [
+            0.6804447156598403,
+            0.6351120296283884,
+            0.6801704962100802,
+            0.6780838174641024
+          ]
+        },
+        {
+          "id": "codeblocks--rehype-pretty-code",
+          "currentToBaselineMedianRatios": [
+            0.5894014453309824,
+            0.6227825568480372
+          ],
+          "passRatios": [
+            0.6089626847152266,
+            0.5836756673590277,
+            0.6365953730303576,
+            0.6037607715400416
+          ]
+        },
+        {
+          "id": "codeblocks--rehype-pretty-copy",
+          "currentToBaselineMedianRatios": [
+            0.7274664234297875,
+            0.7383404006276189
+          ],
+          "passRatios": [
+            0.7371357835634132,
+            0.6898346901889414,
+            0.7586687791063376,
+            0.7631563342375831
+          ]
+        },
+        {
+          "id": "codeblocks--rockthejvm.com-articles-kotlin-101-type-classes",
+          "currentToBaselineMedianRatios": [
+            0.8243936212126428,
+            0.8905627674621265
+          ],
+          "passRatios": [
+            0.895690556127664,
+            0.7899274196322442,
+            0.9392181723555127,
+            0.8639693249820845
+          ]
+        },
+        {
+          "id": "codeblocks--rouge-linenums",
+          "currentToBaselineMedianRatios": [
+            0.6606845456384834,
+            0.7094437674677956
+          ],
+          "passRatios": [
+            0.770615776888472,
+            0.6277620676816035,
+            0.7172335346556505,
+            0.7281779096705951
+          ]
+        },
+        {
+          "id": "codeblocks--stripe",
+          "currentToBaselineMedianRatios": [
+            0.8179664555176197,
+            0.8451925202561459
+          ],
+          "passRatios": [
+            0.8698820934662093,
+            0.8209108492307038,
+            0.8721314636561547,
+            0.8215111006983272
+          ]
+        },
+        {
+          "id": "comments--mastodon.social-@user-12345678",
+          "currentToBaselineMedianRatios": [
+            0.96858535096026,
+            1.046139127870494
+          ],
+          "passRatios": [
+            1.1055237781234892,
+            0.945347045036336,
+            1.1479508254600406,
+            0.9240325812772483
+          ]
+        },
+        {
+          "id": "comments--news.ycombinator.com-item-id=12345678",
+          "currentToBaselineMedianRatios": [
+            0.9291591184245852,
+            0.9661593169835526
+          ],
+          "passRatios": [
+            0.9374116856033744,
+            0.9245690613928476,
+            0.9990378492853349,
+            0.9664006965038043
+          ]
+        },
+        {
+          "id": "comments--old.reddit.com-r-test-comments-abc123-test_post",
+          "currentToBaselineMedianRatios": [
+            0.883212543310889,
+            0.9597961325681664
+          ],
+          "passRatios": [
+            0.9643609486131195,
+            0.8875796249193555,
+            1.0062768175953432,
+            0.9320243163894665
+          ]
+        },
+        {
+          "id": "content-patterns--card-grid-stripped-headings",
+          "currentToBaselineMedianRatios": [
+            0.6800251068031273,
+            0.7271730486460062
+          ],
+          "passRatios": [
+            0.7320684192467459,
+            0.6592952861745572,
+            0.7332804551173348,
+            0.654547315070637
+          ]
+        },
+        {
+          "id": "content-patterns--code-block-boilerplate-and-trailing-section",
+          "currentToBaselineMedianRatios": [
+            0.8565836205895299,
+            0.9042568217946101
+          ],
+          "passRatios": [
+            0.8901773349803643,
+            0.8335114790728022,
+            0.9245004183507912,
+            0.8435912048523364
+          ]
+        },
+        {
+          "id": "content-patterns--content-list-with-internal-links",
+          "currentToBaselineMedianRatios": [
+            0.8847831479922414,
+            0.9257281664551921
+          ],
+          "passRatios": [
+            0.9004062617993176,
+            0.858867488150456,
+            0.9341549849804038,
+            0.9117902589551511
+          ]
+        },
+        {
+          "id": "content-patterns--heading-introduced-list",
+          "currentToBaselineMedianRatios": [
+            0.8393702656451232,
+            0.9037625432718435
+          ],
+          "passRatios": [
+            0.8422261904230639,
+            0.838490085463702,
+            0.9039231818477059,
+            0.8533150875735378
+          ]
+        },
+        {
+          "id": "content-patterns--iso-date-and-read-time",
+          "currentToBaselineMedianRatios": [
+            0.8558693162929856,
+            0.95154427641683
+          ],
+          "passRatios": [
+            0.8720275910467608,
+            0.8382757092198581,
+            0.9675270240881554,
+            0.8464811645971683
+          ]
+        },
+        {
+          "id": "content-patterns--leading-breadcrumb",
+          "currentToBaselineMedianRatios": [
+            0.6286570518596454,
+            0.6424810248373983
+          ],
+          "passRatios": [
+            0.6736715121236746,
+            0.5878740900594032,
+            0.6742453296731022,
+            0.6196687290509467
+          ]
+        },
+        {
+          "id": "content-patterns--live-blog-metadata",
+          "currentToBaselineMedianRatios": [
+            0.8433723695641416,
+            0.9182675709757935
+          ],
+          "passRatios": [
+            0.8829226097312118,
+            0.8144877460430445,
+            0.9302747197543656,
+            0.8507842040028659
+          ]
+        },
+        {
+          "id": "content-patterns--multi-image-row-midarticle",
+          "currentToBaselineMedianRatios": [
+            0.864878883569617,
+            0.8819308307052897
+          ],
+          "passRatios": [
+            0.8877503518194789,
+            0.8436777464677424,
+            0.9198490419200511,
+            0.8516819429828694
+          ]
+        },
+        {
+          "id": "content-patterns--non-semantic-hero-header",
+          "currentToBaselineMedianRatios": [
+            0.7461762481318303,
+            0.7980899960869642
+          ],
+          "passRatios": [
+            0.8195329236306745,
+            0.728120583455312,
+            0.808236698934893,
+            0.7667187292008698
+          ]
+        },
+        {
+          "id": "content-patterns--social-counter-link",
+          "currentToBaselineMedianRatios": [
+            0.8627525302714542,
+            0.926503319200479
+          ],
+          "passRatios": [
+            0.9554851007475024,
+            0.8523884833855243,
+            0.987661195891388,
+            0.8959619456356022
+          ]
+        },
+        {
+          "id": "content-patterns--social-engagement-counter",
+          "currentToBaselineMedianRatios": [
+            0.7494598949629984,
+            0.8205796911034849
+          ],
+          "passRatios": [
+            0.8038432056290801,
+            0.7441024290808236,
+            0.8507828218672376,
+            0.7950528640423002
+          ]
+        },
+        {
+          "id": "content-patterns--socket-dev-blog",
+          "currentToBaselineMedianRatios": [
+            0.6838165114770992,
+            0.7477494424578983
+          ],
+          "passRatios": [
+            0.7170463957799723,
+            0.6827540439651597,
+            0.7698975351448788,
+            0.6971765088793507
+          ]
+        },
+        {
+          "id": "content-patterns--table-of-contents",
+          "currentToBaselineMedianRatios": [
+            0.896154018580166,
+            0.9145921158637547
+          ],
+          "passRatios": [
+            0.9259537410642585,
+            0.8851068440304534,
+            0.9420440061568043,
+            0.8460646884261628
+          ]
+        },
+        {
+          "id": "content-patterns--trailing-related-posts",
+          "currentToBaselineMedianRatios": [
+            0.5658930029517094,
+            0.6306354677962396
+          ],
+          "passRatios": [
+            0.6026220554812124,
+            0.5645560148375196,
+            0.6504853688059549,
+            0.5901420026482808
+          ]
+        },
+        {
+          "id": "content-patterns--trailing-subscribe-after-footnotes",
+          "currentToBaselineMedianRatios": [
+            0.6363429493153315,
+            0.672900089359233
+          ],
+          "passRatios": [
+            0.64618089397135,
+            0.6346432062561095,
+            0.7021467900234403,
+            0.6706628082370026
+          ]
+        },
+        {
+          "id": "custom-elements--swiper-carousel",
+          "currentToBaselineMedianRatios": [
+            0.7864718185094592,
+            0.8047242124268864
+          ],
+          "passRatios": [
+            0.7889764859792936,
+            0.8157939313761545,
+            0.8162622410789959,
+            0.8100976744943353
+          ]
+        },
+        {
+          "id": "elementor--archive-page",
+          "currentToBaselineMedianRatios": [
+            0.7914753902590177,
+            0.7895616739939686
+          ],
+          "passRatios": [
+            0.7863155836205334,
+            0.8034420094926096,
+            0.8251980107374169,
+            0.7801755116633066
+          ]
+        },
+        {
+          "id": "elements--base64-placeholder-removal",
+          "currentToBaselineMedianRatios": [
+            0.8892872608078405,
+            0.9315222335270005
+          ],
+          "passRatios": [
+            0.9507545602343019,
+            0.8893118894076146,
+            1.0358224049422344,
+            0.9140177773102613
+          ]
+        },
+        {
+          "id": "elements--bootstrap-alerts",
+          "currentToBaselineMedianRatios": [
+            1.0211353680983977,
+            1.0590764155920458
+          ],
+          "passRatios": [
+            1.0563415025341631,
+            1.020333375805306,
+            1.0639057028032965,
+            1.0351781573317644
+          ]
+        },
+        {
+          "id": "elements--br-between-blocks",
+          "currentToBaselineMedianRatios": [
+            0.8104265992141594,
+            0.8872760256237402
+          ],
+          "passRatios": [
+            0.8703931171221703,
+            0.8091128118166012,
+            0.9130764713611146,
+            0.8452061562525098
+          ]
+        },
+        {
+          "id": "elements--complex-tables",
+          "currentToBaselineMedianRatios": [
+            0.9222303396653163,
+            0.9644152814438648
+          ],
+          "passRatios": [
+            1.0340185820631558,
+            0.8959603119762013,
+            1.0025316662114288,
+            0.9718549480151631
+          ]
+        },
+        {
+          "id": "elements--data-table",
+          "currentToBaselineMedianRatios": [
+            0.944578078504453,
+            0.9913202521326797
+          ],
+          "passRatios": [
+            1.071292579076865,
+            0.9309699640845501,
+            0.992715351721742,
+            0.9557908551418918
+          ]
+        },
+        {
+          "id": "elements--embedded-videos",
+          "currentToBaselineMedianRatios": [
+            0.7512352258555163,
+            0.8006674625465465
+          ],
+          "passRatios": [
+            0.819149732048796,
+            0.7422882661796598,
+            0.8218335804785298,
+            0.7847004945269784
+          ]
+        },
+        {
+          "id": "elements--empty-p-br",
+          "currentToBaselineMedianRatios": [
+            0.7266418070624474,
+            0.7810422646953181
+          ],
+          "passRatios": [
+            0.7479737935706674,
+            0.7249727253548718,
+            0.7794612023129266,
+            0.7942417421102704
+          ]
+        },
+        {
+          "id": "elements--empty-table",
+          "currentToBaselineMedianRatios": [
+            0.654350893037886,
+            0.6745570197529719
+          ],
+          "passRatios": [
+            0.7160897057835444,
+            0.6500752039243343,
+            0.6689010569513039,
+            0.7083435738701868
+          ]
+        },
+        {
+          "id": "elements--farsi-zwnj",
+          "currentToBaselineMedianRatios": [
+            0.6409118011796422,
+            0.6415667587563975
+          ],
+          "passRatios": [
+            0.6777012735281593,
+            0.6326159386989659,
+            0.6617154761194174,
+            0.6454953712906735
+          ]
+        },
+        {
+          "id": "elements--figure-content-wrapper",
+          "currentToBaselineMedianRatios": [
+            0.7654166523799443,
+            0.7802278031106018
+          ],
+          "passRatios": [
+            0.8330799485050455,
+            0.7546687548371711,
+            0.8115229222257399,
+            0.7399845195440755
+          ]
+        },
+        {
+          "id": "elements--hugo-admonitions",
+          "currentToBaselineMedianRatios": [
+            0.9389834364726584,
+            0.9679301043601333
+          ],
+          "passRatios": [
+            1.0180825909992393,
+            0.9293991303202003,
+            1.0121793938499575,
+            0.9099471067375964
+          ]
+        },
+        {
+          "id": "elements--image-dedup",
+          "currentToBaselineMedianRatios": [
+            0.8611779971930662,
+            0.9293281579216595
+          ],
+          "passRatios": [
+            0.951266391150229,
+            0.8541414117086668,
+            0.9949323815194683,
+            0.8332055523243116
+          ]
+        },
+        {
+          "id": "elements--javascript-links",
+          "currentToBaselineMedianRatios": [
+            0.8447200707807169,
+            0.9212381163557747
+          ],
+          "passRatios": [
+            0.8975870329512297,
+            0.8317755682356014,
+            0.9552373334041009,
+            0.7769463427662421
+          ]
+        },
+        {
+          "id": "elements--lazy-image",
+          "currentToBaselineMedianRatios": [
+            0.8495612139304565,
+            0.8854813243595554
+          ],
+          "passRatios": [
+            0.9261607798777686,
+            0.8294827030633175,
+            0.9231852254573533,
+            0.7808432283057356
+          ]
+        },
+        {
+          "id": "elements--lightbox-image-dedup",
+          "currentToBaselineMedianRatios": [
+            0.8467201514819148,
+            0.9279770557673146
+          ],
+          "passRatios": [
+            0.948821793955973,
+            0.8418070014794004,
+            0.951044929082489,
+            0.8634829997243886
+          ]
+        },
+        {
+          "id": "elements--nbsp-handling",
+          "currentToBaselineMedianRatios": [
+            0.6694113597883679,
+            0.7086761321592144
+          ],
+          "passRatios": [
+            0.6975873422661435,
+            0.6596147410203528,
+            0.7251513546647809,
+            0.6635458829896386
+          ]
+        },
+        {
+          "id": "elements--srcset-normalization",
+          "currentToBaselineMedianRatios": [
+            0.8455612659658017,
+            0.9187826336220408
+          ],
+          "passRatios": [
+            0.9178045600183954,
+            0.8459003600033643,
+            0.9415912504810497,
+            0.8812547870306792
+          ]
+        },
+        {
+          "id": "elements--svg-placeholder-lazy-image",
+          "currentToBaselineMedianRatios": [
+            0.8297555993085789,
+            0.8939229596097533
+          ],
+          "passRatios": [
+            0.8842705952141156,
+            0.8300868452954466,
+            0.9150043698897212,
+            0.8919516129385267
+          ]
+        },
+        {
+          "id": "elements--whitespace-newlines",
+          "currentToBaselineMedianRatios": [
+            0.8300121940558794,
+            0.8881412389823272
+          ],
+          "passRatios": [
+            0.858279748823998,
+            0.8225126778799468,
+            0.8951956948894514,
+            0.8744817130418455
+          ]
+        },
+        {
+          "id": "entry-point--js-article-content",
+          "currentToBaselineMedianRatios": [
+            0.6508695854813454,
+            0.676176581995122
+          ],
+          "passRatios": [
+            0.673333091379985,
+            0.6171388313307958,
+            0.686679599916927,
+            0.639048005572408
+          ]
+        },
+        {
+          "id": "extractor--bbcode-data",
+          "currentToBaselineMedianRatios": [
+            1.0122956717153626,
+            1.0932710720914474
+          ],
+          "passRatios": [
+            1.073645433801039,
+            1.0087540086425715,
+            1.1568864035866748,
+            1.0144411756305163
+          ]
+        },
+        {
+          "id": "extractor--chatgpt-citations",
+          "currentToBaselineMedianRatios": [
+            1.0324529097345263,
+            1.0607589393320014
+          ],
+          "passRatios": [
+            0.9978783506376273,
+            1.0151409579026596,
+            1.0582504733644325,
+            1.0688442532116318
+          ]
+        },
+        {
+          "id": "extractor--chatgpt-post-thought-content",
+          "currentToBaselineMedianRatios": [
+            1.0566104181951579,
+            1.1006279042484277
+          ],
+          "passRatios": [
+            1.1133001531799414,
+            1.0498376318402618,
+            1.2150367351177342,
+            1.09658316205051
+          ]
+        },
+        {
+          "id": "eyebrow--linked-category",
+          "currentToBaselineMedianRatios": [
+            0.9549109542934276,
+            1.0219413377609663
+          ],
+          "passRatios": [
+            1.047643357183825,
+            0.936469370313829,
+            1.097483126085665,
+            0.9901009746163014
+          ]
+        },
+        {
+          "id": "eyebrow--paragraph-label",
+          "currentToBaselineMedianRatios": [
+            0.9154894623182073,
+            0.9748132419802095
+          ],
+          "passRatios": [
+            1.008699142197608,
+            0.909806020193601,
+            0.9914371600568239,
+            0.968450291217734
+          ]
+        },
+        {
+          "id": "eyebrow--spans-category",
+          "currentToBaselineMedianRatios": [
+            0.9610795327758778,
+            1.037794898381053
+          ],
+          "passRatios": [
+            1.075268584359444,
+            0.9430958263772955,
+            1.0390413758926964,
+            1.0365522040486297
+          ]
+        },
+        {
+          "id": "eyebrow--wrapper-with-icon",
+          "currentToBaselineMedianRatios": [
+            0.9622087668792109,
+            1.0128101498151816
+          ],
+          "passRatios": [
+            1.0533914644729945,
+            0.9584308824306007,
+            1.0098203208160959,
+            1.0366999183499592
+          ]
+        },
+        {
+          "id": "footnotes--aside-ol-start",
+          "currentToBaselineMedianRatios": [
+            0.9331565239171855,
+            0.8930878501125739
+          ],
+          "passRatios": [
+            0.9920627654657893,
+            0.9216355112298829,
+            0.9125730917438034,
+            0.890069563102247
+          ]
+        },
+        {
+          "id": "footnotes--bold-sup-trailing",
+          "currentToBaselineMedianRatios": [
+            0.9397579262671595,
+            0.9051876555005731
+          ],
+          "passRatios": [
+            0.9327054952857182,
+            0.9394655470316761,
+            0.9217673707801146,
+            0.8796721841908071
+          ]
+        },
+        {
+          "id": "footnotes--br-separated-named-anchors",
+          "currentToBaselineMedianRatios": [
+            0.8064178124986896,
+            0.7868966521537984
+          ],
+          "passRatios": [
+            0.8022734242620433,
+            0.7618300050711518,
+            0.7974698506210128,
+            0.736642804868663
+          ]
+        },
+        {
+          "id": "footnotes--child-anchor-id",
+          "currentToBaselineMedianRatios": [
+            0.846179624111963,
+            0.8394793520843015
+          ],
+          "passRatios": [
+            0.8630882718211982,
+            0.8048915597684606,
+            0.848790715087982,
+            0.8221316459417746
+          ]
+        },
+        {
+          "id": "footnotes--easy-footnotes-wrapper",
+          "currentToBaselineMedianRatios": [
+            0.6897867157708536,
+            0.6973279681355484
+          ],
+          "passRatios": [
+            0.7648161801252525,
+            0.6788607387858853,
+            0.7014146081617343,
+            0.7068107975872852
+          ]
+        },
+        {
+          "id": "footnotes--external-labeled-section",
+          "currentToBaselineMedianRatios": [
+            0.937876558967647,
+            0.9482146625427307
+          ],
+          "passRatios": [
+            1.003634149705171,
+            0.8903002528659267,
+            0.9369318922583505,
+            0.9754334797903084
+          ]
+        },
+        {
+          "id": "footnotes--google-docs-ftnt",
+          "currentToBaselineMedianRatios": [
+            0.6922033719554863,
+            0.6707450070897649
+          ],
+          "passRatios": [
+            0.7188887975493051,
+            0.6501973417001439,
+            0.6821776369686394,
+            0.6274930296846145
+          ]
+        },
+        {
+          "id": "footnotes--heading-notes",
+          "currentToBaselineMedianRatios": [
+            0.9092596824025182,
+            0.8996869615278517
+          ],
+          "passRatios": [
+            0.9194776997608272,
+            0.8898559510406742,
+            0.8968318282826053,
+            0.9182796799635281
+          ]
+        },
+        {
+          "id": "footnotes--hidden-aside-data-definition",
+          "currentToBaselineMedianRatios": [
+            0.927313001661129,
+            0.9046343051744937
+          ],
+          "passRatios": [
+            0.9542535094349913,
+            0.8603765492466124,
+            0.9162137721776302,
+            0.9415927644329594
+          ]
+        },
+        {
+          "id": "footnotes--hidden-section",
+          "currentToBaselineMedianRatios": [
+            0.8231395635544619,
+            0.8422157842009257
+          ],
+          "passRatios": [
+            0.847437499756657,
+            0.7898590471885499,
+            0.8348451310937225,
+            0.8439553628870632
+          ]
+        },
+        {
+          "id": "footnotes--hr-continuation",
+          "currentToBaselineMedianRatios": [
+            0.9727486946889361,
+            0.9914280993880284
+          ],
+          "passRatios": [
+            0.9821450178765618,
+            0.9228808972605007,
+            1.0065178002733268,
+            0.9747811764325418
+          ]
+        },
+        {
+          "id": "footnotes--hr-strong-numbered",
+          "currentToBaselineMedianRatios": [
+            0.9116567048292763,
+            0.9371041506892873
+          ],
+          "passRatios": [
+            0.9424700282398044,
+            0.8803404681223024,
+            0.93564789155318,
+            0.9476319505013506
+          ]
+        },
+        {
+          "id": "footnotes--hr-sup-numbered",
+          "currentToBaselineMedianRatios": [
+            0.9005785236401458,
+            0.9145988715538484
+          ],
+          "passRatios": [
+            0.8773553664359584,
+            0.8416005951677938,
+            0.9069233352531471,
+            0.9304856289953027
+          ]
+        },
+        {
+          "id": "footnotes--inline-footnote-span",
+          "currentToBaselineMedianRatios": [
+            0.9159278998121361,
+            0.9580781954863635
+          ],
+          "passRatios": [
+            0.9381340696282257,
+            0.8812307401678927,
+            0.9614933944376454,
+            0.9783090516177687
+          ]
+        },
+        {
+          "id": "footnotes--labeled-section-ol",
+          "currentToBaselineMedianRatios": [
+            0.9167496031485085,
+            0.9919424073585619
+          ],
+          "passRatios": [
+            0.9455733719915668,
+            0.9003484616983718,
+            0.9914495618845708,
+            0.9837576254229164
+          ]
+        },
+        {
+          "id": "footnotes--maggieappleton.com-xanadu-patterns",
+          "currentToBaselineMedianRatios": [
+            0.706832905945095,
+            0.7332146578098446
+          ],
+          "passRatios": [
+            0.7664004830345048,
+            0.6943582988293322,
+            0.758012605894297,
+            0.7035746682740269
+          ]
+        },
+        {
+          "id": "footnotes--named-anchor",
+          "currentToBaselineMedianRatios": [
+            0.8765819582803688,
+            0.9355717881628722
+          ],
+          "passRatios": [
+            1.071944242934206,
+            0.8484994823199182,
+            0.9739869177305884,
+            0.8968966189992751
+          ]
+        },
+        {
+          "id": "footnotes--nested-prose",
+          "currentToBaselineMedianRatios": [
+            0.865174012649292,
+            0.8818521389148889
+          ],
+          "passRatios": [
+            0.932215980314778,
+            0.8294442542849676,
+            0.920093563956839,
+            0.88524985924447
+          ]
+        },
+        {
+          "id": "footnotes--no-false-positive-equation-refs",
+          "currentToBaselineMedianRatios": [
+            0.8160004611566658,
+            0.9095756036440105
+          ],
+          "passRatios": [
+            0.9502421632661495,
+            0.8099349003568835,
+            0.9259065756695197,
+            0.8532277755033546
+          ]
+        },
+        {
+          "id": "footnotes--numeric-anchor-id",
+          "currentToBaselineMedianRatios": [
+            0.9805668392479322,
+            0.9435928876207467
+          ],
+          "passRatios": [
+            1.0194018349492926,
+            0.9307724580469124,
+            0.999485256584273,
+            0.932525937583651
+          ]
+        },
+        {
+          "id": "footnotes--orgmode-css-sidenotes",
+          "currentToBaselineMedianRatios": [
+            0.794655600539525,
+            0.8514213412960643
+          ],
+          "passRatios": [
+            0.8577274551703866,
+            0.781661120353983,
+            0.8780195255555064,
+            0.7613093702432858
+          ]
+        },
+        {
+          "id": "footnotes--p-class-footnote",
+          "currentToBaselineMedianRatios": [
+            0.8916316402623902,
+            0.922010320021437
+          ],
+          "passRatios": [
+            0.9380868920902263,
+            0.8699890791891964,
+            0.9786824972889709,
+            0.7346873763540689
+          ]
+        },
+        {
+          "id": "footnotes--pulldown-cmark-footnote-definition",
+          "currentToBaselineMedianRatios": [
+            0.8908531432076203,
+            0.9302981988357648
+          ],
+          "passRatios": [
+            0.9179180512495291,
+            0.8581122054972842,
+            0.9488322547793564,
+            0.8571990026787077
+          ]
+        },
+        {
+          "id": "footnotes--sidenote-inline-with-list",
+          "currentToBaselineMedianRatios": [
+            0.7839622538733763,
+            0.8024449417992663
+          ],
+          "passRatios": [
+            0.832869095068815,
+            0.7685798635285204,
+            0.8410413250674349,
+            0.6944199059353029
+          ]
+        },
+        {
+          "id": "footnotes--span-fnref-colon",
+          "currentToBaselineMedianRatios": [
+            0.7513602199686269,
+            0.7763507169843614
+          ],
+          "passRatios": [
+            0.8019133614799201,
+            0.7499368716222742,
+            0.7938722695092202,
+            0.7226817049670895
+          ]
+        },
+        {
+          "id": "footnotes--wikipedia-references",
+          "currentToBaselineMedianRatios": [
+            1.0090243449262413,
+            1.0534673389385811
+          ],
+          "passRatios": [
+            1.0871865438115191,
+            0.9983381189906803,
+            1.0721252252317666,
+            0.9316414800238167
+          ]
+        },
+        {
+          "id": "footnotes--word-ftn-ftnref",
+          "currentToBaselineMedianRatios": [
+            0.8428687360287681,
+            0.8831214135509854
+          ],
+          "passRatios": [
+            0.9015060172129312,
+            0.8249226312758562,
+            0.9154941753067949,
+            0.7792144649036951
+          ]
+        },
+        {
+          "id": "footnotes--wp-block-footnotes",
+          "currentToBaselineMedianRatios": [
+            0.722205337431849,
+            0.762448348773255
+          ],
+          "passRatios": [
+            0.7877679580293782,
+            0.7205660107528129,
+            0.7822132981601905,
+            0.7016158302892204
+          ]
+        },
+        {
+          "id": "gated-content--cookie-consent",
+          "currentToBaselineMedianRatios": [
+            0.732322784903575,
+            0.7693347963282114
+          ],
+          "passRatios": [
+            0.7857802698469862,
+            0.7369964640462964,
+            0.756073895753427,
+            0.722604738637564
+          ]
+        },
+        {
+          "id": "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes",
+          "currentToBaselineMedianRatios": [
+            0.6120236569949333,
+            0.6109618599977553
+          ],
+          "passRatios": [
+            0.6502581947908439,
+            0.6029929866674247,
+            0.6361633606308376,
+            0.5399568796140383
+          ]
+        },
+        {
+          "id": "general--apnews-link-enhancement",
+          "currentToBaselineMedianRatios": [
+            0.6766519604256857,
+            0.7340202892175448
+          ],
+          "passRatios": [
+            0.7882797711645397,
+            0.6602059597219138,
+            0.8232877890037669,
+            0.6149877969758228
+          ]
+        },
+        {
+          "id": "general--appendix-heading",
+          "currentToBaselineMedianRatios": [
+            0.8228689280084268,
+            0.8894215060962481
+          ],
+          "passRatios": [
+            0.8868785521917851,
+            0.8125068000559547,
+            0.925731156350756,
+            0.8030568431661529
+          ]
+        },
+        {
+          "id": "general--back-nav-link",
+          "currentToBaselineMedianRatios": [
+            0.8285513888748163,
+            0.8638081475827911
+          ],
+          "passRatios": [
+            0.8567033174037553,
+            0.821930832129738,
+            0.9019071378638001,
+            0.845354480995604
+          ]
+        },
+        {
+          "id": "general--daringfireball.net-2025-02-the_iphone_16e",
+          "currentToBaselineMedianRatios": [
+            0.8845770899011599,
+            0.9244446355190761
+          ],
+          "passRatios": [
+            0.9639667524254072,
+            0.8723608133442144,
+            0.9737932142521678,
+            0.8324916743887808
+          ]
+        },
+        {
+          "id": "general--developer.mozilla.org-en-US-docs-Web-JavaScript-Reference-Global_Objects-Array",
+          "currentToBaselineMedianRatios": [
+            0.7451839826570025,
+            0.7865715168609005
+          ],
+          "passRatios": [
+            0.8157434960072575,
+            0.7446155525282457,
+            0.8017697616733132,
+            0.7531858951053406
+          ]
+        },
+        {
+          "id": "general--github.com-issue-56",
+          "currentToBaselineMedianRatios": [
+            0.7020385765986386,
+            0.7173858724397851
+          ],
+          "passRatios": [
+            0.712044674136898,
+            0.6985109020504839,
+            0.7355169970083113,
+            0.6664912917870471
+          ]
+        },
+        {
+          "id": "general--github.com-test-owner-test-repo-pull-42",
+          "currentToBaselineMedianRatios": [
+            0.9904909547722892,
+            1.0168802415792837
+          ],
+          "passRatios": [
+            1.0332758324558848,
+            0.9650084251858951,
+            1.089067043587084,
+            0.9125644378190662
+          ]
+        },
+        {
+          "id": "general--inline-comments-and-link-lists",
+          "currentToBaselineMedianRatios": [
+            0.7879194156531869,
+            0.8123673142373815
+          ],
+          "passRatios": [
+            0.8444400484788507,
+            0.7719345465272386,
+            0.8502426708500832,
+            0.7436973639095212
+          ]
+        },
+        {
+          "id": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+          "currentToBaselineMedianRatios": [
+            0.24298600420611594,
+            0.24700906621579552
+          ],
+          "passRatios": [
+            0.2669064839240904,
+            0.23914841394325637,
+            0.2575158802811089,
+            0.23166515459479267
+          ]
+        },
+        {
+          "id": "general--multi-article-portfolio",
+          "currentToBaselineMedianRatios": [
+            0.7866089193590977,
+            0.8010443708625592
+          ],
+          "passRatios": [
+            0.8633861786930067,
+            0.7681128268853858,
+            0.8379147711835478,
+            0.7561194294336522
+          ]
+        },
+        {
+          "id": "general--news.ycombinator.com-item-id=12345678",
+          "currentToBaselineMedianRatios": [
+            0.9603143719547284,
+            1.0275896436567027
+          ],
+          "passRatios": [
+            1.044087318572707,
+            0.9281512155616338,
+            1.0939610537527165,
+            0.9080218022394693
+          ]
+        },
+        {
+          "id": "general--obsidian-publish-cjk",
+          "currentToBaselineMedianRatios": [
+            0.8672053346325543,
+            0.8640753919553332
+          ],
+          "passRatios": [
+            0.8990289594298789,
+            0.8370705586108915,
+            0.9744832738441106,
+            0.8144350099780538
+          ]
+        },
+        {
+          "id": "general--obsidian.md-blog-verify-obsidian-sync-encryption",
+          "currentToBaselineMedianRatios": [
+            0.884548783215761,
+            0.8921080884652272
+          ],
+          "passRatios": [
+            0.927092793850272,
+            0.8701450852666032,
+            0.9375165285868583,
+            0.8562306928621818
+          ]
+        },
+        {
+          "id": "general--react-streaming-ssr",
+          "currentToBaselineMedianRatios": [
+            0.9221384941230165,
+            0.9495293244818716
+          ],
+          "passRatios": [
+            0.9896744764669294,
+            0.8901505670069434,
+            1.0756560114177078,
+            0.876929331445474
+          ]
+        },
+        {
+          "id": "general--scp-wiki.wikidot.com-scp-9935",
+          "currentToBaselineMedianRatios": [
+            0.8932105699035258,
+            0.8755288385585228
+          ],
+          "passRatios": [
+            0.8982623222073722,
+            0.912164041480713,
+            0.9262099333560048,
+            0.8377788613198404
+          ]
+        },
+        {
+          "id": "general--stephango.com-buy-wisely",
+          "currentToBaselineMedianRatios": [
+            0.8105560397376529,
+            0.8394631871412609
+          ],
+          "passRatios": [
+            0.868992303826966,
+            0.8131043318881379,
+            0.8671103716429012,
+            0.7385161757617305
+          ]
+        },
+        {
+          "id": "general--substack-app",
+          "currentToBaselineMedianRatios": [
+            0.6697177460820438,
+            0.6813297700361647
+          ],
+          "passRatios": [
+            0.7031892613628874,
+            0.6629451151920192,
+            0.7183550521473872,
+            0.644739723521329
+          ]
+        },
+        {
+          "id": "general--substack-custom-domain",
+          "currentToBaselineMedianRatios": [
+            0.814484924353729,
+            0.8425349585738218
+          ],
+          "passRatios": [
+            0.8736321658911577,
+            0.8078819017010539,
+            0.9503319464390989,
+            0.725755047981969
+          ]
+        },
+        {
+          "id": "general--substack-note",
+          "currentToBaselineMedianRatios": [
+            1.0220294375670143,
+            1.0444352443686
+          ],
+          "passRatios": [
+            1.113101937338661,
+            0.999309758206208,
+            1.1673900640585844,
+            0.9484614438352312
+          ]
+        },
+        {
+          "id": "general--substack-note-permalink",
+          "currentToBaselineMedianRatios": [
+            0.9979200160552512,
+            1.0812221366597583
+          ],
+          "passRatios": [
+            1.0438002534545685,
+            0.9990516749352417,
+            1.121708097749738,
+            0.9655556910253711
+          ]
+        },
+        {
+          "id": "general--svg-content-preservation",
+          "currentToBaselineMedianRatios": [
+            0.772188493904313,
+            0.8401716464549233
+          ],
+          "passRatios": [
+            0.8167920951055538,
+            0.7713745723211807,
+            0.8772592982988451,
+            0.7281618140914089
+          ]
+        },
+        {
+          "id": "general--svg-external-css-fallback",
+          "currentToBaselineMedianRatios": [
+            0.6757509617042344,
+            0.7456480129816871
+          ],
+          "passRatios": [
+            0.7453897856812128,
+            0.6612782894472694,
+            0.7840407224520458,
+            0.6938224667693799
+          ]
+        },
+        {
+          "id": "general--tailwind-hidden-blog-index",
+          "currentToBaselineMedianRatios": [
+            0.7784401046671496,
+            0.8279179919257926
+          ],
+          "passRatios": [
+            0.8103058494282649,
+            0.7581926428660807,
+            0.8544550726120336,
+            0.7702298815847538
+          ]
+        },
+        {
+          "id": "general--trailing-cta-newsletter",
+          "currentToBaselineMedianRatios": [
+            0.9170101047204556,
+            0.9870894615897281
+          ],
+          "passRatios": [
+            0.9646796304764408,
+            0.9048810850280911,
+            1.025307835580462,
+            0.9342432058229158
+          ]
+        },
+        {
+          "id": "general--wikipedia",
+          "currentToBaselineMedianRatios": [
+            1.0724952771128644,
+            1.1068070449385152
+          ],
+          "passRatios": [
+            1.1456437787259903,
+            1.065967125999492,
+            1.1533911061917348,
+            0.999640242985883
+          ]
+        },
+        {
+          "id": "general--wikipedia-ipa-pronunciation",
+          "currentToBaselineMedianRatios": [
+            0.5954350111044259,
+            0.6176359250593497
+          ],
+          "passRatios": [
+            0.6860932092577718,
+            0.5619022465899973,
+            0.6867086079763777,
+            0.5114663341768905
+          ]
+        },
+        {
+          "id": "general--www.figma.com-blog-introducing-codex-to-figma",
+          "currentToBaselineMedianRatios": [
+            0.7840029474382033,
+            0.7823993974724338
+          ],
+          "passRatios": [
+            0.8132679078512681,
+            0.7768880615838791,
+            0.8292137634053388,
+            0.7217634058392463
+          ]
+        },
+        {
+          "id": "general--x.com-article",
+          "currentToBaselineMedianRatios": [
+            0.973617969277489,
+            1.080617374669598
+          ],
+          "passRatios": [
+            0.9987217946248101,
+            0.9703710208011239,
+            1.1377440948764734,
+            0.9548818635803177
+          ]
+        },
+        {
+          "id": "general--x.com-article-2026-02-13",
+          "currentToBaselineMedianRatios": [
+            0.9598816621515923,
+            1.0206104020732458
+          ],
+          "passRatios": [
+            1.0264550947632174,
+            0.9530720795899718,
+            1.071200641836617,
+            0.9743450136366975
+          ]
+        },
+        {
+          "id": "gmail--mail.google.com-mail-u-0-thread",
+          "currentToBaselineMedianRatios": [
+            0.9704204745760202,
+            1.0475972181965931
+          ],
+          "passRatios": [
+            1.0257351990657058,
+            0.9759483414729323,
+            1.1199917188751027,
+            0.8572134211113401
+          ]
+        },
+        {
+          "id": "headings--fragment-url-not-permalink",
+          "currentToBaselineMedianRatios": [
+            0.8073724457518437,
+            0.8723287192905054
+          ],
+          "passRatios": [
+            0.8675886481815562,
+            0.7926987528125629,
+            0.922190283942456,
+            0.7691977295511295
+          ]
+        },
+        {
+          "id": "headings--permalink-title-match",
+          "currentToBaselineMedianRatios": [
+            0.6701510819170341,
+            0.6918854860706192
+          ],
+          "passRatios": [
+            0.7096696738340484,
+            0.6508133101080997,
+            0.7343214439247239,
+            0.6154317990134689
+          ]
+        },
+        {
+          "id": "headings--testid-article-header",
+          "currentToBaselineMedianRatios": [
+            0.8618184855268141,
+            0.8874148982289815
+          ],
+          "passRatios": [
+            0.8957125712594441,
+            0.8385826438882782,
+            0.9409671278435857,
+            0.8037598922125181
+          ]
+        },
+        {
+          "id": "hidden--nodes",
+          "currentToBaselineMedianRatios": [
+            0.9290851887653897,
+            0.9846729964088273
+          ],
+          "passRatios": [
+            0.9917176112118882,
+            0.9128150408672827,
+            1.0442004304355412,
+            0.9291032023775498
+          ]
+        },
+        {
+          "id": "hidden--visibility",
+          "currentToBaselineMedianRatios": [
+            0.9043063855136522,
+            0.9547005834597105
+          ],
+          "passRatios": [
+            0.9529799552430944,
+            0.8647700407271284,
+            1.003818089372269,
+            0.8697047381294843
+          ]
+        },
+        {
+          "id": "issues--106-menu-id",
+          "currentToBaselineMedianRatios": [
+            0.7187421950986191,
+            0.7480904560055636
+          ],
+          "passRatios": [
+            0.7573209407642584,
+            0.6890515537291838,
+            0.7792557184292862,
+            0.6812583316730727
+          ]
+        },
+        {
+          "id": "issues--114-leading-hr",
+          "currentToBaselineMedianRatios": [
+            0.8402314476606079,
+            0.8976725230013688
+          ],
+          "passRatios": [
+            0.9039714737275591,
+            0.8196209905343579,
+            0.9197515459057759,
+            0.8098337878197636
+          ]
+        },
+        {
+          "id": "issues--120-dhammatalks-footnotes",
+          "currentToBaselineMedianRatios": [
+            0.6129148730581032,
+            0.6489647987923748
+          ],
+          "passRatios": [
+            0.6283545572034968,
+            0.5934559127860612,
+            0.6665321710515547,
+            0.5944166753930954
+          ]
+        },
+        {
+          "id": "issues--131-category-links",
+          "currentToBaselineMedianRatios": [
+            0.7410692051736905,
+            0.8047625598489446
+          ],
+          "passRatios": [
+            0.7495295159854382,
+            0.7268207563549166,
+            0.8282328541313166,
+            0.6676125099127677
+          ]
+        },
+        {
+          "id": "issues--132-hero-class",
+          "currentToBaselineMedianRatios": [
+            0.7768218952636315,
+            0.8272083306807592
+          ],
+          "passRatios": [
+            0.783049685759377,
+            0.767119584075505,
+            0.8629814303839021,
+            0.710099427806312
+          ]
+        },
+        {
+          "id": "issues--136-time-element",
+          "currentToBaselineMedianRatios": [
+            0.8335978110544137,
+            0.8821145926983256
+          ],
+          "passRatios": [
+            0.8212320353032381,
+            0.845954449569166,
+            0.8926034712310611,
+            0.7757038239546351
+          ]
+        },
+        {
+          "id": "issues--142-arxiv-multi-citations",
+          "currentToBaselineMedianRatios": [
+            0.9434544303362352,
+            1.0255900555980064
+          ],
+          "passRatios": [
+            0.9414468061923084,
+            0.9453970583474517,
+            1.0332914566884535,
+            0.879376554902954
+          ]
+        },
+        {
+          "id": "issues--143-arxiv-cross-references",
+          "currentToBaselineMedianRatios": [
+            0.8584894720611225,
+            0.9035743818027122
+          ],
+          "passRatios": [
+            0.8791459703186302,
+            0.8513437353338583,
+            0.9175997528012747,
+            0.7775412455875932
+          ]
+        },
+        {
+          "id": "issues--144-arxiv-footnote-marks",
+          "currentToBaselineMedianRatios": [
+            0.7337926808104474,
+            0.7701757597991264
+          ],
+          "passRatios": [
+            0.7284380025897693,
+            0.7292956248493807,
+            0.807348271953566,
+            0.6860740333612507
+          ]
+        },
+        {
+          "id": "issues--159-lean-heading-permalink-emoji",
+          "currentToBaselineMedianRatios": [
+            0.4780896571471715,
+            0.5109132162442743
+          ],
+          "passRatios": [
+            0.4777005705157949,
+            0.4801226482512885,
+            0.5362033391605041,
+            0.47185657604385867
+          ]
+        },
+        {
+          "id": "issues--159-lean-verso-code-blocks",
+          "currentToBaselineMedianRatios": [
+            0.7940850703177846,
+            0.8663686297240771
+          ],
+          "passRatios": [
+            0.8188904867281849,
+            0.7905320213247086,
+            0.9257072779564225,
+            0.7723721369941673
+          ]
+        },
+        {
+          "id": "issues--159-lean-verso-empty-line-preserved",
+          "currentToBaselineMedianRatios": [
+            0.672621920648599,
+            0.7065481793914188
+          ],
+          "passRatios": [
+            0.6603237265666316,
+            0.6649590222539762,
+            0.7568126924160294,
+            0.6213626033927355
+          ]
+        },
+        {
+          "id": "issues--159-lean-verso-grouped-blocks",
+          "currentToBaselineMedianRatios": [
+            0.5938879104513098,
+            0.6263445733822597
+          ],
+          "passRatios": [
+            0.5941986140513363,
+            0.5901907745120855,
+            0.6540629420338764,
+            0.5742774213063373
+          ]
+        },
+        {
+          "id": "issues--159-lean-verso-missing-section-gap",
+          "currentToBaselineMedianRatios": [
+            0.7095287122027617,
+            0.7361922777709535
+          ],
+          "passRatios": [
+            0.7146801863193885,
+            0.6923480452552896,
+            0.7610309023684924,
+            0.6859754019840428
+          ]
+        },
+        {
+          "id": "issues--161-x-status-url-author",
+          "currentToBaselineMedianRatios": [
+            0.9524780765651877,
+            1.0294606527836443
+          ],
+          "passRatios": [
+            0.9782689089325001,
+            0.9287552687530308,
+            1.0671269944947277,
+            0.9153706701590362
+          ]
+        },
+        {
+          "id": "issues--162-aria-hidden-main-content",
+          "currentToBaselineMedianRatios": [
+            0.8067318443090408,
+            0.8476904898423369
+          ],
+          "passRatios": [
+            0.8113389537859316,
+            0.8045619926178426,
+            0.8853682002280866,
+            0.7828176229690077
+          ]
+        },
+        {
+          "id": "issues--167-partial-selector-inside-code",
+          "currentToBaselineMedianRatios": [
+            0.7784794049070485,
+            0.8398831724662422
+          ],
+          "passRatios": [
+            0.7853018808413154,
+            0.7758959422344289,
+            0.8706118877823157,
+            0.7860570265552843
+          ]
+        },
+        {
+          "id": "issues--168-links-inside-inline-code",
+          "currentToBaselineMedianRatios": [
+            0.807848901984454,
+            0.8529330393535824
+          ],
+          "passRatios": [
+            0.8153632362992654,
+            0.8043016872641642,
+            0.8753021075411013,
+            0.7890840317966091
+          ]
+        },
+        {
+          "id": "issues--196-og-title-brand-name",
+          "currentToBaselineMedianRatios": [
+            0.6471907866909186,
+            0.7019379073128759
+          ],
+          "passRatios": [
+            0.6643438139889779,
+            0.647219398037576,
+            0.7246196058867548,
+            0.6399282123251872
+          ]
+        },
+        {
+          "id": "issues--217-writerside-docs",
+          "currentToBaselineMedianRatios": [
+            0.681923976555336,
+            0.7127870567443885
+          ],
+          "passRatios": [
+            0.6885358742758384,
+            0.6790042498508153,
+            0.7516808507926257,
+            0.6576792951927416
+          ]
+        },
+        {
+          "id": "issues--218-footnote-wrapper-text-lost",
+          "currentToBaselineMedianRatios": [
+            0.8677756555567825,
+            0.9096102885493613
+          ],
+          "passRatios": [
+            0.8739246645932152,
+            0.8637951906149398,
+            0.9538339707839799,
+            0.8874802371684437
+          ]
+        },
+        {
+          "id": "issues--221-nextjs-noscript-images",
+          "currentToBaselineMedianRatios": [
+            0.8017629202068355,
+            0.8256975047286308
+          ],
+          "passRatios": [
+            0.8883592861836273,
+            0.7953469107266261,
+            0.8426059825215652,
+            0.7817598070800286
+          ]
+        },
+        {
+          "id": "issues--227-noscript-lazy-images",
+          "currentToBaselineMedianRatios": [
+            0.9318610481277728,
+            0.9122391774548524
+          ],
+          "passRatios": [
+            0.9130177673754358,
+            0.9369942896850866,
+            0.9518977318522452,
+            0.8353119076094504
+          ]
+        },
+        {
+          "id": "issues--232-dismiss-in-hidden-content",
+          "currentToBaselineMedianRatios": [
+            0.7781113332239759,
+            0.7935149169988408
+          ],
+          "passRatios": [
+            0.7867601286191525,
+            0.7774721935314928,
+            0.8294399990723542,
+            0.7296074306883222
+          ]
+        },
+        {
+          "id": "issues--254-empty-video",
+          "currentToBaselineMedianRatios": [
+            0.8548256523296714,
+            0.883227014828098
+          ],
+          "passRatios": [
+            0.8859518422456452,
+            0.8402251089750612,
+            0.9057483784209317,
+            0.8821186110604395
+          ]
+        },
+        {
+          "id": "issues--263-buttons-in-paragraphs",
+          "currentToBaselineMedianRatios": [
+            0.9543079486748499,
+            0.9480381612662719
+          ],
+          "passRatios": [
+            0.972932476849996,
+            0.8973790313923683,
+            1.0018442627562445,
+            0.8500827209790452
+          ]
+        },
+        {
+          "id": "issues--272-x-localized-conversation-timeline",
+          "currentToBaselineMedianRatios": [
+            0.9331502733137145,
+            0.9934728204305641
+          ],
+          "passRatios": [
+            0.9381717386779048,
+            0.906818704539574,
+            0.992052039328573,
+            0.9783440595347548
+          ]
+        },
+        {
+          "id": "issues--280-texinfo-footnotes",
+          "currentToBaselineMedianRatios": [
+            0.8164112985524601,
+            0.8033697886269634
+          ],
+          "passRatios": [
+            0.8156526598536936,
+            0.81407170590241,
+            0.8428631385463737,
+            0.7533365442966299
+          ]
+        },
+        {
+          "id": "issues--284-table-cell-header-scoring",
+          "currentToBaselineMedianRatios": [
+            0.9001906447745854,
+            0.8470547460239071
+          ],
+          "passRatios": [
+            0.9032585852218707,
+            0.8938481183318425,
+            0.915250059727893,
+            0.8143842516339374
+          ]
+        },
+        {
+          "id": "issues--285-tag-like-title-escaping",
+          "currentToBaselineMedianRatios": [
+            0.8931125701900975,
+            0.9209460602100836
+          ],
+          "passRatios": [
+            0.9013120658351265,
+            0.8888065447592829,
+            0.944922711241271,
+            0.8777793407890498
+          ]
+        },
+        {
+          "id": "issues--286-generic-alt-image-dedup",
+          "currentToBaselineMedianRatios": [
+            0.8437649168438193,
+            0.8518742789091748
+          ],
+          "passRatios": [
+            0.8593202073809936,
+            0.8168791991569612,
+            0.8656790909829303,
+            0.8030886195242085
+          ]
+        },
+        {
+          "id": "issues--296-oreilly-noteref-footnotes",
+          "currentToBaselineMedianRatios": [
+            0.9651219247207612,
+            0.9770253004900336
+          ],
+          "passRatios": [
+            0.9966160982472149,
+            0.9435557794625413,
+            0.9986251484553489,
+            0.8651441879307845
+          ]
+        },
+        {
+          "id": "issues--300-nested-layout-tables",
+          "currentToBaselineMedianRatios": [
+            0.9019425958790552,
+            0.8788540310281606
+          ],
+          "passRatios": [
+            0.9290948385055426,
+            0.8981552937410323,
+            0.9108856171368722,
+            0.858416455045012
+          ]
+        },
+        {
+          "id": "issues--361-escaped-id",
+          "currentToBaselineMedianRatios": [
+            0.8690377204721332,
+            0.9092173400929162
+          ],
+          "passRatios": [
+            0.8495170396411297,
+            0.8651717960040384,
+            0.9282875551291435,
+            0.8463104134942018
+          ]
+        },
+        {
+          "id": "issues--361-shadow-selector-stability",
+          "currentToBaselineMedianRatios": [
+            0.8864859080251777,
+            0.8880550088535936
+          ],
+          "passRatios": [
+            0.8890662544021501,
+            0.8736153955252987,
+            0.9053594182313421,
+            0.8174614157869071
+          ]
+        },
+        {
+          "id": "issues--361-special-class-selectors",
+          "currentToBaselineMedianRatios": [
+            0.8916899900306465,
+            0.8488168757929183
+          ],
+          "passRatios": [
+            0.897437635974506,
+            0.8678713534402029,
+            0.8945339742411985,
+            0.7631920961795975
+          ]
+        },
+        {
+          "id": "issues--361-tailwind-ancestor",
+          "currentToBaselineMedianRatios": [
+            0.8672968801011145,
+            0.8567739889643727
+          ],
+          "passRatios": [
+            0.8959219359092505,
+            0.8611256097076793,
+            0.8753791155630838,
+            0.824583473183741
+          ]
+        },
+        {
+          "id": "issues--366-mixed-numbers",
+          "currentToBaselineMedianRatios": [
+            0.723136651910544,
+            0.7618210111515911
+          ],
+          "passRatios": [
+            0.7453447994339519,
+            0.7179912938114257,
+            0.7554661078751619,
+            0.7303386751881971
+          ]
+        },
+        {
+          "id": "issues--366-screen-reader-links",
+          "currentToBaselineMedianRatios": [
+            0.5916288449139646,
+            0.6022556724834599
+          ],
+          "passRatios": [
+            0.5997553848391491,
+            0.5939304673149194,
+            0.6084324555309484,
+            0.5659630723520153
+          ]
+        },
+        {
+          "id": "issues--374-explicit-image-sources",
+          "currentToBaselineMedianRatios": [
+            0.7308588896467935,
+            0.7259742549814848
+          ],
+          "passRatios": [
+            0.7433168028513018,
+            0.7268231644241515,
+            0.7568092216456901,
+            0.6804189947435697
+          ]
+        },
+        {
+          "id": "issues--374-image-source",
+          "currentToBaselineMedianRatios": [
+            0.7172478051733996,
+            0.7465963566012679
+          ],
+          "passRatios": [
+            0.774801184073815,
+            0.7165106376062541,
+            0.7605127611246951,
+            0.6651169469035312
+          ]
+        },
+        {
+          "id": "issues--374-invalid-lazy-source",
+          "currentToBaselineMedianRatios": [
+            0.7346866605210398,
+            0.7457240718997172
+          ],
+          "passRatios": [
+            0.722447027141946,
+            0.7337162302345915,
+            0.7589103668605068,
+            0.7061131071515319
+          ]
+        },
+        {
+          "id": "issues--374-lazy-source-precedence",
+          "currentToBaselineMedianRatios": [
+            0.7468353137017134,
+            0.768131227722868
+          ],
+          "passRatios": [
+            0.7351481068660682,
+            0.758993757686141,
+            0.7701361423483869,
+            0.7315774377776427
+          ]
+        },
+        {
+          "id": "issues--374-lazy-srcset-placeholder",
+          "currentToBaselineMedianRatios": [
+            0.7614030387826153,
+            0.7758298113788159
+          ],
+          "passRatios": [
+            0.770975316419449,
+            0.741918056091064,
+            0.7871530917118349,
+            0.7325503015067926
+          ]
+        },
+        {
+          "id": "issues--374-unrelated-image-metadata",
+          "currentToBaselineMedianRatios": [
+            0.7713469091112386,
+            0.7597459066139527
+          ],
+          "passRatios": [
+            0.7762530749949468,
+            0.7694079713758797,
+            0.7617628930466248,
+            0.7266388466750048
+          ]
+        },
+        {
+          "id": "issues--footnote-id-with-quote",
+          "currentToBaselineMedianRatios": [
+            0.7187501303551919,
+            0.6982231384146034
+          ],
+          "passRatios": [
+            0.7082856507241666,
+            0.7358948913560339,
+            0.720389373297171,
+            0.6354317771658496
+          ]
+        },
+        {
+          "id": "issues--header-with-subtitle-p",
+          "currentToBaselineMedianRatios": [
+            0.8328103529980039,
+            0.8024737792895357
+          ],
+          "passRatios": [
+            0.8026107560029299,
+            0.8381051604213323,
+            0.849919102328509,
+            0.7448074827599875
+          ]
+        },
+        {
+          "id": "issues--header-wraps-content",
+          "currentToBaselineMedianRatios": [
+            0.9607304931077243,
+            0.9664821865256148
+          ],
+          "passRatios": [
+            0.9564924942969822,
+            0.9735421345151268,
+            0.9910024441577839,
+            0.892242797785573
+          ]
+        },
+        {
+          "id": "issues--pascalcase-section-id-partial-match",
+          "currentToBaselineMedianRatios": [
+            1.0375564163168254,
+            1.0138272054549589
+          ],
+          "passRatios": [
+            1.0325124256476677,
+            1.0660357222915207,
+            1.0380742823637705,
+            0.8885106439707019
+          ]
+        },
+        {
+          "id": "issues--preferred-async-empty",
+          "currentToBaselineMedianRatios": [
+            0.8111051308866924,
+            0.8104211410419979
+          ],
+          "passRatios": [
+            0.821403835174994,
+            0.8273303708716102,
+            0.8290880962111039,
+            0.7723983278267723
+          ]
+        },
+        {
+          "id": "issues--react-streaming-ssr-colon-id",
+          "currentToBaselineMedianRatios": [
+            0.8024386263492878,
+            0.7975289787205304
+          ],
+          "passRatios": [
+            0.8031710499060604,
+            0.7900632675846668,
+            0.8323710196350305,
+            0.7242041234383819
+          ]
+        },
+        {
+          "id": "issues--sidebar-toggle-checkbox",
+          "currentToBaselineMedianRatios": [
+            0.8492077143468618,
+            0.8584908972507714
+          ],
+          "passRatios": [
+            0.8495260770975057,
+            0.8523935956046282,
+            0.8777773404671558,
+            0.7904797005066511
+          ]
+        },
+        {
+          "id": "issues--span-with-block-children-and-schema",
+          "currentToBaselineMedianRatios": [
+            0.8207432625517811,
+            0.7957025914252418
+          ],
+          "passRatios": [
+            0.8202691626653554,
+            0.8008292374958619,
+            0.8396736786773564,
+            0.7590703393159037
+          ]
+        },
+        {
+          "id": "listing--news.ycombinator.com-news",
+          "currentToBaselineMedianRatios": [
+            0.9810464719163656,
+            0.9852577236863953
+          ],
+          "passRatios": [
+            0.9829241337123417,
+            0.9129213750559295,
+            1.0561027009523098,
+            0.9729292602871664
+          ]
+        },
+        {
+          "id": "metadata--295-header-date-above-title",
+          "currentToBaselineMedianRatios": [
+            0.798448716498157,
+            0.798809385848437
+          ],
+          "passRatios": [
+            0.8072994100537838,
+            0.7803551997474966,
+            0.8694547152997094,
+            0.7418189043283352
+          ]
+        },
+        {
+          "id": "metadata--295-suggested-post-date",
+          "currentToBaselineMedianRatios": [
+            0.7906073861693741,
+            0.8013479483962771
+          ],
+          "passRatios": [
+            0.791281982485232,
+            0.7805098992126088,
+            0.8254261759416399,
+            0.6676811678787421
+          ]
+        },
+        {
+          "id": "metadata--author-by-prefix-and-url",
+          "currentToBaselineMedianRatios": [
+            0.8546887577835026,
+            0.8863571722381933
+          ],
+          "passRatios": [
+            0.8599146971658689,
+            0.8537819144151607,
+            0.9024832855778415,
+            0.8143652891700816
+          ]
+        },
+        {
+          "id": "metadata--date-adjacent-category-link",
+          "currentToBaselineMedianRatios": [
+            0.8188966619450483,
+            0.8397577774485335
+          ],
+          "passRatios": [
+            0.8206834862799782,
+            0.8052605740760629,
+            0.8731861564702638,
+            0.7719503381494908
+          ]
+        },
+        {
+          "id": "metadata--email-style-header-block",
+          "currentToBaselineMedianRatios": [
+            0.9601980147782142,
+            0.9440521997271215
+          ],
+          "passRatios": [
+            0.9872123242860293,
+            0.9153625503282915,
+            1.010202272223935,
+            0.8257761780994232
+          ]
+        },
+        {
+          "id": "metadata--h1-sibling-byline",
+          "currentToBaselineMedianRatios": [
+            0.8372663379293015,
+            0.8560173460274411
+          ],
+          "passRatios": [
+            0.8296754896654747,
+            0.8390800971086513,
+            0.8796513802261514,
+            0.7740176029787171
+          ]
+        },
+        {
+          "id": "metadata--multi-script-values",
+          "currentToBaselineMedianRatios": [
+            0.7399028258894749,
+            0.7441959519231718
+          ],
+          "passRatios": [
+            0.7571860028601113,
+            0.7223614882522131,
+            0.80443120942073,
+            0.6914393577127326
+          ]
+        },
+        {
+          "id": "metadata--placeholder-author-and-duplicate-published",
+          "currentToBaselineMedianRatios": [
+            0.8123990956658041,
+            0.818829337045147
+          ],
+          "passRatios": [
+            0.8258694754114462,
+            0.7862921846025567,
+            0.8570017796189864,
+            0.7746246225916951
+          ]
+        },
+        {
+          "id": "metadata--placeholder-values",
+          "currentToBaselineMedianRatios": [
+            0.8647783003176949,
+            0.8973684050691342
+          ],
+          "passRatios": [
+            0.870970135916566,
+            0.8710659075262697,
+            0.9016678445013943,
+            0.9091891597752628
+          ]
+        },
+        {
+          "id": "metadata--rel-author-in-bio-container",
+          "currentToBaselineMedianRatios": [
+            0.8003944979614064,
+            0.8063740050937644
+          ],
+          "passRatios": [
+            0.8024786048447176,
+            0.7858203651084656,
+            0.8502666159213242,
+            0.7814069395540576
+          ]
+        },
+        {
+          "id": "related--inline-related-stories-block",
+          "currentToBaselineMedianRatios": [
+            0.8847302808253075,
+            0.861756885701114
+          ],
+          "passRatios": [
+            0.8869350800827548,
+            0.8526163311868871,
+            0.9174626187226631,
+            0.8463669712300599
+          ]
+        },
+        {
+          "id": "scoring--related-posts-byline",
+          "currentToBaselineMedianRatios": [
+            0.7766229692986492,
+            0.789394988823213
+          ],
+          "passRatios": [
+            0.7870335841151186,
+            0.7385344057362372,
+            0.8088502937233201,
+            0.7410534935082079
+          ]
+        },
+        {
+          "id": "scoring--table-with-links",
+          "currentToBaselineMedianRatios": [
+            0.9307191664971943,
+            0.9387195904325685
+          ],
+          "passRatios": [
+            0.9515451323848412,
+            0.8940137058755663,
+            0.9957134187162531,
+            0.9152500278612187
+          ]
+        },
+        {
+          "id": "security--markdown-image-escaping",
+          "currentToBaselineMedianRatios": [
+            0.7796091080608181,
+            0.8171220034922526
+          ],
+          "passRatios": [
+            0.7945962426410267,
+            0.7457827628636409,
+            0.887153614196151,
+            0.7476230616071039
+          ]
+        },
+        {
+          "id": "selectors--arm-newsroom",
+          "currentToBaselineMedianRatios": [
+            0.7623838680412051,
+            0.7884070925202356
+          ],
+          "passRatios": [
+            0.764761406740139,
+            0.7620167896610578,
+            0.8041789994445159,
+            0.7189010014593551
+          ]
+        },
+        {
+          "id": "selectors--logo-substring-wrapper",
+          "currentToBaselineMedianRatios": [
+            0.9841397205499448,
+            1.0385618827332097
+          ],
+          "passRatios": [
+            0.9814376032907558,
+            0.9893969714980559,
+            1.0780992124080433,
+            0.9699480613174556
+          ]
+        },
+        {
+          "id": "small-images--svg-icon-viewbox",
+          "currentToBaselineMedianRatios": [
+            0.8725062692550332,
+            0.9019661435633471
+          ],
+          "passRatios": [
+            0.8654910836054818,
+            0.8454806306189245,
+            0.9175285945053578,
+            0.8372678753177841
+          ]
+        },
+        {
+          "id": "standardize--span-data-as-paragraph",
+          "currentToBaselineMedianRatios": [
+            0.9437351082079622,
+            0.9261490555858005
+          ],
+          "passRatios": [
+            0.9468000908802652,
+            0.9155271546272606,
+            0.9345903239776756,
+            0.8699508205106969
+          ]
+        },
+        {
+          "id": "table-layout--blogger-two-column",
+          "currentToBaselineMedianRatios": [
+            1.040336544759201,
+            1.0319903582611685
+          ],
+          "passRatios": [
+            1.0275757254304403,
+            1.0510372656040392,
+            1.0731868048820425,
+            0.9292755995446592
+          ]
+        },
+        {
+          "id": "table-layout--paulgraham.com-makersschedule",
+          "currentToBaselineMedianRatios": [
+            0.6795469316187188,
+            0.6574696299664278
+          ],
+          "passRatios": [
+            0.6751664884333336,
+            0.6786840956747558,
+            0.6877921438844317,
+            0.5775959316932164
+          ]
+        },
+        {
+          "id": "table-layout--peripheral-tables",
+          "currentToBaselineMedianRatios": [
+            0.890227236187757,
+            0.8641987124171726
+          ],
+          "passRatios": [
+            0.913147393401633,
+            0.8394233980884707,
+            0.9018325316404676,
+            0.7675324623619739
+          ]
+        },
+        {
+          "id": "table-layout--single-column",
+          "currentToBaselineMedianRatios": [
+            0.8168774008682093,
+            0.7670827596494801
+          ],
+          "passRatios": [
+            0.9119047722550186,
+            0.771565994871978,
+            0.7984252969952529,
+            0.717397764178798
+          ]
+        },
+        {
+          "id": "thin-section-before-see-also",
+          "currentToBaselineMedianRatios": [
+            0.843822339217037,
+            0.82792107855531
+          ],
+          "passRatios": [
+            0.9677029218673258,
+            0.8265361428971424,
+            0.8917182712772506,
+            0.7070459830650171
+          ]
+        }
+      ],
+      "perRunFlags": [
+        {
+          "directory": "2026-10-21-hardening",
+          "over5Both": [
+            "general--wikipedia"
+          ],
+          "beyondNoiseBoth": [],
+          "noiseThreshold": 1.1546946389467139
+        },
+        {
+          "directory": "2026-10-21-hardening-repeat",
+          "over5Both": [
+            "extractor--chatgpt-citations",
+            "extractor--chatgpt-post-thought-content"
+          ],
+          "beyondNoiseBoth": [],
+          "noiseThreshold": 1.118727410983111
+        }
+      ]
+    },
+    {
+      "mode": "html+markdown",
+      "typescriptRustSpeedupRange": [
+        7.377031913529595,
+        7.61203573059423
+      ],
+      "nativeCorpusTimeReductionPercentRange": [
+        38.08754494025446,
+        38.65905612710119
+      ],
+      "over5PercentInAllFourNativePasses": [],
+      "nativePerCase": [
+        {
+          "id": "author-contact-block",
+          "currentToBaselineMedianRatios": [
+            0.766704919306352,
+            0.7643182101148431
+          ],
+          "passRatios": [
+            0.8076563990965819,
+            0.6969920115552656,
+            0.7590895405838882,
+            0.8043373549623734
+          ]
+        },
+        {
+          "id": "author-share-widget",
+          "currentToBaselineMedianRatios": [
+            0.921949157206905,
+            0.957769036805382
+          ],
+          "passRatios": [
+            0.90593994608844,
+            0.8869386304291358,
+            0.9209436971272486,
+            1.0633028197467942
+          ]
+        },
+        {
+          "id": "callouts--obsidian-publish-callouts",
+          "currentToBaselineMedianRatios": [
+            0.7733718833401683,
+            0.8126353231469788
+          ],
+          "passRatios": [
+            0.7313024434976926,
+            0.820301284398963,
+            0.7638121921554801,
+            0.8901830997821244
+          ]
+        },
+        {
+          "id": "code-blocks--chroma-linenums",
+          "currentToBaselineMedianRatios": [
+            0.6627060994676136,
+            0.6823130477827245
+          ],
+          "passRatios": [
+            0.6388232450471147,
+            0.6999315071352241,
+            0.6429800461245362,
+            0.698704373535224
+          ]
+        },
+        {
+          "id": "code-blocks--hexo-br",
+          "currentToBaselineMedianRatios": [
+            0.5815303756218532,
+            0.5783332118294701
+          ],
+          "passRatios": [
+            0.5554654021831389,
+            0.5790943970137454,
+            0.5569135388643937,
+            0.5747257753591101
+          ]
+        },
+        {
+          "id": "codeblocks--chatgpt-codemirror",
+          "currentToBaselineMedianRatios": [
+            0.969337931177306,
+            0.9794204508682649
+          ],
+          "passRatios": [
+            0.9316277454351726,
+            0.9362097243156007,
+            0.9813288067312225,
+            0.9546087121478684
+          ]
+        },
+        {
+          "id": "codeblocks--chroma-inline-linenums",
+          "currentToBaselineMedianRatios": [
+            0.564551113723374,
+            0.5573524975421668
+          ],
+          "passRatios": [
+            0.556227543864852,
+            0.5982869086771605,
+            0.5633151890508548,
+            0.547593695780575
+          ]
+        },
+        {
+          "id": "codeblocks--chroma-line-spans",
+          "currentToBaselineMedianRatios": [
+            0.5957881072136566,
+            0.5786296300587834
+          ],
+          "passRatios": [
+            0.5625672458907787,
+            0.6294597250745211,
+            0.5704401843376822,
+            0.5861470630136837
+          ]
+        },
+        {
+          "id": "codeblocks--code-pre-nesting",
+          "currentToBaselineMedianRatios": [
+            0.7812578401163469,
+            0.7703772874631122
+          ],
+          "passRatios": [
+            0.7673910004194213,
+            0.7459063473829185,
+            0.7359099441773885,
+            0.8340353682572467
+          ]
+        },
+        {
+          "id": "codeblocks--flex-row-gutter",
+          "currentToBaselineMedianRatios": [
+            0.6700057003400578,
+            0.6787079202826652
+          ],
+          "passRatios": [
+            0.698064305261899,
+            0.6603563856021291,
+            0.6409595618223183,
+            0.6949966882313948
+          ]
+        },
+        {
+          "id": "codeblocks--hljs-header",
+          "currentToBaselineMedianRatios": [
+            0.6808657699177287,
+            0.7081814860760388
+          ],
+          "passRatios": [
+            0.6939573826806344,
+            0.663438715186702,
+            0.6741860565020048,
+            0.7322772873205323
+          ]
+        },
+        {
+          "id": "codeblocks--mintlify",
+          "currentToBaselineMedianRatios": [
+            0.8342434201112258,
+            0.8098782685855308
+          ],
+          "passRatios": [
+            0.852013851543135,
+            0.7666553997437958,
+            0.7770418503542301,
+            0.8785082647985759
+          ]
+        },
+        {
+          "id": "codeblocks--pygments-lineno",
+          "currentToBaselineMedianRatios": [
+            0.6743324551635811,
+            0.6646381126390531
+          ],
+          "passRatios": [
+            0.6270289297107029,
+            0.6193615054315033,
+            0.6515886044237388,
+            0.6998638184758625
+          ]
+        },
+        {
+          "id": "codeblocks--react-syntax-highlighter-linenums",
+          "currentToBaselineMedianRatios": [
+            0.6806116794737062,
+            0.662893788946844
+          ],
+          "passRatios": [
+            0.6555884069341431,
+            0.632482006757491,
+            0.6738627781722695,
+            0.7012936135819117
+          ]
+        },
+        {
+          "id": "codeblocks--rehype-pretty-code",
+          "currentToBaselineMedianRatios": [
+            0.5862211149975463,
+            0.5960322895087807
+          ],
+          "passRatios": [
+            0.5532688080422015,
+            0.572284122232946,
+            0.5963990333013675,
+            0.6470528526453863
+          ]
+        },
+        {
+          "id": "codeblocks--rehype-pretty-copy",
+          "currentToBaselineMedianRatios": [
+            0.7143191488600292,
+            0.711324290703335
+          ],
+          "passRatios": [
+            0.7076901994147015,
+            0.7036655455684026,
+            0.6913169971793367,
+            0.7693632150503426
+          ]
+        },
+        {
+          "id": "codeblocks--rockthejvm.com-articles-kotlin-101-type-classes",
+          "currentToBaselineMedianRatios": [
+            0.8391496306906335,
+            0.8739225255917561
+          ],
+          "passRatios": [
+            0.7769691843953024,
+            0.8356551317730889,
+            0.8166883834580357,
+            0.9183645622321969
+          ]
+        },
+        {
+          "id": "codeblocks--rouge-linenums",
+          "currentToBaselineMedianRatios": [
+            0.6543519798248202,
+            0.7014938603608566
+          ],
+          "passRatios": [
+            0.6310386233754387,
+            0.6521406433300856,
+            0.6477871153761969,
+            0.7182092114854031
+          ]
+        },
+        {
+          "id": "codeblocks--stripe",
+          "currentToBaselineMedianRatios": [
+            0.8174890170594503,
+            0.8686036023280304
+          ],
+          "passRatios": [
+            0.810592196959676,
+            0.8164853829376384,
+            0.8307899839811147,
+            0.890869721744482
+          ]
+        },
+        {
+          "id": "comments--mastodon.social-@user-12345678",
+          "currentToBaselineMedianRatios": [
+            1.001279985098305,
+            1.1284462499222692
+          ],
+          "passRatios": [
+            0.9306568743235089,
+            1.0443446956768139,
+            1.2729255408535294,
+            1.1710694161675381
+          ]
+        },
+        {
+          "id": "comments--news.ycombinator.com-item-id=12345678",
+          "currentToBaselineMedianRatios": [
+            0.957446603496122,
+            1.0213319512597907
+          ],
+          "passRatios": [
+            0.9173589818378425,
+            1.0379547155064361,
+            1.031487842858226,
+            1.0900737361497217
+          ]
+        },
+        {
+          "id": "comments--old.reddit.com-r-test-comments-abc123-test_post",
+          "currentToBaselineMedianRatios": [
+            0.9893566855395872,
+            1.009184044663011
+          ],
+          "passRatios": [
+            0.9150827213572439,
+            1.0317729401572444,
+            1.0027157714455168,
+            1.0754769903240031
+          ]
+        },
+        {
+          "id": "content-patterns--card-grid-stripped-headings",
+          "currentToBaselineMedianRatios": [
+            0.6668395709385116,
+            0.733799381031933
+          ],
+          "passRatios": [
+            0.6735418629717254,
+            0.6720803308689162,
+            0.7311006392761252,
+            0.7804574184568476
+          ]
+        },
+        {
+          "id": "content-patterns--code-block-boilerplate-and-trailing-section",
+          "currentToBaselineMedianRatios": [
+            0.8634515960469787,
+            0.9124508320245693
+          ],
+          "passRatios": [
+            0.831324205244388,
+            0.8767863100475397,
+            0.8768915830096272,
+            0.9484238904163798
+          ]
+        },
+        {
+          "id": "content-patterns--content-list-with-internal-links",
+          "currentToBaselineMedianRatios": [
+            0.8517429205312633,
+            0.9294663510420268
+          ],
+          "passRatios": [
+            0.8252824627476666,
+            0.8609070494622053,
+            0.9002490743762983,
+            0.9590318810181536
+          ]
+        },
+        {
+          "id": "content-patterns--heading-introduced-list",
+          "currentToBaselineMedianRatios": [
+            0.8388030973552716,
+            0.8705393653262496
+          ],
+          "passRatios": [
+            0.8248315756855183,
+            0.863097597209828,
+            0.847378518077927,
+            0.8916253814461657
+          ]
+        },
+        {
+          "id": "content-patterns--iso-date-and-read-time",
+          "currentToBaselineMedianRatios": [
+            0.8350327001933573,
+            0.9329134932286924
+          ],
+          "passRatios": [
+            0.792621669937868,
+            0.8338595350579322,
+            0.8702671211651688,
+            0.9772576388451235
+          ]
+        },
+        {
+          "id": "content-patterns--leading-breadcrumb",
+          "currentToBaselineMedianRatios": [
+            0.6600300814550856,
+            0.6860670616570658
+          ],
+          "passRatios": [
+            0.6216007418283663,
+            0.6784604920210727,
+            0.6627269309000918,
+            0.7125187871753953
+          ]
+        },
+        {
+          "id": "content-patterns--live-blog-metadata",
+          "currentToBaselineMedianRatios": [
+            0.8411209293083829,
+            0.8585690087970507
+          ],
+          "passRatios": [
+            0.8049900992812559,
+            0.8638413774970167,
+            0.8283218368801238,
+            0.8954100239813588
+          ]
+        },
+        {
+          "id": "content-patterns--multi-image-row-midarticle",
+          "currentToBaselineMedianRatios": [
+            0.8882045625019314,
+            0.913383854746113
+          ],
+          "passRatios": [
+            0.8606328252585737,
+            0.9071900320108587,
+            0.887241062590029,
+            0.9360993396332243
+          ]
+        },
+        {
+          "id": "content-patterns--non-semantic-hero-header",
+          "currentToBaselineMedianRatios": [
+            0.769974969165026,
+            0.7729254876710357
+          ],
+          "passRatios": [
+            0.728952014444803,
+            0.7791691713208452,
+            0.764872351651022,
+            0.7810236618595953
+          ]
+        },
+        {
+          "id": "content-patterns--social-counter-link",
+          "currentToBaselineMedianRatios": [
+            0.9038223002763053,
+            0.9201734839579141
+          ],
+          "passRatios": [
+            0.7823230771952225,
+            0.943118385374858,
+            0.8591224617677976,
+            0.9745767527884979
+          ]
+        },
+        {
+          "id": "content-patterns--social-engagement-counter",
+          "currentToBaselineMedianRatios": [
+            0.7762187828213839,
+            0.7844400388274718
+          ],
+          "passRatios": [
+            0.7469888195124932,
+            0.7905990585522616,
+            0.7729243055631113,
+            0.801748211600268
+          ]
+        },
+        {
+          "id": "content-patterns--socket-dev-blog",
+          "currentToBaselineMedianRatios": [
+            0.7119997006741634,
+            0.7117181009529645
+          ],
+          "passRatios": [
+            0.6792045894134744,
+            0.7267564881145844,
+            0.6947714298076605,
+            0.7233534655101808
+          ]
+        },
+        {
+          "id": "content-patterns--table-of-contents",
+          "currentToBaselineMedianRatios": [
+            0.8938040445251099,
+            0.9150956683040776
+          ],
+          "passRatios": [
+            0.8630780030328327,
+            0.9414888227749061,
+            0.8690910471031877,
+            0.9508111291969477
+          ]
+        },
+        {
+          "id": "content-patterns--trailing-related-posts",
+          "currentToBaselineMedianRatios": [
+            0.573243544287703,
+            0.5918892669901074
+          ],
+          "passRatios": [
+            0.5453802419850723,
+            0.5914949914436738,
+            0.5747675159645886,
+            0.5982670992423431
+          ]
+        },
+        {
+          "id": "content-patterns--trailing-subscribe-after-footnotes",
+          "currentToBaselineMedianRatios": [
+            0.6619724721541087,
+            0.6768642862797125
+          ],
+          "passRatios": [
+            0.6437075627260908,
+            0.6846522636590335,
+            0.6657152181743982,
+            0.6913626001194729
+          ]
+        },
+        {
+          "id": "custom-elements--swiper-carousel",
+          "currentToBaselineMedianRatios": [
+            0.7643834596199167,
+            0.7804087967196756
+          ],
+          "passRatios": [
+            0.7526278886493754,
+            0.785919384118791,
+            0.748925768024096,
+            0.8138715198938067
+          ]
+        },
+        {
+          "id": "elementor--archive-page",
+          "currentToBaselineMedianRatios": [
+            0.747826360009257,
+            0.7881385228032585
+          ],
+          "passRatios": [
+            0.7223807001209798,
+            0.7953776790452695,
+            0.7582710953053571,
+            0.803701043752764
+          ]
+        },
+        {
+          "id": "elements--base64-placeholder-removal",
+          "currentToBaselineMedianRatios": [
+            0.8283666738724906,
+            0.9118903700485739
+          ],
+          "passRatios": [
+            0.7353738381487331,
+            0.8635098254934019,
+            0.805421860873131,
+            1.065396012798425
+          ]
+        },
+        {
+          "id": "elements--bootstrap-alerts",
+          "currentToBaselineMedianRatios": [
+            0.9914667096091047,
+            1.0283712012956083
+          ],
+          "passRatios": [
+            0.8860308035055655,
+            1.045475232514512,
+            0.9664331741852754,
+            1.0586686967715215
+          ]
+        },
+        {
+          "id": "elements--br-between-blocks",
+          "currentToBaselineMedianRatios": [
+            0.8314262055217916,
+            0.8361807836825649
+          ],
+          "passRatios": [
+            0.7596179524399455,
+            0.8392893047025917,
+            0.7946781738705578,
+            0.9144047678473085
+          ]
+        },
+        {
+          "id": "elements--complex-tables",
+          "currentToBaselineMedianRatios": [
+            0.9191281820774652,
+            0.9851930989884145
+          ],
+          "passRatios": [
+            0.8684696737241374,
+            0.9158948024159168,
+            0.9224823803840438,
+            1.0227552281301828
+          ]
+        },
+        {
+          "id": "elements--data-table",
+          "currentToBaselineMedianRatios": [
+            0.9486903359368993,
+            0.9883013290421031
+          ],
+          "passRatios": [
+            0.8940443538840631,
+            1.0372277964870726,
+            0.9619331915457581,
+            1.0278271524466895
+          ]
+        },
+        {
+          "id": "elements--embedded-videos",
+          "currentToBaselineMedianRatios": [
+            0.7365603435206656,
+            0.7798316187282622
+          ],
+          "passRatios": [
+            0.686526179956407,
+            0.7725883547528836,
+            0.7280081994677192,
+            0.7930879044531198
+          ]
+        },
+        {
+          "id": "elements--empty-p-br",
+          "currentToBaselineMedianRatios": [
+            0.7400822903788133,
+            0.752035796382141
+          ],
+          "passRatios": [
+            0.7083861826727696,
+            0.7633069748305686,
+            0.7066697766139036,
+            0.789606998790056
+          ]
+        },
+        {
+          "id": "elements--empty-table",
+          "currentToBaselineMedianRatios": [
+            0.6433987243433543,
+            0.685339329954391
+          ],
+          "passRatios": [
+            0.6151697685935581,
+            0.6808659622611157,
+            0.6585502012233057,
+            0.6990525018286241
+          ]
+        },
+        {
+          "id": "elements--farsi-zwnj",
+          "currentToBaselineMedianRatios": [
+            0.6290145741063324,
+            0.6364225452483644
+          ],
+          "passRatios": [
+            0.5877157398460666,
+            0.6453131700968316,
+            0.6169619755660809,
+            0.6709468443096295
+          ]
+        },
+        {
+          "id": "elements--figure-content-wrapper",
+          "currentToBaselineMedianRatios": [
+            0.722782215761922,
+            0.7666125376294842
+          ],
+          "passRatios": [
+            0.6694837331201948,
+            0.7461052416745116,
+            0.7493472748202399,
+            0.8260717444770211
+          ]
+        },
+        {
+          "id": "elements--hugo-admonitions",
+          "currentToBaselineMedianRatios": [
+            0.8964835096566642,
+            0.9455574670788509
+          ],
+          "passRatios": [
+            0.8408950279155342,
+            0.8958099986017559,
+            0.9347262990149374,
+            0.9715282936603477
+          ]
+        },
+        {
+          "id": "elements--image-dedup",
+          "currentToBaselineMedianRatios": [
+            0.8489283056351954,
+            0.9042117984490968
+          ],
+          "passRatios": [
+            0.7951396493326055,
+            0.8338705135811905,
+            0.9052626793303504,
+            0.948162527821542
+          ]
+        },
+        {
+          "id": "elements--javascript-links",
+          "currentToBaselineMedianRatios": [
+            0.8115201300377107,
+            0.8583619976122315
+          ],
+          "passRatios": [
+            0.7555815554252818,
+            0.8174541144156074,
+            0.8236403733632804,
+            0.9324108144130071
+          ]
+        },
+        {
+          "id": "elements--lazy-image",
+          "currentToBaselineMedianRatios": [
+            0.8298897895088363,
+            0.9087138253934012
+          ],
+          "passRatios": [
+            0.795032177339803,
+            0.8613168859183292,
+            0.8718884341906383,
+            0.9963470816667479
+          ]
+        },
+        {
+          "id": "elements--lightbox-image-dedup",
+          "currentToBaselineMedianRatios": [
+            0.8014485437364796,
+            0.923844139879709
+          ],
+          "passRatios": [
+            0.7526807364754018,
+            0.8375638922250512,
+            0.8876495043341089,
+            1.0674012668946544
+          ]
+        },
+        {
+          "id": "elements--nbsp-handling",
+          "currentToBaselineMedianRatios": [
+            0.6289914548933768,
+            0.6985645375367469
+          ],
+          "passRatios": [
+            0.6158172309812804,
+            0.6406045365283788,
+            0.682310725250994,
+            0.7202849902594519
+          ]
+        },
+        {
+          "id": "elements--srcset-normalization",
+          "currentToBaselineMedianRatios": [
+            0.8372519505818942,
+            0.9101915717188499
+          ],
+          "passRatios": [
+            0.7777616460447123,
+            0.8720601078859491,
+            0.8941073452022817,
+            0.9479041430239018
+          ]
+        },
+        {
+          "id": "elements--svg-placeholder-lazy-image",
+          "currentToBaselineMedianRatios": [
+            0.8346106383790759,
+            0.8753917404334808
+          ],
+          "passRatios": [
+            0.7861924312745449,
+            0.8378215950420643,
+            0.8597163832851231,
+            0.905471856145984
+          ]
+        },
+        {
+          "id": "elements--whitespace-newlines",
+          "currentToBaselineMedianRatios": [
+            0.8199837384180902,
+            0.8555296381473954
+          ],
+          "passRatios": [
+            0.7884898932945709,
+            0.8243139277261066,
+            0.8449826128527365,
+            0.9565372076349714
+          ]
+        },
+        {
+          "id": "entry-point--js-article-content",
+          "currentToBaselineMedianRatios": [
+            0.6499524000307663,
+            0.712933304272143
+          ],
+          "passRatios": [
+            0.6371842651795896,
+            0.6583623119925722,
+            0.7114933314590063,
+            0.7172520875941685
+          ]
+        },
+        {
+          "id": "extractor--bbcode-data",
+          "currentToBaselineMedianRatios": [
+            1.0372195271999705,
+            1.1891387422707467
+          ],
+          "passRatios": [
+            1.0025027399276984,
+            1.058110599078341,
+            1.0654689911692519,
+            1.2843349831986195
+          ]
+        },
+        {
+          "id": "extractor--chatgpt-citations",
+          "currentToBaselineMedianRatios": [
+            1.0719191617555355,
+            1.0953832408859723
+          ],
+          "passRatios": [
+            1.0491615749400287,
+            1.1715740069518814,
+            1.1136399099171561,
+            1.0784276970827738
+          ]
+        },
+        {
+          "id": "extractor--chatgpt-post-thought-content",
+          "currentToBaselineMedianRatios": [
+            1.0743988034676932,
+            1.189692108970291
+          ],
+          "passRatios": [
+            1.027436816609619,
+            1.157993425290208,
+            1.1429907922595894,
+            1.212793975898162
+          ]
+        },
+        {
+          "id": "eyebrow--linked-category",
+          "currentToBaselineMedianRatios": [
+            0.9632400291173688,
+            1.0820165584974453
+          ],
+          "passRatios": [
+            0.9375177388999264,
+            1.035200839026136,
+            1.0821721276650933,
+            1.0818618797550814
+          ]
+        },
+        {
+          "id": "eyebrow--paragraph-label",
+          "currentToBaselineMedianRatios": [
+            0.940098758106218,
+            1.0484474444892669
+          ],
+          "passRatios": [
+            0.9041528896440272,
+            1.0375499752360655,
+            1.1422810791479956,
+            1.0320274790459425
+          ]
+        },
+        {
+          "id": "eyebrow--spans-category",
+          "currentToBaselineMedianRatios": [
+            1.0017504015458158,
+            1.0553388660639922
+          ],
+          "passRatios": [
+            0.9541074780602669,
+            1.0829092426192473,
+            1.0682487052983178,
+            1.0361530797604026
+          ]
+        },
+        {
+          "id": "eyebrow--wrapper-with-icon",
+          "currentToBaselineMedianRatios": [
+            1.0036712133356596,
+            1.0331272872080672
+          ],
+          "passRatios": [
+            1.0015305670571042,
+            1.0144958638713149,
+            1.0207967221308287,
+            1.0263142677660404
+          ]
+        },
+        {
+          "id": "footnotes--aside-ol-start",
+          "currentToBaselineMedianRatios": [
+            0.907516796052633,
+            0.8947606223894891
+          ],
+          "passRatios": [
+            0.8982483638327421,
+            0.920623220758499,
+            0.8897236838684417,
+            0.9054548859672018
+          ]
+        },
+        {
+          "id": "footnotes--bold-sup-trailing",
+          "currentToBaselineMedianRatios": [
+            0.903132802055344,
+            0.8921471050024794
+          ],
+          "passRatios": [
+            0.8983654787159678,
+            0.9216214982177179,
+            0.8756262481168763,
+            0.9262615192906436
+          ]
+        },
+        {
+          "id": "footnotes--br-separated-named-anchors",
+          "currentToBaselineMedianRatios": [
+            0.7783967553761028,
+            0.7625281818735306
+          ],
+          "passRatios": [
+            0.7229384919341756,
+            0.8178189141912602,
+            0.7269509788149585,
+            0.7939047795000291
+          ]
+        },
+        {
+          "id": "footnotes--child-anchor-id",
+          "currentToBaselineMedianRatios": [
+            0.8455890739638832,
+            0.8278829175381296
+          ],
+          "passRatios": [
+            0.8052439989587241,
+            0.8643709667808208,
+            0.8459256847248002,
+            0.804161221036848
+          ]
+        },
+        {
+          "id": "footnotes--easy-footnotes-wrapper",
+          "currentToBaselineMedianRatios": [
+            0.7137024846639269,
+            0.6902661823203811
+          ],
+          "passRatios": [
+            0.7019697767203484,
+            0.6922447138647986,
+            0.6938876886588016,
+            0.68666295164203
+          ]
+        },
+        {
+          "id": "footnotes--external-labeled-section",
+          "currentToBaselineMedianRatios": [
+            0.921902468407893,
+            0.9026063030636109
+          ],
+          "passRatios": [
+            0.8977514916300859,
+            0.9257286115199912,
+            0.8776536213498999,
+            0.9337746478704396
+          ]
+        },
+        {
+          "id": "footnotes--google-docs-ftnt",
+          "currentToBaselineMedianRatios": [
+            0.6826679575101859,
+            0.658600161040731
+          ],
+          "passRatios": [
+            0.6534424213583339,
+            0.6841191266282025,
+            0.6433722197035897,
+            0.7063648914494883
+          ]
+        },
+        {
+          "id": "footnotes--heading-notes",
+          "currentToBaselineMedianRatios": [
+            0.8747297610980231,
+            0.8477470280412189
+          ],
+          "passRatios": [
+            0.8519305314805085,
+            0.9188911400953949,
+            0.799211387655535,
+            0.9149949457903149
+          ]
+        },
+        {
+          "id": "footnotes--hidden-aside-data-definition",
+          "currentToBaselineMedianRatios": [
+            0.9126613782699827,
+            0.8738313453464297
+          ],
+          "passRatios": [
+            0.8119975572259571,
+            0.9437813296378011,
+            0.8253104718384069,
+            0.9502051290903545
+          ]
+        },
+        {
+          "id": "footnotes--hidden-section",
+          "currentToBaselineMedianRatios": [
+            0.7620935662496859,
+            0.7465560953842199
+          ],
+          "passRatios": [
+            0.7344258091863702,
+            0.7894491512569006,
+            0.7127838422575868,
+            0.800993020180035
+          ]
+        },
+        {
+          "id": "footnotes--hr-continuation",
+          "currentToBaselineMedianRatios": [
+            0.9270241917164306,
+            0.9190764971990524
+          ],
+          "passRatios": [
+            0.8918759824499338,
+            0.9617429306140937,
+            0.8728159022598975,
+            0.9720404365567624
+          ]
+        },
+        {
+          "id": "footnotes--hr-strong-numbered",
+          "currentToBaselineMedianRatios": [
+            0.865938241375385,
+            0.8562764869518691
+          ],
+          "passRatios": [
+            0.8535986873080615,
+            0.881147509256641,
+            0.8171312049797665,
+            0.9010225340390426
+          ]
+        },
+        {
+          "id": "footnotes--hr-sup-numbered",
+          "currentToBaselineMedianRatios": [
+            0.8321717699866014,
+            0.8413213227733558
+          ],
+          "passRatios": [
+            0.8211661700904291,
+            0.8454110075499415,
+            0.7979475357451777,
+            0.8650791575538493
+          ]
+        },
+        {
+          "id": "footnotes--inline-footnote-span",
+          "currentToBaselineMedianRatios": [
+            0.9266522194047578,
+            0.9081397180574178
+          ],
+          "passRatios": [
+            0.8841434051733658,
+            0.9678476551198085,
+            0.8589418848502909,
+            0.930598191795289
+          ]
+        },
+        {
+          "id": "footnotes--labeled-section-ol",
+          "currentToBaselineMedianRatios": [
+            0.9621711527675046,
+            0.9107760957504483
+          ],
+          "passRatios": [
+            0.9096277670317466,
+            0.988135125778229,
+            0.8522367934252746,
+            1.0054439925165854
+          ]
+        },
+        {
+          "id": "footnotes--maggieappleton.com-xanadu-patterns",
+          "currentToBaselineMedianRatios": [
+            0.7242716125185176,
+            0.7268870217990071
+          ],
+          "passRatios": [
+            0.7037351573965056,
+            0.7348776747784505,
+            0.6969549789337948,
+            0.7909198234148553
+          ]
+        },
+        {
+          "id": "footnotes--named-anchor",
+          "currentToBaselineMedianRatios": [
+            0.8793028175125664,
+            0.9069640411640028
+          ],
+          "passRatios": [
+            0.8722619043821227,
+            0.8902540244546331,
+            0.8815607866883998,
+            1.0558638191250715
+          ]
+        },
+        {
+          "id": "footnotes--nested-prose",
+          "currentToBaselineMedianRatios": [
+            0.8978269186887397,
+            0.8708461356304923
+          ],
+          "passRatios": [
+            0.8555062616056868,
+            0.9097801518142946,
+            0.8807940176793244,
+            0.9399057933282651
+          ]
+        },
+        {
+          "id": "footnotes--no-false-positive-equation-refs",
+          "currentToBaselineMedianRatios": [
+            0.8458246106635028,
+            0.872482873502553
+          ],
+          "passRatios": [
+            0.8433280360991205,
+            0.8299018357980622,
+            0.8401774826904659,
+            0.9647890039505727
+          ]
+        },
+        {
+          "id": "footnotes--numeric-anchor-id",
+          "currentToBaselineMedianRatios": [
+            0.936887380623741,
+            0.9610393480559497
+          ],
+          "passRatios": [
+            0.947479545133321,
+            0.9266063041915439,
+            0.9252286977300913,
+            1.0342038324769138
+          ]
+        },
+        {
+          "id": "footnotes--orgmode-css-sidenotes",
+          "currentToBaselineMedianRatios": [
+            0.8015418775530132,
+            0.7907719430211634
+          ],
+          "passRatios": [
+            0.7867128345469003,
+            0.8297958298542275,
+            0.7662991650169484,
+            0.8196267171049243
+          ]
+        },
+        {
+          "id": "footnotes--p-class-footnote",
+          "currentToBaselineMedianRatios": [
+            0.8733166496016964,
+            0.9061265729377204
+          ],
+          "passRatios": [
+            0.8803898078233389,
+            0.864486109410438,
+            0.8485142450378269,
+            0.9301660774911623
+          ]
+        },
+        {
+          "id": "footnotes--pulldown-cmark-footnote-definition",
+          "currentToBaselineMedianRatios": [
+            0.8816033160098391,
+            0.8745573497115601
+          ],
+          "passRatios": [
+            0.9157209346058013,
+            0.8466831822050621,
+            0.8727827878841596,
+            0.8943171389391849
+          ]
+        },
+        {
+          "id": "footnotes--sidenote-inline-with-list",
+          "currentToBaselineMedianRatios": [
+            0.776792414647067,
+            0.7657363797619795
+          ],
+          "passRatios": [
+            0.7716880857820795,
+            0.7812896689449507,
+            0.7575308313263219,
+            0.777469292459531
+          ]
+        },
+        {
+          "id": "footnotes--span-fnref-colon",
+          "currentToBaselineMedianRatios": [
+            0.7851107119852498,
+            0.7345925441904175
+          ],
+          "passRatios": [
+            0.7819974976080077,
+            0.7897006684824683,
+            0.733294849158077,
+            0.7679365851852242
+          ]
+        },
+        {
+          "id": "footnotes--wikipedia-references",
+          "currentToBaselineMedianRatios": [
+            1.0590859149749867,
+            0.992387529010353
+          ],
+          "passRatios": [
+            1.0616092987457046,
+            1.0557468160930037,
+            1.0068824646072092,
+            0.9882481964114905
+          ]
+        },
+        {
+          "id": "footnotes--word-ftn-ftnref",
+          "currentToBaselineMedianRatios": [
+            0.8705735952518957,
+            0.8384428958025831
+          ],
+          "passRatios": [
+            0.8504289772138253,
+            0.866447803157896,
+            0.8419061403626331,
+            0.837042923974306
+          ]
+        },
+        {
+          "id": "footnotes--wp-block-footnotes",
+          "currentToBaselineMedianRatios": [
+            0.7687685871784439,
+            0.7340637928138829
+          ],
+          "passRatios": [
+            0.7266769056163357,
+            0.7678581227768484,
+            0.728608068614195,
+            0.7488548127557471
+          ]
+        },
+        {
+          "id": "gated-content--cookie-consent",
+          "currentToBaselineMedianRatios": [
+            0.7975786533853463,
+            0.762950671457197
+          ],
+          "passRatios": [
+            0.8139983340841423,
+            0.7986902146676363,
+            0.7558758136025268,
+            0.7719932890479424
+          ]
+        },
+        {
+          "id": "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes",
+          "currentToBaselineMedianRatios": [
+            0.6278713636630134,
+            0.6295144229883488
+          ],
+          "passRatios": [
+            0.6332231565054971,
+            0.6273384718700166,
+            0.6123133086695246,
+            0.6555988981857788
+          ]
+        },
+        {
+          "id": "general--apnews-link-enhancement",
+          "currentToBaselineMedianRatios": [
+            0.6751542126731134,
+            0.7021566069498801
+          ],
+          "passRatios": [
+            0.6669639552550746,
+            0.6957296783801781,
+            0.6467215337256965,
+            0.8369653001029993
+          ]
+        },
+        {
+          "id": "general--appendix-heading",
+          "currentToBaselineMedianRatios": [
+            0.8491125017846303,
+            0.8604069116444404
+          ],
+          "passRatios": [
+            0.8443733885692212,
+            0.8330028518837443,
+            0.815192618718364,
+            0.9248855898127204
+          ]
+        },
+        {
+          "id": "general--back-nav-link",
+          "currentToBaselineMedianRatios": [
+            0.8288502031180212,
+            0.8628303856528107
+          ],
+          "passRatios": [
+            0.7993730152267731,
+            0.822194467553634,
+            0.8124172378410087,
+            0.9296538167611372
+          ]
+        },
+        {
+          "id": "general--daringfireball.net-2025-02-the_iphone_16e",
+          "currentToBaselineMedianRatios": [
+            0.8783167319850227,
+            0.9086706714975527
+          ],
+          "passRatios": [
+            0.8554026470384121,
+            0.8932126987959026,
+            0.8657063749463452,
+            1.0078319645377247
+          ]
+        },
+        {
+          "id": "general--developer.mozilla.org-en-US-docs-Web-JavaScript-Reference-Global_Objects-Array",
+          "currentToBaselineMedianRatios": [
+            0.7712901165306424,
+            0.7849707327792657
+          ],
+          "passRatios": [
+            0.7374936324771759,
+            0.7951223508874458,
+            0.7611971666000579,
+            0.9072283128477896
+          ]
+        },
+        {
+          "id": "general--github.com-issue-56",
+          "currentToBaselineMedianRatios": [
+            0.7135451081583657,
+            0.7235521281328786
+          ],
+          "passRatios": [
+            0.6937392273607875,
+            0.7084975801973299,
+            0.6896946506946532,
+            0.7428478999232089
+          ]
+        },
+        {
+          "id": "general--github.com-test-owner-test-repo-pull-42",
+          "currentToBaselineMedianRatios": [
+            1.0071522953326701,
+            1.0286171284009487
+          ],
+          "passRatios": [
+            0.9790981405559992,
+            1.011388152283027,
+            1.0060401274739241,
+            1.0663785136136092
+          ]
+        },
+        {
+          "id": "general--inline-comments-and-link-lists",
+          "currentToBaselineMedianRatios": [
+            0.782495311680655,
+            0.7878697709997542
+          ],
+          "passRatios": [
+            0.7859235547972603,
+            0.7743047362669924,
+            0.7715338178125799,
+            0.8394534423984858
+          ]
+        },
+        {
+          "id": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+          "currentToBaselineMedianRatios": [
+            0.25073690471349597,
+            0.25619988184820236
+          ],
+          "passRatios": [
+            0.24981142606921378,
+            0.25165560886883986,
+            0.24633502058922255,
+            0.2645910077084924
+          ]
+        },
+        {
+          "id": "general--multi-article-portfolio",
+          "currentToBaselineMedianRatios": [
+            0.8155131578825493,
+            0.8271089249590803
+          ],
+          "passRatios": [
+            0.7637636594299497,
+            0.8463121119823127,
+            0.8234637351666778,
+            0.8719640438821403
+          ]
+        },
+        {
+          "id": "general--news.ycombinator.com-item-id=12345678",
+          "currentToBaselineMedianRatios": [
+            0.9224061801044874,
+            1.0111803076793249
+          ],
+          "passRatios": [
+            0.9072390854413108,
+            0.94781065189266,
+            0.9965012044181074,
+            1.0492253688622066
+          ]
+        },
+        {
+          "id": "general--obsidian-publish-cjk",
+          "currentToBaselineMedianRatios": [
+            0.8422200118983276,
+            0.8634074597888268
+          ],
+          "passRatios": [
+            0.8307520842044245,
+            0.8538148493604291,
+            0.8694478428052156,
+            0.8661068900017268
+          ]
+        },
+        {
+          "id": "general--obsidian.md-blog-verify-obsidian-sync-encryption",
+          "currentToBaselineMedianRatios": [
+            0.9128255802677921,
+            0.9220141485701974
+          ],
+          "passRatios": [
+            0.9124399001148294,
+            0.9132099876487394,
+            0.9139038980193195,
+            0.9538618386068247
+          ]
+        },
+        {
+          "id": "general--react-streaming-ssr",
+          "currentToBaselineMedianRatios": [
+            0.9704886951534853,
+            0.9662119809460906
+          ],
+          "passRatios": [
+            0.9651072573063354,
+            0.9701617847974702,
+            0.9501293958232773,
+            1.072840181843337
+          ]
+        },
+        {
+          "id": "general--scp-wiki.wikidot.com-scp-9935",
+          "currentToBaselineMedianRatios": [
+            0.882777325953666,
+            0.8760474116545979
+          ],
+          "passRatios": [
+            0.8718808111282527,
+            0.8995938309588151,
+            0.8707781735329037,
+            0.9386980738075663
+          ]
+        },
+        {
+          "id": "general--stephango.com-buy-wisely",
+          "currentToBaselineMedianRatios": [
+            0.8668834899053973,
+            0.8445543405143474
+          ],
+          "passRatios": [
+            0.8478546479733905,
+            0.8859015688057159,
+            0.8188687002841738,
+            0.9452282223167273
+          ]
+        },
+        {
+          "id": "general--substack-app",
+          "currentToBaselineMedianRatios": [
+            0.67039960013566,
+            0.6941471057206936
+          ],
+          "passRatios": [
+            0.658908491608306,
+            0.6685944881288021,
+            0.6840375338689106,
+            0.7500849201096261
+          ]
+        },
+        {
+          "id": "general--substack-custom-domain",
+          "currentToBaselineMedianRatios": [
+            0.7895783622849051,
+            0.8232127171608777
+          ],
+          "passRatios": [
+            0.7625618175939627,
+            0.807092783699562,
+            0.8200493417573351,
+            0.8617609914363705
+          ]
+        },
+        {
+          "id": "general--substack-note",
+          "currentToBaselineMedianRatios": [
+            0.9986521955025892,
+            1.0150528318348155
+          ],
+          "passRatios": [
+            0.9673167060847132,
+            1.0153463507962412,
+            0.9635090812302161,
+            1.0588770878073994
+          ]
+        },
+        {
+          "id": "general--substack-note-permalink",
+          "currentToBaselineMedianRatios": [
+            1.0290025599676182,
+            0.9841979078021957
+          ],
+          "passRatios": [
+            1.0172043741951386,
+            1.0321154034869648,
+            0.960424423148189,
+            1.0352267892912954
+          ]
+        },
+        {
+          "id": "general--svg-content-preservation",
+          "currentToBaselineMedianRatios": [
+            0.7688465924573669,
+            0.7966594571060603
+          ],
+          "passRatios": [
+            0.7548531076135577,
+            0.7724054452900894,
+            0.8047639774961725,
+            0.8190411708976916
+          ]
+        },
+        {
+          "id": "general--svg-external-css-fallback",
+          "currentToBaselineMedianRatios": [
+            0.7108666380165941,
+            0.7024477242394317
+          ],
+          "passRatios": [
+            0.6798831249826469,
+            0.7359271931232614,
+            0.6875693527698429,
+            0.7343074652742826
+          ]
+        },
+        {
+          "id": "general--tailwind-hidden-blog-index",
+          "currentToBaselineMedianRatios": [
+            0.7578049587484468,
+            0.7829416914230317
+          ],
+          "passRatios": [
+            0.7635154672953943,
+            0.7521645002050436,
+            0.773508881348674,
+            0.7977958963180213
+          ]
+        },
+        {
+          "id": "general--trailing-cta-newsletter",
+          "currentToBaselineMedianRatios": [
+            0.9157275418563573,
+            0.9417986425676081
+          ],
+          "passRatios": [
+            0.8861357916378121,
+            0.9141321119151782,
+            0.8964771494613214,
+            0.9541734665635946
+          ]
+        },
+        {
+          "id": "general--wikipedia",
+          "currentToBaselineMedianRatios": [
+            1.0576398225370887,
+            1.0996697170529408
+          ],
+          "passRatios": [
+            1.0439607112019795,
+            1.060790346196198,
+            1.0885697641963668,
+            1.1246457539886499
+          ]
+        },
+        {
+          "id": "general--wikipedia-ipa-pronunciation",
+          "currentToBaselineMedianRatios": [
+            0.5821826276236994,
+            0.6309494165712136
+          ],
+          "passRatios": [
+            0.6014108882332581,
+            0.565042517151843,
+            0.6276702341617585,
+            0.6386233894909478
+          ]
+        },
+        {
+          "id": "general--www.figma.com-blog-introducing-codex-to-figma",
+          "currentToBaselineMedianRatios": [
+            0.7625435330472483,
+            0.7993820779378747
+          ],
+          "passRatios": [
+            0.7651432285928513,
+            0.7479942369055343,
+            0.7704804756843567,
+            0.8517193636168549
+          ]
+        },
+        {
+          "id": "general--x.com-article",
+          "currentToBaselineMedianRatios": [
+            0.9862597640019942,
+            1.0143936092581178
+          ],
+          "passRatios": [
+            0.9802005863127767,
+            0.992778226583141,
+            0.9131301802465973,
+            1.177011057250578
+          ]
+        },
+        {
+          "id": "general--x.com-article-2026-02-13",
+          "currentToBaselineMedianRatios": [
+            0.986718123159281,
+            1.0389007052223074
+          ],
+          "passRatios": [
+            0.9482720596597044,
+            1.0138647848159883,
+            1.0145230807670687,
+            1.0719433093402717
+          ]
+        },
+        {
+          "id": "gmail--mail.google.com-mail-u-0-thread",
+          "currentToBaselineMedianRatios": [
+            1.0155502903299591,
+            1.0090318431275505
+          ],
+          "passRatios": [
+            0.9830098473004694,
+            1.0717556346967907,
+            1.0018690759550806,
+            1.013657790060957
+          ]
+        },
+        {
+          "id": "headings--fragment-url-not-permalink",
+          "currentToBaselineMedianRatios": [
+            0.8176344890980012,
+            0.834111006711635
+          ],
+          "passRatios": [
+            0.8450496838704784,
+            0.7722711461121672,
+            0.8189076487046315,
+            0.8851304677228871
+          ]
+        },
+        {
+          "id": "headings--permalink-title-match",
+          "currentToBaselineMedianRatios": [
+            0.7074089459084179,
+            0.6845671846411427
+          ],
+          "passRatios": [
+            0.7262712796509709,
+            0.6802893260225923,
+            0.6757856328392245,
+            0.718331271374999
+          ]
+        },
+        {
+          "id": "headings--testid-article-header",
+          "currentToBaselineMedianRatios": [
+            0.8310023260746557,
+            0.8717170784791924
+          ],
+          "passRatios": [
+            0.8684910356708311,
+            0.7887121208379403,
+            0.8306872779729206,
+            0.8823974125959381
+          ]
+        },
+        {
+          "id": "hidden--nodes",
+          "currentToBaselineMedianRatios": [
+            0.958626008700731,
+            0.9726107927501906
+          ],
+          "passRatios": [
+            0.9488495926423248,
+            0.9056556417551807,
+            0.9668823813635175,
+            1.0071215573344678
+          ]
+        },
+        {
+          "id": "hidden--visibility",
+          "currentToBaselineMedianRatios": [
+            0.9069893287870178,
+            0.8986579349655441
+          ],
+          "passRatios": [
+            0.9307999940458175,
+            0.8748737005041644,
+            0.8851436006168081,
+            0.9134878804482222
+          ]
+        },
+        {
+          "id": "issues--106-menu-id",
+          "currentToBaselineMedianRatios": [
+            0.7145195308499008,
+            0.7242646422462695
+          ],
+          "passRatios": [
+            0.7304005667085371,
+            0.6908744227919421,
+            0.6935671575905936,
+            0.730562968731698
+          ]
+        },
+        {
+          "id": "issues--114-leading-hr",
+          "currentToBaselineMedianRatios": [
+            0.8379238065397635,
+            0.8764482587885789
+          ],
+          "passRatios": [
+            0.8420454650178454,
+            0.8219380567184749,
+            0.8515732481249723,
+            0.9063864191693799
+          ]
+        },
+        {
+          "id": "issues--120-dhammatalks-footnotes",
+          "currentToBaselineMedianRatios": [
+            0.6435699765126554,
+            0.630326505907208
+          ],
+          "passRatios": [
+            0.6436775314804833,
+            0.6234114902571528,
+            0.6201550700642088,
+            0.649781322085306
+          ]
+        },
+        {
+          "id": "issues--131-category-links",
+          "currentToBaselineMedianRatios": [
+            0.7511483321621616,
+            0.7258723565584381
+          ],
+          "passRatios": [
+            0.7466791722489149,
+            0.7450199409755419,
+            0.7037653592526805,
+            0.7948121366885834
+          ]
+        },
+        {
+          "id": "issues--132-hero-class",
+          "currentToBaselineMedianRatios": [
+            0.8007706547209593,
+            0.7813599389102714
+          ],
+          "passRatios": [
+            0.7965224648384551,
+            0.8011556673176214,
+            0.7277070406551639,
+            0.8242094978880402
+          ]
+        },
+        {
+          "id": "issues--136-time-element",
+          "currentToBaselineMedianRatios": [
+            0.8156673627738671,
+            0.8090059122210531
+          ],
+          "passRatios": [
+            0.8222840477163442,
+            0.8030507888165815,
+            0.7907504818649238,
+            0.8414814971946163
+          ]
+        },
+        {
+          "id": "issues--142-arxiv-multi-citations",
+          "currentToBaselineMedianRatios": [
+            0.9342824573986611,
+            0.9429020177981066
+          ],
+          "passRatios": [
+            0.9276331970190397,
+            0.9366110725468187,
+            0.9190367827120455,
+            0.9646557360266728
+          ]
+        },
+        {
+          "id": "issues--143-arxiv-cross-references",
+          "currentToBaselineMedianRatios": [
+            0.8557338564153584,
+            0.8643224698261709
+          ],
+          "passRatios": [
+            0.8343081508305444,
+            0.876517226151701,
+            0.8406040857650379,
+            1.0138794187012603
+          ]
+        },
+        {
+          "id": "issues--144-arxiv-footnote-marks",
+          "currentToBaselineMedianRatios": [
+            0.7398733823064658,
+            0.7502114255252976
+          ],
+          "passRatios": [
+            0.7731786723314052,
+            0.7068908066930084,
+            0.7348983560237048,
+            0.8102714163740762
+          ]
+        },
+        {
+          "id": "issues--159-lean-heading-permalink-emoji",
+          "currentToBaselineMedianRatios": [
+            0.4768636681650107,
+            0.4947981502733032
+          ],
+          "passRatios": [
+            0.4868575080045955,
+            0.4671035553693692,
+            0.4792301589320086,
+            0.4989018789930959
+          ]
+        },
+        {
+          "id": "issues--159-lean-verso-code-blocks",
+          "currentToBaselineMedianRatios": [
+            0.7633319671168219,
+            0.8123119708772445
+          ],
+          "passRatios": [
+            0.7895542121943954,
+            0.7429368194446616,
+            0.7955948263790596,
+            0.8180625944026217
+          ]
+        },
+        {
+          "id": "issues--159-lean-verso-empty-line-preserved",
+          "currentToBaselineMedianRatios": [
+            0.6510825436170486,
+            0.6796941277836692
+          ],
+          "passRatios": [
+            0.6558694722576424,
+            0.6427063943324693,
+            0.6632053707975842,
+            0.6853059856048735
+          ]
+        },
+        {
+          "id": "issues--159-lean-verso-grouped-blocks",
+          "currentToBaselineMedianRatios": [
+            0.5831480162969224,
+            0.599949686852238
+          ],
+          "passRatios": [
+            0.584394024527855,
+            0.5746289542602919,
+            0.5989018056182572,
+            0.6178126995922858
+          ]
+        },
+        {
+          "id": "issues--159-lean-verso-missing-section-gap",
+          "currentToBaselineMedianRatios": [
+            0.6942388472249581,
+            0.6917716387938916
+          ],
+          "passRatios": [
+            0.7078904925220738,
+            0.6690914034715454,
+            0.6799465624800032,
+            0.6909840449505724
+          ]
+        },
+        {
+          "id": "issues--161-x-status-url-author",
+          "currentToBaselineMedianRatios": [
+            1.0116359790735527,
+            1.0773251098297258
+          ],
+          "passRatios": [
+            1.0094596902923314,
+            1.0201700919641683,
+            1.0741724111393294,
+            1.1364766742131873
+          ]
+        },
+        {
+          "id": "issues--162-aria-hidden-main-content",
+          "currentToBaselineMedianRatios": [
+            0.7694330659303823,
+            0.8303195080020018
+          ],
+          "passRatios": [
+            0.7713920928824072,
+            0.761884646940066,
+            0.8012249504305305,
+            0.845758219684865
+          ]
+        },
+        {
+          "id": "issues--167-partial-selector-inside-code",
+          "currentToBaselineMedianRatios": [
+            0.7469666085749885,
+            0.7960856508970696
+          ],
+          "passRatios": [
+            0.7346444155556228,
+            0.7566973375199829,
+            0.7897603006297136,
+            0.8090900444779008
+          ]
+        },
+        {
+          "id": "issues--168-links-inside-inline-code",
+          "currentToBaselineMedianRatios": [
+            0.8240863196535109,
+            0.815513372350882
+          ],
+          "passRatios": [
+            0.7470836227305654,
+            0.8500575157968733,
+            0.8012110218148666,
+            0.9340369829522737
+          ]
+        },
+        {
+          "id": "issues--196-og-title-brand-name",
+          "currentToBaselineMedianRatios": [
+            0.6978298941056528,
+            0.6742724234207012
+          ],
+          "passRatios": [
+            0.6470363110503543,
+            0.707224988837159,
+            0.6711771674856878,
+            0.6961552080502647
+          ]
+        },
+        {
+          "id": "issues--217-writerside-docs",
+          "currentToBaselineMedianRatios": [
+            0.7465175097136209,
+            0.7004065663804194
+          ],
+          "passRatios": [
+            0.7311747859320991,
+            0.7500770822056685,
+            0.6884734956071633,
+            0.7490252492604502
+          ]
+        },
+        {
+          "id": "issues--218-footnote-wrapper-text-lost",
+          "currentToBaselineMedianRatios": [
+            0.8806718097382434,
+            0.8742826487151141
+          ],
+          "passRatios": [
+            0.8422135387623895,
+            0.9475162712974095,
+            0.8682383966849765,
+            0.8978138064048717
+          ]
+        },
+        {
+          "id": "issues--221-nextjs-noscript-images",
+          "currentToBaselineMedianRatios": [
+            0.8135154378421066,
+            0.772057820176764
+          ],
+          "passRatios": [
+            0.792061677255231,
+            0.862118698993982,
+            0.7622244505122172,
+            0.779916280157012
+          ]
+        },
+        {
+          "id": "issues--227-noscript-lazy-images",
+          "currentToBaselineMedianRatios": [
+            0.9224165313301154,
+            0.9149787171116966
+          ],
+          "passRatios": [
+            0.9198328830817945,
+            0.9582127179642366,
+            0.9145282994558706,
+            0.8945728060769835
+          ]
+        },
+        {
+          "id": "issues--232-dismiss-in-hidden-content",
+          "currentToBaselineMedianRatios": [
+            0.7801346752254618,
+            0.8004375419854912
+          ],
+          "passRatios": [
+            0.7775757251367412,
+            0.8218141251121702,
+            0.8127412201845859,
+            0.7972769541770205
+          ]
+        },
+        {
+          "id": "issues--254-empty-video",
+          "currentToBaselineMedianRatios": [
+            0.846499997044166,
+            0.8925083168771832
+          ],
+          "passRatios": [
+            0.8362242129078183,
+            0.9055063901759233,
+            0.8965350966293038,
+            0.8874109975986717
+          ]
+        },
+        {
+          "id": "issues--263-buttons-in-paragraphs",
+          "currentToBaselineMedianRatios": [
+            0.9823407760233763,
+            0.9905720679156623
+          ],
+          "passRatios": [
+            0.9403964347918558,
+            1.0448816314326117,
+            0.9685720510962592,
+            1.028990115334902
+          ]
+        },
+        {
+          "id": "issues--272-x-localized-conversation-timeline",
+          "currentToBaselineMedianRatios": [
+            1.0060823891743005,
+            1.024114248514932
+          ],
+          "passRatios": [
+            0.9799944017785613,
+            1.091697690508352,
+            1.0183830924864867,
+            1.0353816714125237
+          ]
+        },
+        {
+          "id": "issues--280-texinfo-footnotes",
+          "currentToBaselineMedianRatios": [
+            0.8204484613941849,
+            0.824939841165409
+          ],
+          "passRatios": [
+            0.8043671355420697,
+            0.8614883893389678,
+            0.8153048143442043,
+            0.862679859442551
+          ]
+        },
+        {
+          "id": "issues--284-table-cell-header-scoring",
+          "currentToBaselineMedianRatios": [
+            0.8726060520846501,
+            0.8808908155536965
+          ],
+          "passRatios": [
+            0.8144202299780083,
+            0.9122227163568442,
+            0.8630114349355097,
+            0.8923127954320075
+          ]
+        },
+        {
+          "id": "issues--285-tag-like-title-escaping",
+          "currentToBaselineMedianRatios": [
+            0.8887861909428927,
+            0.90526738134222
+          ],
+          "passRatios": [
+            0.8252620830829946,
+            0.9309591533848166,
+            0.9301021409726764,
+            0.8738800285935382
+          ]
+        },
+        {
+          "id": "issues--286-generic-alt-image-dedup",
+          "currentToBaselineMedianRatios": [
+            0.8479339864697799,
+            0.8407995805857371
+          ],
+          "passRatios": [
+            0.7604212483891628,
+            0.8965802294579481,
+            0.8688054828892762,
+            0.8160002973501528
+          ]
+        },
+        {
+          "id": "issues--296-oreilly-noteref-footnotes",
+          "currentToBaselineMedianRatios": [
+            0.9744168788318167,
+            1.0245912198881917
+          ],
+          "passRatios": [
+            0.9163218340419935,
+            1.059703096849873,
+            1.0200997685913933,
+            1.043788161637782
+          ]
+        },
+        {
+          "id": "issues--300-nested-layout-tables",
+          "currentToBaselineMedianRatios": [
+            0.9090256222021847,
+            0.9244996277661682
+          ],
+          "passRatios": [
+            0.8881014805452712,
+            0.9695904443250487,
+            0.8868359410856467,
+            0.9209383478252533
+          ]
+        },
+        {
+          "id": "issues--361-escaped-id",
+          "currentToBaselineMedianRatios": [
+            0.8631187516233223,
+            0.8871290256727205
+          ],
+          "passRatios": [
+            0.8982010797219346,
+            0.8294809318090361,
+            0.8796373255344758,
+            1.012576501743492
+          ]
+        },
+        {
+          "id": "issues--361-shadow-selector-stability",
+          "currentToBaselineMedianRatios": [
+            0.8665677040849928,
+            0.8907467766421803
+          ],
+          "passRatios": [
+            0.8679961246568707,
+            0.8643538894705279,
+            0.8876506052829901,
+            0.8616642109792796
+          ]
+        },
+        {
+          "id": "issues--361-special-class-selectors",
+          "currentToBaselineMedianRatios": [
+            0.8851628605243838,
+            0.8904014566894998
+          ],
+          "passRatios": [
+            0.8598208932200011,
+            0.8934841219885759,
+            0.866819683436399,
+            0.9060626777414025
+          ]
+        },
+        {
+          "id": "issues--361-tailwind-ancestor",
+          "currentToBaselineMedianRatios": [
+            0.8478504116545739,
+            0.8644169784054909
+          ],
+          "passRatios": [
+            0.8311416375644655,
+            0.8598479065640374,
+            0.8611357886150985,
+            0.8742833627698813
+          ]
+        },
+        {
+          "id": "issues--366-mixed-numbers",
+          "currentToBaselineMedianRatios": [
+            0.743908201507068,
+            0.7469319592828132
+          ],
+          "passRatios": [
+            0.727715048591923,
+            0.7573652433258166,
+            0.7462676741375415,
+            0.7843706439141189
+          ]
+        },
+        {
+          "id": "issues--366-screen-reader-links",
+          "currentToBaselineMedianRatios": [
+            0.6231074621829837,
+            0.6161719025278855
+          ],
+          "passRatios": [
+            0.6214203770229596,
+            0.6237577616696973,
+            0.6011702292368467,
+            0.6507932118618086
+          ]
+        },
+        {
+          "id": "issues--374-explicit-image-sources",
+          "currentToBaselineMedianRatios": [
+            0.7351759199793872,
+            0.7063368074885176
+          ],
+          "passRatios": [
+            0.7049169314048238,
+            0.720630654226474,
+            0.6949301971190177,
+            0.7175961512199119
+          ]
+        },
+        {
+          "id": "issues--374-image-source",
+          "currentToBaselineMedianRatios": [
+            0.7112763166581751,
+            0.7065619220963231
+          ],
+          "passRatios": [
+            0.7006250120379822,
+            0.6963687889570874,
+            0.6921196079917448,
+            0.7544702519902191
+          ]
+        },
+        {
+          "id": "issues--374-invalid-lazy-source",
+          "currentToBaselineMedianRatios": [
+            0.7169309740675338,
+            0.7236883700099014
+          ],
+          "passRatios": [
+            0.6915290241289505,
+            0.7117830214756722,
+            0.7184975267765199,
+            0.774651078521092
+          ]
+        },
+        {
+          "id": "issues--374-lazy-source-precedence",
+          "currentToBaselineMedianRatios": [
+            0.7144855395967509,
+            0.7346820350268731
+          ],
+          "passRatios": [
+            0.6893257210497445,
+            0.7028702188160912,
+            0.7115805214635882,
+            0.7216349527665318
+          ]
+        },
+        {
+          "id": "issues--374-lazy-srcset-placeholder",
+          "currentToBaselineMedianRatios": [
+            0.737417332557615,
+            0.7382707959507376
+          ],
+          "passRatios": [
+            0.6865907207313873,
+            0.7640187783581389,
+            0.734486850903178,
+            0.7511765907476421
+          ]
+        },
+        {
+          "id": "issues--374-unrelated-image-metadata",
+          "currentToBaselineMedianRatios": [
+            0.7267967137336447,
+            0.7206682642617597
+          ],
+          "passRatios": [
+            0.6874245646536664,
+            0.6993043238892354,
+            0.6948781197203358,
+            0.7683491889927682
+          ]
+        },
+        {
+          "id": "issues--footnote-id-with-quote",
+          "currentToBaselineMedianRatios": [
+            0.6676634079846326,
+            0.7163314279741752
+          ],
+          "passRatios": [
+            0.6488493604820991,
+            0.6709394066711825,
+            0.7150597509712955,
+            0.720134527142866
+          ]
+        },
+        {
+          "id": "issues--header-with-subtitle-p",
+          "currentToBaselineMedianRatios": [
+            0.7431823321284317,
+            0.8276659340039474
+          ],
+          "passRatios": [
+            0.7354184108758921,
+            0.7397456784524412,
+            0.8005144438527865,
+            0.8696010272511306
+          ]
+        },
+        {
+          "id": "issues--header-wraps-content",
+          "currentToBaselineMedianRatios": [
+            0.9677765414603948,
+            1.00116317016317
+          ],
+          "passRatios": [
+            0.9622606158636811,
+            0.9727462653744049,
+            1.033483822718733,
+            0.9771861894393615
+          ]
+        },
+        {
+          "id": "issues--pascalcase-section-id-partial-match",
+          "currentToBaselineMedianRatios": [
+            1.0373062531287431,
+            1.0585786427489987
+          ],
+          "passRatios": [
+            1.0140736892915563,
+            1.0439104447086707,
+            1.0490818588215627,
+            1.0568252696199807
+          ]
+        },
+        {
+          "id": "issues--preferred-async-empty",
+          "currentToBaselineMedianRatios": [
+            0.8384550600843279,
+            0.8261725419303003
+          ],
+          "passRatios": [
+            0.8283673551126121,
+            0.8601391157215333,
+            0.8182564157571532,
+            0.8412717399105284
+          ]
+        },
+        {
+          "id": "issues--react-streaming-ssr-colon-id",
+          "currentToBaselineMedianRatios": [
+            0.7898167533692154,
+            0.799079758246407
+          ],
+          "passRatios": [
+            0.7659948133913,
+            0.8406256308905252,
+            0.80077247668958,
+            0.8020308274761218
+          ]
+        },
+        {
+          "id": "issues--sidebar-toggle-checkbox",
+          "currentToBaselineMedianRatios": [
+            0.8458918453820802,
+            0.8784123359860884
+          ],
+          "passRatios": [
+            0.8095101460756275,
+            0.8639136115812267,
+            0.881432957949686,
+            0.872926975713783
+          ]
+        },
+        {
+          "id": "issues--span-with-block-children-and-schema",
+          "currentToBaselineMedianRatios": [
+            0.8152202683046431,
+            0.8254547698129505
+          ],
+          "passRatios": [
+            0.7998748945890842,
+            0.8175598970899159,
+            0.8276761851087258,
+            0.8133680520457219
+          ]
+        },
+        {
+          "id": "listing--news.ycombinator.com-news",
+          "currentToBaselineMedianRatios": [
+            0.9990948491053404,
+            1.0348772939115036
+          ],
+          "passRatios": [
+            0.9759957112223017,
+            1.112746831735932,
+            1.0119767836878666,
+            1.0539471187893832
+          ]
+        },
+        {
+          "id": "metadata--295-header-date-above-title",
+          "currentToBaselineMedianRatios": [
+            0.8009810190634149,
+            0.8333932160428765
+          ],
+          "passRatios": [
+            0.7852924948161398,
+            0.8347402278047726,
+            0.8325099375836613,
+            0.8859038311507637
+          ]
+        },
+        {
+          "id": "metadata--295-suggested-post-date",
+          "currentToBaselineMedianRatios": [
+            0.8011964807512836,
+            0.7916263251797859
+          ],
+          "passRatios": [
+            0.7994496765486498,
+            0.7958888058431641,
+            0.7711860406965593,
+            0.8400961543453769
+          ]
+        },
+        {
+          "id": "metadata--author-by-prefix-and-url",
+          "currentToBaselineMedianRatios": [
+            0.8291258715126149,
+            0.8466947521504732
+          ],
+          "passRatios": [
+            0.8114165568317329,
+            0.8640681225347084,
+            0.8501867894428625,
+            0.8432202623610892
+          ]
+        },
+        {
+          "id": "metadata--date-adjacent-category-link",
+          "currentToBaselineMedianRatios": [
+            0.8235589029871911,
+            0.7942952999965941
+          ],
+          "passRatios": [
+            0.8133902953319049,
+            0.849486445454586,
+            0.7976532983019933,
+            0.7909855732885618
+          ]
+        },
+        {
+          "id": "metadata--email-style-header-block",
+          "currentToBaselineMedianRatios": [
+            0.9562879278864796,
+            0.941465559405992
+          ],
+          "passRatios": [
+            0.9400768707427676,
+            0.990472065526328,
+            0.9309651517792021,
+            0.9619370265719022
+          ]
+        },
+        {
+          "id": "metadata--h1-sibling-byline",
+          "currentToBaselineMedianRatios": [
+            0.8354900123038846,
+            0.8496217016044687
+          ],
+          "passRatios": [
+            0.8361126149659779,
+            0.8398279169442414,
+            0.8247009396748021,
+            0.9086835102838265
+          ]
+        },
+        {
+          "id": "metadata--multi-script-values",
+          "currentToBaselineMedianRatios": [
+            0.7090289439139209,
+            0.7480113555836022
+          ],
+          "passRatios": [
+            0.7039340604184116,
+            0.7214892498324497,
+            0.739083349264003,
+            0.7570338558193584
+          ]
+        },
+        {
+          "id": "metadata--placeholder-author-and-duplicate-published",
+          "currentToBaselineMedianRatios": [
+            0.808615397986082,
+            0.826659703653445
+          ],
+          "passRatios": [
+            0.8007281253342333,
+            0.8202880756681786,
+            0.8473711554308444,
+            0.8405377357202353
+          ]
+        },
+        {
+          "id": "metadata--placeholder-values",
+          "currentToBaselineMedianRatios": [
+            0.858925380853865,
+            0.8750516527842161
+          ],
+          "passRatios": [
+            0.814292346751695,
+            0.8768362462495767,
+            0.8807627595505118,
+            0.8718822180730619
+          ]
+        },
+        {
+          "id": "metadata--rel-author-in-bio-container",
+          "currentToBaselineMedianRatios": [
+            0.7927703331988271,
+            0.8225049356133036
+          ],
+          "passRatios": [
+            0.7874548565200165,
+            0.7883213527734388,
+            0.8762702270395026,
+            0.8020346360688552
+          ]
+        },
+        {
+          "id": "related--inline-related-stories-block",
+          "currentToBaselineMedianRatios": [
+            0.8595468867658629,
+            0.91611893208751
+          ],
+          "passRatios": [
+            0.8565071485357899,
+            0.9113725012644897,
+            0.9216884541880727,
+            0.9132742008908917
+          ]
+        },
+        {
+          "id": "scoring--related-posts-byline",
+          "currentToBaselineMedianRatios": [
+            0.7682769865873612,
+            0.7770594793223581
+          ],
+          "passRatios": [
+            0.7417692603140722,
+            0.8495304363815295,
+            0.7864525079117354,
+            0.7933484477603853
+          ]
+        },
+        {
+          "id": "scoring--table-with-links",
+          "currentToBaselineMedianRatios": [
+            0.913385556025714,
+            0.9111184779293725
+          ],
+          "passRatios": [
+            0.8845583268313962,
+            0.9339812929391671,
+            0.8792597253035048,
+            1.027194337062876
+          ]
+        },
+        {
+          "id": "security--markdown-image-escaping",
+          "currentToBaselineMedianRatios": [
+            0.7381012119139361,
+            0.7833383355316679
+          ],
+          "passRatios": [
+            0.705800234675389,
+            0.7588336046718948,
+            0.7857590852308952,
+            0.8161383132206724
+          ]
+        },
+        {
+          "id": "selectors--arm-newsroom",
+          "currentToBaselineMedianRatios": [
+            0.7451601521088178,
+            0.8076636964164449
+          ],
+          "passRatios": [
+            0.7193700199391968,
+            0.7937340307946686,
+            0.9017573416504766,
+            0.8344169724867434
+          ]
+        },
+        {
+          "id": "selectors--logo-substring-wrapper",
+          "currentToBaselineMedianRatios": [
+            0.9938685133895289,
+            1.1001014986948703
+          ],
+          "passRatios": [
+            0.9902839880397213,
+            0.9994772031229779,
+            1.0919442725368178,
+            1.1083338757799903
+          ]
+        },
+        {
+          "id": "small-images--svg-icon-viewbox",
+          "currentToBaselineMedianRatios": [
+            0.8543906806875785,
+            0.9237300731667785
+          ],
+          "passRatios": [
+            0.8314973356428106,
+            0.8836887055542645,
+            0.9014620881807284,
+            1.015065288424334
+          ]
+        },
+        {
+          "id": "standardize--span-data-as-paragraph",
+          "currentToBaselineMedianRatios": [
+            0.8955863898830393,
+            0.9310659073689573
+          ],
+          "passRatios": [
+            0.8834326646275639,
+            0.9722229514456522,
+            1.1107505818139198,
+            0.937731063142734
+          ]
+        },
+        {
+          "id": "table-layout--blogger-two-column",
+          "currentToBaselineMedianRatios": [
+            1.0138039578850782,
+            1.079527917628843
+          ],
+          "passRatios": [
+            0.9916258950390683,
+            1.056796668849004,
+            1.0307259049665534,
+            1.1232619552829328
+          ]
+        },
+        {
+          "id": "table-layout--paulgraham.com-makersschedule",
+          "currentToBaselineMedianRatios": [
+            0.6744284058869726,
+            0.6951632654404185
+          ],
+          "passRatios": [
+            0.6315358465260164,
+            0.6974926136885078,
+            0.681107738855849,
+            0.7270619296212518
+          ]
+        },
+        {
+          "id": "table-layout--peripheral-tables",
+          "currentToBaselineMedianRatios": [
+            0.8898463398674724,
+            0.9096004060123045
+          ],
+          "passRatios": [
+            0.8796024617768384,
+            0.8838621848527155,
+            0.8829038921472685,
+            0.9432953017777447
+          ]
+        },
+        {
+          "id": "table-layout--single-column",
+          "currentToBaselineMedianRatios": [
+            0.7929681135565695,
+            0.7688267003673007
+          ],
+          "passRatios": [
+            0.7707179615613032,
+            0.7999101821684649,
+            0.7616077716972925,
+            0.8105818544496809
+          ]
+        },
+        {
+          "id": "thin-section-before-see-also",
+          "currentToBaselineMedianRatios": [
+            0.8500102559763921,
+            0.8641130932883815
+          ],
+          "passRatios": [
+            0.8358766464286826,
+            0.8300590387288417,
+            0.847163847192439,
+            0.941078635909961
+          ]
+        }
+      ],
+      "perRunFlags": [
+        {
+          "directory": "2026-10-21-hardening",
+          "over5Both": [
+            "footnotes--wikipedia-references"
+          ],
+          "beyondNoiseBoth": [],
+          "noiseThreshold": 1.104907273629525
+        },
+        {
+          "directory": "2026-10-21-hardening-repeat",
+          "over5Both": [
+            "comments--mastodon.social-@user-12345678",
+            "extractor--bbcode-data",
+            "extractor--chatgpt-citations",
+            "extractor--chatgpt-post-thought-content",
+            "eyebrow--linked-category",
+            "general--wikipedia",
+            "issues--161-x-status-url-author",
+            "selectors--logo-substring-wrapper"
+          ],
+          "beyondNoiseBoth": [
+            "comments--mastodon.social-@user-12345678",
+            "extractor--chatgpt-post-thought-content"
+          ],
+          "noiseThreshold": 1.0960427194097404
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Active paging was observed in both monitored windows. Results are descriptive measurements of this host, not isolated-host guarantees.",
+    "Per-case native regression flags differ across runs; no lack-of-regression claim follows from aggregate gain or noise flags.",
+    "Reference is TypeScript source under Vitest/Vite SSR with linkedom."
+  ]
+}

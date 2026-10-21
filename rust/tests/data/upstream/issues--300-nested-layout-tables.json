@@ -1,0 +1,20 @@
+{
+  "id": "issues--300-nested-layout-tables",
+  "url": "https://www.example.org/cheatsheet.html",
+  "inputHtml": "<!-- {\"url\":\"https://www.example.org/cheatsheet.html\"} -->\n<!DOCTYPE html>\n<html>\n<head><meta charset=\"utf-8\"><title>Overview of shortcuts</title></head>\n<body>\n<h1 align=\"center\">Overview of the editor's shortcuts</h1>\n<h3 align=\"center\">The keystrokes and their functions</h3>\n\n<table align=\"center\"><tbody>\n<tr><td>\n\n<b>File handling</b>\n<table><tbody>\n<tr><td>Ctrl+S &nbsp;&nbsp;</td><td>Save current file</td></tr>\n<tr><td>Ctrl+O</td><td>Offer to write file (\"Save as\")</td></tr>\n<tr><td>Ctrl+R</td><td>Insert a file into current one</td></tr>\n<tr><td>Ctrl+X</td><td>Close buffer, exit from the editor</td></tr>\n</tbody></table>\n<br>\n\n<b>Editing</b>\n<table><tbody>\n<tr><td>Ctrl+K &nbsp;&nbsp;</td><td>Cut current line into cutbuffer</td></tr>\n<tr><td>Alt+6</td><td>Copy current line into cutbuffer</td></tr>\n<tr><td>Ctrl+U</td><td>Paste contents of cutbuffer</td></tr>\n</tbody></table>\n\n</td><td>\n\n<b>Moving around</b>\n<table><tbody>\n<tr><td>Ctrl+A &nbsp;&nbsp;</td><td>To start of line</td></tr>\n<tr><td>Ctrl+E</td><td>To end of line</td></tr>\n<tr><td>Ctrl+P</td><td>One line up</td></tr>\n<tr><td>Ctrl+N</td><td>One line down</td></tr>\n</tbody></table>\n<br>\n\n<b>Information</b>\n<table><tbody>\n<tr><td>Ctrl+C &nbsp;&nbsp;</td><td>Report cursor position</td></tr>\n<tr><td>Alt+D</td><td>Report line/word/character count</td></tr>\n</tbody></table>\n\n</td></tr>\n</tbody></table>\n\n</body>\n</html>\n",
+  "inputSha256": "3ae6b66811967f275bffdf098e5a57df1605a5dae8bde995c330960f35faa22e",
+  "upstreamFixture": "tests/fixtures/issues--300-nested-layout-tables.html",
+  "markdownGoldenSha256": "95bf74880c0695193e6238cd41c866005643913a5ca0be2da2d401436af85a87",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<body> <h2 align=\"center\">Overview of the editor's shortcuts</h2> <h3 align=\"center\">The keystrokes and their functions</h3> <table align=\"center\"><tbody> <tr><td> <b>File handling</b> <table><tbody> <tr><td>Ctrl+S </td> <td>Save current file</td></tr> <tr><td>Ctrl+O</td> <td>Offer to write file (\"Save as\")</td></tr> <tr><td>Ctrl+R</td> <td>Insert a file into current one</td></tr> <tr><td>Ctrl+X</td> <td>Close buffer, exit from the editor</td></tr> </tbody></table> <br> <b>Editing</b> <table><tbody> <tr><td>Ctrl+K </td> <td>Cut current line into cutbuffer</td></tr> <tr><td>Alt+6</td> <td>Copy current line into cutbuffer</td></tr> <tr><td>Ctrl+U</td> <td>Paste contents of cutbuffer</td></tr> </tbody></table> </td> <td> <b>Moving around</b> <table><tbody> <tr><td>Ctrl+A </td> <td>To start of line</td></tr> <tr><td>Ctrl+E</td> <td>To end of line</td></tr> <tr><td>Ctrl+P</td> <td>One line up</td></tr> <tr><td>Ctrl+N</td> <td>One line down</td></tr> </tbody></table> <br> <b>Information</b> <table><tbody> <tr><td>Ctrl+C </td> <td>Report cursor position</td></tr> <tr><td>Alt+D</td> <td>Report line/word/character count</td></tr> </tbody></table> </td></tr> </tbody></table> </body>",
+    "contentMarkdown": "## Overview of the editor's shortcuts\n\n### The keystrokes and their functions\n\n**File handling**\n\n| Ctrl+S | Save current file |\n| --- | --- |\n| Ctrl+O | Offer to write file (\"Save as\") |\n| Ctrl+R | Insert a file into current one |\n| Ctrl+X | Close buffer, exit from the editor |\n\n  \n**Editing**\n\n| Ctrl+K | Cut current line into cutbuffer |\n| --- | --- |\n| Alt+6 | Copy current line into cutbuffer |\n| Ctrl+U | Paste contents of cutbuffer |\n\n**Moving around**\n\n| Ctrl+A | To start of line |\n| --- | --- |\n| Ctrl+E | To end of line |\n| Ctrl+P | One line up |\n| Ctrl+N | One line down |\n\n  \n**Information**\n\n| Ctrl+C | Report cursor position |\n| --- | --- |\n| Alt+D | Report line/word/character count |",
+    "title": "Overview of shortcuts",
+    "author": "",
+    "site": "example.org",
+    "published": "",
+    "wordCount": 84,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

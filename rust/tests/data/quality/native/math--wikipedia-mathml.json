@@ -1,0 +1,1383 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In algebra, the "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "quadratic formula"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " gives the solutions of the general quadratic equation. Given a second-degree polynomial of the form"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [
+            [
+              ":xmlns",
+              "http://www.w3.org/1998/Math/MathML"
+            ],
+            [
+              "alttext",
+              "ax^{2}+bx+c=0"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "element",
+              "name": "semantics",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mrow",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mi",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "msup",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "x"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mn",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "2"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "+"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mi",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "b"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mi",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "x"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "+"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mi",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "c"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "="
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mn",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "0"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "annotation",
+                  "attributes": [
+                    [
+                      "encoding",
+                      "application/x-tex"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "ax^{2}+bx+c=0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              "ax^{2}+bx+c=0"
+            ],
+            [
+              "src",
+              "https://example.com/math/quad.svg"
+            ]
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "text": ", the values of "
+    },
+    {
+      "kind": "element",
+      "name": "em",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "x"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "text": " satisfying this equation are given by the quadratic formula."
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The formula is expressed as:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "dl",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "dd",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "p",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [
+                    [
+                      ":xmlns",
+                      "http://www.w3.org/1998/Math/MathML"
+                    ],
+                    [
+                      "alttext",
+                      "x={\\frac {-b\\pm {\\sqrt {b^{2}-4ac}}}{2a}}"
+                    ],
+                    [
+                      "display",
+                      "block"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "semantics",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mrow",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "x"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "="
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mfrac",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mrow",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mo",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "-"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "mi",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "b"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "mo",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "±"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "msqrt",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mrow",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "element",
+                                              "name": "msup",
+                                              "attributes": [],
+                                              "children": [
+                                                {
+                                                  "kind": "element",
+                                                  "name": "mi",
+                                                  "attributes": [],
+                                                  "children": [
+                                                    {
+                                                      "kind": "text",
+                                                      "text": "b"
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "element",
+                                                  "name": "mn",
+                                                  "attributes": [],
+                                                  "children": [
+                                                    {
+                                                      "kind": "text",
+                                                      "text": "2"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "kind": "element",
+                                              "name": "mo",
+                                              "attributes": [],
+                                              "children": [
+                                                {
+                                                  "kind": "text",
+                                                  "text": "-"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "kind": "element",
+                                              "name": "mn",
+                                              "attributes": [],
+                                              "children": [
+                                                {
+                                                  "kind": "text",
+                                                  "text": "4"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "kind": "element",
+                                              "name": "mi",
+                                              "attributes": [],
+                                              "children": [
+                                                {
+                                                  "kind": "text",
+                                                  "text": "a"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "kind": "element",
+                                              "name": "mi",
+                                              "attributes": [],
+                                              "children": [
+                                                {
+                                                  "kind": "text",
+                                                  "text": "c"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mrow",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mn",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "2"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "mi",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "a"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "annotation",
+                          "attributes": [
+                            [
+                              "encoding",
+                              "application/x-tex"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "x={\\frac {-b\\pm {\\sqrt {b^{2}-4ac}}}{2a}}"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "img",
+                  "attributes": [
+                    [
+                      "alt",
+                      "x={\\frac {-b\\pm {\\sqrt {b^{2}-4ac}}}{2a}}"
+                    ],
+                    [
+                      "src",
+                      "https://example.com/math/quadformula.svg"
+                    ]
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The quantity under the square root,"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [
+            [
+              ":xmlns",
+              "http://www.w3.org/1998/Math/MathML"
+            ],
+            [
+              "alttext",
+              "b^{2}-4ac"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "element",
+              "name": "semantics",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mrow",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "msup",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "b"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mn",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "2"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "-"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mn",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "4"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mi",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mi",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "c"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "annotation",
+                  "attributes": [
+                    [
+                      "encoding",
+                      "application/x-tex"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "b^{2}-4ac"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              "b^{2}-4ac"
+            ],
+            [
+              "src",
+              "https://example.com/math/disc.svg"
+            ]
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "text": ", is known as the "
+    },
+    {
+      "kind": "element",
+      "name": "strong",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "discriminant"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "text": ". Its value determines the nature of the solutions."
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": []
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In algebra, the "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "quadratic formula"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " gives the solutions of the general quadratic equation. Given a second-degree polynomial of the form"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "math",
+      "attributes": [
+        [
+          ":xmlns",
+          "http://www.w3.org/1998/Math/MathML"
+        ],
+        [
+          "alttext",
+          "ax^{2}+bx+c=0"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "semantics",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mrow",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "a"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "msup",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mi",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "x"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mn",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "2"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "+"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "b"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "x"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "+"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "c"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "="
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mn",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "annotation",
+              "attributes": [
+                [
+                  "encoding",
+                  "application/x-tex"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "ax^{2}+bx+c=0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "ax^{2}+bx+c=0"
+        ],
+        [
+          "src",
+          "https://example.com/math/quad.svg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": ", the values of "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "x"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " satisfying this equation are given by the quadratic formula."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The formula is expressed as:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "math",
+      "attributes": [
+        [
+          ":xmlns",
+          "http://www.w3.org/1998/Math/MathML"
+        ],
+        [
+          "alttext",
+          "x={\\frac {-b\\pm {\\sqrt {b^{2}-4ac}}}{2a}}"
+        ],
+        [
+          "display",
+          "block"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "semantics",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mrow",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "x"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "="
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mfrac",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mrow",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mo",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "-"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "b"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mo",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "±"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "msqrt",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mrow",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "msup",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mi",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "b"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "mn",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "2"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mo",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "-"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mn",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "a"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "c"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mrow",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mn",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "2"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "a"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "annotation",
+              "attributes": [
+                [
+                  "encoding",
+                  "application/x-tex"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "x={\\frac {-b\\pm {\\sqrt {b^{2}-4ac}}}{2a}}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "x={\\frac {-b\\pm {\\sqrt {b^{2}-4ac}}}{2a}}"
+        ],
+        [
+          "src",
+          "https://example.com/math/quadformula.svg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The quantity under the square root,"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "math",
+      "attributes": [
+        [
+          ":xmlns",
+          "http://www.w3.org/1998/Math/MathML"
+        ],
+        [
+          "alttext",
+          "b^{2}-4ac"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "semantics",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mrow",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "msup",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mi",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "b"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mn",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "2"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "-"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mn",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "4"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "a"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "c"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "annotation",
+              "attributes": [
+                [
+                  "encoding",
+                  "application/x-tex"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "b^{2}-4ac"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "b^{2}-4ac"
+        ],
+        [
+          "src",
+          "https://example.com/math/disc.svg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": ", is known as the "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "discriminant"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Its value determines the nature of the solutions."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Encyclopedia",
+    "title": "Quadratic formula",
+    "description": "",
+    "domain": "wikipedia-mathml",
+    "favicon": "https://wikipedia-mathml/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [
+    {
+      "code": "math_not_supported",
+      "message": "Math support is not yet included."
+    }
+  ],
+  "wordCount": 65,
+  "extractorType": null
+}

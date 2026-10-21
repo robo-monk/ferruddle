@@ -1,0 +1,20 @@
+{
+  "id": "math--mathjax-tagged-equation",
+  "url": "https://mathjax-tagged-equation",
+  "inputHtml": "<html lang=\"en\"><head>\n   <meta charset=\"utf-8\">\n   <title>Tagged Equation Test</title>\n   <script id=\"MathJax-script\" async src=\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js\"></script>\n</head>\n<body>\n<main>\n<h1>Tagged Equation Test</h1>\n\n<p>A tagged single equation produced by <code>\\tag{}</code> is wrapped by\nMathJax in an <code>mtable</code> with a single <code>mlabeledtr</code>. It\nshould stay on one horizontal line, not collapse into a vertical stack.</p>\n\n<mjx-container class=\"MathJax\" jax=\"CHTML\" display=\"true\"><mjx-math display=\"true\" class=\"MJX-TEX\"></mjx-math><mjx-assistive-mml unselectable=\"on\" display=\"block\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mtable displaystyle=\"true\"><mlabeledtr><mtd><mtext>(</mtext><mrow data-mjx-texclass=\"ORD\"><mo>⋆</mo></mrow><mtext>)</mtext></mtd><mtd><mi>a</mi><mo>=</mo><mi>b</mi><mo>+</mo><mi>c</mi></mtd></mlabeledtr></mtable></math></mjx-assistive-mml></mjx-container>\n\n<p>A genuine multi-row aligned system uses several <code>mtr</code> rows and\nmust be preserved as an aligned environment.</p>\n\n<mjx-container class=\"MathJax\" jax=\"CHTML\" display=\"true\"><mjx-math display=\"true\" class=\"MJX-TEX\"></mjx-math><mjx-assistive-mml unselectable=\"on\" display=\"block\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mtable columnalign=\"right center left\"><mtr><mtd><mi>x</mi></mtd><mtd><mo>=</mo></mtd><mtd><mi>y</mi></mtd></mtr><mtr><mtd><mi>u</mi></mtd><mtd><mo>=</mo></mtd><mtd><mi>v</mi></mtd></mtr></mtable></math></mjx-assistive-mml></mjx-container>\n\n</main>\n</body></html>\n",
+  "inputSha256": "0ee8a5c36fd14bb797dfca1826c2feca8ee353c080a9fd33e22f06dfdd21c232",
+  "upstreamFixture": "tests/fixtures/math--mathjax-tagged-equation.html",
+  "markdownGoldenSha256": "a4a69a226e6c302535b1a577cf0a2bf41dd3128cc6376c8b73bfcba19f90eff6",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<main>  <p>A tagged single equation produced by <code>\\tag{}</code> is wrapped by MathJax in an <code>mtable</code> with a single <code>mlabeledtr</code>. It should stay on one horizontal line, not collapse into a vertical stack.</p> <math data-latex=\"a = b + c ( \\star )\" display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi> <mo>=</mo> <mi>b</mi> <mo>+</mo> <mi>c</mi> <mtext>(</mtext><mrow data-mjx-texclass=\"ORD\"><mo>⋆</mo></mrow><mtext>)</mtext></mrow></math> <p>A genuine multi-row aligned system uses several <code>mtr</code> rows and must be preserved as an aligned environment.</p> <math data-latex=\"\\begin{aligned}x & = & y \\\\ u & = & v\\end{aligned}\" display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable columnalign=\"right center left\"><mtr><mtd><mi>x</mi></mtd> <mtd><mo>=</mo></mtd> <mtd><mi>y</mi></mtd></mtr> <mtr><mtd><mi>u</mi></mtd> <mtd><mo>=</mo></mtd> <mtd><mi>v</mi></mtd></mtr></mtable></math> </main>",
+    "contentMarkdown": "A tagged single equation produced by `\\tag{}` is wrapped by MathJax in an `mtable` with a single `mlabeledtr`. It should stay on one horizontal line, not collapse into a vertical stack.\n\n$$\na = b + c ( \\star )\n$$\n\nA genuine multi-row aligned system uses several `mtr` rows and must be preserved as an aligned environment.\n\n$$\n\\begin{aligned}x & = & y \\\\ u & = & v\\end{aligned}\n$$",
+    "title": "Tagged Equation Test",
+    "author": "",
+    "site": "mathjax-tagged-equation",
+    "published": "",
+    "wordCount": 63,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

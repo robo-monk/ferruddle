@@ -1,0 +1,20 @@
+{
+  "id": "math--latex-image-services",
+  "url": "https://latex-image-services",
+  "inputHtml": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>LaTeX Image Rendering Services</title>\n</head>\n<body>\n    <article>\n        <h1>LaTeX Image Rendering Services</h1>\n\n        <p>Inline fraction: <img src=\"https://latex.codecogs.com/svg.image?%5Cfrac%7Ba%7D%7Bb%7D\">.</p>\n\n        <p>Sum notation: <img src=\"https://latex.codecogs.com/png.latex?%5Csum_%7Bi%3D1%7D%5E%7Bn%7Da_i\">.</p>\n\n        <p>Greek letters: <img src=\"https://chart.apis.google.com/chart?cht=tx&chl=%5Calpha%2B%5Cbeta\">.</p>\n\n        <p>Path-based service: <img src=\"https://example.com/formula/%5Cfrac%7Bm%7D%7Bv%7D\">.</p>\n    </article>\n</body>\n</html>",
+  "inputSha256": "db55ace4727b9ef4aca92702d806c36f308afd0fc675ab7cd4eea907f351b442",
+  "upstreamFixture": "tests/fixtures/math--latex-image-services.html",
+  "markdownGoldenSha256": "2b6f0195cb59d312a5a2c6a224826957fd86afc7ed4ac0d5174e317d2d9036f6",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>Inline fraction: <math data-latex=\"\\frac{a}{b}\" display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi> <mi>b</mi></mfrac></math>.</p> <p>Sum notation: <math data-latex=\"\\sum_{i=1}^{n}a_i\" display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msubsup><mo movablelimits=\"false\">∑</mo> <mrow><mi>i</mi> <mo>=</mo> <mn>1</mn></mrow> <mi>n</mi></msubsup> <msub><mi>a</mi> <mi>i</mi></msub></mrow></math>.</p> <p>Greek letters: <math data-latex=\"\\alpha+\\beta\" display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi> <mo>+</mo> <mi>β</mi></mrow></math>.</p> <p>Path-based service: <math data-latex=\"\\frac{m}{v}\" display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>m</mi> <mi>v</mi></mfrac></math>.</p> </article>",
+    "contentMarkdown": "Inline fraction: $\\frac{a}{b}$.\n\nSum notation: $\\sum_{i=1}^{n}a_i$.\n\nGreek letters: $\\alpha+\\beta$.\n\nPath-based service: $\\frac{m}{v}$.",
+    "title": "LaTeX Image Rendering Services",
+    "author": "",
+    "site": "latex-image-services",
+    "published": "",
+    "wordCount": 26,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

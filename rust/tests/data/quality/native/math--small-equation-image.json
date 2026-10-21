@@ -1,0 +1,152 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "You can obtain all the elementary functions from just the function"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "\\operatorname{fn}(x,y) = \\exp(x) - \\log(y)"
+        ],
+        [
+          "src",
+          "https://example.com/inline-eq.svg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "and the constant 1. The following equations show how to bootstrap addition and subtraction."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "\\begin{align*} \\exp(z) &\\mapsto \\operatorname{fn}(z,1) \\\\ \\log(z) &\\mapsto \\operatorname{fn}(1,\\exp(\\operatorname{fn}(1,z))) \\end{align*}"
+        ],
+        [
+          "src",
+          "https://example.com/block-eq.svg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "See the paper for more details."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "You can obtain all the elementary functions from just the function"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "\\operatorname{fn}(x,y) = \\exp(x) - \\log(y)"
+        ],
+        [
+          "src",
+          "https://example.com/inline-eq.svg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "and the constant 1. The following equations show how to bootstrap addition and subtraction."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "\\begin{align*} \\exp(z) &\\mapsto \\operatorname{fn}(z,1) \\\\ \\log(z) &\\mapsto \\operatorname{fn}(1,\\exp(\\operatorname{fn}(1,z))) \\end{align*}"
+        ],
+        [
+          "src",
+          "https://example.com/block-eq.svg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "See the paper for more details."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "small-equation-image",
+    "title": "Small equation images",
+    "description": "",
+    "domain": "small-equation-image",
+    "favicon": "https://small-equation-image/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [
+    {
+      "code": "math_not_supported",
+      "message": "Math support is not yet included."
+    }
+  ],
+  "wordCount": 31,
+  "extractorType": null
+}

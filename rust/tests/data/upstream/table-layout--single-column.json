@@ -1,0 +1,20 @@
+{
+  "id": "table-layout--single-column",
+  "url": "https://table-layout--single-column",
+  "inputHtml": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <title>My Homepage</title>\n</head>\n<body>\n<table id=\"layout\">\n<tr>\n<td width=\"70%\" style=\"vertical-align: top;\">\n<h1>Welcome</h1>\n<p>Hello, welcome to my website!</p>\n<h2>Projects</h2>\n<ul>\n<li><a href=\"https://example.com/project-one\">Project One</a> - a cool project</li>\n<li><a href=\"https://example.com/project-two\">Project Two</a> - another project</li>\n<li><a href=\"/local-page.html\">Local Page</a></li>\n</ul>\n<h2>Contact</h2>\n<p>Find me on <a href=\"https://example.com/social\">social media</a> or email <strong>hello at example.com</strong>.</p>\n</td>\n</tr>\n</table>\n</body>\n</html>\n",
+  "inputSha256": "86b8faecb13f8cd71eddb4b40de18d5e083dd1a5401d2ccbaa48df0e0153048f",
+  "upstreamFixture": "tests/fixtures/table-layout--single-column.html",
+  "markdownGoldenSha256": "30e7efa133edeb526045a0083b6b19c5a51cc773e9512091b45523f2b3b6a592",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<body>  <h2>Welcome</h2> <p>Hello, welcome to my website!</p> <h2>Projects</h2> <ul> <li><a href=\"https://example.com/project-one\">Project One</a> - a cool project</li> <li><a href=\"https://example.com/project-two\">Project Two</a> - another project</li> <li><a href=\"https://table-layout--single-column/local-page.html\">Local Page</a></li> </ul> <h2>Contact</h2> <p>Find me on <a href=\"https://example.com/social\">social media</a> or email <strong>hello at example.com</strong>.</p>  </body>",
+    "contentMarkdown": "## Welcome\n\nHello, welcome to my website!\n\n## Projects\n\n- [Project One](https://example.com/project-one) - a cool project\n- [Project Two](https://example.com/project-two) - another project\n- [Local Page](https://table-layout--single-column/local-page.html)\n\n## Contact\n\nFind me on [social media](https://example.com/social) or email **hello at example.com**.",
+    "title": "My Homepage",
+    "author": "",
+    "site": "table-layout--single-column",
+    "published": "",
+    "wordCount": 32,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

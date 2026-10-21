@@ -1,0 +1,20 @@
+{
+  "id": "footnotes--sidenote-inline-with-list",
+  "url": "https://sidenote-inline-with-list",
+  "inputHtml": "<!DOCTYPE html>\n<html lang=\"en\">\n<head><title>Sample Post with Sidenotes</title></head>\n<body>\n<main>\n<div class=\"post-content has-sidenotes\">\n  <h1>Sample post title</h1>\n\n  <p>This is the first paragraph with a note about roundness<sup class=\"footnote-reference\"><a id=\"footnote-reference-1\" href=\"#footnote-1\">1</a></sup><span class=\"sidenote\"><span class=\"sidenote-number\">1. </span>One of the ugliest roundness examples is the YouTube UI</span> and some more text about design trends.</p>\n\n  <p>This paragraph has another note about influence<sup class=\"footnote-reference\"><a id=\"footnote-reference-2\" href=\"#footnote-2\">2</a></sup><span class=\"sidenote\"><span class=\"sidenote-number\">2. </span>That's to say, contagious from inwards</span> on the broader industry.</p>\n\n  <div class=\"footnotes sidenotes-active\">\n    <hr class=\"footnotes-separatator\">\n    <div class=\"footnote-definitions\">\n      <div class=\"footnote-definition\">\n        <sup id=\"footnote-1\"><a href=\"#footnote-reference-1\">1</a></sup>\n        <div class=\"footnote-body\"><p>One of the ugliest roundness examples is the YouTube UI</p></div>\n      </div>\n      <div class=\"footnote-definition\">\n        <sup id=\"footnote-2\"><a href=\"#footnote-reference-2\">2</a></sup>\n        <div class=\"footnote-body\"><p>That's to say, contagious from inwards</p></div>\n      </div>\n    </div>\n  </div>\n</div>\n</main>\n</body>\n</html>\n",
+  "inputSha256": "9fa8b2d0319de66907e35192bed70cf54fe566d0b1b486034572fd18620d2e65",
+  "upstreamFixture": "tests/fixtures/footnotes--sidenote-inline-with-list.html",
+  "markdownGoldenSha256": "51dadf288d4ca0ce364a8a6ee193922bee925bbfaf585d983ef0ce51b9478a70",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<div> <h2>Sample post title</h2> <p>This is the first paragraph with a note about roundness<sup id=\"fnref:1\"><a href=\"#fn:1\">1</a></sup> and some more text about design trends.</p> <p>This paragraph has another note about influence<sup id=\"fnref:2\"><a href=\"#fn:2\">2</a></sup> on the broader industry.</p>  <div id=\"footnotes\"><ol><li id=\"fn:1\"><p>One of the ugliest roundness examples is the YouTube UI <a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:1\">↩</a></p></li> <li id=\"fn:2\"><p>That's to say, contagious from inwards <a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:2\">↩</a></p></li></ol></div></div>",
+    "contentMarkdown": "## Sample post title\n\nThis is the first paragraph with a note about roundness[^1] and some more text about design trends.\n\nThis paragraph has another note about influence[^2] on the broader industry.\n\n[^1]: One of the ugliest roundness examples is the YouTube UI\n\n[^2]: That's to say, contagious from inwards",
+    "title": "Sample Post with Sidenotes",
+    "author": "",
+    "site": "sidenote-inline-with-list",
+    "published": "",
+    "wordCount": 51,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

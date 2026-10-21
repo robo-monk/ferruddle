@@ -1,0 +1,261 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Gallery Post"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This article contains images in a lightbox pattern where each image appears twice: once as a clickable thumbnail and once as a hidden full-size duplicate for the lightbox modal overlay."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "a",
+      "attributes": [
+        [
+          "href",
+          "https://www.example.com/uploads/photo-one.jpg"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "src",
+              "https://www.example.com/uploads/photo-one-1280x720.jpg"
+            ]
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some text between images to provide content for the scoring algorithm to identify as meaningful article content."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "a",
+      "attributes": [
+        [
+          "href",
+          "https://www.example.com/uploads/photo-two.jpg"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "src",
+              "https://www.example.com/uploads/photo-two-1280x720.jpg"
+            ]
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "More article text here with enough words for the content detection scoring algorithm to work properly with this test."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "An inline photo"
+        ],
+        [
+          "src",
+          "https://www.example.com/uploads/inline-photo.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Final paragraph of the article with some concluding remarks about the gallery images shown above."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Gallery Post"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This article contains images in a lightbox pattern where each image appears twice: once as a clickable thumbnail and once as a hidden full-size duplicate for the lightbox modal overlay."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "a",
+      "attributes": [
+        [
+          "href",
+          "https://www.example.com/uploads/photo-one.jpg"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              ""
+            ],
+            [
+              "src",
+              "https://www.example.com/uploads/photo-one-1280x720.jpg"
+            ]
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some text between images to provide content for the scoring algorithm to identify as meaningful article content."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "a",
+      "attributes": [
+        [
+          "href",
+          "https://www.example.com/uploads/photo-two.jpg"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              ""
+            ],
+            [
+              "src",
+              "https://www.example.com/uploads/photo-two-1280x720.jpg"
+            ]
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "More article text here with enough words for the content detection scoring algorithm to work properly with this test."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "An inline photo"
+        ],
+        [
+          "src",
+          "https://www.example.com/uploads/inline-photo.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Final paragraph of the article with some concluding remarks about the gallery images shown above."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "example.com",
+    "title": "Gallery Post with Lightbox",
+    "description": "",
+    "domain": "example.com",
+    "favicon": "https://www.example.com/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 83,
+  "extractorType": null
+}

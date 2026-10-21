@@ -1,0 +1,20 @@
+{
+  "id": "metadata--h1-sibling-byline",
+  "url": "https://research.example.com/blog/efficient-algorithms",
+  "inputHtml": "<!--{\"url\":\"https://research.example.com/blog/efficient-algorithms\"}-->\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <title>Efficient Algorithms for Large-Scale Optimization</title>\n  <link rel=\"canonical\" href=\"https://research.example.com/blog/efficient-algorithms\">\n</head>\n<body>\n<main>\n  <h1>Efficient Algorithms for Large-Scale Optimization</h1>\n  <!-- Date and multi-author string in separate <p> children of a sibling div.\n       In linkedom, sibling.textContent concatenates them without whitespace:\n       \"March 24, 2026Jane Smith, ...\" — breaking word-boundary date regex.\n       The fix checks individual <p>/<time> children first. -->\n  <div class=\"css-xk38a9\">\n    <p>March 24, 2026</p>\n    <p>Jane Smith, Research Scientist, and John Doe, VP and Senior Fellow, Example Research</p>\n  </div>\n  <p>Modern machine learning systems require optimization algorithms that scale gracefully with data volume. In this post, we present a new approach that achieves state-of-the-art performance on standard benchmarks.</p>\n  <h2>Background</h2>\n  <p>Previous approaches to large-scale optimization have relied on stochastic gradient descent variants. While effective, these methods struggle when the objective function exhibits high curvature or when the data distribution is non-stationary.</p>\n  <h2>Our Approach</h2>\n  <p>We introduce a novel algorithm that combines second-order information with adaptive step sizing. The key insight is that local curvature estimates can be computed efficiently using a low-rank approximation of the Hessian matrix.</p>\n</main>\n</body>\n</html>\n",
+  "inputSha256": "4398c7ee4be8b8ced62a1711efbf915509ea03fda1c151fc4786d33a24892d76",
+  "upstreamFixture": "tests/fixtures/metadata--h1-sibling-byline.html",
+  "markdownGoldenSha256": "4a69f8e1a55046e20d9c772d92730520ca719764632db6246b044c27817c2f98",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<main>    <p>Modern machine learning systems require optimization algorithms that scale gracefully with data volume. In this post, we present a new approach that achieves state-of-the-art performance on standard benchmarks.</p> <h2>Background</h2> <p>Previous approaches to large-scale optimization have relied on stochastic gradient descent variants. While effective, these methods struggle when the objective function exhibits high curvature or when the data distribution is non-stationary.</p> <h2>Our Approach</h2> <p>We introduce a novel algorithm that combines second-order information with adaptive step sizing. The key insight is that local curvature estimates can be computed efficiently using a low-rank approximation of the Hessian matrix.</p> </main>",
+    "contentMarkdown": "Modern machine learning systems require optimization algorithms that scale gracefully with data volume. In this post, we present a new approach that achieves state-of-the-art performance on standard benchmarks.\n\n## Background\n\nPrevious approaches to large-scale optimization have relied on stochastic gradient descent variants. While effective, these methods struggle when the objective function exhibits high curvature or when the data distribution is non-stationary.\n\n## Our Approach\n\nWe introduce a novel algorithm that combines second-order information with adaptive step sizing. The key insight is that local curvature estimates can be computed efficiently using a low-rank approximation of the Hessian matrix.",
+    "title": "Efficient Algorithms for Large-Scale Optimization",
+    "author": "Jane Smith, Research Scientist, and John Doe, VP and Senior Fellow, Example Research",
+    "site": "research.example.com",
+    "published": "2026-03-24T00:00:00+00:00",
+    "wordCount": 95,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

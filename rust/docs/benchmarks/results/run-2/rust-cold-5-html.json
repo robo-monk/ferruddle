@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "implementation": "rust",
+  "kind": "cold",
+  "pass": 4,
+  "caseCount": 1,
+  "rounds": 1,
+  "warmups": 0,
+  "manifestSha256": "0e137fc415fce1832582b273e87bf2e64b1f93473d8b0ad29070fab40aa35dfa",
+  "inputSetSha256": "7dda5e028d9dd28a9c74b4e64f1a338523a94d4472c28ad4196baf54c21abe32",
+  "modeOrder": [
+    "html"
+  ],
+  "modes": [
+    {
+      "mode": "html",
+      "roundTotalMs": [
+        17.679922
+      ],
+      "rawRounds": [
+        {
+          "round": 0,
+          "phase": "measured",
+          "orderStart": 0,
+          "wallMs": 17.679922,
+          "caseMs": [
+            17.679624
+          ]
+        }
+      ],
+      "perCase": [
+        {
+          "id": "issues--132-hero-class",
+          "ms": [
+            17.679624
+          ],
+          "output": {
+            "sha256": "06a13fc17aa161133b08395830d680f56618becdff5ef3ee101a1615892f1664",
+            "contentBytes": 160,
+            "markdownBytes": 0,
+            "wordCount": 22
+          }
+        }
+      ]
+    }
+  ]
+}

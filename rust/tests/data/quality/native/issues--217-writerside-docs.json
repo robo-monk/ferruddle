@@ -1,0 +1,256 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Methods"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Use these methods to interact with the API."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "dl",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "dt",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://developer.example.com/docs/getItems"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "getItems()"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dd",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "p",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Returns a list of items. For example:"
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "block": true,
+              "language": "http",
+              "text": "GET https://api.example.com/items\n\n> {%\n    console.log(response.status)\n%}"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dt",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://developer.example.com/docs/createItem"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "createItem(data)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "dd",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "p",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Creates a new item with the provided data."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "See the full reference for more details."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Methods"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Use these methods to interact with the API."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://developer.example.com/docs/getItems"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "getItems()"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Returns a list of items. For example:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "http",
+      "text": "GET https://api.example.com/items\n\n> {%\n    console.log(response.status)\n%}"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://developer.example.com/docs/createItem"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "createItem(data)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Creates a new item with the provided data."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "See the full reference for more details."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Documentation",
+    "title": "API Reference",
+    "description": "",
+    "domain": "example.com",
+    "favicon": "https://www.example.com/favicon.ico",
+    "image": "",
+    "language": "en-US",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 39,
+  "extractorType": null
+}

@@ -1,0 +1,1039 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Overview of the editor's shortcuts"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The keystrokes and their functions"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "File handling"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "table",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "tr",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Ctrl+S"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Save current file"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "tr",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Ctrl+O"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Offer to write file (\"Save as\")"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "tr",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Ctrl+R"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Insert a file into current one"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "tr",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Ctrl+X"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Close buffer, exit from the editor"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "br",
+                  "attributes": [],
+                  "children": []
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Editing"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "table",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "tr",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Ctrl+K"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Cut current line into cutbuffer"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "tr",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Alt+6"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Copy current line into cutbuffer"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "tr",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Ctrl+U"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Paste contents of cutbuffer"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Moving around"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "table",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "tr",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Ctrl+A"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "To start of line"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "tr",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Ctrl+E"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "To end of line"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "tr",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Ctrl+P"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "One line up"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "tr",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Ctrl+N"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "One line down"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "br",
+                  "attributes": [],
+                  "children": []
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Information"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "table",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "tr",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Ctrl+C"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Report cursor position"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "tr",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Alt+D"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "td",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "Report line/word/character count"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Overview of the editor's shortcuts"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The keystrokes and their functions"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "File handling"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Ctrl+S"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Save current file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Ctrl+O"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Offer to write file (\"Save as\")"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Ctrl+R"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Insert a file into current one"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Ctrl+X"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Close buffer, exit from the editor"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Editing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Ctrl+K"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Cut current line into cutbuffer"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Alt+6"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Copy current line into cutbuffer"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Ctrl+U"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Paste contents of cutbuffer"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Moving around"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Ctrl+A"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "To start of line"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Ctrl+E"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "To end of line"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Ctrl+P"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "One line up"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Ctrl+N"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "One line down"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Information"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Ctrl+C"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Report cursor position"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Alt+D"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Report line/word/character count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "example.org",
+    "title": "Overview of shortcuts",
+    "description": "",
+    "domain": "example.org",
+    "favicon": "https://www.example.org/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 84,
+  "extractorType": null
+}

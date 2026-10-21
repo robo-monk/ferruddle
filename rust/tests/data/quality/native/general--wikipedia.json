@@ -1,0 +1,6256 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " is a "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Personal_knowledge_management"
+            ],
+            [
+              "title",
+              "Personal knowledge management"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "personal knowledge management"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Note-taking"
+            ],
+            [
+              "title",
+              "Note-taking"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "note-taking"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Application_software"
+            ],
+            [
+              "title",
+              "Application software"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "software application"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " that operates on "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Markdown"
+            ],
+            [
+              "title",
+              "Markdown"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Markdown"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " files."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:2"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " It allows users to make internal links for notes and then to visualize the connections as a graph. It is designed to help users organize and structure their thoughts and knowledge in a flexible, non-linear way."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:3"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:3"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " The software is free for personal use, with commercial licenses and hosted services such as "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Obsidian_Publish"
+            ],
+            [
+              "title",
+              "Obsidian Publish"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian Publish"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Obsidian_Sync"
+            ],
+            [
+              "title",
+              "Obsidian Sync"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian Sync"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " available as paid add-ons."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:4"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:4"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Obsidian is developed by Dynalist Inc., a company founded by "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Shida_Li"
+            ],
+            [
+              "title",
+              "Shida Li"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Shida Li"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and Erica Xu. The application stores notes as plain-text Markdown files in a local folder called a \"vault\", allowing users full control over their data."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:5"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:5"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " It supports a wide range of "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Plug-in_(computing)"
+            ],
+            [
+              "title",
+              "Plug-in (computing)"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "plugins"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and themes created by its "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Open-source_software"
+            ],
+            [
+              "title",
+              "Open-source software"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "open-source"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " community."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:6"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:6"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "History"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Obsidian was created by Shida Li and Erica Xu, who previously developed the outliner application "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Dynalist"
+            ],
+            [
+              "title",
+              "Dynalist"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Dynalist"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:7"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:7"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " The first public version was released in March 2020 as a desktop application for "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Windows"
+            ],
+            [
+              "title",
+              "Windows"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Windows"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/MacOS"
+            ],
+            [
+              "title",
+              "MacOS"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "macOS"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Linux"
+            ],
+            [
+              "title",
+              "Linux"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Linux"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:8"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:8"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " The application quickly gained a following among users interested in the "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Zettelkasten"
+            ],
+            [
+              "title",
+              "Zettelkasten"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Zettelkasten"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " method and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Personal_knowledge_management"
+            ],
+            [
+              "title",
+              "Personal knowledge management"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "personal knowledge management"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " workflows."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:9"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:9"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "9"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Mobile versions for "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/IOS"
+            ],
+            [
+              "title",
+              "IOS"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "iOS"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Android_(operating_system)"
+            ],
+            [
+              "title",
+              "Android (operating system)"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Android"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " were released in 2021."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:10"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:10"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " In October 2022, the application reached version 1.0, which included a new default theme, improved tab support, and a redesigned settings interface."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:11"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:11"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "11"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Obsidian introduced "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Obsidian_Publish"
+            ],
+            [
+              "title",
+              "Obsidian Publish"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian Publish"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", a paid service for publishing notes as a website, and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Obsidian_Sync"
+            ],
+            [
+              "title",
+              "Obsidian Sync"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian Sync"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", an "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/End-to-end_encryption"
+            ],
+            [
+              "title",
+              "End-to-end encryption"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "end-to-end encrypted"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " synchronization service."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:12"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:12"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "12"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Features"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Obsidian stores all notes as plain-text "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Markdown"
+            ],
+            [
+              "title",
+              "Markdown"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Markdown"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " files in a local folder on the user's device, referred to as a \"vault\"."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:13"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:13"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " This approach gives users complete ownership of their data and allows notes to be opened with any text editor."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Linking and graph view"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A core feature of Obsidian is its support for "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Internal_link"
+            ],
+            [
+              "title",
+              "Internal link"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "internal links"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " between notes using a "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "[[wikilink]]"
+        },
+        {
+          "kind": "text",
+          "text": " syntax."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:14"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:14"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " These links create a network of connected notes that can be visualized through a built-in graph view."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:15"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:15"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "15"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Plugins"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Obsidian supports an extensive "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Plug-in_(computing)"
+            ],
+            [
+              "title",
+              "Plug-in (computing)"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "plugin"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " system that allows third-party developers to extend the application's functionality."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:16"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:16"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "16"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " As of 2024, the community plugin repository contains over 1,500 plugins."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:17"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:17"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "17"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Reception"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Obsidian has received generally favorable reviews from technology publications. "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/The_Verge"
+                ],
+                [
+                  "title",
+                  "The Verge"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "The Verge"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " praised the application for its flexibility and local-first approach, noting that \"Obsidian is a powerful note-taking app that gives you full control of your data.\""
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:2-2"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/PC_Magazine"
+                ],
+                [
+                  "title",
+                  "PC Magazine"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "PC Magazine"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " awarded it an Editors' Choice designation, highlighting its linking capabilities and customizability, though noting a steep learning curve for new users."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:3-2"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:3"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The application has been compared to other note-taking tools such as "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Notion_(productivity_software)"
+            ],
+            [
+              "title",
+              "Notion (productivity software)"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Notion"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Roam_Research"
+            ],
+            [
+              "title",
+              "Roam Research"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Roam Research"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Logseq"
+            ],
+            [
+              "title",
+              "Logseq"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Logseq"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Commentators have noted that Obsidian differentiates itself through its local-first storage model and emphasis on user data ownership."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:18"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:18"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "18"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " However, critics have pointed out that the "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Proprietary_software"
+            ],
+            [
+              "title",
+              "Proprietary software"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "proprietary"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " nature of the application itself limits user freedom compared to fully "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Open-source_software"
+            ],
+            [
+              "title",
+              "Open-source software"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "open-source"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " alternatives."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:19"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:19"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "19"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "See also"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/Comparison_of_note-taking_software"
+                ],
+                [
+                  "title",
+                  "Comparison of note-taking software"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Comparison of note-taking software"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/Personal_knowledge_management"
+                ],
+                [
+                  "title",
+                  "Personal knowledge management"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Personal knowledge management"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/Zettelkasten"
+                ],
+                [
+                  "title",
+                  "Zettelkasten"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Zettelkasten"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/Roam_Research"
+                ],
+                [
+                  "title",
+                  "Roam Research"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Roam Research"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/Logseq"
+                ],
+                [
+                  "title",
+                  "Logseq"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Logseq"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "References"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "External links"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://obsidian.md/"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Official website"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://github.com/obsidianmd"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Obsidian on GitHub"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://forum.obsidian.md/"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Obsidian Community Forum"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "cite",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://obsidian.md/changelog/2024-01-15-desktop-v1.5.8/"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "\"Obsidian 1.5.8\""
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". "
+                },
+                {
+                  "kind": "element",
+                  "name": "em",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Obsidian"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". January 15, 2024. Retrieved February 10, 2024."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:1"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:2"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "cite",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Brandom, Russell (September 12, 2023). "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://www.theverge.com/2023/09/12/obsidian-review"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "\"Obsidian review: a powerful note-taking app\""
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". "
+                },
+                {
+                  "kind": "element",
+                  "name": "em",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "a",
+                      "attributes": [
+                        [
+                          "href",
+                          "https://wikipedia/wiki/The_Verge"
+                        ],
+                        [
+                          "title",
+                          "The Verge"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "The Verge"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". Retrieved January 5, 2024."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:2"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:2-2"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:3"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "cite",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Duffy, Jill (March 8, 2023). "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://www.pcmag.com/reviews/obsidian"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "\"Obsidian Review\""
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". "
+                },
+                {
+                  "kind": "element",
+                  "name": "em",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "a",
+                      "attributes": [
+                        [
+                          "href",
+                          "https://wikipedia/wiki/PC_Magazine"
+                        ],
+                        [
+                          "title",
+                          "PC Magazine"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "PC Magazine"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". Retrieved January 5, 2024."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:3"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:3-2"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:4"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "cite",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://obsidian.md/pricing"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "\"Pricing\""
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". "
+                },
+                {
+                  "kind": "element",
+                  "name": "em",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Obsidian"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". Retrieved January 5, 2024."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:4"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:5"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "cite",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Cunningham, Andrew (August 15, 2022). "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://arstechnica.com/information-technology/2022/08/obsidian-review/"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "\"Obsidian is the Markdown note-taking app that could replace Evernote\""
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". "
+                },
+                {
+                  "kind": "element",
+                  "name": "em",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "a",
+                      "attributes": [
+                        [
+                          "href",
+                          "https://wikipedia/wiki/Ars_Technica"
+                        ],
+                        [
+                          "title",
+                          "Ars Technica"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "Ars Technica"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". Retrieved January 5, 2024."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:5"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:6"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "cite",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://obsidian.md/plugins"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "\"Community plugins\""
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". "
+                },
+                {
+                  "kind": "element",
+                  "name": "em",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Obsidian"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". Retrieved January 5, 2024."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:6"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:7"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "cite",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mehta, Ivan (April 5, 2023). "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://techcrunch.com/2023/04/05/obsidian-note-taking/"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "\"How Obsidian built a note-taking app used by millions\""
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". "
+                },
+                {
+                  "kind": "element",
+                  "name": "em",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "a",
+                      "attributes": [
+                        [
+                          "href",
+                          "https://wikipedia/wiki/TechCrunch"
+                        ],
+                        [
+                          "title",
+                          "TechCrunch"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "TechCrunch"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". Retrieved January 5, 2024."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:7"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:8"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "cite",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://obsidian.md/blog/obsidian-launch/"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "\"Introducing Obsidian\""
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". "
+                },
+                {
+                  "kind": "element",
+                  "name": "em",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Obsidian Blog"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". March 2020. Retrieved January 5, 2024."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:8"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:9"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "cite",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Tietze, Christian (June 22, 2021). "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://zettelkasten.de/posts/obsidian-review/"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "\"Obsidian as a Zettelkasten tool\""
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". "
+                },
+                {
+                  "kind": "element",
+                  "name": "em",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Zettelkasten.de"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". Retrieved January 5, 2024."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:9"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:10"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "cite",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://obsidian.md/blog/mobile-launch/"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "\"Obsidian Mobile is here\""
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". "
+                },
+                {
+                  "kind": "element",
+                  "name": "em",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Obsidian Blog"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". July 12, 2021. Retrieved January 5, 2024."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:10"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:11"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "cite",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://obsidian.md/blog/1-0/"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "\"Obsidian 1.0\""
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". "
+                },
+                {
+                  "kind": "element",
+                  "name": "em",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Obsidian Blog"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". October 13, 2022. Retrieved January 5, 2024."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:11"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:12"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "cite",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://obsidian.md/sync"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "\"Obsidian Sync\""
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". "
+                },
+                {
+                  "kind": "element",
+                  "name": "em",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Obsidian"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". Retrieved January 5, 2024."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:12"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:13"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "cite",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://help.obsidian.md/Getting+started/Create+a+vault"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "\"Create a vault\""
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". "
+                },
+                {
+                  "kind": "element",
+                  "name": "em",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Obsidian Help"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". Retrieved January 5, 2024."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:13"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:14"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "cite",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://help.obsidian.md/Linking+notes+and+files/Internal+links"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "\"Internal links\""
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". "
+                },
+                {
+                  "kind": "element",
+                  "name": "em",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Obsidian Help"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". Retrieved January 5, 2024."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:14"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:15"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "cite",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://help.obsidian.md/Plugins/Graph+view"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "\"Graph view\""
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". "
+                },
+                {
+                  "kind": "element",
+                  "name": "em",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Obsidian Help"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". Retrieved January 5, 2024."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:15"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:16"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "cite",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "\"Build a plugin\""
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". "
+                },
+                {
+                  "kind": "element",
+                  "name": "em",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Obsidian Developer Docs"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". Retrieved January 5, 2024."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:16"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:17"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "cite",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Morrison, Sara (May 18, 2023). "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://www.vox.com/technology/2023/05/18/obsidian-plugins-ecosystem"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "\"Inside Obsidian's thriving plugin ecosystem\""
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". "
+                },
+                {
+                  "kind": "element",
+                  "name": "em",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "a",
+                      "attributes": [
+                        [
+                          "href",
+                          "https://wikipedia/wiki/Vox_(website)"
+                        ],
+                        [
+                          "title",
+                          "Vox (website)"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "Vox"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". Retrieved January 5, 2024."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:17"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:18"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "cite",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Patel, Nilay (November 2, 2023). "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://www.theverge.com/2023/11/02/note-taking-apps-comparison"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "\"Obsidian vs Notion vs Roam: which note-taking app is best?\""
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". "
+                },
+                {
+                  "kind": "element",
+                  "name": "em",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "a",
+                      "attributes": [
+                        [
+                          "href",
+                          "https://wikipedia/wiki/The_Verge"
+                        ],
+                        [
+                          "title",
+                          "The Verge"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "The Verge"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". Retrieved January 5, 2024."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:18"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:19"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "cite",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Hoffman, Chris (December 1, 2023). "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://www.howtogeek.com/obsidian-open-source/"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "\"Is Obsidian really open source?\""
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". "
+                },
+                {
+                  "kind": "element",
+                  "name": "em",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "a",
+                      "attributes": [
+                        [
+                          "href",
+                          "https://wikipedia/wiki/How-To_Geek"
+                        ],
+                        [
+                          "title",
+                          "How-To Geek"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "How-To Geek"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": ". Retrieved January 5, 2024."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:19"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " is a "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Personal_knowledge_management"
+            ],
+            [
+              "title",
+              "Personal knowledge management"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "personal knowledge management"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Note-taking"
+            ],
+            [
+              "title",
+              "Note-taking"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "note-taking"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Application_software"
+            ],
+            [
+              "title",
+              "Application software"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "software application"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " that operates on "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Markdown"
+            ],
+            [
+              "title",
+              "Markdown"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Markdown"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " files."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " It allows users to make internal links for notes and then to visualize the connections as a graph. It is designed to help users organize and structure their thoughts and knowledge in a flexible, non-linear way."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " The software is free for personal use, with commercial licenses and hosted services such as "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Obsidian_Publish"
+            ],
+            [
+              "title",
+              "Obsidian Publish"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian Publish"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Obsidian_Sync"
+            ],
+            [
+              "title",
+              "Obsidian Sync"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian Sync"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " available as paid add-ons."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-3"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Obsidian is developed by Dynalist Inc., a company founded by "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Shida_Li"
+            ],
+            [
+              "title",
+              "Shida Li"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Shida Li"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and Erica Xu. The application stores notes as plain-text Markdown files in a local folder called a \"vault\", allowing users full control over their data."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-4"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " It supports a wide range of "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Plug-in_(computing)"
+            ],
+            [
+              "title",
+              "Plug-in (computing)"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "plugins"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and themes created by its "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Open-source_software"
+            ],
+            [
+              "title",
+              "Open-source software"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "open-source"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " community."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-5"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "History"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Obsidian was created by Shida Li and Erica Xu, who previously developed the outliner application "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Dynalist"
+            ],
+            [
+              "title",
+              "Dynalist"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Dynalist"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-6"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " The first public version was released in March 2020 as a desktop application for "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Windows"
+            ],
+            [
+              "title",
+              "Windows"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Windows"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/MacOS"
+            ],
+            [
+              "title",
+              "MacOS"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "macOS"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Linux"
+            ],
+            [
+              "title",
+              "Linux"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Linux"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-7"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " The application quickly gained a following among users interested in the "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Zettelkasten"
+            ],
+            [
+              "title",
+              "Zettelkasten"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Zettelkasten"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " method and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Personal_knowledge_management"
+            ],
+            [
+              "title",
+              "Personal knowledge management"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "personal knowledge management"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " workflows."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-8"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Mobile versions for "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/IOS"
+            ],
+            [
+              "title",
+              "IOS"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "iOS"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Android_(operating_system)"
+            ],
+            [
+              "title",
+              "Android (operating system)"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Android"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " were released in 2021."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-9"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " In October 2022, the application reached version 1.0, which included a new default theme, improved tab support, and a redesigned settings interface."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-10"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Obsidian introduced "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Obsidian_Publish"
+            ],
+            [
+              "title",
+              "Obsidian Publish"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian Publish"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", a paid service for publishing notes as a website, and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Obsidian_Sync"
+            ],
+            [
+              "title",
+              "Obsidian Sync"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian Sync"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", an "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/End-to-end_encryption"
+            ],
+            [
+              "title",
+              "End-to-end encryption"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "end-to-end encrypted"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " synchronization service."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-11"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "11"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Features"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Obsidian stores all notes as plain-text "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Markdown"
+            ],
+            [
+              "title",
+              "Markdown"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Markdown"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " files in a local folder on the user's device, referred to as a \"vault\"."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-12"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " This approach gives users complete ownership of their data and allows notes to be opened with any text editor."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Linking and graph view"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A core feature of Obsidian is its support for "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Internal_link"
+            ],
+            [
+              "title",
+              "Internal link"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "internal links"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " between notes using a "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "[[wikilink]]"
+        },
+        {
+          "kind": "text",
+          "text": " syntax."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-13"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " These links create a network of connected notes that can be visualized through a built-in graph view."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-14"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "14"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Plugins"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Obsidian supports an extensive "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Plug-in_(computing)"
+            ],
+            [
+              "title",
+              "Plug-in (computing)"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "plugin"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " system that allows third-party developers to extend the application's functionality."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-15"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " As of 2024, the community plugin repository contains over 1,500 plugins."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-16"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "16"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Reception"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Obsidian has received generally favorable reviews from technology publications. "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/The_Verge"
+                ],
+                [
+                  "title",
+                  "The Verge"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "The Verge"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " praised the application for its flexibility and local-first approach, noting that \"Obsidian is a powerful note-taking app that gives you full control of your data.\""
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/PC_Magazine"
+                ],
+                [
+                  "title",
+                  "PC Magazine"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "PC Magazine"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " awarded it an Editors' Choice designation, highlighting its linking capabilities and customizability, though noting a steep learning curve for new users."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The application has been compared to other note-taking tools such as "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Notion_(productivity_software)"
+            ],
+            [
+              "title",
+              "Notion (productivity software)"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Notion"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Roam_Research"
+            ],
+            [
+              "title",
+              "Roam Research"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Roam Research"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Logseq"
+            ],
+            [
+              "title",
+              "Logseq"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Logseq"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Commentators have noted that Obsidian differentiates itself through its local-first storage model and emphasis on user data ownership."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-17"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "17"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " However, critics have pointed out that the "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Proprietary_software"
+            ],
+            [
+              "title",
+              "Proprietary software"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "proprietary"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " nature of the application itself limits user freedom compared to fully "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://wikipedia/wiki/Open-source_software"
+            ],
+            [
+              "title",
+              "Open-source software"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "open-source"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " alternatives."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-18"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "18"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "See also"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/Comparison_of_note-taking_software"
+                ],
+                [
+                  "title",
+                  "Comparison of note-taking software"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Comparison of note-taking software"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/Personal_knowledge_management"
+                ],
+                [
+                  "title",
+                  "Personal knowledge management"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Personal knowledge management"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/Zettelkasten"
+                ],
+                [
+                  "title",
+                  "Zettelkasten"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Zettelkasten"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/Roam_Research"
+                ],
+                [
+                  "title",
+                  "Roam Research"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Roam Research"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/Logseq"
+                ],
+                [
+                  "title",
+                  "Logseq"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Logseq"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "References"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "External links"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://obsidian.md/"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Official website"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://github.com/obsidianmd"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Obsidian on GitHub"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://forum.obsidian.md/"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Obsidian Community Forum"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "19"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://obsidian.md/changelog/2024-01-15-desktop-v1.5.8/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Obsidian 1.5.8\""
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". January 15, 2024. Retrieved February 10, 2024."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-1"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Brandom, Russell (September 12, 2023). "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.theverge.com/2023/09/12/obsidian-review"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Obsidian review: a powerful note-taking app\""
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/The_Verge"
+                ],
+                [
+                  "title",
+                  "The Verge"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "The Verge"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Retrieved January 5, 2024."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-2"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Duffy, Jill (March 8, 2023). "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.pcmag.com/reviews/obsidian"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Obsidian Review\""
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/PC_Magazine"
+                ],
+                [
+                  "title",
+                  "PC Magazine"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "PC Magazine"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Retrieved January 5, 2024."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-3"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://obsidian.md/pricing"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Pricing\""
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Retrieved January 5, 2024."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-4"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Cunningham, Andrew (August 15, 2022). "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://arstechnica.com/information-technology/2022/08/obsidian-review/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Obsidian is the Markdown note-taking app that could replace Evernote\""
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/Ars_Technica"
+                ],
+                [
+                  "title",
+                  "Ars Technica"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Ars Technica"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Retrieved January 5, 2024."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-5"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://obsidian.md/plugins"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Community plugins\""
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Retrieved January 5, 2024."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-6"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Mehta, Ivan (April 5, 2023). "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://techcrunch.com/2023/04/05/obsidian-note-taking/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"How Obsidian built a note-taking app used by millions\""
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/TechCrunch"
+                ],
+                [
+                  "title",
+                  "TechCrunch"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "TechCrunch"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Retrieved January 5, 2024."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-7"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "7"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://obsidian.md/blog/obsidian-launch/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Introducing Obsidian\""
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian Blog"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". March 2020. Retrieved January 5, 2024."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-8"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "8"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Tietze, Christian (June 22, 2021). "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://zettelkasten.de/posts/obsidian-review/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Obsidian as a Zettelkasten tool\""
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Zettelkasten.de"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Retrieved January 5, 2024."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-9"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "9"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://obsidian.md/blog/mobile-launch/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Obsidian Mobile is here\""
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian Blog"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". July 12, 2021. Retrieved January 5, 2024."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-10"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "10"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://obsidian.md/blog/1-0/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Obsidian 1.0\""
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian Blog"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". October 13, 2022. Retrieved January 5, 2024."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-11"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "11"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://obsidian.md/sync"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Obsidian Sync\""
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Retrieved January 5, 2024."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-12"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "12"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://help.obsidian.md/Getting+started/Create+a+vault"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Create a vault\""
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian Help"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Retrieved January 5, 2024."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-13"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "13"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://help.obsidian.md/Linking+notes+and+files/Internal+links"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Internal links\""
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian Help"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Retrieved January 5, 2024."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-14"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "14"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://help.obsidian.md/Plugins/Graph+view"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Graph view\""
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian Help"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Retrieved January 5, 2024."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-15"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "15"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Build a plugin\""
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Obsidian Developer Docs"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Retrieved January 5, 2024."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-16"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "16"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Morrison, Sara (May 18, 2023). "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.vox.com/technology/2023/05/18/obsidian-plugins-ecosystem"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Inside Obsidian's thriving plugin ecosystem\""
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/Vox_(website)"
+                ],
+                [
+                  "title",
+                  "Vox (website)"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Vox"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Retrieved January 5, 2024."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-17"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "17"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Patel, Nilay (November 2, 2023). "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.theverge.com/2023/11/02/note-taking-apps-comparison"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Obsidian vs Notion vs Roam: which note-taking app is best?\""
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/The_Verge"
+                ],
+                [
+                  "title",
+                  "The Verge"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "The Verge"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Retrieved January 5, 2024."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-18"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "18"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Hoffman, Chris (December 1, 2023). "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.howtogeek.com/obsidian-open-source/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Is Obsidian really open source?\""
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://wikipedia/wiki/How-To_Geek"
+                ],
+                [
+                  "title",
+                  "How-To Geek"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "How-To Geek"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Retrieved January 5, 2024."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Wikipedia",
+    "title": "Obsidian (software)",
+    "description": "",
+    "domain": "wikipedia",
+    "favicon": "/static/favicon/wikipedia.ico",
+    "image": "",
+    "language": "en",
+    "published": "2024-01-15T00:00:00+00:00",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 715,
+  "extractorType": null
+}

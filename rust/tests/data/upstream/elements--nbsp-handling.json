@@ -1,0 +1,20 @@
+{
+  "id": "elements--nbsp-handling",
+  "url": "https://nbsp-handling",
+  "inputHtml": "<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Non-breaking space test</title>\n</head>\n<body>\n<article>\n<p>The brief&nbsp;walk&nbsp;home was pleasant. I passed along&nbsp;a&nbsp;pavement full of discarded&nbsp;sweet wrappers and broken&nbsp;toys.</p>\n<p>Multiple&nbsp;&nbsp;&nbsp;nbsps should collapse. Single ones between&nbsp;words should stay.</p>\n</article>\n</body>\n</html>\n",
+  "inputSha256": "845688cb97ecd7f0d6a41071973e1636dcd30147ffa75d65bb5b5ed1f0325ff4",
+  "upstreamFixture": "tests/fixtures/elements--nbsp-handling.html",
+  "markdownGoldenSha256": "b75bbb39824c0971b5d9ad8ca952755e140c96a225e00e8406d70c164a8de61f",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article> <p>The brief walk home was pleasant. I passed along a pavement full of discarded sweet wrappers and broken toys.</p> <p>Multiple nbsps should collapse. Single ones between words should stay.</p> </article>",
+    "contentMarkdown": "The brief walk home was pleasant. I passed along a pavement full of discarded sweet wrappers and broken toys.\n\nMultiple nbsps should collapse. Single ones between words should stay.",
+    "title": "Non-breaking space test",
+    "author": "",
+    "site": "nbsp-handling",
+    "published": "",
+    "wordCount": 29,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

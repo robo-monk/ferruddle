@@ -1,0 +1,730 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Why CPU monitoring is important?"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "I work at "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "http://voodoo.io/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Voodoo"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", a French company that creates mobile video games. We have a lot of challenges with performance, availability, and scalability because of the insane amount of traffic our infrastructure supports (billions of events/requests per day). In this setting, every metric is important and gives us a lot of information about the state of our system."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "When working with Node.js one of the most critical resources to monitor is the CPU. Most of the time, when working on a low traffic API or project we don't realize how many simple lines of code can have a huge impact on CPU. On the other hand, when traffic increases, a simple mistake can cost dearly."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For memory, constant monitoring is the best practice to track the worst developer nightmare a.k.a memory leak."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "src",
+          "https://miro.medium.com/max/60/1*5o3M5niyi911waUrKWVZ0Q.png?q=20"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Memory leak in action"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Stay focused on the CPU!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "src",
+          "https://miro.medium.com/max/60/1*8uOdeOfnUzTaFIY1r7oAMg.png?q=20"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Basic CPU monitoring"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "CPU profiling: what's the difference with CPU monitoring?"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Basically, for Node.js, CPU profiling is nothing more than collecting data about functions which are CPU consuming."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Add arguments to Node.js"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Node.js provides a way to collect data about CPU with two command lines."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "node --prof app.js"
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "src",
+          "https://miro.medium.com/max/60/1*e7gjTlzi55udTXbbPeEs2A.png?q=20"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Output of — prof"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "It needs to restart the application to launch a CPU profiling"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "It is NOT suited for a production environment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "CPU profiling before optimization"
+        ],
+        [
+          "src",
+          "https://miro.medium.com/max/60/1*CANkRN_yzl9tfrGd2F41wQ.png?q=20"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "CPU profiling before optimization"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "How can we identify an issue?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A CPU profiling should be read like this: The wider is the block the more it consumes CPU. So we are looking for the widest blocks."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "CPU profiling after optimization"
+        ],
+        [
+          "src",
+          "https://miro.medium.com/max/60/1*EO-pr4RolgcAOj_Uk1rpDA.png?q=20"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "CPU profiling after optimization"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "What do we observe? Blocks are a lot smaller! It means that functions consume less CPU individually."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Conclusion"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "CPU profiling is a must-have for every Node.js application running on production."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Why CPU monitoring is important?"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "I work at "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "http://voodoo.io/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Voodoo"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", a French company that creates mobile video games. We have a lot of challenges with performance, availability, and scalability because of the insane amount of traffic our infrastructure supports (billions of events/requests per day). In this setting, every metric is important and gives us a lot of information about the state of our system."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "When working with Node.js one of the most critical resources to monitor is the CPU. Most of the time, when working on a low traffic API or project we don't realize how many simple lines of code can have a huge impact on CPU. On the other hand, when traffic increases, a simple mistake can cost dearly."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For memory, constant monitoring is the best practice to track the worst developer nightmare a.k.a memory leak."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          ""
+        ],
+        [
+          "src",
+          "https://miro.medium.com/max/60/1*5o3M5niyi911waUrKWVZ0Q.png?q=20"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Memory leak in action"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Stay focused on the CPU!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          ""
+        ],
+        [
+          "src",
+          "https://miro.medium.com/max/60/1*8uOdeOfnUzTaFIY1r7oAMg.png?q=20"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Basic CPU monitoring"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "CPU profiling: what's the difference with CPU monitoring?"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Basically, for Node.js, CPU profiling is nothing more than collecting data about functions which are CPU consuming."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Add arguments to Node.js"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Node.js provides a way to collect data about CPU with two command lines."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "node --prof app.js"
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          ""
+        ],
+        [
+          "src",
+          "https://miro.medium.com/max/60/1*e7gjTlzi55udTXbbPeEs2A.png?q=20"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Output of — prof"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "It needs to restart the application to launch a CPU profiling"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "It is NOT suited for a production environment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "CPU profiling before optimization"
+        ],
+        [
+          "src",
+          "https://miro.medium.com/max/60/1*CANkRN_yzl9tfrGd2F41wQ.png?q=20"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "CPU profiling before optimization"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "How can we identify an issue?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A CPU profiling should be read like this: The wider is the block the more it consumes CPU. So we are looking for the widest blocks."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "CPU profiling after optimization"
+        ],
+        [
+          "src",
+          "https://miro.medium.com/max/60/1*EO-pr4RolgcAOj_Uk1rpDA.png?q=20"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "CPU profiling after optimization"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "What do we observe? Blocks are a lot smaller! It means that functions consume less CPU individually."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Conclusion"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "CPU profiling is a must-have for every Node.js application running on production."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Node.js and CPU profiling on production (in real-time without downtime)",
+        "author": {
+          "@type": "Person",
+          "name": "Vincent Vallet"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Voodoo Engineering"
+        },
+        "datePublished": "2019-10-18T17:23:34.816Z"
+      }
+    ],
+    "site": "Voodoo Engineering",
+    "title": "Node.js and CPU profiling on production (in real-time without downtime)",
+    "description": "How to run a CPU profiling with Node.js on your production in real-time and without interruption of service.",
+    "domain": "lazy-image",
+    "favicon": "https://lazy-image/favicon.ico",
+    "image": "https://miro.medium.com/max/1200/1*EO-pr4RolgcAOj_Uk1rpDA.png",
+    "language": "en",
+    "published": "2019-10-18T17:23:34.816Z",
+    "author": "Vincent Vallet"
+  },
+  "warnings": [],
+  "wordCount": 287,
+  "extractorType": null
+}

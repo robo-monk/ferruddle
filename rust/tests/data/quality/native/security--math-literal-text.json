@@ -1,0 +1,110 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This example contains a formula with text whose spaces are significant."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "math",
+      "attributes": [
+        [
+          "data-latex",
+          "\\texttt{<div>}"
+        ],
+        [
+          "display",
+          "block"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "text",
+          "text": "<div>"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Preserve the original formula as literal source when escaping would change its text."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This example contains a formula with text whose spaces are significant."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "math",
+      "attributes": [
+        [
+          "data-latex",
+          "\\texttt{<div>}"
+        ],
+        [
+          "display",
+          "block"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "text",
+          "text": "<div>"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Preserve the original formula as literal source when escaping would change its text."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "example.com",
+    "title": "Literal text in equations",
+    "description": "",
+    "domain": "example.com",
+    "favicon": "https://example.com/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [
+    {
+      "code": "math_not_supported",
+      "message": "Math support is not yet included."
+    }
+  ],
+  "wordCount": 25,
+  "extractorType": null
+}

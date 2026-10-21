@@ -1,0 +1,145 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This post shows how to use the sample API. Here is the code:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "sh",
+      "text": "echo hello"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is a longer example with multiple lines:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "cpp",
+      "text": "#include <iostream>\n\nint main() {\n  std::cout << \"hello\";\n  return 0;\n}"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "And a plain text block:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "foo bar\nbaz qux"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "That is all for this post."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This post shows how to use the sample API. Here is the code:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "sh",
+      "text": "echo hello"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is a longer example with multiple lines:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "cpp",
+      "text": "#include <iostream>\n\nint main() {\n  std::cout << \"hello\";\n  return 0;\n}"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "And a plain text block:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "foo bar\nbaz qux"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "That is all for this post."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "code-blocks--hexo-br",
+    "title": "Sample Technical Post",
+    "description": "",
+    "domain": "code-blocks--hexo-br",
+    "favicon": "https://code-blocks--hexo-br/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 49,
+  "extractorType": null
+}

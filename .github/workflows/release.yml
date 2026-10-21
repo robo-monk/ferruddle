@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - "*"
+      - "!rust-v*"
 
 permissions:
   contents: write

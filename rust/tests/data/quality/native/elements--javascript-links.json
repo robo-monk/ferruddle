@@ -1,0 +1,321 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This has a simple js link in a sentence."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is a link with onclick and a link with alert that should both be unwrapped."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "bold js link"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " should keep its inner HTML."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Normal links like "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.com/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Example"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.com/page"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "another page"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " should stay as links."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Mixed: "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.com/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "real link"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", then js link, then "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.com/other"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "another real link"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This has a simple js link in a sentence."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is a link with onclick and a link with alert that should both be unwrapped."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "bold js link"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " should keep its inner HTML."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Normal links like "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.com/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Example"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.com/page"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "another page"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " should stay as links."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Mixed: "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.com/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "real link"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", then js link, then "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.com/other"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "another real link"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "javascript-links",
+    "title": "JavaScript Links Test",
+    "description": "",
+    "domain": "javascript-links",
+    "favicon": "https://javascript-links/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 55,
+  "extractorType": null
+}

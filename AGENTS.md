@@ -39,3 +39,10 @@ Changes must work across these environments:
 
 - UMD bundles use webpack `export: 'default'`; expose named exports as static properties on the default class (see `src/index.full.ts`).
 - `getElementsByTagName` returns live HTMLCollections. Use `Array.from()` before mutating the DOM.
+
+## Rust port
+
+The native library lives in `rust/`. Read [rust/AGENTS.md](rust/AGENTS.md) before
+changing it. Its human-facing entry point is [rust/README.md](rust/README.md).
+Detailed API, scope, quality, benchmark, contributor and release information is
+indexed in [rust/docs/README.md](rust/docs/README.md).

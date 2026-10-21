@@ -1,0 +1,20 @@
+{
+  "id": "elements--empty-table",
+  "url": "https://empty-table",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Empty table test</title>\n</head>\n<body>\n  <article>\n    <table class=\"progress-bar\">\n      <tr>\n        <td style=\"width: 10%; background: green;\"></td>\n        <td style=\"width: 80%; background: yellow;\"></td>\n        <td style=\"width: 10%; background: red;\"></td>\n      </tr>\n    </table>\n    <h1>Article Title</h1>\n    <p>This is the article content. It has enough words to be considered real content by the scoring algorithm. The quick brown fox jumps over the lazy dog. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\n  </article>\n</body>\n</html>\n",
+  "inputSha256": "ec31e06484a7006259fd617210d90fd41ab8b5c4297c5c9329d584399ff3e37d",
+  "upstreamFixture": "tests/fixtures/elements--empty-table.html",
+  "markdownGoldenSha256": "2d2e8dfc3fe4695fff1cef34d3180c155a2b10a065ea4755ce8a501982d7a1fe",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <h2>Article Title</h2> <p>This is the article content. It has enough words to be considered real content by the scoring algorithm. The quick brown fox jumps over the lazy dog. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> </article>",
+    "contentMarkdown": "## Article Title\n\nThis is the article content. It has enough words to be considered real content by the scoring algorithm. The quick brown fox jumps over the lazy dog. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Empty table test",
+    "author": "",
+    "site": "empty-table",
+    "published": "",
+    "wordCount": 48,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

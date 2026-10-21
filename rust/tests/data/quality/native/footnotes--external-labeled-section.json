@@ -1,0 +1,494 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This release includes several improvements to image processing."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Higher resolution"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ". The system now processes images at up to 4096 pixels, more than three times the previous limit."
+            },
+            {
+              "kind": "anchor",
+              "id": "fnref:1"
+            },
+            {
+              "kind": "element",
+              "name": "sup",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "#fn:1"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Better accuracy"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ". Internal testing showed significant improvements in accuracy."
+            },
+            {
+              "kind": "anchor",
+              "id": "fnref:2"
+            },
+            {
+              "kind": "element",
+              "name": "sup",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "#fn:2"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Users can start using these features immediately."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "anchor",
+          "id": "fn:1"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "This is a "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://example.com/docs/vision"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "configuration change"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " rather than an API parameter, so images will be processed at higher fidelity automatically."
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:1"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "ul",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "li",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Benchmark A: scores reflect revised grading methodology."
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "li",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Benchmark B: memorization screens flag a subset of problems."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:2"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Based on internal evaluations using standardized test harnesses."
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:2"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This release includes several improvements to image processing."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Higher resolution"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ". The system now processes images at up to 4096 pixels, more than three times the previous limit."
+            },
+            {
+              "kind": "element",
+              "name": "sup",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "#note-1"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Better accuracy"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ". Internal testing showed significant improvements in accuracy."
+            },
+            {
+              "kind": "element",
+              "name": "sup",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "#note-2"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Users can start using these features immediately."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-1"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is a "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.com/docs/vision"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "configuration change"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " rather than an API parameter, so images will be processed at higher fidelity automatically."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Benchmark A: scores reflect revised grading methodology."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Benchmark B: memorization screens flag a subset of problems."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-2"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Based on internal evaluations using standardized test harnesses."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "external-labeled-section",
+    "title": "Product Update",
+    "description": "",
+    "domain": "external-labeled-section",
+    "favicon": "https://external-labeled-section/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 86,
+  "extractorType": null
+}

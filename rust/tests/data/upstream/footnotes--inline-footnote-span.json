@@ -1,0 +1,20 @@
+{
+  "id": "footnotes--inline-footnote-span",
+  "url": "https://inline-footnote-span",
+  "inputHtml": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Article with Inline Footnotes</title>\n</head>\n<body>\n<div class=\"entry-content\">\n\n<p>The field has drifted far from its roots.<span title=\"You can pick any recent paper and have no idea what is going on.\" class=\"inline-footnote\" style=\"\">1<span class=\"footnoteContent\" style=\"display:none;\">You can pick any recent paper and have no idea what is going on.</span></span></p>\n\n<p>Philosophy is often viewed as a science, which leads to misalignment.<span title=\"The most common areas where this occurs are analytic and continental philosophy.\" class=\"inline-footnote\" style=\"\">2<span class=\"footnoteContent\" style=\"display:none;\">The most common areas where this occurs are <a href=\"https://en.wikipedia.org/wiki/Analytic_philosophy\" target=\"_blank\" rel=\"noopener noreferrer\">analytic philosophy</a> and <a href=\"https://en.wikipedia.org/wiki/Continental_philosophy\" target=\"_blank\" rel=\"noopener noreferrer\">continental philosophy</a>.</span></span></p>\n\n<p>In technical terms, facts and values are orthogonal.<span title=\"Orthogonal means they run independent of one another.\" class=\"inline-footnote\" style=\"\">3<span class=\"footnoteContent\" style=\"display:none;\">Orthogonal means they run independent of one another.</span></span></p>\n\n</div>\n</body>\n</html>\n",
+  "inputSha256": "9dbf3dbb41e85d0a4ee585ef19b022169a7d75b154538baf644c15ec5e11bfc8",
+  "upstreamFixture": "tests/fixtures/footnotes--inline-footnote-span.html",
+  "markdownGoldenSha256": "3ff0a99eb76e3350922912d4cd5feff0268afbc76680c2963567e7562cc7b5c9",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<div> <p>The field has drifted far from its roots.<sup id=\"fnref:1\"><a href=\"#fn:1\">1</a></sup></p> <p>Philosophy is often viewed as a science, which leads to misalignment.<sup id=\"fnref:2\"><a href=\"#fn:2\">2</a></sup></p> <p>In technical terms, facts and values are orthogonal.<sup id=\"fnref:3\"><a href=\"#fn:3\">3</a></sup></p> <div id=\"footnotes\"><ol><li id=\"fn:1\"><p>You can pick any recent paper and have no idea what is going on.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:1\">↩</a></p></li> <li id=\"fn:2\"><p>The most common areas where this occurs are <a href=\"https://en.wikipedia.org/wiki/Analytic_philosophy\">analytic philosophy</a> and <a href=\"https://en.wikipedia.org/wiki/Continental_philosophy\">continental philosophy</a>.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:2\">↩</a></p></li> <li id=\"fn:3\"><p>Orthogonal means they run independent of one another.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:3\">↩</a></p></li></ol></div></div>",
+    "contentMarkdown": "The field has drifted far from its roots.[^1]\n\nPhilosophy is often viewed as a science, which leads to misalignment.[^2]\n\nIn technical terms, facts and values are orthogonal.[^3]\n\n[^1]: You can pick any recent paper and have no idea what is going on.\n\n[^2]: The most common areas where this occurs are [analytic philosophy](https://en.wikipedia.org/wiki/Analytic_philosophy) and [continental philosophy](https://en.wikipedia.org/wiki/Continental_philosophy).\n\n[^3]: Orthogonal means they run independent of one another.",
+    "title": "Article with Inline Footnotes",
+    "author": "",
+    "site": "inline-footnote-span",
+    "published": "",
+    "wordCount": 69,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

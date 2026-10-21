@@ -1,0 +1,1077 @@
+{
+  "status": "review experiment only; not applied to runtime source",
+  "model": "claude-opus-5-5",
+  "effort": "xhigh",
+  "baselineSummary": "rust/benchmarks/2026-10-20/summary.json",
+  "sourceHashMismatches": [],
+  "referenceAndHarnessHashMismatches": [],
+  "outputComparison": {
+    "cases": 226,
+    "byteIdentical": true,
+    "includes": [
+      "content HTML",
+      "content Markdown",
+      "metadata",
+      "warnings",
+      "debug content",
+      "debug selector and removals"
+    ],
+    "outputs": [
+      {
+        "file": "author-contact-block.json",
+        "sha256": "bf1270f752e5cfcd8a32f022d18eb961bc2458149d65311cd8091f197554a36f"
+      },
+      {
+        "file": "author-share-widget.json",
+        "sha256": "1a21276d41c9d214a2454d703bbf65c3b45a71d75ee7266bbc4ef5b0676f23b2"
+      },
+      {
+        "file": "callouts--obsidian-publish-callouts.json",
+        "sha256": "a6dd44f3e1e0d89a87c28a593b17ef7d24c4b09d366d04d73401ff05af4c2f6a"
+      },
+      {
+        "file": "code-blocks--chroma-linenums.json",
+        "sha256": "79cbb7afac43a9110f926165c42b870265af5cf03d67f110e4d79c018357f946"
+      },
+      {
+        "file": "code-blocks--hexo-br.json",
+        "sha256": "17943fa4804a1d475d2714ed362394a0136db105b107777f619369c9db2ce1a6"
+      },
+      {
+        "file": "codeblocks--chatgpt-codemirror.json",
+        "sha256": "c119933d65f60a10cc74755db0c7cfafbe32cc7b073ac979442efcaa7eb9d407"
+      },
+      {
+        "file": "codeblocks--chroma-inline-linenums.json",
+        "sha256": "fb06503f7e6fa676d1ae4a42746a8997d0ea52635b4fde97e49c1c533591e010"
+      },
+      {
+        "file": "codeblocks--chroma-line-spans.json",
+        "sha256": "8b4ebebfb8dab53879e55ac7bba58b80787ac7a853a07f98eee4e4a8e7aca85a"
+      },
+      {
+        "file": "codeblocks--code-pre-nesting.json",
+        "sha256": "13ebf4e8641cc19ff3bb65509f34c3bf5496fef71cd340ebe15e50118677bc0d"
+      },
+      {
+        "file": "codeblocks--flex-row-gutter.json",
+        "sha256": "3d47a0cecf0f40c98a48b854dfe823a90f1c76bafb350a570e3504fb0ad48fd2"
+      },
+      {
+        "file": "codeblocks--hljs-header.json",
+        "sha256": "7869520fa7b5732c1d83b83fb44dc0f5420a8c6efa34b8046e2a072a4fdd20b0"
+      },
+      {
+        "file": "codeblocks--mintlify.json",
+        "sha256": "a45188940a783eb28fa9526b7768dd461d5db7eef3c93d32c31b6f3e8da089b2"
+      },
+      {
+        "file": "codeblocks--pygments-lineno.json",
+        "sha256": "62e210eddf63f444ab08215aeb4260e6dfb8bee2949a751cf53bac97a6b3c69c"
+      },
+      {
+        "file": "codeblocks--react-syntax-highlighter-linenums.json",
+        "sha256": "71b2a29e6e7405bfff6692cfafa60568de670f49183cccc2a3ef500b567cd015"
+      },
+      {
+        "file": "codeblocks--rehype-pretty-code.json",
+        "sha256": "84babd05d3721faa9507f1a36785f149cf677e74d874c63b89c0b7c0cf4e8059"
+      },
+      {
+        "file": "codeblocks--rehype-pretty-copy.json",
+        "sha256": "b2e7782f43b22ca22678d8061556553f013af728346587a2bbc21360895eb1ef"
+      },
+      {
+        "file": "codeblocks--rockthejvm.com-articles-kotlin-101-type-classes.json",
+        "sha256": "aa3c695733c2a308117f2cfe46254e62be3118410cbcf0f6dfc3cded61a0c970"
+      },
+      {
+        "file": "codeblocks--rouge-linenums.json",
+        "sha256": "d9ab9ee6df3c30757a634785b4e526e5894c8be74466e94921b13040fe7384c1"
+      },
+      {
+        "file": "codeblocks--stripe.json",
+        "sha256": "873a68e0e11a9ae12e4d2b97b731e2f98d0972562b60581aa09da44acfebc063"
+      },
+      {
+        "file": "comments--mastodon.social-@user-12345678.json",
+        "sha256": "ae38e35f59fe5122f4ecf0c5b9b460ad6d66918f727f4e211210d527550fa309"
+      },
+      {
+        "file": "comments--news.ycombinator.com-item-id=12345678.json",
+        "sha256": "173d7aa0f3967a34a3928f3965cf26dc810ab424b8d6746b2c13294c6c07507c"
+      },
+      {
+        "file": "comments--old.reddit.com-r-test-comments-abc123-test_post.json",
+        "sha256": "864d360650f3d687e9cb1cf743828dd20bfd2123eeb4838e0c2a12adeec66f6c"
+      },
+      {
+        "file": "content-patterns--card-grid-stripped-headings.json",
+        "sha256": "546290f19eee1812d207c78684ead6de63454e523068a888213a8d8056a7445b"
+      },
+      {
+        "file": "content-patterns--code-block-boilerplate-and-trailing-section.json",
+        "sha256": "dff323532e45f97f8e563c5c43e999d08910e58611e7aba68b6f30d24f45d7ab"
+      },
+      {
+        "file": "content-patterns--content-list-with-internal-links.json",
+        "sha256": "6b350c3469b81c986c7da3469379a7c2f441fdebc267dd7bbe703d7ebc726bc7"
+      },
+      {
+        "file": "content-patterns--heading-introduced-list.json",
+        "sha256": "09a4afee96fd59a6675994a4d8a11dd1d8323aff9b6fb07f834635f4dcbfe580"
+      },
+      {
+        "file": "content-patterns--iso-date-and-read-time.json",
+        "sha256": "cfaefda7e99e6a1e52383de7be09cb849072a1381855246b4dfceff1d02be4f5"
+      },
+      {
+        "file": "content-patterns--leading-breadcrumb.json",
+        "sha256": "884e1b9d93157fcb96010964c2c8bb1309ddddb94ca182a64339806da1cd0fe9"
+      },
+      {
+        "file": "content-patterns--live-blog-metadata.json",
+        "sha256": "2b6325c195dd6ca5d8804a41610d836b2632aeec286c5fd20c0ef12210f04b2e"
+      },
+      {
+        "file": "content-patterns--multi-image-row-midarticle.json",
+        "sha256": "89978775f22defbf4a190a946dcf332caf142f91f2ceef03cce736bf56b21d1c"
+      },
+      {
+        "file": "content-patterns--non-semantic-hero-header.json",
+        "sha256": "5b6fbbd226e255b06c4699ab6cfe8a85099990aa84837c8cc8c45dcf5803be21"
+      },
+      {
+        "file": "content-patterns--social-counter-link.json",
+        "sha256": "4a7ae8b2e721f84012fe0f8aaef1e3b7d251b55ada1909134b0073dae2d3c486"
+      },
+      {
+        "file": "content-patterns--social-engagement-counter.json",
+        "sha256": "64e707edd3ab6508f93ed8abde0c32bee78b335a463dcd71a405554df7cb1948"
+      },
+      {
+        "file": "content-patterns--socket-dev-blog.json",
+        "sha256": "382b719cbbe82741d17b89b5af550e00c3528639f3b236f0fddef34adcb98088"
+      },
+      {
+        "file": "content-patterns--table-of-contents.json",
+        "sha256": "cdcdeba72e75222d3738f61eb992d081db2aeac2516610662d4527f38854b34f"
+      },
+      {
+        "file": "content-patterns--trailing-related-posts.json",
+        "sha256": "959a7de539f3b0896a3d9fdf3add0723e5cdec1073b0c94eed829bd124808ce3"
+      },
+      {
+        "file": "content-patterns--trailing-subscribe-after-footnotes.json",
+        "sha256": "17b3e7d869e01e2ab1d8a8fcc286c452f4429378eb3139c3a60d235ab5be9e6a"
+      },
+      {
+        "file": "custom-elements--swiper-carousel.json",
+        "sha256": "952179e6cc67a5923511bdcdb2285cf6cd52b80a53c7a8d86ae4c80b485134a8"
+      },
+      {
+        "file": "elementor--archive-page.json",
+        "sha256": "c55add7282e76f62eb03b6f8dec844dec61a8519a3b15171be5608e3c5907ad0"
+      },
+      {
+        "file": "elements--base64-placeholder-removal.json",
+        "sha256": "3363a3e332ec5e0d58f147757ca55891763e9dfb3d808c6fdb59c6e7efda137c"
+      },
+      {
+        "file": "elements--bootstrap-alerts.json",
+        "sha256": "1ae83cc64101f457e930c0c7eeb3c0a364781d5c8724d4e6f8431b626ae3c521"
+      },
+      {
+        "file": "elements--br-between-blocks.json",
+        "sha256": "0432f9a17ecf19eafa4a29c60ad5ee05e936d568809b8f522236de13fd3beaf0"
+      },
+      {
+        "file": "elements--complex-tables.json",
+        "sha256": "4eda2bf17d7bc72652ad8eb66b27778626471df2190528b1d45dfe6b19399f21"
+      },
+      {
+        "file": "elements--data-table.json",
+        "sha256": "b4e7368ffc18fcd436b0632bb04d2946b3075cf1d50679c2390b5dee9004a691"
+      },
+      {
+        "file": "elements--embedded-videos.json",
+        "sha256": "e6e76f946032dccb86f82e03b7e9c1922c4e1a729b3ddcdeb6c36c567f5934ca"
+      },
+      {
+        "file": "elements--empty-p-br.json",
+        "sha256": "be71bde54ef72d88a8b1023d49e2701b2499fb27e04a5c77fbe1327322c91873"
+      },
+      {
+        "file": "elements--empty-table.json",
+        "sha256": "5400eff03aae85f9fa5ae4b31028b07529ac6d6914632dc13f60d2cb47858119"
+      },
+      {
+        "file": "elements--farsi-zwnj.json",
+        "sha256": "e2626b49ef73ca8960a17a3a5c0e687807489982585905500096287be0509d6b"
+      },
+      {
+        "file": "elements--figure-content-wrapper.json",
+        "sha256": "3eb331687b346a47ca496981b722989660b5c08085070d2fb35c6cd3adccc317"
+      },
+      {
+        "file": "elements--hugo-admonitions.json",
+        "sha256": "1d97134b4ac624a712b1cdf0150f3afbe074968e30f8d97b47cb000680b66c45"
+      },
+      {
+        "file": "elements--image-dedup.json",
+        "sha256": "851b37515897850e14c20e84555f6cca1640e109fd1741956051ba3d9fa64003"
+      },
+      {
+        "file": "elements--javascript-links.json",
+        "sha256": "5be8cd54539f2fdb9bd5b2e8f77ea78533dd791280932f6722a4cda3d6c8ffad"
+      },
+      {
+        "file": "elements--lazy-image.json",
+        "sha256": "277cf0673f432e69f18007f7e1b1023239ad75306d362cbf633e3692d3c1bc39"
+      },
+      {
+        "file": "elements--lightbox-image-dedup.json",
+        "sha256": "b9233f8930c62a56591deca85a87ee8d98484915f1cb8e6ceb7975a7b3143148"
+      },
+      {
+        "file": "elements--nbsp-handling.json",
+        "sha256": "6691624b6f227c205f713abb204409807438ef2d92fc4e9844a005464786faa0"
+      },
+      {
+        "file": "elements--srcset-normalization.json",
+        "sha256": "498a5821e480e03806dbf069b4e4b9080889a4ba8ceb0d350b8a7eb6069a2b0a"
+      },
+      {
+        "file": "elements--svg-placeholder-lazy-image.json",
+        "sha256": "fb0db862e7e42b341bf7ca935478153194ef42ed04c735546397c29059c9fb8d"
+      },
+      {
+        "file": "elements--whitespace-newlines.json",
+        "sha256": "b2e80d769c368723935242be3d09dc3be9f80ed0c844d8889695127c487e046f"
+      },
+      {
+        "file": "entry-point--js-article-content.json",
+        "sha256": "96f6b8dc43f418ce8e5abb22cee6d35c6161a990390e0beaa77d34e6321d4465"
+      },
+      {
+        "file": "extractor--bbcode-data.json",
+        "sha256": "eae8baa26df27e48c2c6ed66f8b8c3d07edb4f16e0b0e56bf79bc996673be8ae"
+      },
+      {
+        "file": "extractor--chatgpt-citations.json",
+        "sha256": "dec3cea4d93ecf1dc245ed2d3eaa5a53e725718d83cf5b133b1a806de5dbc9ca"
+      },
+      {
+        "file": "extractor--chatgpt-post-thought-content.json",
+        "sha256": "086410238f4432faa9ef84e168398e8c56bcf5b151aa2f44dce4705ec63cd82c"
+      },
+      {
+        "file": "eyebrow--linked-category.json",
+        "sha256": "4bc8a63c29f1b937abdda197989103b3ad0d647f06f6e52d6e7a48d6e7a1ca94"
+      },
+      {
+        "file": "eyebrow--paragraph-label.json",
+        "sha256": "bf86f8723d185cec53161147cc6b7f21653d57b5820e3b1c57ea3f256186b570"
+      },
+      {
+        "file": "eyebrow--spans-category.json",
+        "sha256": "14846753a9de5ca87bcd2a3f80b12462236f3a1bd9d724c1930799a4ef80d428"
+      },
+      {
+        "file": "eyebrow--wrapper-with-icon.json",
+        "sha256": "1dbced87606cec4e56e743dd978dc3501d5df6bd255d7c1a62003a209f344faf"
+      },
+      {
+        "file": "footnotes--aside-ol-start.json",
+        "sha256": "51d35a47c94272bfcec4c75da1a5bb2391fe35d1349155e135962c1d987ce396"
+      },
+      {
+        "file": "footnotes--bold-sup-trailing.json",
+        "sha256": "c5729eb2d23d89a31e545b9747b99dc36150694c28b13a9aa73defb319f9c3a8"
+      },
+      {
+        "file": "footnotes--br-separated-named-anchors.json",
+        "sha256": "7727f434278a6d496feca92ce0fb9bb3b901d3d33667792e1d92f364a9aa1598"
+      },
+      {
+        "file": "footnotes--child-anchor-id.json",
+        "sha256": "e2211c95581d16904c0bd6895f5acf66943fda43cdf0d2a5060571e1b726a9c3"
+      },
+      {
+        "file": "footnotes--easy-footnotes-wrapper.json",
+        "sha256": "f52a1301fc1a43fb1444885f4366bf1028f54aa991a6db565ea2a370c1c71b7c"
+      },
+      {
+        "file": "footnotes--external-labeled-section.json",
+        "sha256": "54a626bcbb1eb0a6845e05b3f9fa509d4f0edcd36bd86758b237a1379d1bcc28"
+      },
+      {
+        "file": "footnotes--google-docs-ftnt.json",
+        "sha256": "3c9fe654ced662d807c2921e1428eb5441cdc45a6709081e5c7e5a6ca0082391"
+      },
+      {
+        "file": "footnotes--heading-notes.json",
+        "sha256": "451f199ebe84f4a9265a71079cce4a3b534ac8d9efdf275239e916622b5c3e3b"
+      },
+      {
+        "file": "footnotes--hidden-aside-data-definition.json",
+        "sha256": "d1ec6fd5397bdb08877c23977a522d05466d56b7ae400bbf7bf952c80b7c2ce6"
+      },
+      {
+        "file": "footnotes--hidden-section.json",
+        "sha256": "a4fef52d49f999359714b68ac15e477e7db3cd6f4e46aa4d8576e891db4d69aa"
+      },
+      {
+        "file": "footnotes--hr-continuation.json",
+        "sha256": "78c8338781603b7d972024c2028fb39a1d4db093c6ad1757a49602f704665eee"
+      },
+      {
+        "file": "footnotes--hr-strong-numbered.json",
+        "sha256": "45beca4447dac3837054d1bdbb48900123a71910198c38355a2dd1bb09a1542d"
+      },
+      {
+        "file": "footnotes--hr-sup-numbered.json",
+        "sha256": "e7b6ed1a542c7bba891745ec5c1a72dd386b3eaf51dfef314de3c9f84e7e68db"
+      },
+      {
+        "file": "footnotes--inline-footnote-span.json",
+        "sha256": "59be734f8d15cb96e385583660b446c2a6e0df581fed9e0fe5903d6e6adfa466"
+      },
+      {
+        "file": "footnotes--labeled-section-ol.json",
+        "sha256": "7edefb781de37da18203fac71bdade996fe3f23abf586b6827c8dcd14d4e4837"
+      },
+      {
+        "file": "footnotes--maggieappleton.com-xanadu-patterns.json",
+        "sha256": "84ea0f1db972836f8c5053c70ec112fdd12a33024e1d3ec4da492d4c7c127179"
+      },
+      {
+        "file": "footnotes--named-anchor.json",
+        "sha256": "b43afc62cf4e260d1fde05c75a7ef3518f5ee78ab7546b37b9fe3dc837e1017e"
+      },
+      {
+        "file": "footnotes--nested-prose.json",
+        "sha256": "dccace7157e6177729b7a16be654f147691e4b0f13dfbe9a8cedffe8befc39f8"
+      },
+      {
+        "file": "footnotes--no-false-positive-equation-refs.json",
+        "sha256": "4e3f059db6e125b5bf597490ac116520ee65ed470da1933c732278871b52e368"
+      },
+      {
+        "file": "footnotes--numeric-anchor-id.json",
+        "sha256": "8b0d235d0a8e2d85a4541891a170c08030c6e3df890d85d97238dd5f4a9f61b5"
+      },
+      {
+        "file": "footnotes--orgmode-css-sidenotes.json",
+        "sha256": "08a401226021cdfbe59b5adf0a88c5a146fbdf709729a5b2e51be334e88a41bd"
+      },
+      {
+        "file": "footnotes--p-class-footnote.json",
+        "sha256": "b401370dc6fb8273a6965d3318b838b6d254d1d91538d5b00e502663daa04077"
+      },
+      {
+        "file": "footnotes--pulldown-cmark-footnote-definition.json",
+        "sha256": "09f77794cb617cf17c028ac081436a9552de49b071c9c7adab59095a43a5bd52"
+      },
+      {
+        "file": "footnotes--sidenote-inline-with-list.json",
+        "sha256": "cf489324c770043ecbd48b39aaf123bc3403ad69e677f2fd97dc5db8450d0de9"
+      },
+      {
+        "file": "footnotes--span-fnref-colon.json",
+        "sha256": "cba7a93730b6095627f387c305e8569522ad6aa8762bde7df842900ba1b7afe2"
+      },
+      {
+        "file": "footnotes--wikipedia-references.json",
+        "sha256": "11fc7a24bab0c04d3502f3b429974a0e0ff66e9b52240b94638c77e14e597d69"
+      },
+      {
+        "file": "footnotes--word-ftn-ftnref.json",
+        "sha256": "30aaf3b3f2b5616aba9a3562f6be9a2b142682dafe2deb78aeb1ec7f64432ede"
+      },
+      {
+        "file": "footnotes--wp-block-footnotes.json",
+        "sha256": "cba1532c17c70da25a2eb8b3fdacb5d23ce0005f786daf7da45dbd8dea574a21"
+      },
+      {
+        "file": "gated-content--cookie-consent.json",
+        "sha256": "a380af66ff2a10aac0882b40668b5ac5e7226bea8c7eac445c916c713fa3848a"
+      },
+      {
+        "file": "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes.json",
+        "sha256": "10d87e0919a8a1d2d5f856d57e6596c845441af7a77568d8b0ab09619b8bbdd9"
+      },
+      {
+        "file": "general--apnews-link-enhancement.json",
+        "sha256": "41e6856b61b34bbe2f383b18e4c0fb349eda3a27b053cc08fffa092d3381b352"
+      },
+      {
+        "file": "general--appendix-heading.json",
+        "sha256": "7193d1f0162ec73147f40595a6af280ff33f58bee5a716889d400cff082e9144"
+      },
+      {
+        "file": "general--back-nav-link.json",
+        "sha256": "ef43941b736d3fc24ed251088be5fbcd02da359b3feba31747e5031405a169c4"
+      },
+      {
+        "file": "general--cp4space-jordan-algebra.json",
+        "sha256": "caa1c6297923164d6342b00968978a534ab81fca916f72e417b3723891faf374"
+      },
+      {
+        "file": "general--daringfireball.net-2025-02-the_iphone_16e.json",
+        "sha256": "814bee914e3f0f0e2b97bbe8041b268786b1e52382a98d6f738bf8688756d2fb"
+      },
+      {
+        "file": "general--developer.mozilla.org-en-US-docs-Web-JavaScript-Reference-Global_Objects-Array.json",
+        "sha256": "a266d6f79ae8670ccd405c17ecd88f4954e2209aa7aca427aaa012a84d542444"
+      },
+      {
+        "file": "general--github.com-issue-56.json",
+        "sha256": "45b5bd52fec315abb0762131c76866eb00cd1e5bcbfda883f81c4b5d7e7a0510"
+      },
+      {
+        "file": "general--github.com-test-owner-test-repo-pull-42.json",
+        "sha256": "b29e2009feaf7c3f679e34f4643bd07cc77011287eb801a2408547a03ceb29f2"
+      },
+      {
+        "file": "general--inline-comments-and-link-lists.json",
+        "sha256": "65c94cbffaeb6c79d8f9415e60c31017386fc7e211d6fc7e2280f502baba9f64"
+      },
+      {
+        "file": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx.json",
+        "sha256": "26d8f5dcc11368885d3d549e7d90b5459394d46871f41d421f490ddbf5a1835c"
+      },
+      {
+        "file": "general--multi-article-portfolio.json",
+        "sha256": "1906d72c151985e24f5f62f831c8f5925294d3218bdfbeeb2e8db7a22e495274"
+      },
+      {
+        "file": "general--news.ycombinator.com-item-id=12345678.json",
+        "sha256": "1cdf38c42857707556d31b6bbe14b040e5abd3ade339de3883ddf0db04e2af6b"
+      },
+      {
+        "file": "general--obsidian-publish-cjk.json",
+        "sha256": "767d5ce7c04856a4c712b14e5af7747073d170b3229fc000525195fe4f21bfac"
+      },
+      {
+        "file": "general--obsidian.md-blog-verify-obsidian-sync-encryption.json",
+        "sha256": "d0d5a12454bffaa7d9e95454b540359c8fe365474cd9b7c74cdad13efc4939a1"
+      },
+      {
+        "file": "general--react-streaming-ssr.json",
+        "sha256": "3bc0dfeab5466a999653f065130938e1a9d7415b1ec5cda9074e4a8088ea886f"
+      },
+      {
+        "file": "general--scp-wiki.wikidot.com-scp-9935.json",
+        "sha256": "93b140f6aa635cede352b5ad322f39533734eb9496e3cba9b60af70842fa0c38"
+      },
+      {
+        "file": "general--stephango.com-buy-wisely.json",
+        "sha256": "2a5903512487dfab2bc811b6fa4c5dd4941ab4022e84c6ca8237cdbfe3a5d32d"
+      },
+      {
+        "file": "general--substack-app.json",
+        "sha256": "ea88a251316fbea0dddffbd5530e39e2bab436131531922903718e0fef04be47"
+      },
+      {
+        "file": "general--substack-custom-domain.json",
+        "sha256": "081514fc4cf576a030ac0124917a1455d04e74ecac48f7667ec496df3e616725"
+      },
+      {
+        "file": "general--substack-note-permalink.json",
+        "sha256": "adb4e6494b0009dc78b0d9291ff0c29cb0729b3777aab6b9a6b7b2488abfe042"
+      },
+      {
+        "file": "general--substack-note.json",
+        "sha256": "61cc63d1e0df51fb7b29e37562f18ec03926d37c83c09f230e98aaa0e878daf7"
+      },
+      {
+        "file": "general--svg-content-preservation.json",
+        "sha256": "80aed547a3e95ed80cd5849d4060bd5c38454d6843db2566aa677b00f9425635"
+      },
+      {
+        "file": "general--svg-external-css-fallback.json",
+        "sha256": "fbf71ac86307e540d1c88f38d54caf1f0b56adcf9b79ccf169158b51bcec095d"
+      },
+      {
+        "file": "general--tailwind-hidden-blog-index.json",
+        "sha256": "c08f031dcea5533ea9e47a446c8a5ec066927d6462b233169e1e55ab81467b15"
+      },
+      {
+        "file": "general--trailing-cta-newsletter.json",
+        "sha256": "09fde0581aff75bcbfa03b9968c0593114d80315b6bdbfa989427741858fa8c4"
+      },
+      {
+        "file": "general--wikipedia-ipa-pronunciation.json",
+        "sha256": "a300090d0babc5c05a74df43e9fd04bb7c58261b75b73021364619a3a70c30f7"
+      },
+      {
+        "file": "general--wikipedia.json",
+        "sha256": "4543c5b1ea5d8af1c5147e57cbf7cd3e0a0d6d58fd0ece93af69725441cc0bf0"
+      },
+      {
+        "file": "general--www.figma.com-blog-introducing-codex-to-figma.json",
+        "sha256": "af6737ab782aa906b1b3b937fcfb55192ad77231ccaecb8121a7df5a7063a69e"
+      },
+      {
+        "file": "general--x.com-article-2026-02-13.json",
+        "sha256": "5dcfb5bd2d0e9f5e97deb3cf088efeca69ccf7bc515bbec21c4b7d5058c995c6"
+      },
+      {
+        "file": "general--x.com-article.json",
+        "sha256": "91ae89f0daf0778a9a3a26a5ec0506c8dbec860b088c14c759e23f83aa2c0890"
+      },
+      {
+        "file": "gmail--mail.google.com-mail-u-0-thread.json",
+        "sha256": "1499f579793d20c2f9f205f74f09e39fe6ab777d976279344d7b8fad296e47a9"
+      },
+      {
+        "file": "headings--fragment-url-not-permalink.json",
+        "sha256": "909ad2d9a7d0756660cb85e0b91f28c3b607d3c7a10f2299bef6bccd4d06343e"
+      },
+      {
+        "file": "headings--permalink-title-match.json",
+        "sha256": "a12c9707b74d223e87ead9112c9f718845a97e73ee8398fcb02683fa829cc691"
+      },
+      {
+        "file": "headings--testid-article-header.json",
+        "sha256": "b65fcdaec28bba516430dbd26e20fae9861e315414c6535e9170a2028928c206"
+      },
+      {
+        "file": "hidden--nodes.json",
+        "sha256": "18752188dc4ceab264037ad1130964697952f1b55c9d08a6d7a96f04e0e7eeb2"
+      },
+      {
+        "file": "hidden--visibility.json",
+        "sha256": "cabbb9aed51f167b413a7606f47c03b6df7340981a46a16b3d0dfb86a6d3e55c"
+      },
+      {
+        "file": "issues--106-menu-id.json",
+        "sha256": "c89ed59a4c4e03f08cbd1019431b357588b047210484956168c1fab55c355ce0"
+      },
+      {
+        "file": "issues--114-leading-hr.json",
+        "sha256": "d4b554aab923463d34775d098925e3c6b605317fe4acf97d47f33443d2db956a"
+      },
+      {
+        "file": "issues--120-dhammatalks-footnotes.json",
+        "sha256": "44a834db7bae9c25f5d2bdba5ae7de4d615f2fdb3438bd83150e5193e2afd5de"
+      },
+      {
+        "file": "issues--131-category-links.json",
+        "sha256": "092c126f1f93a9da1b5d3f0b1323569d453084f94c593fce862e20b9add698af"
+      },
+      {
+        "file": "issues--132-hero-class.json",
+        "sha256": "286ca28cc1556364182f93847df958c7095ba54be76b457859bb163d723a36b0"
+      },
+      {
+        "file": "issues--136-time-element.json",
+        "sha256": "29c5a60ba1334bfdd1e97f2816cc8c616c0d6db4df1318ebda9ae06174f2e1b6"
+      },
+      {
+        "file": "issues--141-arxiv-equation-tables.json",
+        "sha256": "a7a5ebd816ebe16b75fbd8539acd56eac475e3e64cb33dd8312ad41491374529"
+      },
+      {
+        "file": "issues--142-arxiv-multi-citations.json",
+        "sha256": "8d331862d2aeeb969867153d45b7b9cab5f211d4b00d447ada08a24da7063baa"
+      },
+      {
+        "file": "issues--143-arxiv-cross-references.json",
+        "sha256": "73164f5e57c5fc4216e4bfd4b17694a6df164caba99558f31e75c3a1d865d0ed"
+      },
+      {
+        "file": "issues--144-arxiv-footnote-marks.json",
+        "sha256": "e3357e8450b706e7ba35656bde32c96fd3d226fa20e3d32f5d88f54f4f889bd9"
+      },
+      {
+        "file": "issues--159-lean-heading-permalink-emoji.json",
+        "sha256": "1ffb4104385cdccbb05d15381e0782ff7b0bce8caef273b974d2bf0b7475c04f"
+      },
+      {
+        "file": "issues--159-lean-verso-code-blocks.json",
+        "sha256": "3a0122c82660e58ba02fd8b80b4c0947c052a4d64167f51944d6dadc772abcce"
+      },
+      {
+        "file": "issues--159-lean-verso-empty-line-preserved.json",
+        "sha256": "223fcbb69763e22d7174757fe397fe5263b903f0158fb9a07712ef18443a3158"
+      },
+      {
+        "file": "issues--159-lean-verso-grouped-blocks.json",
+        "sha256": "fb218f888a6426342e560a69b3b7d0fc3231cfd3b904196ca99ad3bd79aed2c9"
+      },
+      {
+        "file": "issues--159-lean-verso-missing-section-gap.json",
+        "sha256": "68859631718eb7582fffaf9c84c3b1df132ac995b7378437992ff2abf63bc2fb"
+      },
+      {
+        "file": "issues--161-x-status-url-author.json",
+        "sha256": "d9dac687d0fef19b93d74ec0fb8f62820f7a5e84f62dcb671e238c7e3779ab05"
+      },
+      {
+        "file": "issues--162-aria-hidden-main-content.json",
+        "sha256": "87c157e32704e76cae17ad2178fdf6e5c8a481a872c94b0b9943c58b8e478f03"
+      },
+      {
+        "file": "issues--167-partial-selector-inside-code.json",
+        "sha256": "e8e6ddfa017d6231189d1a29b5014c6f2bfe79d0f08741aa463d0e2bc9edd5ae"
+      },
+      {
+        "file": "issues--168-links-inside-inline-code.json",
+        "sha256": "d709352f2042974a5343bf1f33f1985f494709637949d6fe8f897c2fb0443722"
+      },
+      {
+        "file": "issues--169-svg-classname-crash.json",
+        "sha256": "8f47dce7313b8599a22b70d751ca2d14bded583b62b9680c27764c316d77cab3"
+      },
+      {
+        "file": "issues--196-og-title-brand-name.json",
+        "sha256": "e58390c0764d3911994bbae8aab9d95804fd8087e8aec39863481e7d5a8151f7"
+      },
+      {
+        "file": "issues--217-writerside-docs.json",
+        "sha256": "f95c33f7d457bb4efd7e4ea75d1542f0cd7c4889440414fa669000c4aac0f830"
+      },
+      {
+        "file": "issues--218-footnote-wrapper-text-lost.json",
+        "sha256": "7225d2c7d137ceb2480b6bcbbe24c5c531e581440c5d8d6977d8420c11eae6d7"
+      },
+      {
+        "file": "issues--221-nextjs-noscript-images.json",
+        "sha256": "9c7d3a2f0fbb80b1654545adb73ddeb0653da75deb77d5fa4453cb6b27ea567d"
+      },
+      {
+        "file": "issues--227-noscript-lazy-images.json",
+        "sha256": "80742009608c0239bddf2007636a4ee5c744c3b71cb71015837c1cb276d5c649"
+      },
+      {
+        "file": "issues--232-dismiss-in-hidden-content.json",
+        "sha256": "e6c72e0b6e9574551e01b5b13de9548518a34f76a65117acc279f75778d1d670"
+      },
+      {
+        "file": "issues--254-empty-video.json",
+        "sha256": "2ffe337087a5bb69400244dae1e6513c3f9fc1af6e9015d008fcfbfb7791eb34"
+      },
+      {
+        "file": "issues--263-buttons-in-paragraphs.json",
+        "sha256": "f07af0eb667094ce7a2a24e062a65beff4ada7a42da8b43a7242fd179377f949"
+      },
+      {
+        "file": "issues--272-x-localized-conversation-timeline.json",
+        "sha256": "c3d8d70e82d1b0a5e95d6e714e06da248c4853c572654414a3b6af6cd16706eb"
+      },
+      {
+        "file": "issues--280-texinfo-footnotes.json",
+        "sha256": "41f12ac8dfb6b03d43d59cc68eec91eb1791f89949cd9aa1881d693a0b99012d"
+      },
+      {
+        "file": "issues--284-table-cell-header-scoring.json",
+        "sha256": "60680b9d6d0c97358f9ffb2c2e2d5ab925edff94c134cf36b2e69e4d1739a516"
+      },
+      {
+        "file": "issues--285-tag-like-title-escaping.json",
+        "sha256": "be7bd181a0222eb1fae3a7b40a8e483e9fdb085e35a244dcca38f2ef5e7eaf3c"
+      },
+      {
+        "file": "issues--286-generic-alt-image-dedup.json",
+        "sha256": "c5d50dd5cbcce88ccbbae3af064c06cc998c17eb91ac2b01b42fc3f86d2ff9f7"
+      },
+      {
+        "file": "issues--296-oreilly-noteref-footnotes.json",
+        "sha256": "45962cd27790b64b210d972baa60953a0d31d44ca4fd64fd33017890cc717e74"
+      },
+      {
+        "file": "issues--300-nested-layout-tables.json",
+        "sha256": "5f89008609b3fb3814fcbf479cedcaf1e64df36ec8575538fc5fc5c0c049f95f"
+      },
+      {
+        "file": "issues--361-escaped-id.json",
+        "sha256": "fdac232b6eac27dc8999c738e7a8d626d41a7fcacdea7de2f6c98d84febe9a19"
+      },
+      {
+        "file": "issues--361-shadow-selector-stability.json",
+        "sha256": "de429d6918cb9c4cdf95033dfb1032ef012bf5b6a9247adb9c4540ac80d1f166"
+      },
+      {
+        "file": "issues--361-special-class-selectors.json",
+        "sha256": "3556eb7e8c2acb3d94fc8aca9873b9a48890846d0de09c79dfc782f008d469c0"
+      },
+      {
+        "file": "issues--361-tailwind-ancestor.json",
+        "sha256": "f2813abb967e12537d1c143a6e787e0dfca20d7667ea46cce632a648859e143e"
+      },
+      {
+        "file": "issues--366-mixed-numbers.json",
+        "sha256": "675bf884a64f15316fe0cfa9bb6b2bf668afe2e0fc0013eec5089bcfedc75854"
+      },
+      {
+        "file": "issues--366-screen-reader-links.json",
+        "sha256": "08647ebffee4eda78e96c11c192d6df9d7c301c1e4f6e4ba9f49b69e49456e6d"
+      },
+      {
+        "file": "issues--374-explicit-image-sources.json",
+        "sha256": "40812e06e9c36fab12b54c2169079221bc055d12c9e8d826d5fdde27afe58483"
+      },
+      {
+        "file": "issues--374-image-source.json",
+        "sha256": "aa3c253a65c3b0e0296b7453f1daeca01c4a34c39265387132fe940d7026ae3f"
+      },
+      {
+        "file": "issues--374-invalid-lazy-source.json",
+        "sha256": "e4b9a417302c130441fb08d9d387c3760939609d5329fd61182ffcba24a3960c"
+      },
+      {
+        "file": "issues--374-lazy-source-precedence.json",
+        "sha256": "6ebc4a84648f35251dcfe8f7c1c00970a9cfbab4b148dca6065f7806f78b8894"
+      },
+      {
+        "file": "issues--374-lazy-srcset-placeholder.json",
+        "sha256": "d3045971ff30374255e8c70f450f0acf2787f0a57aeff011b5d7e1824280d1d9"
+      },
+      {
+        "file": "issues--374-unrelated-image-metadata.json",
+        "sha256": "c5db9e8a4e3a90e8e5232dab0e98e822d6b4f8f78749832a173cf13b03c47ad1"
+      },
+      {
+        "file": "issues--footnote-id-with-quote.json",
+        "sha256": "7772ca797024d10701e469182642595895111bc372937b57a5293c311e8acc13"
+      },
+      {
+        "file": "issues--header-with-subtitle-p.json",
+        "sha256": "f50ff60b4b0ecd99d1eb2d7e74b0c54acbceba1eef3e66e2da3e8c84ed2c0fe1"
+      },
+      {
+        "file": "issues--header-wraps-content.json",
+        "sha256": "b64ba20b0607422d3bdcc7013a68329d70fc079a9207b33c2cc562cc2bdb43c5"
+      },
+      {
+        "file": "issues--pascalcase-section-id-partial-match.json",
+        "sha256": "e3320abbaef1cc5fa7b0a6ee96913286a6653cee06d6b3d84d9857f8cca1563f"
+      },
+      {
+        "file": "issues--preferred-async-empty.json",
+        "sha256": "7328116ac1f1f61186770c5aa4d0656827d6105ef28cef3340ddb422ce014a11"
+      },
+      {
+        "file": "issues--react-streaming-ssr-colon-id.json",
+        "sha256": "9628256ab982ba4bce1ede06fbfa0841b25f5bb660d6463b0733a8c8ad65bd75"
+      },
+      {
+        "file": "issues--sidebar-toggle-checkbox.json",
+        "sha256": "34c2607e7e9e4eb980d7d730f86cc28a26f2f45999c8d0c85880f30f6195118e"
+      },
+      {
+        "file": "issues--span-with-block-children-and-schema.json",
+        "sha256": "a1685db6002ad2740e9811715a8603a71ce9fa27e657332cb52b5f8fee367aac"
+      },
+      {
+        "file": "listing--news.ycombinator.com-news.json",
+        "sha256": "5a04bb376758243b6535ceb72ef5eb53e1164176470f98c71561ae39978affc0"
+      },
+      {
+        "file": "math--equation-table-mathml.json",
+        "sha256": "e99aeb497a4ef090ca6b47e3e34b981527b7195a9cd3311f14b1add56e4f6597"
+      },
+      {
+        "file": "math--katex-centraliser.json",
+        "sha256": "0653da4feb92c925e12b2e53c851dddecaa48a3e0a310e2be668eb1aa7a316dd"
+      },
+      {
+        "file": "math--katex-data-math.json",
+        "sha256": "7111439d31ba056f621e46af8a4477bce342ac340a4ccd9421160549ae02e423"
+      },
+      {
+        "file": "math--katex.json",
+        "sha256": "755a3768067903edd55e096a3f4810412b6f4dec9c73370e6829e638d1d4bfaa"
+      },
+      {
+        "file": "math--latex-image-services.json",
+        "sha256": "6652bf8c4edd496268642c7dc3c6b4d70508ce873243e887dba7430b33069fe0"
+      },
+      {
+        "file": "math--mathjax-chtml-no-assistive.json",
+        "sha256": "918bbbbd04c40459cfed735d159515daabee56082313e36e09fe7acb4016c58d"
+      },
+      {
+        "file": "math--mathjax-svg.json",
+        "sha256": "a639c7914db86fdc2fa0bd2628e424a29e959679241c07c3fcdfc6148c1cffeb"
+      },
+      {
+        "file": "math--mathjax-tagged-equation.json",
+        "sha256": "f82e024140231d3d3622559ad5d698489569185419596db5a7d0da0fcaee226c"
+      },
+      {
+        "file": "math--mathjax-tex-scripts.json",
+        "sha256": "59803985e9cfb6a1acc34355f464e478a98cbf574fa41ff16214e66da3eabeff"
+      },
+      {
+        "file": "math--mathjax.json",
+        "sha256": "9756edeaa74746688b9920f3d31c5479693fa69fd318ea3359c9b81e7b4abade"
+      },
+      {
+        "file": "math--raw-latex.json",
+        "sha256": "f95f7f179e09e1603129d78f6131854b7f7acd935b5edff0b466f2c97efefcf5"
+      },
+      {
+        "file": "math--small-equation-image.json",
+        "sha256": "f2a70d487b7608300559841faef08500cfe7bbe42598ce5fcddfd2c97b4aecad"
+      },
+      {
+        "file": "math--temml.json",
+        "sha256": "e70a35a31d2fef0a6ab1a22c75371aafa729018f1c13f416aaaab534aaafb86e"
+      },
+      {
+        "file": "math--wikipedia-mathml.json",
+        "sha256": "938f805bb612ede49f977dd38c9785ff658a88bf03ba1071beabd77998ff6d00"
+      },
+      {
+        "file": "metadata--295-header-date-above-title.json",
+        "sha256": "113ba0e8bdbc1e018d83d937917658003bc749324880ef5e8455850060cd39a8"
+      },
+      {
+        "file": "metadata--295-suggested-post-date.json",
+        "sha256": "16f50470eb5e46a561d4c3efe5d91677f80e952de0d51ceda3188bb48bbaa238"
+      },
+      {
+        "file": "metadata--author-by-prefix-and-url.json",
+        "sha256": "d69c39ea32f81297233e33a75cf1e93ccbd2a970cf5dc653eb7ab3c9d04cd3e3"
+      },
+      {
+        "file": "metadata--date-adjacent-category-link.json",
+        "sha256": "99d194108eed4c1b2fa9d45684eadea769604230549cab3b3fbc702bc3370fc4"
+      },
+      {
+        "file": "metadata--email-style-header-block.json",
+        "sha256": "e1ade08eab7902e38114543ac6f5f591898954e86a451f92adb32386e242cc2e"
+      },
+      {
+        "file": "metadata--h1-sibling-byline.json",
+        "sha256": "d08674922e2b585f9de716b22504fb7acfbd3046533d04c2857d4363da76a915"
+      },
+      {
+        "file": "metadata--multi-script-values.json",
+        "sha256": "0a28fd46fd47140cf5abb6b1c5177c86dc4b8e16183418c1ebb4aed016fa3f81"
+      },
+      {
+        "file": "metadata--placeholder-author-and-duplicate-published.json",
+        "sha256": "458fa7cdc3eafbb3b1aac3812e7c269642a36240f5eb9a44a10a62caae91c919"
+      },
+      {
+        "file": "metadata--placeholder-values.json",
+        "sha256": "eb48efdfb0f52125d8c892a8fa7952a61665516986c1983e6185c7bb2925f690"
+      },
+      {
+        "file": "metadata--rel-author-in-bio-container.json",
+        "sha256": "2bcb4bffa38da39cc398765b1aa7de861d634a936eb118412ff7213866001051"
+      },
+      {
+        "file": "related--inline-related-stories-block.json",
+        "sha256": "50154946c1c2b39b1a946d4f50de210196079a5f696a3088925cb995f74e9bb8"
+      },
+      {
+        "file": "scoring--related-posts-byline.json",
+        "sha256": "979913a71af6102b9e65c7fe5127b9024c7e4850839a794c136c45794808e4cc"
+      },
+      {
+        "file": "scoring--table-with-links.json",
+        "sha256": "8028675866b0a88ab6040290205911ab50b6046345a87a94bd7c18bed0802cf3"
+      },
+      {
+        "file": "security--markdown-image-escaping.json",
+        "sha256": "7a104335d473ac7353e97ce24c94bdfa43330164bdf1efa81ec332fd58c22754"
+      },
+      {
+        "file": "security--math-literal-text.json",
+        "sha256": "92956f99fbd9c4f13dd8d4aa75cabe6263354e70dd343f5d68b97ee5eb8e1154"
+      },
+      {
+        "file": "selectors--arm-newsroom.json",
+        "sha256": "db381c553e372d080ea00fd1553f9c6c4be291e2f3d22c41c5b3dc3e1b2d5037"
+      },
+      {
+        "file": "selectors--logo-substring-wrapper.json",
+        "sha256": "d05c3eec81f367da84b3e628ed7ae9f0b94addf1cc64b3eef6b4b4f45660048f"
+      },
+      {
+        "file": "small-images--svg-icon-viewbox.json",
+        "sha256": "10dfebb3f1fc293387fc56d08c7f4b1c02e00e8fb3865ae688deb1047fd9d951"
+      },
+      {
+        "file": "standardize--span-data-as-paragraph.json",
+        "sha256": "fa69562fff89dd1f835c7e53f50872a6c243d74ba8de0427510513c912d8ca27"
+      },
+      {
+        "file": "table-layout--blogger-two-column.json",
+        "sha256": "c6aca1f21c022956b381bde4091e2de351cdc2f516c2d03652658a6d1f4d675f"
+      },
+      {
+        "file": "table-layout--paulgraham.com-makersschedule.json",
+        "sha256": "a9191b161ff35d13e5306d77f1d033d0e1501f7705f3629accbeb900c7585c3d"
+      },
+      {
+        "file": "table-layout--peripheral-tables.json",
+        "sha256": "1f5f0d7ea518015781a013c433a2770c35ccfa5d601627c03e2b484233961d05"
+      },
+      {
+        "file": "table-layout--single-column.json",
+        "sha256": "b262d3a5ad9157b9ef9681c8ec28225e9f039082903084bf2458e837e6c1b431"
+      },
+      {
+        "file": "thin-section-before-see-also.json",
+        "sha256": "b8b77b3338737132adc5a896ff8917ce93662e6c9ad873e48919c141cb41e786"
+      }
+    ]
+  },
+  "benchmark": {
+    "cases": 208,
+    "rounds": 7,
+    "warmups": 2,
+    "typeScriptRerun": false,
+    "metrics": [
+      {
+        "run": 1,
+        "mode": "html",
+        "baselineMedianMs": 851.131808,
+        "experimentMedianMs": 430.91389499999997,
+        "reductionPercent": 49.371661245681,
+        "medianPerCaseTimeRatio": 0.7472053338209659,
+        "maxPerCaseTimeRatio": 1.0800491350189374
+      },
+      {
+        "run": 1,
+        "mode": "html+markdown",
+        "baselineMedianMs": 866.1928800000001,
+        "experimentMedianMs": 449.227124,
+        "reductionPercent": 48.13774918122162,
+        "medianPerCaseTimeRatio": 0.7610593698719473,
+        "maxPerCaseTimeRatio": 1.0803770821016452
+      },
+      {
+        "run": 2,
+        "mode": "html",
+        "baselineMedianMs": 843.2007580000001,
+        "experimentMedianMs": 438.083581,
+        "reductionPercent": 48.04516281044425,
+        "medianPerCaseTimeRatio": 0.7704859391580994,
+        "maxPerCaseTimeRatio": 1.0948226881055008
+      },
+      {
+        "run": 2,
+        "mode": "html+markdown",
+        "baselineMedianMs": 857.03331,
+        "experimentMedianMs": 454.384416,
+        "reductionPercent": 46.98170879729284,
+        "medianPerCaseTimeRatio": 0.7774159887082922,
+        "maxPerCaseTimeRatio": 1.0521198197929411
+      }
+    ],
+    "perCaseNoRegressionClaimVerified": false,
+    "casesOver5PercentSlowerInAnyRun": [
+      {
+        "mode": "html",
+        "case": "comments--mastodon.social-@user-12345678",
+        "runTimeRatios": [
+          0.9901540648152526,
+          1.086363642933437
+        ],
+        "pooledTimeRatio": 1.0380483428117517
+      },
+      {
+        "mode": "html",
+        "case": "comments--news.ycombinator.com-item-id=12345678",
+        "runTimeRatios": [
+          1.0055564909917494,
+          1.0948226881055008
+        ],
+        "pooledTimeRatio": 1.0502023133680674
+      },
+      {
+        "mode": "html",
+        "case": "comments--old.reddit.com-r-test-comments-abc123-test_post",
+        "runTimeRatios": [
+          0.9486739858843659,
+          1.080848347515499
+        ],
+        "pooledTimeRatio": 1.0140942563520015
+      },
+      {
+        "mode": "html",
+        "case": "general--x.com-article",
+        "runTimeRatios": [
+          1.0800491350189374,
+          1.0152477004190208
+        ],
+        "pooledTimeRatio": 1.046863093521587
+      },
+      {
+        "mode": "html+markdown",
+        "case": "extractor--chatgpt-post-thought-content",
+        "runTimeRatios": [
+          0.9940414093852502,
+          1.0515625696139244
+        ],
+        "pooledTimeRatio": 1.0220535234288552
+      },
+      {
+        "mode": "html+markdown",
+        "case": "general--github.com-test-owner-test-repo-pull-42",
+        "runTimeRatios": [
+          1.0803770821016452,
+          1.0199517156880513
+        ],
+        "pooledTimeRatio": 1.0503092885161607
+      },
+      {
+        "mode": "html+markdown",
+        "case": "general--x.com-article",
+        "runTimeRatios": [
+          1.004159642518994,
+          1.0521198197929411
+        ],
+        "pooledTimeRatio": 1.027743788824432
+      },
+      {
+        "mode": "html+markdown",
+        "case": "general--x.com-article-2026-02-13",
+        "runTimeRatios": [
+          1.0739338775059442,
+          1.0295568335192407
+        ],
+        "pooledTimeRatio": 1.0519447684039034
+      },
+      {
+        "mode": "html+markdown",
+        "case": "gmail--mail.google.com-mail-u-0-thread",
+        "runTimeRatios": [
+          1.0758683057634602,
+          1.0192436419420257
+        ],
+        "pooledTimeRatio": 1.0477096637870398
+      }
+    ]
+  },
+  "tests": {
+    "passed": 170,
+    "exitCode": 0,
+    "mode": "release",
+    "runBy": "performance reviewer",
+    "rootVerification": "parsed saved log; no root rerun",
+    "fmtAndClippyRun": false
+  },
+  "originalScratchPatchSha256": "9dc51e289a69b817e378eb9776fd11855b3c03cb6c91e94a40f7acc54dea72b9",
+  "files": {
+    "bench7-base-1.json": "7ad4ecc5a9bd79a9c007ec72c32615a6fbefd48688b8f66003d379a5246e8d3d",
+    "bench7-exp6-1.json": "7f179ef669c4debbed352b057cb81215a5bc63fe881ae99771923a674097a862",
+    "bench7-base-2.json": "444e26a3fe1c02a938a4a419841a2db11f61129c04a34015c28cf0a63819e40a",
+    "bench7-exp6-2.json": "30f655016b47acfca9a71412ac795be3677a4612381b513a13cd7dab84b87a6c",
+    "experiment-tests.log": "654a6597479fde213f94ed6861b88d255b340a084f48cf69fcb32f108d564f4c",
+    "experiment.patch": "0c77a9c29c8db07b1a9be352956fd77b4efcdb10b8ee588639e3e08317840d05"
+  },
+  "limits": [
+    "No fresh TypeScript comparison; do not derive a new TS speed ratio.",
+    "All performance work preserved current behavior, including the correctness defects found by other reviewers.",
+    "Shared default Rust toolchain failed; reviewer used a separate identical rustc 1.99.1.",
+    "Timer instrumentation, not a sampling or allocation profiler."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "metadata--rel-author-in-bio-container",
+  "url": "https://rel-author-in-bio-container",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n<title>Example Article</title>\n<meta name=\"twitter:site\" content=\"@examplesite\">\n<meta property=\"og:site_name\" content=\"example.com\">\n<meta property=\"og:title\" content=\"Example Article\">\n</head>\n<body>\n<main>\n<h1>Example Article</h1>\n<section class=\"frontMatter\">\n<p class=\"abstract\"><i>A short abstract paragraph that summarizes the article for readers.</i></p>\n<p class=\"date\">07 April 2026</p>\n<hr>\n<div class=\"front-grid\">\n<div class=\"author-list\">\n<div class=\"author\">\n<div class=\"photo\"><a href=\"https://example.org\"><img alt=\"Photo of Jane Doe\" src=\"jane.jpg\" width=\"80\"></a></div>\n<address class=\"name\"><a href=\"https://example.org\" rel=\"author\">Jane Doe</a></address>\n<div class=\"bio\">\n<p>I write about distributed systems, storage, and performance. I have worked on data platforms, inference servers, and developer tools, and I like to share what I learn about building fast, reliable software.</p>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section>\n<p>The body of the article goes here. It is deliberately long enough to survive scoring-based removals, and contains multiple paragraphs of meaningful prose so that the content extractor keeps this section as the main content of the page.</p>\n<p>Another paragraph follows to reinforce the main content. Distributed systems thinking has become a core skill for modern software engineering, and this article explores a handful of principles that experienced practitioners reach for every day.</p>\n<p>One more paragraph to ensure the content is well above the threshold for short-page handling. The details of the principles are not important for this fixture, only that the main content is clearly the dominant block on the page.</p>\n</section>\n</main>\n</body>\n</html>\n",
+  "inputSha256": "6bb1808b7f9177b05f76553cd7c1fc351585505ee1dc4251bd6a9c8eebed1669",
+  "upstreamFixture": "tests/fixtures/metadata--rel-author-in-bio-container.html",
+  "markdownGoldenSha256": "7b405648ae5b5624f4e696eca479c5ef7abfeadc78425d72999bf1ca8a687246",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<main>    <p>The body of the article goes here. It is deliberately long enough to survive scoring-based removals, and contains multiple paragraphs of meaningful prose so that the content extractor keeps this section as the main content of the page.</p> <p>Another paragraph follows to reinforce the main content. Distributed systems thinking has become a core skill for modern software engineering, and this article explores a handful of principles that experienced practitioners reach for every day.</p> <p>One more paragraph to ensure the content is well above the threshold for short-page handling. The details of the principles are not important for this fixture, only that the main content is clearly the dominant block on the page.</p>  </main>",
+    "contentMarkdown": "The body of the article goes here. It is deliberately long enough to survive scoring-based removals, and contains multiple paragraphs of meaningful prose so that the content extractor keeps this section as the main content of the page.\n\nAnother paragraph follows to reinforce the main content. Distributed systems thinking has become a core skill for modern software engineering, and this article explores a handful of principles that experienced practitioners reach for every day.\n\nOne more paragraph to ensure the content is well above the threshold for short-page handling. The details of the principles are not important for this fixture, only that the main content is clearly the dominant block on the page.",
+    "title": "Example Article",
+    "author": "Jane Doe",
+    "site": "example.com",
+    "published": "2026-04-07T00:00:00+00:00",
+    "wordCount": 112,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

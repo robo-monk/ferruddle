@@ -1,0 +1,764 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Alex Rivera"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · May 13, 2026, 11:02 PM"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Hi Jane,"
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Nice to e-meet you! Hope this email finds you well."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "I'm putting together the kickoff plan for next week. A couple of questions before we lock the schedule:"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "1. Are Tuesday mornings generally good for you?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "2. Should we invite the design team to the first call?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Best,"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Alex"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Jane Doe"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · May 14, 2026, 9:15 AM"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Hi Alex,"
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Great to connect! Tuesday mornings work well, let's plan on 10am."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Yes, please loop in the design team — they'll want to weigh in early."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Thanks,"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Jane"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Alex Rivera"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · May 14, 2026, 2:40 PM"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Perfect — calendar invite sent for Tuesday at 10am with the design team included."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Jane Doe"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · May 15, 2026, 8:05 AM"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Here's the room layout we discussed:"
+            },
+            {
+              "kind": "element",
+              "name": "img",
+              "attributes": [
+                [
+                  "src",
+                  "https://mail.example.com/attachment/room.jpg"
+                ]
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Alex Rivera"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · May 15, 2026, 11:30 AM"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Looks great, booking that room now."
+            },
+            {
+              "kind": "element",
+              "name": "br",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "element",
+              "name": "br",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "text",
+              "text": " Alex"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Jane Doe"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · May 15, 2026, 12:00 PM"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Booked — see you Tuesday."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Alex Rivera"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · May 13, 2026, 11:02 PM"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Hi Jane,"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Nice to e-meet you! Hope this email finds you well."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "I'm putting together the kickoff plan for next week. A couple of questions before we lock the schedule:"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "1. Are Tuesday mornings generally good for you?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "2. Should we invite the design team to the first call?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Best,"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Alex"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Jane Doe"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · May 14, 2026, 9:15 AM"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Hi Alex,"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Great to connect! Tuesday mornings work well, let's plan on 10am."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Yes, please loop in the design team — they'll want to weigh in early."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Thanks,"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Jane"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Alex Rivera"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · May 14, 2026, 2:40 PM"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Perfect — calendar invite sent for Tuesday at 10am with the design team included."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Jane Doe"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · May 15, 2026, 8:05 AM"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Here's the room layout we discussed:"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              ""
+            ],
+            [
+              "src",
+              "https://mail.example.com/attachment/room.jpg"
+            ]
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Alex Rivera"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · May 15, 2026, 11:30 AM"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Looks great, booking that room now."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Alex"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Jane Doe"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · May 15, 2026, 12:00 PM"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Booked — see you Tuesday."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Gmail",
+    "title": "Project kickoff — questions before we start",
+    "description": "Gmail thread from Alex Rivera with 6 messages",
+    "domain": "mail.google.com",
+    "favicon": "https://mail.google.com/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "2026-05-13",
+    "author": "Alex Rivera"
+  },
+  "warnings": [],
+  "wordCount": 160,
+  "extractorType": "gmail"
+}

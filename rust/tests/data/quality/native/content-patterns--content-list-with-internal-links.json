@@ -1,0 +1,389 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Style emerges from consistency, and having a style opens your imagination. Your mind should be flexible, but your process should be repeatable."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A style can be a system, a pattern, a set of personal guidelines. Here are a few of mine:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "I wear monochromatic clothing without logos"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "I use a specific date format everywhere"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "I pluralize tag and folder names (e.g. groups not group)"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "I use "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://content-patterns--content-list-with-internal-links/plain-text"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "plain text files"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " for all my writing"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "I ask myself "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://content-patterns--content-list-with-internal-links/annual-review"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "reflection questions every year"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "I meal prep lunches every week, and exercise twice a week"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "I write "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://content-patterns--content-list-with-internal-links/brevity"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "short essays"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", less than 500 words"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Collect constraints you enjoy. Unusual constraints make things more fun. You can always change them later."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Having a style collapses hundreds of future decisions into one, and gives you focus."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Style emerges from consistency, and having a style opens your imagination. Your mind should be flexible, but your process should be repeatable."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A style can be a system, a pattern, a set of personal guidelines. Here are a few of mine:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "I wear monochromatic clothing without logos"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "I use a specific date format everywhere"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "I pluralize tag and folder names (e.g. groups not group)"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "I use "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://content-patterns--content-list-with-internal-links/plain-text"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "plain text files"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " for all my writing"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "I ask myself "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://content-patterns--content-list-with-internal-links/annual-review"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "reflection questions every year"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "I meal prep lunches every week, and exercise twice a week"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "I write "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://content-patterns--content-list-with-internal-links/brevity"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "short essays"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", less than 500 words"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Collect constraints you enjoy. Unusual constraints make things more fun. You can always change them later."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Having a style collapses hundreds of future decisions into one, and gives you focus."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Example Blog",
+    "title": "Personal style guide",
+    "description": "A guide to personal style choices.",
+    "domain": "content-patterns--content-list-with-internal-links",
+    "favicon": "https://content-patterns--content-list-with-internal-links/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": "Jane Doe"
+  },
+  "warnings": [],
+  "wordCount": 129,
+  "extractorType": null
+}

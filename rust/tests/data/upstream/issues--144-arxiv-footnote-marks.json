@@ -1,0 +1,20 @@
+{
+  "id": "issues--144-arxiv-footnote-marks",
+  "url": "https://144-arxiv-footnote-marks",
+  "inputHtml": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>arXiv Footnote Marks</title>\n</head>\n<body>\n<article class=\"ltx_document\">\n<div class=\"ltx_page_content\">\n<div class=\"ltx_document\">\n<section class=\"ltx_section\">\n<h2 class=\"ltx_title ltx_title_section\">Authors</h2>\n<div class=\"ltx_para\">\n<p class=\"ltx_p\">Rafael Rafailov<span class=\"ltx_note ltx_role_footnotemark\"><sup class=\"ltx_note_mark\">2</sup><span class=\"ltx_note_outer\"><span class=\"ltx_note_content\"><sup class=\"ltx_note_mark\">2</sup><span class=\"ltx_note_type\">footnotemark: </span><span class=\"ltx_tag ltx_tag_note\">2</span></span></span></span>, Archit Sharma<span class=\"ltx_note ltx_role_footnotemark\"><sup class=\"ltx_note_mark\">1</sup><span class=\"ltx_note_outer\"><span class=\"ltx_note_content\"><sup class=\"ltx_note_mark\">1</sup><span class=\"ltx_note_type\">footnotemark: </span><span class=\"ltx_tag ltx_tag_note\">1</span></span></span></span>, Eric Mitchell<span class=\"ltx_note ltx_role_footnotemark\"><sup class=\"ltx_note_mark\">1</sup><span class=\"ltx_note_outer\"><span class=\"ltx_note_content\"><sup class=\"ltx_note_mark\">1</sup><span class=\"ltx_note_type\">footnotemark: </span><span class=\"ltx_tag ltx_tag_note\">1</span></span></span></span></p>\n</div>\n<div class=\"ltx_para\">\n<p class=\"ltx_p\">This is the actual article content that follows the author section. The paper presents a novel approach to reinforcement learning from human feedback.</p>\n</div>\n</section>\n</div>\n</div>\n</article>\n</body>\n</html>\n",
+  "inputSha256": "0f7fb22dc51e9678f0635d14e7ccdd8b041a47f1db807b71a590b477e16a93a6",
+  "upstreamFixture": "tests/fixtures/issues--144-arxiv-footnote-marks.html",
+  "markdownGoldenSha256": "668b54c1b4c204158a7ffbc01e212c34f9690f407890a1985180fdc76d1338bd",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <h2>Authors</h2> <p>Rafael Rafailov<sup>2</sup>, Archit Sharma<sup>1</sup>, Eric Mitchell<sup>1</sup></p> <p>This is the actual article content that follows the author section. The paper presents a novel approach to reinforcement learning from human feedback.</p>  </article>",
+    "contentMarkdown": "## Authors\n\nRafael Rafailov<sup>2</sup>, Archit Sharma<sup>1</sup>, Eric Mitchell<sup>1</sup>\n\nThis is the actual article content that follows the author section. The paper presents a novel approach to reinforcement learning from human feedback.",
+    "title": "arXiv Footnote Marks",
+    "author": "",
+    "site": "144-arxiv-footnote-marks",
+    "published": "",
+    "wordCount": 35,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

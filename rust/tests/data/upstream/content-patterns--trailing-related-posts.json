@@ -1,0 +1,20 @@
+{
+  "id": "content-patterns--trailing-related-posts",
+  "url": "https://content-patterns--trailing-related-posts",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head><title>Coffee Cooling Article</title></head>\n<body>\n<article>\n<h1>How Coffee Cools</h1>\n<p>Coffee cools following Newton's law of cooling. The rate of heat loss is proportional to the temperature difference between the coffee and its surroundings.</p>\n<p>Most models fit two exponential decay terms: a fast rate from heat flow into the mug, and a slow rate from mug to air. They were kind enough to charge me for that service.</p>\n<section>\n  <br>\n  <p>\n  <p style=\"line-height: 1; margin-top: 0.6em; margin-bottom: 0.6em;\">\n    <a href=\"/pattern/\">Maybe there's a pattern here?</a> ·\n          <a href=\"/#science\" style=\"font-size: 80%;\">science</a>\n          <a href=\"/#ai\" style=\"font-size: 80%;\">AI</a>\n    </p>\n  <p style=\"line-height: 1; margin-top: 0.6em; margin-bottom: 0.6em;\">\n    <a href=\"/data-wall/\">The real data wall is billions of years of evolution</a> ·\n          <a href=\"/#ai\" style=\"font-size: 80%;\">AI</a>\n          <a href=\"/#science\" style=\"font-size: 80%;\">science</a>\n    </p>\n  <p style=\"line-height: 1; margin-top: 0.6em; margin-bottom: 0.6em;\">\n    <a href=\"/gpt-2/\">Why didn't we get GPT-2 in 2005?</a> ·\n          <a href=\"/#science\" style=\"font-size: 80%;\">science</a>\n          <a href=\"/#economics\" style=\"font-size: 80%;\">economics</a>\n          <a href=\"/#ai\" style=\"font-size: 80%;\">AI</a>\n    </p>\n  </p>\n</section>\n<hr>\n</article>\n</body>\n</html>\n",
+  "inputSha256": "17c489cb0685dcd339fbb5e34dc395b3e430b84ca25903a7a19950045b56f3cb",
+  "upstreamFixture": "tests/fixtures/content-patterns--trailing-related-posts.html",
+  "markdownGoldenSha256": "ea50d6887f47e3d251221e8f5dbb2f2b21f86c8aeb2760a17e7ed1aa1b891f31",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article> <h2>How Coffee Cools</h2> <p>Coffee cools following Newton's law of cooling. The rate of heat loss is proportional to the temperature difference between the coffee and its surroundings.</p> <p>Most models fit two exponential decay terms: a fast rate from heat flow into the mug, and a slow rate from mug to air. They were kind enough to charge me for that service.</p>   </article>",
+    "contentMarkdown": "## How Coffee Cools\n\nCoffee cools following Newton's law of cooling. The rate of heat loss is proportional to the temperature difference between the coffee and its surroundings.\n\nMost models fit two exponential decay terms: a fast rate from heat flow into the mug, and a slow rate from mug to air. They were kind enough to charge me for that service.",
+    "title": "Coffee Cooling Article",
+    "author": "",
+    "site": "content-patterns--trailing-related-posts",
+    "published": "",
+    "wordCount": 61,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

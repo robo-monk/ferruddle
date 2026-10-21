@@ -1,0 +1,20 @@
+{
+  "id": "issues--159-lean-heading-permalink-emoji",
+  "url": "https://lean-lang.org/theorem_proving_in_lean4/Dependent-Type-Theory/",
+  "inputHtml": "<!-- {\"url\":\"https://lean-lang.org/theorem_proving_in_lean4/Dependent-Type-Theory/\"} -->\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <title>Dependent Type Theory</title>\n</head>\n<body>\n  <main>\n    <article>\n      <h1>Dependent Type Theory</h1>\n      <p>\n        This fixture verifies that heading permalink widgets are removed from heading text while\n        preserving the heading title itself. The extra prose ensures stable content selection.\n      </p>\n\n      <h2 id=\"variables-and-sections\">\n        2.6. Variables and Sections\n        <span class=\"permalink-widget inline\"><a href=\"find/?domain=Verso.Genre.Manual.section&amp;name=variables-and-sections\" title=\"Permalink\">🔗</a></span>\n      </h2>\n\n      <p>\n        This section introduces variables and sections in Lean. Any permalink icon should be\n        excluded from the extracted markdown heading.\n      </p>\n    </article>\n  </main>\n</body>\n</html>\n",
+  "inputSha256": "dd16a0968c51d5515121937b2325cb6f1db19819ed8dd70abb01643ca5d5abf4",
+  "upstreamFixture": "tests/fixtures/issues--159-lean-heading-permalink-emoji.html",
+  "markdownGoldenSha256": "4d6a125e9d39c922edf715ec5d3f698ac4858acd88b4abaea23576f978106e04",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p> This fixture verifies that heading permalink widgets are removed from heading text while preserving the heading title itself. The extra prose ensures stable content selection. </p> <h2>2.6. Variables and Sections</h2> <p> This section introduces variables and sections in Lean. Any permalink icon should be excluded from the extracted markdown heading. </p> </article>",
+    "contentMarkdown": "This fixture verifies that heading permalink widgets are removed from heading text while preserving the heading title itself. The extra prose ensures stable content selection.\n\n## 2.6. Variables and Sections\n\nThis section introduces variables and sections in Lean. Any permalink icon should be excluded from the extracted markdown heading.",
+    "title": "Dependent Type Theory",
+    "author": "",
+    "site": "lean-lang.org",
+    "published": "",
+    "wordCount": 48,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "general--appendix-heading",
+  "url": "https://appendix-heading",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"utf-8\">\n<title>Article with Appendix</title>\n</head>\n<body>\n<main>\n<article>\n<div class=\"article-body\">\n<h1>Article with Appendix Section</h1>\n<p>This is the main article content discussing an important topic. It contains multiple paragraphs of text that establish it as the primary content of the page.</p>\n<h2>Introduction</h2>\n<p>The introduction provides background information about the subject matter. We explore the key concepts and methodologies used in our analysis of the data.</p>\n<h2>Results</h2>\n<p>Our analysis revealed several interesting findings that warrant further discussion. The data shows clear trends across all measured variables.</p>\n<h2 id=\"appendix-i\">Appendix I</h2>\n<p>Below is a detailed breakdown of results across all test conditions and parameters used in the study.</p>\n<p>The raw data tables show measurements taken at regular intervals throughout the experiment.</p>\n<h2>Acknowledgements</h2>\n<p>Thanks to all contributors who made this research possible.</p>\n</div>\n</article>\n</main>\n</body>\n</html>\n",
+  "inputSha256": "dfa745f054e44b64b84068df88ca6251a4c084f8884df60dedbf4ac028cc53a2",
+  "upstreamFixture": "tests/fixtures/general--appendix-heading.html",
+  "markdownGoldenSha256": "b62d59ad07e6b404db5080aef6caf88cefdbe91b944872f51c5e01cf10802cf2",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <h2>Article with Appendix Section</h2> <p>This is the main article content discussing an important topic. It contains multiple paragraphs of text that establish it as the primary content of the page.</p> <h2>Introduction</h2> <p>The introduction provides background information about the subject matter. We explore the key concepts and methodologies used in our analysis of the data.</p> <h2>Results</h2> <p>Our analysis revealed several interesting findings that warrant further discussion. The data shows clear trends across all measured variables.</p> <h2>Appendix I</h2> <p>Below is a detailed breakdown of results across all test conditions and parameters used in the study.</p> <p>The raw data tables show measurements taken at regular intervals throughout the experiment.</p> <h2>Acknowledgements</h2> <p>Thanks to all contributors who made this research possible.</p>  </article>",
+    "contentMarkdown": "## Article with Appendix Section\n\nThis is the main article content discussing an important topic. It contains multiple paragraphs of text that establish it as the primary content of the page.\n\n## Introduction\n\nThe introduction provides background information about the subject matter. We explore the key concepts and methodologies used in our analysis of the data.\n\n## Results\n\nOur analysis revealed several interesting findings that warrant further discussion. The data shows clear trends across all measured variables.\n\n## Appendix I\n\nBelow is a detailed breakdown of results across all test conditions and parameters used in the study.\n\nThe raw data tables show measurements taken at regular intervals throughout the experiment.\n\n## Acknowledgements\n\nThanks to all contributors who made this research possible.",
+    "title": "Article with Appendix",
+    "author": "",
+    "site": "appendix-heading",
+    "published": "",
+    "wordCount": 116,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

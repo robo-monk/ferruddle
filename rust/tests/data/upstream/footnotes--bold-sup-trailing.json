@@ -1,0 +1,20 @@
+{
+  "id": "footnotes--bold-sup-trailing",
+  "url": "https://bold-sup-trailing",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\"/>\n  <title>Loose footnotes: bold-wrapped sup with trailing content</title>\n</head>\n<body>\n  <!--\n    Pattern: inline <sup>N</sup> references in body, definitions as\n    <p><b><sup>N</sup> label:</b> text</p> — used by apenwarr.com style blogs.\n    Footnotes are followed by non-footnote trailing content (updates, related links).\n  -->\n  <article>\n    <h1>Loose footnotes: bold-wrapped sup with trailing content</h1>\n\n    <p>The protocol handles mobility transparently.<sup>1</sup></p>\n\n    <p>Some care is needed to prevent session hijacking.<sup>2</sup></p>\n\n    <p>There are several candidate protocols.<sup>3</sup></p>\n\n    <p>In conclusion, the approach is promising.</p>\n\n    <p><b><sup>1</sup> Note 2024-01-15:</b> This also works with legacy addressing and NAT traversal.</p>\n\n    <p><b><sup>2</sup> Note 2024-01-10:</b> A simple challenge-response exchange during handshake is sufficient to prevent hijacking by outside attackers.</p>\n\n    <p><b><sup>3</sup> Note 2024-03-20:</b> Besides the primary candidate, there are several other proposals with similar properties.</p>\n\n    <p><b>Update 2024-06-01:</b> A follow-up discussion has been posted on the project blog.</p>\n  </article>\n</body>\n</html>\n",
+  "inputSha256": "a62118ea3f117c6e66ec0769ccb5b19e260a8d5b800e0e8f8f7267f349a3fcaa",
+  "upstreamFixture": "tests/fixtures/footnotes--bold-sup-trailing.html",
+  "markdownGoldenSha256": "4e411be22ecf6041def2df69f1aa18edb55c093c65c9f155da9323741691a554",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>The protocol handles mobility transparently.<sup id=\"fnref:1\"><a href=\"#fn:1\">1</a></sup></p> <p>Some care is needed to prevent session hijacking.<sup id=\"fnref:2\"><a href=\"#fn:2\">2</a></sup></p> <p>There are several candidate protocols.<sup id=\"fnref:3\"><a href=\"#fn:3\">3</a></sup></p> <p>In conclusion, the approach is promising.</p>    <p><b>Update 2024-06-01:</b> A follow-up discussion has been posted on the project blog.</p> <div id=\"footnotes\"><ol><li id=\"fn:1\"><p><b>Note 2024-01-15:</b> This also works with legacy addressing and NAT traversal.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:1\">↩</a></p></li> <li id=\"fn:2\"><p><b>Note 2024-01-10:</b> A simple challenge-response exchange during handshake is sufficient to prevent hijacking by outside attackers.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:2\">↩</a></p></li> <li id=\"fn:3\"><p><b>Note 2024-03-20:</b> Besides the primary candidate, there are several other proposals with similar properties.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:3\">↩</a></p></li></ol></div></article>",
+    "contentMarkdown": "The protocol handles mobility transparently.[^1]\n\nSome care is needed to prevent session hijacking.[^2]\n\nThere are several candidate protocols.[^3]\n\nIn conclusion, the approach is promising.\n\n**Update 2024-06-01:** A follow-up discussion has been posted on the project blog.\n\n[^1]: **Note 2024-01-15:** This also works with legacy addressing and NAT traversal.\n\n[^2]: **Note 2024-01-10:** A simple challenge-response exchange during handshake is sufficient to prevent hijacking by outside attackers.\n\n[^3]: **Note 2024-03-20:** Besides the primary candidate, there are several other proposals with similar properties.",
+    "title": "Loose footnotes: bold-wrapped sup with trailing content",
+    "author": "",
+    "site": "bold-sup-trailing",
+    "published": "",
+    "wordCount": 83,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

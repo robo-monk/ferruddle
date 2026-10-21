@@ -1,0 +1,20 @@
+{
+  "id": "footnotes--no-false-positive-equation-refs",
+  "url": "https://no-false-positive-equation-refs",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\"/>\n  <title>Equation cross-references should not become footnotes</title>\n</head>\n<body>\n  <!--\n    Pages with equation/theorem cross-references use bare <a href=\"#anchor\">N</a>\n    links where the targets are named anchors scattered throughout the body.\n    These should NOT be converted to footnote markers [^N] — there is no footnote list.\n  -->\n  <article>\n    <h1>Equation cross-references should not become footnotes</h1>\n\n    <p>By the residue theorem (see <a href=\"#thm-residue\">1</a>), the contour\n    integral can be evaluated. Combined with the Bernstein expansion\n    (<a href=\"#bernstein-exp\">2</a>), this yields the bound.</p>\n\n    <p>A stronger result follows from the triangle inequality\n    (<a href=\"#triangle-ineq\">3</a>) applied to the decomposition below.</p>\n\n    <h3><a name=\"thm-residue\"></a>Theorem 1 (Residue Theorem)</h3>\n    <p>For any meromorphic function f and a contour C...</p>\n\n    <h3><a name=\"bernstein-exp\"></a>Lemma 2 (Bernstein Expansion)</h3>\n    <p>Let P be a polynomial of degree n. Then for any z with |z| = 1...</p>\n\n    <ul>\n      <li><a name=\"triangle-ineq\"></a>Exercise 3. Use the triangle inequality to show that...</li>\n    </ul>\n  </article>\n</body>\n</html>\n",
+  "inputSha256": "b718c9557c56a6aa19fa59c781f863b28e3d7b56a26ff2809e4db7bd141cac17",
+  "upstreamFixture": "tests/fixtures/footnotes--no-false-positive-equation-refs.html",
+  "markdownGoldenSha256": "5915ce3813e5f554f778763be9767aeaf13f39b19d53b4b6fbb465004adc3fe3",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>By the residue theorem (see <a href=\"#thm-residue\">1</a>), the contour integral can be evaluated. Combined with the Bernstein expansion (<a href=\"#bernstein-exp\">2</a>), this yields the bound.</p> <p>A stronger result follows from the triangle inequality (<a href=\"#triangle-ineq\">3</a>) applied to the decomposition below.</p> <h3>Theorem 1 (Residue Theorem)</h3> <p>For any meromorphic function f and a contour C...</p> <h3>Lemma 2 (Bernstein Expansion)</h3> <p>Let P be a polynomial of degree n. Then for any z with |z| = 1...</p> <ul> <li>Exercise 3. Use the triangle inequality to show that...</li> </ul> </article>",
+    "contentMarkdown": "By the residue theorem (see [1](#thm-residue)), the contour integral can be evaluated. Combined with the Bernstein expansion ([2](#bernstein-exp)), this yields the bound.\n\nA stronger result follows from the triangle inequality ([3](#triangle-ineq)) applied to the decomposition below.\n\n### Theorem 1 (Residue Theorem)\n\nFor any meromorphic function f and a contour C...\n\n### Lemma 2 (Bernstein Expansion)\n\nLet P be a polynomial of degree n. Then for any z with |z| = 1...\n\n- Exercise 3. Use the triangle inequality to show that...",
+    "title": "Equation cross-references should not become footnotes",
+    "author": "",
+    "site": "no-false-positive-equation-refs",
+    "published": "",
+    "wordCount": 83,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

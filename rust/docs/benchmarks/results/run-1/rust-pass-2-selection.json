@@ -1,0 +1,1704 @@
+{
+  "schemaVersion": 2,
+  "kind": "warm",
+  "passes": 2,
+  "manifestSha256": "0e137fc415fce1832582b273e87bf2e64b1f93473d8b0ad29070fab40aa35dfa",
+  "mathExclusionsSha256": "2a3a21bf867c67ca974bf4db48a05d40c426a69cf1860cd425152fdb66d84d57",
+  "caseIds": [
+    "author-contact-block",
+    "author-share-widget",
+    "callouts--obsidian-publish-callouts",
+    "code-blocks--chroma-linenums",
+    "code-blocks--hexo-br",
+    "codeblocks--chatgpt-codemirror",
+    "codeblocks--chroma-inline-linenums",
+    "codeblocks--chroma-line-spans",
+    "codeblocks--code-pre-nesting",
+    "codeblocks--flex-row-gutter",
+    "codeblocks--hljs-header",
+    "codeblocks--mintlify",
+    "codeblocks--pygments-lineno",
+    "codeblocks--react-syntax-highlighter-linenums",
+    "codeblocks--rehype-pretty-code",
+    "codeblocks--rehype-pretty-copy",
+    "codeblocks--rockthejvm.com-articles-kotlin-101-type-classes",
+    "codeblocks--rouge-linenums",
+    "codeblocks--stripe",
+    "comments--mastodon.social-@user-12345678",
+    "comments--news.ycombinator.com-item-id=12345678",
+    "comments--old.reddit.com-r-test-comments-abc123-test_post",
+    "content-patterns--card-grid-stripped-headings",
+    "content-patterns--code-block-boilerplate-and-trailing-section",
+    "content-patterns--content-list-with-internal-links",
+    "content-patterns--heading-introduced-list",
+    "content-patterns--iso-date-and-read-time",
+    "content-patterns--leading-breadcrumb",
+    "content-patterns--live-blog-metadata",
+    "content-patterns--multi-image-row-midarticle",
+    "content-patterns--non-semantic-hero-header",
+    "content-patterns--social-counter-link",
+    "content-patterns--social-engagement-counter",
+    "content-patterns--socket-dev-blog",
+    "content-patterns--table-of-contents",
+    "content-patterns--trailing-related-posts",
+    "content-patterns--trailing-subscribe-after-footnotes",
+    "custom-elements--swiper-carousel",
+    "elementor--archive-page",
+    "elements--base64-placeholder-removal",
+    "elements--bootstrap-alerts",
+    "elements--br-between-blocks",
+    "elements--complex-tables",
+    "elements--data-table",
+    "elements--embedded-videos",
+    "elements--empty-p-br",
+    "elements--empty-table",
+    "elements--farsi-zwnj",
+    "elements--figure-content-wrapper",
+    "elements--hugo-admonitions",
+    "elements--image-dedup",
+    "elements--javascript-links",
+    "elements--lazy-image",
+    "elements--lightbox-image-dedup",
+    "elements--nbsp-handling",
+    "elements--srcset-normalization",
+    "elements--svg-placeholder-lazy-image",
+    "elements--whitespace-newlines",
+    "entry-point--js-article-content",
+    "extractor--bbcode-data",
+    "extractor--chatgpt-citations",
+    "extractor--chatgpt-post-thought-content",
+    "eyebrow--linked-category",
+    "eyebrow--paragraph-label",
+    "eyebrow--spans-category",
+    "eyebrow--wrapper-with-icon",
+    "footnotes--aside-ol-start",
+    "footnotes--bold-sup-trailing",
+    "footnotes--br-separated-named-anchors",
+    "footnotes--child-anchor-id",
+    "footnotes--easy-footnotes-wrapper",
+    "footnotes--external-labeled-section",
+    "footnotes--google-docs-ftnt",
+    "footnotes--heading-notes",
+    "footnotes--hidden-aside-data-definition",
+    "footnotes--hidden-section",
+    "footnotes--hr-continuation",
+    "footnotes--hr-strong-numbered",
+    "footnotes--hr-sup-numbered",
+    "footnotes--inline-footnote-span",
+    "footnotes--labeled-section-ol",
+    "footnotes--maggieappleton.com-xanadu-patterns",
+    "footnotes--named-anchor",
+    "footnotes--nested-prose",
+    "footnotes--no-false-positive-equation-refs",
+    "footnotes--numeric-anchor-id",
+    "footnotes--orgmode-css-sidenotes",
+    "footnotes--p-class-footnote",
+    "footnotes--pulldown-cmark-footnote-definition",
+    "footnotes--sidenote-inline-with-list",
+    "footnotes--span-fnref-colon",
+    "footnotes--wikipedia-references",
+    "footnotes--word-ftn-ftnref",
+    "footnotes--wp-block-footnotes",
+    "gated-content--cookie-consent",
+    "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes",
+    "general--apnews-link-enhancement",
+    "general--appendix-heading",
+    "general--back-nav-link",
+    "general--daringfireball.net-2025-02-the_iphone_16e",
+    "general--developer.mozilla.org-en-US-docs-Web-JavaScript-Reference-Global_Objects-Array",
+    "general--github.com-issue-56",
+    "general--github.com-test-owner-test-repo-pull-42",
+    "general--inline-comments-and-link-lists",
+    "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "general--multi-article-portfolio",
+    "general--news.ycombinator.com-item-id=12345678",
+    "general--obsidian-publish-cjk",
+    "general--obsidian.md-blog-verify-obsidian-sync-encryption",
+    "general--react-streaming-ssr",
+    "general--scp-wiki.wikidot.com-scp-9935",
+    "general--stephango.com-buy-wisely",
+    "general--substack-app",
+    "general--substack-custom-domain",
+    "general--substack-note",
+    "general--substack-note-permalink",
+    "general--svg-content-preservation",
+    "general--svg-external-css-fallback",
+    "general--tailwind-hidden-blog-index",
+    "general--trailing-cta-newsletter",
+    "general--wikipedia",
+    "general--wikipedia-ipa-pronunciation",
+    "general--www.figma.com-blog-introducing-codex-to-figma",
+    "general--x.com-article",
+    "general--x.com-article-2026-02-13",
+    "gmail--mail.google.com-mail-u-0-thread",
+    "headings--fragment-url-not-permalink",
+    "headings--permalink-title-match",
+    "headings--testid-article-header",
+    "hidden--nodes",
+    "hidden--visibility",
+    "issues--106-menu-id",
+    "issues--114-leading-hr",
+    "issues--120-dhammatalks-footnotes",
+    "issues--131-category-links",
+    "issues--132-hero-class",
+    "issues--136-time-element",
+    "issues--142-arxiv-multi-citations",
+    "issues--143-arxiv-cross-references",
+    "issues--144-arxiv-footnote-marks",
+    "issues--159-lean-heading-permalink-emoji",
+    "issues--159-lean-verso-code-blocks",
+    "issues--159-lean-verso-empty-line-preserved",
+    "issues--159-lean-verso-grouped-blocks",
+    "issues--159-lean-verso-missing-section-gap",
+    "issues--161-x-status-url-author",
+    "issues--162-aria-hidden-main-content",
+    "issues--167-partial-selector-inside-code",
+    "issues--168-links-inside-inline-code",
+    "issues--196-og-title-brand-name",
+    "issues--217-writerside-docs",
+    "issues--218-footnote-wrapper-text-lost",
+    "issues--221-nextjs-noscript-images",
+    "issues--227-noscript-lazy-images",
+    "issues--232-dismiss-in-hidden-content",
+    "issues--254-empty-video",
+    "issues--263-buttons-in-paragraphs",
+    "issues--272-x-localized-conversation-timeline",
+    "issues--280-texinfo-footnotes",
+    "issues--284-table-cell-header-scoring",
+    "issues--285-tag-like-title-escaping",
+    "issues--286-generic-alt-image-dedup",
+    "issues--296-oreilly-noteref-footnotes",
+    "issues--300-nested-layout-tables",
+    "issues--361-escaped-id",
+    "issues--361-shadow-selector-stability",
+    "issues--361-special-class-selectors",
+    "issues--361-tailwind-ancestor",
+    "issues--366-mixed-numbers",
+    "issues--366-screen-reader-links",
+    "issues--374-explicit-image-sources",
+    "issues--374-image-source",
+    "issues--374-invalid-lazy-source",
+    "issues--374-lazy-source-precedence",
+    "issues--374-lazy-srcset-placeholder",
+    "issues--374-unrelated-image-metadata",
+    "issues--footnote-id-with-quote",
+    "issues--header-with-subtitle-p",
+    "issues--header-wraps-content",
+    "issues--pascalcase-section-id-partial-match",
+    "issues--preferred-async-empty",
+    "issues--react-streaming-ssr-colon-id",
+    "issues--sidebar-toggle-checkbox",
+    "issues--span-with-block-children-and-schema",
+    "listing--news.ycombinator.com-news",
+    "metadata--295-header-date-above-title",
+    "metadata--295-suggested-post-date",
+    "metadata--author-by-prefix-and-url",
+    "metadata--date-adjacent-category-link",
+    "metadata--email-style-header-block",
+    "metadata--h1-sibling-byline",
+    "metadata--multi-script-values",
+    "metadata--placeholder-author-and-duplicate-published",
+    "metadata--placeholder-values",
+    "metadata--rel-author-in-bio-container",
+    "related--inline-related-stories-block",
+    "scoring--related-posts-byline",
+    "scoring--table-with-links",
+    "security--markdown-image-escaping",
+    "selectors--arm-newsroom",
+    "selectors--logo-substring-wrapper",
+    "small-images--svg-icon-viewbox",
+    "standardize--span-data-as-paragraph",
+    "table-layout--blogger-two-column",
+    "table-layout--paulgraham.com-makersschedule",
+    "table-layout--peripheral-tables",
+    "table-layout--single-column",
+    "thin-section-before-see-also"
+  ],
+  "inputs": [
+    {
+      "id": "author-contact-block",
+      "file": "author-contact-block.json",
+      "sha256": "73820a17c75b84faff23be7ef4cc19a9fbba2340d417878c76cf75ac69312eb9",
+      "inputSha256": "fa9ee8ce1e118fce30bd4be515825b49fd44658882b6129a376a9376b2122a5e",
+      "url": "https://author-contact-block"
+    },
+    {
+      "id": "author-share-widget",
+      "file": "author-share-widget.json",
+      "sha256": "9ded37bff53efef65a112a66dabdd88a43754e6192763757755639d0e8e00301",
+      "inputSha256": "ca5157791bf1c20e63446e9ff40027c7fcb050b16c04ce94132727bacd5fc1e6",
+      "url": "https://author-share-widget"
+    },
+    {
+      "id": "callouts--obsidian-publish-callouts",
+      "file": "callouts--obsidian-publish-callouts.json",
+      "sha256": "b22e47bb701f9c8a35e3f0b0df907f805201b6e70ebdb55735bd7549c62f63b6",
+      "inputSha256": "9a3ce962491cca5c4ada7419746c84bca93b5bec02edf94c35b07c3a78d787fd",
+      "url": "https://publish.example.com/help/callouts"
+    },
+    {
+      "id": "code-blocks--chroma-linenums",
+      "file": "code-blocks--chroma-linenums.json",
+      "sha256": "d03b730db6fae7cdc531d2f0776c721592d8b1dedd462401118f0a8580273010",
+      "inputSha256": "9304f7a033ec6e088c4e0ba18cc4a72a980e640c497ca06e1942c98646c2dbfa",
+      "url": "https://code-blocks--chroma-linenums"
+    },
+    {
+      "id": "code-blocks--hexo-br",
+      "file": "code-blocks--hexo-br.json",
+      "sha256": "66a79685a6d2b7bb8c7cab434dd6887db079c93190ad41dc21d858f66a3f7774",
+      "inputSha256": "06b860561d65e235de01d6ad9fc5fe383531d1e29d443acd5e38fb3b3d92a3da",
+      "url": "https://code-blocks--hexo-br"
+    },
+    {
+      "id": "codeblocks--chatgpt-codemirror",
+      "file": "codeblocks--chatgpt-codemirror.json",
+      "sha256": "832c282b0978611b5093e26777e7bc72f3d460b43560704b740f0e366b9a7754",
+      "inputSha256": "e710dae016a923e3bad141272abd0080226e5705630f82fe71cb33bebf9ba7a0",
+      "url": "https://chatgpt.com/share/example-12345"
+    },
+    {
+      "id": "codeblocks--chroma-inline-linenums",
+      "file": "codeblocks--chroma-inline-linenums.json",
+      "sha256": "1de66fb57fe6a9e51662612e1d084fd42a0fad07de50fc7ce9491c8d33751c9f",
+      "inputSha256": "01bb178e6a9046cb2ba3927cbacfcdb5edcda13399513ca10f4c8e6c46b1d9b1",
+      "url": "https://chroma-inline-linenums"
+    },
+    {
+      "id": "codeblocks--chroma-line-spans",
+      "file": "codeblocks--chroma-line-spans.json",
+      "sha256": "6f7e950cb877e912b232f723f09778ec02a8ccb22f876cce1f99b0c89bdcf639",
+      "inputSha256": "4ebf58db5e2b1c073aa7d781209637e45b134eceb876031f23e1c2ea8ed9c7f4",
+      "url": "https://chroma-line-spans"
+    },
+    {
+      "id": "codeblocks--code-pre-nesting",
+      "file": "codeblocks--code-pre-nesting.json",
+      "sha256": "c8dbfb74a8c60e309b6c399f761e6d74f4073e0b3b550bcfe7ae946fc759c96b",
+      "inputSha256": "e7149c573f1ccffbefcbbd071b2adfd3981462cdae093a270ec260b70012483c",
+      "url": "https://example.com/docs/quickstart"
+    },
+    {
+      "id": "codeblocks--flex-row-gutter",
+      "file": "codeblocks--flex-row-gutter.json",
+      "sha256": "e4e0e980f56ae5391d2e8f0d473d0e31a5940a51121b1951e96c109250aa450b",
+      "inputSha256": "ffbc2e491d1125ccb3abb58309334efe6e409a4ddbd2df7bb6b984ef7d7f2d56",
+      "url": "https://example.com/engineering/agent-architecture"
+    },
+    {
+      "id": "codeblocks--hljs-header",
+      "file": "codeblocks--hljs-header.json",
+      "sha256": "0acc180f51f2be876bc1f65eb346c949dd3385248920a08cce911ebe351a0180",
+      "inputSha256": "d9daeb7ec3489df64437fa2cd09e9dbfecd29411aec4163bcb2df73fedcd6997",
+      "url": "https://example.com/code-tutorial"
+    },
+    {
+      "id": "codeblocks--mintlify",
+      "file": "codeblocks--mintlify.json",
+      "sha256": "ad88d68497180bbfb6396b9b6c9660ca65432988d808ad8b577253cce0ff92d5",
+      "inputSha256": "bdc313068e7826083d5a25ee1f524efe2c21e4219f8c8bd6d2c5b39b4212f8b5",
+      "url": "https://mintlify"
+    },
+    {
+      "id": "codeblocks--pygments-lineno",
+      "file": "codeblocks--pygments-lineno.json",
+      "sha256": "baa7ec455805073580fd8d5ee2bef2b8c62481d5c5842aa2361bcb70199e71d3",
+      "inputSha256": "fff768dafb77b2d69ba020af2a85d2ed3a8966f64c19196a73e66ceea7096b17",
+      "url": "https://pygments-lineno"
+    },
+    {
+      "id": "codeblocks--react-syntax-highlighter-linenums",
+      "file": "codeblocks--react-syntax-highlighter-linenums.json",
+      "sha256": "0afc1d2b2cf5b5e5cd37d9118001997bb55067fe9043bf349d8ee381cc62e9a1",
+      "inputSha256": "e34fd339bc0f0b0d8a91b772c5537f99b0a9d46a629747143b677a93b14dca86",
+      "url": "https://react-syntax-highlighter-linenums"
+    },
+    {
+      "id": "codeblocks--rehype-pretty-code",
+      "file": "codeblocks--rehype-pretty-code.json",
+      "sha256": "f8b16c47ea76af4f8f8ef3d75f9c7998d4470f418d5dbf937df709fb0e1a5cdc",
+      "inputSha256": "e42d99eb82cbf6a1130be0d76c1787b5186cfffc9cc0e9d4a88c6963fd0e4097",
+      "url": "https://rehype-pretty-code"
+    },
+    {
+      "id": "codeblocks--rehype-pretty-copy",
+      "file": "codeblocks--rehype-pretty-copy.json",
+      "sha256": "203a4cbc1ea9f9ac4ad3b5b594f03ac26802e2dfaee641af2e73c3295ffce6dc",
+      "inputSha256": "eff4d4ee367300a8b8c73e4efe990d762f537c8a81d985d64b28a2bf175c47cf",
+      "url": "https://rehype-pretty-copy"
+    },
+    {
+      "id": "codeblocks--rockthejvm.com-articles-kotlin-101-type-classes",
+      "file": "codeblocks--rockthejvm.com-articles-kotlin-101-type-classes.json",
+      "sha256": "7667c5fa8165b8639be67305e11c47c8924d8e4ffb64bda3da284f133593188d",
+      "inputSha256": "a661a4d2d009f124b5acd5b12b0f673e1cdcf651d97f1a1bb965aa8f4205b265",
+      "url": "https://rockthejvm.com/articles/kotlin-101-type-classes"
+    },
+    {
+      "id": "codeblocks--rouge-linenums",
+      "file": "codeblocks--rouge-linenums.json",
+      "sha256": "0ecc970617c8c72615853450d7f45bbc274cb59ccb3f8a2adb14a90887bc3e15",
+      "inputSha256": "aaf7724bc99f11b94d8de5e9fe4454c4d0adcffdf62570169222f5595dd8d3f6",
+      "url": "https://rouge-linenums"
+    },
+    {
+      "id": "codeblocks--stripe",
+      "file": "codeblocks--stripe.json",
+      "sha256": "4071a28390d96be8d3683350f83a919b8a8f4195b40b0248ee0567c9ac4dcf47",
+      "inputSha256": "24300954b5f5964279fa1ae931f6f180685e9e105842fa37cc84e057219389c9",
+      "url": "https://stripe"
+    },
+    {
+      "id": "comments--mastodon.social-@user-12345678",
+      "file": "comments--mastodon.social-@user-12345678.json",
+      "sha256": "5175e59f6ea5ee8db292e8a1d752cbe4ee0593e126f1341f2a7c2e0c23f1e702",
+      "inputSha256": "50415fc977492f2e3b39fd328f67ca0389b447493eab3ddde3f1e153cd7e6d4d",
+      "url": "https://mastodon.example/@alice/12345678"
+    },
+    {
+      "id": "comments--news.ycombinator.com-item-id=12345678",
+      "file": "comments--news.ycombinator.com-item-id=12345678.json",
+      "sha256": "2ecdc45aca99085c4c1322faf339a434c452abd9c03ad7f3ca852ac3ce097bc4",
+      "inputSha256": "10ce4d9de11afc40410b8c90ec497cbd2cad6db0c8d2cdddc5d5bd1a1e7e4a28",
+      "url": "https://news.ycombinator.com/item?id=12345678"
+    },
+    {
+      "id": "comments--old.reddit.com-r-test-comments-abc123-test_post",
+      "file": "comments--old.reddit.com-r-test-comments-abc123-test_post.json",
+      "sha256": "399bea55a228344b51afb5b2c1877fa7920d8da2f26896f7ef6a7433953c097a",
+      "inputSha256": "d5d81b9ac009b37b58fac8f88b6c35ee3acdbd60f5a11a360320e7a85a9ca19c",
+      "url": "https://old.reddit.com/r/test/comments/abc123/test_post"
+    },
+    {
+      "id": "content-patterns--card-grid-stripped-headings",
+      "file": "content-patterns--card-grid-stripped-headings.json",
+      "sha256": "0bbe7f15071065f2bb61cbb106946c69161f71cb61c04c7391d52ac6ae367961",
+      "inputSha256": "22583775462b0fd1618788b2388876e1dbb86e20f113019650c9361cf961e94a",
+      "url": "https://content-patterns--card-grid-stripped-headings"
+    },
+    {
+      "id": "content-patterns--code-block-boilerplate-and-trailing-section",
+      "file": "content-patterns--code-block-boilerplate-and-trailing-section.json",
+      "sha256": "1b30979117c63914b53d40b86923e0fdc8967d69673c6492fe81f962c32d472b",
+      "inputSha256": "bd5316fb04d11a15d4536b30ff3c2a5ea61641af1dde35628c9af2a91bb463d2",
+      "url": "https://example.dev/blog/building-api-integrations"
+    },
+    {
+      "id": "content-patterns--content-list-with-internal-links",
+      "file": "content-patterns--content-list-with-internal-links.json",
+      "sha256": "920ecd3dcf6b25cd4d6066e7191bd2c17ec0783304d7ae048249a5c16a92c1fd",
+      "inputSha256": "3670039e684fdd63fbafa19c5c2645aa87faf593aa02986cea0bf5fd64dcb356",
+      "url": "https://content-patterns--content-list-with-internal-links"
+    },
+    {
+      "id": "content-patterns--heading-introduced-list",
+      "file": "content-patterns--heading-introduced-list.json",
+      "sha256": "fe6e3d9aef2474374058178a0a0c8920c8eeff4b01c79c76d5f27412ecffd780",
+      "inputSha256": "213078d43412c3cbf4ae29c54f9e779dab784ad715c99ace274cc0d8ad7dd2ac",
+      "url": "https://content-patterns--heading-introduced-list"
+    },
+    {
+      "id": "content-patterns--iso-date-and-read-time",
+      "file": "content-patterns--iso-date-and-read-time.json",
+      "sha256": "efe23bf4b4b19d5e423761f4c41d94135084ee948cf4d191fea8648ae732c6cf",
+      "inputSha256": "03a5df03634fcff720650a388cd092aa0d21c51a77bf95d13decd7be62d35317",
+      "url": "https://blog.example.com/iso-date-read-time-post/"
+    },
+    {
+      "id": "content-patterns--leading-breadcrumb",
+      "file": "content-patterns--leading-breadcrumb.json",
+      "sha256": "982db7923b54878ce82a8467ac07b47ea9473cba0bfffc62dcbc166602c554bc",
+      "inputSha256": "826698dacd76607a00b7e3af3d2c03bc4b277510c975f4f6795a1d54fd6a0491",
+      "url": "https://content-patterns--leading-breadcrumb"
+    },
+    {
+      "id": "content-patterns--live-blog-metadata",
+      "file": "content-patterns--live-blog-metadata.json",
+      "sha256": "6377e867b7f22732e78df2f0dbcf957d956f1f98029073e4adff1384419e1850",
+      "inputSha256": "a77e410c3bd9f8c0c4452b95564ef98951a305e1c36323d048bb679d2a131dbf",
+      "url": "https://www.example.com/live/2026/04/07/world/breaking-news"
+    },
+    {
+      "id": "content-patterns--multi-image-row-midarticle",
+      "file": "content-patterns--multi-image-row-midarticle.json",
+      "sha256": "1af9a815efe3760f6454ecbf3f10a876654d63e437815238146c5d24aebf8de2",
+      "inputSha256": "aaf03a7ae5b7f68444b246a94ed74e57d51966d20c5185d90c2505c2793dafae",
+      "url": "https://encyclopedia.example.com/wiki/Example_Topic"
+    },
+    {
+      "id": "content-patterns--non-semantic-hero-header",
+      "file": "content-patterns--non-semantic-hero-header.json",
+      "sha256": "f5f58415d7f4727da64887645a0a9a9a2088e6888a9103323f9d3127377b2b4c",
+      "inputSha256": "8925c9cde31fee2de94091394d24b0104ed87511a31e0339e12a65051de768b3",
+      "url": "https://example.com/articles/news/view/12345/pioneer-awards-ceremony"
+    },
+    {
+      "id": "content-patterns--social-counter-link",
+      "file": "content-patterns--social-counter-link.json",
+      "sha256": "7499057f58d68dc32378566a69a4f11ed95fc45ff3fbbfc752d686dad8f93a1b",
+      "inputSha256": "03c7ae579986bef4133f5ef7df43cde677049c4d827d962201b0ebbf04bff3d4",
+      "url": "https://blog.example.com/p/test-article"
+    },
+    {
+      "id": "content-patterns--social-engagement-counter",
+      "file": "content-patterns--social-engagement-counter.json",
+      "sha256": "60435c603b471c70a23141a16aa53b99cd834b4bc0dd7f550dd6d0113f6f1519",
+      "inputSha256": "c8ce298f8b8c0df55d7cd35e789c6163f4f1704802a37dc4c68e252f2aaf3a9e",
+      "url": "https://content-patterns--social-engagement-counter"
+    },
+    {
+      "id": "content-patterns--socket-dev-blog",
+      "file": "content-patterns--socket-dev-blog.json",
+      "sha256": "5fa465b704d89eb2a0a9a6663eead6d004141a63cae1b41fccc27b43a18f6b0a",
+      "inputSha256": "eb6a4908077492644bc227d3c2bccb25a3ec1b834536ad0fbda4eadb1f8ebffc",
+      "url": "https://socket.dev/blog/introducing-socket-firewall"
+    },
+    {
+      "id": "content-patterns--table-of-contents",
+      "file": "content-patterns--table-of-contents.json",
+      "sha256": "e4c023fab035d53b26f2a4d577683a4efe28a2c3acf7647a1b9e03ba27ae4fbe",
+      "inputSha256": "427b5951967f11cc58a55fc2de0b677b90cd6809edadb0bbfc06ad6ea3248f15",
+      "url": "https://www.example.org/install-guide/"
+    },
+    {
+      "id": "content-patterns--trailing-related-posts",
+      "file": "content-patterns--trailing-related-posts.json",
+      "sha256": "27f71f6082b87fe21b59ebc407fa7483ee4084e380e952331d9b88fa7d27d7d2",
+      "inputSha256": "17c489cb0685dcd339fbb5e34dc395b3e430b84ca25903a7a19950045b56f3cb",
+      "url": "https://content-patterns--trailing-related-posts"
+    },
+    {
+      "id": "content-patterns--trailing-subscribe-after-footnotes",
+      "file": "content-patterns--trailing-subscribe-after-footnotes.json",
+      "sha256": "1e5dfa7c2d0a625650b9ee830293a744e6311c8bccf1a4f2df2419711007cafe",
+      "inputSha256": "5782c079f069d519a82ac61374c47174a13ee7b204b437272cf57eedfe3919a7",
+      "url": "https://content-patterns--trailing-subscribe-after-footnotes"
+    },
+    {
+      "id": "custom-elements--swiper-carousel",
+      "file": "custom-elements--swiper-carousel.json",
+      "sha256": "1cbe6b923282691dca0ad25e043a60fe4325df95dd734ab8cbd8ad45ed1b3e38",
+      "inputSha256": "e6a8f9ea6737b4bc596184923fc3c2847558b6ea6c2badcdac4def14fbcd86e3",
+      "url": "https://custom-elements--swiper-carousel"
+    },
+    {
+      "id": "elementor--archive-page",
+      "file": "elementor--archive-page.json",
+      "sha256": "ae9735f68e54b839e5257bd9770cabf45b99b26422d7c73c32f00c040d66e54d",
+      "inputSha256": "ab821a0c8de90d0027c1c2440eaed1ba7ac744d2917a3443c229e1bf4026d664",
+      "url": "https://example.com/apartments/"
+    },
+    {
+      "id": "elements--base64-placeholder-removal",
+      "file": "elements--base64-placeholder-removal.json",
+      "sha256": "14bfe35b7ad51faadc4b0ff79d1cde73d408aba721bebd4ce50abed5c69e17be",
+      "inputSha256": "85eab59fdebc6bb1554c4422f4663c72715b384842696b7d4f78767e355b9d95",
+      "url": "https://www.example.com/article/base64-test"
+    },
+    {
+      "id": "elements--bootstrap-alerts",
+      "file": "elements--bootstrap-alerts.json",
+      "sha256": "667a1c7b4c6b98e0234f63a4eabcc3d83bfc63f2cc766918ca02a3dc3f73919c",
+      "inputSha256": "a0b220936ab39efd346a70a5f3528bb1a4c311d59c8ea39d188e86b5fbf1ac64",
+      "url": "https://bootstrap-alerts"
+    },
+    {
+      "id": "elements--br-between-blocks",
+      "file": "elements--br-between-blocks.json",
+      "sha256": "be0737addd85df2be2606340bfca4f44dbcab1bbf56b33e7eaeb56485b6b840c",
+      "inputSha256": "9d3b63685ea3f3c45cd21d2f7b06ab25e806e87714599254adbf256d111eef8f",
+      "url": "https://br-between-blocks"
+    },
+    {
+      "id": "elements--complex-tables",
+      "file": "elements--complex-tables.json",
+      "sha256": "9fc718310be0f6fa82fe28df15790624f7b1d3a642796894481aae7ee97d2cf3",
+      "inputSha256": "7fb48a36b24b0f4b03c8545b426107477eefb7625f04fd5c9ca2d2d7276cd9af",
+      "url": "https://complex-tables"
+    },
+    {
+      "id": "elements--data-table",
+      "file": "elements--data-table.json",
+      "sha256": "7c80ca165b58494abf4162fa7ed3b0aabd65b901f3dde912b19deceed6e6518d",
+      "inputSha256": "e08ded75ecafd563177a3a0504115d6c6e8765aaa27cbd51ec6ffdbae6212808",
+      "url": "https://data-table"
+    },
+    {
+      "id": "elements--embedded-videos",
+      "file": "elements--embedded-videos.json",
+      "sha256": "f9224631b0b32057e55205e8c72c5dd1dffd10dd1710570170d18ce9a2708f6e",
+      "inputSha256": "6952e3042a883eaa351d6114ddff56afeca64a1d2efd0657f1fc32c8006bbdd8",
+      "url": "https://embedded-videos"
+    },
+    {
+      "id": "elements--empty-p-br",
+      "file": "elements--empty-p-br.json",
+      "sha256": "8de3a32fcd268de65ef97c414bcfc742fa4e855e306565e8184939e6b60c64bb",
+      "inputSha256": "c99c85f86fdbf384d5cee56c77329d7e4eaf50ea7406b064d3bdf6dbf8f5041f",
+      "url": "https://empty-p-br"
+    },
+    {
+      "id": "elements--empty-table",
+      "file": "elements--empty-table.json",
+      "sha256": "126a9f5eae5138c519dad51f892ebff66c566d5afc66ead2f686c7f8e70a7ee6",
+      "inputSha256": "ec31e06484a7006259fd617210d90fd41ab8b5c4297c5c9329d584399ff3e37d",
+      "url": "https://empty-table"
+    },
+    {
+      "id": "elements--farsi-zwnj",
+      "file": "elements--farsi-zwnj.json",
+      "sha256": "55cf65f8ea35418baa37d1bd4ab75e07b977aeed62b4498e54002f32ebb0b198",
+      "inputSha256": "83affc9cddff746d59a5a8c2548691a7ad7fad896083274bc65a9e5e24c0a3a6",
+      "url": "https://farsi-zwnj"
+    },
+    {
+      "id": "elements--figure-content-wrapper",
+      "file": "elements--figure-content-wrapper.json",
+      "sha256": "0a6b76a647c68ed6e23b7b10df970f573131dd8ad31fea59ab5b34dbb4a3622f",
+      "inputSha256": "4aecce2fd81fb39180b00f0be31cee0a4d6f8bb18a39d98726f9d5efe21df417",
+      "url": "https://figure-content-wrapper"
+    },
+    {
+      "id": "elements--hugo-admonitions",
+      "file": "elements--hugo-admonitions.json",
+      "sha256": "1e3dbab274ff2d89b73b515e9c3e4be481036c3581ff8e872498b524abbd1e3c",
+      "inputSha256": "8ffe4c504994fb7ebf82112e118913b7eb4389dd34948b0075ae6fd587239421",
+      "url": "https://hugo-admonitions"
+    },
+    {
+      "id": "elements--image-dedup",
+      "file": "elements--image-dedup.json",
+      "sha256": "ae8d1a0d9484b392af5922d341cc60ad6369e984a128048ee1ca70a776737bce",
+      "inputSha256": "4c75252597572bf8ae7a02a9b2fcde9588be97c661d7cf94961b7b56cbcb285e",
+      "url": "https://www.example.com/article/image-dedup"
+    },
+    {
+      "id": "elements--javascript-links",
+      "file": "elements--javascript-links.json",
+      "sha256": "13009e49227a614d489fa5531532dc4733eac887c7d39f3a9185dbb07571ae71",
+      "inputSha256": "7a546efe6111e04f9aad319cd13343a0281195608ca347ed60642699078f049b",
+      "url": "https://javascript-links"
+    },
+    {
+      "id": "elements--lazy-image",
+      "file": "elements--lazy-image.json",
+      "sha256": "242467a53135fde9e31252773b2360f0782e603177a91a92c894f2e920ee5f89",
+      "inputSha256": "ee244c5ddb8a7985983d266ed39ff9f5c81c5cc6a62b61e4e35e5a6eb4083be6",
+      "url": "https://lazy-image"
+    },
+    {
+      "id": "elements--lightbox-image-dedup",
+      "file": "elements--lightbox-image-dedup.json",
+      "sha256": "b8937f50e8f7023c9f56d2b35ec8fc69f56f9cd8fddde7e0db398546a697f285",
+      "inputSha256": "66e3e7f4a231403f9da3a99c90e4d426bbcfc2dd1d31210eadef7cf01dfee46e",
+      "url": "https://www.example.com/article/gallery-post"
+    },
+    {
+      "id": "elements--nbsp-handling",
+      "file": "elements--nbsp-handling.json",
+      "sha256": "210de1bf71043749752bae0eb3b1490ffe1209ba174783770a2c3cfeee99e79e",
+      "inputSha256": "845688cb97ecd7f0d6a41071973e1636dcd30147ffa75d65bb5b5ed1f0325ff4",
+      "url": "https://nbsp-handling"
+    },
+    {
+      "id": "elements--srcset-normalization",
+      "file": "elements--srcset-normalization.json",
+      "sha256": "3c09f530e7bc88ad37bf231008a21661563bb861ed2e8ef1c5b1d28ae8000682",
+      "inputSha256": "9995fff85e4de8fb2b764de0ee77639fc99fcb2ed7746d319e85598322f088aa",
+      "url": "https://www.example.com/article/srcset-test"
+    },
+    {
+      "id": "elements--svg-placeholder-lazy-image",
+      "file": "elements--svg-placeholder-lazy-image.json",
+      "sha256": "524cdc47033c1d298324ef75a71136013c59344a015da639b7e36c32a3b1dcf4",
+      "inputSha256": "72e58c54619b83ccf03b26b9ce52bbf983d9bfdf90d56b09159ff7f9a16573a5",
+      "url": "https://www.example.com/reviews/test-app"
+    },
+    {
+      "id": "elements--whitespace-newlines",
+      "file": "elements--whitespace-newlines.json",
+      "sha256": "b7d95dc5ad5ff785f259cfb9cef62f7a184b3d9223e491666b02ad50e347bf9f",
+      "inputSha256": "4633f097fa0ea2b000f2cf1bcdbec03d15348ff6a7d0ab784e0ab8c2405149e5",
+      "url": "https://whitespace-newlines"
+    },
+    {
+      "id": "entry-point--js-article-content",
+      "file": "entry-point--js-article-content.json",
+      "sha256": "be89d6f9041c86dd6d587c1e5dbd9bcd2c802ef2e5a9e33654aa07133602acec",
+      "inputSha256": "9a302daeb88d3e2c8d64373a541ef969445b3378931b385c6d8fb96a583fe258",
+      "url": "https://example.com/blog/test-article/"
+    },
+    {
+      "id": "extractor--bbcode-data",
+      "file": "extractor--bbcode-data.json",
+      "sha256": "a546c29439c0ecaa3f1e7c9a5236d91004df6754fc3c4d3b65f6025e1e5c958a",
+      "inputSha256": "d8b2cc9a38d8bcb71082785b1c08c45502203efe41f5e50a6bc8403b71f4e37a",
+      "url": "https://store.example.com/news/app/123456/view/987654321"
+    },
+    {
+      "id": "extractor--chatgpt-citations",
+      "file": "extractor--chatgpt-citations.json",
+      "sha256": "b7e19b36a66428ff7bbceee5887bda9c2224d4fa0b4d13b0a413534ac75e2b89",
+      "inputSha256": "7361cf0044d74469e2f8034ed555aaff49048b11c249dab0ece4878703be7d4a",
+      "url": "https://chatgpt.com/share/example-citations"
+    },
+    {
+      "id": "extractor--chatgpt-post-thought-content",
+      "file": "extractor--chatgpt-post-thought-content.json",
+      "sha256": "6923e22df86ca0c1ebfb31d74bc395617f5982f0179127cf2de6f35b7099c066",
+      "inputSha256": "de0b072c96696854039cbd9c6abf268e1ca1ec54c88e5328316a9d4a494f1cf8",
+      "url": "https://chatgpt.com/share/example-post-thought-content"
+    },
+    {
+      "id": "eyebrow--linked-category",
+      "file": "eyebrow--linked-category.json",
+      "sha256": "43053195c179b067fa2ddfa7c6256f2840e5a4e0a7f9f7f1a6545c015da7039d",
+      "inputSha256": "f0f93d8360b6cf32d8cec3c48bb4b24083107c05aa73379d3c615ff911b19da4",
+      "url": "https://linked-category"
+    },
+    {
+      "id": "eyebrow--paragraph-label",
+      "file": "eyebrow--paragraph-label.json",
+      "sha256": "4f40915e1502e79e6fe3882800ef1735258f951799e51f17f5e1c59d18017d37",
+      "inputSha256": "730ec8481c6f550a82c23946015ff9e6e28259dc7a2cffb283108b2f249a4f6d",
+      "url": "https://paragraph-label"
+    },
+    {
+      "id": "eyebrow--spans-category",
+      "file": "eyebrow--spans-category.json",
+      "sha256": "e1dd0cd9b433fb180d5853b16530ecfc9eeffee38ee1c14722466b24a2d65e49",
+      "inputSha256": "e6a6ca2f3b87118b18ad3f66d2b271ac5e004b7cdd60ecfcb59231e393875955",
+      "url": "https://spans-category"
+    },
+    {
+      "id": "eyebrow--wrapper-with-icon",
+      "file": "eyebrow--wrapper-with-icon.json",
+      "sha256": "62547729a3aa6af21d6dce3edd93cb14279c6e8eeaf65d4dbc00612d0e14ccbf",
+      "inputSha256": "cfd2df8111419052b77ec9213b277dd9a5baf06a8e4f6d75ee9b8fb16b3358c8",
+      "url": "https://wrapper-with-icon"
+    },
+    {
+      "id": "footnotes--aside-ol-start",
+      "file": "footnotes--aside-ol-start.json",
+      "sha256": "2fbe9fab934dda59f2108e17d0a7445744c0e2db94b94e844ced35f49e35dc2c",
+      "inputSha256": "5c0e163c68d329e2af300afccf41884d51a5d5aba0bd3ea9bba762899011b10e",
+      "url": "https://aside-ol-start"
+    },
+    {
+      "id": "footnotes--bold-sup-trailing",
+      "file": "footnotes--bold-sup-trailing.json",
+      "sha256": "16101a8dcf786484d6d2139f3bda5d4a3148f46131b5f8583b9c9d828bc3090a",
+      "inputSha256": "a62118ea3f117c6e66ec0769ccb5b19e260a8d5b800e0e8f8f7267f349a3fcaa",
+      "url": "https://bold-sup-trailing"
+    },
+    {
+      "id": "footnotes--br-separated-named-anchors",
+      "file": "footnotes--br-separated-named-anchors.json",
+      "sha256": "a64f8d840076990776728b79ec301ff3e24a4ce474af0431df4d095e1f3ba12e",
+      "inputSha256": "5f3c7417b0c2c633f20f2953c484b895ca49c7386875db0ba821946c11a1b2c4",
+      "url": "https://br-separated-named-anchors"
+    },
+    {
+      "id": "footnotes--child-anchor-id",
+      "file": "footnotes--child-anchor-id.json",
+      "sha256": "42ce21ae0ed3ceabbe4479a7d71a5e4e56072c7b437682cc41e288af4d92cc13",
+      "inputSha256": "031f15c5dbfcf6d07388b436fa9c709fbf8b84c72927a29a983b3c213c19b887",
+      "url": "https://child-anchor-id"
+    },
+    {
+      "id": "footnotes--easy-footnotes-wrapper",
+      "file": "footnotes--easy-footnotes-wrapper.json",
+      "sha256": "5b091963ef6c3e8aaa97b9957015b66c72f406963344466269b03b923e597278",
+      "inputSha256": "ec6529f40ccdeb44df8e576bd3e0d5c89687444921a9a61fd91d0fecb8e71069",
+      "url": "https://easy-footnotes-wrapper"
+    },
+    {
+      "id": "footnotes--external-labeled-section",
+      "file": "footnotes--external-labeled-section.json",
+      "sha256": "99f3864924da5fc6f0806da1c12ba393a55632933b9655cc40f3277f07378c92",
+      "inputSha256": "7ed07a45dace7d28f6854f3c0eb7e8f1b9cd0e36c39c6d9aaab7c4de6444ad64",
+      "url": "https://external-labeled-section"
+    },
+    {
+      "id": "footnotes--google-docs-ftnt",
+      "file": "footnotes--google-docs-ftnt.json",
+      "sha256": "d347448d6facd13022fbc10e5f33c69cde4f20bd1aa5f19443d2dce84f3e8db7",
+      "inputSha256": "ae1af6f7cd4eb7e3a06083a61fbd2c9bc532b414ac837940cffd070d234369ea",
+      "url": "https://google-docs-ftnt"
+    },
+    {
+      "id": "footnotes--heading-notes",
+      "file": "footnotes--heading-notes.json",
+      "sha256": "80c45489262905e5eae2e8985a68114db6fd6ea8109147e176ac506794cf5661",
+      "inputSha256": "758a4dec1d3729aac5a0004c4ae979f8bea9fcd2fa97afd94f4f64893171e394",
+      "url": "https://heading-notes"
+    },
+    {
+      "id": "footnotes--hidden-aside-data-definition",
+      "file": "footnotes--hidden-aside-data-definition.json",
+      "sha256": "e0fa1021d2ddc578332c2c9f7d4210c12855aaf17e03a65b34c9739786b45562",
+      "inputSha256": "0595c618e66f7ac090d8e95cfc6785530041fa2539d0c96061d9ca6e758445dc",
+      "url": "https://hidden-aside-data-definition"
+    },
+    {
+      "id": "footnotes--hidden-section",
+      "file": "footnotes--hidden-section.json",
+      "sha256": "a61b21570b79ffb94bd873be34749616ee1a6d409f005d5aff5bca948e4a3af2",
+      "inputSha256": "46cadf46e7c087aedbe6f3d5d6e74e25a15d64e51e65921c42f998cbb97c1031",
+      "url": "https://hidden-section"
+    },
+    {
+      "id": "footnotes--hr-continuation",
+      "file": "footnotes--hr-continuation.json",
+      "sha256": "02d64db1e6d89b969364e936afb8a098f0ac287d8a5526ef02ffbae45ff2e968",
+      "inputSha256": "4f8ee9a9f51b03cc66f220814b96d6e0316deb12b8f1077c40d488ca1dfa5719",
+      "url": "https://hr-continuation"
+    },
+    {
+      "id": "footnotes--hr-strong-numbered",
+      "file": "footnotes--hr-strong-numbered.json",
+      "sha256": "576bc4db2e7862a9f27bcf5a5aa9c3c34033e0c96d7363521ceb8cfa8b31ba4e",
+      "inputSha256": "88a5cce5005611779a6e31566a35c25e5f40e7f08cd748151a948cf79539ccc1",
+      "url": "https://hr-strong-numbered"
+    },
+    {
+      "id": "footnotes--hr-sup-numbered",
+      "file": "footnotes--hr-sup-numbered.json",
+      "sha256": "c24384058d88cb3916287adcce8a812653f2660cf93957ba3bc4bb9ae0fab4d3",
+      "inputSha256": "0a96de34415085c5f315418435026c2430513a51655be60b81a727d5dc4cc565",
+      "url": "https://hr-sup-numbered"
+    },
+    {
+      "id": "footnotes--inline-footnote-span",
+      "file": "footnotes--inline-footnote-span.json",
+      "sha256": "2ebd95f3e902f15e22d59d5c2eeb82e6b3dc969b28437fa987bc93d8f2062409",
+      "inputSha256": "9dbf3dbb41e85d0a4ee585ef19b022169a7d75b154538baf644c15ec5e11bfc8",
+      "url": "https://inline-footnote-span"
+    },
+    {
+      "id": "footnotes--labeled-section-ol",
+      "file": "footnotes--labeled-section-ol.json",
+      "sha256": "1119412dccba24c97dc0ef0d708995d6a2c78eedb736a105b27af6cebfd4e120",
+      "inputSha256": "f3f5028e35ccf950e2ca62df6c28d101889acb26b8f9abe008b7c5090802a1db",
+      "url": "https://labeled-section-ol"
+    },
+    {
+      "id": "footnotes--maggieappleton.com-xanadu-patterns",
+      "file": "footnotes--maggieappleton.com-xanadu-patterns.json",
+      "sha256": "39dde2d55cb9736aff9c813d804eb2634874bf04988d733969aa3e6eedc5f7fe",
+      "inputSha256": "12886328bddef3c2392205e5f71a2f07df8641ea09f979597d3de431ba23fb88",
+      "url": "https://maggieappleton.com-xanadu-patterns"
+    },
+    {
+      "id": "footnotes--named-anchor",
+      "file": "footnotes--named-anchor.json",
+      "sha256": "a41aa4b9cc1081cf438cbd282afd245dfbd30f6d1da6ddea9d23ed860441493f",
+      "inputSha256": "e79819031e09be46484213d565be72c07178b56cd1fd1adbe96956d39fda976e",
+      "url": "https://named-anchor"
+    },
+    {
+      "id": "footnotes--nested-prose",
+      "file": "footnotes--nested-prose.json",
+      "sha256": "3013a7fa37e4ff64219b646e997fe3976a437c3a8689eed2c60d677de3aed5d3",
+      "inputSha256": "e0d21ed8de51abab1daa4b4654a701865590454861d65bfc4e0a8a63c6084b9e",
+      "url": "https://nested-prose"
+    },
+    {
+      "id": "footnotes--no-false-positive-equation-refs",
+      "file": "footnotes--no-false-positive-equation-refs.json",
+      "sha256": "fb2891154bd03437afcac948f3c3473e998f9ee43d47c9877811fdf994e7e230",
+      "inputSha256": "b718c9557c56a6aa19fa59c781f863b28e3d7b56a26ff2809e4db7bd141cac17",
+      "url": "https://no-false-positive-equation-refs"
+    },
+    {
+      "id": "footnotes--numeric-anchor-id",
+      "file": "footnotes--numeric-anchor-id.json",
+      "sha256": "821b2472b6b8e19c4ac595b32100de4531fabae4fee07b0f0573f87796e0e0b9",
+      "inputSha256": "ab2a25d6ce83fcf564ed38525fa431a9a52334072c70c7c535c8a4b2cd75d92b",
+      "url": "https://numeric-anchor-id"
+    },
+    {
+      "id": "footnotes--orgmode-css-sidenotes",
+      "file": "footnotes--orgmode-css-sidenotes.json",
+      "sha256": "321ca87d2ff1b757f999bea384c5e268c3307c4a1ecc060b4ee0bd82926b05f9",
+      "inputSha256": "d97d33bc7dd09e872912b5c4321d6b676a6705d800b9eb1c99f62130d88719a7",
+      "url": "https://orgmode-css-sidenotes"
+    },
+    {
+      "id": "footnotes--p-class-footnote",
+      "file": "footnotes--p-class-footnote.json",
+      "sha256": "e7a1a577a848ad5fce9c2139dacd0f840adcef430c59c0032c4a309c5a8e6ab3",
+      "inputSha256": "de995c515256867c054d7119de1e4b32a1b2c020d06da47fe2a20b26310b475f",
+      "url": "https://p-class-footnote"
+    },
+    {
+      "id": "footnotes--pulldown-cmark-footnote-definition",
+      "file": "footnotes--pulldown-cmark-footnote-definition.json",
+      "sha256": "35514d873645464a3770dcb83699c7211c4727e5d33d064d43916516b908d719",
+      "inputSha256": "a99a8c205e57c5a474599ad0d5e3b8d80e89deff94de5b120af07c52c2ca0fe5",
+      "url": "https://pulldown-cmark-footnote-definition"
+    },
+    {
+      "id": "footnotes--sidenote-inline-with-list",
+      "file": "footnotes--sidenote-inline-with-list.json",
+      "sha256": "09e3a3972258da06a2d6a000dcd62404d03e351ec0ad8b8e59683216174903c7",
+      "inputSha256": "9fa8b2d0319de66907e35192bed70cf54fe566d0b1b486034572fd18620d2e65",
+      "url": "https://sidenote-inline-with-list"
+    },
+    {
+      "id": "footnotes--span-fnref-colon",
+      "file": "footnotes--span-fnref-colon.json",
+      "sha256": "7908a31b87280eabd3c853a305f70f6f74f69b19035da5c314dba09e61aa7035",
+      "inputSha256": "8c8c015b9e277f9fd208d90e14b13daed47d9089da2789650b858325df579a82",
+      "url": "https://span-fnref-colon"
+    },
+    {
+      "id": "footnotes--wikipedia-references",
+      "file": "footnotes--wikipedia-references.json",
+      "sha256": "ac75f43db1e9dedc4886976feb21e77d792799804f99bb616c879f5cc61f4301",
+      "inputSha256": "09f9710323eaa19251602c3f2224d32a065cf3efc6df6956cfd65387cfc0d204",
+      "url": "https://wikipedia-references"
+    },
+    {
+      "id": "footnotes--word-ftn-ftnref",
+      "file": "footnotes--word-ftn-ftnref.json",
+      "sha256": "bad2b14b2ff07f5ffefb32ebf5bdf6cd1815aa8cf7b1eeb7d2f399c9c81d697b",
+      "inputSha256": "dfe64898762fce3b75df117e83cee736801b7e8f3ce56569486af5dce69a4ce5",
+      "url": "https://word-ftn-ftnref"
+    },
+    {
+      "id": "footnotes--wp-block-footnotes",
+      "file": "footnotes--wp-block-footnotes.json",
+      "sha256": "d584ca4699acd7e12705355919649b8d22a65c8bf3c78660b6f456eea9afee08",
+      "inputSha256": "9cbb5244b2b8c9c2bdb507b4ef7c548aa67180473910c92c0327d7f5272b5ed8",
+      "url": "https://wp-block-footnotes"
+    },
+    {
+      "id": "gated-content--cookie-consent",
+      "file": "gated-content--cookie-consent.json",
+      "sha256": "e31b6b8693db7e5c56f5548ef0f63a1c8504ec1b9382fe4eddd9c2114426d553",
+      "inputSha256": "5f14977442159ddca8c2e55264582d53de5e121e32c858a3d7d5e0d37af45824",
+      "url": "https://gated-content--cookie-consent"
+    },
+    {
+      "id": "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes",
+      "file": "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes.json",
+      "sha256": "a63c365094bc2e9ae293b9fbfbc824bededd161f6e4e7d640107bd4dcca28587",
+      "inputSha256": "636b077c4ceccf21193b8b3efc28bd5241a58d7c6f2287711c1da5d2663d96ca",
+      "url": "https://12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes"
+    },
+    {
+      "id": "general--apnews-link-enhancement",
+      "file": "general--apnews-link-enhancement.json",
+      "sha256": "bdc498de396a108a86a06c21839793e0967e9cab8c184726fb77327020f387b3",
+      "inputSha256": "c41ebaaea632143c2bc5fcd3d29ef63b6e2eb02c20b0e8ca8b884a7f597a636d",
+      "url": "https://apnews-link-enhancement"
+    },
+    {
+      "id": "general--appendix-heading",
+      "file": "general--appendix-heading.json",
+      "sha256": "d138e9749adf061dd375da6b0567835552c3d65447e31d6ad7678e75580540de",
+      "inputSha256": "dfa745f054e44b64b84068df88ca6251a4c084f8884df60dedbf4ac028cc53a2",
+      "url": "https://appendix-heading"
+    },
+    {
+      "id": "general--back-nav-link",
+      "file": "general--back-nav-link.json",
+      "sha256": "d958d4bbf72047e4efa79b2fa3118a037a44335755f002944af783d7717445fc",
+      "inputSha256": "99d055d078d0914bffb47bce0a10ebab75147302e5f55cb81fdc319a5c8bd4c4",
+      "url": "https://example.com/articles/sorting"
+    },
+    {
+      "id": "general--daringfireball.net-2025-02-the_iphone_16e",
+      "file": "general--daringfireball.net-2025-02-the_iphone_16e.json",
+      "sha256": "0ba5a6372801defd44d7053f4ed841aaeb9f20f159fd2ba617f4cd36bf163abc",
+      "inputSha256": "c4fb9f8a3d2a57c1c9cc4f4178d5c569264de3e44677c57b65cca37377751b64",
+      "url": "https://daringfireball.net-2025-02-the_iphone_16e"
+    },
+    {
+      "id": "general--developer.mozilla.org-en-US-docs-Web-JavaScript-Reference-Global_Objects-Array",
+      "file": "general--developer.mozilla.org-en-US-docs-Web-JavaScript-Reference-Global_Objects-Array.json",
+      "sha256": "fa4c79364b945690af4325ff05fa01efa07faab4fbc417df87280ccf5f88e714",
+      "inputSha256": "c5fabf319af88b031b0112ce7859a3c6b031a962e3a55e7d879cd384340dc861",
+      "url": "https://developer.mozilla.org-en-US-docs-Web-JavaScript-Reference-Global_Objects-Array"
+    },
+    {
+      "id": "general--github.com-issue-56",
+      "file": "general--github.com-issue-56.json",
+      "sha256": "8924a0d9bc4fb41b0f9c31ff9cb6c6fbada50073227ee0c8fbbf08e55ac88837",
+      "inputSha256": "2a8ba549fd8131a5f207ddbc5dd8863771271900d5ba140d0d36c8bf49f148b3",
+      "url": "https://github.com-issue-56"
+    },
+    {
+      "id": "general--github.com-test-owner-test-repo-pull-42",
+      "file": "general--github.com-test-owner-test-repo-pull-42.json",
+      "sha256": "11efa8412ba51f50d0d4779dfa4ce3eee5da3b96ddbae2719a0a4852f0d97814",
+      "inputSha256": "60341906c654e6251261cc82331de473742ff8417d380d7f269c15919d06e41c",
+      "url": "https://github.com/test-owner/test-repo/pull/42"
+    },
+    {
+      "id": "general--inline-comments-and-link-lists",
+      "file": "general--inline-comments-and-link-lists.json",
+      "sha256": "b7dd704b4af0b92b5c600e28bbd9af5f073fdc57e79289698db07d2faecafee9",
+      "inputSha256": "38909af04b54a440b12d883f1d841be086569fde9234d3ba3efffcdfb6647b66",
+      "url": "https://example.com/2026/03/16/new-product-announced"
+    },
+    {
+      "id": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+      "file": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx.json",
+      "sha256": "b1e6b6176853c05bd2bf7ca11f8a07e7b540668f5f6f2033837d67d67be2a947",
+      "inputSha256": "2e080a1a7fe51a14f9ce83fbadc828cd5c35ff0f12ae0d0853af18e16f73e217",
+      "url": "https://lesswrong.com/s/N7nDePaNabJdnbXeE/p/vJFdjigzmcXMhNTsx"
+    },
+    {
+      "id": "general--multi-article-portfolio",
+      "file": "general--multi-article-portfolio.json",
+      "sha256": "2c3b81ce48f03ee8edd2e2f2b51a57ed088e7a7d6a705c7768ec0b23dce18053",
+      "inputSha256": "62342ab1cea96a76be4550f53796516c571857675efae30f0751f298ac291611",
+      "url": "https://multi-article-portfolio"
+    },
+    {
+      "id": "general--news.ycombinator.com-item-id=12345678",
+      "file": "general--news.ycombinator.com-item-id=12345678.json",
+      "sha256": "25e6f06aa34da54e8902336265d9b81ae7157a3c5a1f81296931b3431addd086",
+      "inputSha256": "a5425a209354a12c2721eafc991f6c7eece1285bc2325782cd8371b53c25be82",
+      "url": "https://news.ycombinator.com/item?id=12345678"
+    },
+    {
+      "id": "general--obsidian-publish-cjk",
+      "file": "general--obsidian-publish-cjk.json",
+      "sha256": "43f399e2c2f74c8619a5b8a658847dcddf063f8adee77cf9d7981cf3167275a5",
+      "inputSha256": "3a2211b10877814d0af555779208bdb33a1b2b279c93414391f074dca45a59cc",
+      "url": "https://obsidian-publish-cjk"
+    },
+    {
+      "id": "general--obsidian.md-blog-verify-obsidian-sync-encryption",
+      "file": "general--obsidian.md-blog-verify-obsidian-sync-encryption.json",
+      "sha256": "7782853426434b6cef1fc1f1abab92e83824ce5084fa416194d83c4d9dd4d151",
+      "inputSha256": "d80b89200e9599996284e450a0f54ebdcd8febc8fc6923049b92e565482f047c",
+      "url": "https://obsidian.md-blog-verify-obsidian-sync-encryption"
+    },
+    {
+      "id": "general--react-streaming-ssr",
+      "file": "general--react-streaming-ssr.json",
+      "sha256": "1066875346fbabcbdbc6a2753d158116b76fab7c766fe7b4941c78413ae42c56",
+      "inputSha256": "6098618b8e2d671569e74c087215baf9631df8fed49116dfbf3aa8c40197faf7",
+      "url": "https://react-streaming-ssr"
+    },
+    {
+      "id": "general--scp-wiki.wikidot.com-scp-9935",
+      "file": "general--scp-wiki.wikidot.com-scp-9935.json",
+      "sha256": "83ab6d562cf43a33a780ac323a9c92a1e15639c64871f4b87fbfad52d1c71aa1",
+      "inputSha256": "bb8f95a91736194b0c73a2c3a27f4cc606758fdbac40567f4240fdf44acd19cc",
+      "url": "https://scp-wiki.wikidot.com-scp-9935"
+    },
+    {
+      "id": "general--stephango.com-buy-wisely",
+      "file": "general--stephango.com-buy-wisely.json",
+      "sha256": "df04c454cb33c3d7f0684929d71419b21e1cdc52da61e2da0b555fa294134c48",
+      "inputSha256": "0b6188eaaf2916e628c788a9c76e0a1ba7cb1c0d7be29709b7436065f26f1ac7",
+      "url": "https://stephango.com-buy-wisely"
+    },
+    {
+      "id": "general--substack-app",
+      "file": "general--substack-app.json",
+      "sha256": "ba031c9aed23ecf0ddac3795e26e023e62d80afd573a649088d0530b22feb6ab",
+      "inputSha256": "2e3f39ea7ad326ffa84d273101b8b958cd012856a7da224ab1ab10925c7bee29",
+      "url": "https://substack-app"
+    },
+    {
+      "id": "general--substack-custom-domain",
+      "file": "general--substack-custom-domain.json",
+      "sha256": "58baf4a9fdb4194683524385d8115d53e76c8380b0641ae2b5d7fcd5dc92177c",
+      "inputSha256": "86d762eb1f374164b17acb6c179eb300415f064e5ea2c4f4bafa41cd12e7d9dd",
+      "url": "https://www.example-newsletter.com/p/test-article"
+    },
+    {
+      "id": "general--substack-note",
+      "file": "general--substack-note.json",
+      "sha256": "a67b30fe996d0fc7f6a8598a04781282e212815f2d1a6b8f2292babeddb25fdb",
+      "inputSha256": "4b83f5dfa7539d479086964ef1997900b3e8205f2339458504f30be305044b30",
+      "url": "https://substack.com/@testuser/note/c-123456789"
+    },
+    {
+      "id": "general--substack-note-permalink",
+      "file": "general--substack-note-permalink.json",
+      "sha256": "115ed7c41d3002eb6d554b7ba10b3650094e27e8c98444918bcd6f91caebcafa",
+      "inputSha256": "a105a62023bec31a30fbaa81de41dd4bc3bc9f20cfd129fbc07c9c687a167fd9",
+      "url": "https://substack.com/@testuser/note/c-999999999"
+    },
+    {
+      "id": "general--svg-content-preservation",
+      "file": "general--svg-content-preservation.json",
+      "sha256": "bfcd8296b6c413fa71d74acd779d0167f9f47e5c5c40e490d992b1db7b3ba75d",
+      "inputSha256": "83faa83be484550df6194dbf97b5cc0dc2997d6040b2d9cb83412646a5858874",
+      "url": "https://example.com/blog/neural-networks"
+    },
+    {
+      "id": "general--svg-external-css-fallback",
+      "file": "general--svg-external-css-fallback.json",
+      "sha256": "0e6a84a0131f369a23ed9a7a6f91fcfbd9e55a54dfe6b9d1fc5cd070cf267535",
+      "inputSha256": "3fb89859f5744ac1ae85848184aa1969b6f6e43fe25517803fcc32057fc9fa5f",
+      "url": "https://example.com/article/oil-prices"
+    },
+    {
+      "id": "general--tailwind-hidden-blog-index",
+      "file": "general--tailwind-hidden-blog-index.json",
+      "sha256": "c84eb4cc78121f3ddd76796c3f765bef80a50d21fe7db21128c886eb9585fae7",
+      "inputSha256": "9159b31af58813dd04ab26c702403f7314416cbe10e5f112a6107a0ad215a336",
+      "url": "https://tailwind-hidden-blog-index"
+    },
+    {
+      "id": "general--trailing-cta-newsletter",
+      "file": "general--trailing-cta-newsletter.json",
+      "sha256": "9625ba2bdfdd08dce9b3fec621ec013171684552330be94a0a66c87c845a8104",
+      "inputSha256": "026e20e9f1c3ab1e54b33011761fa7b663ca2a699cb25033877dd5e7ab63ec43",
+      "url": "https://example.com/blog/new-feature-announcement"
+    },
+    {
+      "id": "general--wikipedia",
+      "file": "general--wikipedia.json",
+      "sha256": "064dddb12f2aa77ae25b20f2108a39c67a82c2528d4971299831fd5d112d6a7e",
+      "inputSha256": "cea8f5e96feda7253cc8174bc1c4339ac21c03a8faddf5335732e1fcb48c1639",
+      "url": "https://wikipedia"
+    },
+    {
+      "id": "general--wikipedia-ipa-pronunciation",
+      "file": "general--wikipedia-ipa-pronunciation.json",
+      "sha256": "120727e46b3129a3ee84e9259ee29d86f0987bafc81e096e7f566a4f444421ca",
+      "inputSha256": "8b66c0b9d2bffdec61c658c180bbd4ea043837d25a4b78765e983c163b753779",
+      "url": "https://wikipedia-ipa-pronunciation"
+    },
+    {
+      "id": "general--www.figma.com-blog-introducing-codex-to-figma",
+      "file": "general--www.figma.com-blog-introducing-codex-to-figma.json",
+      "sha256": "4e643ca2da12b0397db6397e61b25e028e50d571060153e3bd7c92e3eee1608c",
+      "inputSha256": "d3087cc8a473efee6e0655bbe0e3839b67c12e4efb0d52e6d0ab63b946556ce6",
+      "url": "https://www.figma.com-blog-introducing-codex-to-figma"
+    },
+    {
+      "id": "general--x.com-article",
+      "file": "general--x.com-article.json",
+      "sha256": "0e99e9cb8e7591629cbdf34794cb71110e3b8c94b6bec5811ae1c735d0d6c7a1",
+      "inputSha256": "08b17188a27423f8522e26eb504f5b2690800a7d3123824f6652005af75f20be",
+      "url": "https://x.com-article"
+    },
+    {
+      "id": "general--x.com-article-2026-02-13",
+      "file": "general--x.com-article-2026-02-13.json",
+      "sha256": "8a7e879f6baba97cf605c5b2ee7921b624d67afea5a3ea655bfaa037f6dd6458",
+      "inputSha256": "890e59e9b751fb189aee6397eff3ac7ca9e71964881e1fe3610933471076ead2",
+      "url": "https://x.com/arscontexta/status/2013045749580259680"
+    },
+    {
+      "id": "gmail--mail.google.com-mail-u-0-thread",
+      "file": "gmail--mail.google.com-mail-u-0-thread.json",
+      "sha256": "a812358c533623ef8eb74df59152d03aecbbe2323f1d66a923de52f9269337d9",
+      "inputSha256": "61e5f7456185e711d5f1997bb387b3fc4ffa1b50d08e7c843689b28a408b931e",
+      "url": "https://mail.google.com/mail/u/0/#inbox/thread-f:1234567890"
+    },
+    {
+      "id": "headings--fragment-url-not-permalink",
+      "file": "headings--fragment-url-not-permalink.json",
+      "sha256": "babdf6bc2032e687019e6bdc74a3635aef368cd09f0bae1cc010d985d8d562fb",
+      "inputSha256": "21d8666c2f8b0754bd98780718f66abfefe516d78d7ff992406bda927feeb21b",
+      "url": "https://example.com/article/roundup"
+    },
+    {
+      "id": "headings--permalink-title-match",
+      "file": "headings--permalink-title-match.json",
+      "sha256": "c0bed2ec95d33f5a4f709a3ab53228a1afb244749933c8280591def0fd27b1d6",
+      "inputSha256": "6c0a38442b164da6bfee40f7a1ca40a1a6a078e7af47a36bbc186728c18ef540",
+      "url": "https://example.org/blog/post"
+    },
+    {
+      "id": "headings--testid-article-header",
+      "file": "headings--testid-article-header.json",
+      "sha256": "c8de5768bdc1623511c071f9c5b6beed241b165e1f0deec76f4bdda2ddbd0512",
+      "inputSha256": "143dba98f4dac9282ea70be8d9185db178e5b07a14bd8b09c85ca9d1c6bcfb0d",
+      "url": "https://example.com/news/article"
+    },
+    {
+      "id": "hidden--nodes",
+      "file": "hidden--nodes.json",
+      "sha256": "70eaff3caea92c0eaa08cb17074bdfe0b0bf0e4d6f9e416a71f2adc8bd7a230e",
+      "inputSha256": "12ba1e78b315acd726cb7b1aceb4c32aa2aba9ba133e824275147a9fe63ff67a",
+      "url": "https://nodes"
+    },
+    {
+      "id": "hidden--visibility",
+      "file": "hidden--visibility.json",
+      "sha256": "1886e314e3f2448dee455a7f117c5f30c01acd57966571fad9cb5305e2eb89c5",
+      "inputSha256": "c033dcb5b1d27bf2a8e918f03db913ad2f08d6246614d451ce749d30bc64bfc3",
+      "url": "https://visibility"
+    },
+    {
+      "id": "issues--106-menu-id",
+      "file": "issues--106-menu-id.json",
+      "sha256": "55f83776613db7a4cf4de2f50d4363c34e84b5beb2547024ef4682a671f8fa8b",
+      "inputSha256": "249403b722d631192b4606992711a8c9cb89d5cc2e0e80c38e895413461c92e5",
+      "url": "https://106-menu-id"
+    },
+    {
+      "id": "issues--114-leading-hr",
+      "file": "issues--114-leading-hr.json",
+      "sha256": "6ece461b4b21568880291954cb73cbb2ebdd4a486e85f013aa15e18d183be49f",
+      "inputSha256": "5619ecbad6c111965a11f1edeb78d38d98ce044579e613348f507e4eba48c285",
+      "url": "https://114-leading-hr"
+    },
+    {
+      "id": "issues--120-dhammatalks-footnotes",
+      "file": "issues--120-dhammatalks-footnotes.json",
+      "sha256": "8734d7d96da3bdcb66ca59f3848bd58737aacae8a669f280b1a57c7f85b62f6e",
+      "inputSha256": "0b0fd7bd5ec47ac02d7f1c98728c321b7cceb8d98dac93a23d72921573570dfa",
+      "url": "https://120-dhammatalks-footnotes"
+    },
+    {
+      "id": "issues--131-category-links",
+      "file": "issues--131-category-links.json",
+      "sha256": "663302a77bc9338be20ecb6315368a431e1e4899db8ea84aa86f88be1af2cd41",
+      "inputSha256": "362c279abfce52c9931875216f65dce5a76a0f9356dbb8c755c88092ee463916",
+      "url": "https://131-category-links"
+    },
+    {
+      "id": "issues--132-hero-class",
+      "file": "issues--132-hero-class.json",
+      "sha256": "08c12455b3682c2609d13d4011726d83d2603c57f90203ba16fd82cba9491e90",
+      "inputSha256": "6f6de1f94f9c12216850d4bc9201373d23e95a7eb34d05ac974255f6072c66a5",
+      "url": "https://132-hero-class"
+    },
+    {
+      "id": "issues--136-time-element",
+      "file": "issues--136-time-element.json",
+      "sha256": "6fa38606f3d51852efdf6cc0608380ae20a8e2ddeb3dcad2afd7af0156bfac1e",
+      "inputSha256": "bcb862ea673557bd48c55f39589aff8a9d97ca4c4c91d9522f3a4a5022c04036",
+      "url": "https://136-time-element"
+    },
+    {
+      "id": "issues--142-arxiv-multi-citations",
+      "file": "issues--142-arxiv-multi-citations.json",
+      "sha256": "57d25fc768e789761f54ea553138c79828e206e26ce7de95773cabf56cb54221",
+      "inputSha256": "c85794c96c7318a618419ce01c181be60693260e8bed22c93d256fcb8a513444",
+      "url": "https://142-arxiv-multi-citations"
+    },
+    {
+      "id": "issues--143-arxiv-cross-references",
+      "file": "issues--143-arxiv-cross-references.json",
+      "sha256": "369e4536d27f223f2f0703f4138adf6c9acb4519608b26d51227af207b8e9a64",
+      "inputSha256": "4245a305bb12e7a620476e4ae166fd4d8fecec8af4a10c953360a91ad7bc599a",
+      "url": "https://143-arxiv-cross-references"
+    },
+    {
+      "id": "issues--144-arxiv-footnote-marks",
+      "file": "issues--144-arxiv-footnote-marks.json",
+      "sha256": "f92c443942de5f2f1768974e378dc553625ba416fd22579c2dbd033e1fc8fc5f",
+      "inputSha256": "0f7fb22dc51e9678f0635d14e7ccdd8b041a47f1db807b71a590b477e16a93a6",
+      "url": "https://144-arxiv-footnote-marks"
+    },
+    {
+      "id": "issues--159-lean-heading-permalink-emoji",
+      "file": "issues--159-lean-heading-permalink-emoji.json",
+      "sha256": "a626afbfe9c2b3db69c2d705bfbe001dbee54b06d6d78403a1f3c8ab2d5fa6e1",
+      "inputSha256": "dd16a0968c51d5515121937b2325cb6f1db19819ed8dd70abb01643ca5d5abf4",
+      "url": "https://lean-lang.org/theorem_proving_in_lean4/Dependent-Type-Theory/"
+    },
+    {
+      "id": "issues--159-lean-verso-code-blocks",
+      "file": "issues--159-lean-verso-code-blocks.json",
+      "sha256": "6068c712e041d90ca68fbd541e99215cbe441c9f4d772d3eac7f643b42d8cb5b",
+      "inputSha256": "e0a065a62b2ebe6943de305966dc9feaf03b5305b09ba6ab27211053b12244d7",
+      "url": "https://lean-lang.org/theorem_proving_in_lean4/dependent_type_theory.html"
+    },
+    {
+      "id": "issues--159-lean-verso-empty-line-preserved",
+      "file": "issues--159-lean-verso-empty-line-preserved.json",
+      "sha256": "36c5270b7724ff5e98ad809bf788d2d28cd8567cbfe25b99de337cbb99ce2929",
+      "inputSha256": "50f5a98e9cbe164a5a4a20aba65172f94fb10b7df7040de4792e35bcd7062777",
+      "url": "https://lean-lang.org/theorem_proving_in_lean4/Dependent-Type-Theory/"
+    },
+    {
+      "id": "issues--159-lean-verso-grouped-blocks",
+      "file": "issues--159-lean-verso-grouped-blocks.json",
+      "sha256": "1f98a7774a340a5eeb53332d82fd7d8bc5311b114607a911f92c81cbe935d63c",
+      "inputSha256": "ae535124ebeb5027bd283e93da376f569879acaf0c28f3f89c206e2f8c66eda0",
+      "url": "https://lean-lang.org/theorem_proving_in_lean4/dependent_type_theory.html"
+    },
+    {
+      "id": "issues--159-lean-verso-missing-section-gap",
+      "file": "issues--159-lean-verso-missing-section-gap.json",
+      "sha256": "8b23c656b308c9f8c6c21fb3a573200c6e881633f5e21c6afa05859a0de202fc",
+      "inputSha256": "deffce8171c0f254163189e8e42bf9e9abe71ad330e803a2cbe5f856f1ef311e",
+      "url": "https://lean-lang.org/theorem_proving_in_lean4/Dependent-Type-Theory/"
+    },
+    {
+      "id": "issues--161-x-status-url-author",
+      "file": "issues--161-x-status-url-author.json",
+      "sha256": "7dd7439f888efcde512974d5bfad81fe92b1ae4f60864b03b71798b43d515f27",
+      "inputSha256": "3462b9ef3f083f7e935ca40d52e255f0e67856131ac72821704386c32c258faf",
+      "url": "https://x.com/janedoe/status/1234567890123456789"
+    },
+    {
+      "id": "issues--162-aria-hidden-main-content",
+      "file": "issues--162-aria-hidden-main-content.json",
+      "sha256": "faded2ff3308350d344b39e9df718ada3bdbf585c6cc79aa13ef6e28e6429ae8",
+      "inputSha256": "450becfc5fd45ad5525e9717f6407be4792fcdcf1cecab8484550ebc56f7771b",
+      "url": "https://earendil.com/posts/invitation/"
+    },
+    {
+      "id": "issues--167-partial-selector-inside-code",
+      "file": "issues--167-partial-selector-inside-code.json",
+      "sha256": "a7e10f24886169b81ad8188e00c98281ecf3269c26bdf6c2919ebc58a8a53b37",
+      "inputSha256": "c2586ace82a31e58c0b8d5485ce81309a43cd5d27c254cac5ac8ec41cf2a313e",
+      "url": "https://example.org/docs/type-theory"
+    },
+    {
+      "id": "issues--168-links-inside-inline-code",
+      "file": "issues--168-links-inside-inline-code.json",
+      "sha256": "744ad5fcb057f6190e8cb93c25d65560d05725b0107478f991e0781bf4957c9d",
+      "inputSha256": "6358a506502339952e898769aac421ba571fd0ef174e7d3e676500d311c2da32",
+      "url": "https://example.org/docs/inline-code-links"
+    },
+    {
+      "id": "issues--196-og-title-brand-name",
+      "file": "issues--196-og-title-brand-name.json",
+      "sha256": "30fede067d51748b16e4f585ba608b712494d6c4b8812a4e77fc144518968899",
+      "inputSha256": "819cb1fdb99f424f775326b611c36ffc3ef5b01f3ba9ddb84cfba5c24fee6c1b",
+      "url": "https://example-ai.com/dgm/"
+    },
+    {
+      "id": "issues--217-writerside-docs",
+      "file": "issues--217-writerside-docs.json",
+      "sha256": "26b652f5faa1a37b63e576afab3d47b252734afe3f83c27260234017ee5d3f64",
+      "inputSha256": "44d1cbf35ff72a6c825f754558ae95352cfbdd5b73784ebc9d9d5e144b341ab1",
+      "url": "https://www.example.com/help/docs/api-reference.html"
+    },
+    {
+      "id": "issues--218-footnote-wrapper-text-lost",
+      "file": "issues--218-footnote-wrapper-text-lost.json",
+      "sha256": "b406ea026c047b5368c78eb6193f75a2a56dead54d4888d507f1a35e9b60f477",
+      "inputSha256": "bab400c436c71329b3c9014330750cce7fa70e1bcfde16096f13e1622dc7e221",
+      "url": "https://example.org/articles/footnotes-in-wrapper-spans"
+    },
+    {
+      "id": "issues--221-nextjs-noscript-images",
+      "file": "issues--221-nextjs-noscript-images.json",
+      "sha256": "10bb42ac10552b48ce8a35726eac095abfce7d4c3986a8e154e389b1edbe33e2",
+      "inputSha256": "8100c5c00c508687350eb7b488ddb936133eafbd3ec1cbfc6928f66624dc99c6",
+      "url": "https://www.example.com/blog/example-post"
+    },
+    {
+      "id": "issues--227-noscript-lazy-images",
+      "file": "issues--227-noscript-lazy-images.json",
+      "sha256": "480b65d05989289e52a89b2d17ceca90163c1efeb0cd05998892dec21e508ff9",
+      "inputSha256": "0f3c1604d901645d02716b725ac1a8cc17ee7bdfd084601db0a8526c0ba18fb6",
+      "url": "https://www.example.com/article/test-article"
+    },
+    {
+      "id": "issues--232-dismiss-in-hidden-content",
+      "file": "issues--232-dismiss-in-hidden-content.json",
+      "sha256": "0d7336148e23050aaded4e43f7c99f65ca14c918435558391492f30ba577e31c",
+      "inputSha256": "90ce42ea8c23ae05782f5b3a48eb1ce8d6fecbc7df27453af3fd78a2a79ff778",
+      "url": "https://example.com/posts/sample/"
+    },
+    {
+      "id": "issues--254-empty-video",
+      "file": "issues--254-empty-video.json",
+      "sha256": "5ea457413f8630154e08457151868f4da83a736d5de3de842aa82d5d1cd5b50d",
+      "inputSha256": "db46bb3c0751327b02dbf57a8dd21628b7b59275cb57868eee3598281525f740",
+      "url": "https://254-empty-video"
+    },
+    {
+      "id": "issues--263-buttons-in-paragraphs",
+      "file": "issues--263-buttons-in-paragraphs.json",
+      "sha256": "a9a6f670cd08fd6b6705be19cbbdb477bfd58c3dae71ea2e766dfee5b4059f50",
+      "inputSha256": "af7e3677ab3afd54f4cb8ceb0b0e3018067955cd3e19eb2db6040ce4937a8e1c",
+      "url": "https://leetcode.com/problems/longest-special-sequence/description"
+    },
+    {
+      "id": "issues--272-x-localized-conversation-timeline",
+      "file": "issues--272-x-localized-conversation-timeline.json",
+      "sha256": "c4c3642659e8f50800f32c9e029be7575ae09800a0b289d9ef1b2e055fd89d05",
+      "inputSha256": "68d741d74c3b5a086768ea5c8d04432bdc187915cf1146c241ff8a688134cb1c",
+      "url": "https://x.com/main_user/status/1234567890"
+    },
+    {
+      "id": "issues--280-texinfo-footnotes",
+      "file": "issues--280-texinfo-footnotes.json",
+      "sha256": "5e101547f6db9b8eac2cb95f3c382fc363a65cefbf6d0f04f81af7ae0d31bce5",
+      "inputSha256": "2f70184aa86f6f4f2ba416b53c37b4011e520e992c676f65728b7d182edb23f4",
+      "url": "https://www.example.org/software/widget/manual/html_node/Introduction.html"
+    },
+    {
+      "id": "issues--284-table-cell-header-scoring",
+      "file": "issues--284-table-cell-header-scoring.json",
+      "sha256": "30812b3fca13139b5ba91c4cb3f4917631c348b751c814160e7ad80586c44299",
+      "inputSha256": "65f47e649b95f6c79b697236fa9b56ef027771fbfde2d1fb8de14a20d9622adb",
+      "url": "https://www.example.com/reference/types/size_t"
+    },
+    {
+      "id": "issues--285-tag-like-title-escaping",
+      "file": "issues--285-tag-like-title-escaping.json",
+      "sha256": "432985e0c6005e5205fdd513030a3b2f09d8b9f10097515150d9cd18ad68ba85",
+      "inputSha256": "456547e48bb8db6d4427c6b009923d530802568babf19a042477953b8aa79b9e",
+      "url": "https://www.example.com/blog/"
+    },
+    {
+      "id": "issues--286-generic-alt-image-dedup",
+      "file": "issues--286-generic-alt-image-dedup.json",
+      "sha256": "95ece4f1f131dab983c7e33ed71117cb3e57e611cd995f052103b7169aca1206",
+      "inputSha256": "e9cf8787f1cc34f005582b6aaba98f09d6713eb73c4ec9a68e8068ee3da96999",
+      "url": "https://www.example.com/elevenlabs-ai-voice-tutorial/"
+    },
+    {
+      "id": "issues--296-oreilly-noteref-footnotes",
+      "file": "issues--296-oreilly-noteref-footnotes.json",
+      "sha256": "e8c59c3fa8c45bcb5440c8dcc1a70708b9aa356c4419fdd368b02006e2d51aba",
+      "inputSha256": "55d7549478b5121aa9fe5d6459b00072126782f0de0298293abb0d1779b303eb",
+      "url": "https://www.example.com/library/view/sample-book/ch02.html"
+    },
+    {
+      "id": "issues--300-nested-layout-tables",
+      "file": "issues--300-nested-layout-tables.json",
+      "sha256": "b2a558d6bb971b2b3d2d10f16cbc81ba8d8203a706176811a9bf1586e4e07c64",
+      "inputSha256": "3ae6b66811967f275bffdf098e5a57df1605a5dae8bde995c330960f35faa22e",
+      "url": "https://www.example.org/cheatsheet.html"
+    },
+    {
+      "id": "issues--361-escaped-id",
+      "file": "issues--361-escaped-id.json",
+      "sha256": "a4f7904ab32bcac95fafe9d2e18c25085f25b1579822632a8b2089415cf9e3fc",
+      "inputSha256": "695768254bbfc42056a2db1522e154f1d7ad852fe1c2587aa16329134a503582",
+      "url": "https://example.com/article"
+    },
+    {
+      "id": "issues--361-shadow-selector-stability",
+      "file": "issues--361-shadow-selector-stability.json",
+      "sha256": "83fa3645a1428fde3907d2af4bb123372b551b2a8f4649bbe1467cb767d6a3eb",
+      "inputSha256": "a3c75165148e1117c97d90e34cd4cbfe10eee5c7d1c88f22f5e5d6f09576bbb7",
+      "url": "https://example.com/article"
+    },
+    {
+      "id": "issues--361-special-class-selectors",
+      "file": "issues--361-special-class-selectors.json",
+      "sha256": "79b1a4a58c77ba0055c1a228d5d2aa06aef7031d5a326c8b65eb91cff2600320",
+      "inputSha256": "8ddd94121aee89e3e006ffd948e235f570beabcf3ac9fa70f35f3680f0dfe834",
+      "url": "https://example.com/article"
+    },
+    {
+      "id": "issues--361-tailwind-ancestor",
+      "file": "issues--361-tailwind-ancestor.json",
+      "sha256": "501a0a5f909be4d4b3f05b29b238bfee7b7a8e19c2e3adec4ace3c5c0cbf6fff",
+      "inputSha256": "04f39939771427498179fc7525dd86c8e1a9ed1f4af632e4b18bbf1d9c29a47c",
+      "url": "https://example.com/article"
+    },
+    {
+      "id": "issues--366-mixed-numbers",
+      "file": "issues--366-mixed-numbers.json",
+      "sha256": "30e826423a1558bbe9ebc9846d82aab310f1190ac0e9bf6959ae446f5f2a5edf",
+      "inputSha256": "d19dfa52f718707dc18482ffebb6b0803af4657bd0364ee085938f869ed5737b",
+      "url": "https://example.com/article"
+    },
+    {
+      "id": "issues--366-screen-reader-links",
+      "file": "issues--366-screen-reader-links.json",
+      "sha256": "98c04e31b22694dddd98da9be5afac3b538d4f683c002ec76a44a1b18a1ffbfb",
+      "inputSha256": "aafa49a67408e412b2bb777ac5d517fa1e07b43b3bce81c7121a6ff7885d1720",
+      "url": "https://example.com/article"
+    },
+    {
+      "id": "issues--374-explicit-image-sources",
+      "file": "issues--374-explicit-image-sources.json",
+      "sha256": "693cf5e47391cd0986285b0c5fdf3d9e31b5445889700514058b129956148a00",
+      "inputSha256": "dec9ced0f0807332f2ac1a9c3a66f0afeb6760568245b8987a42f00375452909",
+      "url": "https://example.com/article"
+    },
+    {
+      "id": "issues--374-image-source",
+      "file": "issues--374-image-source.json",
+      "sha256": "bae9570af935551ea2e50cde061f8e8b562b7df6c3e2414d8d491b3ce3cf2600",
+      "inputSha256": "a37f3667b73bbbdb00b9dc51dd9d15b4cb2341a97b9a7da91dec28c5d35dc862",
+      "url": "https://example.com/article"
+    },
+    {
+      "id": "issues--374-invalid-lazy-source",
+      "file": "issues--374-invalid-lazy-source.json",
+      "sha256": "bbca1c89697118ba4b0f6c6a4d4f9860ec47e4a8935b59008c43d310cfa73ccc",
+      "inputSha256": "c040bc7a53e277b110eb0307557562ade3ac4f78fa22741674c4d1bc4d9cf5e3",
+      "url": "https://example.com/article"
+    },
+    {
+      "id": "issues--374-lazy-source-precedence",
+      "file": "issues--374-lazy-source-precedence.json",
+      "sha256": "79d26608b6ec4f42e2d8e4c631380559cfd452abb6f05389ab3be53880d15b33",
+      "inputSha256": "376d020bc4abd3e71e9eff6681486b7c4f811925a20f80c5c49c7e90ec4ebb66",
+      "url": "https://example.com/article"
+    },
+    {
+      "id": "issues--374-lazy-srcset-placeholder",
+      "file": "issues--374-lazy-srcset-placeholder.json",
+      "sha256": "1ab597ea78f31225670310855ca4cac33d129a903648e27fc1e597c5e0da2a34",
+      "inputSha256": "7ff687ca815bb3c0b1f98458832ddf32ea6c78520d2472266f92721d4130c843",
+      "url": "https://example.com/article"
+    },
+    {
+      "id": "issues--374-unrelated-image-metadata",
+      "file": "issues--374-unrelated-image-metadata.json",
+      "sha256": "037d83943c2508204a3ae22410afb138b613c3d6d3a9498942554d2298ce4dca",
+      "inputSha256": "58bcc62654c5350055d93092b03aaf24cb0db22322ab5de3284f5246a90997b3",
+      "url": "https://example.com/article"
+    },
+    {
+      "id": "issues--footnote-id-with-quote",
+      "file": "issues--footnote-id-with-quote.json",
+      "sha256": "abf1fd23a6dfcb4e0631a69c28cfa417f8b5522a52132c5d9f31aac0fbcfb535",
+      "inputSha256": "ae3117cf988e54b3ff2e528121958d434798bc7ccc04d0432a3624e7bd6402fd",
+      "url": "https://example.com/counting-methods"
+    },
+    {
+      "id": "issues--header-with-subtitle-p",
+      "file": "issues--header-with-subtitle-p.json",
+      "sha256": "08d55c15bef510044bd1292790f26d7ac07c84e835abb308bc30b2c4366a3e81",
+      "inputSha256": "7aa8b123979e799f225162e930e3c2a8198e4d15865ce82ce5db2a28d5965a64",
+      "url": "https://header-with-subtitle-p"
+    },
+    {
+      "id": "issues--header-wraps-content",
+      "file": "issues--header-wraps-content.json",
+      "sha256": "80c3eeac72f084bda7a6531bcd79de1b968e23d2db65b23d283fd50926bcf339",
+      "inputSha256": "cf96e45c9bf7129eddd224b7c8b3a1b7ab683f836c30b5141260ba5681dac1fb",
+      "url": "https://header-wraps-content"
+    },
+    {
+      "id": "issues--pascalcase-section-id-partial-match",
+      "file": "issues--pascalcase-section-id-partial-match.json",
+      "sha256": "dda311ac2fb510dc7a8702100109249e980020d8b03add22e54c5a565505c8ed",
+      "inputSha256": "3190e6bc1da0cf340c694fb82a68618c7454b1ae467450ec4d4476204b24165c",
+      "url": "https://pascalcase-section-id-partial-match"
+    },
+    {
+      "id": "issues--preferred-async-empty",
+      "file": "issues--preferred-async-empty.json",
+      "sha256": "01ae0842785b9b2e861e1217a5f3df3bfdaea00cdcc5b9395c8041897a18c5b6",
+      "inputSha256": "2126b8c1b3192e458af3dd12a012dabb43cb27d47c74de3d982b91387b4b873c",
+      "url": "https://example.com/article"
+    },
+    {
+      "id": "issues--react-streaming-ssr-colon-id",
+      "file": "issues--react-streaming-ssr-colon-id.json",
+      "sha256": "82bff626aeeac427830191ee56677225859aac6e9232aa497e26ed61ed818afa",
+      "inputSha256": "3e28dd428f3dd341d1fcadb65dac0fbf3dd3de1950516ce3f398eaf457d20249",
+      "url": "https://example.com/how-many-airports"
+    },
+    {
+      "id": "issues--sidebar-toggle-checkbox",
+      "file": "issues--sidebar-toggle-checkbox.json",
+      "sha256": "c5ffca693c1f1088c7518b17ac7a92c158a28c3e9ee3590055e2ee02c9be2797",
+      "inputSha256": "c3c9b34dba8146df17aaacc4f4833d8faac7af6e24b7dfdad5c131ed41a1c607",
+      "url": "https://sidebar-toggle-checkbox"
+    },
+    {
+      "id": "issues--span-with-block-children-and-schema",
+      "file": "issues--span-with-block-children-and-schema.json",
+      "sha256": "dceaf836b2d4c120313ac97344b06274d66ab63ad9da3b57980e3f2583f6217d",
+      "inputSha256": "122314ed0a957b7e9abf1f2d90f7344f500968a303ab54fe57419b036f66edf4",
+      "url": "https://example.org/blog/post-about-systems"
+    },
+    {
+      "id": "listing--news.ycombinator.com-news",
+      "file": "listing--news.ycombinator.com-news.json",
+      "sha256": "7a801c308795ca8bf07b1da572f4bf7feff7778d3e50bbb7a598553974e34e1e",
+      "inputSha256": "1735c0fa884284807c21d1194aedcacd57e3cb1d0a809272d67880c1dc943a85",
+      "url": "https://news.ycombinator.com/news"
+    },
+    {
+      "id": "metadata--295-header-date-above-title",
+      "file": "metadata--295-header-date-above-title.json",
+      "sha256": "98a39bcf4fc53ebbcf19fad706fc02f42bd9984b704e7786565b0a860711ea11",
+      "inputSha256": "806cafbb05c30d6d920c96431b35c77f4715a843dc5315a92ed7069f19935b6d",
+      "url": "https://example.com/index/example-article/"
+    },
+    {
+      "id": "metadata--295-suggested-post-date",
+      "file": "metadata--295-suggested-post-date.json",
+      "sha256": "e7136adb77190ef9f4279fbf8474a64c1f9e97fdaa05b9469f727fb72bb6a6f8",
+      "inputSha256": "26b96e3731e86ceaf26183b0196cc581fd3d0a96b84f43d64e0f0cad34cc30c4",
+      "url": "https://example.com/index/example-article/"
+    },
+    {
+      "id": "metadata--author-by-prefix-and-url",
+      "file": "metadata--author-by-prefix-and-url.json",
+      "sha256": "5e1a7d302ec3be3d5d68135a65d0ada99d63f16be3a61b947941955abff24622",
+      "inputSha256": "2969db9f9fc2bd5c90df99cdc034bf26553f3572225732555f9053bc860b9a5b",
+      "url": "https://blog.example.com/2026/04/cloud-storage"
+    },
+    {
+      "id": "metadata--date-adjacent-category-link",
+      "file": "metadata--date-adjacent-category-link.json",
+      "sha256": "aab90619295a86d719882a30efa351bc98ef8c30a8ba405fef1043da4d674bd0",
+      "inputSha256": "4e46442f24e5b6c00eef257f9d2807e02219b74c8e1b3a711f06e130b9977cf0",
+      "url": "https://date-adjacent-category-link"
+    },
+    {
+      "id": "metadata--email-style-header-block",
+      "file": "metadata--email-style-header-block.json",
+      "sha256": "fb485dd69801f8f193517de5e01c3458210644c03966040feb8fb23791a7a5aa",
+      "inputSha256": "3b7fba674d40e5ae2b2f1aa3da79e2a47a01ea0af072d256889bbe718414cf44",
+      "url": "https://example.com/posts/announcement-reflection/"
+    },
+    {
+      "id": "metadata--h1-sibling-byline",
+      "file": "metadata--h1-sibling-byline.json",
+      "sha256": "dd2dffcbdab31f888b2abf27b48cb306ce244f5b112fb81fcaed238275a43c49",
+      "inputSha256": "4398c7ee4be8b8ced62a1711efbf915509ea03fda1c151fc4786d33a24892d76",
+      "url": "https://research.example.com/blog/efficient-algorithms"
+    },
+    {
+      "id": "metadata--multi-script-values",
+      "file": "metadata--multi-script-values.json",
+      "sha256": "d71202c5aab6d399dfd56f138a58d8fa433f7b6496fc4d29d0f53da02e0b2ea9",
+      "inputSha256": "a80a72b8bc3dbfd24c6b3e8baf09e1f184d7840e53bfdf3992831233101138c7",
+      "url": "https://news.example.org/posts/global"
+    },
+    {
+      "id": "metadata--placeholder-author-and-duplicate-published",
+      "file": "metadata--placeholder-author-and-duplicate-published.json",
+      "sha256": "36506d03345c659d55354d94493c764044f876b449ab57582b0cfa1b438188b0",
+      "inputSha256": "02a083c4687bd733741e3ce1a6f12392b097224f12b75eeb216e9bab4a402564",
+      "url": "https://news.example.org/day-39-rail-network/"
+    },
+    {
+      "id": "metadata--placeholder-values",
+      "file": "metadata--placeholder-values.json",
+      "sha256": "a3f5a1c9bc0c2382ed57d59b6a359762b7cf60048201233e0567bc4c1a75618e",
+      "inputSha256": "c5315e1e04ea5726625fbb65d1e25058b6aaf4aff00e2e96e2a9150be736b6d0",
+      "url": "https://blog.example.com/posts/fallbacks"
+    },
+    {
+      "id": "metadata--rel-author-in-bio-container",
+      "file": "metadata--rel-author-in-bio-container.json",
+      "sha256": "92270c5951ef17858bbc7c7084d019ac8faeb01a000a881e7702c76ffe3bda99",
+      "inputSha256": "6bb1808b7f9177b05f76553cd7c1fc351585505ee1dc4251bd6a9c8eebed1669",
+      "url": "https://rel-author-in-bio-container"
+    },
+    {
+      "id": "related--inline-related-stories-block",
+      "file": "related--inline-related-stories-block.json",
+      "sha256": "7a7a9f0001f9243e2c3c0ee04b6cdd0c91519db7b36ae02d10856feb4c38c391",
+      "inputSha256": "fd4541b4184f359cbb073d119e1ef6ad07f8189ab2c5cc8c4080b52c64a52085",
+      "url": "https://inline-related-stories-block"
+    },
+    {
+      "id": "scoring--related-posts-byline",
+      "file": "scoring--related-posts-byline.json",
+      "sha256": "684af150c8f751f7524e4f10445a7149220f4451c878772939fce0861fd75ac4",
+      "inputSha256": "43ee68091d2b1cd02b52bb8dad2cffd0d2d08b0a2c679a214caab2470e72f4bc",
+      "url": "https://related-posts-byline"
+    },
+    {
+      "id": "scoring--table-with-links",
+      "file": "scoring--table-with-links.json",
+      "sha256": "5b5cb2f0f38961d01dd0e465f88debec4703722bf589ccd4e5ba9f8e82a9d3a2",
+      "inputSha256": "3b4c7d77211f9d5c7470fb73b348159637c3c2b40a716c8888f0887f3ff97caa",
+      "url": "https://table-with-links"
+    },
+    {
+      "id": "security--markdown-image-escaping",
+      "file": "security--markdown-image-escaping.json",
+      "sha256": "8087fbc6ca9ebfe61ba8e597640f8ada2ec97098663702d5f63394fadada0515",
+      "inputSha256": "0ec67ced35b7d99a9f1a06cd4636b792e9d4756bde63a42f1e37004694a6978e",
+      "url": "https://example.com/article"
+    },
+    {
+      "id": "selectors--arm-newsroom",
+      "file": "selectors--arm-newsroom.json",
+      "sha256": "adb86e07f90190e62998a700601e76144e3abc0bb5f26ad75ea178f502cecb35",
+      "inputSha256": "2f18031d4fabd7d076820588a304ffa52e25af7c957d3b6a3040e43290d57afc",
+      "url": "https://arm-newsroom"
+    },
+    {
+      "id": "selectors--logo-substring-wrapper",
+      "file": "selectors--logo-substring-wrapper.json",
+      "sha256": "e19c64712d7a937a429d03249505241eb11dfdca18f81d7b3a48f84ada1bd6c0",
+      "inputSha256": "b1a6cb0471b9b2a6fdc444bdaacf973284004914c58c3b01782ade1bf24ce1b8",
+      "url": "https://logo-substring-wrapper"
+    },
+    {
+      "id": "small-images--svg-icon-viewbox",
+      "file": "small-images--svg-icon-viewbox.json",
+      "sha256": "9399f1f7c9bb7a5f048cefc904b33394abbfe804c1017460907eb03540d2f561",
+      "inputSha256": "60ea6759c11abc31eb05a938f7b018fd72bd992e01512a140b13f0e0918bb44e",
+      "url": "https://example.org/blog/post"
+    },
+    {
+      "id": "standardize--span-data-as-paragraph",
+      "file": "standardize--span-data-as-paragraph.json",
+      "sha256": "83995c6fe00a4c184a12289a3eaff02362b3c393a9a1c812549a9ffbe970c01a",
+      "inputSha256": "a22411f5ff09fad2807567be19cb86682d3fa98a81b4f7bbd8949dc14693b848",
+      "url": "https://example.com/docs/cloud-sessions"
+    },
+    {
+      "id": "table-layout--blogger-two-column",
+      "file": "table-layout--blogger-two-column.json",
+      "sha256": "e82bf2b1081d8c7307755bad456bd6439a5bf5dad05fef69024e2c8311e83acc",
+      "inputSha256": "3c172d7844a8d2f3d2abe21bd138a3d00d15dcac4a0fbf8bf196b3323bc1bee9",
+      "url": "https://blog.example.com/2004/05/one-minute-guide.html"
+    },
+    {
+      "id": "table-layout--paulgraham.com-makersschedule",
+      "file": "table-layout--paulgraham.com-makersschedule.json",
+      "sha256": "a6e0b6d574d24dcdb1f41ae26544985eaa2a0e6e156b954ee9d8386c7b541ad8",
+      "inputSha256": "c88fef50491e3e2d22dbb60ddab8021fa074f1a62a199d963753793ef43df0e8",
+      "url": "https://table-layout--paulgraham.com-makersschedule"
+    },
+    {
+      "id": "table-layout--peripheral-tables",
+      "file": "table-layout--peripheral-tables.json",
+      "sha256": "0ac463d12ba12438e1691138f2d85359216a25881bb9a5741edbf3b66f668c33",
+      "inputSha256": "82f0106f567e3d6ddca154ba710a07605d66a6032f454f4bfd633fab335e8358",
+      "url": "https://example.com/articles/guide.htm"
+    },
+    {
+      "id": "table-layout--single-column",
+      "file": "table-layout--single-column.json",
+      "sha256": "82a1a10d7da44a5c9b8a14eb3b1c3728e1d1d969bd0af7e20149fd2d31a8a878",
+      "inputSha256": "86b8faecb13f8cd71eddb4b40de18d5e083dd1a5401d2ccbaa48df0e0153048f",
+      "url": "https://table-layout--single-column"
+    },
+    {
+      "id": "thin-section-before-see-also",
+      "file": "thin-section-before-see-also.json",
+      "sha256": "c830a511e32d9d567d271b29eae07264dff31ddae0bad8c31c68d6b69c0de722",
+      "inputSha256": "4971320b664a38c02476f2c60ca175632c7aa387f24d820a89c352fc9479df36",
+      "url": "https://thin-section-before-see-also"
+    }
+  ],
+  "excludedMathCaseIds": [
+    "general--cp4space-jordan-algebra",
+    "issues--141-arxiv-equation-tables",
+    "issues--169-svg-classname-crash",
+    "math--equation-table-mathml",
+    "math--katex",
+    "math--katex-centraliser",
+    "math--katex-data-math",
+    "math--latex-image-services",
+    "math--mathjax",
+    "math--mathjax-chtml-no-assistive",
+    "math--mathjax-svg",
+    "math--mathjax-tagged-equation",
+    "math--mathjax-tex-scripts",
+    "math--raw-latex",
+    "math--small-equation-image",
+    "math--temml",
+    "math--wikipedia-mathml",
+    "security--math-literal-text"
+  ],
+  "inputBytes": 1372181,
+  "inputSetSha256": "e26a1dbbe0554fe280b9958642f8611822ea7dc593dae21f5ccaff66f5e0ab76",
+  "rounds": 7,
+  "warmups": 2,
+  "pass": 1,
+  "modeOrder": [
+    "html+markdown",
+    "html"
+  ]
+}

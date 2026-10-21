@@ -1,0 +1,189 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Working image sources should take precedence over unrelated or undocumented attributes. Responsive images should also retain their own source sets."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "First"
+        ],
+        [
+          "src",
+          "https://example.com/first.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Second"
+        ],
+        [
+          "src",
+          "https://example.com/second.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Third"
+        ],
+        [
+          "src",
+          "https://example.com/third.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Responsive"
+        ],
+        [
+          "src",
+          "https://example.com/fallback.jpg"
+        ],
+        [
+          "srcset",
+          "https://example.com/small.jpg 600w, https://example.com/large.jpg 1200w"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The accompanying text explains why metadata must not replace a working source merely because it contains another image URL."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Working image sources should take precedence over unrelated or undocumented attributes. Responsive images should also retain their own source sets."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "First"
+        ],
+        [
+          "src",
+          "https://example.com/first.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Second"
+        ],
+        [
+          "src",
+          "https://example.com/second.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Third"
+        ],
+        [
+          "src",
+          "https://example.com/third.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Responsive"
+        ],
+        [
+          "src",
+          "https://example.com/large.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The accompanying text explains why metadata must not replace a working source merely because it contains another image URL."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "example.com",
+    "title": "Unrelated image metadata",
+    "description": "",
+    "domain": "example.com",
+    "favicon": "https://example.com/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 39,
+  "extractorType": null
+}

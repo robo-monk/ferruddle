@@ -1,0 +1,197 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "When the original first-person shooter was released in 1992, it changed gaming forever. The fast-paced action, the maze-like levels, and the visceral combat were unlike anything players had experienced before."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "But returning to it in 2026 reveals just how far the genre has come. The controls feel archaic, the level design is repetitive, and the lack of modern accessibility features makes it a challenging experience for anyone trying to play with limited mobility."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The control problem"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The original game was designed for keyboard-only play. There was no mouse look, no WASD movement. You moved with the arrow keys and fired with Ctrl or Space."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For a one-handed player, this presents an immediate challenge. Modern source ports have added mouse support and remappable controls, but the underlying game design still assumes two hands on the keyboard."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Accessibility in retrospect"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "It would be unfair to judge a 1992 game by 2026 accessibility standards. But the exercise of trying to play it with one hand highlights how much the industry has improved in this area."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Modern shooters offer extensive control remapping, one-handed presets, and adaptive controller support. Going back to the early days of the genre puts that progress in sharp relief."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "When the original first-person shooter was released in 1992, it changed gaming forever. The fast-paced action, the maze-like levels, and the visceral combat were unlike anything players had experienced before."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "But returning to it in 2026 reveals just how far the genre has come. The controls feel archaic, the level design is repetitive, and the lack of modern accessibility features makes it a challenging experience for anyone trying to play with limited mobility."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The control problem"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The original game was designed for keyboard-only play. There was no mouse look, no WASD movement. You moved with the arrow keys and fired with Ctrl or Space."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For a one-handed player, this presents an immediate challenge. Modern source ports have added mouse support and remappable controls, but the underlying game design still assumes two hands on the keyboard."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Accessibility in retrospect"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "It would be unfair to judge a 1992 game by 2026 accessibility standards. But the exercise of trying to play it with one hand highlights how much the industry has improved in this area."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Modern shooters offer extensive control remapping, one-handed presets, and adaptive controller support. Going back to the early days of the genre puts that progress in sharp relief."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Example Tech",
+    "title": "Playing a Classic FPS with One Hand in 2026",
+    "description": "",
+    "domain": "header-with-subtitle-p",
+    "favicon": "https://header-with-subtitle-p/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "2026-03-27T18:09:00-04:00",
+    "author": "Alex Johnson"
+  },
+  "warnings": [],
+  "wordCount": 199,
+  "extractorType": null
+}

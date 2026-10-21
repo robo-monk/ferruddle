@@ -1,0 +1,619 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "مقدمه"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Bases"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " یک "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "افزونه‌ی اصلی"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " است که به شما اجازه می‌دهد "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "نمایی شبیه پایگاه‌داده"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " از یادداشت‌هایتان بسازید. با استفاده از یک "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "base"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " می‌توانید "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "فایل‌ها و ویژگی‌هایشان را مشاهده، ویرایش، مرتب‌سازی و فیلتر"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " کنید. این قابلیت می‌تواند به شما کمک کند تا هر چیزی از "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "پروژه‌ها"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " گرفته تا "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "برنامه‌های سفر"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " ، "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "فهرست کتاب‌های خواندنی"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " و موارد دیگر را "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "سازمان‌دهی"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " کنید."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "هر "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "base"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " می‌تواند چندین "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "نما (view)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " با چیدمان‌های مختلف مانند "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "جدول (table)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " و "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "کارت (card)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " داشته باشد. در تصویر زیر نمونه‌ای از "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "نمای جدولی"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " را می‌بینید که در آن هر "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "ردیف"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " نمایانگر یک "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "فایل"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " است و هر "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "ستون"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " یکی از "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "ویژگی‌های آن فایل"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " را نشان می‌دهد."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "مقدمه"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Bases"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " یک "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "افزونه‌ی اصلی"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " است که به شما اجازه می‌دهد "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "نمایی شبیه پایگاه‌داده"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " از یادداشت‌هایتان بسازید. با استفاده از یک "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "base"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " می‌توانید "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "فایل‌ها و ویژگی‌هایشان را مشاهده، ویرایش، مرتب‌سازی و فیلتر"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " کنید. این قابلیت می‌تواند به شما کمک کند تا هر چیزی از "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "پروژه‌ها"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " گرفته تا "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "برنامه‌های سفر"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " ، "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "فهرست کتاب‌های خواندنی"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " و موارد دیگر را "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "سازمان‌دهی"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " کنید."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "هر "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "base"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " می‌تواند چندین "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "نما (view)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " با چیدمان‌های مختلف مانند "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "جدول (table)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " و "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "کارت (card)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " داشته باشد. در تصویر زیر نمونه‌ای از "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "نمای جدولی"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " را می‌بینید که در آن هر "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "ردیف"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " نمایانگر یک "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "فایل"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " است و هر "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "ستون"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " یکی از "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "ویژگی‌های آن فایل"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " را نشان می‌دهد."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Obsidian",
+    "title": "معرفی Bases در Obsidian",
+    "description": "آشنایی با افزونه Bases برای ایجاد نمای پایگاه‌داده از یادداشت‌ها",
+    "domain": "farsi-zwnj",
+    "favicon": "https://farsi-zwnj/favicon.ico",
+    "image": "",
+    "language": "fa",
+    "published": "",
+    "author": "Obsidian"
+  },
+  "warnings": [],
+  "wordCount": 105,
+  "extractorType": null
+}

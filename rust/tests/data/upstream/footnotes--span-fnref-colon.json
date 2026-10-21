@@ -1,0 +1,20 @@
+{
+  "id": "footnotes--span-fnref-colon",
+  "url": "https://span-fnref-colon",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\"/>\n  <title>Footnotes with span fnref:id pattern</title>\n</head>\n<body>\n  <!--\n    Pattern: inline <span id=\"fnref:name\"><a class=\"ref\" href=\"#fn:name\">N</a></span>\n    with footnote definitions in <ol> as <li id=\"fn:name\"> — used by Blogger/righto.com.\n    The span wrapper (not sup) and the fn:/fnref: prefix convention must both be handled.\n  -->\n  <article>\n    <h1>Footnotes with span fnref:id pattern</h1>\n\n    <p>The first technique relies on precise calibration.<span id=\"fnref:calibration\"><a class=\"ref\" href=\"#fn:calibration\">1</a></span></p>\n\n    <p>The second technique uses iterative refinement.<span id=\"fnref:refinement\"><a class=\"ref\" href=\"#fn:refinement\">2</a></span></p>\n\n    <p>Both approaches were validated experimentally.<span id=\"fnref:validation\"><a class=\"ref\" href=\"#fn:validation\">3</a></span></p>\n\n    <div class=\"footnotes\">\n      <ol>\n        <li id=\"fn:calibration\">\n          <p>Calibration details are described in the reference manual.&nbsp;<a class=\"footnote-backref\" href=\"#fnref:calibration\" title=\"Jump back to footnote 1 in the text\">&#8617;</a></p>\n        </li>\n        <li id=\"fn:refinement\">\n          <p>Iterative refinement was first proposed in 1985.&nbsp;<a class=\"footnote-backref\" href=\"#fnref:refinement\" title=\"Jump back to footnote 2 in the text\">&#8617;</a></p>\n        </li>\n        <li id=\"fn:validation\">\n          <p>Experimental validation was performed under controlled conditions.&nbsp;<a class=\"footnote-backref\" href=\"#fnref:validation\" title=\"Jump back to footnote 3 in the text\">&#8617;</a></p>\n        </li>\n      </ol>\n    </div>\n  </article>\n</body>\n</html>\n",
+  "inputSha256": "8c8c015b9e277f9fd208d90e14b13daed47d9089da2789650b858325df579a82",
+  "upstreamFixture": "tests/fixtures/footnotes--span-fnref-colon.html",
+  "markdownGoldenSha256": "5cb9babbdedb4c4561c8261d96b20167a242a5dcb6b2c517c9f0b47cef496afc",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>The first technique relies on precise calibration.<sup id=\"fnref:1\"><a href=\"#fn:1\">1</a></sup></p> <p>The second technique uses iterative refinement.<sup id=\"fnref:2\"><a href=\"#fn:2\">2</a></sup></p> <p>Both approaches were validated experimentally.<sup id=\"fnref:3\"><a href=\"#fn:3\">3</a></sup></p>  <div id=\"footnotes\"><ol><li id=\"fn:1\"><p>Calibration details are described in the reference manual. <a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:1\">↩</a></p></li> <li id=\"fn:2\"><p>Iterative refinement was first proposed in 1985. <a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:2\">↩</a></p></li> <li id=\"fn:3\"><p>Experimental validation was performed under controlled conditions. <a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:3\">↩</a></p></li></ol></div></article>",
+    "contentMarkdown": "The first technique relies on precise calibration.[^1]\n\nThe second technique uses iterative refinement.[^2]\n\nBoth approaches were validated experimentally.[^3]\n\n[^1]: Calibration details are described in the reference manual.\n\n[^2]: Iterative refinement was first proposed in 1985.\n\n[^3]: Experimental validation was performed under controlled conditions.",
+    "title": "Footnotes with span fnref:id pattern",
+    "author": "",
+    "site": "span-fnref-colon",
+    "published": "",
+    "wordCount": 46,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

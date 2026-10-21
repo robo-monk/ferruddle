@@ -1,0 +1,20 @@
+{
+  "id": "elements--embedded-videos",
+  "url": "https://embedded-videos",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\"/>\n  <title>Embedded videos test</title>\n</head>\n<body>\n  <article>\n    <h1>Embedded videos test</h1>\n\n    <p>A YouTube video:</p>\n    <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/b_PXuEPxN50\"\n            frameborder=\"0\" allowfullscreen=\"\"></iframe>\n\n    <p>A YouTube nocookie video:</p>\n    <iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/b_PXuEPxN50\"\n            frameborder=\"0\" allowfullscreen=\"\"></iframe>\n\n    <p>A tweet:</p>\n    <iframe src=\"https://platform.twitter.com/embed/Tweet.html?id=1675626836821409792\"\n            width=\"550\" height=\"300\" frameborder=\"0\"></iframe>\n\n    <p>An X.com embed:</p>\n    <iframe src=\"https://x.com/kepano/status/1675626836821409792\"\n            width=\"550\" height=\"300\" frameborder=\"0\"></iframe>\n\n    <p>A Vimeo video should stay as iframe:</p>\n    <iframe src=\"https://player.vimeo.com/video/45725193?h=a290f71a57\" width=\"100%\" height=\"100%\" style=\"aspect-ratio: 3 / 1.025\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen=\"\"></iframe>\n  </article>\n</body>\n</html>\n",
+  "inputSha256": "6952e3042a883eaa351d6114ddff56afeca64a1d2efd0657f1fc32c8006bbdd8",
+  "upstreamFixture": "tests/fixtures/elements--embedded-videos.html",
+  "markdownGoldenSha256": "950f8c7272615443cd4306b6c0cefa3ce86037548e1f3e3efa45a47482b3ff92",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>A YouTube video:</p> <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/b_PXuEPxN50\" frameborder=\"0\" allowfullscreen></iframe> <p>A YouTube nocookie video:</p> <iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/b_PXuEPxN50\" frameborder=\"0\" allowfullscreen></iframe> <p>A tweet:</p> <iframe src=\"https://platform.twitter.com/embed/Tweet.html?id=1675626836821409792\" width=\"550\" height=\"300\" frameborder=\"0\"></iframe> <p>An X.com embed:</p> <iframe src=\"https://x.com/kepano/status/1675626836821409792\" width=\"550\" height=\"300\" frameborder=\"0\"></iframe> <p>A Vimeo video should stay as iframe:</p> <iframe src=\"https://player.vimeo.com/video/45725193?h=a290f71a57\" width=\"100%\" height=\"100%\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen></iframe> </article>",
+    "contentMarkdown": "A YouTube video:\n\n![](https://www.youtube.com/watch?v=b_PXuEPxN50)\n\nA YouTube nocookie video:\n\n![](https://www.youtube.com/watch?v=b_PXuEPxN50)\n\nA tweet:\n\n![](https://x.com/i/status/1675626836821409792)\n\nAn X.com embed:\n\n![](https://x.com/kepano/status/1675626836821409792)\n\nA Vimeo video should stay as iframe:\n\n<iframe src=\"https://player.vimeo.com/video/45725193?h=a290f71a57\" width=\"100%\" height=\"100%\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen=\"\"></iframe>",
+    "title": "Embedded videos test",
+    "author": "",
+    "site": "embedded-videos",
+    "published": "",
+    "wordCount": 19,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

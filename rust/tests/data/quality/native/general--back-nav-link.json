@@ -1,0 +1,87 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Sorting algorithms are fundamental to computer science. The most widely used general-purpose sorting algorithm is Quicksort, discovered in 1962."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Quicksort works by selecting a pivot element and partitioning the array around it. Elements smaller than the pivot move left; elements larger move right. The process then recurses on both partitions."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The expected time complexity of Quicksort is O(n log n), which makes it extremely fast in practice despite its worst-case O(n²) behavior."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Sorting algorithms are fundamental to computer science. The most widely used general-purpose sorting algorithm is Quicksort, discovered in 1962."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Quicksort works by selecting a pivot element and partitioning the array around it. Elements smaller than the pivot move left; elements larger move right. The process then recurses on both partitions."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The expected time complexity of Quicksort is O(n log n), which makes it extremely fast in practice despite its worst-case O(n²) behavior."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "example.com",
+    "title": "An Article About Sorting",
+    "description": "",
+    "domain": "example.com",
+    "favicon": "https://example.com/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "2025-01-01T00:00:00+00:00",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 72,
+  "extractorType": null
+}

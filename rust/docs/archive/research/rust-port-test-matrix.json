@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "upstreamRevision": "556d74e8c8fd68c49912d4b11a4ae9ec04d7b2b5",
+  "classificationLevel": "file; mixed files require assertion-level splitting during implementation",
+  "testFileCount": 45,
+  "totalUpstreamTests": 826,
+  "files": [
+    {
+      "file": "tests/bilibili-transcript.test.ts",
+      "upstreamTestCount": 42,
+      "scope": "mixed",
+      "phase": "M5",
+      "reason": "Port local URL/metadata/output behavior; exclude subtitle API fetching and network-only track retrieval."
+    },
+    {
+      "file": "tests/class-selectors.test.ts",
+      "upstreamTestCount": 68,
+      "scope": "port",
+      "phase": "M1",
+      "reason": "Preserve selector round trips, hidden retry targets, and diagnostic selector validity."
+    },
+    {
+      "file": "tests/cli-exit.test.ts",
+      "upstreamTestCount": 3,
+      "scope": "exclude",
+      "phase": "later CLI",
+      "reason": "JavaScript subprocess lifecycle and streaming HTTP cancellation are outside the offline library."
+    },
+    {
+      "file": "tests/cli.test.ts",
+      "upstreamTestCount": 8,
+      "scope": "exclude",
+      "phase": "later CLI",
+      "reason": "CLI flags/stdin/files/frontmatter wrap the library; add native CLI tests only if that wrapper is built."
+    },
+    {
+      "file": "tests/conversation-linkedom.test.ts",
+      "upstreamTestCount": 1,
+      "scope": "port",
+      "phase": "M5",
+      "reason": "Local conversation extraction must work without browser document-creation APIs."
+    },
+    {
+      "file": "tests/debug.test.ts",
+      "upstreamTestCount": 12,
+      "scope": "adapt",
+      "phase": "M3",
+      "reason": "Port selection/toggle/removal behavior and diagnostics; do not require identical JS error strings."
+    },
+    {
+      "file": "tests/declarative-shadow-dom.test.ts",
+      "upstreamTestCount": 14,
+      "scope": "mixed",
+      "phase": "M1",
+      "reason": "Port static declarative roots and payload safety; the imperative attachShadow case needs a live DOM and is outside string input."
+    },
+    {
+      "file": "tests/degraded-fallback.test.ts",
+      "upstreamTestCount": 11,
+      "scope": "adapt",
+      "phase": "M3",
+      "reason": "Reproduce retry/fallback and safety properties using Rust error injection instead of module mocks."
+    },
+    {
+      "file": "tests/dom-compat.test.ts",
+      "upstreamTestCount": 6,
+      "scope": "adapt",
+      "phase": "M1/M3",
+      "reason": "Port page URL, document-order, and email-header behavior; translate DOM URL provenance to explicit input context."
+    },
+    {
+      "file": "tests/extractor-attributes.test.ts",
+      "upstreamTestCount": 10,
+      "scope": "port",
+      "phase": "M5",
+      "reason": "Preserve adapter wrapper markers and allowed attributes while removing page-authored decoration."
+    },
+    {
+      "file": "tests/extractor-options.test.ts",
+      "upstreamTestCount": 12,
+      "scope": "mixed",
+      "phase": "M5",
+      "reason": "Port includeReplies/options forwarding; injected fetch behavior is outside the no-network API."
+    },
+    {
+      "file": "tests/extractor-xss.test.ts",
+      "upstreamTestCount": 13,
+      "scope": "mixed",
+      "phase": "M1/M5",
+      "reason": "Port poisoned local adapter builders and sanitization; C2 network-source rendering is only needed if that adapter is added."
+    },
+    {
+      "file": "tests/fetch.test.ts",
+      "upstreamTestCount": 2,
+      "scope": "exclude",
+      "phase": "out of scope",
+      "reason": "HTTP content-type/charset decoding belongs to fetching, not UTF-8 HTML input."
+    },
+    {
+      "file": "tests/fixture-comparison.test.ts",
+      "upstreamTestCount": 2,
+      "scope": "reuse",
+      "phase": "M0",
+      "reason": "Reuse the exact comparison helpers in the bridge and prove native comparisons preserve content/attributes/fences."
+    },
+    {
+      "file": "tests/fixtures.test.ts",
+      "upstreamTestCount": 227,
+      "scope": "port",
+      "phase": "M0-M5",
+      "reason": "Reuse all 226 HTML/Markdown pairs and four explicit HTML goldens; the extra test asserts corpus non-emptiness."
+    },
+    {
+      "file": "tests/full-bundle.test.ts",
+      "upstreamTestCount": 3,
+      "scope": "adapt",
+      "phase": "M2",
+      "reason": "Preserve HTML-only and HTML+Markdown output semantics; JS bundle/class API shape is not required."
+    },
+    {
+      "file": "tests/gmail-published-date.test.ts",
+      "upstreamTestCount": 3,
+      "scope": "port",
+      "phase": "M5",
+      "reason": "Local Gmail header date extraction; freeze UTC and test date precedence."
+    },
+    {
+      "file": "tests/heading-serialization.test.ts",
+      "upstreamTestCount": 12,
+      "scope": "port",
+      "phase": "M2/M4",
+      "reason": "Preserve heading escaping/serialization."
+    },
+    {
+      "file": "tests/inline-tight-spacing.test.ts",
+      "upstreamTestCount": 4,
+      "scope": "port",
+      "phase": "M2/M4",
+      "reason": "Preserve text across adjacent inline elements."
+    },
+    {
+      "file": "tests/lazy-images.test.ts",
+      "upstreamTestCount": 29,
+      "scope": "port",
+      "phase": "M4",
+      "reason": "Preserve lazy source selection and image semantics."
+    },
+    {
+      "file": "tests/markdown-xss.test.ts",
+      "upstreamTestCount": 66,
+      "scope": "port",
+      "phase": "M2/M4",
+      "reason": "Port escaping assertions and retain the marked-rendered output safety check."
+    },
+    {
+      "file": "tests/markdown.test.ts",
+      "upstreamTestCount": 30,
+      "scope": "port",
+      "phase": "M2/M4",
+      "reason": "Exact link/table/code/math/base-URL/spacing behavior."
+    },
+    {
+      "file": "tests/math-variants.test.ts",
+      "upstreamTestCount": 25,
+      "scope": "mixed",
+      "phase": "M4",
+      "reason": "Full math and failure fallbacks are in scope; core-only bundle/dependency scans need separate feature/API treatment."
+    },
+    {
+      "file": "tests/media-removal.test.ts",
+      "upstreamTestCount": 1,
+      "scope": "port",
+      "phase": "M4",
+      "reason": "Preserve media removal options and retained content."
+    },
+    {
+      "file": "tests/no-mutate-live-doc.test.ts",
+      "upstreamTestCount": 2,
+      "scope": "adapt",
+      "phase": "M1",
+      "reason": "No caller Document exists in a string API; preserve the underlying clone/retry isolation property."
+    },
+    {
+      "file": "tests/perf.test.ts",
+      "upstreamTestCount": 1,
+      "scope": "adapt",
+      "phase": "M6",
+      "reason": "Create an end-to-end release benchmark using manifest URLs and Markdown; existing test is a reporting baseline."
+    },
+    {
+      "file": "tests/preferred-async.test.ts",
+      "upstreamTestCount": 5,
+      "scope": "mixed",
+      "phase": "M3/M5",
+      "reason": "Async preference is excluded; preserve fallthrough for empty sanitized adapter output and valid zero-word media."
+    },
+    {
+      "file": "tests/proxy.test.ts",
+      "upstreamTestCount": 14,
+      "scope": "exclude",
+      "phase": "out of scope",
+      "reason": "HTTP proxy environment selection is outside the offline core."
+    },
+    {
+      "file": "tests/reddit-author.test.ts",
+      "upstreamTestCount": 2,
+      "scope": "port",
+      "phase": "M5",
+      "reason": "Local old/new Reddit author/title/reply markup."
+    },
+    {
+      "file": "tests/reddit-feed.test.ts",
+      "upstreamTestCount": 8,
+      "scope": "exclude",
+      "phase": "out of scope",
+      "reason": "All tests exercise remote old.reddit.com/RSS fallback, request caching, headers, or status handling."
+    },
+    {
+      "file": "tests/schema-fallback.test.ts",
+      "upstreamTestCount": 18,
+      "scope": "port",
+      "phase": "M3",
+      "reason": "Preserve JSON-LD selection/re-extraction/text fallback and all safety properties."
+    },
+    {
+      "file": "tests/svg-sanitization.test.ts",
+      "upstreamTestCount": 11,
+      "scope": "port",
+      "phase": "M1/M4",
+      "reason": "Preserve SVG content while stripping active elements and unsafe URI attributes."
+    },
+    {
+      "file": "tests/template-sanitization.test.ts",
+      "upstreamTestCount": 24,
+      "scope": "port",
+      "phase": "M1",
+      "reason": "Inert fragments, unsafe selected roots, and mutation-XSS regressions."
+    },
+    {
+      "file": "tests/twitter-linkedom.test.ts",
+      "upstreamTestCount": 6,
+      "scope": "port",
+      "phase": "M5",
+      "reason": "Local Twitter/X extraction and comment trees on server DOM."
+    },
+    {
+      "file": "tests/url-scheme-sanitization.test.ts",
+      "upstreamTestCount": 23,
+      "scope": "port",
+      "phase": "M1",
+      "reason": "Match URL normalization, inline-image exceptions, iframe restrictions, root attributes, and disabled-cleanup cases."
+    },
+    {
+      "file": "tests/website-docs.test.ts",
+      "upstreamTestCount": 8,
+      "scope": "exclude",
+      "phase": "out of scope",
+      "reason": "Website documentation rendering is not library extraction."
+    },
+    {
+      "file": "tests/website-page-markdown.test.ts",
+      "upstreamTestCount": 7,
+      "scope": "exclude",
+      "phase": "out of scope",
+      "reason": "Website page presentation behavior is not the core Markdown converter."
+    },
+    {
+      "file": "tests/website-playground.test.ts",
+      "upstreamTestCount": 5,
+      "scope": "exclude",
+      "phase": "out of scope",
+      "reason": "Website playground UI is outside the Rust library."
+    },
+    {
+      "file": "tests/website-search.test.ts",
+      "upstreamTestCount": 10,
+      "scope": "exclude",
+      "phase": "out of scope",
+      "reason": "Website search UI/model is outside the Rust library."
+    },
+    {
+      "file": "tests/x-article-surrogates.test.ts",
+      "upstreamTestCount": 3,
+      "scope": "mixed",
+      "phase": "M5",
+      "reason": "Intact emoji is in scope; two JS inputs contain lone UTF-16 surrogates impossible in a Rust &str. Define a separate representation if supporting them."
+    },
+    {
+      "file": "tests/x-oembed-surrogates.test.ts",
+      "upstreamTestCount": 3,
+      "scope": "exclude",
+      "phase": "out of scope",
+      "reason": "Remote FxTwitter/oEmbed API facet offsets are outside local HTML extraction."
+    },
+    {
+      "file": "tests/youtube-transcript.test.ts",
+      "upstreamTestCount": 63,
+      "scope": "mixed",
+      "phase": "M5",
+      "reason": "Port embedded JSON validation, present DOM transcript/output behavior as applicable; exclude APIs, timed text fetches, and runtime click-to-open transcript UI."
+    },
+    {
+      "file": "tests/youtube-videodata.test.ts",
+      "upstreamTestCount": 2,
+      "scope": "port",
+      "phase": "M5",
+      "reason": "Local JSON-LD VideoObject precedence and description fallback."
+    },
+    {
+      "file": "website/tests/format-html.test.ts",
+      "upstreamTestCount": 4,
+      "scope": "exclude",
+      "phase": "out of scope",
+      "reason": "Website editor pretty-printing is outside extraction/Markdown output."
+    },
+    {
+      "file": "website/tests/syntax-highlighting.test.ts",
+      "upstreamTestCount": 3,
+      "scope": "exclude",
+      "phase": "out of scope",
+      "reason": "Website editor syntax highlighting is outside library extraction."
+    }
+  ]
+}

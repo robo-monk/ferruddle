@@ -1,0 +1,97 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is a generator-based implementation:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "python",
+      "text": "def fibonacci_generator(n):\n    a, b = 0, 1\n    for _ in range(n):\n        yield a\n        a, b = b, a + b\n\n\nfor num in fibonacci_generator(10):\n    print(num)"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This uses Python's "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "yield"
+        },
+        {
+          "kind": "text",
+          "text": " keyword to lazily produce each number."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is a generator-based implementation:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "python",
+      "text": "def fibonacci_generator(n):\n    a, b = 0, 1\n    for _ in range(n):\n        yield a\n        a, b = b, a + b\n\n\nfor num in fibonacci_generator(10):\n    print(num)"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This uses Python's "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "yield"
+        },
+        {
+          "kind": "text",
+          "text": " keyword to lazily produce each number."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "chatgpt.com",
+    "title": "Fibonacci in Python",
+    "description": "",
+    "domain": "chatgpt.com",
+    "favicon": "https://chatgpt.com/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 40,
+  "extractorType": null
+}

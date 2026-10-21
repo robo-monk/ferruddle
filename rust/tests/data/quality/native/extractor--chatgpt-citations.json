@@ -1,0 +1,3154 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "You said"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "How do I choose a good air purifier for my bedroom? Please explain the key things to look for and cite reliable sources inline."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "ChatGPT said"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For a bedroom air purifier, the most important thing is not the brand name—it's whether the purifier can clean the volume of air in your room effectively and quietly."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The 5 most important things to look for"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h4",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "1. "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "CADR (Clean Air Delivery Rate) — the most important specification"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "CADR measures how much filtered air the purifier delivers. A higher CADR means faster removal of particles such as dust, pollen, and smoke. The U.S. EPA recommends choosing a purifier with a CADR large enough for the room where it will be used. For example, a 200 sq ft (≈19 m²) room should have a minimum CADR around 130 cfm (≈220 m³/h). "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:1"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Rule of thumb:"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " Buy slightly larger than you need. A bigger purifier can run on a lower, quieter fan speed while still cleaning the room effectively. Community discussions and AHAM guidance commonly suggest a CADR of at least two-thirds of the room area (assuming standard ceiling height). "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:1"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h4",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "2. "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "A true HEPA filter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For most bedrooms, a HEPA filter is the best choice. A true HEPA filter can capture at least 99.97% of particles 0.3 microns in size, including dust, pollen, mold spores, and many airborne allergens. "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:2"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "If your main concern is:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Allergies"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Pet dander"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Dust"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Pollen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "then HEPA filtration should be at the top of your checklist. "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:2"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h4",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "3. "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Activated carbon if odors matter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "HEPA filters are excellent for particles, but they do not remove most gases or odors. If you want help with:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Cooking smells"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Pet odors"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "VOCs from paints, furniture, or cleaning products"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "look for a purifier that includes an activated carbon filter in addition to HEPA filtration. The EPA notes that gas removal requires specialized media such as activated carbon. "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:1"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h4",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "4. "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Noise level in sleep mode"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Many purifiers achieve their advertised CADR only at maximum fan speed, which can be too loud for sleeping. Check the noise rating (dB) and read reviews about overnight use. A purifier that is quiet at the speed you'll actually use is often preferable to a louder unit with a slightly higher CADR. "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:3"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:3"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For a bedroom, many people find:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Under 30 dB: very quiet"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "30–40 dB: generally acceptable"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Above 45 dB: may disturb light sleepers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h4",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "5. "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Filter replacement cost"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Every purifier requires ongoing maintenance. The EPA emphasizes that filters must be replaced regularly; a clogged filter performs poorly. Before buying, check:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Replacement filter price"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Replacement frequency"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Availability in your country"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A purifier with cheap upfront pricing can become expensive if replacement filters cost a lot. "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:1"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Features that are nice but not essential"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Air quality sensors"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Auto mode"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Wi-Fi/app control"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Scheduling"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Smart-home integration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "These can improve convenience but usually have much less impact on air cleaning performance than CADR, HEPA filtration, and proper sizing. "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:4"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:4"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Features I'd be cautious about"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some purifiers advertise:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Ionizers"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Ozone generation"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Plasma\" technologies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "These may not provide meaningful benefits over a well-designed HEPA purifier, and ozone can irritate the lungs. Many indoor-air experts recommend prioritizing mechanical filtration (HEPA + carbon) first. "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:2"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Bedroom buying checklist"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A good bedroom air purifier should ideally have:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "✅ True HEPA filter"
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " ✅ CADR appropriate for your room size (or larger)"
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " ✅ Activated carbon filter if odors/VOCs matter"
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " ✅ Quiet sleep mode"
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " ✅ Reasonable replacement-filter costs"
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " ✅ Auto mode (optional)"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Example products worth considering"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Attribute"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "img",
+                  "attributes": [],
+                  "children": []
+                },
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Coway Airmega 100 ilmanpuhdistin"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "€169.00•POWER.fi + others"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "img",
+                  "attributes": [],
+                  "children": []
+                },
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Philips PureProtect Quiet 2200 Series"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "€279.00•Clas Ohlson FI + others"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "img",
+                  "attributes": [],
+                  "children": []
+                },
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "IKEA STARKVIND Air purifier"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "€149.00•IKEA"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Bedroom-focused"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Yes"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Yes"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Yes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "HEPA-style particle filtration"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Yes"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Yes"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Yes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Quiet operation emphasis"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Good"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Strong"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Moderate"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Smart features"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Limited"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "More extensive"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Available on some versions"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Budget level"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mid-range"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mid-to-premium"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Budget-to-mid"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "If you tell me:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "your bedroom size (m²),"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "whether you have allergies, pets, smoke exposure, or odor concerns,"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "and your budget,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "I can narrow it down to the most suitable models for your specific room."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "anchor",
+          "id": "fn:1"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://www.epa.gov/indoor-air-quality-iaq/guide-air-cleaners-home?utm_source=chatgpt.com"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "epa.gov"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:2"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://www.epa.gov/indoor-air-quality-iaq/what-hepa-filter?utm_source=chatgpt.com"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "epa.gov"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:3"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://www.wired.com/story/youre-probably-using-your-air-purifier-wrong?utm_source=chatgpt.com"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "wired.com"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:3"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:4"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://www.techradar.com/home/air-quality/how-to-choose-an-air-purifier-for-hay-fever?utm_source=chatgpt.com"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "techradar.com"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:4"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "You said"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "How do I choose a good air purifier for my bedroom? Please explain the key things to look for and cite reliable sources inline."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "ChatGPT said"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For a bedroom air purifier, the most important thing is not the brand name—it's whether the purifier can clean the volume of air in your room effectively and quietly."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The 5 most important things to look for"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h4",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "1. "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "CADR (Clean Air Delivery Rate) — the most important specification"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "CADR measures how much filtered air the purifier delivers. A higher CADR means faster removal of particles such as dust, pollen, and smoke. The U.S. EPA recommends choosing a purifier with a CADR large enough for the room where it will be used. For example, a 200 sq ft (≈19 m²) room should have a minimum CADR around 130 cfm (≈220 m³/h). "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Rule of thumb:"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " Buy slightly larger than you need. A bigger purifier can run on a lower, quieter fan speed while still cleaning the room effectively. Community discussions and AHAM guidance commonly suggest a CADR of at least two-thirds of the room area (assuming standard ceiling height). "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h4",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "2. "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "A true HEPA filter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For most bedrooms, a HEPA filter is the best choice. A true HEPA filter can capture at least 99.97% of particles 0.3 microns in size, including dust, pollen, mold spores, and many airborne allergens. "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "If your main concern is:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Allergies"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Pet dander"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Dust"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Pollen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "then HEPA filtration should be at the top of your checklist. "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h4",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "3. "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Activated carbon if odors matter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "HEPA filters are excellent for particles, but they do not remove most gases or odors. If you want help with:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Cooking smells"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Pet odors"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "VOCs from paints, furniture, or cleaning products"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "look for a purifier that includes an activated carbon filter in addition to HEPA filtration. The EPA notes that gas removal requires specialized media such as activated carbon. "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h4",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "4. "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Noise level in sleep mode"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Many purifiers achieve their advertised CADR only at maximum fan speed, which can be too loud for sleeping. Check the noise rating (dB) and read reviews about overnight use. A purifier that is quiet at the speed you'll actually use is often preferable to a louder unit with a slightly higher CADR. "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-3"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For a bedroom, many people find:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Under 30 dB: very quiet"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "30–40 dB: generally acceptable"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Above 45 dB: may disturb light sleepers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h4",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "5. "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Filter replacement cost"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Every purifier requires ongoing maintenance. The EPA emphasizes that filters must be replaced regularly; a clogged filter performs poorly. Before buying, check:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Replacement filter price"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Replacement frequency"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Availability in your country"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A purifier with cheap upfront pricing can become expensive if replacement filters cost a lot. "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Features that are nice but not essential"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Air quality sensors"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Auto mode"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Wi-Fi/app control"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Scheduling"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Smart-home integration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "These can improve convenience but usually have much less impact on air cleaning performance than CADR, HEPA filtration, and proper sizing. "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-4"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Features I'd be cautious about"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some purifiers advertise:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Ionizers"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Ozone generation"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Plasma\" technologies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "These may not provide meaningful benefits over a well-designed HEPA purifier, and ozone can irritate the lungs. Many indoor-air experts recommend prioritizing mechanical filtration (HEPA + carbon) first. "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Bedroom buying checklist"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A good bedroom air purifier should ideally have:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "✅ True HEPA filter"
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " ✅ CADR appropriate for your room size (or larger)"
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " ✅ Activated carbon filter if odors/VOCs matter"
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " ✅ Quiet sleep mode"
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " ✅ Reasonable replacement-filter costs"
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " ✅ Auto mode (optional)"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Example products worth considering"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Attribute"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Coway Airmega 100 ilmanpuhdistin €169.00•POWER.fi + others"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Philips PureProtect Quiet 2200 Series €279.00•Clas Ohlson FI + others"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "IKEA STARKVIND Air purifier €149.00•IKEA"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Bedroom-focused"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Yes"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Yes"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Yes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "HEPA-style particle filtration"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Yes"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Yes"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Yes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Quiet operation emphasis"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Good"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Strong"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Moderate"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Smart features"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Limited"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "More extensive"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Available on some versions"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Budget level"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mid-range"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mid-to-premium"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Budget-to-mid"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "If you tell me:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "your bedroom size (m²),"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "whether you have allergies, pets, smoke exposure, or odor concerns,"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "and your budget,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "I can narrow it down to the most suitable models for your specific room."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-1"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.epa.gov/indoor-air-quality-iaq/guide-air-cleaners-home?utm_source=chatgpt.com"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "epa.gov"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-2"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.epa.gov/indoor-air-quality-iaq/what-hepa-filter?utm_source=chatgpt.com"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "epa.gov"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-3"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.wired.com/story/youre-probably-using-your-air-purifier-wrong?utm_source=chatgpt.com"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "wired.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-4"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.techradar.com/home/air-quality/how-to-choose-an-air-purifier-for-hay-fever?utm_source=chatgpt.com"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "techradar.com"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "ChatGPT",
+    "title": "ChatGPT citation fixture",
+    "description": "ChatGPT conversation with 2 messages",
+    "domain": "chatgpt.com",
+    "favicon": "https://chatgpt.com/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 671,
+  "extractorType": "chatgpt"
+}

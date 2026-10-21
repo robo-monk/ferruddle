@@ -1,0 +1,65 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Lorem Ipsum Dolor Sit Amet"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Lorem Ipsum Dolor Sit Amet"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "X (Twitter)",
+    "title": "Lorem Ipsum Dolor Sit Amet",
+    "description": "Lorem Ipsum Dolor Sit Amet\n        \n            \n                Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "domain": "x.com",
+    "favicon": "https://x.com/favicon.ico",
+    "image": "",
+    "language": "ja",
+    "published": "",
+    "author": "@janedoe"
+  },
+  "warnings": [],
+  "wordCount": 13,
+  "extractorType": "xarticle"
+}

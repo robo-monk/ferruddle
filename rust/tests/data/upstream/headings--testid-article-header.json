@@ -1,0 +1,20 @@
+{
+  "id": "headings--testid-article-header",
+  "url": "https://example.com/news/article",
+  "inputHtml": "<!-- {\"url\":\"https://example.com/news/article\"} -->\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <title>News Article Title</title>\n</head>\n<body>\n  <article>\n    <div class=\"article-body type-text\">\n      <p>A growing body of research links heavy social media use not only to declines in mental health but to measurable cognitive effects on attention, memory and focus.</p>\n    </div>\n    <div class=\"article-body type-text\">\n      <p>Science also suggests we have more control than we realize when it comes to reversing this damage, and the solution is surprisingly simple: Take a break.</p>\n    </div>\n    <div class=\"article-body type-header\">\n      <h2 data-testid=\"article-header\">Section heading</h2>\n    </div>\n    <div class=\"article-body type-image\">\n      <figure data-testid=\"article-image\">\n        <img alt=\"Photo description\" src=\"https://example.com/image.jpg\" width=\"600\" height=\"400\" />\n        <figcaption>Photo credit line.</figcaption>\n      </figure>\n    </div>\n    <div class=\"article-body type-text\">\n      <p>Researchers differentiate between internet use on phones versus computers, with phones being much worse than computers.</p>\n    </div>\n    <div class=\"article-body type-header\">\n      <h2 data-testid=\"article-header\">Another heading</h2>\n    </div>\n    <div class=\"article-body type-text\">\n      <p>The research into digital detoxes and how to define them is still in its early stages, raising questions about whether more targeted approaches might prove as effective.</p>\n    </div>\n  </article>\n</body>\n</html>\n",
+  "inputSha256": "143dba98f4dac9282ea70be8d9185db178e5b07a14bd8b09c85ca9d1c6bcfb0d",
+  "upstreamFixture": "tests/fixtures/headings--testid-article-header.html",
+  "markdownGoldenSha256": "7dc003a7b67683e4ad9c977499697927f4687385d42fb667fb12c6719b57cce2",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>A growing body of research links heavy social media use not only to declines in mental health but to measurable cognitive effects on attention, memory and focus.</p>   <p>Science also suggests we have more control than we realize when it comes to reversing this damage, and the solution is surprisingly simple: Take a break.</p>   <h2>Section heading</h2>  <div> <figure><img alt=\"Photo description\" src=\"https://example.com/image.jpg\" width=\"600\" height=\"400\"> <figcaption>Photo credit line.</figcaption></figure> </div>  <p>Researchers differentiate between internet use on phones versus computers, with phones being much worse than computers.</p>   <h2>Another heading</h2>   <p>The research into digital detoxes and how to define them is still in its early stages, raising questions about whether more targeted approaches might prove as effective.</p>  </article>",
+    "contentMarkdown": "A growing body of research links heavy social media use not only to declines in mental health but to measurable cognitive effects on attention, memory and focus.\n\nScience also suggests we have more control than we realize when it comes to reversing this damage, and the solution is surprisingly simple: Take a break.\n\n## Section heading\n\n![Photo description](https://example.com/image.jpg)\n\nPhoto credit line.\n\nResearchers differentiate between internet use on phones versus computers, with phones being much worse than computers.\n\n## Another heading\n\nThe research into digital detoxes and how to define them is still in its early stages, raising questions about whether more targeted approaches might prove as effective.",
+    "title": "News Article Title",
+    "author": "",
+    "site": "example.com",
+    "published": "",
+    "wordCount": 103,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "footnotes--labeled-section-ol",
+  "url": "https://labeled-section-ol",
+  "inputHtml": "<html>\n<head><title>Policy Note</title></head>\n<body>\n<article>\n<h1>Policy Note</h1>\n<p>We laid out our position in an earlier essay<sup class=\"caption Body-module__sup\">1</sup>, and have held it consistently.</p>\n<ol>\n<li>The first concern is that capable systems are hard to monitor once released<sup class=\"caption Body-module__sup\">2</sup>.</li>\n<li>The second concern is that testing should apply to every sufficiently capable system<sup class=\"caption Body-module__sup\">3</sup>.</li>\n</ol>\n<p>These positions are complementary rather than competing.</p>\n</article>\n<div class=\"page-wrapper\">\n<div class=\"PostDetail-module-scss-module__UQuRMa__footnotes\">\n<h4 class=\"headline-5\">Footnotes</h4>\n<ol>\n<li id=\"footnote-1\">See Sections 2 and 3 of that essay for the full discussion.</li>\n<li id=\"footnote-2\">See <a href=\"https://example.com/report\">this report</a> for supporting analysis.</li>\n<li id=\"footnote-3\">Testing regimes are described in <em>Appendix B</em> of the same document.</li>\n</ol>\n</div>\n</div>\n</body>\n</html>\n",
+  "inputSha256": "f3f5028e35ccf950e2ca62df6c28d101889acb26b8f9abe008b7c5090802a1db",
+  "upstreamFixture": "tests/fixtures/footnotes--labeled-section-ol.html",
+  "markdownGoldenSha256": "88ba54f58d261d2185bc034cbf519d5ed2b270ec075c9049397bb8630287bca7",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>We laid out our position in an earlier essay<sup id=\"fnref:1\"><a href=\"#fn:1\">1</a></sup>, and have held it consistently.</p> <ol> <li>The first concern is that capable systems are hard to monitor once released<sup id=\"fnref:2\"><a href=\"#fn:2\">2</a></sup>.</li> <li>The second concern is that testing should apply to every sufficiently capable system<sup id=\"fnref:3\"><a href=\"#fn:3\">3</a></sup>.</li> </ol> <p>These positions are complementary rather than competing.</p> <div id=\"footnotes\"><ol><li id=\"fn:1\"><p>See Sections 2 and 3 of that essay for the full discussion.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:1\">↩</a></p></li> <li id=\"fn:2\"><p>See <a href=\"https://example.com/report\">this report</a> for supporting analysis.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:2\">↩</a></p></li> <li id=\"fn:3\"><p>Testing regimes are described in <em>Appendix B</em> of the same document.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:3\">↩</a></p></li></ol></div></article>",
+    "contentMarkdown": "We laid out our position in an earlier essay[^1], and have held it consistently.\n\n1. The first concern is that capable systems are hard to monitor once released[^2].\n2. The second concern is that testing should apply to every sufficiently capable system[^3].\n\nThese positions are complementary rather than competing.\n\n[^1]: See Sections 2 and 3 of that essay for the full discussion.\n\n[^2]: See [this report](https://example.com/report) for supporting analysis.\n\n[^3]: Testing regimes are described in *Appendix B* of the same document.",
+    "title": "Policy Note",
+    "author": "",
+    "site": "labeled-section-ol",
+    "published": "",
+    "wordCount": 85,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

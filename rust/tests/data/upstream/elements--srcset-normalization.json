@@ -1,0 +1,20 @@
+{
+  "id": "elements--srcset-normalization",
+  "url": "https://www.example.com/article/srcset-test",
+  "inputHtml": "<!DOCTYPE html>\n<!-- {\"url\":\"https://www.example.com/article/srcset-test\"} -->\n<html>\n<head>\n\t<title>React SSR srcSet Normalization</title>\n</head>\n<body>\n\t<article>\n\t\t<h1>Article with React SSR Images</h1>\n\t\t<p>This article tests normalization of React SSR camelCase srcSet attributes to standard lowercase srcset.</p>\n\n\t\t<figure>\n\t\t\t<picture>\n\t\t\t\t<source type=\"image/webp\" media=\"(min-width: 1000px)\" srcSet=\"https://www.example.com/images/hero.webp 2x, https://www.example.com/images/hero-small.webp 1x \">\n\t\t\t\t<source type=\"image/png\" media=\"(min-width: 1000px)\" srcSet=\"https://www.example.com/images/hero.png 2x, https://www.example.com/images/hero-small.png 1x \">\n\t\t\t\t<img src=\"data:image/gif;base64,R0lGODlhAQABAPAAAPLy8gAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==\" alt=\"Hero image with React SSR attributes.\">\n\t\t\t</picture>\n\t\t\t<figcaption>Hero image with React SSR attributes. Photo credit.</figcaption>\n\t\t</figure>\n\n\t\t<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>\n\t\t<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>\n\t</article>\n</body>\n</html>\n",
+  "inputSha256": "9995fff85e4de8fb2b764de0ee77639fc99fcb2ed7746d319e85598322f088aa",
+  "upstreamFixture": "tests/fixtures/elements--srcset-normalization.html",
+  "markdownGoldenSha256": "ea9fce95f2a443c6d44226cf27f576846c9be4ca368478b11c43168c9b9a9ce2",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article> <h2>Article with React SSR Images</h2> <p>This article tests normalization of React SSR camelCase srcSet attributes to standard lowercase srcset.</p> <figure><picture>   <img srcset=\"https://www.example.com/images/hero.webp 2x, https://www.example.com/images/hero-small.webp 1x\" src=\"https://www.example.com/images/hero.webp\" alt=\"Hero image with React SSR attributes.\"> </picture> <figcaption>Hero image with React SSR attributes. Photo credit.</figcaption></figure> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p> <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p> </article>",
+    "contentMarkdown": "## Article with React SSR Images\n\nThis article tests normalization of React SSR camelCase srcSet attributes to standard lowercase srcset.\n\n![Hero image with React SSR attributes.](https://www.example.com/images/hero.webp)\n\nHero image with React SSR attributes. Photo credit.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+    "title": "React SSR srcSet Normalization",
+    "author": "",
+    "site": "example.com",
+    "published": "",
+    "wordCount": 78,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

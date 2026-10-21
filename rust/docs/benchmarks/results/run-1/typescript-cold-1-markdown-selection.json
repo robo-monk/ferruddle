@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "kind": "cold",
+  "passes": 1,
+  "manifestSha256": "0e137fc415fce1832582b273e87bf2e64b1f93473d8b0ad29070fab40aa35dfa",
+  "mathExclusionsSha256": "2a3a21bf867c67ca974bf4db48a05d40c426a69cf1860cd425152fdb66d84d57",
+  "caseIds": [
+    "issues--132-hero-class"
+  ],
+  "inputs": [
+    {
+      "id": "issues--132-hero-class",
+      "file": "issues--132-hero-class.json",
+      "sha256": "08c12455b3682c2609d13d4011726d83d2603c57f90203ba16fd82cba9491e90",
+      "inputSha256": "6f6de1f94f9c12216850d4bc9201373d23e95a7eb34d05ac974255f6072c66a5",
+      "url": "https://132-hero-class"
+    }
+  ],
+  "excludedMathCaseIds": [
+    "general--cp4space-jordan-algebra",
+    "issues--141-arxiv-equation-tables",
+    "issues--169-svg-classname-crash",
+    "math--equation-table-mathml",
+    "math--katex",
+    "math--katex-centraliser",
+    "math--katex-data-math",
+    "math--latex-image-services",
+    "math--mathjax",
+    "math--mathjax-chtml-no-assistive",
+    "math--mathjax-svg",
+    "math--mathjax-tagged-equation",
+    "math--mathjax-tex-scripts",
+    "math--raw-latex",
+    "math--small-equation-image",
+    "math--temml",
+    "math--wikipedia-mathml",
+    "security--math-literal-text"
+  ],
+  "inputBytes": 319,
+  "inputSetSha256": "7dda5e028d9dd28a9c74b4e64f1a338523a94d4472c28ad4196baf54c21abe32",
+  "rounds": 1,
+  "warmups": 0,
+  "pass": 0,
+  "modeOrder": [
+    "html+markdown"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "issues--132-hero-class",
+  "url": "https://132-hero-class",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n<title>Page with Hero Section</title>\n</head>\n<body>\n<article>\n<h1>Page with Hero Section</h1>\n<div class=\"hero\">\n<p>This is the hero section with important introductory content that should not be removed.</p>\n</div>\n<p>This is the main body of the article.</p>\n</article>\n</body>\n</html>\n",
+  "inputSha256": "6f6de1f94f9c12216850d4bc9201373d23e95a7eb34d05ac974255f6072c66a5",
+  "upstreamFixture": "tests/fixtures/issues--132-hero-class.html",
+  "markdownGoldenSha256": "c3d6dbccfcb8ef9160a9ebcb584995a1429f1c23c72c9ff57642c9b93d2aac1e",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>   <p>This is the hero section with important introductory content that should not be removed.</p>  <p>This is the main body of the article.</p> </article>",
+    "contentMarkdown": "This is the hero section with important introductory content that should not be removed.\n\nThis is the main body of the article.",
+    "title": "Page with Hero Section",
+    "author": "",
+    "site": "132-hero-class",
+    "published": "",
+    "wordCount": 22,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

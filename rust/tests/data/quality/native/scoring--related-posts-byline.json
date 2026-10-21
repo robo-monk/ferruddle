@@ -1,0 +1,401 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "How Acme Corp improved performance with a new architecture"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "By integrating a new microservices architecture, Acme Corp was able to reduce latency by forty percent while improving reliability across all production systems."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Key highlights"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Forty percent reduction in API response times"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Automated deployment pipeline reduced release cycles from days to hours"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Zero-downtime deployments across all services"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The challenge"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Modern web applications face increasing demands for speed and reliability. As traffic grew, the monolithic architecture became a bottleneck that limited the team's ability to ship new features quickly."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The engineering team needed a solution that would allow independent deployment of services while maintaining consistency across the platform. This required rethinking the entire deployment pipeline."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Before the migration, deploying a single change required coordinating across multiple teams and scheduling a maintenance window. Now each team can deploy independently without impacting others.\""
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "— Jane Smith, VP of Engineering, Acme Corp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The solution"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The team adopted a service mesh architecture that provided automatic load balancing, service discovery, and circuit breaking. Each service was containerized and deployed independently through a CI/CD pipeline."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The migration was completed in three phases over six months, with each phase delivering measurable improvements in performance and developer productivity."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Results"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The new architecture delivered significant improvements across all key metrics. Response times dropped by forty percent, deployment frequency increased from weekly to multiple times per day, and the mean time to recovery decreased by seventy percent."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "How Acme Corp improved performance with a new architecture"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "By integrating a new microservices architecture, Acme Corp was able to reduce latency by forty percent while improving reliability across all production systems."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Key highlights"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Forty percent reduction in API response times"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Automated deployment pipeline reduced release cycles from days to hours"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Zero-downtime deployments across all services"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The challenge"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Modern web applications face increasing demands for speed and reliability. As traffic grew, the monolithic architecture became a bottleneck that limited the team's ability to ship new features quickly."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The engineering team needed a solution that would allow independent deployment of services while maintaining consistency across the platform. This required rethinking the entire deployment pipeline."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\"Before the migration, deploying a single change required coordinating across multiple teams and scheduling a maintenance window. Now each team can deploy independently without impacting others.\""
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "— Jane Smith, VP of Engineering, Acme Corp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The solution"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The team adopted a service mesh architecture that provided automatic load balancing, service discovery, and circuit breaking. Each service was containerized and deployed independently through a CI/CD pipeline."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The migration was completed in three phases over six months, with each phase delivering measurable improvements in performance and developer productivity."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Results"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The new architecture delivered significant improvements across all key metrics. Response times dropped by forty percent, deployment frequency increased from weekly to multiple times per day, and the mean time to recovery decreased by seventy percent."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Acme Corp",
+    "title": "Blog Post with Related Posts and Byline",
+    "description": "",
+    "domain": "related-posts-byline",
+    "favicon": "https://related-posts-byline/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "2026-03-04T17:48:21Z",
+    "author": "Acme Corp"
+  },
+  "warnings": [],
+  "wordCount": 235,
+  "extractorType": null
+}

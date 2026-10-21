@@ -1,0 +1,20 @@
+{
+  "id": "codeblocks--hljs-header",
+  "url": "https://example.com/code-tutorial",
+  "inputHtml": "<!DOCTYPE html>\n<!-- {\"url\":\"https://example.com/code-tutorial\"} -->\n<html>\n<head>\n\t<title>Code Tutorial</title>\n</head>\n<body>\n\t<main>\n\t\t<h1>Getting user input</h1>\n\t\t<p>Here is a script that collects user data:</p>\n\n\t\t<!-- Code block with hljs syntax highlighting and a header div showing\n\t\t     the language label. The header should be stripped from extracted content. -->\n\t\t<pre><code class=\"hljs language-bash\"><div class=\"code__header\"><span>bash</span><button class=\"code__copy-button\"><span class=\"code__copy-icon\"></span></button></div><div class=\"code-content\"><span class=\"hljs-meta\">#!/bin/bash</span>\n\n<span class=\"hljs-comment\"># Prompt the user for their name</span>\n<span class=\"hljs-built_in\">read</span> -p <span class=\"hljs-string\">\"Enter your name: \"</span> name\n\n<span class=\"hljs-comment\"># Display the name</span>\n<span class=\"hljs-built_in\">echo</span> <span class=\"hljs-string\">\"Hello, <span class=\"hljs-variable\">$name</span>\"</span>\n</div></code></pre>\n\n\t\t<p>This script uses the <code>read</code> command to get input.</p>\n\t</main>\n</body>\n</html>\n",
+  "inputSha256": "d9daeb7ec3489df64437fa2cd09e9dbfecd29411aec4163bcb2df73fedcd6997",
+  "upstreamFixture": "tests/fixtures/codeblocks--hljs-header.html",
+  "markdownGoldenSha256": "464f26d805351917d4860daa86d3a90ba81912527890fb009803f8fd45ac1486",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<main> <h2>Getting user input</h2> <p>Here is a script that collects user data:</p>  <pre><code class=\"language-bash\" data-lang=\"bash\">#!/bin/bash\n\n# Prompt the user for their name\nread -p \"Enter your name: \" name\n\n# Display the name\necho \"Hello, $name\"</code></pre> <p>This script uses the <code>read</code> command to get input.</p> </main>",
+    "contentMarkdown": "## Getting user input\n\nHere is a script that collects user data:\n\n```bash\n#!/bin/bash\n\n# Prompt the user for their name\nread -p \"Enter your name: \" name\n\n# Display the name\necho \"Hello, $name\"\n```\n\nThis script uses the `read` command to get input.",
+    "title": "Code Tutorial",
+    "author": "",
+    "site": "example.com",
+    "published": "",
+    "wordCount": 42,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

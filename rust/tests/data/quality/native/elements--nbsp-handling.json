@@ -1,0 +1,65 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The brief walk home was pleasant. I passed along a pavement full of discarded sweet wrappers and broken toys."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Multiple nbsps should collapse. Single ones between words should stay."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The brief walk home was pleasant. I passed along a pavement full of discarded sweet wrappers and broken toys."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Multiple nbsps should collapse. Single ones between words should stay."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "nbsp-handling",
+    "title": "Non-breaking space test",
+    "description": "",
+    "domain": "nbsp-handling",
+    "favicon": "https://nbsp-handling/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 29,
+  "extractorType": null
+}

@@ -1,0 +1,169 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Authors"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Rafael Rafailov"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "2"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", Archit Sharma"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "1"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", Eric Mitchell"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the actual article content that follows the author section. The paper presents a novel approach to reinforcement learning from human feedback."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Authors"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Rafael Rafailov"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "2"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", Archit Sharma"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "1"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", Eric Mitchell"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the actual article content that follows the author section. The paper presents a novel approach to reinforcement learning from human feedback."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "144-arxiv-footnote-marks",
+    "title": "arXiv Footnote Marks",
+    "description": "",
+    "domain": "144-arxiv-footnote-marks",
+    "favicon": "https://144-arxiv-footnote-marks/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 30,
+  "extractorType": null
+}

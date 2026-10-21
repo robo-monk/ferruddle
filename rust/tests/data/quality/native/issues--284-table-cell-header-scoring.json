@@ -1,0 +1,469 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "example::size_t"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Defined in header "
+                    },
+                    {
+                      "kind": "code",
+                      "block": false,
+                      "language": "",
+                      "text": "<cstddef>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Defined in header "
+                    },
+                    {
+                      "kind": "code",
+                      "block": false,
+                      "language": "",
+                      "text": "<cstdlib>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "code",
+                  "block": true,
+                  "language": "",
+                  "text": "typedef /* implementation-defined */ size_t;"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "(since C++17)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "example::size_t"
+        },
+        {
+          "kind": "text",
+          "text": " is the unsigned integer type of the result of the "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "sizeof"
+        },
+        {
+          "kind": "text",
+          "text": " operator. It is widely used to represent sizes and counts in portable code, and it can store the maximum size of any theoretically possible object on the target platform regardless of its declared type."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "example::size_t"
+        },
+        {
+          "kind": "text",
+          "text": " is commonly used for array indexing and loop counting. Programs that use other types for array indexing may fail on large systems when the index exceeds the range those narrower types can represent without overflow."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Notes"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "On most platforms "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "example::size_t"
+        },
+        {
+          "kind": "text",
+          "text": " can safely store the value of any non-member pointer, in which case it is as wide as the platform's pointer type and can round-trip pointer values through integer arithmetic without loss of information."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "example::size_t"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Defined in header "
+                    },
+                    {
+                      "kind": "code",
+                      "block": false,
+                      "language": "",
+                      "text": "<cstddef>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Defined in header "
+                    },
+                    {
+                      "kind": "code",
+                      "block": false,
+                      "language": "",
+                      "text": "<cstdlib>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "code",
+                  "block": true,
+                  "language": "",
+                  "text": "typedef /* implementation-defined */ size_t;"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "(since C++17)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "example::size_t"
+        },
+        {
+          "kind": "text",
+          "text": " is the unsigned integer type of the result of the "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "sizeof"
+        },
+        {
+          "kind": "text",
+          "text": " operator. It is widely used to represent sizes and counts in portable code, and it can store the maximum size of any theoretically possible object on the target platform regardless of its declared type."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "example::size_t"
+        },
+        {
+          "kind": "text",
+          "text": " is commonly used for array indexing and loop counting. Programs that use other types for array indexing may fail on large systems when the index exceeds the range those narrower types can represent without overflow."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Notes"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "On most platforms "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "example::size_t"
+        },
+        {
+          "kind": "text",
+          "text": " can safely store the value of any non-member pointer, in which case it is as wide as the platform's pointer type and can round-trip pointer values through integer arithmetic without loss of information."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "example.com",
+    "title": "example_size_t - Reference",
+    "description": "",
+    "domain": "example.com",
+    "favicon": "https://www.example.com/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 136,
+  "extractorType": null
+}

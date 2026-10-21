@@ -1,0 +1,5 @@
+   Packaging defuddle v0.1.0 (/home/robomonk/Work/defuddle/rust)
+    Packaged 533 files, 8.2MiB (1.1MiB compressed)
+   Verifying defuddle v0.1.0 (/home/robomonk/Work/defuddle/rust)
+   Compiling defuddle v0.1.0 (/home/robomonk/.cache/defuddle-port-hardening/target/package/defuddle-0.1.0)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.57s

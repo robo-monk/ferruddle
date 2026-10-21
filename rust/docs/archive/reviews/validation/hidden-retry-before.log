@@ -1,0 +1,33 @@
+   Compiling defuddle v0.1.0 (/home/robomonk/Work/defuddle/rust)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.30s
+     Running tests/hardening_pipeline.rs (/home/robomonk/.cache/defuddle-port-hardening/target/debug/deps/hardening_pipeline-3ec65eaa0c725169)
+
+running 2 tests
+test hidden_retry_keeps_the_first_equal_candidate_in_document_order ... FAILED
+test hidden_retry_searches_body_descendants_without_selecting_body ... FAILED
+
+failures:
+
+---- hidden_retry_keeps_the_first_equal_candidate_in_document_order stdout ----
+
+thread 'hidden_retry_keeps_the_first_equal_candidate_in_document_order' (688557) panicked at tests/hardening_pipeline.rs:54:5:
+assertion `left == right` failed
+  left: "<div data-probe=\"inner\"><p>alpha bravo charlie delta echo foxtrot golf hotel india juliet kilo lima mike november oscar papa quebec romeo sierra tango uniform victor whiskey xray yankee zulu one two three four five six seven eight nine ten.</p></div>"
+ right: "<section class=\"hidden\" data-probe=\"outer\"><div data-probe=\"inner\"><p>alpha bravo charlie delta echo foxtrot golf hotel india juliet kilo lima mike november oscar papa quebec romeo sierra tango uniform victor whiskey xray yankee zulu one two three four five six seven eight nine ten.</p></div></section>"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- hidden_retry_searches_body_descendants_without_selecting_body stdout ----
+
+thread 'hidden_retry_searches_body_descendants_without_selecting_body' (688558) panicked at tests/hardening_pipeline.rs:33:5:
+assertion `left == right` failed
+  left: 39
+ right: 3
+
+
+failures:
+    hidden_retry_keeps_the_first_equal_candidate_in_document_order
+    hidden_retry_searches_body_descendants_without_selecting_body
+
+test result: FAILED. 0 passed; 2 failed; 0 ignored; 0 measured; 10 filtered out; finished in 0.12s
+
+error: test failed, to rerun pass `--test hardening_pipeline`

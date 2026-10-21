@@ -1,0 +1,20 @@
+{
+  "id": "codeblocks--code-pre-nesting",
+  "url": "https://example.com/docs/quickstart",
+  "inputHtml": "<!DOCTYPE html>\n<!-- {\"url\":\"https://example.com/docs/quickstart\"} -->\n<html>\n<head>\n\t<title>Quickstart | Example Docs</title>\n\t<meta name=\"description\" content=\"Get started quickly.\">\n\t<meta property=\"og:title\" content=\"Quickstart | Example Docs\">\n\t<meta property=\"og:site_name\" content=\"Example Docs\">\n</head>\n<body>\n\t<article>\n\t\t<h1>Quickstart</h1>\n\n\t\t<p>Install the package and run your first job:</p>\n\n\t\t<!-- Invalid <code><pre> nesting: some sites wrap <pre> in an outer <code>\n\t\t     as a highlight container. Turndown treats the outer <code> as inline\n\t\t     and collapses the fenced block into a single backtick span. -->\n\t\t<code class=\"highlight-wrap\">\n\t\t\t<pre><code>npm install example-sdk\n\nconst sdk = require('example-sdk');\nconst result = await sdk.run({ task: 'hello' });\nconsole.log(result);</code></pre>\n\t\t</code>\n\n\t\t<p>You can also pass options:</p>\n\n\t\t<code class=\"highlight-wrap language-typescript\">\n\t\t\t<pre><code class=\"language-typescript\">interface Options {\n  task: string;\n  model?: string;\n  maxSteps?: number;\n}</code></pre>\n\t\t</code>\n\t</article>\n</body>\n</html>\n",
+  "inputSha256": "e7149c573f1ccffbefcbbd071b2adfd3981462cdae093a270ec260b70012483c",
+  "upstreamFixture": "tests/fixtures/codeblocks--code-pre-nesting.html",
+  "markdownGoldenSha256": "7afccfbef27ef4c85f363b2a6d31a1652f546e720ed52e681ea1761db6e3d215",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>Install the package and run your first job:</p>  <pre><code>npm install example-sdk\n\nconst sdk = require('example-sdk');\nconst result = await sdk.run({ task: 'hello' });\nconsole.log(result);</code></pre> <p>You can also pass options:</p> <pre><code class=\"language-typescript\" data-lang=\"typescript\">interface Options {\n  task: string;\n  model?: string;\n  maxSteps?: number;\n}</code></pre> </article>",
+    "contentMarkdown": "Install the package and run your first job:\n\n```\nnpm install example-sdk\n\nconst sdk = require('example-sdk');\nconst result = await sdk.run({ task: 'hello' });\nconsole.log(result);\n```\n\nYou can also pass options:\n\n```typescript\ninterface Options {\n  task: string;\n  model?: string;\n  maxSteps?: number;\n}\n```",
+    "title": "Quickstart",
+    "author": "",
+    "site": "Example Docs",
+    "published": "",
+    "wordCount": 39,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

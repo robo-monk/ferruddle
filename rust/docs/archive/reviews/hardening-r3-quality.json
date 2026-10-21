@@ -1,0 +1,35 @@
+{
+  "cases": 226,
+  "allNonMarkdownExtractionFieldsUnchanged": true,
+  "allRenderedMarkdownSemanticsUnchanged": true,
+  "readableSnapshotsChanged": 0,
+  "nativeContractsChanged": 0,
+  "exactNonMathMarkdownBefore": 168,
+  "exactNonMathMarkdownAfter": 165,
+  "markdownByteChanges": [
+    {
+      "id": "issues--232-dismiss-in-hidden-content",
+      "beforeMarkdownSha256": "fe94a69ad43127d089b478bd541411e7b18211a36c1a63110b6dfea0d402c850",
+      "afterMarkdownSha256": "56569f9de2088798e2c52dbc10437ba22585a52067a72b7f1cbad282008e34cc",
+      "renderedSemanticsUnchanged": true,
+      "exactReferenceBefore": true,
+      "exactReferenceAfter": false
+    },
+    {
+      "id": "issues--285-tag-like-title-escaping",
+      "beforeMarkdownSha256": "dd4e03524fbe4aed0e654550750ab31cf53d7ca6b8809f598ec5c82d0e1d2165",
+      "afterMarkdownSha256": "37fc3e4b2bccd36a44902a874e072c35f2156966d19ed6f258d9c964100b6df0",
+      "renderedSemanticsUnchanged": true,
+      "exactReferenceBefore": true,
+      "exactReferenceAfter": false
+    },
+    {
+      "id": "metadata--email-style-header-block",
+      "beforeMarkdownSha256": "feff9827afad80f46facce2145bc20dff7b9697421f4b9478d2e54ec05e7f99b",
+      "afterMarkdownSha256": "38fe883f4d1341fe643c4554089ba369c44be28298f612d5be6751c6f8203322",
+      "renderedSemanticsUnchanged": true,
+      "exactReferenceBefore": true,
+      "exactReferenceAfter": false
+    }
+  ]
+}

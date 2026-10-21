@@ -1,0 +1,20 @@
+{
+  "id": "issues--272-x-localized-conversation-timeline",
+  "url": "https://x.com/main_user/status/1234567890",
+  "inputHtml": "<!-- {\"url\":\"https://x.com/main_user/status/1234567890\"} -->\n<!DOCTYPE html>\n<html lang=\"zh-Hans\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Localized X conversation</title>\n</head>\n<body>\n\t<main>\n\t\t<section aria-label=\"时间线：对话\">\n\t\t\t<div data-testid=\"cellInnerDiv\">\n\t\t\t\t<article data-testid=\"tweet\">\n\t\t\t\t\t<div data-testid=\"User-Name\">\n\t\t\t\t\t\t<a href=\"/main_user\">Main User</a>\n\t\t\t\t\t\t<a href=\"/main_user\">@main_user</a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<a href=\"/main_user/status/1234567890\">\n\t\t\t\t\t\t<time datetime=\"2026-05-16T12:00:00.000Z\">May 16</time>\n\t\t\t\t\t</a>\n\t\t\t\t\t<div data-testid=\"tweetText\">Main post from a localized X interface.</div>\n\t\t\t\t</article>\n\t\t\t</div>\n\t\t\t<div data-testid=\"cellInnerDiv\">\n\t\t\t\t<div role=\"separator\"></div>\n\t\t\t</div>\n\t\t\t<div data-testid=\"cellInnerDiv\">\n\t\t\t\t<article data-testid=\"tweet\">\n\t\t\t\t\t<div data-testid=\"User-Name\">\n\t\t\t\t\t\t<a href=\"/reply_user\">Reply User</a>\n\t\t\t\t\t\t<a href=\"/reply_user\">@reply_user</a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<a href=\"/reply_user/status/1234567891\">\n\t\t\t\t\t\t<time datetime=\"2026-05-16T12:05:00.000Z\">May 16</time>\n\t\t\t\t\t</a>\n\t\t\t\t\t<div data-testid=\"tweetText\">Reply that should be extracted from the localized timeline.</div>\n\t\t\t\t</article>\n\t\t\t</div>\n\t\t</section>\n\t</main>\n</body>\n</html>\n",
+  "inputSha256": "68d741d74c3b5a086768ea5c8d04432bdc187915cf1146c241ff8a688134cb1c",
+  "upstreamFixture": "tests/fixtures/issues--272-x-localized-conversation-timeline.html",
+  "markdownGoldenSha256": "25db09acaa024503e3509a10c73bd344f144edf194a4b2f66f62f25c171b1152",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article data-defuddle=\"\">\n\t\t\t<div class=\"twitter post\">\n\t\t\t\t<div class=\"post-content\">\n\t\t\t\t\t<p>Main post from a localized X interface.</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t\t<hr>\n\t\t\t\t<div class=\"twitter comments\">\n\t\t\t\t\t<h2>Comments</h2>\n\t\t\t\t\t<blockquote><div class=\"comment\">\n\t<div class=\"comment-metadata\">\n\t\t<span class=\"comment-author\"><strong>Reply User @reply_user</strong></span> · <a href=\"https://x.com/reply_user/status/1234567891\" class=\"comment-link\">2026-05-16</a>\n\t</div>\n\t<div class=\"comment-content\"><p>Reply that should be extracted from the localized timeline.</p></div>\n</div></blockquote>\n\t\t\t\t</div>\n\t\t\t\n\t\t</article>",
+    "contentMarkdown": "Main post from a localized X interface.\n\n---\n\n## Comments\n\n> **Reply User @reply\\_user** · [2026-05-16](https://x.com/reply_user/status/1234567891)\n> \n> Reply that should be extracted from the localized timeline.",
+    "title": "Post by @main_user on X",
+    "author": "@main_user",
+    "site": "X (Twitter)",
+    "published": "2026-05-16T12:00:00.000Z",
+    "wordCount": 22,
+    "extractorType": "twitter"
+  },
+  "synchronousDifferenceFields": []
+}

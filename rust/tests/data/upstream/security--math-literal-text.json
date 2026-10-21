@@ -1,0 +1,20 @@
+{
+  "id": "security--math-literal-text",
+  "url": "https://example.com/article",
+  "inputHtml": "<!-- {\"url\":\"https://example.com/article\"} -->\n<html><head><title>Literal text in equations</title></head><body><article>\n<h1>Literal text in equations</h1>\n<p>This example contains a formula with text whose spaces are significant.</p>\n<p><math display=\"block\" data-latex=\"\\texttt{&lt;div&gt;}\">&lt;div&gt;</math></p>\n<p>Preserve the original formula as literal source when escaping would change its text.</p>\n</article></body></html>\n",
+  "inputSha256": "da96a786f9611e2992f080ec8bbbc41ea7c98537084581f9b270605a6ad50129",
+  "upstreamFixture": "tests/fixtures/security--math-literal-text.html",
+  "markdownGoldenSha256": "0425a78defbdc0aaf922e5e87fda0a48438353727129c72be21aee16a6dc16c9",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>This example contains a formula with text whose spaces are significant.</p> <p><math data-latex=\"\\texttt{<div>}\" display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\">&lt;div&gt;</math></p> <p>Preserve the original formula as literal source when escaping would change its text.</p> </article>",
+    "contentMarkdown": "This example contains a formula with text whose spaces are significant.\n\n```\n\\texttt{<div>}\n```\n\nPreserve the original formula as literal source when escaping would change its text.",
+    "title": "Literal text in equations",
+    "author": "",
+    "site": "example.com",
+    "published": "",
+    "wordCount": 27,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

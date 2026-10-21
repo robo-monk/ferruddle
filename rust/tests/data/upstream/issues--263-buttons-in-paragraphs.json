@@ -1,0 +1,20 @@
+{
+  "id": "issues--263-buttons-in-paragraphs",
+  "url": "https://leetcode.com/problems/longest-special-sequence/description",
+  "inputHtml": "<!--{\"url\":\"https://leetcode.com/problems/longest-special-sequence/description\"}-->\n<!DOCTYPE html>\n<html>\n<head>\n<title>Longest Special Sequence - LeetCode</title>\n<meta property=\"og:title\" content=\"Longest Special Sequence - LeetCode\">\n</head>\n<body>\n<div class=\"page-container\">\n<nav>\n<a href=\"/\">Home</a>\n<a href=\"/problems\">Problems</a>\n<button class=\"nav-menu-toggle\">Menu</button>\n</nav>\n<div class=\"problem-content\">\n<h1>Longest Special Sequence</h1>\n<div class=\"problem-description\" data-track-load=\"description_content\">\n<p>Given a string <code>s</code>, return <em>the longest</em> <span data-keyword=\"special-string\" class=\"cursor-pointer relative text-dark-blue-s text-sm\"><button type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" data-state=\"closed\"><em>special</em></button></span> <span data-keyword=\"subsequence-nonempty\" class=\"cursor-pointer relative text-dark-blue-s text-sm\"><button type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" data-state=\"closed\"><em>subsequence</em></button></span> in <code>s</code>.</p>\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> s = \"babad\"\n<strong>Output:</strong> \"bab\"\n<strong>Explanation:</strong> \"aba\" is also a valid answer.\n</pre>\n<p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> s = \"cbbd\"\n<strong>Output:</strong> \"bb\"\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n<ul>\n<li><code>1 &lt;= s.length &lt;= 1000</code></li>\n<li><code>s</code> consists of only digits and English letters.</li>\n</ul>\n</div>\n</div>\n<footer>\n<div class=\"footer-links\">\n<a href=\"/terms\">Terms</a>\n<a href=\"/privacy\">Privacy</a>\n</div>\n</footer>\n</div>\n</body>\n</html>\n",
+  "inputSha256": "af7e3677ab3afd54f4cb8ceb0b0e3018067955cd3e19eb2db6040ce4937a8e1c",
+  "upstreamFixture": "tests/fixtures/issues--263-buttons-in-paragraphs.html",
+  "markdownGoldenSha256": "13d9ac9794f148c34b2e1abafb484a3a6a27ee3d13e15d60550e67fb2bc7a708",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<div> <p>Given a string <code>s</code>, return <em>the longest</em> <em>special</em> <em>subsequence</em> in <code>s</code>.</p>  <p><strong>Example 1:</strong></p> <pre><code>Input: s = \"babad\"\nOutput: \"bab\"\nExplanation: \"aba\" is also a valid answer.</code></pre> <p><strong>Example 2:</strong></p> <pre><code>Input: s = \"cbbd\"\nOutput: \"bb\"</code></pre>  <p><strong>Constraints:</strong></p> <ul> <li><code>1 &lt;= s.length &lt;= 1000</code></li> <li><code>s</code> consists of only digits and English letters.</li> </ul> </div>",
+    "contentMarkdown": "Given a string `s`, return *the longest* *special* *subsequence* in `s`.\n\n**Example 1:**\n\n```\nInput: s = \"babad\"\nOutput: \"bab\"\nExplanation: \"aba\" is also a valid answer.\n```\n\n**Example 2:**\n\n```\nInput: s = \"cbbd\"\nOutput: \"bb\"\n```\n\n**Constraints:**\n\n- `1 <= s.length <= 1000`\n- `s` consists of only digits and English letters.",
+    "title": "Longest Special Sequence",
+    "author": "",
+    "site": "LeetCode",
+    "published": "",
+    "wordCount": 50,
+    "extractorType": "leetcode"
+  },
+  "synchronousDifferenceFields": []
+}

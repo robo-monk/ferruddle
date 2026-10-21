@@ -1,0 +1,395 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The concept of global stewardship was first articulated by several thinkers in the early twentieth century. It emphasizes collective responsibility for the well-being of shared resources and the importance of long-term planning across generations and communities."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Over the decades, the idea gained traction in environmental policy discussions. Various governments and international bodies adopted frameworks that incorporated elements of this concept into their planning and regulatory approaches."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Like a vessel carrying all of humanity, our world requires the care and cooperation of every passenger aboard. We must work together to ensure a safe and prosperous journey for generations to come."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The phrase has been used by numerous organizations to promote awareness of shared environmental challenges."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Criticism"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Scholar "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://thin-section-before-see-also/wiki/Example_Author"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Jane Doe"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " has argued that, if implemented, the concept would represent a significant constraint on "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://thin-section-before-see-also/wiki/Individual_Liberty"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "individual liberty"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and local governance."
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:1"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "anchor",
+          "id": "fn:1"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Doe, Jane (2024). \"Governance and Constraint.\" "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Journal of Policy Studies"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ". 15(3): 42-58."
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:1"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The concept of global stewardship was first articulated by several thinkers in the early twentieth century. It emphasizes collective responsibility for the well-being of shared resources and the importance of long-term planning across generations and communities."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Over the decades, the idea gained traction in environmental policy discussions. Various governments and international bodies adopted frameworks that incorporated elements of this concept into their planning and regulatory approaches."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Like a vessel carrying all of humanity, our world requires the care and cooperation of every passenger aboard. We must work together to ensure a safe and prosperous journey for generations to come."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The phrase has been used by numerous organizations to promote awareness of shared environmental challenges."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Criticism"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Scholar "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://thin-section-before-see-also/wiki/Example_Author"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Jane Doe"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " has argued that, if implemented, the concept would represent a significant constraint on "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://thin-section-before-see-also/wiki/Individual_Liberty"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "individual liberty"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and local governance."
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-1"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Doe, Jane (2024). \"Governance and Constraint.\" "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Journal of Policy Studies"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". 15(3): 42-58."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Encyclopedia",
+    "title": "Example Concept",
+    "description": "An encyclopedia article about a concept.",
+    "domain": "thin-section-before-see-also",
+    "favicon": "https://thin-section-before-see-also/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 148,
+  "extractorType": null
+}

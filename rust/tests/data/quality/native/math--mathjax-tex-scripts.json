@@ -1,0 +1,348 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We call these energy differences "
+        },
+        {
+          "kind": "element",
+          "name": "script",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "E_u"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "element",
+          "name": "script",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "E_l"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " (subscripts refer to \"upper\" and \"lower\"), or in units of frequency, "
+        },
+        {
+          "kind": "element",
+          "name": "script",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "f_u"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "element",
+          "name": "script",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "f_l"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " (where "
+        },
+        {
+          "kind": "element",
+          "name": "script",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "E_{l,u} = hf_{l,u}"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ")."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "As a special case, when "
+        },
+        {
+          "kind": "element",
+          "name": "script",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\\mathbf{B}"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " is aligned with the NV axis (i.e., "
+        },
+        {
+          "kind": "element",
+          "name": "script",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\\theta = 0"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "), the above relation reduces to:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "script",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "f_u = D+\\gamma B \\quad \\text{and} \\quad f_l = D-\\gamma B."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The key result is:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "script",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "B= \\frac{1}{\\sqrt{3}\\gamma}\\sqrt{f_u^2+f_l^2-f_u f_l-D^2}"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here, "
+        },
+        {
+          "kind": "element",
+          "name": "script",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "\\gamma = 28"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " GHz/T is the gyromagnetic ratio."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We call these energy differences "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "E_u"
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "E_l"
+        },
+        {
+          "kind": "text",
+          "text": " (subscripts refer to \"upper\" and \"lower\"), or in units of frequency, "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "f_u"
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "f_l"
+        },
+        {
+          "kind": "text",
+          "text": " (where "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "E_{l,u} = hf_{l,u}"
+        },
+        {
+          "kind": "text",
+          "text": ")."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "As a special case, when "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "\\mathbf{B}"
+        },
+        {
+          "kind": "text",
+          "text": " is aligned with the NV axis (i.e., "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "\\theta = 0"
+        },
+        {
+          "kind": "text",
+          "text": "), the above relation reduces to:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "\nf_u = D+\\gamma B \\quad \\text{and} \\quad f_l = D-\\gamma B.\n"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The key result is:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "\nB= \\frac{1}{\\sqrt{3}\\gamma}\\sqrt{f_u^2+f_l^2-f_u f_l-D^2}\n"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here, "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "\\gamma = 28"
+        },
+        {
+          "kind": "text",
+          "text": " GHz/T is the gyromagnetic ratio."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "mathjax-tex-scripts",
+    "title": "MathJax math/tex Script Elements",
+    "description": "",
+    "domain": "mathjax-tex-scripts",
+    "favicon": "https://mathjax-tex-scripts/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [
+    {
+      "code": "math_not_supported",
+      "message": "Math support is not yet included."
+    }
+  ],
+  "wordCount": 74,
+  "extractorType": null
+}

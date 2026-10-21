@@ -1,0 +1,16 @@
+html {'speedup': True, 'pageMedianSpeedup': True, 'pageP95': True, 'anyPass': True, 'extractionOnly': True, 'noSmallP95': True, 'sampleCount': True}
+html+markdown {'speedup': True, 'pageMedianSpeedup': True, 'pageP95': True, 'anyPass': True, 'extractionOnly': True, 'noSmallP95': True, 'sampleCount': True}
+cold samples 28 expected 28 p95 keys []
+ALL_MATCH
+html {'corpusRatio': True, 'aaP95': True, 'threshold': True, 'flags5': True, 'flagsNoise': True, 'slower': True, 'changed': True, 'passRatios': True, 'pooledRatio': True} cases 208
+html+markdown {'corpusRatio': True, 'aaP95': True, 'threshold': True, 'flags5': True, 'flagsNoise': True, 'slower': True, 'changed': True, 'passRatios': True, 'pooledRatio': True} cases 208
+ALL_MATCH
+html {'speedup': True, 'pageMedianSpeedup': True, 'pageP95': True, 'anyPass': True, 'extractionOnly': True, 'noSmallP95': True, 'sampleCount': True}
+html+markdown {'speedup': True, 'pageMedianSpeedup': True, 'pageP95': True, 'anyPass': True, 'extractionOnly': True, 'noSmallP95': True, 'sampleCount': True}
+cold samples 28 expected 28 p95 keys []
+ALL_MATCH
+html {'corpusRatio': True, 'aaP95': True, 'threshold': True, 'flags5': True, 'flagsNoise': True, 'slower': True, 'changed': True, 'passRatios': True, 'pooledRatio': True} cases 208
+html+markdown {'corpusRatio': True, 'aaP95': True, 'threshold': True, 'flags5': True, 'flagsNoise': True, 'slower': True, 'changed': True, 'passRatios': True, 'pooledRatio': True} cases 208
+ALL_MATCH
+Verified: immutable raw evidence, both source archives, speed ratios, regression flags and stable outputs.
+Release relationship: Rust documentation and package metadata changed; executable code, locked dependencies and measured inputs did not.

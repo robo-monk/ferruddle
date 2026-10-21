@@ -1,0 +1,20 @@
+{
+  "purpose": "Public-release preparation evidence; raw timings from the integration smoke are intentionally excluded.",
+  "files": {
+    "validation/benchmark-checks.log": "733a571aae2c9a0f1afde95d6071f77de9678e73c590d47e1525c8b8a67eb106",
+    "validation/benchmark-input-validation.json": "f4c5e950c188078f1feeb8d5e924d8ba2386d05b8d1db5887c5fd8324587c496",
+    "validation/benchmark-smoke.json": "aa06a1be6f8f89640fb49f053d2b4fe837b1e9c00569e3f98694711206df0900",
+    "validation/benchmark-verification.log": "058a375a95c1e8bf57344ce65562126b88e306abe60bee7c477d59fae8b5d444",
+    "validation/cli-smoke.json": "21cc8088e7dc6b78a74033618b6f0de31419bd09d50ce511dc42493614d9075c",
+    "validation/clippy.log": "bba36bda1aaae00b793e5afb2707251f9c9a29080c68fec59a50ae222266d582",
+    "validation/documentation-check.json": "40a10d44323e2824f4e1f6e92e41723363affa23c2ac1da2c86b0031cc4f56e7",
+    "validation/format.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "validation/msrv-tests.log": "37a10337244d8a2d888f0f497ecb9dce7dc9da3cd7c2d535b7d621ddf5372615",
+    "validation/native-tests.log": "b781d9f5fbeffcd8999dc54365f3e13e56521d6b53f19703ee9023ea2fbbbb34",
+    "validation/package-files.json": "1283a059bea8d18ae611a88ed8dc45e334b321168a7d216dcb3c151ee1a7bb6e",
+    "validation/package-tests.log": "b2251e24e3a03459cb7feb7fd33de3fc5ddd81192d3daec2fd17f22346ea80ac",
+    "validation/package.log": "21e0a8a6ccf5857aba2186917fae8a0048115ff252f53836914e9970173c69cf",
+    "validation/publish-dry-run.log": "fb5243db0d60d7d93e7a939a785bbc37e2e2d73f304cf0935b631eb94e56fd2d",
+    "validation/rustdoc.log": "40ad920ad4876899c27bde5cc4b34b0edbe978828db89e3f16e6554e9bc83821"
+  }
+}

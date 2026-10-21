@@ -1,0 +1,587 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Dietary guidelines were examined in the first study "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:1"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " with follow-up findings in subsequent research "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:2"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and a meta-analysis "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:3"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:3"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "anchor",
+          "id": "fn:1"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "A. Author, B. Researcher. "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Dietary Guidelines and Health Outcomes"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ". "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Journal of Nutrition"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ". 2020;150(3):500-510. doi:10.1000/jn.2020.001"
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:1"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:2"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "C. Scholar, D. Investigator. "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Follow-up Analysis of Nutritional Patterns"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ". "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "American Journal of Medicine"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ". 2021;134(5):720-731. doi:10.1000/ajm.2021.042"
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:2"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:3"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "E. Analyst, F. Reviewer. "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Meta-analysis of Dietary Intervention Studies"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ". "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Clinical Nutrition"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ". 2022;41(8):1200-1215. doi:10.1000/cn.2022.088"
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:3"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Dietary guidelines were examined in the first study "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " with follow-up findings in subsequent research "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and a meta-analysis "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-3"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-1"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A. Author, B. Researcher. "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Dietary Guidelines and Health Outcomes"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Journal of Nutrition"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". 2020;150(3):500-510. doi:10.1000/jn.2020.001"
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-2"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "C. Scholar, D. Investigator. "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Follow-up Analysis of Nutritional Patterns"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "American Journal of Medicine"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". 2021;134(5):720-731. doi:10.1000/ajm.2021.042"
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-3"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "E. Analyst, F. Reviewer. "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Meta-analysis of Dietary Intervention Studies"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Clinical Nutrition"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". 2022;41(8):1200-1215. doi:10.1000/cn.2022.088"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "numeric-anchor-id",
+    "title": "Numeric Anchor-ID Footnote Pattern",
+    "description": "",
+    "domain": "numeric-anchor-id",
+    "favicon": "https://numeric-anchor-id/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 65,
+  "extractorType": null
+}

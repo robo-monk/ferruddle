@@ -1,0 +1,65 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Hello, we believe in building in the open and sharing progress publicly with people who care about resilient infrastructure, peer-to-peer systems, and practical tools. This invitation outlines the next phase of work and explains why we are focusing on reliability, documentation, and long-term maintainability over short-term growth."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Over the coming months, we will publish architecture notes, design tradeoffs, and implementation updates. We aim to make decisions legible, reduce operational surprises, and create a clearer path for contributors who want to understand the system deeply."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Hello, we believe in building in the open and sharing progress publicly with people who care about resilient infrastructure, peer-to-peer systems, and practical tools. This invitation outlines the next phase of work and explains why we are focusing on reliability, documentation, and long-term maintainability over short-term growth."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Over the coming months, we will publish architecture notes, design tradeoffs, and implementation updates. We aim to make decisions legible, reduce operational surprises, and create a clearer path for contributors who want to understand the system deeply."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "earendil.com",
+    "title": "Invitation",
+    "description": "",
+    "domain": "earendil.com",
+    "favicon": "https://earendil.com/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 84,
+  "extractorType": null
+}

@@ -1,0 +1,478 @@
+{
+  "case": {
+    "id": "issues--132-hero-class",
+    "file": "issues--132-hero-class.json",
+    "sha256": "08c12455b3682c2609d13d4011726d83d2603c57f90203ba16fd82cba9491e90",
+    "inputSha256": "6f6de1f94f9c12216850d4bc9201373d23e95a7eb34d05ac974255f6072c66a5",
+    "url": "https://132-hero-class",
+    "inputBytes": 319
+  },
+  "samplesPerImplementationMode": 7,
+  "measurement": "First extraction/DOM parse in a fresh process after imports and pinned input IO. No warmup. Process startup, module evaluation and Vitest transformation are excluded; cold API cost is not process launch latency.",
+  "samples": [
+    {
+      "implementation": "rust",
+      "mode": "html",
+      "sample": 0,
+      "ms": 17.27373,
+      "extractionMs": 17.273463999999997,
+      "output": {
+        "sha256": "06a13fc17aa161133b08395830d680f56618becdff5ef3ee101a1615892f1664",
+        "contentBytes": 160,
+        "markdownBytes": 0,
+        "wordCount": 22
+      },
+      "rawFile": "rust-cold-1-html.json"
+    },
+    {
+      "implementation": "typescript",
+      "mode": "html",
+      "sample": 0,
+      "ms": 56.92510900000002,
+      "extractionMs": 56.92103400000008,
+      "output": {
+        "sha256": "ee0a10745fd29447227329aeb01937a3cfe205780c674f3037527a11d629e656",
+        "contentBytes": 164,
+        "markdownBytes": 0,
+        "wordCount": 22
+      },
+      "rawFile": "typescript-cold-1-html.json"
+    },
+    {
+      "implementation": "rust",
+      "mode": "html+markdown",
+      "sample": 0,
+      "ms": 17.458761,
+      "extractionMs": 17.458535,
+      "output": {
+        "sha256": "9aa14a6cd045cfe75646ad9da3099034e91529508873e6839dbe8766406a7cf8",
+        "contentBytes": 160,
+        "markdownBytes": 127,
+        "wordCount": 22
+      },
+      "rawFile": "rust-cold-1-markdown.json"
+    },
+    {
+      "implementation": "typescript",
+      "mode": "html+markdown",
+      "sample": 0,
+      "ms": 65.74525100000005,
+      "extractionMs": 65.74185299999988,
+      "output": {
+        "sha256": "4c52e8ab65d34598f5d62067fe5d30516fcf1f246d99e9ccb881f8f560e0dddb",
+        "contentBytes": 164,
+        "markdownBytes": 127,
+        "wordCount": 22
+      },
+      "rawFile": "typescript-cold-1-markdown.json"
+    },
+    {
+      "implementation": "typescript",
+      "mode": "html+markdown",
+      "sample": 1,
+      "ms": 64.31676800000002,
+      "extractionMs": 64.31374600000004,
+      "output": {
+        "sha256": "4c52e8ab65d34598f5d62067fe5d30516fcf1f246d99e9ccb881f8f560e0dddb",
+        "contentBytes": 164,
+        "markdownBytes": 127,
+        "wordCount": 22
+      },
+      "rawFile": "typescript-cold-2-markdown.json"
+    },
+    {
+      "implementation": "rust",
+      "mode": "html+markdown",
+      "sample": 1,
+      "ms": 17.837975,
+      "extractionMs": 17.8377,
+      "output": {
+        "sha256": "9aa14a6cd045cfe75646ad9da3099034e91529508873e6839dbe8766406a7cf8",
+        "contentBytes": 160,
+        "markdownBytes": 127,
+        "wordCount": 22
+      },
+      "rawFile": "rust-cold-2-markdown.json"
+    },
+    {
+      "implementation": "typescript",
+      "mode": "html",
+      "sample": 1,
+      "ms": 55.34996600000011,
+      "extractionMs": 55.346315000000004,
+      "output": {
+        "sha256": "ee0a10745fd29447227329aeb01937a3cfe205780c674f3037527a11d629e656",
+        "contentBytes": 164,
+        "markdownBytes": 0,
+        "wordCount": 22
+      },
+      "rawFile": "typescript-cold-2-html.json"
+    },
+    {
+      "implementation": "rust",
+      "mode": "html",
+      "sample": 1,
+      "ms": 18.895619999999997,
+      "extractionMs": 18.895283,
+      "output": {
+        "sha256": "06a13fc17aa161133b08395830d680f56618becdff5ef3ee101a1615892f1664",
+        "contentBytes": 160,
+        "markdownBytes": 0,
+        "wordCount": 22
+      },
+      "rawFile": "rust-cold-2-html.json"
+    },
+    {
+      "implementation": "rust",
+      "mode": "html",
+      "sample": 2,
+      "ms": 17.590494000000003,
+      "extractionMs": 17.590245,
+      "output": {
+        "sha256": "06a13fc17aa161133b08395830d680f56618becdff5ef3ee101a1615892f1664",
+        "contentBytes": 160,
+        "markdownBytes": 0,
+        "wordCount": 22
+      },
+      "rawFile": "rust-cold-3-html.json"
+    },
+    {
+      "implementation": "typescript",
+      "mode": "html",
+      "sample": 2,
+      "ms": 57.05215099999998,
+      "extractionMs": 57.04830100000015,
+      "output": {
+        "sha256": "ee0a10745fd29447227329aeb01937a3cfe205780c674f3037527a11d629e656",
+        "contentBytes": 164,
+        "markdownBytes": 0,
+        "wordCount": 22
+      },
+      "rawFile": "typescript-cold-3-html.json"
+    },
+    {
+      "implementation": "rust",
+      "mode": "html+markdown",
+      "sample": 2,
+      "ms": 17.121279,
+      "extractionMs": 17.120776,
+      "output": {
+        "sha256": "9aa14a6cd045cfe75646ad9da3099034e91529508873e6839dbe8766406a7cf8",
+        "contentBytes": 160,
+        "markdownBytes": 127,
+        "wordCount": 22
+      },
+      "rawFile": "rust-cold-3-markdown.json"
+    },
+    {
+      "implementation": "typescript",
+      "mode": "html+markdown",
+      "sample": 2,
+      "ms": 63.75819000000001,
+      "extractionMs": 63.754888999999935,
+      "output": {
+        "sha256": "4c52e8ab65d34598f5d62067fe5d30516fcf1f246d99e9ccb881f8f560e0dddb",
+        "contentBytes": 164,
+        "markdownBytes": 127,
+        "wordCount": 22
+      },
+      "rawFile": "typescript-cold-3-markdown.json"
+    },
+    {
+      "implementation": "typescript",
+      "mode": "html+markdown",
+      "sample": 3,
+      "ms": 63.41194200000007,
+      "extractionMs": 63.408953,
+      "output": {
+        "sha256": "4c52e8ab65d34598f5d62067fe5d30516fcf1f246d99e9ccb881f8f560e0dddb",
+        "contentBytes": 164,
+        "markdownBytes": 127,
+        "wordCount": 22
+      },
+      "rawFile": "typescript-cold-4-markdown.json"
+    },
+    {
+      "implementation": "rust",
+      "mode": "html+markdown",
+      "sample": 3,
+      "ms": 17.436265,
+      "extractionMs": 17.435969999999998,
+      "output": {
+        "sha256": "9aa14a6cd045cfe75646ad9da3099034e91529508873e6839dbe8766406a7cf8",
+        "contentBytes": 160,
+        "markdownBytes": 127,
+        "wordCount": 22
+      },
+      "rawFile": "rust-cold-4-markdown.json"
+    },
+    {
+      "implementation": "typescript",
+      "mode": "html",
+      "sample": 3,
+      "ms": 57.176573000000076,
+      "extractionMs": 57.172661999999946,
+      "output": {
+        "sha256": "ee0a10745fd29447227329aeb01937a3cfe205780c674f3037527a11d629e656",
+        "contentBytes": 164,
+        "markdownBytes": 0,
+        "wordCount": 22
+      },
+      "rawFile": "typescript-cold-4-html.json"
+    },
+    {
+      "implementation": "rust",
+      "mode": "html",
+      "sample": 3,
+      "ms": 17.339597,
+      "extractionMs": 17.339404,
+      "output": {
+        "sha256": "06a13fc17aa161133b08395830d680f56618becdff5ef3ee101a1615892f1664",
+        "contentBytes": 160,
+        "markdownBytes": 0,
+        "wordCount": 22
+      },
+      "rawFile": "rust-cold-4-html.json"
+    },
+    {
+      "implementation": "rust",
+      "mode": "html",
+      "sample": 4,
+      "ms": 17.272890999999998,
+      "extractionMs": 17.272684,
+      "output": {
+        "sha256": "06a13fc17aa161133b08395830d680f56618becdff5ef3ee101a1615892f1664",
+        "contentBytes": 160,
+        "markdownBytes": 0,
+        "wordCount": 22
+      },
+      "rawFile": "rust-cold-5-html.json"
+    },
+    {
+      "implementation": "typescript",
+      "mode": "html",
+      "sample": 4,
+      "ms": 55.48924599999998,
+      "extractionMs": 55.48482799999999,
+      "output": {
+        "sha256": "ee0a10745fd29447227329aeb01937a3cfe205780c674f3037527a11d629e656",
+        "contentBytes": 164,
+        "markdownBytes": 0,
+        "wordCount": 22
+      },
+      "rawFile": "typescript-cold-5-html.json"
+    },
+    {
+      "implementation": "rust",
+      "mode": "html+markdown",
+      "sample": 4,
+      "ms": 18.045737,
+      "extractionMs": 18.045524,
+      "output": {
+        "sha256": "9aa14a6cd045cfe75646ad9da3099034e91529508873e6839dbe8766406a7cf8",
+        "contentBytes": 160,
+        "markdownBytes": 127,
+        "wordCount": 22
+      },
+      "rawFile": "rust-cold-5-markdown.json"
+    },
+    {
+      "implementation": "typescript",
+      "mode": "html+markdown",
+      "sample": 4,
+      "ms": 68.59913500000005,
+      "extractionMs": 68.59544200000005,
+      "output": {
+        "sha256": "4c52e8ab65d34598f5d62067fe5d30516fcf1f246d99e9ccb881f8f560e0dddb",
+        "contentBytes": 164,
+        "markdownBytes": 127,
+        "wordCount": 22
+      },
+      "rawFile": "typescript-cold-5-markdown.json"
+    },
+    {
+      "implementation": "typescript",
+      "mode": "html+markdown",
+      "sample": 5,
+      "ms": 71.01128700000004,
+      "extractionMs": 71.00807499999996,
+      "output": {
+        "sha256": "4c52e8ab65d34598f5d62067fe5d30516fcf1f246d99e9ccb881f8f560e0dddb",
+        "contentBytes": 164,
+        "markdownBytes": 127,
+        "wordCount": 22
+      },
+      "rawFile": "typescript-cold-6-markdown.json"
+    },
+    {
+      "implementation": "rust",
+      "mode": "html+markdown",
+      "sample": 5,
+      "ms": 20.014435,
+      "extractionMs": 20.014128999999997,
+      "output": {
+        "sha256": "9aa14a6cd045cfe75646ad9da3099034e91529508873e6839dbe8766406a7cf8",
+        "contentBytes": 160,
+        "markdownBytes": 127,
+        "wordCount": 22
+      },
+      "rawFile": "rust-cold-6-markdown.json"
+    },
+    {
+      "implementation": "typescript",
+      "mode": "html",
+      "sample": 5,
+      "ms": 58.884124999999926,
+      "extractionMs": 58.88041499999997,
+      "output": {
+        "sha256": "ee0a10745fd29447227329aeb01937a3cfe205780c674f3037527a11d629e656",
+        "contentBytes": 164,
+        "markdownBytes": 0,
+        "wordCount": 22
+      },
+      "rawFile": "typescript-cold-6-html.json"
+    },
+    {
+      "implementation": "rust",
+      "mode": "html",
+      "sample": 5,
+      "ms": 18.35211,
+      "extractionMs": 18.351793,
+      "output": {
+        "sha256": "06a13fc17aa161133b08395830d680f56618becdff5ef3ee101a1615892f1664",
+        "contentBytes": 160,
+        "markdownBytes": 0,
+        "wordCount": 22
+      },
+      "rawFile": "rust-cold-6-html.json"
+    },
+    {
+      "implementation": "rust",
+      "mode": "html",
+      "sample": 6,
+      "ms": 18.243634,
+      "extractionMs": 18.243336,
+      "output": {
+        "sha256": "06a13fc17aa161133b08395830d680f56618becdff5ef3ee101a1615892f1664",
+        "contentBytes": 160,
+        "markdownBytes": 0,
+        "wordCount": 22
+      },
+      "rawFile": "rust-cold-7-html.json"
+    },
+    {
+      "implementation": "typescript",
+      "mode": "html",
+      "sample": 6,
+      "ms": 58.313363000000095,
+      "extractionMs": 58.30994499999997,
+      "output": {
+        "sha256": "ee0a10745fd29447227329aeb01937a3cfe205780c674f3037527a11d629e656",
+        "contentBytes": 164,
+        "markdownBytes": 0,
+        "wordCount": 22
+      },
+      "rawFile": "typescript-cold-7-html.json"
+    },
+    {
+      "implementation": "rust",
+      "mode": "html+markdown",
+      "sample": 6,
+      "ms": 18.681068,
+      "extractionMs": 18.680781,
+      "output": {
+        "sha256": "9aa14a6cd045cfe75646ad9da3099034e91529508873e6839dbe8766406a7cf8",
+        "contentBytes": 160,
+        "markdownBytes": 127,
+        "wordCount": 22
+      },
+      "rawFile": "rust-cold-7-markdown.json"
+    },
+    {
+      "implementation": "typescript",
+      "mode": "html+markdown",
+      "sample": 6,
+      "ms": 67.34255199999996,
+      "extractionMs": 67.33927300000005,
+      "output": {
+        "sha256": "4c52e8ab65d34598f5d62067fe5d30516fcf1f246d99e9ccb881f8f560e0dddb",
+        "contentBytes": 164,
+        "markdownBytes": 127,
+        "wordCount": 22
+      },
+      "rawFile": "typescript-cold-7-markdown.json"
+    }
+  ],
+  "modes": [
+    {
+      "mode": "html",
+      "rust": {
+        "ms": [
+          17.273463999999997,
+          18.895283,
+          17.590245,
+          17.339404,
+          17.272684,
+          18.351793,
+          18.243336
+        ],
+        "sampleCount": 7,
+        "medianMs": 17.590245,
+        "upperQuartileMs": 18.351793,
+        "minMs": 17.272684,
+        "maxMs": 18.895283
+      },
+      "typescript": {
+        "ms": [
+          56.92103400000008,
+          55.346315000000004,
+          57.04830100000015,
+          57.172661999999946,
+          55.48482799999999,
+          58.88041499999997,
+          58.30994499999997
+        ],
+        "sampleCount": 7,
+        "medianMs": 57.04830100000015,
+        "upperQuartileMs": 58.30994499999997,
+        "minMs": 55.346315000000004,
+        "maxMs": 58.88041499999997
+      }
+    },
+    {
+      "mode": "html+markdown",
+      "rust": {
+        "ms": [
+          17.458535,
+          17.8377,
+          17.120776,
+          17.435969999999998,
+          18.045524,
+          20.014128999999997,
+          18.680781
+        ],
+        "sampleCount": 7,
+        "medianMs": 17.8377,
+        "upperQuartileMs": 18.680781,
+        "minMs": 17.120776,
+        "maxMs": 20.014128999999997
+      },
+      "typescript": {
+        "ms": [
+          65.74185299999988,
+          64.31374600000004,
+          63.754888999999935,
+          63.408953,
+          68.59544200000005,
+          71.00807499999996,
+          67.33927300000005
+        ],
+        "sampleCount": 7,
+        "medianMs": 65.74185299999988,
+        "upperQuartileMs": 68.59544200000005,
+        "minMs": 63.408953,
+        "maxMs": 71.00807499999996
+      }
+    }
+  ]
+}

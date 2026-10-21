@@ -1,0 +1,77 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This fixture ensures empty Verso code blocks are preserved as blank lines when adjacent Lean command and output fragments are merged."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "lean",
+      "text": "#check true\nBool.true : Bool\n\n/- Evaluate -/\n\n#eval 5 * 4\n20"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Trailing prose ensures normal extraction continues."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This fixture ensures empty Verso code blocks are preserved as blank lines when adjacent Lean command and output fragments are merged."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "lean",
+      "text": "#check true\nBool.true : Bool\n\n/- Evaluate -/\n\n#eval 5 * 4\n20"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Trailing prose ensures normal extraction continues."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "lean-lang.org",
+    "title": "Dependent Type Theory",
+    "description": "",
+    "domain": "lean-lang.org",
+    "favicon": "https://lean-lang.org/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 40,
+  "extractorType": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": "elements--javascript-links",
+  "url": "https://javascript-links",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n    <title>JavaScript Links Test</title>\n</head>\n<body>\n    <article>\n        <h1>JavaScript Links Test</h1>\n\n        <p>This has a <a href=\"javascript:void(0)\">simple js link</a> in a sentence.</p>\n\n        <p>Here is a <a href=\"javascript:void(0);\" onclick=\"doSomething()\">link with onclick</a> and\n        a <a href=\"javascript:alert('hi')\">link with alert</a> that should both be unwrapped.</p>\n\n        <p>A <a href=\"javascript:void(0)\"><strong>bold js link</strong></a> should keep its inner HTML.</p>\n\n        <p>Normal links like <a href=\"https://example.com\">Example</a> and\n        <a href=\"https://example.com/page\">another page</a> should stay as links.</p>\n\n        <p>Mixed: <a href=\"https://example.com\">real link</a>, then\n        <a href=\"javascript:void(0)\">js link</a>, then\n        <a href=\"https://example.com/other\">another real link</a>.</p>\n    </article>\n</body>\n</html>\n",
+  "inputSha256": "7a546efe6111e04f9aad319cd13343a0281195608ca347ed60642699078f049b",
+  "upstreamFixture": "tests/fixtures/elements--javascript-links.html",
+  "markdownGoldenSha256": "2f39414d5eaf9b4a03dcb0bbc2196b9e974d59c3661f4f5d8b5294077a6f63f1",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>This has a simple js link in a sentence.</p> <p>Here is a link with onclick and a link with alert that should both be unwrapped.</p> <p>A <strong>bold js link</strong> should keep its inner HTML.</p> <p>Normal links like <a href=\"https://example.com/\">Example</a> and <a href=\"https://example.com/page\">another page</a> should stay as links.</p> <p>Mixed: <a href=\"https://example.com/\">real link</a>, then js link, then <a href=\"https://example.com/other\">another real link</a>.</p> </article>",
+    "contentMarkdown": "This has a simple js link in a sentence.\n\nHere is a link with onclick and a link with alert that should both be unwrapped.\n\nA **bold js link** should keep its inner HTML.\n\nNormal links like [Example](https://example.com/) and [another page](https://example.com/page) should stay as links.\n\nMixed: [real link](https://example.com/), then js link, then [another real link](https://example.com/other).",
+    "title": "JavaScript Links Test",
+    "author": "",
+    "site": "javascript-links",
+    "published": "",
+    "wordCount": 57,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

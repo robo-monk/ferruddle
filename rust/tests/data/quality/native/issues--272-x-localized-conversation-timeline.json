@@ -1,0 +1,189 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Main post from a localized X interface."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Comments"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Reply User @reply_user"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://x.com/reply_user/status/1234567891"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2026-05-16"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Reply that should be extracted from the localized timeline."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Main post from a localized X interface."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Comments"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Reply User @reply_user"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://x.com/reply_user/status/1234567891"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2026-05-16"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Reply that should be extracted from the localized timeline."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "X (Twitter)",
+    "title": "Post by @main_user on X",
+    "description": "Main post from a localized X interface.",
+    "domain": "x.com",
+    "favicon": "https://x.com/favicon.ico",
+    "image": "",
+    "language": "zh-Hans",
+    "published": "2026-05-16T12:00:00.000Z",
+    "author": "@main_user"
+  },
+  "warnings": [],
+  "wordCount": 22,
+  "extractorType": "twitter"
+}

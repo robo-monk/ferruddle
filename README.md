@@ -5,6 +5,8 @@
 
 Defuddle extracts the main content from web pages. It cleans up web pages by removing clutter like comments, sidebars, headers, footers, and other non-essential elements, leaving only the primary content.
 
+For the native Rust library and CLI, see [Defuddle for Rust](rust/README.md).
+
 ## Overview
 
 Defuddle takes a URL or HTML, finds the main content, and returns cleaned HTML or Markdown. Defuddle was created for the browser extension [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper), but it is designed to run in any environment.

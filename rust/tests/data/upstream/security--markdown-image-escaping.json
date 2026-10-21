@@ -1,0 +1,20 @@
+{
+  "id": "security--markdown-image-escaping",
+  "url": "https://example.com/article",
+  "inputHtml": "<!-- {\"url\":\"https://example.com/article\"} -->\n<html><head><title>Markdown image escaping</title></head><body><article>\n<h1>Markdown image escaping</h1>\n<p>This example article contains an image with literal brackets in its description.</p>\n<img src=\"https://example.com/photo.png\" alt=\"Photo [one]\">\n<p>The description should remain plain image text when the article is converted to Markdown.</p>\n</article></body></html>\n",
+  "inputSha256": "0ec67ced35b7d99a9f1a06cd4636b792e9d4756bde63a42f1e37004694a6978e",
+  "upstreamFixture": "tests/fixtures/security--markdown-image-escaping.html",
+  "markdownGoldenSha256": "173d19150873b399039b95e78e8896d9119e261e4f4c9e230e7683786d48ced7",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>This example article contains an image with literal brackets in its description.</p> <img src=\"https://example.com/photo.png\" alt=\"Photo [one]\"> <p>The description should remain plain image text when the article is converted to Markdown.</p> </article>",
+    "contentMarkdown": "This example article contains an image with literal brackets in its description.\n\n![Photo \\[one\\]](https://example.com/photo.png)\n\nThe description should remain plain image text when the article is converted to Markdown.",
+    "title": "Markdown image escaping",
+    "author": "",
+    "site": "example.com",
+    "published": "",
+    "wordCount": 26,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

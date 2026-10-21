@@ -1,0 +1,153 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Introduction"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This post covers several important algorithms used in systems programming. The key insight is that modern CPUs can process multiple values simultaneously using SIMD instructions."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This allows for significant performance improvements in data-intensive workloads when the loop body can be parallelized by the compiler."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Solution"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We can use auto-vectorization to achieve this. The compiler will automatically generate SIMD instructions when it detects that the loop body can be parallelized without data dependencies."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The algorithm processes four values at a time, reducing the total number of iterations. This results in a significant speedup compared to the naive single-value approach used in the baseline implementation."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Introduction"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This post covers several important algorithms used in systems programming. The key insight is that modern CPUs can process multiple values simultaneously using SIMD instructions."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This allows for significant performance improvements in data-intensive workloads when the loop body can be parallelized by the compiler."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Solution"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We can use auto-vectorization to achieve this. The compiler will automatically generate SIMD instructions when it detects that the loop body can be parallelized without data dependencies."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The algorithm processes four values at a time, reducing the total number of iterations. This results in a significant speedup compared to the naive single-value approach used in the baseline implementation."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "date-adjacent-category-link",
+    "title": "Sample Technical Post",
+    "description": "",
+    "domain": "date-adjacent-category-link",
+    "favicon": "https://date-adjacent-category-link/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "2025-03-08",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 104,
+  "extractorType": null
+}

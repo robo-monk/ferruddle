@@ -1,0 +1,20 @@
+{
+  "id": "issues--196-og-title-brand-name",
+  "url": "https://example-ai.com/dgm/",
+  "inputHtml": "<!-- {\"url\":\"https://example-ai.com/dgm/\"} -->\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<title>The Darwin Gödel Machine: AI that improves itself by rewriting its own code</title>\n<meta property=\"og:title\" content=\"Example AI\" />\n<meta name=\"twitter:title\" content=\"Example AI\">\n<meta name=\"author\" content=\"Example AI\">\n<meta property=\"og:url\" content=\"https://example-ai.com/dgm/\">\n<meta name=\"description\" content=\"Introducing the Darwin Gödel Machine, a system that can rewrite its own code to improve performance.\">\n</head>\n<body>\n<main>\n<h1>The Darwin Gödel Machine: AI that improves itself by rewriting its own code</h1>\n<p>We introduce the Darwin Gödel Machine (DGM), an AI system capable of rewriting its own code to improve itself over time.</p>\n<p>Unlike previous self-improving systems, the DGM uses an evolutionary approach inspired by both Darwin and Gödel to iterate on its own architecture.</p>\n<p>The system has shown remarkable results on a range of benchmarks, demonstrating the viability of recursive self-improvement in practical AI systems.</p>\n</main>\n</body>\n</html>\n",
+  "inputSha256": "819cb1fdb99f424f775326b611c36ffc3ef5b01f3ba9ddb84cfba5c24fee6c1b",
+  "upstreamFixture": "tests/fixtures/issues--196-og-title-brand-name.html",
+  "markdownGoldenSha256": "4f24df451a1fad921367bf2dd6288cbbafdd58ee5acb7c451edbddfce989aeb6",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<main>  <p>We introduce the Darwin Gödel Machine (DGM), an AI system capable of rewriting its own code to improve itself over time.</p> <p>Unlike previous self-improving systems, the DGM uses an evolutionary approach inspired by both Darwin and Gödel to iterate on its own architecture.</p> <p>The system has shown remarkable results on a range of benchmarks, demonstrating the viability of recursive self-improvement in practical AI systems.</p> </main>",
+    "contentMarkdown": "We introduce the Darwin Gödel Machine (DGM), an AI system capable of rewriting its own code to improve itself over time.\n\nUnlike previous self-improving systems, the DGM uses an evolutionary approach inspired by both Darwin and Gödel to iterate on its own architecture.\n\nThe system has shown remarkable results on a range of benchmarks, demonstrating the viability of recursive self-improvement in practical AI systems.",
+    "title": "The Darwin Gödel Machine: AI that improves itself by rewriting its own code",
+    "author": "Example AI",
+    "site": "Example AI",
+    "published": "",
+    "wordCount": 64,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

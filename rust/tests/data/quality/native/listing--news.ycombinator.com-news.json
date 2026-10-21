@@ -1,0 +1,682 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://example.com/building-a-database-from-scratch"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Building a Database from Scratch in Rust"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "element",
+              "name": "small",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "(example.com)"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "br",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "element",
+              "name": "small",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "384 points · by dev_user · "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://news.ycombinator.com/item?id=10000001"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "142 comments"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://blog.example.org/reverse-engineering-a-wifi-chip"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Reverse Engineering a Common Wi-Fi Chip"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "element",
+              "name": "small",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "(blog.example.org)"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "br",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "element",
+              "name": "small",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "251 points · by hw_hacker · "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://news.ycombinator.com/item?id=10000002"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "89 comments"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://news.ycombinator.com/item?id=10000003"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Ask HN: What side projects are you working on?"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "br",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "element",
+              "name": "small",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "127 points · by curious_dev · "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://news.ycombinator.com/item?id=10000003"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "205 comments"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://research.example.net/efficient-llm-inference"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Efficient LLM Inference on Consumer Hardware"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "element",
+              "name": "small",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "(research.example.net)"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "br",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "element",
+              "name": "small",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "198 points · by ml_researcher · "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://news.ycombinator.com/item?id=10000004"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "73 comments"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://example.io/open-source-cad-tool"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Show HN: An Open-Source CAD Tool for 3D Printing"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "element",
+              "name": "small",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "(example.io)"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "br",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "element",
+              "name": "small",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "56 points · by maker_person · "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://news.ycombinator.com/item?id=10000005"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "18 comments"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://news.ycombinator.com/news?p=2"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "More"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://example.com/building-a-database-from-scratch"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Building a Database from Scratch in Rust"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " (example.com)"
+            },
+            {
+              "kind": "element",
+              "name": "br",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "text",
+              "text": " 384 points · by dev_user · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://news.ycombinator.com/item?id=10000001"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "142 comments"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://blog.example.org/reverse-engineering-a-wifi-chip"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Reverse Engineering a Common Wi-Fi Chip"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " (blog.example.org)"
+            },
+            {
+              "kind": "element",
+              "name": "br",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "text",
+              "text": " 251 points · by hw_hacker · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://news.ycombinator.com/item?id=10000002"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "89 comments"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://news.ycombinator.com/item?id=10000003"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Ask HN: What side projects are you working on?"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "br",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "text",
+              "text": " 127 points · by curious_dev · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://news.ycombinator.com/item?id=10000003"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "205 comments"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://research.example.net/efficient-llm-inference"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Efficient LLM Inference on Consumer Hardware"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " (research.example.net)"
+            },
+            {
+              "kind": "element",
+              "name": "br",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "text",
+              "text": " 198 points · by ml_researcher · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://news.ycombinator.com/item?id=10000004"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "73 comments"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://example.io/open-source-cad-tool"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Show HN: An Open-Source CAD Tool for 3D Printing"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " (example.io)"
+            },
+            {
+              "kind": "element",
+              "name": "br",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "text",
+              "text": " 56 points · by maker_person · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://news.ycombinator.com/item?id=10000005"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "18 comments"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://news.ycombinator.com/news?p=2"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "More"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Hacker News",
+    "title": "Hacker News",
+    "description": "",
+    "domain": "news.ycombinator.com",
+    "favicon": "https://news.ycombinator.com/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 82,
+  "extractorType": "hackernews"
+}

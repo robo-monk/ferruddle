@@ -1,0 +1,20 @@
+{
+  "id": "custom-elements--swiper-carousel",
+  "url": "https://custom-elements--swiper-carousel",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n\t<title>Article Title - Example</title>\n</head>\n<body>\n\t<main>\n\t\t<article>\n\t\t\t<h1>Article Title</h1>\n\t\t\t<p>Some introductory text about the topic.</p>\n\t\t\t<div><span class=\"font-bold\">Gallery</span><swiper-container slides-per-view=\"1.2\"><swiper-slide><figure><img src=\"https://example.com/a.jpg\"></figure></swiper-slide><swiper-slide><figure><img src=\"https://example.com/b.png\"></figure></swiper-slide><swiper-slide><figure><img src=\"https://example.com/c.jpg\"></figure></swiper-slide></swiper-container></div>\n\t\t\t<p>Text after the carousel.</p>\n\t\t</article>\n\t</main>\n</body>\n</html>\n",
+  "inputSha256": "e6a8f9ea6737b4bc596184923fc3c2847558b6ea6c2badcdac4def14fbcd86e3",
+  "upstreamFixture": "tests/fixtures/custom-elements--swiper-carousel.html",
+  "markdownGoldenSha256": "479ff58cbca014c632d9ad3821aed636e17798520f0842daa4228b655238d9aa",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article> <p>Some introductory text about the topic.</p> Gallery <div><figure><img src=\"https://example.com/a.jpg\"></figure></div> <div><figure><img src=\"https://example.com/b.png\"></figure></div> <div><figure><img src=\"https://example.com/c.jpg\"></figure></div> <p>Text after the carousel.</p> </article>",
+    "contentMarkdown": "Some introductory text about the topic.\n\nGallery\n\n![](https://example.com/a.jpg)\n\n![](https://example.com/b.png)\n\n![](https://example.com/c.jpg)\n\nText after the carousel.",
+    "title": "Article Title",
+    "author": "",
+    "site": "Example",
+    "published": "",
+    "wordCount": 11,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

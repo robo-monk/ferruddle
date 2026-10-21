@@ -1,0 +1,20 @@
+{
+  "id": "footnotes--nested-prose",
+  "url": "https://nested-prose",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\"/>\n  <title>Loose footnotes: nested prose div</title>\n</head>\n<body>\n  <!--\n    Pattern: the article's direct children are structural wrapper divs, not\n    paragraphs. The actual content (including the footnotes) lives inside a\n    deeply nested <div class=\"prose\">. The content element selected by\n    defuddle is <article>, so collectFootnotes must find the innermost\n    container (via lastP.parentElement) before scanning.\n  -->\n  <article>\n    <div class=\"layout\">\n      <div class=\"prose\">\n        <h1>Loose footnotes: nested prose div</h1>\n\n        <p>The first claim is well-established.<sup>1</sup></p>\n\n        <p>The second claim is more contested.<sup>2</sup></p>\n\n        <p>The conclusion follows from both claims.</p>\n\n        <hr/>\n\n        <p><sup>1</sup> Supporting evidence for the first claim.</p>\n\n        <p><sup>2</sup> Counterarguments and rebuttal for the second claim.</p>\n      </div>\n    </div>\n  </article>\n</body>\n</html>\n",
+  "inputSha256": "e0d21ed8de51abab1daa4b4654a701865590454861d65bfc4e0a8a63c6084b9e",
+  "upstreamFixture": "tests/fixtures/footnotes--nested-prose.html",
+  "markdownGoldenSha256": "d338d698b81dcbead122fb810f0a59a284a4e0dd66e759b851bba4593fc17390",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>    <p>The first claim is well-established.<sup id=\"fnref:1\"><a href=\"#fn:1\">1</a></sup></p> <p>The second claim is more contested.<sup id=\"fnref:2\"><a href=\"#fn:2\">2</a></sup></p> <p>The conclusion follows from both claims.</p>      <div id=\"footnotes\"><ol><li id=\"fn:1\"><p>Supporting evidence for the first claim.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:1\">↩</a></p></li> <li id=\"fn:2\"><p>Counterarguments and rebuttal for the second claim.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:2\">↩</a></p></li></ol></div></article>",
+    "contentMarkdown": "The first claim is well-established.[^1]\n\nThe second claim is more contested.[^2]\n\nThe conclusion follows from both claims.\n\n[^1]: Supporting evidence for the first claim.\n\n[^2]: Counterarguments and rebuttal for the second claim.",
+    "title": "Loose footnotes: nested prose div",
+    "author": "",
+    "site": "nested-prose",
+    "published": "",
+    "wordCount": 34,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

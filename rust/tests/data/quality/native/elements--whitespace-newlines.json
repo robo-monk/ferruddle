@@ -1,0 +1,155 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Newlines in paragraphs"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is a paragraph with newlines between sentences. Browsers collapse these to spaces."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This paragraph has multiple blank lines that should also collapse to spaces."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Whitespace-preserving code"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "/ip address\nadd address=192.168.88.1/24 interface=bridge1\nadd address=172.16.0.1/24 interface=ether1"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The code above uses white-space: pre on a code element without a pre wrapper."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "This is a normal pre+code block.\nIt should be preserved as-is.\n  Including indentation."
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Newlines in paragraphs"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is a paragraph with newlines between sentences. Browsers collapse these to spaces."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This paragraph has multiple blank lines that should also collapse to spaces."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Whitespace-preserving code"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "/ip address\nadd address=192.168.88.1/24 interface=bridge1\nadd address=172.16.0.1/24 interface=ether1"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The code above uses white-space: pre on a code element without a pre wrapper."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "This is a normal pre+code block.\nIt should be preserved as-is.\n  Including indentation."
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "whitespace-newlines",
+    "title": "Whitespace and newline handling",
+    "description": "",
+    "domain": "whitespace-newlines",
+    "favicon": "https://whitespace-newlines/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 65,
+  "extractorType": null
+}

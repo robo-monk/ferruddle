@@ -1,0 +1,565 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.com/article"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "https://example.com/article"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Comments"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "commenter_one"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://news.ycombinator.com/item?id=12345679"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2025-01-15"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · 25 points"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "This is a really interesting article. The key insight about distributed systems is worth exploring further."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "blockquote",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "p",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "commenter_two"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " · "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://news.ycombinator.com/item?id=12345680"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "2025-01-15"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "p",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "I agree. The author makes a compelling case for eventual consistency over strong consistency in this context."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "blockquote",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "strong",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "commenter_one"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "text": " · "
+                    },
+                    {
+                      "kind": "element",
+                      "name": "a",
+                      "attributes": [
+                        [
+                          "href",
+                          "https://news.ycombinator.com/item?id=12345681"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "2025-01-15"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Exactly. And the benchmarks in section 3 back this up nicely."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "commenter_three"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://news.ycombinator.com/item?id=12345682"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2025-01-15"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · 10 points"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "We tried a similar approach at our company. The tradeoffs are real but manageable if you plan for them."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.com/article"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "https://example.com/article"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Comments"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "commenter_one"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://news.ycombinator.com/item?id=12345679"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2025-01-15"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · 25 points"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "This is a really interesting article. The key insight about distributed systems is worth exploring further."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "blockquote",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "p",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "commenter_two"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " · "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://news.ycombinator.com/item?id=12345680"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "2025-01-15"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "p",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "I agree. The author makes a compelling case for eventual consistency over strong consistency in this context."
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "blockquote",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "strong",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "commenter_one"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "text": " · "
+                    },
+                    {
+                      "kind": "element",
+                      "name": "a",
+                      "attributes": [
+                        [
+                          "href",
+                          "https://news.ycombinator.com/item?id=12345681"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "2025-01-15"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "p",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Exactly. And the benchmarks in section 3 back this up nicely."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "commenter_three"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://news.ycombinator.com/item?id=12345682"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2025-01-15"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · 10 points"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "We tried a similar approach at our company. The tradeoffs are real but manageable if you plan for them."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Hacker News",
+    "title": "A Sample Article",
+    "description": "A Sample Article - by author_one on Hacker News",
+    "domain": "news.ycombinator.com",
+    "favicon": "https://news.ycombinator.com/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "2025-01-15",
+    "author": "author_one"
+  },
+  "warnings": [],
+  "wordCount": 83,
+  "extractorType": "hackernews"
+}

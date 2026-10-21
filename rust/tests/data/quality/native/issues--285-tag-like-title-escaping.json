@@ -1,0 +1,474 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is a list of blog posts. One of the titles contains angle brackets that look like an HTML tag, which must be escaped so a Markdown reader does not treat it as raw HTML and swallow everything that follows it on the page."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "a",
+      "attributes": [
+        [
+          "href",
+          "https://www.example.com/blog/first-post"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              "blog cover"
+            ],
+            [
+              "src",
+              "https://www.example.com/blog/first-post/cover.png"
+            ]
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "a",
+      "attributes": [
+        [
+          "href",
+          "https://www.example.com/blog/first-post"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "text",
+          "text": "An Ordinary First Post"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A gentle introduction with nothing unusual in its title at all."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "by author"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "a",
+      "attributes": [
+        [
+          "href",
+          "https://www.example.com/blog/monte-video"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              "blog cover"
+            ],
+            [
+              "src",
+              "https://www.example.com/blog/monte-video/cover.png"
+            ]
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "a",
+      "attributes": [
+        [
+          "href",
+          "https://www.example.com/blog/monte-video"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Monte<video>: A Real Place"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A post whose title embeds a tag-like token. Reach us at <hello@example.com>."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "by author"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "a",
+      "attributes": [
+        [
+          "href",
+          "https://www.example.com/blog/third-post"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              "blog cover"
+            ],
+            [
+              "src",
+              "https://www.example.com/blog/third-post/cover.png"
+            ]
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "a",
+      "attributes": [
+        [
+          "href",
+          "https://www.example.com/blog/third-post"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A Third Post Worth Reading"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The final entry, included so there is content after the tricky title."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "by author"
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is a list of blog posts. One of the titles contains angle brackets that look like an HTML tag, which must be escaped so a Markdown reader does not treat it as raw HTML and swallow everything that follows it on the page."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "a",
+      "attributes": [
+        [
+          "href",
+          "https://www.example.com/blog/first-post"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              "blog cover"
+            ],
+            [
+              "src",
+              "https://www.example.com/blog/first-post/cover.png"
+            ]
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.example.com/blog/first-post"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "An Ordinary First Post"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A gentle introduction with nothing unusual in its title at all."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "by author"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "a",
+      "attributes": [
+        [
+          "href",
+          "https://www.example.com/blog/monte-video"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              "blog cover"
+            ],
+            [
+              "src",
+              "https://www.example.com/blog/monte-video/cover.png"
+            ]
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.example.com/blog/monte-video"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Monte<video>: A Real Place"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A post whose title embeds a tag-like token. Reach us at "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "mailto:hello@example.com"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "hello@example.com"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "by author"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "a",
+      "attributes": [
+        [
+          "href",
+          "https://www.example.com/blog/third-post"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              "blog cover"
+            ],
+            [
+              "src",
+              "https://www.example.com/blog/third-post/cover.png"
+            ]
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.example.com/blog/third-post"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "A Third Post Worth Reading"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The final entry, included so there is content after the tricky title."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "by author"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "example.com",
+    "title": "Blog Posts",
+    "description": "",
+    "domain": "example.com",
+    "favicon": "https://www.example.com/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 98,
+  "extractorType": null
+}

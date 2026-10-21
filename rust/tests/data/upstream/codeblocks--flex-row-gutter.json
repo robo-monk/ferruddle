@@ -1,0 +1,20 @@
+{
+  "id": "codeblocks--flex-row-gutter",
+  "url": "https://example.com/engineering/agent-architecture",
+  "inputHtml": "<!DOCTYPE html>\n<!-- {\"url\":\"https://example.com/engineering/agent-architecture\"} -->\n<html>\n<head>\n\t<title>Agent Architecture | Example Engineering</title>\n\t<meta name=\"description\" content=\"How we structured our multi-agent codebase.\">\n\t<meta property=\"og:title\" content=\"Agent Architecture | Example Engineering\">\n\t<meta property=\"og:site_name\" content=\"Example Engineering\">\n</head>\n<body>\n\t<article>\n\t\t<h1>Agent Architecture</h1>\n\n\t\t<p>Here is the top-level directory layout for the project:</p>\n\n\t\t<!-- Real-world flex-row gutter pattern (Tailwind-based UI).\n\t\t     Each line is a div.flex-row with a span (line number) and a div (code text).\n\t\t     The outer <code> wraps the <pre>, producing invalid <code><pre> nesting. -->\n\t\t<h4>Plain Text</h4>\n\t\t<div dir=\"ltr\" class=\"gap-2xs py-xs relative flex items-stretch overflow-auto bg-tertiary-100 style-scrollbars max-h-[31.25rem] @md:max-h-[37.75rem] pt-4xs\"><code class=\"text-primary-100 text-code-snippet flex-1 px-0 font-mono CodeBlock_syntaxHighlight__7TRS1\"><pre class=\"flex flex-col pe-xs\"><div class=\"gap-2xs flex flex-row\"><span class=\"text-primary-44 ms-xs min-w-xs text-end\">1</span><div class=\"flex-1\">AGENTS.md</div></div><div class=\"gap-2xs flex flex-row\"><span class=\"text-primary-44 ms-xs min-w-xs text-end\">2</span><div class=\"flex-1\">ARCHITECTURE.md</div></div><div class=\"gap-2xs flex flex-row\"><span class=\"text-primary-44 ms-xs min-w-xs text-end\">3</span><div class=\"flex-1\">docs/</div></div><div class=\"gap-2xs flex flex-row\"><span class=\"text-primary-44 ms-xs min-w-xs text-end\">4</span><div class=\"flex-1\">├── design-docs/</div></div><div class=\"gap-2xs flex flex-row\"><span class=\"text-primary-44 ms-xs min-w-xs text-end\">5</span><div class=\"flex-1\">│   ├── index.md</div></div><div class=\"gap-2xs flex flex-row\"><span class=\"text-primary-44 ms-xs min-w-xs text-end\">6</span><div class=\"flex-1\">│   └── core-beliefs.md</div></div><div class=\"gap-2xs flex flex-row\"><span class=\"text-primary-44 ms-xs min-w-xs text-end\">7</span><div class=\"flex-1\">src/</div></div><div class=\"gap-2xs flex flex-row\"><span class=\"text-primary-44 ms-xs min-w-xs text-end\">8</span><div class=\"flex-1\">└── main.ts</div></div></pre></code></div>\n\n\t\t<p>Each agent is defined in its own module under <code>src/agents/</code>.</p>\n\t</article>\n</body>\n</html>\n",
+  "inputSha256": "ffbc2e491d1125ccb3abb58309334efe6e409a4ddbd2df7bb6b984ef7d7f2d56",
+  "upstreamFixture": "tests/fixtures/codeblocks--flex-row-gutter.html",
+  "markdownGoldenSha256": "4e6a17206459838b3e90fde94535bff72ddd41e6c48721b94cbc6925fa040360",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>Here is the top-level directory layout for the project:</p>  <h4>Plain Text</h4> <div dir=\"ltr\"><pre><code>AGENTS.md\nARCHITECTURE.md\ndocs/\n├── design-docs/\n│   ├── index.md\n│   └── core-beliefs.md\nsrc/\n└── main.ts</code></pre></div> <p>Each agent is defined in its own module under <code>src/agents/</code>.</p> </article>",
+    "contentMarkdown": "Here is the top-level directory layout for the project:\n\n#### Plain Text\n\n```\nAGENTS.md\nARCHITECTURE.md\ndocs/\n├── design-docs/\n│   ├── index.md\n│   └── core-beliefs.md\nsrc/\n└── main.ts\n```\n\nEach agent is defined in its own module under `src/agents/`.",
+    "title": "Agent Architecture",
+    "author": "",
+    "site": "Example Engineering",
+    "published": "",
+    "wordCount": 36,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

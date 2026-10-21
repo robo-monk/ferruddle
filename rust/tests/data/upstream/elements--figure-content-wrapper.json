@@ -1,0 +1,20 @@
+{
+  "id": "elements--figure-content-wrapper",
+  "url": "https://figure-content-wrapper",
+  "inputHtml": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\"/>\n  <title>Figure Content Wrapper Test</title>\n</head>\n<body>\n  <!--\n    Reproduces the Medium-embedded-in-WordPress pattern where the entire\n    article body is wrapped in a <figure> element. The figure rule must\n    not treat this as an image figure and discard all the text.\n  -->\n  <article class=\"post\">\n    <div class=\"article-header\">\n      <h1>Example Article Title</h1>\n    </div>\n    <div class=\"article-body\">\n      <!-- Outer figure wraps entire article body (Medium layout) -->\n      <figure class=\"paragraph-image\">\n        <div class=\"content-wrapper\">\n          <p>First paragraph with some content about the topic.</p>\n          <p>Second paragraph continuing the discussion.</p>\n\n          <!-- Individual image figure nested inside the outer figure -->\n          <figure class=\"inline-image\">\n            <img src=\"https://example.com/diagram.png\" alt=\"A diagram\" width=\"640\" height=\"400\"/>\n          </figure>\n\n          <p>Third paragraph after the image.</p>\n          <p>Fourth paragraph wrapping up the section.</p>\n        </div>\n      </figure>\n    </div>\n    <div class=\"author-bio\">\n      <p>Author Name</p>\n      <p>Author bio goes here.</p>\n    </div>\n  </article>\n</body>\n</html>\n",
+  "inputSha256": "4aecce2fd81fb39180b00f0be31cee0a4d6f8bb18a39d98726f9d5efe21df417",
+  "upstreamFixture": "tests/fixtures/elements--figure-content-wrapper.html",
+  "markdownGoldenSha256": "e532d72f0b4185a5433da38856093368c34e3055547460c307bfa54244e32e6a",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <h2>Example Article Title</h2>  <div>  <figure> <div> <p>First paragraph with some content about the topic.</p> <p>Second paragraph continuing the discussion.</p>  <figure> <img src=\"https://example.com/diagram.png\" alt=\"A diagram\" width=\"640\" height=\"400\"> </figure> <p>Third paragraph after the image.</p> <p>Fourth paragraph wrapping up the section.</p> </div> </figure> </div>  <p>Author Name</p> <p>Author bio goes here.</p>  </article>",
+    "contentMarkdown": "## Example Article Title\n\nFirst paragraph with some content about the topic.\n\nSecond paragraph continuing the discussion.\n\n![A diagram](https://example.com/diagram.png)\n\nThird paragraph after the image.\n\nFourth paragraph wrapping up the section.\n\nAuthor Name\n\nAuthor bio goes here.",
+    "title": "Figure Content Wrapper Test",
+    "author": "",
+    "site": "figure-content-wrapper",
+    "published": "",
+    "wordCount": 33,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

@@ -1,0 +1,185 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Lazy sources can be relative URLs without file extensions. Metadata must never supply an image source, even when its filename resembles an image or a placeholder."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Relative"
+        ],
+        [
+          "src",
+          "https://example.com/photo"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Query"
+        ],
+        [
+          "src",
+          "https://example.com/article?image=123"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Blank"
+        ],
+        [
+          "src",
+          "https://example.com/blank.gif"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Loader"
+        ],
+        [
+          "src",
+          "https://example.com/assets/loader.gif"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The explicit source determines each image independently of attribute order, filename, and unrelated metadata."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Lazy sources can be relative URLs without file extensions. Metadata must never supply an image source, even when its filename resembles an image or a placeholder."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Relative"
+        ],
+        [
+          "src",
+          "https://example.com/photo"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Query"
+        ],
+        [
+          "src",
+          "https://example.com/article?image=123"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Blank"
+        ],
+        [
+          "src",
+          "https://example.com/blank.gif"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Loader"
+        ],
+        [
+          "src",
+          "https://example.com/assets/loader.gif"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The explicit source determines each image independently of attribute order, filename, and unrelated metadata."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "example.com",
+    "title": "Explicit image sources",
+    "description": "",
+    "domain": "example.com",
+    "favicon": "https://example.com/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 40,
+  "extractorType": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": "codeblocks--pygments-lineno",
+  "url": "https://pygments-lineno",
+  "inputHtml": "<!DOCTYPE html>\n<html lang=\"en\">\n<head><title>Sample Python Tutorial</title></head>\n<body>\n<article>\n  <h3>Imports</h3>\n\n  <p>First, import the required modules:</p>\n\n  <div class=\"highlight\"><pre><span class=\"lineno\">1</span><span></span><span class=\"kn\">import</span> <span class=\"nn\">torch</span>\n<span class=\"lineno\">2</span><span class=\"kn\">from</span> <span class=\"nn\">torch</span> <span class=\"kn\">import</span> <span class=\"n\">nn</span></pre></div>\n\n  <p>Then define the model:</p>\n\n  <div class=\"highlight\"><pre><span class=\"lineno\">10</span><span class=\"k\">class</span> <span class=\"nc\">Model</span><span class=\"p\">(</span><span class=\"n\">nn</span><span class=\"o\">.</span><span class=\"n\">Module</span><span class=\"p\">):</span>\n<span class=\"lineno\">11</span>    <span class=\"k\">def</span> <span class=\"fm\">__init__</span><span class=\"p\">(</span><span class=\"bp\">self</span><span class=\"p\">):</span>\n<span class=\"lineno\">12</span>        <span class=\"nb\">super</span><span class=\"p\">()</span><span class=\"o\">.</span><span class=\"fm\">__init__</span><span class=\"p\">()</span></pre></div>\n</article>\n</body>\n</html>\n",
+  "inputSha256": "fff768dafb77b2d69ba020af2a85d2ed3a8966f64c19196a73e66ceea7096b17",
+  "upstreamFixture": "tests/fixtures/codeblocks--pygments-lineno.html",
+  "markdownGoldenSha256": "d042c3a28f11cf0100f169ccfa0b809226907f2e7b8f07e3b6599f72950a8be8",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article> <h3>Imports</h3> <p>First, import the required modules:</p> <pre><code>import torch\nfrom torch import nn</code></pre> <p>Then define the model:</p> <pre><code>class Model(nn.Module):\n    def __init__(self):\n        super().__init__()</code></pre> </article>",
+    "contentMarkdown": "### Imports\n\nFirst, import the required modules:\n\n```\nimport torch\nfrom torch import nn\n```\n\nThen define the model:\n\n```\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n```",
+    "title": "Sample Python Tutorial",
+    "author": "",
+    "site": "pygments-lineno",
+    "published": "",
+    "wordCount": 21,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

@@ -1,0 +1,1378 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Scaled Dot-Product Attention"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We call the attention function on a set of queries simultaneously."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [
+                    [
+                      "alttext",
+                      "\\mathrm{Attention}(Q,K,V)=\\mathrm{softmax}(\\frac{QK^{T}}{\\sqrt{d_{k}}})V"
+                    ],
+                    [
+                      "display",
+                      "block"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "semantics",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mrow",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "Attention"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "("
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "Q"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ","
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "K"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ","
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "V"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ")"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "="
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "softmax"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "("
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mfrac",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mrow",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mi",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "Q"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "msup",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mi",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "K"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "element",
+                                          "name": "mi",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "T"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "msqrt",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "msub",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mi",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "d"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "element",
+                                          "name": "mi",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "k"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ")"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "V"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "annotation",
+                          "attributes": [
+                            [
+                              "encoding",
+                              "application/x-tex"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "\\mathrm{Attention}(Q,K,V)=\\mathrm{softmax}(\\frac{QK^{T}}{\\sqrt{d_{k}}})V"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The two most commonly used attention functions are additive attention and dot-product attention."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [
+                    [
+                      "alttext",
+                      "\\mathrm{MultiHead}(Q,K,V)=\\mathrm{Concat}(\\mathrm{head}_{1},...,\\mathrm{head}_{h})W^{O}"
+                    ],
+                    [
+                      "display",
+                      "inline"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "semantics",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mrow",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "MultiHead"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "("
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "Q"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ","
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "K"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ","
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "V"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ")"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "="
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "Concat"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "("
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "msub",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "head"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mn",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "1"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ","
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "..."
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ","
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "msub",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "head"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "h"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ")"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "msup",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "W"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "O"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "annotation",
+                          "attributes": [
+                            [
+                              "encoding",
+                              "application/x-tex"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "\\mathrm{MultiHead}(Q,K,V)=\\mathrm{Concat}(\\mathrm{head}_{1},...,\\mathrm{head}_{h})W^{O}"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Scaled Dot-Product Attention"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We call the attention function on a set of queries simultaneously."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [
+                    [
+                      "alttext",
+                      "\\mathrm{Attention}(Q,K,V)=\\mathrm{softmax}(\\frac{QK^{T}}{\\sqrt{d_{k}}})V"
+                    ],
+                    [
+                      "display",
+                      "block"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "semantics",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mrow",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "Attention"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "("
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "Q"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ","
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "K"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ","
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "V"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ")"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "="
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "softmax"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "("
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mfrac",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mrow",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mi",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "Q"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "element",
+                                      "name": "msup",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mi",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "K"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "element",
+                                          "name": "mi",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "T"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "msqrt",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "msub",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "element",
+                                          "name": "mi",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "d"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "element",
+                                          "name": "mi",
+                                          "attributes": [],
+                                          "children": [
+                                            {
+                                              "kind": "text",
+                                              "text": "k"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ")"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "V"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "annotation",
+                          "attributes": [
+                            [
+                              "encoding",
+                              "application/x-tex"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "\\mathrm{Attention}(Q,K,V)=\\mathrm{softmax}(\\frac{QK^{T}}{\\sqrt{d_{k}}})V"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The two most commonly used attention functions are additive attention and dot-product attention."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [
+                    [
+                      "alttext",
+                      "\\mathrm{MultiHead}(Q,K,V)=\\mathrm{Concat}(\\mathrm{head}_{1},...,\\mathrm{head}_{h})W^{O}"
+                    ],
+                    [
+                      "display",
+                      "inline"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "semantics",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mrow",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "MultiHead"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "("
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "Q"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ","
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "K"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ","
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "V"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ")"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "="
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "Concat"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "("
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "msub",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "head"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mn",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "1"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ","
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "..."
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ","
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "msub",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "head"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "h"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mo",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": ")"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "msup",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "W"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "O"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "annotation",
+                          "attributes": [
+                            [
+                              "encoding",
+                              "application/x-tex"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "\\mathrm{MultiHead}(Q,K,V)=\\mathrm{Concat}(\\mathrm{head}_{1},...,\\mathrm{head}_{h})W^{O}"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "141-arxiv-equation-tables",
+    "title": "arXiv Equation Tables",
+    "description": "",
+    "domain": "141-arxiv-equation-tables",
+    "favicon": "https://141-arxiv-equation-tables/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [
+    {
+      "code": "math_not_supported",
+      "message": "Math support is not yet included."
+    }
+  ],
+  "wordCount": 31,
+  "extractorType": null
+}

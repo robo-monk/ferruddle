@@ -1,0 +1,20 @@
+{
+  "id": "content-patterns--heading-introduced-list",
+  "url": "https://content-patterns--heading-introduced-list",
+  "inputHtml": "<!DOCTYPE html>\n<html lang=\"en\">\n<head><title>Sample Plugin</title></head>\n<body>\n<article class=\"markdown-body\">\n\n  <div class=\"markdown-heading\"><h1>sample-plugin</h1></div>\n\n  <p>A fast and flexible plugin for editing configuration files.</p>\n\n  <div class=\"markdown-heading\"><h2>Features</h2></div>\n\n  <ul dir=\"auto\">\n    <li>Written in <code>Lua</code></li>\n    <li>Asynchronous execution</li>\n    <li>Buffer locking</li>\n    <li>Opt-in default configurations</li>\n    <li>Conditional formatting</li>\n    <li>Before/after hooks</li>\n  </ul>\n\n  <div class=\"markdown-heading\"><h2>Install</h2></div>\n\n  <p>Use your preferred package manager:</p>\n\n  <pre><code>use 'user/sample-plugin'</code></pre>\n\n  <div class=\"markdown-heading\"><h2>Configuration</h2></div>\n\n  <p>The plugin can be configured by passing a table to the setup function. Below is an example with the default values.</p>\n\n  <pre><code>require('sample-plugin').setup({\n  logging = true,\n  filetype = {},\n})</code></pre>\n\n  <div class=\"markdown-heading\"><h2>Usage</h2></div>\n\n  <p>The plugin provides a single command to format the current buffer. Run it manually or bind it to a key.</p>\n\n</article>\n</body>\n</html>\n",
+  "inputSha256": "213078d43412c3cbf4ae29c54f9e779dab784ad715c99ace274cc0d8ad7dd2ac",
+  "upstreamFixture": "tests/fixtures/content-patterns--heading-introduced-list.html",
+  "markdownGoldenSha256": "af7ab33534ac28f697abaf55c08981f61bc02bbc58fc820372148b907f66684c",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article> <h2>sample-plugin</h2> <p>A fast and flexible plugin for editing configuration files.</p> <h2>Features</h2> <ul dir=\"auto\"> <li>Written in <code>Lua</code></li> <li>Asynchronous execution</li> <li>Buffer locking</li> <li>Opt-in default configurations</li> <li>Conditional formatting</li> <li>Before/after hooks</li> </ul> <h2>Install</h2> <p>Use your preferred package manager:</p> <pre><code>use 'user/sample-plugin'</code></pre> <h2>Configuration</h2> <p>The plugin can be configured by passing a table to the setup function. Below is an example with the default values.</p> <pre><code>require('sample-plugin').setup({\n  logging = true,\n  filetype = {},\n})</code></pre> <h2>Usage</h2> <p>The plugin provides a single command to format the current buffer. Run it manually or bind it to a key.</p> </article>",
+    "contentMarkdown": "## sample-plugin\n\nA fast and flexible plugin for editing configuration files.\n\n## Features\n\n- Written in `Lua`\n- Asynchronous execution\n- Buffer locking\n- Opt-in default configurations\n- Conditional formatting\n- Before/after hooks\n\n## Install\n\nUse your preferred package manager:\n\n```\nuse 'user/sample-plugin'\n```\n\n## Configuration\n\nThe plugin can be configured by passing a table to the setup function. Below is an example with the default values.\n\n```\nrequire('sample-plugin').setup({\n  logging = true,\n  filetype = {},\n})\n```\n\n## Usage\n\nThe plugin provides a single command to format the current buffer. Run it manually or bind it to a key.",
+    "title": "Sample Plugin",
+    "author": "",
+    "site": "content-patterns--heading-introduced-list",
+    "published": "",
+    "wordCount": 84,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

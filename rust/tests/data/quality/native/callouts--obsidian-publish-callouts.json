@@ -1,0 +1,540 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "To create a callout, add "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "[!info]"
+        },
+        {
+          "kind": "text",
+          "text": " to the first line of a blockquote."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "markdown",
+      "text": "> [!info] A callout title\n> Here is the callout **body** content."
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A callout title"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is the callout "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "body"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " content."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Foldable callouts"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A minus sign collapses the callout."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "markdown",
+      "text": "> [!faq]- Is this foldable?\n> Yes, the content is hidden when collapsed."
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Is this foldable?"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Yes, the content is hidden when collapsed."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Supported types"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Each type has a different color and icon."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Note"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "md",
+      "text": "> [!note]\n> Lorem ipsum dolor sit amet"
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Abstract"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "md",
+      "text": "> [!abstract]\n> Lorem ipsum dolor sit amet"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Aliases: "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "summary"
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "tldr"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Tip"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "md",
+      "text": "> [!tip]\n> Lorem ipsum dolor sit amet"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Aliases: "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "hint"
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "important"
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "To create a callout, add "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "[!info]"
+        },
+        {
+          "kind": "text",
+          "text": " to the first line of a blockquote."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "markdown",
+      "text": "> [!info] A callout title\n> Here is the callout **body** content."
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "[!info] A callout title Here is the callout "
+            },
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "body"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " content."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Foldable callouts"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A minus sign collapses the callout."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "markdown",
+      "text": "> [!faq]- Is this foldable?\n> Yes, the content is hidden when collapsed."
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "[!faq]- Is this foldable? Yes, the content is hidden when collapsed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Supported types"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Each type has a different color and icon."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "[!note] Note"
+            }
+          ]
+        },
+        {
+          "kind": "code",
+          "block": true,
+          "language": "md",
+          "text": "> [!note]\n> Lorem ipsum dolor sit amet"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "[!abstract]- Abstract"
+            }
+          ]
+        },
+        {
+          "kind": "code",
+          "block": true,
+          "language": "md",
+          "text": "> [!abstract]\n> Lorem ipsum dolor sit amet"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Aliases: "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "summary"
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "tldr"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "[!tip]- Tip"
+            }
+          ]
+        },
+        {
+          "kind": "code",
+          "block": true,
+          "language": "md",
+          "text": "> [!tip]\n> Lorem ipsum dolor sit amet"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Aliases: "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "hint"
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "important"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Example Help",
+    "title": "Callouts",
+    "description": "",
+    "domain": "publish.example.com",
+    "favicon": "https://publish.example.com/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 108,
+  "extractorType": null
+}

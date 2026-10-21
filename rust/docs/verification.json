@@ -1,0 +1,132 @@
+{
+  "status": "release preparation complete; candidate package verified; publication remains manual",
+  "preparedAt": "2026-10-20T23:22:22.492669+00:00",
+  "version": "0.1.0",
+  "published": false,
+  "repository": "https://github.com/robo-monk/defuddle",
+  "package": {
+    "path": "../target/package/defuddle-0.1.0.crate",
+    "bytes": 1144944,
+    "sha256": "36a002c61b172b07c1c5274efe1f9fb3087779e335d69b620b4564647697fc87",
+    "files": 533,
+    "all226OriginalHtmlCasesIncluded": true,
+    "includesTestsAndExamples": true,
+    "excludesBenchmarksReviewsResearchAndBuildTrees": true,
+    "allowDirtyUsedForLocalCandidate": true,
+    "fileList": "validation/package-files.json",
+    "sourceMatchesCurrentTree": "every packaged source, fixture and document matches the current tree byte for byte"
+  },
+  "toolchains": {
+    "development": "Rust 1.99.1",
+    "minimumSupported": "Rust 1.88.0",
+    "note": "Working named toolchains were used. The previously broken default installation was not changed."
+  },
+  "tests": {
+    "repository": {
+      "passed": 242,
+      "failed": 0,
+      "ignoredDiagnosticHelpers": 8
+    },
+    "rust188": {
+      "passed": 242,
+      "failed": 0,
+      "ignoredDiagnosticHelpers": 8
+    },
+    "unpackedPackage": {
+      "passed": 242,
+      "failed": 0,
+      "ignoredDiagnosticHelpers": 8
+    }
+  },
+  "checks": {
+    "clippyAllTargetsWarningsDenied": "passed",
+    "rustfmt": "passed",
+    "rustdocWarningsDenied": "passed",
+    "cargoPackageVerify": "passed",
+    "cargoPublishDryRun": "passed; upload aborted by dry-run mode",
+    "packagedCliHelpHtmlMarkdownJsonWarningsAndSanitization": "passed",
+    "benchmarkHarnessPureChecks": 7,
+    "benchmarkSelectionCases": 208,
+    "benchmarkEvidenceHashesStatisticsAndSourceRelationship": "passed",
+    "activeDocumentationLinks": "passed: 63 local links across 13 active Markdown files resolve; all documentation JSON parses",
+    "workflowYamlAndMatrix": "parsed and checked; CI itself has not run",
+    "changedBenchmarkRatioRejected": "passed: deliberately altered speedup exits1"
+  },
+  "benchmark": {
+    "report": "benchmarks/README.md",
+    "summary": "benchmarks/summary.json",
+    "rawEvidence": "benchmarks/evidence.json",
+    "verifier": "benchmarks/tools/verify.py",
+    "publishedMeasurementsUnchanged": true,
+    "releaseSourceRelationship": "Rust documentation and Cargo packaging metadata changed; executable Rust code, locked dependencies and measured inputs did not. Verified against the archived measured source.",
+    "updatedHarnessIntegrationSmoke": "passed on all208cases, paired warm/cold and four native workers; timings discarded"
+  },
+  "scope": {
+    "mathConversion": false,
+    "detectedMathWarning": {
+      "code": "math_not_supported",
+      "message": "Math support is not yet included."
+    },
+    "networkRequests": false,
+    "originalTypeScriptSourceAndExpectationsChanged": false
+  },
+  "ci": {
+    "workflow": "../../.github/workflows/rust.yml",
+    "configuredTests": [
+      "Linux stable",
+      "Linux 1.88.0",
+      "macOS stable",
+      "Windows stable"
+    ],
+    "configuredPackageChecks": [
+      "format",
+      "Clippy",
+      "rustdoc",
+      "cargo package",
+      "unpacked-crate tests"
+    ],
+    "publicationAutomated": false,
+    "rustTagPrefix": "rust-v",
+    "npmWorkflowExcludesRustTags": true
+  },
+  "sourceHashes": {
+    "rust/src/bin/defuddle.rs": "c8ea6bc3c9b4602d1705131fc21b26562490fef74e7fe865970f26009bf7f4bd",
+    "rust/src/callouts.rs": "12fe1117acf2b862f6f39b2d3c6f63019258df38f8b46c6e825458b4de809b67",
+    "rust/src/code.rs": "2bd3150899a3b132d20615feca2e3f61a144d49cdb3cedeecbd299cc51aa4866",
+    "rust/src/constants.rs": "5046d93b670219a52ece52762da4d8dc67971d48e79f699b24a964ef9cb5407b",
+    "rust/src/dom/selectors.rs": "c34238032d1f4b5ff69cdabdc6853a6db498e67de2465250d477b249c9c7d9ab",
+    "rust/src/dom.rs": "57fc6dda6319e79d6bb9776f803247f555f38fe6697db0eea52f4e5fce0031e8",
+    "rust/src/extractors/comments.rs": "b0c7b9b201da81872de95469380f519d985c314f7a83aa0a2f56a59c647ccb4e",
+    "rust/src/extractors/conversations.rs": "fa0b567508e0a64f2cada21582ae2c9e6c0207ded69810de3f527bff392d919e",
+    "rust/src/extractors/embedded.rs": "d1eb0fe8112a9ebcfa76115b0e69e33414661944cfff25c0cf7f0019a766fac9",
+    "rust/src/extractors/rich_social.rs": "ead2ae96885b6f82b290345240db5054895eb37626d39c648bcb648513c418f1",
+    "rust/src/extractors/social.rs": "7a797c958745c584145867e2320643806de38c0bff519e7dec755998c957885e",
+    "rust/src/extractors/video.rs": "6086c196e3ad78fa70a3f76021bec2b2c0425340fb80a303f09a2d803bad293b",
+    "rust/src/extractors.rs": "1c4db664518ca60bc77205d706b45d4b6bb1fe607d619fe551a6990b4e5cd7ec",
+    "rust/src/finalize.rs": "80e692ad68b18ae84277586e3014a022948d2cdf9efa29c118d0781dd2481d80",
+    "rust/src/footnotes.rs": "da68a9ccecd1daa22739688ebc5af4f9290a746891d41db6caf0211974fab9a1",
+    "rust/src/images.rs": "215a436ce0c9babf7d5ea38a92105c4ed9599e877f65f488832505b0b5d67532",
+    "rust/src/lib.rs": "e7d70260e10f136758e45e0cfbb97cccc09eed8dfa0c74ae164ddadada0f0786",
+    "rust/src/markdown.rs": "967da51e33499e4065d6081886cf98d60825caee64d335bdb4154514e7dec61d",
+    "rust/src/math.rs": "d951f3119d6f8961a5ee4378cc69548b2dd59c15ed96153183c6c4236903f8e8",
+    "rust/src/metadata.rs": "f92e5f6a4ffbbb0ee64f9aea77c694f3cd9e2e417151698716fe5623baae1263",
+    "rust/src/patterns.rs": "e756a2b3c945c00c30d9b21153c87e3febb755e83748c9b173a8e62bbb87b66e",
+    "rust/src/pipeline.rs": "c3ac5aeb13c7f57ee5347195263339f7378465008cad187a971673aa632fe49c",
+    "rust/src/removals.rs": "0001d66520358aa3d93207568c301e5831bd7f8b6ef3412f913e8d829d1f1a96",
+    "rust/src/safety.rs": "18ecc2b806d46a6f7112d6e6125ec2d7f27253f92a05be4e22d01ab7b77e28d7",
+    "rust/src/selection.rs": "c9e40b6399af24510e3bd1c51b93abe62b4437767749ba56692f4962d1808ff4",
+    "rust/src/standardize.rs": "1afb27a1c30f899f5ad32a837fe9b669c573772357da85cfaf615b4beb263435",
+    "rust/src/types.rs": "f1c37ac07f23cafe150d9ef169fff05615e50b884f40c3c2a954031e053c61c7",
+    "rust/src/utils.rs": "f2c4b20a700e9f87b29d43a9ad2d8ae0da64e6fa08ae5000daf75b9da8b067ea"
+  },
+  "historicalImplementationEvidence": "archive/implementation-verification.json",
+  "historicalReviewLimit": "The provider interrupted the final Opus correctness review. Its partial finding was fixed and independently peer checked. No completed final Opus sign-off is claimed.",
+  "releaseProcedure": "releasing.md",
+  "remainingPublicationSteps": [
+    "Commit the reviewed candidate and pass hosted CI.",
+    "Update installation text and date the changelog for publication.",
+    "Publish and tag manually as described in releasing.md."
+  ],
+  "verifiedAt": "2026-10-20T23:26:03.136801+00:00",
+  "validationManifest": "validation/manifest.json"
+}

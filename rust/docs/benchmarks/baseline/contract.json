@@ -1,0 +1,116 @@
+{
+  "runtimeSourceHashes": {
+    "Cargo.lock": "9a31f68015500787d890ccef929e2e9ab43e8ae9e51ebbd521f25df0c20a7ddd",
+    "Cargo.toml": "4df75104b054b6dd36a57801a51909c37cbf218043d8bb32b34c042f03a18a10",
+    "src/bin/defuddle.rs": "c8ea6bc3c9b4602d1705131fc21b26562490fef74e7fe865970f26009bf7f4bd",
+    "src/callouts.rs": "68fa40f05f50bad1714b9dcb6531794706b20df4e94f6e2f8da2f4f1db3a1008",
+    "src/code.rs": "afdfd80e0c040a1df54b5c530b659e245bc5413b05776f9e11e36ed0f8e258d7",
+    "src/constants.rs": "5046d93b670219a52ece52762da4d8dc67971d48e79f699b24a964ef9cb5407b",
+    "src/dom.rs": "334130ab0c83160a37857dd0db0d7eddb50857cbdd683d322f720768db323c38",
+    "src/extractors.rs": "f6f3a975d0b69107217352fe33b800bfe319b94179fe1588344153c9ad7ebc38",
+    "src/extractors/comments.rs": "67ed298b10e5b9346ff9b6d1db49977e5e369efe8cc9e68fc2432ac5e5b84aaa",
+    "src/extractors/conversations.rs": "60cabb7d15bc9546b43c6b326d9882a7a6f953b332aa1b97c1140db2818afed4",
+    "src/extractors/embedded.rs": "d1eb0fe8112a9ebcfa76115b0e69e33414661944cfff25c0cf7f0019a766fac9",
+    "src/extractors/rich_social.rs": "ead2ae96885b6f82b290345240db5054895eb37626d39c648bcb648513c418f1",
+    "src/extractors/social.rs": "90bec653904dd64126866a88920a74dbe641874fcc78ff0f22e38a3958c52dc9",
+    "src/extractors/video.rs": "7f8d7a4e780bf1fdb35fb2009c378acffb7b07e87c3f34862d6365167ce5fcd9",
+    "src/finalize.rs": "9dc8d11c7d481137a56abc1039b278784d85a950d5542a5bc9633004e42f128b",
+    "src/footnotes.rs": "d355b848dd7eaff459c6010e4dd4e5ed62ecace6a11f856067ae540dae69f807",
+    "src/images.rs": "7a50385d63d0872675830f5745cc3dcf3c5b32708cbbb00733beee55b052d8ed",
+    "src/lib.rs": "d9d4ce3272fbc6138831e91d0964c1bac4e8fafc53723dd422b4597487afa217",
+    "src/markdown.rs": "13247ad752630c43a787329b8514a10bb15e0bb1c8997cfe4eef72fe4156f6e2",
+    "src/math.rs": "cb54ea0e9e326433e6af5a5c9b17c4a96beb2db617a9abfd9b5391f792e75b6e",
+    "src/metadata.rs": "32795033eb9751c5cda11ec686330a5ab0dcc40a288f77613d35c8e30d6d92b5",
+    "src/patterns.rs": "8a14229c424afaa1fe4b019ebe9640ce1c43f9fbefad2be7b87f3c4353ee2f93",
+    "src/pipeline.rs": "e3940de91e9abd58a1108a0436f8e0d4010c5536a7c50fca6d2683f8a2442c0b",
+    "src/removals.rs": "e35b13a28e08f44c8d3303daf2c09ba0aa7dda5d8faed64b6328691957e9b27b",
+    "src/safety.rs": "20948b0084dcf1c7441fa8eb9afc676ff3c4004e5d2170888ed6489078820e0e",
+    "src/selection.rs": "7e187903bf6a1eed558c187cb64806be722048bfba4cfceedd212fa933b81a8d",
+    "src/standardize.rs": "923f31d592472f1ff0d5584bcc437e7e962f161610f4a22f72738b85b60d0ae6",
+    "src/types.rs": "e4b7e2ff6f226b00feed2ffb24861950e202f1dce2a7cd087171b1fe8c0e54be",
+    "src/utils.rs": "8d34fada567067461f9c39e5fe7a43b88f4d50067bf9414670036a0032f15ac3"
+  },
+  "regressionWatchlist": [
+    {
+      "mode": "html",
+      "case": "comments--mastodon.social-@user-12345678",
+      "runTimeRatios": [
+        0.9901540648152526,
+        1.086363642933437
+      ],
+      "pooledTimeRatio": 1.0380483428117517
+    },
+    {
+      "mode": "html",
+      "case": "comments--news.ycombinator.com-item-id=12345678",
+      "runTimeRatios": [
+        1.0055564909917494,
+        1.0948226881055008
+      ],
+      "pooledTimeRatio": 1.0502023133680674
+    },
+    {
+      "mode": "html",
+      "case": "comments--old.reddit.com-r-test-comments-abc123-test_post",
+      "runTimeRatios": [
+        0.9486739858843659,
+        1.080848347515499
+      ],
+      "pooledTimeRatio": 1.0140942563520015
+    },
+    {
+      "mode": "html",
+      "case": "general--x.com-article",
+      "runTimeRatios": [
+        1.0800491350189374,
+        1.0152477004190208
+      ],
+      "pooledTimeRatio": 1.046863093521587
+    },
+    {
+      "mode": "html+markdown",
+      "case": "extractor--chatgpt-post-thought-content",
+      "runTimeRatios": [
+        0.9940414093852502,
+        1.0515625696139244
+      ],
+      "pooledTimeRatio": 1.0220535234288552
+    },
+    {
+      "mode": "html+markdown",
+      "case": "general--github.com-test-owner-test-repo-pull-42",
+      "runTimeRatios": [
+        1.0803770821016452,
+        1.0199517156880513
+      ],
+      "pooledTimeRatio": 1.0503092885161607
+    },
+    {
+      "mode": "html+markdown",
+      "case": "general--x.com-article",
+      "runTimeRatios": [
+        1.004159642518994,
+        1.0521198197929411
+      ],
+      "pooledTimeRatio": 1.027743788824432
+    },
+    {
+      "mode": "html+markdown",
+      "case": "general--x.com-article-2026-02-13",
+      "runTimeRatios": [
+        1.0739338775059442,
+        1.0295568335192407
+      ],
+      "pooledTimeRatio": 1.0519447684039034
+    },
+    {
+      "mode": "html+markdown",
+      "case": "gmail--mail.google.com-mail-u-0-thread",
+      "runTimeRatios": [
+        1.0758683057634602,
+        1.0192436419420257
+      ],
+      "pooledTimeRatio": 1.0477096637870398
+    }
+  ]
+}

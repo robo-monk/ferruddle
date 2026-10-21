@@ -1,0 +1,2798 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A variety of Temml-rendered math elements using the "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "hurmet-tex"
+        },
+        {
+          "kind": "text",
+          "text": " pattern."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Accents"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mover",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "F"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mo",
+                          "attributes": [
+                            [
+                              "stretchy",
+                              "false"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "→"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\vec{F}"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mover",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "a"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mo",
+                          "attributes": [
+                            [
+                              "stretchy",
+                              "false"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "~"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\tilde{a}"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mover",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "θ"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mo",
+                          "attributes": [
+                            [
+                              "stretchy",
+                              "false"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "^"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\hat{\\theta}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mover",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "a"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mo",
+                          "attributes": [
+                            [
+                              "stretchy",
+                              "false"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "˙"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\dot{a}"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "menclose",
+                      "attributes": [
+                        [
+                          "notation",
+                          "top"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mrow",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "A"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "B"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\overline{AB}"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mover",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mrow",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "A"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "B"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mo",
+                          "attributes": [
+                            [
+                              "stretchy",
+                              "true"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "⏞"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\overbrace{AB}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Fractions and Roots"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Inline fraction: "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mfrac",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "a"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "b"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and square root: "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "msqrt",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mrow",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "msup",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "x"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mn",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "2"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "+"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "msup",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "y"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mn",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "2"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Cube root: "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mroot",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mn",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "8"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mn",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Display Math"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "math",
+      "attributes": [
+        [
+          "display",
+          "block"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "mrow",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mi",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "E"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "mo",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "="
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "mi",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "m"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "msup",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "c"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mn",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Operators"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [
+                        [
+                          "lspace",
+                          "0em"
+                        ],
+                        [
+                          "movablelimits",
+                          "false"
+                        ],
+                        [
+                          "rspace",
+                          "0em"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "∑"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\sum"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [
+                        [
+                          "lspace",
+                          "0em"
+                        ],
+                        [
+                          "movablelimits",
+                          "false"
+                        ],
+                        [
+                          "rspace",
+                          "0em"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "∫"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\int"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [
+                        [
+                          "lspace",
+                          "0em"
+                        ],
+                        [
+                          "movablelimits",
+                          "false"
+                        ],
+                        [
+                          "rspace",
+                          "0em"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "∏"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\prod"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [
+                        [
+                          "lspace",
+                          "0em"
+                        ],
+                        [
+                          "movablelimits",
+                          "false"
+                        ],
+                        [
+                          "rspace",
+                          "0em"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "∮"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\oint"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Environments"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mrow",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mo",
+                          "attributes": [
+                            [
+                              "fence",
+                              "true"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "("
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mtable",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mtr",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mtd",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mi",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "a"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mtd",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mi",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "b"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mtr",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mtd",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mi",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "c"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mtd",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mi",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "d"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mo",
+                          "attributes": [
+                            [
+                              "fence",
+                              "true"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": ")"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\begin{pmatrix}"
+                },
+                {
+                  "kind": "element",
+                  "name": "br",
+                  "attributes": [],
+                  "children": []
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "a & b \\\\"
+                },
+                {
+                  "kind": "element",
+                  "name": "br",
+                  "attributes": [],
+                  "children": []
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "c & d"
+                },
+                {
+                  "kind": "element",
+                  "name": "br",
+                  "attributes": [],
+                  "children": []
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\end{pmatrix}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Greek and Symbols"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Greek letters: "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mi",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "α"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mi",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "β"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mi",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "γ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mi",
+              "attributes": [
+                [
+                  "mathvariant",
+                  "normal"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Ω"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Relation: "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mrow",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "a"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "≤"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "b"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", not equal: "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mrow",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "x"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "≠"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "y"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A variety of Temml-rendered math elements using the "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "hurmet-tex"
+        },
+        {
+          "kind": "text",
+          "text": " pattern."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Accents"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mover",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "F"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mo",
+                          "attributes": [
+                            [
+                              "stretchy",
+                              "false"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "→"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\vec{F}"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mover",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "a"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mo",
+                          "attributes": [
+                            [
+                              "stretchy",
+                              "false"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "~"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\tilde{a}"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mover",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "θ"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mo",
+                          "attributes": [
+                            [
+                              "stretchy",
+                              "false"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "^"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\hat{\\theta}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mover",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "a"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mo",
+                          "attributes": [
+                            [
+                              "stretchy",
+                              "false"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "˙"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\dot{a}"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "menclose",
+                      "attributes": [
+                        [
+                          "notation",
+                          "top"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mrow",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "A"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "B"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\overline{AB}"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mover",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mrow",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "A"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "B"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mo",
+                          "attributes": [
+                            [
+                              "stretchy",
+                              "true"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "⏞"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\overbrace{AB}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Fractions and Roots"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Inline fraction: "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mfrac",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "a"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "b"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and square root: "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "msqrt",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mrow",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "msup",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "x"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mn",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "2"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "+"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "msup",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "y"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mn",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "2"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Cube root: "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mroot",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mn",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "8"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mn",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Display Math"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "math",
+      "attributes": [
+        [
+          "display",
+          "block"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "mrow",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mi",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "E"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "mo",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "="
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "mi",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "m"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "msup",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "c"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mn",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Operators"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [
+                        [
+                          "lspace",
+                          "0em"
+                        ],
+                        [
+                          "movablelimits",
+                          "false"
+                        ],
+                        [
+                          "rspace",
+                          "0em"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "∑"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\sum"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [
+                        [
+                          "lspace",
+                          "0em"
+                        ],
+                        [
+                          "movablelimits",
+                          "false"
+                        ],
+                        [
+                          "rspace",
+                          "0em"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "∫"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\int"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [
+                        [
+                          "lspace",
+                          "0em"
+                        ],
+                        [
+                          "movablelimits",
+                          "false"
+                        ],
+                        [
+                          "rspace",
+                          "0em"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "∏"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\prod"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [
+                        [
+                          "lspace",
+                          "0em"
+                        ],
+                        [
+                          "movablelimits",
+                          "false"
+                        ],
+                        [
+                          "rspace",
+                          "0em"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "∮"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\oint"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Environments"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mrow",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mo",
+                          "attributes": [
+                            [
+                              "fence",
+                              "true"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "("
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mtable",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mtr",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mtd",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mi",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "a"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mtd",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mi",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "b"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "element",
+                              "name": "mtr",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mtd",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mi",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "c"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "element",
+                                  "name": "mtd",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "element",
+                                      "name": "mi",
+                                      "attributes": [],
+                                      "children": [
+                                        {
+                                          "kind": "text",
+                                          "text": "d"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mo",
+                          "attributes": [
+                            [
+                              "fence",
+                              "true"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": ")"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\begin{pmatrix}"
+                },
+                {
+                  "kind": "element",
+                  "name": "br",
+                  "attributes": [],
+                  "children": []
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "a & b \\\\"
+                },
+                {
+                  "kind": "element",
+                  "name": "br",
+                  "attributes": [],
+                  "children": []
+                },
+                {
+                  "kind": "text",
+                  "text": " "
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "c & d"
+                },
+                {
+                  "kind": "element",
+                  "name": "br",
+                  "attributes": [],
+                  "children": []
+                },
+                {
+                  "kind": "code",
+                  "block": false,
+                  "language": "",
+                  "text": "\\end{pmatrix}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Greek and Symbols"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Greek letters: "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mi",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "α"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mi",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "β"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mi",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "γ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mi",
+              "attributes": [
+                [
+                  "mathvariant",
+                  "normal"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Ω"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Relation: "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mrow",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "a"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "≤"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "b"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", not equal: "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mrow",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "x"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "≠"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "y"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "temml",
+    "title": "Temml Math Test",
+    "description": "",
+    "domain": "temml",
+    "favicon": "https://temml/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [
+    {
+      "code": "math_not_supported",
+      "message": "Math support is not yet included."
+    }
+  ],
+  "wordCount": 73,
+  "extractorType": null
+}

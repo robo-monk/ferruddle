@@ -1,0 +1,117 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This fixture simulates a documentation page where highlighted code is rendered as a standalone "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "code.hl.block"
+        },
+        {
+          "kind": "text",
+          "text": " element instead of a "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "pre"
+        },
+        {
+          "kind": "text",
+          "text": " wrapper. Defuddle should preserve this as a fenced code block and should not expand internal links into markdown link syntax inside code. The surrounding prose is intentionally long enough to make main-content detection stable in tests and avoid scoring noise."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "lean",
+      "text": "def m : Nat := 1       -- m is a natural number"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Additional text after the code block verifies that extraction continues normally and that the code is treated as block content rather than inline text. This also helps ensure the markdown output remains readable and that the issue does not regress in future updates."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This fixture simulates a documentation page where highlighted code is rendered as a standalone "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "code.hl.block"
+        },
+        {
+          "kind": "text",
+          "text": " element instead of a "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "pre"
+        },
+        {
+          "kind": "text",
+          "text": " wrapper. Defuddle should preserve this as a fenced code block and should not expand internal links into markdown link syntax inside code. The surrounding prose is intentionally long enough to make main-content detection stable in tests and avoid scoring noise."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "lean",
+      "text": "def m : Nat := 1       -- m is a natural number"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Additional text after the code block verifies that extraction continues normally and that the code is treated as block content rather than inline text. This also helps ensure the markdown output remains readable and that the issue does not regress in future updates."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "lean-lang.org",
+    "title": "Dependent Type Theory",
+    "description": "",
+    "domain": "lean-lang.org",
+    "favicon": "https://lean-lang.org/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 115,
+  "extractorType": null
+}

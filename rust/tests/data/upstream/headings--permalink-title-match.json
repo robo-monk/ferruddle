@@ -1,0 +1,20 @@
+{
+  "id": "headings--permalink-title-match",
+  "url": "https://example.org/blog/post",
+  "inputHtml": "<!-- {\"url\":\"https://example.org/blog/post\"} -->\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <title>Blog Post Title</title>\n</head>\n<body>\n  <article>\n    <h1 id=\"blog-post-title\">Blog Post Title<a class=\"headerlink\" href=\"#blog-post-title\" title=\"Permanent link\">¶</a></h1>\n    <p>This is the main content of the blog post. It contains enough text to be considered meaningful content by the scoring algorithm.</p>\n    <h2 id=\"first-section\">First Section<a class=\"headerlink\" href=\"#first-section\" title=\"Permanent link\">¶</a></h2>\n    <p>Here is a paragraph with some additional content about the first section of this blog post.</p>\n    <h2 id=\"second-section\">Second Section<a class=\"headerlink\" href=\"#second-section\" title=\"Permanent link\">¶</a></h2>\n    <p>Another paragraph to ensure there is enough content for the extraction to work properly.</p>\n  </article>\n</body>\n</html>\n",
+  "inputSha256": "6c0a38442b164da6bfee40f7a1ca40a1a6a078e7af47a36bbc186728c18ef540",
+  "upstreamFixture": "tests/fixtures/headings--permalink-title-match.html",
+  "markdownGoldenSha256": "ae8ffe523557b5a20d9df3193696163857eccbdc9233e702c046ba7f02285116",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>This is the main content of the blog post. It contains enough text to be considered meaningful content by the scoring algorithm.</p> <h2>First Section</h2> <p>Here is a paragraph with some additional content about the first section of this blog post.</p> <h2>Second Section</h2> <p>Another paragraph to ensure there is enough content for the extraction to work properly.</p> </article>",
+    "contentMarkdown": "This is the main content of the blog post. It contains enough text to be considered meaningful content by the scoring algorithm.\n\n## First Section\n\nHere is a paragraph with some additional content about the first section of this blog post.\n\n## Second Section\n\nAnother paragraph to ensure there is enough content for the extraction to work properly.",
+    "title": "Blog Post Title",
+    "author": "",
+    "site": "example.org",
+    "published": "",
+    "wordCount": 56,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 2,
+  "implementation": "typescript",
+  "kind": "cold",
+  "pass": 1,
+  "caseCount": 1,
+  "rounds": 1,
+  "warmups": 0,
+  "manifestSha256": "0e137fc415fce1832582b273e87bf2e64b1f93473d8b0ad29070fab40aa35dfa",
+  "inputSetSha256": "7dda5e028d9dd28a9c74b4e64f1a338523a94d4472c28ad4196baf54c21abe32",
+  "modeOrder": [
+    "html"
+  ],
+  "nodeVersion": "v26.8.2",
+  "dom": "linkedom",
+  "modes": [
+    {
+      "mode": "html",
+      "roundTotalMs": [
+        55.436337000000094
+      ],
+      "rawRounds": [
+        {
+          "round": 0,
+          "phase": "measured",
+          "orderStart": 0,
+          "wallMs": 55.436337000000094,
+          "caseMs": [
+            55.43239600000004
+          ]
+        }
+      ],
+      "perCase": [
+        {
+          "id": "issues--132-hero-class",
+          "ms": [
+            55.43239600000004
+          ],
+          "output": {
+            "sha256": "ee0a10745fd29447227329aeb01937a3cfe205780c674f3037527a11d629e656",
+            "contentBytes": 164,
+            "markdownBytes": 0,
+            "wordCount": 22
+          }
+        }
+      ]
+    }
+  ]
+}

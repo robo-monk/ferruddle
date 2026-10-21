@@ -1,0 +1,20 @@
+{
+  "id": "content-patterns--social-engagement-counter",
+  "url": "https://content-patterns--social-engagement-counter",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head><title>Understanding Plant Growth</title></head>\n<body>\n<article>\n<h1>Understanding Plant Growth</h1>\n<p>Plants grow through a process called photosynthesis, converting sunlight into chemical energy. This process occurs primarily in the leaves, where chlorophyll absorbs light.</p>\n<p>The rate of growth depends on several factors including light intensity, water availability, and soil nutrients. Most houseplants thrive in indirect sunlight with regular watering.</p>\n<p>Research has shown that talking to plants does not significantly affect their growth rate, despite popular belief. However, the carbon dioxide from breathing nearby may provide a marginal benefit.</p>\n<div>\n  <div>\n    <div>\n      <a href=\"https://example.com/profile/12345-user-a\">\n        <div><img src=\"https://example.com/images/avatar1.jpeg\" width=\"32\" height=\"32\" alt=\"User A's avatar\"></div>\n      </a>\n      <a href=\"https://example.com/profile/67890-user-b\">\n        <div><img src=\"https://example.com/images/avatar2.jpeg\" width=\"32\" height=\"32\" alt=\"User B's avatar\"></div>\n      </a>\n    </div>\n  </div>\n  <div>\n    <div>\n      <a>9 Likes</a>\n    </div>\n  </div>\n</div>\n</article>\n</body>\n</html>\n",
+  "inputSha256": "c8ce298f8b8c0df55d7cd35e789c6163f4f1704802a37dc4c68e252f2aaf3a9e",
+  "upstreamFixture": "tests/fixtures/content-patterns--social-engagement-counter.html",
+  "markdownGoldenSha256": "9b04e18ae815400c6cad47580389911efb4334cbc9cd39c1b73161aa73413e8a",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>Plants grow through a process called photosynthesis, converting sunlight into chemical energy. This process occurs primarily in the leaves, where chlorophyll absorbs light.</p> <p>The rate of growth depends on several factors including light intensity, water availability, and soil nutrients. Most houseplants thrive in indirect sunlight with regular watering.</p> <p>Research has shown that talking to plants does not significantly affect their growth rate, despite popular belief. However, the carbon dioxide from breathing nearby may provide a marginal benefit.</p>  </article>",
+    "contentMarkdown": "Plants grow through a process called photosynthesis, converting sunlight into chemical energy. This process occurs primarily in the leaves, where chlorophyll absorbs light.\n\nThe rate of growth depends on several factors including light intensity, water availability, and soil nutrients. Most houseplants thrive in indirect sunlight with regular watering.\n\nResearch has shown that talking to plants does not significantly affect their growth rate, despite popular belief. However, the carbon dioxide from breathing nearby may provide a marginal benefit.",
+    "title": "Understanding Plant Growth",
+    "author": "",
+    "site": "content-patterns--social-engagement-counter",
+    "published": "",
+    "wordCount": 77,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

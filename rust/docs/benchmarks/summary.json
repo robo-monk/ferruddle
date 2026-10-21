@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-21",
+  "upstreamVersion": "0.19.5",
+  "upstreamRevision": "556d74e8c8fd68c49912d4b11a4ae9ec04d7b2b5",
+  "reference": "TypeScript source under Vitest/Vite SSR with linkedom",
+  "caseCount": 208,
+  "excludedMathCases": 18,
+  "inputBytes": 1372181,
+  "runs": [
+    "results/run-1/summary.json",
+    "results/run-2/summary.json"
+  ],
+  "measuredSamplesPerCaseModeImplementationPerRun": 14,
+  "modes": [
+    {
+      "mode": "html",
+      "speedupRange": [
+        7.293244028953084,
+        7.482149128506361
+      ],
+      "runs": [
+        {
+          "typescriptCorpusMedianMs": 3663.284575499998,
+          "rustCorpusMedianMs": 502.28465700000004,
+          "speedup": 7.293244028953084
+        },
+        {
+          "typescriptCorpusMedianMs": 3866.7155120000025,
+          "rustCorpusMedianMs": 516.7920935,
+          "speedup": 7.482149128506361
+        }
+      ]
+    },
+    {
+      "mode": "html+markdown",
+      "speedupRange": [
+        7.377031913529595,
+        7.61203573059423
+      ],
+      "runs": [
+        {
+          "typescriptCorpusMedianMs": 3925.1536995000024,
+          "rustCorpusMedianMs": 515.650982,
+          "speedup": 7.61203573059423
+        },
+        {
+          "typescriptCorpusMedianMs": 3945.5076700000027,
+          "rustCorpusMedianMs": 534.836736,
+          "speedup": 7.377031913529595
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Active host paging occurred in both runs. These are descriptive local measurements, not isolated-host guarantees.",
+    "Aggregate gains do not establish an absence of small per-page regressions."
+  ],
+  "evidence": "evidence.json",
+  "measuredSource": "measured-source.json",
+  "methodology": "methodology.md"
+}

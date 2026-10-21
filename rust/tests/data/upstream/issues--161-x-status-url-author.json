@@ -1,0 +1,20 @@
+{
+  "id": "issues--161-x-status-url-author",
+  "url": "https://x.com/janedoe/status/1234567890123456789",
+  "inputHtml": "<!DOCTYPE html>\n<!-- {\"url\":\"https://x.com/janedoe/status/1234567890123456789\"} -->\n<!-- X article rendered on a /status/:id URL with a localized og:title.\n     No itemprop=\"author\" block is present, so author must be extracted\n     from the URL. getAuthorFromOgTitle() would return \"Unknown\" here\n     because the title is not in the English \"Name on X: ...\" format. -->\n<html lang=\"ja\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Jane Doe さんの記事</title>\n    <meta property=\"og:title\" content=\"Jane DoeさんはXを使っています：「記事のタイトル」\">\n</head>\n<body>\n    <div data-testid=\"twitterArticleRichTextView\">\n        <div data-testid=\"twitter-article-title\">Lorem Ipsum Dolor Sit Amet</div>\n        <div class=\"longform-unstyled\">\n            <div class=\"public-DraftStyleDefault-block\" data-offset-key=\"abc123\">\n                Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n            </div>\n        </div>\n    </div>\n</body>\n</html>\n",
+  "inputSha256": "3462b9ef3f083f7e935ca40d52e255f0e67856131ac72821704386c32c258faf",
+  "upstreamFixture": "tests/fixtures/issues--161-x-status-url-author.html",
+  "markdownGoldenSha256": "ea8b2004a5b3029e64ec5e2879a5348991c8b748f4198736938645c785c4c936",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article class=\"x-article\">\n        <div>Lorem Ipsum Dolor Sit Amet</div>\n        <p>\n            \n                Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n            \n        </p>\n    </article>",
+    "contentMarkdown": "Lorem Ipsum Dolor Sit Amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "title": "Lorem Ipsum Dolor Sit Amet",
+    "author": "@janedoe",
+    "site": "X (Twitter)",
+    "published": "",
+    "wordCount": 13,
+    "extractorType": "xarticle"
+  },
+  "synchronousDifferenceFields": []
+}

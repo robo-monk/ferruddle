@@ -1,0 +1,20 @@
+{
+  "id": "footnotes--heading-notes",
+  "url": "https://heading-notes",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\"/>\n  <title>Loose footnotes: heading delimiter</title>\n</head>\n<body>\n  <!--\n    Pattern: inline <sup>N</sup> references in body, definitions after a\n    heading whose text is \"Notes\" (or \"Footnotes\", \"Endnotes\", \"References\").\n  -->\n  <article>\n    <h1>Loose footnotes: heading delimiter</h1>\n\n    <p>The first observation is notable.<sup>1</sup></p>\n\n    <p>The second finding contradicts it.<sup>2</sup></p>\n\n    <p>Both deserve further study.</p>\n\n    <h2>Notes</h2>\n\n    <p><sup>1</sup> First note with supporting detail.</p>\n\n    <p><sup>2</sup> Second note with additional context.</p>\n\n  </article>\n</body>\n</html>\n",
+  "inputSha256": "758a4dec1d3729aac5a0004c4ae979f8bea9fcd2fa97afd94f4f64893171e394",
+  "upstreamFixture": "tests/fixtures/footnotes--heading-notes.html",
+  "markdownGoldenSha256": "c03750602f7b7cab4cd92bb5acc4a705143c16d040ee79a76b553fd95c5b8baf",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>The first observation is notable.<sup id=\"fnref:1\"><a href=\"#fn:1\">1</a></sup></p> <p>The second finding contradicts it.<sup id=\"fnref:2\"><a href=\"#fn:2\">2</a></sup></p> <p>Both deserve further study.</p>    <div id=\"footnotes\"><ol><li id=\"fn:1\"><p>First note with supporting detail.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:1\">↩</a></p></li> <li id=\"fn:2\"><p>Second note with additional context.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:2\">↩</a></p></li></ol></div></article>",
+    "contentMarkdown": "The first observation is notable.[^1]\n\nThe second finding contradicts it.[^2]\n\nBoth deserve further study.\n\n[^1]: First note with supporting detail.\n\n[^2]: Second note with additional context.",
+    "title": "Loose footnotes: heading delimiter",
+    "author": "",
+    "site": "heading-notes",
+    "published": "",
+    "wordCount": 28,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

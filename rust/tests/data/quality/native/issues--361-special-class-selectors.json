@@ -1,0 +1,131 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Hidden article"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the main article with meaningful prose about a practical experiment. It explains the methods used to collect observations and the reasoning behind the conclusions. Readers need the complete text to understand how the results were obtained and what they mean."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the main article with meaningful prose about a practical experiment. It explains the methods used to collect observations and the reasoning behind the conclusions. Readers need the complete text to understand how the results were obtained and what they mean."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the main article with meaningful prose about a practical experiment. It explains the methods used to collect observations and the reasoning behind the conclusions. Readers need the complete text to understand how the results were obtained and what they mean."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the main article with meaningful prose about a practical experiment. It explains the methods used to collect observations and the reasoning behind the conclusions. Readers need the complete text to understand how the results were obtained and what they mean."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Hidden article"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the main article with meaningful prose about a practical experiment. It explains the methods used to collect observations and the reasoning behind the conclusions. Readers need the complete text to understand how the results were obtained and what they mean."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the main article with meaningful prose about a practical experiment. It explains the methods used to collect observations and the reasoning behind the conclusions. Readers need the complete text to understand how the results were obtained and what they mean."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the main article with meaningful prose about a practical experiment. It explains the methods used to collect observations and the reasoning behind the conclusions. Readers need the complete text to understand how the results were obtained and what they mean."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the main article with meaningful prose about a practical experiment. It explains the methods used to collect observations and the reasoning behind the conclusions. Readers need the complete text to understand how the results were obtained and what they mean."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "example.com",
+    "title": "Selector example",
+    "description": "",
+    "domain": "example.com",
+    "favicon": "https://example.com/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 170,
+  "extractorType": null
+}

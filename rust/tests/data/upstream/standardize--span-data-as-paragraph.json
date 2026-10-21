@@ -1,0 +1,20 @@
+{
+  "id": "standardize--span-data-as-paragraph",
+  "url": "https://example.com/docs/cloud-sessions",
+  "inputHtml": "<!-- {\"url\":\"https://example.com/docs/cloud-sessions\"} -->\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <title>Cloud Sessions</title>\n  <meta name=\"description\" content=\"How cloud sessions work and what is available inside them.\" />\n</head>\n<body>\n  <main>\n    <article>\n      <h1>Cloud Sessions</h1>\n      <div class=\"mdx-content prose\">\n        <span data-as=\"p\">Cloud sessions start from a fresh clone of your repository. Anything committed to the repo is available. Anything you've installed or configured only on your own machine is not.</span>\n        <span data-as=\"p\">Sessions run on managed cloud infrastructure. You can monitor them from the mobile app, and they persist even if you close your browser. See the <a href=\"/docs/get-started\">getting started guide</a> for more.</span>\n        <h2 id=\"what-is-available\">What is available</h2>\n        <span data-as=\"p\">Each session includes the tools needed to build, test, and commit changes. The environment is isolated per session.</span>\n        <span data-as=\"p\">You can extend the environment with a setup script. The script runs once at session start.</span>\n      </div>\n    </article>\n  </main>\n</body>\n</html>\n",
+  "inputSha256": "a22411f5ff09fad2807567be19cb86682d3fa98a81b4f7bbd8949dc14693b848",
+  "upstreamFixture": "tests/fixtures/standardize--span-data-as-paragraph.html",
+  "markdownGoldenSha256": "deaab433392f00dcf6d1df7eeaee8eea57b66c716b4048b2467ba7f13130963f",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>   <p>Cloud sessions start from a fresh clone of your repository. Anything committed to the repo is available. Anything you've installed or configured only on your own machine is not.</p> <p>Sessions run on managed cloud infrastructure. You can monitor them from the mobile app, and they persist even if you close your browser. See the <a href=\"https://example.com/docs/get-started\">getting started guide</a> for more.</p> <h2>What is available</h2> <p>Each session includes the tools needed to build, test, and commit changes. The environment is isolated per session.</p> <p>You can extend the environment with a setup script. The script runs once at session start.</p>  </article>",
+    "contentMarkdown": "Cloud sessions start from a fresh clone of your repository. Anything committed to the repo is available. Anything you've installed or configured only on your own machine is not.\n\nSessions run on managed cloud infrastructure. You can monitor them from the mobile app, and they persist even if you close your browser. See the [getting started guide](https://example.com/docs/get-started) for more.\n\n## What is available\n\nEach session includes the tools needed to build, test, and commit changes. The environment is isolated per session.\n\nYou can extend the environment with a setup script. The script runs once at session start.",
+    "title": "Cloud Sessions",
+    "author": "",
+    "site": "example.com",
+    "published": "",
+    "wordCount": 96,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

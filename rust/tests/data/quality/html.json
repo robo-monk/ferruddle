@@ -1,0 +1,951 @@
+{
+  "author-contact-block": {
+    "expectedSemanticsHash": "f3731afff012d19a50fc4d8ba76e2e04ef40746ad8c9718dad8a523a28b7f3a0",
+    "actualSemanticsHash": "f3731afff012d19a50fc4d8ba76e2e04ef40746ad8c9718dad8a523a28b7f3a0"
+  },
+  "author-share-widget": {
+    "expectedSemanticsHash": "4233189868cb0dfbec4d10f6e4433a663ef9e3e1c2e32ab322bc67079109a786",
+    "actualSemanticsHash": "4233189868cb0dfbec4d10f6e4433a663ef9e3e1c2e32ab322bc67079109a786"
+  },
+  "callouts--obsidian-publish-callouts": {
+    "expectedSemanticsHash": "a26ca23e8d2eea27bae14d3b5d7bec5c1224d6669723fdba02a1e0628fbf2a81",
+    "actualSemanticsHash": "a26ca23e8d2eea27bae14d3b5d7bec5c1224d6669723fdba02a1e0628fbf2a81"
+  },
+  "code-blocks--chroma-linenums": {
+    "expectedSemanticsHash": "4cd52227d526333c6328d8186431b3a362cd32fb70678665025d1257a5a9b260",
+    "actualSemanticsHash": "4cd52227d526333c6328d8186431b3a362cd32fb70678665025d1257a5a9b260"
+  },
+  "code-blocks--hexo-br": {
+    "expectedSemanticsHash": "da2cf4bfb2a31b0ae2009ab81bda330409263e64940e8a773184bc6d1969105f",
+    "actualSemanticsHash": "da2cf4bfb2a31b0ae2009ab81bda330409263e64940e8a773184bc6d1969105f"
+  },
+  "codeblocks--chatgpt-codemirror": {
+    "expectedSemanticsHash": "2f93634631ea298a4358eb4ffbfb762f2b2d261695f117d1f4e576ff2d03b245",
+    "actualSemanticsHash": "819b4a46e16306cdfe316e0ff7caa4dca21f8b38650c374a600fd6f8b98604e8",
+    "reason": "Preserve the original three consecutive line breaks in the CodeMirror source. TypeScript collapses an authored blank line."
+  },
+  "codeblocks--chroma-inline-linenums": {
+    "expectedSemanticsHash": "ea640a2c0cb7d860e03a419e10f84129bbb641fc89d8650a150ee6f942a86d67",
+    "actualSemanticsHash": "ea640a2c0cb7d860e03a419e10f84129bbb641fc89d8650a150ee6f942a86d67"
+  },
+  "codeblocks--chroma-line-spans": {
+    "expectedSemanticsHash": "2dcf68f3e5d3b12d0de895b6318d24c72900ec0d23e15e17e1acf2a20ab8757a",
+    "actualSemanticsHash": "2dcf68f3e5d3b12d0de895b6318d24c72900ec0d23e15e17e1acf2a20ab8757a"
+  },
+  "codeblocks--code-pre-nesting": {
+    "expectedSemanticsHash": "cb8ceed15c2862f414f4ea5ca0845978c0ae15085ffaf14f5ed6b20654129ffc",
+    "actualSemanticsHash": "cb8ceed15c2862f414f4ea5ca0845978c0ae15085ffaf14f5ed6b20654129ffc"
+  },
+  "codeblocks--flex-row-gutter": {
+    "expectedSemanticsHash": "86401e5f59b6ae57588477b12a099b7c9281f8b4191a5d54728ef5664ead9787",
+    "actualSemanticsHash": "86401e5f59b6ae57588477b12a099b7c9281f8b4191a5d54728ef5664ead9787"
+  },
+  "codeblocks--hljs-header": {
+    "expectedSemanticsHash": "50e70f60c956367823e8648a91851802470087efc129fa72ba8187c62a041daf",
+    "actualSemanticsHash": "50e70f60c956367823e8648a91851802470087efc129fa72ba8187c62a041daf"
+  },
+  "codeblocks--mintlify": {
+    "expectedSemanticsHash": "72d7e1be21ccdbdd1a818c4801e164933a37500e7fb7620b46e077be263a79dd",
+    "actualSemanticsHash": "72d7e1be21ccdbdd1a818c4801e164933a37500e7fb7620b46e077be263a79dd"
+  },
+  "codeblocks--pygments-lineno": {
+    "expectedSemanticsHash": "f84311cd78f3cc00db7c844a20a62bbc891bf653ec510beb9e211003136b6d02",
+    "actualSemanticsHash": "f84311cd78f3cc00db7c844a20a62bbc891bf653ec510beb9e211003136b6d02"
+  },
+  "codeblocks--react-syntax-highlighter-linenums": {
+    "expectedSemanticsHash": "67d827cac44f4db34071cdfa5d7e6bd0df2d8523f135ce674ea757faae7a8fca",
+    "actualSemanticsHash": "67d827cac44f4db34071cdfa5d7e6bd0df2d8523f135ce674ea757faae7a8fca"
+  },
+  "codeblocks--rehype-pretty-code": {
+    "expectedSemanticsHash": "57c42dd8cef9df61585b58a590251ba313e470327046ddcba49a8e365abf0a24",
+    "actualSemanticsHash": "57c42dd8cef9df61585b58a590251ba313e470327046ddcba49a8e365abf0a24"
+  },
+  "codeblocks--rehype-pretty-copy": {
+    "expectedSemanticsHash": "ddd43e8ce3c9f02639d841f13e9aad026c289bae4330fc0f10a47fdd81169822",
+    "actualSemanticsHash": "ddd43e8ce3c9f02639d841f13e9aad026c289bae4330fc0f10a47fdd81169822"
+  },
+  "codeblocks--rockthejvm.com-articles-kotlin-101-type-classes": {
+    "expectedSemanticsHash": "637a4773adf79edfe78527e3a05706e5a291ac42424222ed5c15d5bff0eb90d9",
+    "actualSemanticsHash": "637a4773adf79edfe78527e3a05706e5a291ac42424222ed5c15d5bff0eb90d9"
+  },
+  "codeblocks--rouge-linenums": {
+    "expectedSemanticsHash": "f16e28a34fd69b31e13cea6c85ae5a33139559908f2a2f063f3e4f8c3ec6d000",
+    "actualSemanticsHash": "f16e28a34fd69b31e13cea6c85ae5a33139559908f2a2f063f3e4f8c3ec6d000"
+  },
+  "codeblocks--stripe": {
+    "expectedSemanticsHash": "929f3ec7e84d95ac8e8cb06d6262972ca5783ea9a9c5d167dc4725c948025b40",
+    "actualSemanticsHash": "929f3ec7e84d95ac8e8cb06d6262972ca5783ea9a9c5d167dc4725c948025b40"
+  },
+  "comments--mastodon.social-@user-12345678": {
+    "expectedSemanticsHash": "c6bd98b33e1da37a856d7ff1c9dbdd9cc1f6e36c3e732ebb76ce3c2e556d591e",
+    "actualSemanticsHash": "c6bd98b33e1da37a856d7ff1c9dbdd9cc1f6e36c3e732ebb76ce3c2e556d591e"
+  },
+  "comments--news.ycombinator.com-item-id=12345678": {
+    "expectedSemanticsHash": "dc21c466dce6299c23443b0824138d37baad4df03488d47bd54f7cdc1e4904f9",
+    "actualSemanticsHash": "dc21c466dce6299c23443b0824138d37baad4df03488d47bd54f7cdc1e4904f9"
+  },
+  "comments--old.reddit.com-r-test-comments-abc123-test_post": {
+    "expectedSemanticsHash": "f7d03562ecbb5ef6245522f81a2d6dd21d17bf3dfe8277f8ca77cb53f67ebc21",
+    "actualSemanticsHash": "f7d03562ecbb5ef6245522f81a2d6dd21d17bf3dfe8277f8ca77cb53f67ebc21"
+  },
+  "content-patterns--card-grid-stripped-headings": {
+    "expectedSemanticsHash": "ef7936c5800b9f17634fc16dbcb66479467f7b24a3a0dd1fc6fd13cff1b25804",
+    "actualSemanticsHash": "ef7936c5800b9f17634fc16dbcb66479467f7b24a3a0dd1fc6fd13cff1b25804"
+  },
+  "content-patterns--code-block-boilerplate-and-trailing-section": {
+    "expectedSemanticsHash": "55118ffa8902444b3e758830f9770a0add1c4e21bb52af00abd93b159741806e",
+    "actualSemanticsHash": "55118ffa8902444b3e758830f9770a0add1c4e21bb52af00abd93b159741806e"
+  },
+  "content-patterns--content-list-with-internal-links": {
+    "expectedSemanticsHash": "3024233599c7f964890afc2cff05a4609d339631979ad0824a7d353920400048",
+    "actualSemanticsHash": "3024233599c7f964890afc2cff05a4609d339631979ad0824a7d353920400048"
+  },
+  "content-patterns--heading-introduced-list": {
+    "expectedSemanticsHash": "3a92fc0612bcf7f04eae9683a733b51ad38cad17e3b6dc412834e4edef7292d8",
+    "actualSemanticsHash": "3a92fc0612bcf7f04eae9683a733b51ad38cad17e3b6dc412834e4edef7292d8"
+  },
+  "content-patterns--iso-date-and-read-time": {
+    "expectedSemanticsHash": "b200dd2718fafa07a894edfe7af413da8bbc6c89f71cb6bddcba880cb17b0e19",
+    "actualSemanticsHash": "b200dd2718fafa07a894edfe7af413da8bbc6c89f71cb6bddcba880cb17b0e19"
+  },
+  "content-patterns--leading-breadcrumb": {
+    "expectedSemanticsHash": "7beeda226da3a8252097cbc599b7f9dabc79079f96e244a0b33ddaf577073ad3",
+    "actualSemanticsHash": "7beeda226da3a8252097cbc599b7f9dabc79079f96e244a0b33ddaf577073ad3"
+  },
+  "content-patterns--live-blog-metadata": {
+    "expectedSemanticsHash": "976852f22886e67ce4550629be5592d9b69a7e4dbeb65e260bba6023f0e8f255",
+    "actualSemanticsHash": "976852f22886e67ce4550629be5592d9b69a7e4dbeb65e260bba6023f0e8f255"
+  },
+  "content-patterns--multi-image-row-midarticle": {
+    "expectedSemanticsHash": "dc42d5a5deb85c2e732eb427d097121551c97d915136c569c678072d584a2461",
+    "actualSemanticsHash": "dc42d5a5deb85c2e732eb427d097121551c97d915136c569c678072d584a2461"
+  },
+  "content-patterns--non-semantic-hero-header": {
+    "expectedSemanticsHash": "bf3a6a5bcca161a3d5d5f879d0acd9f87816135dad44c412b4cad697f940aa74",
+    "actualSemanticsHash": "bf3a6a5bcca161a3d5d5f879d0acd9f87816135dad44c412b4cad697f940aa74"
+  },
+  "content-patterns--social-counter-link": {
+    "expectedSemanticsHash": "3a3594979bf145f4ec0db1cca424cf657ac375d7ed21d13f001039944468d92a",
+    "actualSemanticsHash": "3a3594979bf145f4ec0db1cca424cf657ac375d7ed21d13f001039944468d92a"
+  },
+  "content-patterns--social-engagement-counter": {
+    "expectedSemanticsHash": "7a6fbe1c6cbbe3822e6d2c74e24dea5a86ac8f54295e61bb282d63c896345791",
+    "actualSemanticsHash": "7a6fbe1c6cbbe3822e6d2c74e24dea5a86ac8f54295e61bb282d63c896345791"
+  },
+  "content-patterns--socket-dev-blog": {
+    "expectedSemanticsHash": "c5d1ecaac93d1e832e06eb815d2ac52efbf24fe29e8bf97485b36a762ca936a2",
+    "actualSemanticsHash": "c5d1ecaac93d1e832e06eb815d2ac52efbf24fe29e8bf97485b36a762ca936a2"
+  },
+  "content-patterns--table-of-contents": {
+    "expectedSemanticsHash": "ee6d06a476d0717213a1103d34b7c9d76381b0bc0d25dc215c3d91040303b735",
+    "actualSemanticsHash": "ee6d06a476d0717213a1103d34b7c9d76381b0bc0d25dc215c3d91040303b735"
+  },
+  "content-patterns--trailing-related-posts": {
+    "expectedSemanticsHash": "f3c9ac4785c79d561e4c7ca95f3cdb0ac3156033d5f19cd6298634d95d2de31a",
+    "actualSemanticsHash": "f3c9ac4785c79d561e4c7ca95f3cdb0ac3156033d5f19cd6298634d95d2de31a"
+  },
+  "content-patterns--trailing-subscribe-after-footnotes": {
+    "expectedSemanticsHash": "6e31b15630e0b8e36db79c94b68eabc2c5679af8203b090de84626b7879abe7e",
+    "actualSemanticsHash": "6e31b15630e0b8e36db79c94b68eabc2c5679af8203b090de84626b7879abe7e"
+  },
+  "custom-elements--swiper-carousel": {
+    "expectedSemanticsHash": "a9fd270d2a4d7053db67601e9d0036dd23b17705c9f038b020e4f4bf85dfd5ac",
+    "actualSemanticsHash": "4db947732910c00c8b504b6dc6b6df8467df06bc5da060a15d29a80792170dd6",
+    "reason": "Keep a common block around the Gallery label and three image figures. The source image URLs, order, and label survive; the reference uses bare label text and separate wrappers."
+  },
+  "elementor--archive-page": {
+    "expectedSemanticsHash": "6611f15026c31331e9424ba8560d8eceb68c070ec1eb0f3f0fba2effc0f52fdf",
+    "actualSemanticsHash": "5a6d67e40e19fd4e22489b8da899302651344c954c2ffc1b73effd1ec221c114",
+    "reason": "Remove layout wrappers and normalize whitespace beside explicit line breaks. Headings, prose, list items, data-table cells, and rendered Markdown are unchanged."
+  },
+  "elements--base64-placeholder-removal": {
+    "expectedSemanticsHash": "18f6d387e9c4bb0f19f5cc057cc0bde5dc3bd81aae48df468519614fd0aa7765",
+    "actualSemanticsHash": "18f6d387e9c4bb0f19f5cc057cc0bde5dc3bd81aae48df468519614fd0aa7765"
+  },
+  "elements--bootstrap-alerts": {
+    "expectedSemanticsHash": "01fbb5674babb7977c53192926d118a46d106fc9ea9f9037bcd911be71744629",
+    "actualSemanticsHash": "01fbb5674babb7977c53192926d118a46d106fc9ea9f9037bcd911be71744629"
+  },
+  "elements--br-between-blocks": {
+    "expectedSemanticsHash": "3dbb7d6f3a87659d83c23b9c0ab4245c7481650aeece374fa88802bb816237ac",
+    "actualSemanticsHash": "3dbb7d6f3a87659d83c23b9c0ab4245c7481650aeece374fa88802bb816237ac"
+  },
+  "elements--complex-tables": {
+    "expectedSemanticsHash": "254837ee2b927c06c54fa834431806274359127af54d438c0e6b6d3b8fdfa7b4",
+    "actualSemanticsHash": "254837ee2b927c06c54fa834431806274359127af54d438c0e6b6d3b8fdfa7b4"
+  },
+  "elements--data-table": {
+    "expectedSemanticsHash": "67a4670eedfeb15eb4f6625a1cadcee05508258a340e6456a61bac88c8a6e757",
+    "actualSemanticsHash": "67a4670eedfeb15eb4f6625a1cadcee05508258a340e6456a61bac88c8a6e757"
+  },
+  "elements--embedded-videos": {
+    "expectedSemanticsHash": "24eac7ba99f905b4f0bb07b067d26103c5a459afc7e10edcd5b2f201c587f09b",
+    "actualSemanticsHash": "24eac7ba99f905b4f0bb07b067d26103c5a459afc7e10edcd5b2f201c587f09b"
+  },
+  "elements--empty-p-br": {
+    "expectedSemanticsHash": "85d158ec1cbf9d93dfdec9206c5f35dcbecbb83a3385c0353abdc1ee2b64ae6c",
+    "actualSemanticsHash": "85d158ec1cbf9d93dfdec9206c5f35dcbecbb83a3385c0353abdc1ee2b64ae6c"
+  },
+  "elements--empty-table": {
+    "expectedSemanticsHash": "3b655042593d25a1a031a61c2ee39c87a4cd876df4299af42910afb6c413c644",
+    "actualSemanticsHash": "3b655042593d25a1a031a61c2ee39c87a4cd876df4299af42910afb6c413c644"
+  },
+  "elements--farsi-zwnj": {
+    "expectedSemanticsHash": "e6892d895236751c7fbe62c457054b683c7f92c311e434fb2ab265b579712904",
+    "actualSemanticsHash": "e6892d895236751c7fbe62c457054b683c7f92c311e434fb2ab265b579712904"
+  },
+  "elements--figure-content-wrapper": {
+    "expectedSemanticsHash": "dfd8822aa7e7f104dfe2f14dcac78e786e2074920bb40a03f52497045aa035f7",
+    "actualSemanticsHash": "dfd8822aa7e7f104dfe2f14dcac78e786e2074920bb40a03f52497045aa035f7"
+  },
+  "elements--hugo-admonitions": {
+    "expectedSemanticsHash": "32decfe738ab65b3a71ea3473e5d307c3406715eddf58262b6f5510da9d236ef",
+    "actualSemanticsHash": "32decfe738ab65b3a71ea3473e5d307c3406715eddf58262b6f5510da9d236ef"
+  },
+  "elements--image-dedup": {
+    "expectedSemanticsHash": "3b50f62c85e69bc4475e70cee102da46ae4e0993bd852179f17ebcd2666b56bb",
+    "actualSemanticsHash": "3b50f62c85e69bc4475e70cee102da46ae4e0993bd852179f17ebcd2666b56bb"
+  },
+  "elements--javascript-links": {
+    "expectedSemanticsHash": "159e65404890460db22bf6f2281131fdfbbcfe4dccd1a4691d44b3c279bca5c9",
+    "actualSemanticsHash": "159e65404890460db22bf6f2281131fdfbbcfe4dccd1a4691d44b3c279bca5c9"
+  },
+  "elements--lazy-image": {
+    "expectedSemanticsHash": "d0d2dc32806cf0d59fbb66de7e00cdf9e7d82f863379ff933bb771efa058b7c3",
+    "actualSemanticsHash": "82ac3ad8987dd6df0283a83ae3b57279bcd72543bdbffb7546b8265b0f09e192",
+    "reason": "Leave the unannotated node --prof app.js snippet without a language. TypeScript mistakes an unrelated ancestor class c for the C language."
+  },
+  "elements--lightbox-image-dedup": {
+    "expectedSemanticsHash": "167c9e023f78d671d2ce87e2d3d03811b406d41cf99049de3da98ff8333fb69e",
+    "actualSemanticsHash": "167c9e023f78d671d2ce87e2d3d03811b406d41cf99049de3da98ff8333fb69e"
+  },
+  "elements--nbsp-handling": {
+    "expectedSemanticsHash": "e508f508457c487bea62f7652b85bfd66e6bf0928b7342784aaa4761de139617",
+    "actualSemanticsHash": "e508f508457c487bea62f7652b85bfd66e6bf0928b7342784aaa4761de139617"
+  },
+  "elements--srcset-normalization": {
+    "expectedSemanticsHash": "a3561a622e3429e72f8331369c6041dbcd7255c263ea68c652f5b894bae6a120",
+    "actualSemanticsHash": "a3561a622e3429e72f8331369c6041dbcd7255c263ea68c652f5b894bae6a120"
+  },
+  "elements--svg-placeholder-lazy-image": {
+    "expectedSemanticsHash": "3fce3c244fa67ee8d4a7080590f797cdbcf80717bd47171e5693508dce8150f6",
+    "actualSemanticsHash": "3fce3c244fa67ee8d4a7080590f797cdbcf80717bd47171e5693508dce8150f6"
+  },
+  "elements--whitespace-newlines": {
+    "expectedSemanticsHash": "8256bd63d14d3207934c296699a9cbdc12a92ec219f506e3f8f6939c1fcc7548",
+    "actualSemanticsHash": "8256bd63d14d3207934c296699a9cbdc12a92ec219f506e3f8f6939c1fcc7548"
+  },
+  "entry-point--js-article-content": {
+    "expectedSemanticsHash": "1f1becbe7e6744e39ee812cf079f6521dfb24a77f83431859110147e2527384b",
+    "actualSemanticsHash": "1f1becbe7e6744e39ee812cf079f6521dfb24a77f83431859110147e2527384b"
+  },
+  "extractor--bbcode-data": {
+    "expectedSemanticsHash": "ba1b34ae965bb86be418912e0835e558fb4a1530899559bcc427c8979a7e898d",
+    "actualSemanticsHash": "ab6a76b127d66c9776de687ceb4b889a7a3831b78ea75607f1f0cf5d69a84e6b",
+    "reason": "Remove a redundant trailing line break before the paragraph end and emit an explicit empty image alt value. Text, image URL, and rendered Markdown are unchanged."
+  },
+  "extractor--chatgpt-citations": {
+    "expectedSemanticsHash": "2b778610f5eb5210838af2e8248b055036fd6ea026027abdfd3b547a989cf967",
+    "actualSemanticsHash": "4732dd551f1bf01cf3949b1fed9947f18c796ff3b6454c042ba6293fea67576c",
+    "reason": "Preserve the strong emphasis authored inside the source h4 headings. TypeScript discards that emphasis while converting headings."
+  },
+  "extractor--chatgpt-post-thought-content": {
+    "expectedSemanticsHash": "d3f1b9084ce08cc06c5e55e6708d19d53399c4aa8c58a6ff5aba77ce7ed590d0",
+    "actualSemanticsHash": "d3f1b9084ce08cc06c5e55e6708d19d53399c4aa8c58a6ff5aba77ce7ed590d0"
+  },
+  "eyebrow--linked-category": {
+    "expectedSemanticsHash": "16bde01e5fd51f9fd38e291ffb4cf2a0c1c77e704f27eff61d1da68ad9e3d115",
+    "actualSemanticsHash": "16bde01e5fd51f9fd38e291ffb4cf2a0c1c77e704f27eff61d1da68ad9e3d115"
+  },
+  "eyebrow--paragraph-label": {
+    "expectedSemanticsHash": "e38e20b475880987b125f100854d6bf3b78a10c970a0d637e629259c17ef1002",
+    "actualSemanticsHash": "e38e20b475880987b125f100854d6bf3b78a10c970a0d637e629259c17ef1002"
+  },
+  "eyebrow--spans-category": {
+    "expectedSemanticsHash": "3ff83d8860ff76533ab49e2c184e7c3a10f4337f96ad351a994a8f5871abb3b2",
+    "actualSemanticsHash": "3ff83d8860ff76533ab49e2c184e7c3a10f4337f96ad351a994a8f5871abb3b2"
+  },
+  "eyebrow--wrapper-with-icon": {
+    "expectedSemanticsHash": "8dd8544794eaa7fe08b72684a31ef87b931b0cf2b0d54cd41e9d704dd2896be6",
+    "actualSemanticsHash": "8dd8544794eaa7fe08b72684a31ef87b931b0cf2b0d54cd41e9d704dd2896be6"
+  },
+  "footnotes--aside-ol-start": {
+    "expectedSemanticsHash": "c0e8f1a1c09650c7e2225c42a435deaa7ff8b08fbedb0e9116bc7477471a74a2",
+    "actualSemanticsHash": "c0e8f1a1c09650c7e2225c42a435deaa7ff8b08fbedb0e9116bc7477471a74a2"
+  },
+  "footnotes--bold-sup-trailing": {
+    "expectedSemanticsHash": "04161257b02d1df6276ae79b3d33a3c800b84cee59b3a8873f4efeb01b5017a7",
+    "actualSemanticsHash": "04161257b02d1df6276ae79b3d33a3c800b84cee59b3a8873f4efeb01b5017a7"
+  },
+  "footnotes--br-separated-named-anchors": {
+    "expectedSemanticsHash": "650021dffec20dc9218deb73cd91a51c22d48ec05c4f2617dfb20ccd3801a64b",
+    "actualSemanticsHash": "650021dffec20dc9218deb73cd91a51c22d48ec05c4f2617dfb20ccd3801a64b"
+  },
+  "footnotes--child-anchor-id": {
+    "expectedSemanticsHash": "fd9bec49bf1927825fc0308fab2b1143e847a349f70547ce86eddb5d0d13c682",
+    "actualSemanticsHash": "fd9bec49bf1927825fc0308fab2b1143e847a349f70547ce86eddb5d0d13c682"
+  },
+  "footnotes--easy-footnotes-wrapper": {
+    "expectedSemanticsHash": "d0d7a12ee927540f52163cbd2ccc758a241b5c70171a5a5780c9dc2216575811",
+    "actualSemanticsHash": "d0d7a12ee927540f52163cbd2ccc758a241b5c70171a5a5780c9dc2216575811"
+  },
+  "footnotes--external-labeled-section": {
+    "expectedSemanticsHash": "e6ae651943483815e6a1eaf51d4bf53d4456cf8234c2f8394e0d3b19b41145dd",
+    "actualSemanticsHash": "e6ae651943483815e6a1eaf51d4bf53d4456cf8234c2f8394e0d3b19b41145dd"
+  },
+  "footnotes--google-docs-ftnt": {
+    "expectedSemanticsHash": "3ffa5fc32efa61dffb6dbcc89b88ae25c8cc6551a9f274b100d5e76cfd8f2ea3",
+    "actualSemanticsHash": "3ffa5fc32efa61dffb6dbcc89b88ae25c8cc6551a9f274b100d5e76cfd8f2ea3"
+  },
+  "footnotes--heading-notes": {
+    "expectedSemanticsHash": "018653eed2bf896a6bba9502a743f8628727bcbc00e7fd9eedc63622698b48b8",
+    "actualSemanticsHash": "ea2527765e225b20553751480dde10e6cdd7e10b2b90110f40cc61bef7cee157",
+    "reason": "Retain the authored Notes heading before the normalized footnote definitions. All definitions and references remain present."
+  },
+  "footnotes--hidden-aside-data-definition": {
+    "expectedSemanticsHash": "ebb0e6fbfc62e811b3f814d76582520cc0e64b26606b83b2eba540bdf8c67981",
+    "actualSemanticsHash": "ebb0e6fbfc62e811b3f814d76582520cc0e64b26606b83b2eba540bdf8c67981"
+  },
+  "footnotes--hidden-section": {
+    "expectedSemanticsHash": "666a1d17642d2173ec4a7de3796c85afbcdc9f9b4aa28059e10afa93571a1a83",
+    "actualSemanticsHash": "666a1d17642d2173ec4a7de3796c85afbcdc9f9b4aa28059e10afa93571a1a83"
+  },
+  "footnotes--hr-continuation": {
+    "expectedSemanticsHash": "ba06032f4375558792496e3d5dfe45362e66ee5d071570a44e74e3913e3fc6c9",
+    "actualSemanticsHash": "ef4f73542d2d51e03c4aefe75babc7c08a79bc866078c31c767e1c94b3d33967",
+    "reason": "Keep lists and continuation paragraphs inside their footnote definitions through valid Markdown indentation; retain the source separator. TypeScript leaves continuations outside the definitions."
+  },
+  "footnotes--hr-strong-numbered": {
+    "expectedSemanticsHash": "d41712fe0acab17b79020516022e201afd0ee573645ead4b71a1f7a3bccae190",
+    "actualSemanticsHash": "e35a890c7c906a1ef1143c640be2a60e16fa0373f230514224f119068d5185c8",
+    "reason": "Keep supporting list items inside their footnote definition through valid Markdown indentation; retain the source separator. TypeScript emits the list outside the definition."
+  },
+  "footnotes--hr-sup-numbered": {
+    "expectedSemanticsHash": "169f60bbc7f6023d91db979022c22c35e92d7a13d8337525d0af4bcb018317c4",
+    "actualSemanticsHash": "551f383b32e9f3f56bfcef538c8689d0d6fb9deb2fdcbfbcad35b0743f384969",
+    "reason": "Retain the source horizontal divider before the footnote definitions. This changes presentation without dropping definitions, references, or article content."
+  },
+  "footnotes--inline-footnote-span": {
+    "expectedSemanticsHash": "8a171cd95b59eb2bd37910a7b952930d6373bac6c6e98d231d8c3ea767de5c09",
+    "actualSemanticsHash": "8a171cd95b59eb2bd37910a7b952930d6373bac6c6e98d231d8c3ea767de5c09"
+  },
+  "footnotes--labeled-section-ol": {
+    "expectedSemanticsHash": "22e25fc5d16ebee709db56fe5799e4e6b619e94b509264a27186ec865a421b81",
+    "actualSemanticsHash": "22e25fc5d16ebee709db56fe5799e4e6b619e94b509264a27186ec865a421b81"
+  },
+  "footnotes--maggieappleton.com-xanadu-patterns": {
+    "expectedSemanticsHash": "5b036965c6e5f39f5b3f466894748ca04a13c894544ee96567f0b0e7616dd247",
+    "actualSemanticsHash": "4fbf2caf49d305b52a08920500a27d71a4a6c3b13cd52fb78f356d6a4fc20299",
+    "reason": "Remove the two stray spaces before periods after inline subscript annotations. Captions, source links, article text, and footnotes are preserved."
+  },
+  "footnotes--named-anchor": {
+    "expectedSemanticsHash": "7ac7e709997ae515ab7b31f56cfc96ccd206a4e9d2a8b3afe4dbdbad78461b14",
+    "actualSemanticsHash": "7ac7e709997ae515ab7b31f56cfc96ccd206a4e9d2a8b3afe4dbdbad78461b14"
+  },
+  "footnotes--nested-prose": {
+    "expectedSemanticsHash": "a3556ed00ed97bc11a3be59ae3785ee37ae0b98bb5c60504137e333add9ac3cf",
+    "actualSemanticsHash": "022a4ba7e9e2df0bf704eb4076aa8fb2470744bcd8751bb5755ef197510ae7dd",
+    "reason": "Retain the source horizontal divider before normalized footnotes. The article text and footnote reference/definition graph are unchanged."
+  },
+  "footnotes--no-false-positive-equation-refs": {
+    "expectedSemanticsHash": "6934bddcc813c3e65f0e1987c0c09e186715e8de0634d6155f0ce0ece9cef6eb",
+    "actualSemanticsHash": "6934bddcc813c3e65f0e1987c0c09e186715e8de0634d6155f0ce0ece9cef6eb"
+  },
+  "footnotes--numeric-anchor-id": {
+    "expectedSemanticsHash": "9090a77dc98804b482c8fbad88b1eadfe545343bb0fed3e2cb43a3609e22240b",
+    "actualSemanticsHash": "9090a77dc98804b482c8fbad88b1eadfe545343bb0fed3e2cb43a3609e22240b"
+  },
+  "footnotes--orgmode-css-sidenotes": {
+    "expectedSemanticsHash": "0ef3c5005a35e7b2147512c4f08fcba1b1cb138eae371dda62aa6e12902395b2",
+    "actualSemanticsHash": "0ef3c5005a35e7b2147512c4f08fcba1b1cb138eae371dda62aa6e12902395b2"
+  },
+  "footnotes--p-class-footnote": {
+    "expectedSemanticsHash": "8b63a641d7a47cff926a11f11fd0beeda407cd532c170148f2714a0495eb4a59",
+    "actualSemanticsHash": "8b63a641d7a47cff926a11f11fd0beeda407cd532c170148f2714a0495eb4a59"
+  },
+  "footnotes--pulldown-cmark-footnote-definition": {
+    "expectedSemanticsHash": "890c2e7de1e653c82d72eea14786a135d765a3afedc1289cad8a12f0a1bcfff5",
+    "actualSemanticsHash": "c2cee8fe20bae3c9617b2dc8558b9ae7ce6f73877f36d15d78be6f85067ea924",
+    "reason": "Retain the source horizontal divider before normalized footnotes. The note text and code payload are unchanged."
+  },
+  "footnotes--sidenote-inline-with-list": {
+    "expectedSemanticsHash": "2a0787f9f55f2c303562144fc4379c64923ef917ff59173df2d5c067aecd7265",
+    "actualSemanticsHash": "2a0787f9f55f2c303562144fc4379c64923ef917ff59173df2d5c067aecd7265"
+  },
+  "footnotes--span-fnref-colon": {
+    "expectedSemanticsHash": "5f046697a48e76fbe529a249982afe2892a487cdc1fba0a0e6c651d5c99b281e",
+    "actualSemanticsHash": "5f046697a48e76fbe529a249982afe2892a487cdc1fba0a0e6c651d5c99b281e"
+  },
+  "footnotes--wikipedia-references": {
+    "expectedSemanticsHash": "59c429814d1949b7eab7f884abed0ed378624b900ca04ce751fbe719c94d760f",
+    "actualSemanticsHash": "59c429814d1949b7eab7f884abed0ed378624b900ca04ce751fbe719c94d760f"
+  },
+  "footnotes--word-ftn-ftnref": {
+    "expectedSemanticsHash": "f5c6686fa76c887e36d212002cf400be39e9bb94c72fc31313421f0356dd3285",
+    "actualSemanticsHash": "c8b063d4b6d660dc5ba2f9c32f99fe6880016fd1169dfafefb34842740ab65f7",
+    "reason": "Retain a horizontal divider before normalized Word footnotes. The note destination and the reference/definition graph remain intact."
+  },
+  "footnotes--wp-block-footnotes": {
+    "expectedSemanticsHash": "9790fcb52f29c65906b5e4055cee12c3325d96d6621483812c20665f28e0367d",
+    "actualSemanticsHash": "9790fcb52f29c65906b5e4055cee12c3325d96d6621483812c20665f28e0367d"
+  },
+  "gated-content--cookie-consent": {
+    "expectedSemanticsHash": "8544fe8aaeebc52101c27b90ec6c13d937d9a0674c9019d940fb2c87f3b30ad4",
+    "actualSemanticsHash": "8544fe8aaeebc52101c27b90ec6c13d937d9a0674c9019d940fb2c87f3b30ad4"
+  },
+  "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes": {
+    "expectedSemanticsHash": "6ec5e3f92bd464557cf5790551c3a015088c60ec8926cc682c9e6112db5ecf6a",
+    "actualSemanticsHash": "bf673bcf87d1a5c7070325631071e891d227c236cf2ce622b5dd95735b36aab6",
+    "reason": "Preserve all seven original links from article image previews to their full-size image URLs. TypeScript discards the image-enclosing link destinations. Also remove an empty source paragraph and place its footnote return link in the last meaningful definition paragraph."
+  },
+  "general--apnews-link-enhancement": {
+    "expectedSemanticsHash": "edfec9e3d43667e2c60eb187fb362b43d3872672461a41da6044b97f13eac59a",
+    "actualSemanticsHash": "edfec9e3d43667e2c60eb187fb362b43d3872672461a41da6044b97f13eac59a"
+  },
+  "general--appendix-heading": {
+    "expectedSemanticsHash": "4df78c614b9c24b836f3944cb481ddef3cfb79f66228b6b2ecfecbd6e392d695",
+    "actualSemanticsHash": "4df78c614b9c24b836f3944cb481ddef3cfb79f66228b6b2ecfecbd6e392d695"
+  },
+  "general--back-nav-link": {
+    "expectedSemanticsHash": "6232a530cdc85881b54f97e479d7e3838000749ee85cf4d86b6906459489dd5e",
+    "actualSemanticsHash": "6232a530cdc85881b54f97e479d7e3838000749ee85cf4d86b6906459489dd5e"
+  },
+  "general--cp4space-jordan-algebra": {
+    "expectedSemanticsHash": "de5414b665f2b027b88e93f1c322c7ae5e0b5ba0cfde91f3e0f1d5cc07e8408c",
+    "actualSemanticsHash": "a6ba320eaa8fa4a711b46a7e75aaf786c48c7a04d50fee5394cf0472b40fda7b",
+    "reason": "Math conversion is intentionally excluded. The warning is required; this native semantic snapshot protects safe source content and surrounding article prose from regression."
+  },
+  "general--daringfireball.net-2025-02-the_iphone_16e": {
+    "expectedSemanticsHash": "13310f2203493cb068c497b301b5dfc29254eb32dabf5fdffe12239677f8fe36",
+    "actualSemanticsHash": "29659fba3bd50244b6d5903de8c3cc7093cce7cf0d831fd9fedf2b308a3a812f",
+    "reason": "Omit a terminal horizontal divider before normalized footnotes. All article text, links, and note content remain intact."
+  },
+  "general--developer.mozilla.org-en-US-docs-Web-JavaScript-Reference-Global_Objects-Array": {
+    "expectedSemanticsHash": "0ff1f0793929098b558df7e2ab4abec2f24ee5c92d52c3905a74530576bdf21e",
+    "actualSemanticsHash": "0ff1f0793929098b558df7e2ab4abec2f24ee5c92d52c3905a74530576bdf21e"
+  },
+  "general--github.com-issue-56": {
+    "expectedSemanticsHash": "15ca28b49e6b712e518983e7a63e8f2ede79082f47c344c2721abb437ec882d5",
+    "actualSemanticsHash": "f53f1882be744c99563a2a9356c52d33e393e107673c79b2fd08144b87ad8a1f",
+    "reason": "Preserve the literal trailing space in the highlighted table-cell code source. The table is correctly converted to a preformatted code block."
+  },
+  "general--github.com-test-owner-test-repo-pull-42": {
+    "expectedSemanticsHash": "36591296fa62c60377bfe97f39f66ff0cb96882e2fc912e0d37221dfa0b21ffc",
+    "actualSemanticsHash": "36591296fa62c60377bfe97f39f66ff0cb96882e2fc912e0d37221dfa0b21ffc"
+  },
+  "general--inline-comments-and-link-lists": {
+    "expectedSemanticsHash": "2ba8a1a4e6de55179ba6a3904739ed9bed8ffe0c08d33f1c0f29f616ac6affce",
+    "actualSemanticsHash": "2ba8a1a4e6de55179ba6a3904739ed9bed8ffe0c08d33f1c0f29f616ac6affce"
+  },
+  "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx": {
+    "expectedSemanticsHash": "c6f2bebfd4cbec0520680e0b0b1062139365e359bf527f1f3b1c79a8df99c74c",
+    "actualSemanticsHash": "69f5a6122b6e8b399391ab728859617f517c41b32c488ade9c6bfffc4015c68c",
+    "reason": "Preserve source inline-code text true/used without synthetic emphasis asterisks, and preserve the original nested-list sibling depths. TypeScript inserts literal emphasis markers and overindents several nested list siblings."
+  },
+  "general--multi-article-portfolio": {
+    "expectedSemanticsHash": "1dcd9ffdddcbfc0aec29a41e8289306cc5b343619482dd1b3a42de4a6ca4a2b4",
+    "actualSemanticsHash": "1dcd9ffdddcbfc0aec29a41e8289306cc5b343619482dd1b3a42de4a6ca4a2b4"
+  },
+  "general--news.ycombinator.com-item-id=12345678": {
+    "expectedSemanticsHash": "1584dab8d48332acfb930d07bd6dfd441efa1ee1e3733f383e0b34882eed44c0",
+    "actualSemanticsHash": "1584dab8d48332acfb930d07bd6dfd441efa1ee1e3733f383e0b34882eed44c0"
+  },
+  "general--obsidian-publish-cjk": {
+    "expectedSemanticsHash": "4d3b17bd18a5bd239053d568ff930327aaea1085c7162bdf085d12027adb9fc2",
+    "actualSemanticsHash": "4d3b17bd18a5bd239053d568ff930327aaea1085c7162bdf085d12027adb9fc2"
+  },
+  "general--obsidian.md-blog-verify-obsidian-sync-encryption": {
+    "expectedSemanticsHash": "b6ba24aa3e8cd7fd9b8d4f7f368dc65904880207a325ab120ba79f764a4dae79",
+    "actualSemanticsHash": "b6ba24aa3e8cd7fd9b8d4f7f368dc65904880207a325ab120ba79f764a4dae79"
+  },
+  "general--react-streaming-ssr": {
+    "expectedSemanticsHash": "5a8a4135ac5a9925d859b014ca1c0f627a3530a55c1ecdde97d72bee4f58738c",
+    "actualSemanticsHash": "5a8a4135ac5a9925d859b014ca1c0f627a3530a55c1ecdde97d72bee4f58738c"
+  },
+  "general--scp-wiki.wikidot.com-scp-9935": {
+    "expectedSemanticsHash": "3d477e8fcfb99f3bb9893e7d8f7d76e29761581ae442099f9f609da0d8105800",
+    "actualSemanticsHash": "3d477e8fcfb99f3bb9893e7d8f7d76e29761581ae442099f9f609da0d8105800"
+  },
+  "general--stephango.com-buy-wisely": {
+    "expectedSemanticsHash": "e2108bb65722be6c5ae435009aa59621ddf3f40f171cebc6556fef115ba2d509",
+    "actualSemanticsHash": "e2108bb65722be6c5ae435009aa59621ddf3f40f171cebc6556fef115ba2d509"
+  },
+  "general--substack-app": {
+    "expectedSemanticsHash": "0d90f8ebba8bd2ccdc5ce0790386b92c93fec4ee3856adf9f606e9f67af14f3f",
+    "actualSemanticsHash": "0d90f8ebba8bd2ccdc5ce0790386b92c93fec4ee3856adf9f606e9f67af14f3f"
+  },
+  "general--substack-custom-domain": {
+    "expectedSemanticsHash": "8628dadc3b20bf0c6cb12dbe6395566a0e8d4490a7819745b15fd5984967daad",
+    "actualSemanticsHash": "8628dadc3b20bf0c6cb12dbe6395566a0e8d4490a7819745b15fd5984967daad"
+  },
+  "general--substack-note": {
+    "expectedSemanticsHash": "b05a68cafb5481c6463433627cd5db57314d3d9f5c3af6de5d71c5c7019b91f8",
+    "actualSemanticsHash": "b05a68cafb5481c6463433627cd5db57314d3d9f5c3af6de5d71c5c7019b91f8"
+  },
+  "general--substack-note-permalink": {
+    "expectedSemanticsHash": "42846f4965a12be0c2431b8999bfe9a91868647a31acf88509705e23b1e83991",
+    "actualSemanticsHash": "42846f4965a12be0c2431b8999bfe9a91868647a31acf88509705e23b1e83991"
+  },
+  "general--svg-content-preservation": {
+    "expectedSemanticsHash": "4ff610c187d5c79e4b581821a19abc31a26043f41576cb4de19f50258aa65497",
+    "actualSemanticsHash": "4ff610c187d5c79e4b581821a19abc31a26043f41576cb4de19f50258aa65497"
+  },
+  "general--svg-external-css-fallback": {
+    "expectedSemanticsHash": "93e15cd7d2d7135adb46b0ec39fbfce4e6a810307d20eb3fdde2f836b14661c5",
+    "actualSemanticsHash": "93e15cd7d2d7135adb46b0ec39fbfce4e6a810307d20eb3fdde2f836b14661c5"
+  },
+  "general--tailwind-hidden-blog-index": {
+    "expectedSemanticsHash": "ec8bf52c449af5cb86b444b4761789a53b9a789d1095ec757802a858122dec35",
+    "actualSemanticsHash": "ec8bf52c449af5cb86b444b4761789a53b9a789d1095ec757802a858122dec35"
+  },
+  "general--trailing-cta-newsletter": {
+    "expectedSemanticsHash": "cbf29769a42e12adea54d90e0767f8421c1f13a1f360a9f8ed11733b1932b7ce",
+    "actualSemanticsHash": "cbf29769a42e12adea54d90e0767f8421c1f13a1f360a9f8ed11733b1932b7ce"
+  },
+  "general--wikipedia": {
+    "expectedSemanticsHash": "e20986e46d62024ed4f4db3d903c48ed228004712b31b12c19fe72029e959895",
+    "actualSemanticsHash": "e20986e46d62024ed4f4db3d903c48ed228004712b31b12c19fe72029e959895"
+  },
+  "general--wikipedia-ipa-pronunciation": {
+    "expectedSemanticsHash": "ee1e467ede1c0c6d466744b5357502a79bf602d03605e93980e0aada665cd0ff",
+    "actualSemanticsHash": "ee1e467ede1c0c6d466744b5357502a79bf602d03605e93980e0aada665cd0ff"
+  },
+  "general--www.figma.com-blog-introducing-codex-to-figma": {
+    "expectedSemanticsHash": "2cde9de9216996b5458cf64f6dff61c3d5bde2660f2288f1865f4e34f9a9b0c6",
+    "actualSemanticsHash": "2cde9de9216996b5458cf64f6dff61c3d5bde2660f2288f1865f4e34f9a9b0c6"
+  },
+  "general--x.com-article": {
+    "expectedSemanticsHash": "546ad29394e42c2849b826ac30baac60e82d102f2fcf1646d4a22691b0d54915",
+    "actualSemanticsHash": "639f3b840ba9524af3dfd505dcf71c6de12a358465692d2beb02f07385350288",
+    "reason": "Hardening: Remove body meta directives and their now-empty wrapper unconditionally; the reference retains inert meta elements, but navigation/resource directives must not survive any cleanup option."
+  },
+  "general--x.com-article-2026-02-13": {
+    "expectedSemanticsHash": "432ee3ea28891b52d6b42c22b77f766224b2812bc0fed8bd0d5437b0c6dd6535",
+    "actualSemanticsHash": "432ee3ea28891b52d6b42c22b77f766224b2812bc0fed8bd0d5437b0c6dd6535"
+  },
+  "gmail--mail.google.com-mail-u-0-thread": {
+    "expectedSemanticsHash": "2b4593ef66227cfe8263ca421935a48f7cd90f8a7ed181c28ef18ecdb83dd46e",
+    "actualSemanticsHash": "2b4593ef66227cfe8263ca421935a48f7cd90f8a7ed181c28ef18ecdb83dd46e"
+  },
+  "headings--fragment-url-not-permalink": {
+    "expectedSemanticsHash": "c6537ebadc35441222f1f01953e9e3c9ab3a73983562aa81d2af2a7504e7f3f5",
+    "actualSemanticsHash": "c6537ebadc35441222f1f01953e9e3c9ab3a73983562aa81d2af2a7504e7f3f5"
+  },
+  "headings--permalink-title-match": {
+    "expectedSemanticsHash": "e7c12113620a6337fddab081a52549d2dfe0ad1da6e4b2acbb157d281dd20787",
+    "actualSemanticsHash": "e7c12113620a6337fddab081a52549d2dfe0ad1da6e4b2acbb157d281dd20787"
+  },
+  "headings--testid-article-header": {
+    "expectedSemanticsHash": "90b366104630e0e7a847ce75200feec0a6a88ff6f07f09d68e8e9229bd453126",
+    "actualSemanticsHash": "90b366104630e0e7a847ce75200feec0a6a88ff6f07f09d68e8e9229bd453126"
+  },
+  "hidden--nodes": {
+    "expectedSemanticsHash": "8aea42ff240a1bdd82639fb0fe2fcd3acf7588762b36ee384b18ecfe7881b016",
+    "actualSemanticsHash": "8aea42ff240a1bdd82639fb0fe2fcd3acf7588762b36ee384b18ecfe7881b016"
+  },
+  "hidden--visibility": {
+    "expectedSemanticsHash": "0449796416940de9cc5d6be09540ffd120f1b51606b91814485dbe13be7fbed5",
+    "actualSemanticsHash": "0449796416940de9cc5d6be09540ffd120f1b51606b91814485dbe13be7fbed5"
+  },
+  "issues--106-menu-id": {
+    "expectedSemanticsHash": "08b36e97bf7439b9ea3f449dcb959b0f82fc200802ad21adaf76ed33970c41e2",
+    "actualSemanticsHash": "08b36e97bf7439b9ea3f449dcb959b0f82fc200802ad21adaf76ed33970c41e2"
+  },
+  "issues--114-leading-hr": {
+    "expectedSemanticsHash": "446a6ff1b52d0238e8e89d40d9a4d19ceb8dc7dc69868b4289d38d1687aa137c",
+    "actualSemanticsHash": "446a6ff1b52d0238e8e89d40d9a4d19ceb8dc7dc69868b4289d38d1687aa137c"
+  },
+  "issues--120-dhammatalks-footnotes": {
+    "expectedSemanticsHash": "a940f919f2c118cf495899c94726f0a2a2b614fbc7328ca2ca05ac071ca69f78",
+    "actualSemanticsHash": "a940f919f2c118cf495899c94726f0a2a2b614fbc7328ca2ca05ac071ca69f78"
+  },
+  "issues--131-category-links": {
+    "expectedSemanticsHash": "3d4c44553c98778d2372a7c0b593ee85ba9d1659b544697d97802996afdfd981",
+    "actualSemanticsHash": "3d4c44553c98778d2372a7c0b593ee85ba9d1659b544697d97802996afdfd981"
+  },
+  "issues--132-hero-class": {
+    "expectedSemanticsHash": "7ecf00993da2b528996452a9303ceb02ded61f3247034ab6b618cea85d7fbba7",
+    "actualSemanticsHash": "7ecf00993da2b528996452a9303ceb02ded61f3247034ab6b618cea85d7fbba7"
+  },
+  "issues--136-time-element": {
+    "expectedSemanticsHash": "b7d7c424eeb6c0411a7a8959064d0b95796ba20892beb64d391df2170ec1d9bc",
+    "actualSemanticsHash": "b7d7c424eeb6c0411a7a8959064d0b95796ba20892beb64d391df2170ec1d9bc"
+  },
+  "issues--141-arxiv-equation-tables": {
+    "expectedSemanticsHash": "877a7522f8f68d497fd2e1dcac98d1e06ef49c01561cd8aafd3fe7c0c6460178",
+    "actualSemanticsHash": "29f531c0ddea2f5f8806ef26a57ca04f3a15899c6bf8044f83cf0e5196af3c25",
+    "reason": "Math conversion is intentionally excluded. The warning is required; this native semantic snapshot protects safe source content and surrounding article prose from regression. Hardening: Preserve original MathML annotation encoding and literal TeX text through Markdown parsing; underscores/backslashes must not become Markdown structure."
+  },
+  "issues--142-arxiv-multi-citations": {
+    "expectedSemanticsHash": "3fb69e174657f73e3ec9fea368b2d57ad12cdb9cd9629a66d7860483d415272c",
+    "actualSemanticsHash": "844362bea33a9b6f196a09ef098e64d27bc670dc3860e93ca66378291151ea24",
+    "reason": "Normalize ordinary whitespace before footnote return-arrow anchors. All six definitions and their reference associations remain intact."
+  },
+  "issues--143-arxiv-cross-references": {
+    "expectedSemanticsHash": "05b101f05bd4f6419f4179aeeffc3c254279193d6f014899818f2b126e944d76",
+    "actualSemanticsHash": "05b101f05bd4f6419f4179aeeffc3c254279193d6f014899818f2b126e944d76"
+  },
+  "issues--144-arxiv-footnote-marks": {
+    "expectedSemanticsHash": "5790b023a8a545e918eb2a93381e4b8346918a7ae8ae47bfa6088932888b799b",
+    "actualSemanticsHash": "5790b023a8a545e918eb2a93381e4b8346918a7ae8ae47bfa6088932888b799b"
+  },
+  "issues--159-lean-heading-permalink-emoji": {
+    "expectedSemanticsHash": "9fc406b9cf58ca260f682225677664644bc18e9422bd90c041378ff7b0312f64",
+    "actualSemanticsHash": "9fc406b9cf58ca260f682225677664644bc18e9422bd90c041378ff7b0312f64"
+  },
+  "issues--159-lean-verso-code-blocks": {
+    "expectedSemanticsHash": "7a97a2cd805001dbad37efb7f0245ff405c6958d2a78745f13d2064e59c35e31",
+    "actualSemanticsHash": "017a3d067a4655fcb9c1ea38cba20b73a0f5d83080647d1c7bca0f24a157ae74",
+    "reason": "Remove common indentation from the source HTML code wrapper. Lean tokens, internal spacing, and meaningful line breaks survive; the resulting Markdown already uses this dedented form."
+  },
+  "issues--159-lean-verso-empty-line-preserved": {
+    "expectedSemanticsHash": "2ae14457ca9239602d4a2072a4cf9b0e40f829c527c4239f6c3b2779d775540c",
+    "actualSemanticsHash": "2ae14457ca9239602d4a2072a4cf9b0e40f829c527c4239f6c3b2779d775540c"
+  },
+  "issues--159-lean-verso-grouped-blocks": {
+    "expectedSemanticsHash": "bb15e1e8aa4e4c1ee0111538d2c666b82bb027f8f7a32d64e9edbcf9b117f29e",
+    "actualSemanticsHash": "bb15e1e8aa4e4c1ee0111538d2c666b82bb027f8f7a32d64e9edbcf9b117f29e"
+  },
+  "issues--159-lean-verso-missing-section-gap": {
+    "expectedSemanticsHash": "c4d40bf387d2499228c7c4fa8090dd081898b3626a2ca959520cbdc8467da5bd",
+    "actualSemanticsHash": "c4d40bf387d2499228c7c4fa8090dd081898b3626a2ca959520cbdc8467da5bd"
+  },
+  "issues--161-x-status-url-author": {
+    "expectedSemanticsHash": "a734deacd0dccc99aeee69329dd46203508e22f45c437962ba6e15076f55c0c9",
+    "actualSemanticsHash": "a734deacd0dccc99aeee69329dd46203508e22f45c437962ba6e15076f55c0c9"
+  },
+  "issues--162-aria-hidden-main-content": {
+    "expectedSemanticsHash": "7d7821b624b591096910d35ce8e9b7844173d052b659ae18d5b98b6df8bfcfbf",
+    "actualSemanticsHash": "7d7821b624b591096910d35ce8e9b7844173d052b659ae18d5b98b6df8bfcfbf"
+  },
+  "issues--167-partial-selector-inside-code": {
+    "expectedSemanticsHash": "01d53dffb5e38a0b334a9a22133090a39d9cc2a967c9cffddd0f760bfc3c1601",
+    "actualSemanticsHash": "5eb1ddf877740a428210d92eed6de3cfada0ea090315143dff2814c769a94653",
+    "reason": "Remove common wrapper indentation from both Lean code blocks. Identifier names, source tokens, internal spacing, and rendered Markdown survive."
+  },
+  "issues--168-links-inside-inline-code": {
+    "expectedSemanticsHash": "cc27ac34575f33cf90788cb5cc268053242dc8a8cb0f817ae8c3ff0234ca99b3",
+    "actualSemanticsHash": "cc27ac34575f33cf90788cb5cc268053242dc8a8cb0f817ae8c3ff0234ca99b3"
+  },
+  "issues--169-svg-classname-crash": {
+    "expectedSemanticsHash": "8686b8e601288874ecfb8329efa86d43bece568392c8c3d21315e3025081a37e",
+    "actualSemanticsHash": "4146b13ee0dfe4b6bf8c670598b794ff2a2fac9687caa34f73bd399d2bd82341",
+    "reason": "Math conversion is intentionally excluded. The warning is required; this native semantic snapshot protects safe source content and surrounding article prose from regression."
+  },
+  "issues--196-og-title-brand-name": {
+    "expectedSemanticsHash": "bf58282e27e4c919d1b60d2e5835e2f65fb92ae91c3a76f7df59fcb876613ab9",
+    "actualSemanticsHash": "bf58282e27e4c919d1b60d2e5835e2f65fb92ae91c3a76f7df59fcb876613ab9"
+  },
+  "issues--217-writerside-docs": {
+    "expectedSemanticsHash": "345b2c666db2ce033ce24c9de05531cb6388fb0770d6edec6d807f00d7c81c72",
+    "actualSemanticsHash": "345b2c666db2ce033ce24c9de05531cb6388fb0770d6edec6d807f00d7c81c72"
+  },
+  "issues--218-footnote-wrapper-text-lost": {
+    "expectedSemanticsHash": "52b80ceeef64074c9583c6b5bcafe9ad1fb0540aac74195b18994ac4623d62ab",
+    "actualSemanticsHash": "52b80ceeef64074c9583c6b5bcafe9ad1fb0540aac74195b18994ac4623d62ab"
+  },
+  "issues--221-nextjs-noscript-images": {
+    "expectedSemanticsHash": "9b6d40201fa9d5f1037ef87cf1b4fb15df6acc2674c551ebe64a4113c79d1a4e",
+    "actualSemanticsHash": "9b6d40201fa9d5f1037ef87cf1b4fb15df6acc2674c551ebe64a4113c79d1a4e"
+  },
+  "issues--227-noscript-lazy-images": {
+    "expectedSemanticsHash": "3774ce154f91f40ee36025582684577fae7c3e7547db0f7ce0b253cb5bb2da13",
+    "actualSemanticsHash": "3637789f8c2f18395454736e701a00d5e5a4db21209ed9dc970bc00df530a7fa",
+    "reason": "Preserve the original image-credit link destinations in gallery captions. TypeScript retains their labels but discards the href values."
+  },
+  "issues--232-dismiss-in-hidden-content": {
+    "expectedSemanticsHash": "80374372f58325b65dc4e9686734471960fdc77730cfe6116488264dc585e7d0",
+    "actualSemanticsHash": "80374372f58325b65dc4e9686734471960fdc77730cfe6116488264dc585e7d0"
+  },
+  "issues--254-empty-video": {
+    "expectedSemanticsHash": "c6ede52d3a75d990ce894e93ad883035fefead65e5e7fb8de26f5088393db7a1",
+    "actualSemanticsHash": "c6ede52d3a75d990ce894e93ad883035fefead65e5e7fb8de26f5088393db7a1"
+  },
+  "issues--263-buttons-in-paragraphs": {
+    "expectedSemanticsHash": "804726764895b88a18f561df745502ca498a04e80611268d9a9b3ecd2a04c351",
+    "actualSemanticsHash": "804726764895b88a18f561df745502ca498a04e80611268d9a9b3ecd2a04c351"
+  },
+  "issues--272-x-localized-conversation-timeline": {
+    "expectedSemanticsHash": "727142d162ccd7425b03a54cf685ffaa81d54523b1abb720b7aa0fbd88d3c340",
+    "actualSemanticsHash": "727142d162ccd7425b03a54cf685ffaa81d54523b1abb720b7aa0fbd88d3c340"
+  },
+  "issues--280-texinfo-footnotes": {
+    "expectedSemanticsHash": "794eacf3a169a433ab9b073dbf7d39ec8370645d1472c7f7f78f38ee1bc4b1ea",
+    "actualSemanticsHash": "794eacf3a169a433ab9b073dbf7d39ec8370645d1472c7f7f78f38ee1bc4b1ea"
+  },
+  "issues--284-table-cell-header-scoring": {
+    "expectedSemanticsHash": "65bcc27088f1903355cee90b2795b883afee203c47ac0b2929919b56773281f3",
+    "actualSemanticsHash": "65bcc27088f1903355cee90b2795b883afee203c47ac0b2929919b56773281f3"
+  },
+  "issues--285-tag-like-title-escaping": {
+    "expectedSemanticsHash": "d19d33d7e044c891a1ad24cf7219b57420cd2013b47cee8f05399808d967c812",
+    "actualSemanticsHash": "d19d33d7e044c891a1ad24cf7219b57420cd2013b47cee8f05399808d967c812"
+  },
+  "issues--286-generic-alt-image-dedup": {
+    "expectedSemanticsHash": "7de77fd0c7456e18ff01eb7824acafeedccf0f1b1d055f1575989d391a9656d7",
+    "actualSemanticsHash": "7de77fd0c7456e18ff01eb7824acafeedccf0f1b1d055f1575989d391a9656d7"
+  },
+  "issues--296-oreilly-noteref-footnotes": {
+    "expectedSemanticsHash": "8d4ca38f2dfc8949798d9068404cb20eb48d5fbff284fb1d28590c140c44c063",
+    "actualSemanticsHash": "8d4ca38f2dfc8949798d9068404cb20eb48d5fbff284fb1d28590c140c44c063"
+  },
+  "issues--300-nested-layout-tables": {
+    "expectedSemanticsHash": "71b5f2f477a4672804b52679c245135a5b5284969ca30c254669761632205a13",
+    "actualSemanticsHash": "71b5f2f477a4672804b52679c245135a5b5284969ca30c254669761632205a13"
+  },
+  "issues--361-escaped-id": {
+    "expectedSemanticsHash": "960c084fcc819511a341758ab274498a8e95848645f026079da88d3f2493705c",
+    "actualSemanticsHash": "960c084fcc819511a341758ab274498a8e95848645f026079da88d3f2493705c"
+  },
+  "issues--361-shadow-selector-stability": {
+    "expectedSemanticsHash": "960c084fcc819511a341758ab274498a8e95848645f026079da88d3f2493705c",
+    "actualSemanticsHash": "960c084fcc819511a341758ab274498a8e95848645f026079da88d3f2493705c"
+  },
+  "issues--361-special-class-selectors": {
+    "expectedSemanticsHash": "960c084fcc819511a341758ab274498a8e95848645f026079da88d3f2493705c",
+    "actualSemanticsHash": "960c084fcc819511a341758ab274498a8e95848645f026079da88d3f2493705c"
+  },
+  "issues--361-tailwind-ancestor": {
+    "expectedSemanticsHash": "960c084fcc819511a341758ab274498a8e95848645f026079da88d3f2493705c",
+    "actualSemanticsHash": "960c084fcc819511a341758ab274498a8e95848645f026079da88d3f2493705c"
+  },
+  "issues--366-mixed-numbers": {
+    "expectedSemanticsHash": "9588126beda92b7f5d120189cbac73f8160610f908e9314d165fd8a122b56c7f",
+    "actualSemanticsHash": "9588126beda92b7f5d120189cbac73f8160610f908e9314d165fd8a122b56c7f"
+  },
+  "issues--366-screen-reader-links": {
+    "expectedSemanticsHash": "97999c08e439a9e6a9fe072528845bf5416b0a6d8967e808e108f32d5d4d169f",
+    "actualSemanticsHash": "6a7dd9f06481fd4d6626aa1e8b0bf7a6d1eb19ef331b5c50c59cde636ee74a29",
+    "reason": "Remove an empty decorative 16 by 16 SVG marked aria-hidden. Both meaningful accessible link labels and destinations remain intact."
+  },
+  "issues--374-explicit-image-sources": {
+    "expectedSemanticsHash": "f2ab14f95bdc016660af39010f4252a5c16e1c0edc6383562192d16810e66577",
+    "actualSemanticsHash": "f2ab14f95bdc016660af39010f4252a5c16e1c0edc6383562192d16810e66577"
+  },
+  "issues--374-image-source": {
+    "expectedSemanticsHash": "11a46e4a1f9a0bb348b651cc445a37b6208b2fc76056c66f3eecf396566d5180",
+    "actualSemanticsHash": "11a46e4a1f9a0bb348b651cc445a37b6208b2fc76056c66f3eecf396566d5180"
+  },
+  "issues--374-invalid-lazy-source": {
+    "expectedSemanticsHash": "3da7316bc99dca44af211b727b4d102ba85a7a7796ed72941194b72aae5acf1a",
+    "actualSemanticsHash": "3da7316bc99dca44af211b727b4d102ba85a7a7796ed72941194b72aae5acf1a"
+  },
+  "issues--374-lazy-source-precedence": {
+    "expectedSemanticsHash": "066437e7960209c4ae073668eae2348071621c11adc3d5cc3b7c376907241176",
+    "actualSemanticsHash": "066437e7960209c4ae073668eae2348071621c11adc3d5cc3b7c376907241176"
+  },
+  "issues--374-lazy-srcset-placeholder": {
+    "expectedSemanticsHash": "7247fd5332dd7c39b9cd73cefe3e3f1d39af3bf0d9bfa58fd07866c8272698de",
+    "actualSemanticsHash": "210f946bf32559c222c29ccb6b8ad46accf405366169e0aff3e4aa4de3755292",
+    "reason": "Upgrade the image fallback src from a tiny inline GIF to the first real responsive source. Preserve the entire safe srcset, alternate text, and rendered Markdown."
+  },
+  "issues--374-unrelated-image-metadata": {
+    "expectedSemanticsHash": "75495bcc90c836d1535b8751fdf3549b56d2ca0bf6cf893054f72777780fa187",
+    "actualSemanticsHash": "75495bcc90c836d1535b8751fdf3549b56d2ca0bf6cf893054f72777780fa187"
+  },
+  "issues--footnote-id-with-quote": {
+    "expectedSemanticsHash": "8e3f1f71caa43fdd5bc3768e2229f8fd77b508f2444e38d0b7a89a5d50c6ead2",
+    "actualSemanticsHash": "8e3f1f71caa43fdd5bc3768e2229f8fd77b508f2444e38d0b7a89a5d50c6ead2"
+  },
+  "issues--header-with-subtitle-p": {
+    "expectedSemanticsHash": "e6b92b60ae5b75dc021d1650a3d343dcfb6c75751c77ce8d2f33875cc72d88c4",
+    "actualSemanticsHash": "e6b92b60ae5b75dc021d1650a3d343dcfb6c75751c77ce8d2f33875cc72d88c4"
+  },
+  "issues--header-wraps-content": {
+    "expectedSemanticsHash": "24f361e394cf32049e0e7caf69d839ba29ebb17ad5282e0652e9c9919d86dc22",
+    "actualSemanticsHash": "24f361e394cf32049e0e7caf69d839ba29ebb17ad5282e0652e9c9919d86dc22"
+  },
+  "issues--pascalcase-section-id-partial-match": {
+    "expectedSemanticsHash": "5b11c83401b4bd1688586504c2b62a2c38d2ab640365d4953ca28ad5190da2c9",
+    "actualSemanticsHash": "5b11c83401b4bd1688586504c2b62a2c38d2ab640365d4953ca28ad5190da2c9"
+  },
+  "issues--preferred-async-empty": {
+    "expectedSemanticsHash": "b77a52cd3fe25f3060f9019955bc9bf1228e4ecbd3addcd52e12e4f3b178b80b",
+    "actualSemanticsHash": "b77a52cd3fe25f3060f9019955bc9bf1228e4ecbd3addcd52e12e4f3b178b80b"
+  },
+  "issues--react-streaming-ssr-colon-id": {
+    "expectedSemanticsHash": "55fe10a2fd7314c65e022f9bda5cdca551679a1440821998fe0cee46118211fe",
+    "actualSemanticsHash": "55fe10a2fd7314c65e022f9bda5cdca551679a1440821998fe0cee46118211fe"
+  },
+  "issues--sidebar-toggle-checkbox": {
+    "expectedSemanticsHash": "c6ada2ef5f59a80353e21714e792e6fff25df789812b2dd169fa826c221005d1",
+    "actualSemanticsHash": "c6ada2ef5f59a80353e21714e792e6fff25df789812b2dd169fa826c221005d1"
+  },
+  "issues--span-with-block-children-and-schema": {
+    "expectedSemanticsHash": "9a4b358838490ee0e19ad7c6e067eda3527074471e6082ec955188a51b167f25",
+    "actualSemanticsHash": "9a4b358838490ee0e19ad7c6e067eda3527074471e6082ec955188a51b167f25"
+  },
+  "listing--news.ycombinator.com-news": {
+    "expectedSemanticsHash": "37182a10ebd72e405b62f0442ff4d3f3a6f783021e31b548fdabb53aa0045516",
+    "actualSemanticsHash": "37182a10ebd72e405b62f0442ff4d3f3a6f783021e31b548fdabb53aa0045516"
+  },
+  "math--equation-table-mathml": {
+    "expectedSemanticsHash": "7d926e8c751a135c68dc1125a99bd2b96a5be7a5f08e160482451cab7fb6515d",
+    "actualSemanticsHash": "997b1e7b96ad668e4fd2e7fb924079f28aaa4bbfad943185c0b96b682effe385",
+    "reason": "Math conversion is intentionally excluded. The warning is required; this native semantic snapshot protects safe source content and surrounding article prose from regression. Hardening: Retain original MathML annotation encoding and source text, without translating formulas."
+  },
+  "math--katex": {
+    "expectedSemanticsHash": "89ae4e85e6c621ac7b52f095e9e859f7e03dff79aad4b7e17c16f94f861f28e2",
+    "actualSemanticsHash": "1535c0aa56b3a74f0e01f91f7fa93c24d6452dd06f97a361a3ccf69a769563c8",
+    "reason": "Math conversion is intentionally excluded. The warning is required; this native semantic snapshot protects safe source content and surrounding article prose from regression. Hardening: Retain original KaTeX MathML source annotations, including their encoding, rather than stripping source-identification attributes."
+  },
+  "math--katex-centraliser": {
+    "expectedSemanticsHash": "992e5e4d2103a17719a7c2d2564ee0bfe4fc2670cbf796299a38ac04088f9035",
+    "actualSemanticsHash": "cb3ac2f598b36e8b1935099ab1a58964e6b645ae8fd8167dbae6ac3ad224631e",
+    "reason": "Math conversion is intentionally excluded. The warning is required; this native semantic snapshot protects safe source content and surrounding article prose from regression. Hardening: Retain all 28 original MathML source annotations with encoding and exact source signatures."
+  },
+  "math--katex-data-math": {
+    "expectedSemanticsHash": "03ec2a84420ea6e119254e0d74360d2aa18b27c42668ba96b34453d99d84052d",
+    "actualSemanticsHash": "25fb28b62bbd5646716ea67abd2a87496bb9716518740e93e5ebb9667b06f380",
+    "reason": "Math conversion is intentionally excluded. The warning is required; this native semantic snapshot protects safe source content and surrounding article prose from regression. Hardening: Restore all five original data-math source values and the Quadratic Formula heading; unsupported conversion does not justify deleting source or surrounding prose."
+  },
+  "math--latex-image-services": {
+    "expectedSemanticsHash": "30cf7ba6f84a3a2057059e1982cb11987e648ac16c7c00a3f1131eb5ed2a650d",
+    "actualSemanticsHash": "fab879f24a14248599f3c9687c04d666731e0646e553c636eeb2fc5c5c618ad5",
+    "reason": "Math conversion is intentionally excluded. The warning is required; this native semantic snapshot protects safe source content and surrounding article prose from regression."
+  },
+  "math--mathjax": {
+    "expectedSemanticsHash": "837114898a192d697113e0fefc8f42b88842c16d4109c90dc3fb3ff7ad766e65",
+    "actualSemanticsHash": "f7b6ca8c0d06e5aa8eb72b43532d23de21ec9ba7dc201f590022411f4b3f3c25",
+    "reason": "Math conversion is intentionally excluded. The warning is required; this native semantic snapshot protects safe source content and surrounding article prose from regression."
+  },
+  "math--mathjax-chtml-no-assistive": {
+    "expectedSemanticsHash": "d524809a2c99b1d859248d62130300e95dc60e9d393c6dd1e32a3631058da932",
+    "actualSemanticsHash": "d1f6b05e9a115f2e6258dc300ca246c5aa30513927e593577bcdca531f8919b8",
+    "reason": "Math conversion is intentionally excluded. The warning is required; this native semantic snapshot protects safe source content and surrounding article prose from regression."
+  },
+  "math--mathjax-svg": {
+    "expectedSemanticsHash": "b59254b125aeca756bef17508a0fda17a739ac3c35f0a47bf0e86f73fc6b5d22",
+    "actualSemanticsHash": "3e9b607087dc7c5461515ea0e6c148a37eece7b51baceca8d5013fa61a124e06",
+    "reason": "Math conversion is intentionally excluded. The warning is required; this native semantic snapshot protects safe source content and surrounding article prose from regression."
+  },
+  "math--mathjax-tagged-equation": {
+    "expectedSemanticsHash": "703499559a52a4b677630dc5e2181e6f37d758cc87bbb73e0680bfa3c5b0b973",
+    "actualSemanticsHash": "0efe673ee9a358f840765289317d43d4e4f0dc82969051779c68c70d258c8e66",
+    "reason": "Math conversion is intentionally excluded. The warning is required; this native semantic snapshot protects safe source content and surrounding article prose from regression."
+  },
+  "math--mathjax-tex-scripts": {
+    "expectedSemanticsHash": "ebe09a3186ec572eeaccc58429cc2f528a2e04752d099f10050634739cdbb875",
+    "actualSemanticsHash": "00d70049bc4f164da5a03ff7adb2f46b2668ba5cdab6328a632f709fb1a32080",
+    "reason": "Math conversion is intentionally excluded. The warning is required; this native semantic snapshot protects safe source content and surrounding article prose from regression."
+  },
+  "math--raw-latex": {
+    "expectedSemanticsHash": "972c97ed74287290d29c0895461af25eabc843426b86565a4b2ca464bbb2b8b9",
+    "actualSemanticsHash": "266cfb90a0971b392dd6bf57dc997ccce2c21587a35737315857a670087d620f",
+    "reason": "Math conversion is intentionally excluded. The warning is required; this native semantic snapshot protects safe source content and surrounding article prose from regression."
+  },
+  "math--small-equation-image": {
+    "expectedSemanticsHash": "847ad09fef3252f0682e463e8ef93bf6439e9224770bd18ef08db682fe7286ae",
+    "actualSemanticsHash": "156b656ef37c97de245b236e1832b2066ed149d04378ae07dc9a051ab2641477",
+    "reason": "Math conversion is intentionally excluded. The warning is required; this native semantic snapshot protects safe source content and surrounding article prose from regression."
+  },
+  "math--temml": {
+    "expectedSemanticsHash": "62ea3c06b61a6db2122d0d14ceac6341061b566401cbe6f28b8a9886fd679e8e",
+    "actualSemanticsHash": "f27826c86fa0dcb5c912170a631bca202d71da7940da400e5a2daeff7f4d6e8f",
+    "reason": "Math conversion is intentionally excluded. The warning is required; this native semantic snapshot protects safe source content and surrounding article prose from regression."
+  },
+  "math--wikipedia-mathml": {
+    "expectedSemanticsHash": "89f4cc44346824084d8c29e09e9a01e466a494bff27e63313ee1acfd704cc5c4",
+    "actualSemanticsHash": "462bcb3de937b172063307f2e94701d30f95979599d866c77bf346135dc8cb44",
+    "reason": "Math conversion is intentionally excluded. The warning is required; this native semantic snapshot protects safe source content and surrounding article prose from regression. Hardening: Retain original MathML annotation encoding and literal source while preserving surrounding article prose."
+  },
+  "metadata--295-header-date-above-title": {
+    "expectedSemanticsHash": "7c71cf96152a96bcde3adb6385b23b285c32a3d9e2029d27a93b745483ef4b6b",
+    "actualSemanticsHash": "7c71cf96152a96bcde3adb6385b23b285c32a3d9e2029d27a93b745483ef4b6b"
+  },
+  "metadata--295-suggested-post-date": {
+    "expectedSemanticsHash": "7c71cf96152a96bcde3adb6385b23b285c32a3d9e2029d27a93b745483ef4b6b",
+    "actualSemanticsHash": "7c71cf96152a96bcde3adb6385b23b285c32a3d9e2029d27a93b745483ef4b6b"
+  },
+  "metadata--author-by-prefix-and-url": {
+    "expectedSemanticsHash": "41f5623a85ddbc9199828bea6d55e80a3d681cdae6affb8df486b3b61b546695",
+    "actualSemanticsHash": "41f5623a85ddbc9199828bea6d55e80a3d681cdae6affb8df486b3b61b546695"
+  },
+  "metadata--date-adjacent-category-link": {
+    "expectedSemanticsHash": "224d6c4515729a41882694e64f54163f926f1b5ce33df6666e2003aae5ce0ae8",
+    "actualSemanticsHash": "224d6c4515729a41882694e64f54163f926f1b5ce33df6666e2003aae5ce0ae8"
+  },
+  "metadata--email-style-header-block": {
+    "expectedSemanticsHash": "b23452905ae56dec4c4425da8d40edabb4bf2fb7c9a0a3a1a54172789da35529",
+    "actualSemanticsHash": "b23452905ae56dec4c4425da8d40edabb4bf2fb7c9a0a3a1a54172789da35529"
+  },
+  "metadata--h1-sibling-byline": {
+    "expectedSemanticsHash": "e8b67de81756a3fe488f7c9c371db357fe0a9f197dd7f0cbc2120b90c4315fb5",
+    "actualSemanticsHash": "e8b67de81756a3fe488f7c9c371db357fe0a9f197dd7f0cbc2120b90c4315fb5"
+  },
+  "metadata--multi-script-values": {
+    "expectedSemanticsHash": "234c9e4c54aeacd1924246f465dbb820c05e7b4b09a887288a393d4875d74872",
+    "actualSemanticsHash": "234c9e4c54aeacd1924246f465dbb820c05e7b4b09a887288a393d4875d74872"
+  },
+  "metadata--placeholder-author-and-duplicate-published": {
+    "expectedSemanticsHash": "927ff6b03204fa7d30c0b418426a5084a8fc924c2f907e4aac1807937eb208b3",
+    "actualSemanticsHash": "927ff6b03204fa7d30c0b418426a5084a8fc924c2f907e4aac1807937eb208b3"
+  },
+  "metadata--placeholder-values": {
+    "expectedSemanticsHash": "1101a99dad78f2c4a6e6b9c14e5f642a7e54ffa009750590d5097a0cc7f758f0",
+    "actualSemanticsHash": "1101a99dad78f2c4a6e6b9c14e5f642a7e54ffa009750590d5097a0cc7f758f0"
+  },
+  "metadata--rel-author-in-bio-container": {
+    "expectedSemanticsHash": "cef6328c9a95e7cabbc42a5c994a255bdcf4539f0d3161c43b0202f8c290d56f",
+    "actualSemanticsHash": "cef6328c9a95e7cabbc42a5c994a255bdcf4539f0d3161c43b0202f8c290d56f"
+  },
+  "related--inline-related-stories-block": {
+    "expectedSemanticsHash": "83c3683d048e8bd2df9f1a062701fd8ae22d1687531f8d2ed8194f6a209d16ca",
+    "actualSemanticsHash": "83c3683d048e8bd2df9f1a062701fd8ae22d1687531f8d2ed8194f6a209d16ca"
+  },
+  "scoring--related-posts-byline": {
+    "expectedSemanticsHash": "3df2042f3fd9bb25e4fe4f2a87fabbe571a2899f0f76d9c26b44f2e25b5cdf0d",
+    "actualSemanticsHash": "3df2042f3fd9bb25e4fe4f2a87fabbe571a2899f0f76d9c26b44f2e25b5cdf0d"
+  },
+  "scoring--table-with-links": {
+    "expectedSemanticsHash": "d1388ead4b7d1b9b140b11149b514854aebe9c2e9da2eeae7f2a754797e428da",
+    "actualSemanticsHash": "d1388ead4b7d1b9b140b11149b514854aebe9c2e9da2eeae7f2a754797e428da"
+  },
+  "security--markdown-image-escaping": {
+    "expectedSemanticsHash": "6af50644c4abfc1d128cc7a8890cfbe5f147f910b18dca6ef0814b7362a7dfb9",
+    "actualSemanticsHash": "6af50644c4abfc1d128cc7a8890cfbe5f147f910b18dca6ef0814b7362a7dfb9"
+  },
+  "security--math-literal-text": {
+    "expectedSemanticsHash": "23478fa5c45b43af657e69a4d62d7167c0bd5d3d3d52d75ddbcfee4d1c6e9550",
+    "actualSemanticsHash": "d6b36e6b4b49d71e22b09b993490aad7fc6c2565152da60c00daab75c2197eaa",
+    "reason": "Math conversion is intentionally excluded. The warning is required; this native semantic snapshot protects safe source content and surrounding article prose from regression."
+  },
+  "selectors--arm-newsroom": {
+    "expectedSemanticsHash": "72cf37be506177ab76a6e00324db4360c5c845e89780752f7f6b640104b0e01f",
+    "actualSemanticsHash": "72cf37be506177ab76a6e00324db4360c5c845e89780752f7f6b640104b0e01f"
+  },
+  "selectors--logo-substring-wrapper": {
+    "expectedSemanticsHash": "eca607c5a5447135196c172aee744fff8efb17b416270a09d5f0dcb59128ecde",
+    "actualSemanticsHash": "eca607c5a5447135196c172aee744fff8efb17b416270a09d5f0dcb59128ecde"
+  },
+  "small-images--svg-icon-viewbox": {
+    "expectedSemanticsHash": "73475f944a2f347dc3b32a308cf3eb86e4d6c580168bed197bed1ed499a53728",
+    "actualSemanticsHash": "73475f944a2f347dc3b32a308cf3eb86e4d6c580168bed197bed1ed499a53728"
+  },
+  "standardize--span-data-as-paragraph": {
+    "expectedSemanticsHash": "bf444d09c6c0c53422b3dcd5eb106d654d4406f2cebb7d65369d5f8e12d0ec82",
+    "actualSemanticsHash": "bf444d09c6c0c53422b3dcd5eb106d654d4406f2cebb7d65369d5f8e12d0ec82"
+  },
+  "table-layout--blogger-two-column": {
+    "expectedSemanticsHash": "92cefc4e4421dc75b13df806eb9c1d6b98c3e71b2a083474dbc3390f5127d426",
+    "actualSemanticsHash": "dbfc1965edf982b82d2244a998f073fbed7fa034969f2621abe262c125176817",
+    "reason": "Normalize whitespace at explicit line-break boundaries and legacy font wrappers. Quoted prose, comment destination, emphasis, and rendered Markdown survive."
+  },
+  "table-layout--paulgraham.com-makersschedule": {
+    "expectedSemanticsHash": "d9c3f01162542de872c08b1474c675b828b5f7c701515895f0a4e72cbe9fb14c",
+    "actualSemanticsHash": "c754004e9e01d894db6520d35b7b2da4d42674cc637e9f8806484f6098236572",
+    "reason": "The HTML5 parser closes and reopens deprecated font wrappers that span paragraphs. Text, links, emphasis, explicit breaks, and rendered Markdown survive."
+  },
+  "table-layout--peripheral-tables": {
+    "expectedSemanticsHash": "551fe38db05dd6439d9e33be60af6b118b451a929f4a44c3bec2eb9e1eb82027",
+    "actualSemanticsHash": "551fe38db05dd6439d9e33be60af6b118b451a929f4a44c3bec2eb9e1eb82027"
+  },
+  "table-layout--single-column": {
+    "expectedSemanticsHash": "10b2547e989c4741dff3f94b7d3c6ff76a1f2b4f27a626896f0b0db3cad9f087",
+    "actualSemanticsHash": "10b2547e989c4741dff3f94b7d3c6ff76a1f2b4f27a626896f0b0db3cad9f087"
+  },
+  "thin-section-before-see-also": {
+    "expectedSemanticsHash": "e32f5cd4b2db1e5ba4a55718aa26f6df18d2e645e0ddd97541afa8f506da4031",
+    "actualSemanticsHash": "e32f5cd4b2db1e5ba4a55718aa26f6df18d2e645e0ddd97541afa8f506da4031"
+  }
+}

@@ -1,0 +1,981 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Crude oil prices have been steadily climbing since the start of the year, driven by new trade agreements and supply constraints."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "svg",
+      "attributes": [
+        [
+          "height",
+          "200"
+        ],
+        [
+          "viewBox",
+          "0 0 400 200"
+        ],
+        [
+          "width",
+          "400"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "g",
+          "attributes": [
+            [
+              "transform",
+              "translate(30, 10)"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "element",
+              "name": "g",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "g",
+                  "attributes": [
+                    [
+                      "transform",
+                      "translate(0,170)"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "line",
+                      "attributes": [
+                        [
+                          "stroke",
+                          "currentColor"
+                        ],
+                        [
+                          "stroke-opacity",
+                          "0.2"
+                        ],
+                        [
+                          "x1",
+                          "0"
+                        ],
+                        [
+                          "x2",
+                          "350"
+                        ],
+                        [
+                          "y1",
+                          "0"
+                        ],
+                        [
+                          "y2",
+                          "0"
+                        ]
+                      ],
+                      "children": []
+                    },
+                    {
+                      "kind": "element",
+                      "name": "text",
+                      "attributes": [
+                        [
+                          "x",
+                          "0"
+                        ],
+                        [
+                          "y",
+                          "27"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "Jan."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "g",
+                  "attributes": [
+                    [
+                      "transform",
+                      "translate(175,170)"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "line",
+                      "attributes": [
+                        [
+                          "stroke",
+                          "currentColor"
+                        ],
+                        [
+                          "stroke-opacity",
+                          "0.2"
+                        ],
+                        [
+                          "x1",
+                          "0"
+                        ],
+                        [
+                          "x2",
+                          "0"
+                        ],
+                        [
+                          "y1",
+                          "-170"
+                        ],
+                        [
+                          "y2",
+                          "0"
+                        ]
+                      ],
+                      "children": []
+                    },
+                    {
+                      "kind": "element",
+                      "name": "text",
+                      "attributes": [
+                        [
+                          "x",
+                          "0"
+                        ],
+                        [
+                          "y",
+                          "27"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "Feb."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "g",
+                  "attributes": [
+                    [
+                      "transform",
+                      "translate(350,170)"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "line",
+                      "attributes": [
+                        [
+                          "stroke",
+                          "currentColor"
+                        ],
+                        [
+                          "stroke-opacity",
+                          "0.2"
+                        ],
+                        [
+                          "x1",
+                          "0"
+                        ],
+                        [
+                          "x2",
+                          "0"
+                        ],
+                        [
+                          "y1",
+                          "-170"
+                        ],
+                        [
+                          "y2",
+                          "0"
+                        ]
+                      ],
+                      "children": []
+                    },
+                    {
+                      "kind": "element",
+                      "name": "text",
+                      "attributes": [
+                        [
+                          "x",
+                          "0"
+                        ],
+                        [
+                          "y",
+                          "27"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "March"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "g",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "g",
+                  "attributes": [
+                    [
+                      "transform",
+                      "translate(0, 170)"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "line",
+                      "attributes": [
+                        [
+                          "stroke",
+                          "currentColor"
+                        ],
+                        [
+                          "stroke-opacity",
+                          "0.2"
+                        ],
+                        [
+                          "x1",
+                          "-30"
+                        ],
+                        [
+                          "x2",
+                          "350"
+                        ],
+                        [
+                          "y1",
+                          "0"
+                        ],
+                        [
+                          "y2",
+                          "0"
+                        ]
+                      ],
+                      "children": []
+                    },
+                    {
+                      "kind": "element",
+                      "name": "text",
+                      "attributes": [
+                        [
+                          "x",
+                          "-30"
+                        ],
+                        [
+                          "y",
+                          "0"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "$0"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "g",
+                  "attributes": [
+                    [
+                      "transform",
+                      "translate(0, 85)"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "line",
+                      "attributes": [
+                        [
+                          "stroke",
+                          "currentColor"
+                        ],
+                        [
+                          "stroke-opacity",
+                          "0.2"
+                        ],
+                        [
+                          "x1",
+                          "-30"
+                        ],
+                        [
+                          "x2",
+                          "350"
+                        ],
+                        [
+                          "y1",
+                          "0"
+                        ],
+                        [
+                          "y2",
+                          "0"
+                        ]
+                      ],
+                      "children": []
+                    },
+                    {
+                      "kind": "element",
+                      "name": "text",
+                      "attributes": [
+                        [
+                          "x",
+                          "-30"
+                        ],
+                        [
+                          "y",
+                          "0"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "$50"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "g",
+                  "attributes": [
+                    [
+                      "transform",
+                      "translate(0, 0)"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "line",
+                      "attributes": [
+                        [
+                          "stroke",
+                          "currentColor"
+                        ],
+                        [
+                          "stroke-opacity",
+                          "0.2"
+                        ],
+                        [
+                          "x1",
+                          "-30"
+                        ],
+                        [
+                          "x2",
+                          "350"
+                        ],
+                        [
+                          "y1",
+                          "0"
+                        ],
+                        [
+                          "y2",
+                          "0"
+                        ]
+                      ],
+                      "children": []
+                    },
+                    {
+                      "kind": "element",
+                      "name": "text",
+                      "attributes": [
+                        [
+                          "x",
+                          "-30"
+                        ],
+                        [
+                          "y",
+                          "0"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "$100"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "path",
+              "attributes": [
+                [
+                  "d",
+                  "M0,120L100,100L200,60L300,40L350,50 L350,170 L0,170 Z"
+                ],
+                [
+                  "fill",
+                  "none"
+                ]
+              ],
+              "children": []
+            },
+            {
+              "kind": "element",
+              "name": "path",
+              "attributes": [
+                [
+                  "d",
+                  "M0,120L100,100L200,60L300,40L350,50"
+                ],
+                [
+                  "fill",
+                  "none"
+                ],
+                [
+                  "stroke",
+                  "currentColor"
+                ]
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Analysts expect prices to remain elevated through the end of the quarter as demand continues to outpace production increases."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Crude oil prices have been steadily climbing since the start of the year, driven by new trade agreements and supply constraints."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "svg",
+      "attributes": [
+        [
+          "height",
+          "200"
+        ],
+        [
+          "viewBox",
+          "0 0 400 200"
+        ],
+        [
+          "width",
+          "400"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "g",
+          "attributes": [
+            [
+              "transform",
+              "translate(30, 10)"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "element",
+              "name": "g",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "g",
+                  "attributes": [
+                    [
+                      "transform",
+                      "translate(0,170)"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "line",
+                      "attributes": [
+                        [
+                          "stroke",
+                          "currentColor"
+                        ],
+                        [
+                          "stroke-opacity",
+                          "0.2"
+                        ],
+                        [
+                          "x1",
+                          "0"
+                        ],
+                        [
+                          "x2",
+                          "350"
+                        ],
+                        [
+                          "y1",
+                          "0"
+                        ],
+                        [
+                          "y2",
+                          "0"
+                        ]
+                      ],
+                      "children": []
+                    },
+                    {
+                      "kind": "element",
+                      "name": "text",
+                      "attributes": [
+                        [
+                          "x",
+                          "0"
+                        ],
+                        [
+                          "y",
+                          "27"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "Jan."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "g",
+                  "attributes": [
+                    [
+                      "transform",
+                      "translate(175,170)"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "line",
+                      "attributes": [
+                        [
+                          "stroke",
+                          "currentColor"
+                        ],
+                        [
+                          "stroke-opacity",
+                          "0.2"
+                        ],
+                        [
+                          "x1",
+                          "0"
+                        ],
+                        [
+                          "x2",
+                          "0"
+                        ],
+                        [
+                          "y1",
+                          "-170"
+                        ],
+                        [
+                          "y2",
+                          "0"
+                        ]
+                      ],
+                      "children": []
+                    },
+                    {
+                      "kind": "element",
+                      "name": "text",
+                      "attributes": [
+                        [
+                          "x",
+                          "0"
+                        ],
+                        [
+                          "y",
+                          "27"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "Feb."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "g",
+                  "attributes": [
+                    [
+                      "transform",
+                      "translate(350,170)"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "line",
+                      "attributes": [
+                        [
+                          "stroke",
+                          "currentColor"
+                        ],
+                        [
+                          "stroke-opacity",
+                          "0.2"
+                        ],
+                        [
+                          "x1",
+                          "0"
+                        ],
+                        [
+                          "x2",
+                          "0"
+                        ],
+                        [
+                          "y1",
+                          "-170"
+                        ],
+                        [
+                          "y2",
+                          "0"
+                        ]
+                      ],
+                      "children": []
+                    },
+                    {
+                      "kind": "element",
+                      "name": "text",
+                      "attributes": [
+                        [
+                          "x",
+                          "0"
+                        ],
+                        [
+                          "y",
+                          "27"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "March"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "g",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "g",
+                  "attributes": [
+                    [
+                      "transform",
+                      "translate(0, 170)"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "line",
+                      "attributes": [
+                        [
+                          "stroke",
+                          "currentColor"
+                        ],
+                        [
+                          "stroke-opacity",
+                          "0.2"
+                        ],
+                        [
+                          "x1",
+                          "-30"
+                        ],
+                        [
+                          "x2",
+                          "350"
+                        ],
+                        [
+                          "y1",
+                          "0"
+                        ],
+                        [
+                          "y2",
+                          "0"
+                        ]
+                      ],
+                      "children": []
+                    },
+                    {
+                      "kind": "element",
+                      "name": "text",
+                      "attributes": [
+                        [
+                          "x",
+                          "-30"
+                        ],
+                        [
+                          "y",
+                          "0"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "$0"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "g",
+                  "attributes": [
+                    [
+                      "transform",
+                      "translate(0, 85)"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "line",
+                      "attributes": [
+                        [
+                          "stroke",
+                          "currentColor"
+                        ],
+                        [
+                          "stroke-opacity",
+                          "0.2"
+                        ],
+                        [
+                          "x1",
+                          "-30"
+                        ],
+                        [
+                          "x2",
+                          "350"
+                        ],
+                        [
+                          "y1",
+                          "0"
+                        ],
+                        [
+                          "y2",
+                          "0"
+                        ]
+                      ],
+                      "children": []
+                    },
+                    {
+                      "kind": "element",
+                      "name": "text",
+                      "attributes": [
+                        [
+                          "x",
+                          "-30"
+                        ],
+                        [
+                          "y",
+                          "0"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "$50"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "g",
+                  "attributes": [
+                    [
+                      "transform",
+                      "translate(0, 0)"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "line",
+                      "attributes": [
+                        [
+                          "stroke",
+                          "currentColor"
+                        ],
+                        [
+                          "stroke-opacity",
+                          "0.2"
+                        ],
+                        [
+                          "x1",
+                          "-30"
+                        ],
+                        [
+                          "x2",
+                          "350"
+                        ],
+                        [
+                          "y1",
+                          "0"
+                        ],
+                        [
+                          "y2",
+                          "0"
+                        ]
+                      ],
+                      "children": []
+                    },
+                    {
+                      "kind": "element",
+                      "name": "text",
+                      "attributes": [
+                        [
+                          "x",
+                          "-30"
+                        ],
+                        [
+                          "y",
+                          "0"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "$100"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "path",
+              "attributes": [
+                [
+                  "d",
+                  "M0,120L100,100L200,60L300,40L350,50 L350,170 L0,170 Z"
+                ],
+                [
+                  "fill",
+                  "none"
+                ]
+              ],
+              "children": []
+            },
+            {
+              "kind": "element",
+              "name": "path",
+              "attributes": [
+                [
+                  "d",
+                  "M0,120L100,100L200,60L300,40L350,50"
+                ],
+                [
+                  "fill",
+                  "none"
+                ],
+                [
+                  "stroke",
+                  "currentColor"
+                ]
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Analysts expect prices to remain elevated through the end of the quarter as demand continues to outpace production increases."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Jane Reporter",
+    "title": "Oil Prices Rise After New Trade Agreement",
+    "description": "",
+    "domain": "example.com",
+    "favicon": "https://example.com/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": "Jane Reporter"
+  },
+  "warnings": [],
+  "wordCount": 46,
+  "extractorType": null
+}

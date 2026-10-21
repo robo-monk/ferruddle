@@ -1,0 +1,89 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Install the package and run your first job:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "npm install example-sdk\n\nconst sdk = require('example-sdk');\nconst result = await sdk.run({ task: 'hello' });\nconsole.log(result);"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "You can also pass options:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "typescript",
+      "text": "interface Options {\n  task: string;\n  model?: string;\n  maxSteps?: number;\n}"
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Install the package and run your first job:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "npm install example-sdk\n\nconst sdk = require('example-sdk');\nconst result = await sdk.run({ task: 'hello' });\nconsole.log(result);"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "You can also pass options:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "typescript",
+      "text": "interface Options {\n  task: string;\n  model?: string;\n  maxSteps?: number;\n}"
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Example Docs",
+    "title": "Quickstart",
+    "description": "Get started quickly.",
+    "domain": "example.com",
+    "favicon": "https://example.com/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 39,
+  "extractorType": null
+}

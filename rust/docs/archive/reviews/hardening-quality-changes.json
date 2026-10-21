@@ -1,0 +1,155 @@
+{
+  "baseline": "pre-hardening quality diagnostic; 226 real upstream cases",
+  "upstreamInputsAndExpectationsChanged": false,
+  "readableSnapshots": 226,
+  "changedSnapshots": [
+    {
+      "id": "general--x.com-article",
+      "reason": "Remove body meta directives and their now-empty wrapper unconditionally; the reference retains inert meta elements, but navigation/resource directives must not survive any cleanup option.",
+      "snapshotFields": [
+        "html"
+      ],
+      "beforeHtmlSemanticsHash": "546ad29394e42c2849b826ac30baac60e82d102f2fcf1646d4a22691b0d54915",
+      "afterHtmlSemanticsHash": "639f3b840ba9524af3dfd505dcf71c6de12a358465692d2beb02f07385350288",
+      "beforeMarkdownSemanticsHash": "639f3b840ba9524af3dfd505dcf71c6de12a358465692d2beb02f07385350288",
+      "afterMarkdownSemanticsHash": "639f3b840ba9524af3dfd505dcf71c6de12a358465692d2beb02f07385350288"
+    },
+    {
+      "id": "issues--141-arxiv-equation-tables",
+      "reason": "Preserve original MathML annotation encoding and literal TeX text through Markdown parsing; underscores/backslashes must not become Markdown structure.",
+      "snapshotFields": [
+        "html",
+        "markdown"
+      ],
+      "beforeHtmlSemanticsHash": "f1b8edfbef363b4379f35209114cb00cfb678cf6d8ced62754b629cc1408cd50",
+      "afterHtmlSemanticsHash": "29f531c0ddea2f5f8806ef26a57ca04f3a15899c6bf8044f83cf0e5196af3c25",
+      "beforeMarkdownSemanticsHash": "17b22259aa14fbb0252057bd2397aa5f509b62b96012453b96b442406a3b9a75",
+      "afterMarkdownSemanticsHash": "3d184be9c5fbe5bd2a6d82512d258a198e7d546698ebfdd73f6f82e3966d65d1"
+    },
+    {
+      "id": "math--equation-table-mathml",
+      "reason": "Retain original MathML annotation encoding and source text, without translating formulas.",
+      "snapshotFields": [
+        "html",
+        "markdown"
+      ],
+      "beforeHtmlSemanticsHash": "60af2185d04393a82f753e8581fb6ab0855f2f49c487bbdc8aee7c12d0b6cafd",
+      "afterHtmlSemanticsHash": "997b1e7b96ad668e4fd2e7fb924079f28aaa4bbfad943185c0b96b682effe385",
+      "beforeMarkdownSemanticsHash": "a37b68579310379ad7917f20eb1ceb3365c6a7bc27fa0c53e7d4e6062fd4b418",
+      "afterMarkdownSemanticsHash": "bea07a05b5d29adf3f2dbaba454d8fb573809a28561a5a33e76ee1e8a5a15003"
+    },
+    {
+      "id": "math--katex",
+      "reason": "Retain original KaTeX MathML source annotations, including their encoding, rather than stripping source-identification attributes.",
+      "snapshotFields": [
+        "html",
+        "markdown"
+      ],
+      "beforeHtmlSemanticsHash": "bcb7a28cf5b98ef6110d53aa5a7868cf145a6c05f5710a1eea060042457f90cd",
+      "afterHtmlSemanticsHash": "1535c0aa56b3a74f0e01f91f7fa93c24d6452dd06f97a361a3ccf69a769563c8",
+      "beforeMarkdownSemanticsHash": "ddb23aa07c34dcf3b2c0ba96d54e58c036021a7307146da41330611a36312dac",
+      "afterMarkdownSemanticsHash": "1535c0aa56b3a74f0e01f91f7fa93c24d6452dd06f97a361a3ccf69a769563c8"
+    },
+    {
+      "id": "math--katex-centraliser",
+      "reason": "Retain all 28 original MathML source annotations with encoding and exact source signatures.",
+      "snapshotFields": [
+        "html",
+        "markdown"
+      ],
+      "beforeHtmlSemanticsHash": "8bad72987a4a0c009f4c256d0df451222c27043b8526fcc76d593e57eb2294bf",
+      "afterHtmlSemanticsHash": "cb3ac2f598b36e8b1935099ab1a58964e6b645ae8fd8167dbae6ac3ad224631e",
+      "beforeMarkdownSemanticsHash": "7e99e5243066dfdb19198177a4fc1b1f31f7a031acbd11a4f8e1c5f1bc52864b",
+      "afterMarkdownSemanticsHash": "305542e3ca66e3ba594c86917fc7e9a8198608d25e860b98ccb9a9b3e55b2dd5"
+    },
+    {
+      "id": "math--katex-data-math",
+      "reason": "Restore all five original data-math source values and the Quadratic Formula heading; unsupported conversion does not justify deleting source or surrounding prose.",
+      "snapshotFields": [
+        "html",
+        "markdown",
+        "wordCount"
+      ],
+      "beforeHtmlSemanticsHash": "1cd4e3395962f940dd8178bc524b4098370e067a15295af7953b042e4a4a82cc",
+      "afterHtmlSemanticsHash": "25fb28b62bbd5646716ea67abd2a87496bb9716518740e93e5ebb9667b06f380",
+      "beforeMarkdownSemanticsHash": "1cd4e3395962f940dd8178bc524b4098370e067a15295af7953b042e4a4a82cc",
+      "afterMarkdownSemanticsHash": "25fb28b62bbd5646716ea67abd2a87496bb9716518740e93e5ebb9667b06f380"
+    },
+    {
+      "id": "math--mathjax",
+      "reason": "Retain original MathJax source containers and protect raw-source whitespace/punctuation so CommonMark cannot swallow later prose.",
+      "snapshotFields": [
+        "markdown"
+      ],
+      "beforeHtmlSemanticsHash": "f7b6ca8c0d06e5aa8eb72b43532d23de21ec9ba7dc201f590022411f4b3f3c25",
+      "afterHtmlSemanticsHash": "f7b6ca8c0d06e5aa8eb72b43532d23de21ec9ba7dc201f590022411f4b3f3c25",
+      "beforeMarkdownSemanticsHash": "7c20f2b0daaf341ab5ab055cc76d55accfe07757bc7f893f71f782e289f5a3a5",
+      "afterMarkdownSemanticsHash": "737d445e60d88fd8321c234963afa6e52bd0026ee79e009b6f696f46ce5cc25a"
+    },
+    {
+      "id": "math--mathjax-chtml-no-assistive",
+      "reason": "Preserve the four original CHTML source trees rather than flattening their mathematical structure into concatenated text; omit the original empty lazy placeholder.",
+      "snapshotFields": [
+        "markdown"
+      ],
+      "beforeHtmlSemanticsHash": "d1f6b05e9a115f2e6258dc300ca246c5aa30513927e593577bcdca531f8919b8",
+      "afterHtmlSemanticsHash": "d1f6b05e9a115f2e6258dc300ca246c5aa30513927e593577bcdca531f8919b8",
+      "beforeMarkdownSemanticsHash": "27f811590a00f14c03aa94ffaa2f4a123c3578a584ff35f0027dd0fe58fdc115",
+      "afterMarkdownSemanticsHash": "e34e26fa91daf76ac0cc9682e8c9e75a796189e5bca745f7336f00a002c5a4e3"
+    },
+    {
+      "id": "math--mathjax-svg",
+      "reason": "Preserve safe original MathJax/MathML source structure and literal text when rendered Markdown is reparsed.",
+      "snapshotFields": [
+        "markdown"
+      ],
+      "beforeHtmlSemanticsHash": "3e9b607087dc7c5461515ea0e6c148a37eece7b51baceca8d5013fa61a124e06",
+      "afterHtmlSemanticsHash": "3e9b607087dc7c5461515ea0e6c148a37eece7b51baceca8d5013fa61a124e06",
+      "beforeMarkdownSemanticsHash": "0b40359d61238f94ec6459c61f4b18019b510a62bb11972d29e46a69374fa017",
+      "afterMarkdownSemanticsHash": "e1e191d4efe8ada6cb07e469a354727d822e1d1c1d3955f04fe336a8d8e552a1"
+    },
+    {
+      "id": "math--mathjax-tagged-equation",
+      "reason": "Preserve original math source containers and source text without Markdown punctuation or indentation altering them.",
+      "snapshotFields": [
+        "markdown"
+      ],
+      "beforeHtmlSemanticsHash": "0efe673ee9a358f840765289317d43d4e4f0dc82969051779c68c70d258c8e66",
+      "afterHtmlSemanticsHash": "0efe673ee9a358f840765289317d43d4e4f0dc82969051779c68c70d258c8e66",
+      "beforeMarkdownSemanticsHash": "684b89ee9334853d5646bfe43720628592c91a3b68508459a2292a931692a79d",
+      "afterMarkdownSemanticsHash": "c591fa8961748e3a18ceac77d6239611b1d9b5479aabb968b72851df836f3f8d"
+    },
+    {
+      "id": "math--mathjax-tex-scripts",
+      "reason": "Preserve the original inert math-script whitespace as literal code, rather than normalizing authored newlines to spaces.",
+      "snapshotFields": [
+        "markdown"
+      ],
+      "beforeHtmlSemanticsHash": "00d70049bc4f164da5a03ff7adb2f46b2668ba5cdab6328a632f709fb1a32080",
+      "afterHtmlSemanticsHash": "00d70049bc4f164da5a03ff7adb2f46b2668ba5cdab6328a632f709fb1a32080",
+      "beforeMarkdownSemanticsHash": "43826854289ca3d33f37474dd12189b3b267952879d065441ffc3445bb124b95",
+      "afterMarkdownSemanticsHash": "ad57f6d54a6f0a796a12b7700a19612810e24f95960d392f41ae7d7c64f95a70"
+    },
+    {
+      "id": "math--wikipedia-mathml",
+      "reason": "Retain original MathML annotation encoding and literal source while preserving surrounding article prose.",
+      "snapshotFields": [
+        "html",
+        "markdown"
+      ],
+      "beforeHtmlSemanticsHash": "9b6e47fc7db62eb5a4cf4f7e24d322eddf57694f01470ac1a6ee2517845c561f",
+      "afterHtmlSemanticsHash": "462bcb3de937b172063307f2e94701d30f95979599d866c77bf346135dc8cb44",
+      "beforeMarkdownSemanticsHash": "48762a48bfd9ba8024dcc6cbeff50b52c58498d7f21de6ea9fb9caa6fd3ec192",
+      "afterMarkdownSemanticsHash": "9cd4cf419dfc8bce171f6378d2debf56a49bf9ec48034b323a7a778997a42cde"
+    }
+  ],
+  "newGates": [
+    "reference prose multiset preservation in HTML and rendered Markdown",
+    "18 case-specific original source contracts in HTML and rendered Markdown",
+    "complete readable native semantic and metadata snapshots",
+    "expanded unconditional sanitizer checks"
+  ],
+  "baselineProseGate": "fails exactly math--katex-data-math, missing Quadratic Formula in HTML and Markdown",
+  "currentProseGate": "passes all226 cases",
+  "reasonForMoreThanQ4MathChanges": "Stronger source signatures exposed prior annotation/source loss; literal-source and encoding preservation require reviewing additional math snapshots, without formula conversion."
+}

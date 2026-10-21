@@ -1,0 +1,20 @@
+{
+  "id": "issues--preferred-async-empty",
+  "url": "https://example.com/article",
+  "inputHtml": "<!-- {\"url\":\"https://example.com/article\"} -->\n<!doctype html>\n<html lang=\"en\">\n<head><title>Available Article</title></head>\n<body>\n\t<nav><a href=\"/\">Home</a></nav>\n\t<article>\n\t\t<p>This article remains available in the page when an external content source returns nothing. Its paragraphs should still be extracted so readers can access the information already present in the document.</p>\n\t\t<p>A failed external lookup should not hide this second paragraph either. The article contains useful text independently of that service, while navigation and footer text belong outside the extracted result.</p>\n\t</article>\n\t<footer>Copyright 2026 Example Site</footer>\n</body>\n</html>\n",
+  "inputSha256": "2126b8c1b3192e458af3dd12a012dabb43cb27d47c74de3d982b91387b4b873c",
+  "upstreamFixture": "tests/fixtures/issues--preferred-async-empty.html",
+  "markdownGoldenSha256": "d96f8377cfb2ff428cd29e2b6184f528b9dd1c0ae20549165c5561c7048e86ec",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article> <p>This article remains available in the page when an external content source returns nothing. Its paragraphs should still be extracted so readers can access the information already present in the document.</p> <p>A failed external lookup should not hide this second paragraph either. The article contains useful text independently of that service, while navigation and footer text belong outside the extracted result.</p> </article>",
+    "contentMarkdown": "This article remains available in the page when an external content source returns nothing. Its paragraphs should still be extracted so readers can access the information already present in the document.\n\nA failed external lookup should not hide this second paragraph either. The article contains useful text independently of that service, while navigation and footer text belong outside the extracted result.",
+    "title": "Available Article",
+    "author": "",
+    "site": "example.com",
+    "published": "",
+    "wordCount": 61,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

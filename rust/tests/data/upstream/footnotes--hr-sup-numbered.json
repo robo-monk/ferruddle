@@ -1,0 +1,20 @@
+{
+  "id": "footnotes--hr-sup-numbered",
+  "url": "https://hr-sup-numbered",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\"/>\n  <title>Loose footnotes: sup-numbered after hr</title>\n</head>\n<body>\n  <!--\n    Pattern: inline <sup>N</sup> references in body, definitions after <hr>\n    as <p><sup>N</sup> text</p> — used by pfrazee.com/why-not-p2p style blogs.\n  -->\n  <article>\n    <h1>Loose footnotes: sup-numbered after hr</h1>\n\n    <p>The first technique is widely used.<sup>1</sup></p>\n\n    <p>The second technique has trade-offs.<sup>2</sup></p>\n\n    <p>Both approaches have merit.</p>\n\n    <hr/>\n\n    <p><sup>1</sup> This is the first footnote with more detail about the technique.</p>\n\n    <p><sup>2</sup> This is the second footnote explaining the trade-offs in depth.</p>\n\n  </article>\n</body>\n</html>\n",
+  "inputSha256": "0a96de34415085c5f315418435026c2430513a51655be60b81a727d5dc4cc565",
+  "upstreamFixture": "tests/fixtures/footnotes--hr-sup-numbered.html",
+  "markdownGoldenSha256": "3ab2ddff1934e61fc1af757365664e060d9dfcb27f3c47acccc711d4e570a104",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>The first technique is widely used.<sup id=\"fnref:1\"><a href=\"#fn:1\">1</a></sup></p> <p>The second technique has trade-offs.<sup id=\"fnref:2\"><a href=\"#fn:2\">2</a></sup></p> <p>Both approaches have merit.</p>    <div id=\"footnotes\"><ol><li id=\"fn:1\"><p>This is the first footnote with more detail about the technique.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:1\">↩</a></p></li> <li id=\"fn:2\"><p>This is the second footnote explaining the trade-offs in depth.<a class=\"footnote-backref\" title=\"return to article\" href=\"#fnref:2\">↩</a></p></li></ol></div></article>",
+    "contentMarkdown": "The first technique is widely used.[^1]\n\nThe second technique has trade-offs.[^2]\n\nBoth approaches have merit.\n\n[^1]: This is the first footnote with more detail about the technique.\n\n[^2]: This is the second footnote explaining the trade-offs in depth.",
+    "title": "Loose footnotes: sup-numbered after hr",
+    "author": "",
+    "site": "hr-sup-numbered",
+    "published": "",
+    "wordCount": 40,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

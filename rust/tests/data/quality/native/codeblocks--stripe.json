@@ -1,0 +1,383 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Use x402 for machine-to-machine payments."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "x402 is a protocol for internet payments. When a client requests a paid resource, your server returns a "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "402 Payment Required"
+        },
+        {
+          "kind": "text",
+          "text": " response with payment details. The client completes the payment and retries the request with proof of payment."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Before you begin"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "A Stripe account."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Crypto payins enabled for your account."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Machine-to-machine payments for x402 enabled."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Create your endpoint"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Add payment middleware to your endpoint so it can accept x402 payments. The middleware handles payment verification and settlement with Stripe per request to "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "/paid"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "import { paymentMiddleware } from \"@x402/hono\";\nimport { x402ResourceServer, HTTPFacilitatorClient } from \"@x402/core/server\";\n\napp.use(\n  paymentMiddleware(\n    {\n      \"GET /paid\": {\n        price: \"$0.001\",\n        network: \"base-sepolia\",\n        config: { description: \"Access to paid content\" }\n      }\n    },\n    facilitatorClient,\n    resourceServer\n  )\n);"
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Test your endpoint"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Make a request to your server without an existing payment header, and you receive a "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "402"
+        },
+        {
+          "kind": "text",
+          "text": " response with payment requirements."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "curl http://localhost:3000/paid"
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Run mainnet transactions"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "To run mainnet transactions, integrate with the mainnet facilitator and configure your environment for production use."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Use x402 for machine-to-machine payments."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "x402 is a protocol for internet payments. When a client requests a paid resource, your server returns a "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "402 Payment Required"
+        },
+        {
+          "kind": "text",
+          "text": " response with payment details. The client completes the payment and retries the request with proof of payment."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Before you begin"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "A Stripe account."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Crypto payins enabled for your account."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Machine-to-machine payments for x402 enabled."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Create your endpoint"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Add payment middleware to your endpoint so it can accept x402 payments. The middleware handles payment verification and settlement with Stripe per request to "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "/paid"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "import { paymentMiddleware } from \"@x402/hono\";\nimport { x402ResourceServer, HTTPFacilitatorClient } from \"@x402/core/server\";\n\napp.use(\n  paymentMiddleware(\n    {\n      \"GET /paid\": {\n        price: \"$0.001\",\n        network: \"base-sepolia\",\n        config: { description: \"Access to paid content\" }\n      }\n    },\n    facilitatorClient,\n    resourceServer\n  )\n);"
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Test your endpoint"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Make a request to your server without an existing payment header, and you receive a "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "402"
+        },
+        {
+          "kind": "text",
+          "text": " response with payment requirements."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "curl http://localhost:3000/paid"
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Run mainnet transactions"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "To run mainnet transactions, integrate with the mainnet facilitator and configure your environment for production use."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Stripe Documentation",
+    "title": "x402 payments",
+    "description": "Use x402 for machine-to-machine payments.",
+    "domain": "stripe",
+    "favicon": "https://stripe/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 169,
+  "extractorType": null
+}

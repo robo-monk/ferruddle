@@ -1,0 +1,250 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Inline fraction:"
+        },
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "src",
+              "https://latex.codecogs.com/svg.image?%5Cfrac%7Ba%7D%7Bb%7D"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Sum notation:"
+        },
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "src",
+              "https://latex.codecogs.com/png.latex?%5Csum_%7Bi%3D1%7D%5E%7Bn%7Da_i"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Greek letters:"
+        },
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "src",
+              "https://chart.apis.google.com/chart?cht=tx&chl=%5Calpha%2B%5Cbeta"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Path-based service:"
+        },
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "src",
+              "https://example.com/formula/%5Cfrac%7Bm%7D%7Bv%7D"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Inline fraction:"
+        },
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              ""
+            ],
+            [
+              "src",
+              "https://latex.codecogs.com/svg.image?%5Cfrac%7Ba%7D%7Bb%7D"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Sum notation:"
+        },
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              ""
+            ],
+            [
+              "src",
+              "https://latex.codecogs.com/png.latex?%5Csum_%7Bi%3D1%7D%5E%7Bn%7Da_i"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Greek letters:"
+        },
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              ""
+            ],
+            [
+              "src",
+              "https://chart.apis.google.com/chart?cht=tx&chl=%5Calpha%2B%5Cbeta"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Path-based service:"
+        },
+        {
+          "kind": "element",
+          "name": "img",
+          "attributes": [
+            [
+              "alt",
+              ""
+            ],
+            [
+              "src",
+              "https://example.com/formula/%5Cfrac%7Bm%7D%7Bv%7D"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "latex-image-services",
+    "title": "LaTeX Image Rendering Services",
+    "description": "",
+    "domain": "latex-image-services",
+    "favicon": "https://latex-image-services/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [
+    {
+      "code": "math_not_supported",
+      "message": "Math support is not yet included."
+    }
+  ],
+  "wordCount": 12,
+  "extractorType": null
+}

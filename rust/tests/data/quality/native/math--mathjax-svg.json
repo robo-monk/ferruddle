@@ -1,0 +1,1161 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "MathJax v3 SVG rendering"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We define the reward as "
+        },
+        {
+          "kind": "element",
+          "name": "mjx-container",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mjx-assistive-mml",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [
+                    [
+                      ":xmlns",
+                      "http://www.w3.org/1998/Math/MathML"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "msub",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "r"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mrow",
+                          "attributes": [
+                            [
+                              "data-mjx-texclass",
+                              "ORD"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mtext",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "perf"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The full formula is:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "mjx-container",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "mjx-assistive-mml",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "math",
+              "attributes": [
+                [
+                  ":xmlns",
+                  "http://www.w3.org/1998/Math/MathML"
+                ],
+                [
+                  "display",
+                  "block"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "msub",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mi",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "r"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mrow",
+                      "attributes": [
+                        [
+                          "data-mjx-texclass",
+                          "ORD"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mrow",
+                          "attributes": [
+                            [
+                              "data-mjx-texclass",
+                              "ORD"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mi",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "PARL"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [
+                    [
+                      "stretchy",
+                      "false"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "("
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "x"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "y"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [
+                    [
+                      "stretchy",
+                      "false"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "="
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "msub",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mi",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "λ"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mn",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "⋅"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "msub",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mi",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "r"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mrow",
+                      "attributes": [
+                        [
+                          "data-mjx-texclass",
+                          "ORD"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mtext",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "parallel"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "+"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "msub",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mi",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "λ"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mn",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "2"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "⋅"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "msub",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mi",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "r"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mrow",
+                      "attributes": [
+                        [
+                          "data-mjx-texclass",
+                          "ORD"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mtext",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "finish"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "+"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "msub",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "mi",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "r"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mrow",
+                      "attributes": [
+                        [
+                          "data-mjx-texclass",
+                          "ORD"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mtext",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "perf"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [
+                    [
+                      "stretchy",
+                      "false"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "("
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "x"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mi",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "y"
+                    }
+                  ]
+                },
+                {
+                  "kind": "element",
+                  "name": "mo",
+                  "attributes": [
+                    [
+                      "stretchy",
+                      "false"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": ")"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is a VitePress blog using MathJax SVG rendering without embedded LaTeX source."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "MathJax v3 SVG rendering"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We define the reward as "
+        },
+        {
+          "kind": "element",
+          "name": "mjx-container",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mjx-assistive-mml",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [
+                    [
+                      ":xmlns",
+                      "http://www.w3.org/1998/Math/MathML"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "msub",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "r"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mrow",
+                          "attributes": [
+                            [
+                              "data-mjx-texclass",
+                              "ORD"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mtext",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "perf"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The full formula is:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "mjx-container",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mjx-assistive-mml",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "math",
+                  "attributes": [
+                    [
+                      ":xmlns",
+                      "http://www.w3.org/1998/Math/MathML"
+                    ],
+                    [
+                      "display",
+                      "block"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "element",
+                      "name": "msub",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "r"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mrow",
+                          "attributes": [
+                            [
+                              "data-mjx-texclass",
+                              "ORD"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mrow",
+                              "attributes": [
+                                [
+                                  "data-mjx-texclass",
+                                  "ORD"
+                                ]
+                              ],
+                              "children": [
+                                {
+                                  "kind": "element",
+                                  "name": "mi",
+                                  "attributes": [],
+                                  "children": [
+                                    {
+                                      "kind": "text",
+                                      "text": "PARL"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [
+                        [
+                          "stretchy",
+                          "false"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "("
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mi",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "x"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": ","
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mi",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "y"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [
+                        [
+                          "stretchy",
+                          "false"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": ")"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "="
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "msub",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "λ"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mn",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "1"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "⋅"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "msub",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "r"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mrow",
+                          "attributes": [
+                            [
+                              "data-mjx-texclass",
+                              "ORD"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mtext",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "parallel"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "+"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "msub",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "λ"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mn",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "2"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "⋅"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "msub",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "r"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mrow",
+                          "attributes": [
+                            [
+                              "data-mjx-texclass",
+                              "ORD"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mtext",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "finish"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "+"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "msub",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "element",
+                          "name": "mi",
+                          "attributes": [],
+                          "children": [
+                            {
+                              "kind": "text",
+                              "text": "r"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "element",
+                          "name": "mrow",
+                          "attributes": [
+                            [
+                              "data-mjx-texclass",
+                              "ORD"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "kind": "element",
+                              "name": "mtext",
+                              "attributes": [],
+                              "children": [
+                                {
+                                  "kind": "text",
+                                  "text": "perf"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [
+                        [
+                          "stretchy",
+                          "false"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "("
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mi",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "x"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": ","
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mi",
+                      "attributes": [],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": "y"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "element",
+                      "name": "mo",
+                      "attributes": [
+                        [
+                          "stretchy",
+                          "false"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "kind": "text",
+                          "text": ")"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is a VitePress blog using MathJax SVG rendering without embedded LaTeX source."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "mathjax-svg",
+    "title": "MathJax v3 SVG Output",
+    "description": "",
+    "domain": "mathjax-svg",
+    "favicon": "https://mathjax-svg/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [
+    {
+      "code": "math_not_supported",
+      "message": "Math support is not yet included."
+    }
+  ],
+  "wordCount": 28,
+  "extractorType": null
+}

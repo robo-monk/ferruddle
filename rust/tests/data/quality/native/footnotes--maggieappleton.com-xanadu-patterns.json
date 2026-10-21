@@ -1,0 +1,5023 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "When it comes to visionary, before-its-time software, it’s hard to find a better archetype than Ted Nelson’s "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://en.wikipedia.org/wiki/Project_Xanadu"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Project Xanadu"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "It’s infamous in the technology community as a sixty-year project that never quite launched. A cautionary tale of what happens when you overhype, underdeliver, and try to stuff an operating system’s worth of features into a single piece of proprietary software. The kind of tale that makes our ferociously lean startup culture of Move Fast, Break Things, and Demo or Die seem almost sensible."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Xanadu was a hypothetical hypertext system. "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:1"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "It’s hard to read the word "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "hypertext"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " in 2021"
+        },
+        {
+          "kind": "element",
+          "name": "sub",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "5ya"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and not believe its synonymous with the system Tim Berners-Lee built in 1989"
+        },
+        {
+          "kind": "element",
+          "name": "sub",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "37ya"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " – the World Wide Web that became so much more than linked text on digital screens. The version of hypertext you are reading this on is the only hypertext most of us have ever known."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "And yet the idea of hypertext predates Berners-Lee by two decades. The term was coined in 1963"
+        },
+        {
+          "kind": "element",
+          "name": "sub",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "63ya"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " by none other than Ted Nelson as part of a much larger vision; one small brick in the grand Xanadu dream mansion. "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:2"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "To talk about Xanadu, we need to put a pin in our current understanding of "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "hypertext"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Our preconceived notions of what a link is, how it works, and what digital text is capable of threatens to overwrite the alternate history we’re about to explore."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Ted hoped Xanadu would be a medium for “ "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://xanadu.com.au/ted/XUsurvey/xuDation.html"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "serious electronic literature"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " ” – a paradigm shift that would free us from the material constraints of paper. His vision was the first to meaningfully consider how storing information in digital bits could reconfigure the way we read, write, cite, and share words."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Xanadu’s failure to mature into a widespread, useable commercial product is great fodder a "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.wired.com/1995/06/xanadu/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "dramatic cover story"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". One fuelled by the noticeably combative language in Xanadu’s "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://xanadu.com/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "documentation"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ":"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "“The computer world is a continual war over software politics and paradigms” where “we fight on” for “vindication” and “the last laugh.”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "One feels like the dinner guest who has stumbled into a raging marital argument over unwashed tea towels. You don’t dare ask for context."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Yet these historical skirmishes and financial flops are also the least interesting thing about Xanadu. The most interesting part is its "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Pattern Language"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Architectural Pattern Languages"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://maggieappleton.com-xanadu-patterns/pattern-languages"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Pattern Languages"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " are sets of flexible, reusable solutions to common design problems."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "They come from the land of architects: the software developers of the material world. Namely, the architect "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://en.wikipedia.org/wiki/Christopher_Alexander"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Christopher Alexander"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", whose philosophy of constructing vibrant and humane living space escaped the confines of urban planning and infused the world of software design in the late 1980’s."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In their book "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://en.wikipedia.org/wiki/A_Pattern_Language"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "A Pattern Language"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", Alexander defined 253 architectural patterns for designing cities, towns, and homes. These became the example patterns for writing patterns. Each one is composed of a context, problem, example, and solution."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "A Pattern Language"
+        ],
+        [
+          "src",
+          "https://maggieappleton.com-xanadu-patterns/_astro/patterns.D8-ibnKY_Z2ngng6.webp"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For example, the design pattern "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "A Place to Wait"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " asks that we create comfortable accommodation and ambient activity whenever someone needs to wait; benches, cafes, reading rooms, miniature playgrounds, three-reel slot machines (if we happen to be in the Las Vegas airport). This solves the problem of huddles of people awkwardly hovering in liminal space; near doorways, taking up sidewalks, anxiously waiting for delayed flights or dental operations or immigration investigations without anything to distract them from uncertain fates."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Others like "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Light on Two Sides of Every Room"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Staircase as Stage"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " are fairly self-explanatory."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "There’s no single way to implement these design patterns. They are purposefully abstract enough to adapt to the situation at hand. Rules of thumb rather than sets of formulaic instructions."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Xanadu as a Design Pattern"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Taken as a collection of design patterns, Xanadu’s documentation suggests solutions to some of the hypertextual problems we’re wrestling with today;"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "How do we structure information and build relationships between pieces of data that help us see them across contexts, and clarify understanding?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "How do we build systems that allow people to collaborate on shared documents without losing authorship? How do we credit and compensate authors based on their contributions?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "How do we bring ideas and data from a variety of sources into conversation with our own, while leaving a clear trail back to the origin?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Xanadu became a sad parable, when it should have been a piece of speculative design. A set of seeds scattered into the wind for other people to pick up and plant, rather than the patent-happy industrial farming conglomerate it tried to grow into."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Curiously enough, there appear to be rogue seedlings sprouting around the web. A number of Xanadu’s design patterns are showing up in modern manifestations. We’re finding ways to backwards engineer the original spirit of Xanadu into the existing structures of the World Wide Web."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The Patterns"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "1. Visible Links"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Ted Nelson has many gripes, and "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "jump links"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " are one of his biggest. They’re the kind of links we all use around the web today. Clicking a hyperlink is a bit of a gamble. It "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "jumps"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " you into somewhere unknown. You find out when you get there."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We’ve found ways to adapt to this; Venkatesh Rao has a compelling exploration of how we’ve developed a "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.ribbonfarm.com/2009/07/01/the-rhetoric-of-the-hyperlink/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "rhetoric of hyperlinking"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " to hint at where people are headed. Most browsers will do this more explicitly by showing you a URL preview, but they tuck them into the far corner in tiny text:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "URL hover previews showing in the left hand corner of page"
+        ],
+        [
+          "src",
+          "https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:good,w_1200/v1623585337/maggieappleton.com/notes/xanadu/hover-preview-url_shrink_kxvwtp.png"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "URL hover previews showing in the left hand corner of page"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "These can only tell you so much when modern URLs are often obscured by link shorteners and overstuffed with tracking queries. These solutions are only a band-aid on the underlying wound. They suggest where you’re headed, rather than showing you."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Nelson’s answer to jump links are "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "visible links"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " – links that show you the full context of where you’re headed. These were an essential feature of Xanadu. In the original mockups for “"
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Xanadocs"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "” linked text would be connected to its source in a rather literal fashion: brightly coloured highlights running between documents."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "One of the original UI mockups for a Xanadoc with visible links between text blocks"
+        ],
+        [
+          "src",
+          "https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:good,w_1200/v1623916915/maggieappleton.com/notes/xanadu/xanadu_au17yq_shrink_tqkdxs.png"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "One of the original UI mockups for a Xanadoc with visible links between text blocks"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This proposed solution relies on two other patterns – "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "parallel documents"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "transpointing windows"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " (covered below) – but the underlying principle was simply that links made their destinations clear."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In lieu of Xanadoc links, the modern web has landed on some fairly decent solutions to this issue: "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "hover previews and unfurls"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Hover previews"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " are when you can see a preview of the page you’re headed to when you hover over a link. It’s usually an excerpt that gives you the page title, the first few lines of text, and sometimes an image. Wikipedia was one of the first major sites to "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://blog.wikimedia.org/2018/04/18/how-we-designed-page-previews-for-wikipedia/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "add these"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " in 2018"
+        },
+        {
+          "kind": "element",
+          "name": "sub",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "8ya"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Wikipedia's interface showing one of the hover previews that appear over links"
+        ],
+        [
+          "src",
+          "https://res.cloudinary.com/dg3gyk0gu/image/upload/c_scale,f_auto,q_auto:good,w_1000/v1592343673/maggieappleton.com/notes/Screenshot_-_2020-06-16_20.49.44.png"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Wikipedia's interface showing one of the hover previews that appear over links"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Hover previews have also become popular in the "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://maggieappleton.com-xanadu-patterns/garden-history"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Digital Gardening"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " community as a way to help visitors quickly navigate through collections of public notes and essays that are deeply interlinked. "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://notes.andymatuschak.org/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Andy Matuschak"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.gwern.net/index"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Gwern Branwen"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " are two gardeners with good examples of how these work in action."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Andy Matuschak's notes website featuring hover link previews"
+        ],
+        [
+          "src",
+          "https://res.cloudinary.com/dg3gyk0gu/image/upload/c_scale,f_auto,q_auto:good,w_1000/v1592343501/maggieappleton.com/notes/Screenshot_2020-06-16_at_22.38.06.png"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Andy Matuschak's notes website featuring hover link previews"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Similar to hover previews, "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "unfurls"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " are the preview cards that automagically appear when you paste a link into Twitter, Facebook, Notion, Miro, or any other richly-featured web app. If I paste a link to this great article on "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.cjr.org/special_report/building-honest-internet-public-interest.php"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "building a more honest internet"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " into a Tweet or Notion document, it automagically displays the feature image, title, and byline without any extra effort from me:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "An open graph image preview appearing in a tweet"
+        ],
+        [
+          "src",
+          "https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:best,w_800/v1623916885/maggieappleton.com/notes/xanadu/tweet-opengraph_o6eecg.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "An open graph image preview appearing in a tweet"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Open graph previews appear in Notion when you paste a link and select 'Create Bookmark'"
+        ],
+        [
+          "src",
+          "https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:best,w_1000/v1623917579/maggieappleton.com/notes/xanadu/notion-ogpreview_shrink_ckiuyn.png"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Open graph previews appear in Notion when you paste a link and select 'Create Bookmark'"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This system is powered by the "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://ogp.me/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Open Graph Protocol"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " which Facebook introduced in 2010"
+        },
+        {
+          "kind": "element",
+          "name": "sub",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "16ya"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". This standardised format helps website authors define "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "metadata"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " like titles, descriptions, authors, and images for each of their pages. These are automatically retrieved and “unfurled” when the link is pasted elsewhere on the web."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Both hover previews and link unfurls give you a good sense of where you’re headed if you click on a link. They get us to "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "semi-visible"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " links."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Previews aren’t quite the same as physical links between parts of a page though. You lose the fine-grained associations between specific paragraphs and lines. If we wanted to dial up the Xanadu-esque visibility, we could work on showing previews of the whole page and directing people to specific pieces of text within it."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "2. Parallel Documents"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Ted’s proposal for visible links relied on another key Xanadu pattern: "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "parallel documents arranged side-by-side"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". This pattern allow us to see quotations in their original context, and quickly jump to the source material of documents."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "It’s also tricky to misquote someone and cherry-pick misleading excerpts when the reader has immediate, effortless access to the original."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Three parallel documents with visible links between them"
+        ],
+        [
+          "src",
+          "https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:good,w_900/v1640076312/maggieappleton.com/notes/xanadu/transclusion_6_shrink_sl0vcb_mtepgz.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Three parallel documents with visible links between them"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This sounds great in theory. Being able to lay multiple sheets of paper down side-by-side in meatspace is one of its shining qualities. Humans are very good at visually skimming information spread out in front of us – it allows us to quickly pattern-match by comparing and contrasting."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Ideally our digital mediums would lean into our ability to survey a large visual field. But the limitations of LCD screen sizes lead to some unsatisfying compromises. Instead, we end up squishing columns of documents onto our tiny screens."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The existing prototypes of Xanadu don’t gracefully solve this problem in any way. Some of them – like the 2007"
+        },
+        {
+          "kind": "element",
+          "name": "sub",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "19ya"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "XanaduSpace"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " demo – suggest launching into the disorienting world of 3D paper where documents tower over you like skyscrapers."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here’s Ted to give you an interactive tour:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "iframe",
+      "attributes": [
+        [
+          "allow",
+          "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ],
+        [
+          "allowfullscreen",
+          "true"
+        ],
+        [
+          "src",
+          "https://www.youtube.com/embed/cjXW5jKzjCA"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Flying about in multiple dimensions feels slightly distracting when you’re trying to write a detailed product spec or salvage your mediocre thesis."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We have developed some slightly less nauseasting solutions to this problem."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Draft in Progress"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The quality of writing below this point is haphazard, disjointed, and nonsensical. It's probably a good idea to come back later."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Tabs and slide-over windows help us quickly move between documents, although they still fail at letting us see more than two at once."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Many modern note-taking apps have popularised fat “sidebars” that are essentially second windows."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Roam Research, Obsidian, Logseq, and Innos are all designed for parallel documents"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Arranging two windows side-by-side doesn’t properly solve this problem. We can’t select things from from one window and drag them into the next. The two windows don’t know about each other and usually can’t interact. They’re connected to different data sources, possibly running in seperate applications. Copying and pasting text, images, or objects between the two is a cumbersome workaround."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The mobile-first responsive web also makes this tricky. There is simply no space on a 320px-wide screen to consider viewing multiple windows at once. Although patterns like horizontal scroll and slide-over windows might help solve this."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "3. Transpointing Windows"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Parts of documents visibly point to other parts"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "LiquidText"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "The interface of LiquidText with transpointing between sections of text"
+        ],
+        [
+          "src",
+          "https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:best,w_1100/v1623925818/maggieappleton.com/notes/xanadu/liquid_rrgru8.png"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The interface of LiquidText with transpointing between sections of text"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://azlen.me/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Azlen Elza"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " managed to craft up this crazy demo inside of their Roam Research database."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "4. Transclusion"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://maggieappleton.com-xanadu-patterns/transcopyright-dreams"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Transclusion and Transcopyright Dreams"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "5. Bi-Directional Links"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://maggieappleton.com-xanadu-patterns/bidirectionals"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "A Short History of Bi-Directional Links"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "6. Version Control"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In the age of Git, we tend to take version control for granted."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The first version control system dates back to "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://en.wikipedia.org/wiki/Version_control#History"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "1975"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". It’s now difficult to imagine programming without it."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "7. Modular Text Blocks"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The core building block of the web has always been documents. While the idea of a web "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "page"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " has evolved far beyond it’s original idea, we still construct, connect, and navigate websites at the page level."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The early web was built for academic researchers to share their work, in a time before all the plebs invaded with our bleeding-heart livejournal entries, dancing baby GIFs, and TikTok moves. These researchers designed the system to mimic their primary medium of communication; paper-based academic articles and documents."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This paper document design metaphor determined many of the early architectural decisions. URL addresses were set at the "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "page"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " level, rather than the paragraph. Inline images were an afterthought, and even a contentious addition to the spec. "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:3"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:3"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Blocks construct documents"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Notion pioneered this in the note-taking space"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Explosion of note-taking apps using a block-first approach: Roam, Innos, Clover, Craft, Kosmik"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "8. Stable, Universal Addresses"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The web enforces addresess on the document level rather than the block level"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "No stability at all, link rot everywhere"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "URL queries and subpaths"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Roam block UIDs"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "9. Annotation"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              ""
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Hypothesis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Google docs comments"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "10. Multiple Views and Spatial Arrangements"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Graph previews are a weak version of this"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Notion linked databases that offer various view types"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Most modern dashboards offer multiple ways to view data"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "ZigZag format"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "11. Micropayments"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Jarons Lanier’s dreams in Who Owns the Future"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The inescapable cost of transactions"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Web Monetisation API, Coil"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Grant for the Web"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Graeber’s money-as-debt, soft money, local currencies and DAOs"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The original Xanadu vision was ambitious. Unreasonably ambitious. The above feature list is a small selection."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Perhaps you sense the problem."
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " Solving all the things all at once gets tricky."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Instead, what we’re now seeing is the ad-hoc, decentralised manifestation of Xanadu in bits and pieces."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "People are building Xanadu without knowing what Xanadu is."
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " Which is the essence of a good pattern language; true patterns evolve naturally within systems, and are found rather than crafted. "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:4"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:4"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In the grand scheme of things, 60 years isn’t an extraordinary amount of time to spend solving a problem. It’s about 0.09% of history since humans first started creating symbolic cultural artefacts "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:5"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:5"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Who knows, maybe Xanadu can still happen (if you clap for it) ✨"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          ""
+        ],
+        [
+          "src",
+          "https://3.bp.blogspot.com/-s2BU-a7w2bc/VuNwBkwNSSI/AAAAAAAARDg/P_UuFud4PmIfKQoJLq4EHYxVL6YL8TQsw/s1600/XANADU.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "anchor",
+          "id": "fn:1"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "The word hypothetical is a bit strong. Many versions were built. There is a working demo showcasing a few of its features "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "http://xanadu.com/xanademos/MoeJusteOrigins.html"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "here"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ". But there is no active version on the App Store or Product Hunt I can link you to. "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:1"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:2"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "While Nelson coined the word, the notion of linked documents goes back to Jorge Luis Borges The Garden of Forking Paths” in 1941"
+            },
+            {
+              "kind": "element",
+              "name": "sub",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "85ya"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " and Vannevar Bush’s Memex machine in 1945"
+            },
+            {
+              "kind": "element",
+              "name": "sub",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "81ya"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " – both significant, named influences for Nelson. "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:2"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:3"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "No one seriously considered the possibility of adding videos or animations. The presumption visual images are a impoverished medium for serious intellectual thought is a whole other kettle of fish. "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:3"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:4"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Christopher Alexander’s "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://en.wikipedia.org/wiki/The_Nature_of_Order"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "The Nature of Order"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " goes deep on this principle "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:4"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "anchor",
+          "id": "fn:5"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Using "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://en.wikipedia.org/wiki/Cave_of_La_Pasiega"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "La Pasiega Cave"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " in Spain as a relative marker - 65,000 y.a. "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:5"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "When it comes to visionary, before-its-time software, it’s hard to find a better archetype than Ted Nelson’s "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://en.wikipedia.org/wiki/Project_Xanadu"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Project Xanadu"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "It’s infamous in the technology community as a sixty-year project that never quite launched. A cautionary tale of what happens when you overhype, underdeliver, and try to stuff an operating system’s worth of features into a single piece of proprietary software. The kind of tale that makes our ferociously lean startup culture of Move Fast, Break Things, and Demo or Die seem almost sensible."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Xanadu was a hypothetical hypertext system. "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "It’s hard to read the word "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "hypertext"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " in 2021"
+        },
+        {
+          "kind": "element",
+          "name": "sub",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "5ya"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and not believe its synonymous with the system Tim Berners-Lee built in 1989"
+        },
+        {
+          "kind": "element",
+          "name": "sub",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "37ya"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " – the World Wide Web that became so much more than linked text on digital screens. The version of hypertext you are reading this on is the only hypertext most of us have ever known."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "And yet the idea of hypertext predates Berners-Lee by two decades. The term was coined in 1963"
+        },
+        {
+          "kind": "element",
+          "name": "sub",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "63ya"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " by none other than Ted Nelson as part of a much larger vision; one small brick in the grand Xanadu dream mansion. "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-2"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "To talk about Xanadu, we need to put a pin in our current understanding of "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "hypertext"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Our preconceived notions of what a link is, how it works, and what digital text is capable of threatens to overwrite the alternate history we’re about to explore."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Ted hoped Xanadu would be a medium for “ "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://xanadu.com.au/ted/XUsurvey/xuDation.html"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "serious electronic literature"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " ” – a paradigm shift that would free us from the material constraints of paper. His vision was the first to meaningfully consider how storing information in digital bits could reconfigure the way we read, write, cite, and share words."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Xanadu’s failure to mature into a widespread, useable commercial product is great fodder a "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.wired.com/1995/06/xanadu/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "dramatic cover story"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". One fuelled by the noticeably combative language in Xanadu’s "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://xanadu.com/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "documentation"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ":"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "“The computer world is a continual war over software politics and paradigms” where “we fight on” for “vindication” and “the last laugh.”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "One feels like the dinner guest who has stumbled into a raging marital argument over unwashed tea towels. You don’t dare ask for context."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Yet these historical skirmishes and financial flops are also the least interesting thing about Xanadu. The most interesting part is its "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Pattern Language"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Architectural Pattern Languages"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://maggieappleton.com-xanadu-patterns/pattern-languages"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Pattern Languages"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " are sets of flexible, reusable solutions to common design problems."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "They come from the land of architects: the software developers of the material world. Namely, the architect "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://en.wikipedia.org/wiki/Christopher_Alexander"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Christopher Alexander"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", whose philosophy of constructing vibrant and humane living space escaped the confines of urban planning and infused the world of software design in the late 1980’s."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In their book "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://en.wikipedia.org/wiki/A_Pattern_Language"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "A Pattern Language"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", Alexander defined 253 architectural patterns for designing cities, towns, and homes. These became the example patterns for writing patterns. Each one is composed of a context, problem, example, and solution."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "A Pattern Language"
+        ],
+        [
+          "src",
+          "https://maggieappleton.com-xanadu-patterns/_astro/patterns.D8-ibnKY_Z2ngng6.webp"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For example, the design pattern "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "A Place to Wait"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " asks that we create comfortable accommodation and ambient activity whenever someone needs to wait; benches, cafes, reading rooms, miniature playgrounds, three-reel slot machines (if we happen to be in the Las Vegas airport). This solves the problem of huddles of people awkwardly hovering in liminal space; near doorways, taking up sidewalks, anxiously waiting for delayed flights or dental operations or immigration investigations without anything to distract them from uncertain fates."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Others like "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Light on Two Sides of Every Room"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Staircase as Stage"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " are fairly self-explanatory."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "There’s no single way to implement these design patterns. They are purposefully abstract enough to adapt to the situation at hand. Rules of thumb rather than sets of formulaic instructions."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Xanadu as a Design Pattern"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Taken as a collection of design patterns, Xanadu’s documentation suggests solutions to some of the hypertextual problems we’re wrestling with today;"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "How do we structure information and build relationships between pieces of data that help us see them across contexts, and clarify understanding?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "How do we build systems that allow people to collaborate on shared documents without losing authorship? How do we credit and compensate authors based on their contributions?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "How do we bring ideas and data from a variety of sources into conversation with our own, while leaving a clear trail back to the origin?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Xanadu became a sad parable, when it should have been a piece of speculative design. A set of seeds scattered into the wind for other people to pick up and plant, rather than the patent-happy industrial farming conglomerate it tried to grow into."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Curiously enough, there appear to be rogue seedlings sprouting around the web. A number of Xanadu’s design patterns are showing up in modern manifestations. We’re finding ways to backwards engineer the original spirit of Xanadu into the existing structures of the World Wide Web."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The Patterns"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "1. Visible Links"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Ted Nelson has many gripes, and "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "jump links"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " are one of his biggest. They’re the kind of links we all use around the web today. Clicking a hyperlink is a bit of a gamble. It "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "jumps"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " you into somewhere unknown. You find out when you get there."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We’ve found ways to adapt to this; Venkatesh Rao has a compelling exploration of how we’ve developed a "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.ribbonfarm.com/2009/07/01/the-rhetoric-of-the-hyperlink/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "rhetoric of hyperlinking"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " to hint at where people are headed. Most browsers will do this more explicitly by showing you a URL preview, but they tuck them into the far corner in tiny text:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "URL hover previews showing in the left hand corner of page"
+        ],
+        [
+          "src",
+          "https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:good,w_1200/v1623585337/maggieappleton.com/notes/xanadu/hover-preview-url_shrink_kxvwtp.png"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "URL hover previews showing in the left hand corner of page"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "These can only tell you so much when modern URLs are often obscured by link shorteners and overstuffed with tracking queries. These solutions are only a band-aid on the underlying wound. They suggest where you’re headed, rather than showing you."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Nelson’s answer to jump links are "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "visible links"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " – links that show you the full context of where you’re headed. These were an essential feature of Xanadu. In the original mockups for “"
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Xanadocs"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "” linked text would be connected to its source in a rather literal fashion: brightly coloured highlights running between documents."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "One of the original UI mockups for a Xanadoc with visible links between text blocks"
+        ],
+        [
+          "src",
+          "https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:good,w_1200/v1623916915/maggieappleton.com/notes/xanadu/xanadu_au17yq_shrink_tqkdxs.png"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "One of the original UI mockups for a Xanadoc with visible links between text blocks"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This proposed solution relies on two other patterns – "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "parallel documents"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "transpointing windows"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " (covered below) – but the underlying principle was simply that links made their destinations clear."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In lieu of Xanadoc links, the modern web has landed on some fairly decent solutions to this issue: "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "hover previews and unfurls"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Hover previews"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " are when you can see a preview of the page you’re headed to when you hover over a link. It’s usually an excerpt that gives you the page title, the first few lines of text, and sometimes an image. Wikipedia was one of the first major sites to "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://blog.wikimedia.org/2018/04/18/how-we-designed-page-previews-for-wikipedia/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "add these"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " in 2018"
+        },
+        {
+          "kind": "element",
+          "name": "sub",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "8ya"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Wikipedia's interface showing one of the hover previews that appear over links"
+        ],
+        [
+          "src",
+          "https://res.cloudinary.com/dg3gyk0gu/image/upload/c_scale,f_auto,q_auto:good,w_1000/v1592343673/maggieappleton.com/notes/Screenshot_-_2020-06-16_20.49.44.png"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Wikipedia's interface showing one of the hover previews that appear over links"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Hover previews have also become popular in the "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://maggieappleton.com-xanadu-patterns/garden-history"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Digital Gardening"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " community as a way to help visitors quickly navigate through collections of public notes and essays that are deeply interlinked. "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://notes.andymatuschak.org/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Andy Matuschak"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.gwern.net/index"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Gwern Branwen"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " are two gardeners with good examples of how these work in action."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Andy Matuschak's notes website featuring hover link previews"
+        ],
+        [
+          "src",
+          "https://res.cloudinary.com/dg3gyk0gu/image/upload/c_scale,f_auto,q_auto:good,w_1000/v1592343501/maggieappleton.com/notes/Screenshot_2020-06-16_at_22.38.06.png"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Andy Matuschak's notes website featuring hover link previews"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Similar to hover previews, "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "unfurls"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " are the preview cards that automagically appear when you paste a link into Twitter, Facebook, Notion, Miro, or any other richly-featured web app. If I paste a link to this great article on "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.cjr.org/special_report/building-honest-internet-public-interest.php"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "building a more honest internet"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " into a Tweet or Notion document, it automagically displays the feature image, title, and byline without any extra effort from me:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "An open graph image preview appearing in a tweet"
+        ],
+        [
+          "src",
+          "https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:best,w_800/v1623916885/maggieappleton.com/notes/xanadu/tweet-opengraph_o6eecg.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "An open graph image preview appearing in a tweet"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Open graph previews appear in Notion when you paste a link and select 'Create Bookmark'"
+        ],
+        [
+          "src",
+          "https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:best,w_1000/v1623917579/maggieappleton.com/notes/xanadu/notion-ogpreview_shrink_ckiuyn.png"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Open graph previews appear in Notion when you paste a link and select 'Create Bookmark'"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This system is powered by the "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://ogp.me/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Open Graph Protocol"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " which Facebook introduced in 2010"
+        },
+        {
+          "kind": "element",
+          "name": "sub",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "16ya"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". This standardised format helps website authors define "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "metadata"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " like titles, descriptions, authors, and images for each of their pages. These are automatically retrieved and “unfurled” when the link is pasted elsewhere on the web."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Both hover previews and link unfurls give you a good sense of where you’re headed if you click on a link. They get us to "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "semi-visible"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " links."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Previews aren’t quite the same as physical links between parts of a page though. You lose the fine-grained associations between specific paragraphs and lines. If we wanted to dial up the Xanadu-esque visibility, we could work on showing previews of the whole page and directing people to specific pieces of text within it."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "2. Parallel Documents"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Ted’s proposal for visible links relied on another key Xanadu pattern: "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "parallel documents arranged side-by-side"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". This pattern allow us to see quotations in their original context, and quickly jump to the source material of documents."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "It’s also tricky to misquote someone and cherry-pick misleading excerpts when the reader has immediate, effortless access to the original."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "Three parallel documents with visible links between them"
+        ],
+        [
+          "src",
+          "https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:good,w_900/v1640076312/maggieappleton.com/notes/xanadu/transclusion_6_shrink_sl0vcb_mtepgz.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Three parallel documents with visible links between them"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This sounds great in theory. Being able to lay multiple sheets of paper down side-by-side in meatspace is one of its shining qualities. Humans are very good at visually skimming information spread out in front of us – it allows us to quickly pattern-match by comparing and contrasting."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Ideally our digital mediums would lean into our ability to survey a large visual field. But the limitations of LCD screen sizes lead to some unsatisfying compromises. Instead, we end up squishing columns of documents onto our tiny screens."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The existing prototypes of Xanadu don’t gracefully solve this problem in any way. Some of them – like the 2007"
+        },
+        {
+          "kind": "element",
+          "name": "sub",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "19ya"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "XanaduSpace"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " demo – suggest launching into the disorienting world of 3D paper where documents tower over you like skyscrapers."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here’s Ted to give you an interactive tour:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          ""
+        ],
+        [
+          "src",
+          "https://www.youtube.com/watch?v=cjXW5jKzjCA"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Flying about in multiple dimensions feels slightly distracting when you’re trying to write a detailed product spec or salvage your mediocre thesis."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We have developed some slightly less nauseasting solutions to this problem."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Draft in Progress"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The quality of writing below this point is haphazard, disjointed, and nonsensical. It's probably a good idea to come back later."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Tabs and slide-over windows help us quickly move between documents, although they still fail at letting us see more than two at once."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Many modern note-taking apps have popularised fat “sidebars” that are essentially second windows."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Roam Research, Obsidian, Logseq, and Innos are all designed for parallel documents"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Arranging two windows side-by-side doesn’t properly solve this problem. We can’t select things from from one window and drag them into the next. The two windows don’t know about each other and usually can’t interact. They’re connected to different data sources, possibly running in seperate applications. Copying and pasting text, images, or objects between the two is a cumbersome workaround."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The mobile-first responsive web also makes this tricky. There is simply no space on a 320px-wide screen to consider viewing multiple windows at once. Although patterns like horizontal scroll and slide-over windows might help solve this."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "3. Transpointing Windows"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Parts of documents visibly point to other parts"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "LiquidText"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "The interface of LiquidText with transpointing between sections of text"
+        ],
+        [
+          "src",
+          "https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:best,w_1100/v1623925818/maggieappleton.com/notes/xanadu/liquid_rrgru8.png"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The interface of LiquidText with transpointing between sections of text"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://azlen.me/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Azlen Elza"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " managed to craft up this crazy demo inside of their Roam Research database."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "4. Transclusion"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://maggieappleton.com-xanadu-patterns/transcopyright-dreams"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Transclusion and Transcopyright Dreams"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "5. Bi-Directional Links"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://maggieappleton.com-xanadu-patterns/bidirectionals"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "A Short History of Bi-Directional Links"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "6. Version Control"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In the age of Git, we tend to take version control for granted."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The first version control system dates back to "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://en.wikipedia.org/wiki/Version_control#History"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "1975"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". It’s now difficult to imagine programming without it."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "7. Modular Text Blocks"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The core building block of the web has always been documents. While the idea of a web "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "page"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " has evolved far beyond it’s original idea, we still construct, connect, and navigate websites at the page level."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The early web was built for academic researchers to share their work, in a time before all the plebs invaded with our bleeding-heart livejournal entries, dancing baby GIFs, and TikTok moves. These researchers designed the system to mimic their primary medium of communication; paper-based academic articles and documents."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This paper document design metaphor determined many of the early architectural decisions. URL addresses were set at the "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "page"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " level, rather than the paragraph. Inline images were an afterthought, and even a contentious addition to the spec. "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-3"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Blocks construct documents"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Notion pioneered this in the note-taking space"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Explosion of note-taking apps using a block-first approach: Roam, Innos, Clover, Craft, Kosmik"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "8. Stable, Universal Addresses"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The web enforces addresess on the document level rather than the block level"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "No stability at all, link rot everywhere"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "URL queries and subpaths"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Roam block UIDs"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "9. Annotation"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Hypothesis"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Google docs comments"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "10. Multiple Views and Spatial Arrangements"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Graph previews are a weak version of this"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Notion linked databases that offer various view types"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Most modern dashboards offer multiple ways to view data"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "ZigZag format"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "11. Micropayments"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Jarons Lanier’s dreams in Who Owns the Future"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The inescapable cost of transactions"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Web Monetisation API, Coil"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Grant for the Web"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Graeber’s money-as-debt, soft money, local currencies and DAOs"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The original Xanadu vision was ambitious. Unreasonably ambitious. The above feature list is a small selection."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Perhaps you sense the problem."
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " Solving all the things all at once gets tricky."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Instead, what we’re now seeing is the ad-hoc, decentralised manifestation of Xanadu in bits and pieces."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "People are building Xanadu without knowing what Xanadu is."
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " Which is the essence of a good pattern language; true patterns evolve naturally within systems, and are found rather than crafted. "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-4"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "In the grand scheme of things, 60 years isn’t an extraordinary amount of time to spend solving a problem. It’s about 0.09% of history since humans first started creating symbolic cultural artefacts "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-5"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Who knows, maybe Xanadu can still happen (if you clap for it) ✨"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          ""
+        ],
+        [
+          "src",
+          "https://3.bp.blogspot.com/-s2BU-a7w2bc/VuNwBkwNSSI/AAAAAAAARDg/P_UuFud4PmIfKQoJLq4EHYxVL6YL8TQsw/s1600/XANADU.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "anchor",
+      "id": "note-1"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The word hypothetical is a bit strong. Many versions were built. There is a working demo showcasing a few of its features "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "http://xanadu.com/xanademos/MoeJusteOrigins.html"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "here"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". But there is no active version on the App Store or Product Hunt I can link you to."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-2"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "While Nelson coined the word, the notion of linked documents goes back to Jorge Luis Borges The Garden of Forking Paths” in 1941"
+        },
+        {
+          "kind": "element",
+          "name": "sub",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "85ya"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and Vannevar Bush’s Memex machine in 1945"
+        },
+        {
+          "kind": "element",
+          "name": "sub",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "81ya"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " – both significant, named influences for Nelson."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-3"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "No one seriously considered the possibility of adding videos or animations. The presumption visual images are a impoverished medium for serious intellectual thought is a whole other kettle of fish."
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-4"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Christopher Alexander’s "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://en.wikipedia.org/wiki/The_Nature_of_Order"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "The Nature of Order"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " goes deep on this principle"
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-5"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Using "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://en.wikipedia.org/wiki/Cave_of_La_Pasiega"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "La Pasiega Cave"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " in Spain as a relative marker - 65,000 y.a."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "maggieappleton.com-xanadu-patterns",
+    "title": "The Pattern Language of Project Xanadu",
+    "description": "Project Xanadu as a pattern language, rather than a failed software project",
+    "domain": "maggieappleton.com-xanadu-patterns",
+    "favicon": "/images/favicon/favicon-32x32.png",
+    "image": "https://maggieappleton.com/og/xanadu-patterns.png",
+    "language": "en",
+    "published": "2024-05-24T02:20:06+00:00",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 2394,
+  "extractorType": null
+}

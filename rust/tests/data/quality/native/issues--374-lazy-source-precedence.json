@@ -1,0 +1,215 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Lazy images use explicit source attributes to replace placeholders. Metadata that merely resembles an image URL should not override those sources."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "data-src"
+        ],
+        [
+          "src",
+          "https://images.example.com/data-src.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "original"
+        ],
+        [
+          "src",
+          "https://images.example.com/original.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "gif"
+        ],
+        [
+          "src",
+          "https://images.example.com/gif.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "lazy-src"
+        ],
+        [
+          "src",
+          "https://images.example.com/lazy-src.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "large-preview"
+        ],
+        [
+          "src",
+          "https://images.example.com/large-preview.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "All photographs should retain their real source after extraction, including images with an external placeholder, a small GIF, or a large inline preview."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Lazy images use explicit source attributes to replace placeholders. Metadata that merely resembles an image URL should not override those sources."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "data-src"
+        ],
+        [
+          "src",
+          "https://images.example.com/data-src.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "original"
+        ],
+        [
+          "src",
+          "https://images.example.com/original.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "gif"
+        ],
+        [
+          "src",
+          "https://images.example.com/gif.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "lazy-src"
+        ],
+        [
+          "src",
+          "https://images.example.com/lazy-src.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "large-preview"
+        ],
+        [
+          "src",
+          "https://images.example.com/large-preview.jpg"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "All photographs should retain their real source after extraction, including images with an external placeholder, a small GIF, or a large inline preview."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "example.com",
+    "title": "Lazy image sources",
+    "description": "",
+    "domain": "example.com",
+    "favicon": "https://example.com/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 44,
+  "extractorType": null
+}

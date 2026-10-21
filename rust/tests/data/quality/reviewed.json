@@ -1,0 +1,97 @@
+{
+  "code-blocks--chroma-linenums": {
+    "reason": "Preserve the original C++ [](uint8_t x) lambda. The TypeScript empty-link cleanup deletes this source code; Rust retains it.",
+    "expectedSemanticsHash": "331dd35de190ab8b2de8628153110228dab0119cc127e5b2814dcb692b83a128",
+    "actualSemanticsHash": "4cd52227d526333c6328d8186431b3a362cd32fb70678665025d1257a5a9b260"
+  },
+  "codeblocks--chatgpt-codemirror": {
+    "reason": "Preserve the original three consecutive line breaks in the CodeMirror source. TypeScript collapses an authored blank line.",
+    "expectedSemanticsHash": "2f93634631ea298a4358eb4ffbfb762f2b2d261695f117d1f4e576ff2d03b245",
+    "actualSemanticsHash": "819b4a46e16306cdfe316e0ff7caa4dca21f8b38650c374a600fd6f8b98604e8"
+  },
+  "elements--lazy-image": {
+    "reason": "Leave the unannotated node --prof app.js snippet without a language. TypeScript mistakes an unrelated ancestor class c for the C language.",
+    "expectedSemanticsHash": "25c6b1834bb40f2f54552d09290e4bd33cc1fd6ded6363b7cab58643830cfb24",
+    "actualSemanticsHash": "1039022020965eaf97c730a2f2aeedc42eb9deeebc7aad34c3f7831b377851e4"
+  },
+  "extractor--chatgpt-citations": {
+    "reason": "Preserve the strong emphasis authored inside the source h4 headings. TypeScript discards that emphasis while converting headings.",
+    "expectedSemanticsHash": "999706b46afd66ab696ab6e882fc4647291bd58c4d49d035b42748b052332441",
+    "actualSemanticsHash": "a4bf1d0a334da1dc7cdf3cab32468e3b1149f5b4d5094fe4a81010fe5287231e"
+  },
+  "footnotes--heading-notes": {
+    "reason": "Retain the authored Notes heading before the normalized footnote definitions. All definitions and references remain present.",
+    "expectedSemanticsHash": "0674c237ef03f62dc815aab0d1b58d6781297beac4ef15bc2d146b26ffcd0ba8",
+    "actualSemanticsHash": "99b3db016f7af5e553f901b564f693c0daf9b94dc2122053b0d93383cd30049a"
+  },
+  "footnotes--hr-continuation": {
+    "reason": "Keep lists and continuation paragraphs inside their footnote definitions through valid Markdown indentation; retain the source separator. TypeScript leaves continuations outside the definitions.",
+    "expectedSemanticsHash": "bf4e7412ce71fc32e5e411e92a3a1bc14c9f7a65688b2e72eb07b51e1310020c",
+    "actualSemanticsHash": "e48e82a9620fd211bb586118a9a8a4f4dfd51ebd2c933a6c8bd8ffb2a4734011"
+  },
+  "footnotes--hr-strong-numbered": {
+    "reason": "Keep supporting list items inside their footnote definition through valid Markdown indentation; retain the source separator. TypeScript emits the list outside the definition.",
+    "expectedSemanticsHash": "d0a0968b371f248dbe5553c2b7955f3052ea30911919c2ff084a1194ec3eba1f",
+    "actualSemanticsHash": "2b1a6e357b3b98650d7cab56ebae9b90ee86951005b230c5e350d3e04421c762"
+  },
+  "footnotes--hr-sup-numbered": {
+    "reason": "Retain the source horizontal divider before the footnote definitions. This changes presentation without dropping definitions, references, or article content.",
+    "expectedSemanticsHash": "150729068ca896674d62cf1f302dfaecb521d44e31fdfcf2b8b634933584ccb5",
+    "actualSemanticsHash": "b1eb5b2ebebb0f673d6e37da55b7c618ade7e7d880abf0a8ed660b2f0ecb7943"
+  },
+  "footnotes--maggieappleton.com-xanadu-patterns": {
+    "reason": "Remove the two stray spaces before periods after inline subscript annotations. Captions, source links, article text, and footnotes are preserved.",
+    "expectedSemanticsHash": "1df061e36308f9ab27a07c836fa23427f6b5e4c6d706f23247f38bbb39466a6d",
+    "actualSemanticsHash": "fdc56a47c0e3b630da3312acbd33ce5a7549c6a53205763e55bb12645d90f82b"
+  },
+  "footnotes--nested-prose": {
+    "reason": "Retain the source horizontal divider before normalized footnotes. The article text and footnote reference/definition graph are unchanged.",
+    "expectedSemanticsHash": "1c7586871c01ab898b326afc2c86dd8ef6d0dee787a9f94608381e661bddba60",
+    "actualSemanticsHash": "867512c0f50381a8377fb246b0cb2810a41857f54932394068eb5149b2a4709c"
+  },
+  "footnotes--pulldown-cmark-footnote-definition": {
+    "reason": "Retain the source horizontal divider before normalized footnotes. The note text and code payload are unchanged.",
+    "expectedSemanticsHash": "823b4ef7a0fc961f3dbdcf4ef023fcdfd0e5e5e12f3efeff112c2620c19bb8b0",
+    "actualSemanticsHash": "e235a9ae44aeae2b07226eccafc717b8fef018c192f392b72c6e7cd21c7e747e"
+  },
+  "footnotes--word-ftn-ftnref": {
+    "reason": "Retain a horizontal divider before normalized Word footnotes. The note destination and the reference/definition graph remain intact.",
+    "expectedSemanticsHash": "d433b9353bec51071cc040a8f7ff398048ec441da862fd9a42cd318491eb7e6e",
+    "actualSemanticsHash": "c2f9a5dbca2ccc7a6788487aa24c8024d056e68aeb28a1b23f4c65564727b44f"
+  },
+  "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes": {
+    "reason": "Preserve all seven original links from article image previews to their full-size image URLs. TypeScript discards the image-enclosing link destinations.",
+    "expectedSemanticsHash": "d1c7a3caba8d56466f99e0c36350e11cf8c1992eccc826394a119937ef371344",
+    "actualSemanticsHash": "28cfd6d742dd76a9abf3e644fb94f5d4b4ef06d22a167506ac52a0650ad9cdee"
+  },
+  "general--daringfireball.net-2025-02-the_iphone_16e": {
+    "reason": "Omit a terminal horizontal divider before normalized footnotes. All article text, links, and note content remain intact.",
+    "expectedSemanticsHash": "131a4c66bc19ae049befeee8b9a27f71ac14adf487d7fcaf7ec1527ae2ded943",
+    "actualSemanticsHash": "862e4b008389698f2e95ee7ef812d2dd7b0113ab779a3d7197291d7d72c94398"
+  },
+  "general--github.com-issue-56": {
+    "reason": "Preserve the literal trailing space in the highlighted table-cell code source. The table is correctly converted to a preformatted code block.",
+    "expectedSemanticsHash": "15ca28b49e6b712e518983e7a63e8f2ede79082f47c344c2721abb437ec882d5",
+    "actualSemanticsHash": "f53f1882be744c99563a2a9356c52d33e393e107673c79b2fd08144b87ad8a1f"
+  },
+  "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx": {
+    "reason": "Preserve source inline-code text true/used without synthetic emphasis asterisks, and preserve the original nested-list sibling depths. TypeScript inserts literal emphasis markers and overindents several nested list siblings.",
+    "expectedSemanticsHash": "4dcc562d8c3660cbb2d8b8e21f5c9d6121aef5973e29cf200202309fd83d6086",
+    "actualSemanticsHash": "77973acde1099d0299db8fe6379564cd3ba5263afcbfab87e5d9395e0edde465"
+  },
+  "issues--227-noscript-lazy-images": {
+    "reason": "Preserve the original image-credit link destinations in gallery captions. TypeScript retains their labels but discards the href values.",
+    "expectedSemanticsHash": "acf9eb42aa71ecf8fd6064736498493fe94c708968098a25ed54569dbcfdae90",
+    "actualSemanticsHash": "ade879e6e2b52443ab35d3598ea9be275bd0707777df3211e4deb195d7147d01"
+  },
+  "issues--284-table-cell-header-scoring": {
+    "reason": "Use safe HTML for the rich table so the authored typedef preformatted block remains a block inside its cell. TypeScript flattens that block into inline-code syntax.",
+    "expectedSemanticsHash": "85c67021fe24b8ff31761c1657b8358b590bcd2ef34c0eed5c59410ebcda8387",
+    "actualSemanticsHash": "65bcc27088f1903355cee90b2795b883afee203c47ac0b2929919b56773281f3"
+  },
+  "table-layout--peripheral-tables": {
+    "reason": "Use safe HTML for the peripheral content table to preserve its four distinct phase paragraphs and alignment. TypeScript flattens the paragraphs into one cell text run.",
+    "expectedSemanticsHash": "bacb3ab46184d8dad9ad1b211d4dd9b81e772c8201dddd3877ef07e34f611820",
+    "actualSemanticsHash": "bb36c5562d18a1620408954ea26e1ac0f6f3fb8d6b941873e614abeec02baad8"
+  }
+}

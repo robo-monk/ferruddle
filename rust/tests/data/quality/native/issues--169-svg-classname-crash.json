@@ -1,0 +1,280 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This paper discusses algorithms for graph traversal. The following diagram illustrates the main data structure used in the analysis."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "svg",
+      "attributes": [
+        [
+          ":xmlns",
+          "http://www.w3.org/2000/svg"
+        ],
+        [
+          "viewBox",
+          "0 0 100 100"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "circle",
+          "attributes": [
+            [
+              "cx",
+              "50"
+            ],
+            [
+              "cy",
+              "50"
+            ],
+            [
+              "fill",
+              "none"
+            ],
+            [
+              "r",
+              "40"
+            ],
+            [
+              "stroke",
+              "black"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "text",
+          "attributes": [
+            [
+              "text-anchor",
+              "middle"
+            ],
+            [
+              "x",
+              "50"
+            ],
+            [
+              "y",
+              "55"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Node"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The algorithm runs in O(n log n) time. We use the notation "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [
+            [
+              "display",
+              "inline"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mi",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " to represent the input size. This is a standard result in computer science that has been widely studied in the literature."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Additional content ensures stable content detection during testing. The SVG element above has a class attribute which would cause a crash in environments where className returns an SVGAnimatedString object."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This paper discusses algorithms for graph traversal. The following diagram illustrates the main data structure used in the analysis."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "svg",
+      "attributes": [
+        [
+          ":xmlns",
+          "http://www.w3.org/2000/svg"
+        ],
+        [
+          "viewBox",
+          "0 0 100 100"
+        ]
+      ],
+      "children": [
+        {
+          "kind": "element",
+          "name": "circle",
+          "attributes": [
+            [
+              "cx",
+              "50"
+            ],
+            [
+              "cy",
+              "50"
+            ],
+            [
+              "fill",
+              "none"
+            ],
+            [
+              "r",
+              "40"
+            ],
+            [
+              "stroke",
+              "black"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "text",
+          "attributes": [
+            [
+              "text-anchor",
+              "middle"
+            ],
+            [
+              "x",
+              "50"
+            ],
+            [
+              "y",
+              "55"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Node"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The algorithm runs in O(n log n) time. We use the notation "
+        },
+        {
+          "kind": "element",
+          "name": "math",
+          "attributes": [
+            [
+              "display",
+              "inline"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "element",
+              "name": "mi",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " to represent the input size. This is a standard result in computer science that has been widely studied in the literature."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Additional content ensures stable content detection during testing. The SVG element above has a class attribute which would cause a crash in environments where className returns an SVGAnimatedString object."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "example.org",
+    "title": "Research Paper with SVG",
+    "description": "",
+    "domain": "example.org",
+    "favicon": "https://example.org/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [
+    {
+      "code": "math_not_supported",
+      "message": "Math support is not yet included."
+    }
+  ],
+  "wordCount": 83,
+  "extractorType": null
+}

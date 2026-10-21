@@ -1,0 +1,20 @@
+{
+  "id": "issues--159-lean-verso-empty-line-preserved",
+  "url": "https://lean-lang.org/theorem_proving_in_lean4/Dependent-Type-Theory/",
+  "inputHtml": "<!-- {\"url\":\"https://lean-lang.org/theorem_proving_in_lean4/Dependent-Type-Theory/\"} -->\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <title>Dependent Type Theory</title>\n</head>\n<body>\n  <main>\n    <article>\n      <h1>Dependent Type Theory</h1>\n      <p>\n        This fixture ensures empty Verso code blocks are preserved as blank lines when adjacent\n        Lean command and output fragments are merged.\n      </p>\n\n      <div class=\"example\" id=\"example-empty-line\">\n        <code class=\"hl lean block\" data-lean-context=\"examples\"><span class=\"inter-text\">#check true</span></code>\n        <pre class=\"hl lean lean-output information\"><span class=\"verso-message\"><span class=\"highlighted\"><span class=\"inter-text\">Bool.true : Bool</span></span></span></pre>\n        <code class=\"hl lean block\" data-lean-context=\"examples\"><span class=\"inter-text\">\n</span></code>\n        <code class=\"hl lean block\" data-lean-context=\"examples\"><span class=\"inter-text\">/- Evaluate -/\n\n#eval 5 * 4</span></code>\n        <pre class=\"hl lean lean-output information\"><span class=\"verso-message\"><span class=\"highlighted\"><span class=\"inter-text\">20</span></span></span></pre>\n      </div>\n\n      <p>Trailing prose ensures normal extraction continues.</p>\n    </article>\n  </main>\n</body>\n</html>\n",
+  "inputSha256": "50f5a98e9cbe164a5a4a20aba65172f94fb10b7df7040de4792e35bcd7062777",
+  "upstreamFixture": "tests/fixtures/issues--159-lean-verso-empty-line-preserved.html",
+  "markdownGoldenSha256": "2188a970eb9f8241d7f0506aa2227be8a40755d5e4736ff05602f996e603ec92",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p> This fixture ensures empty Verso code blocks are preserved as blank lines when adjacent Lean command and output fragments are merged. </p> <div> <pre><code class=\"language-lean\" data-lang=\"lean\">#check true\nBool.true : Bool\n\n/- Evaluate -/\n\n#eval 5 * 4\n20</code></pre></div> <p>Trailing prose ensures normal extraction continues.</p> </article>",
+    "contentMarkdown": "This fixture ensures empty Verso code blocks are preserved as blank lines when adjacent Lean command and output fragments are merged.\n\n```lean\n#check true\nBool.true : Bool\n\n/- Evaluate -/\n\n#eval 5 * 4\n20\n```\n\nTrailing prose ensures normal extraction continues.",
+    "title": "Dependent Type Theory",
+    "author": "",
+    "site": "lean-lang.org",
+    "published": "",
+    "wordCount": 40,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

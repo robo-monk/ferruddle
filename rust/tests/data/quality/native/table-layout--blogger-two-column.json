@@ -1,0 +1,698 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Thoughts on various topics"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Welcome to my blog. I write about economics, politics, and whatever else catches my attention."
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Note:"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " Comments are now moderated."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "The One Minute Guide to Avoiding Bad Projects"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " People have been asking me how I was able to predict the outcome so accurately. The answer is surprisingly simple and comes from my business school education. Here are the key principles I learned."
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Good ideas do not need deception to gain support."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " I first encountered this principle in an accounting class. We were discussing whether stock options should be treated as an expense. The companies argued against expensing them, claiming they were vital tools for innovation. But as our lecturer pointed out, if they were truly so valuable, companies would want to report them prominently. The reluctance to account for them honestly was itself evidence that the claimed benefits were overstated."
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Application to the debate"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". The general principle that good ideas are not usually associated with systematic misrepresentation about their true nature has been well confirmed by subsequent events. This principle also illuminates the common claim that the stated reasons were only part of the story."
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Unreliable forecasts cannot be adjusted into reliable ones"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Case after case demonstrated this lesson. Not only do advocates tend to make inaccurate projections, but attempts to shade down fundamentally dishonest predictions are futile. If you doubt the integrity of a forecaster, you cannot use their forecasts at all. Not even as a starting point."
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Application to the debate"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". This reasoning led me to conclude that it was worth making the strong claim rather than hedging. The key figures were clearly making false claims and therefore ought to be discounted completely."
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "The Vital Importance of Audit"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Emphasised over and over again in every textbook. Organizations that do not audit completed projects to check original projections tend to get exactly the outcomes they deserve. Organizations with no consequences for dishonest forecasts get what they deserve. Organizations that give blank cheques to teams with proven records of failure get what they deserve."
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " And so the lesson ends. Next week, perhaps, some reflections on why it is that people do not support certain ambitious reform projects. Mind how you go."
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "hr",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "1"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " We also learned that the distinction between making a single false claim and creating a false impression without correcting it is not one you should rely upon to keep you out of trouble."
+        },
+        {
+          "kind": "element",
+          "name": "br",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://www.example.com/comments/post/12345"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "18 comments"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "element",
+          "name": "font",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "this item posted by the management "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "http://blog.example.com/2004/05/one-minute-guide.html"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "5/27/2004 11:57:00 PM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Thoughts on various topics"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Welcome to my blog. I write about economics, politics, and whatever else catches my attention."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Note:"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " Comments are now moderated."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "The One Minute Guide to Avoiding Bad Projects"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "People have been asking me how I was able to predict the outcome so accurately. The answer is surprisingly simple and comes from my business school education. Here are the key principles I learned."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Good ideas do not need deception to gain support."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " I first encountered this principle in an accounting class. We were discussing whether stock options should be treated as an expense. The companies argued against expensing them, claiming they were vital tools for innovation. But as our lecturer pointed out, if they were truly so valuable, companies would want to report them prominently. The reluctance to account for them honestly was itself evidence that the claimed benefits were overstated."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Application to the debate"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ". The general principle that good ideas are not usually associated with systematic misrepresentation about their true nature has been well confirmed by subsequent events. This principle also illuminates the common claim that the stated reasons were only part of the story."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Unreliable forecasts cannot be adjusted into reliable ones"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ". Case after case demonstrated this lesson. Not only do advocates tend to make inaccurate projections, but attempts to shade down fundamentally dishonest predictions are futile. If you doubt the integrity of a forecaster, you cannot use their forecasts at all. Not even as a starting point."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Application to the debate"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ". This reasoning led me to conclude that it was worth making the strong claim rather than hedging. The key figures were clearly making false claims and therefore ought to be discounted completely."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "The Vital Importance of Audit"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ". Emphasised over and over again in every textbook. Organizations that do not audit completed projects to check original projections tend to get exactly the outcomes they deserve. Organizations with no consequences for dishonest forecasts get what they deserve. Organizations that give blank cheques to teams with proven records of failure get what they deserve."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "And so the lesson ends. Next week, perhaps, some reflections on why it is that people do not support certain ambitious reform projects. Mind how you go."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "hr",
+          "attributes": [],
+          "children": []
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "sup",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " We also learned that the distinction between making a single false claim and creating a false impression without correcting it is not one you should rely upon to keep you out of trouble."
+            },
+            {
+              "kind": "element",
+              "name": "br",
+              "attributes": [],
+              "children": []
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://www.example.com/comments/post/12345"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "18 comments"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " this item posted by the management "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "http://blog.example.com/2004/05/one-minute-guide.html"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "5/27/2004 11:57:00 PM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "blog.example.com",
+    "title": "Example Blog -- Thoughts on various topics",
+    "description": "",
+    "domain": "blog.example.com",
+    "favicon": "https://blog.example.com/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "2004-05-27T00:00:00+00:00",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 410,
+  "extractorType": null
+}

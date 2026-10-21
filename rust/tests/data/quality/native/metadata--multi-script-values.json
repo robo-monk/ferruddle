@@ -1,0 +1,101 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "人工智能（AI）正在改变我们的世界。从自动驾驶汽车到医疗诊断，人工智能的应用无处不在。"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "يستكشف هذا المقال كيف يؤثر الذكاء الاصطناعي على المجتمعات الناطقة بالعربية، وكيف يمكن للتكنولوجيا أن تتكيف مع اللغات المختلفة."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "日本語でも同様に、人工知能は急速に発展しており、多くの産業で活用されています。"
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "人工智能（AI）正在改变我们的世界。从自动驾驶汽车到医疗诊断，人工智能的应用无处不在。"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "يستكشف هذا المقال كيف يؤثر الذكاء الاصطناعي على المجتمعات الناطقة بالعربية، وكيف يمكن للتكنولوجيا أن تتكيف مع اللغات المختلفة."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "日本語でも同様に、人工知能は急速に発展しており、多くの産業で活用されています。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "人工智能的未来",
+        "author": {
+          "name": "محمد علي"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "示例新闻"
+        },
+        "datePublished": "2026-04-07T12:00:00+00:00"
+      }
+    ],
+    "site": "示例新闻",
+    "title": "人工智能的未来",
+    "description": "مقال عن الذكاء الاصطناعي ومستقبله في العالم العربي.",
+    "domain": "news.example.org",
+    "favicon": "https://news.example.org/favicon.ico",
+    "image": "",
+    "language": "zh-Hans",
+    "published": "2026-04-07T12:00:00+00:00",
+    "author": "محمد علي"
+  },
+  "warnings": [],
+  "wordCount": 98,
+  "extractorType": null
+}

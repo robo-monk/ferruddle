@@ -1,0 +1,20 @@
+{
+  "id": "issues--106-menu-id",
+  "url": "https://106-menu-id",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n<title>Restaurant Menu Page</title>\n<meta name=\"description\" content=\"Our restaurant menu with appetizers, main courses, and desserts.\">\n</head>\n<body>\n<header>\n<nav><a href=\"/\">Home</a> <a href=\"/about\">About</a></nav>\n</header>\n<main>\n<h1>Our Restaurant</h1>\n<p>Welcome to our restaurant. Below you will find our full menu with seasonal selections.</p>\n<div id=\"menu\">\n<h2>Appetizers</h2>\n<p>Spring rolls with sweet chili sauce — a perfect way to start your meal.</p>\n<h2>Main Course</h2>\n<p>Grilled salmon with roasted vegetables, served with a lemon butter sauce.</p>\n<h2>Desserts</h2>\n<p>Chocolate lava cake with vanilla ice cream — our signature dessert.</p>\n</div>\n<p>Please ask your server about daily specials and allergen information.</p>\n</main>\n<footer><p>Copyright 2025 Our Restaurant</p></footer>\n</body>\n</html>\n",
+  "inputSha256": "249403b722d631192b4606992711a8c9cb89d5cc2e0e80c38e895413461c92e5",
+  "upstreamFixture": "tests/fixtures/issues--106-menu-id.html",
+  "markdownGoldenSha256": "ad933ac171a2a9354858787a87026e7fe37d57de0911bfee9f880bb743e0b2d8",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<main> <h2>Our Restaurant</h2> <p>Welcome to our restaurant. Below you will find our full menu with seasonal selections.</p>  <h2>Appetizers</h2> <p>Spring rolls with sweet chili sauce — a perfect way to start your meal.</p> <h2>Main Course</h2> <p>Grilled salmon with roasted vegetables, served with a lemon butter sauce.</p> <h2>Desserts</h2> <p>Chocolate lava cake with vanilla ice cream — our signature dessert.</p>  <p>Please ask your server about daily specials and allergen information.</p> </main>",
+    "contentMarkdown": "## Our Restaurant\n\nWelcome to our restaurant. Below you will find our full menu with seasonal selections.\n\n## Appetizers\n\nSpring rolls with sweet chili sauce — a perfect way to start your meal.\n\n## Main Course\n\nGrilled salmon with roasted vegetables, served with a lemon butter sauce.\n\n## Desserts\n\nChocolate lava cake with vanilla ice cream — our signature dessert.\n\nPlease ask your server about daily specials and allergen information.",
+    "title": "Restaurant Menu Page",
+    "author": "",
+    "site": "106-menu-id",
+    "published": "",
+    "wordCount": 66,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

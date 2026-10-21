@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "caseCount": 208,
+  "inputBytes": 1372181,
+  "pairedPasses": 2,
+  "nativeRepeatWorkers": 4,
+  "measuredRoundsPerModePass": 3,
+  "warmupsPerModePass": 1,
+  "timings": "discarded; not added to the final release benchmark data",
+  "currentExecutableSha256": "03f2927b8da8d4599ab2936ba65a99c490cbacb91961193cfc21e8969f2d706e",
+  "baselineExecutableSha256": "98dfbb119c7a18dc443b6b6f9ed64359a32d53444a2e90a3d45e0defc5c11bac",
+  "inputSetSha256": "e26a1dbbe0554fe280b9958642f8611822ea7dc593dae21f5ccaff66f5e0ab76",
+  "pairedSourceAndOutputStability": "passed",
+  "nativeSourceBinaryWorkerAndOutputStability": "passed"
+}

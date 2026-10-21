@@ -1,0 +1,133 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A typical solution"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is a function that processes an array:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "cpp",
+      "text": "auto process_values(const std::vector<uint8_t> &vec)\n{\n    return std::count_if(\n        vec.begin(),\n        vec.end(),\n        [](uint8_t x) { return x % 2 == 0; }\n    );\n}"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Let's look at the generated assembly:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "nasm",
+      "text": "process_values():\n    vpbroadcastb    xmm1, byte ptr [rip + .LCPI0_1]\n    vmovd   xmm2, dword ptr [rsi + rax]\n    vpandn  xmm2, xmm2, xmm1\n    add     rax, 4\n    cmp     r8, rax\n    jne     .LBB0_6"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The compiler generates vectorized code that processes four values at a time."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "A typical solution"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is a function that processes an array:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "cpp",
+      "text": "auto process_values(const std::vector<uint8_t> &vec)\n{\n    return std::count_if(\n        vec.begin(),\n        vec.end(),\n        [](uint8_t x) { return x % 2 == 0; }\n    );\n}"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Let's look at the generated assembly:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "nasm",
+      "text": "process_values():\n    vpbroadcastb    xmm1, byte ptr [rip + .LCPI0_1]\n    vmovd   xmm2, dword ptr [rsi + rax]\n    vpandn  xmm2, xmm2, xmm1\n    add     rax, 4\n    cmp     r8, rax\n    jne     .LBB0_6"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The compiler generates vectorized code that processes four values at a time."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "code-blocks--chroma-linenums",
+    "title": "Sample Technical Post",
+    "description": "",
+    "domain": "code-blocks--chroma-linenums",
+    "favicon": "https://code-blocks--chroma-linenums/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 77,
+  "extractorType": null
+}

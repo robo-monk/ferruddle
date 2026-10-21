@@ -1,0 +1,87 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Cloud storage has evolved significantly over the past decade. What began as simple file hosting has transformed into a sophisticated platform for data management and analytics."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Current Landscape"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Today's cloud storage solutions offer features that were unimaginable just a few years ago. From intelligent tiering to built-in machine learning capabilities, the landscape continues to evolve rapidly."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Cloud storage has evolved significantly over the past decade. What began as simple file hosting has transformed into a sophisticated platform for data management and analytics."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Current Landscape"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Today's cloud storage solutions offer features that were unimaginable just a few years ago. From intelligent tiering to built-in machine learning capabilities, the landscape continues to evolve rapidly."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Dr Jane Smith",
+    "title": "The Future of Cloud Storage",
+    "description": "",
+    "domain": "blog.example.com",
+    "favicon": "https://blog.example.com/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": "Dr Jane Smith"
+  },
+  "warnings": [],
+  "wordCount": 56,
+  "extractorType": null
+}

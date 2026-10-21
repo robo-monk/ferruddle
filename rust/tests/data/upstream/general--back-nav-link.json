@@ -1,0 +1,20 @@
+{
+  "id": "general--back-nav-link",
+  "url": "https://example.com/articles/sorting",
+  "inputHtml": "<!-- {\"url\": \"https://example.com/articles/sorting\"} -->\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>An Article About Sorting</title>\n</head>\n<body>\n\n<a href=\"../index.html\">← back</a>\n\n<h1>An Article About Sorting</h1>\n<p class=\"meta\">January 1, 2025</p>\n\n<p>Sorting algorithms are fundamental to computer science. The most widely used general-purpose sorting algorithm is Quicksort, discovered in 1962.</p>\n\n<p>Quicksort works by selecting a pivot element and partitioning the array around it. Elements smaller than the pivot move left; elements larger move right. The process then recurses on both partitions.</p>\n\n<p>The expected time complexity of Quicksort is O(n log n), which makes it extremely fast in practice despite its worst-case O(n²) behavior.</p>\n\n</body>\n</html>\n",
+  "inputSha256": "99d055d078d0914bffb47bce0a10ebab75147302e5f55cb81fdc319a5c8bd4c4",
+  "upstreamFixture": "tests/fixtures/general--back-nav-link.html",
+  "markdownGoldenSha256": "ffafa01f2e8333e5310c369e28898dad7a1dfaf47d7322e5f10fcffb555108d0",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<body>    <p>Sorting algorithms are fundamental to computer science. The most widely used general-purpose sorting algorithm is Quicksort, discovered in 1962.</p> <p>Quicksort works by selecting a pivot element and partitioning the array around it. Elements smaller than the pivot move left; elements larger move right. The process then recurses on both partitions.</p> <p>The expected time complexity of Quicksort is O(n log n), which makes it extremely fast in practice despite its worst-case O(n²) behavior.</p> </body>",
+    "contentMarkdown": "Sorting algorithms are fundamental to computer science. The most widely used general-purpose sorting algorithm is Quicksort, discovered in 1962.\n\nQuicksort works by selecting a pivot element and partitioning the array around it. Elements smaller than the pivot move left; elements larger move right. The process then recurses on both partitions.\n\nThe expected time complexity of Quicksort is O(n log n), which makes it extremely fast in practice despite its worst-case O(n²) behavior.",
+    "title": "An Article About Sorting",
+    "author": "",
+    "site": "example.com",
+    "published": "2025-01-01T00:00:00+00:00",
+    "wordCount": 72,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

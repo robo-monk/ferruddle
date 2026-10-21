@@ -1,0 +1,20 @@
+{
+  "id": "elements--farsi-zwnj",
+  "url": "https://farsi-zwnj",
+  "inputHtml": "<!DOCTYPE html>\n<html lang=\"fa\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>معرفی Bases در Obsidian</title>\n    <meta name=\"description\" content=\"آشنایی با افزونه Bases برای ایجاد نمای پایگاه‌داده از یادداشت‌ها\">\n    <meta name=\"author\" content=\"Obsidian\">\n</head>\n<body>\n    <article>\n        <h1>معرفی Bases در Obsidian</h1>\n\n        <section>\n            <h2>مقدمه</h2>\n            <p>\n                <strong>Bases</strong> یک <strong>افزونه‌ی اصلی</strong> است که به شما اجازه می‌دهد <strong>نمایی شبیه\n                    پایگاه‌داده</strong> از یادداشت‌هایتان بسازید. با استفاده از یک <strong>base</strong> می‌توانید\n                <strong>فایل‌ها و ویژگی‌هایشان را مشاهده، ویرایش، مرتب‌سازی و فیلتر</strong> کنید. این قابلیت می‌تواند به\n                شما کمک کند تا هر چیزی از <strong>پروژه‌ها</strong> گرفته تا <strong>برنامه‌های سفر</strong>، <strong>فهرست\n                    کتاب‌های خواندنی</strong> و موارد دیگر را <strong>سازمان‌دهی</strong> کنید.\n            </p>\n            <p>\n                هر <strong>base</strong> می‌تواند چندین <strong>نما (view)</strong> با چیدمان‌های مختلف مانند <strong>جدول\n                    (table)</strong> و <strong>کارت (card)</strong> داشته باشد. در تصویر زیر نمونه‌ای از <strong>نمای\n                    جدولی</strong> را می‌بینید که در آن هر <strong>ردیف</strong> نمایانگر یک <strong>فایل</strong> است و هر\n                <strong>ستون</strong> یکی از <strong>ویژگی‌های آن فایل</strong> را نشان می‌دهد.\n            </p>\n        </section>\n    </article>\n</body>\n</html>\n\n",
+  "inputSha256": "83affc9cddff746d59a5a8c2548691a7ad7fad896083274bc65a9e5e24c0a3a6",
+  "upstreamFixture": "tests/fixtures/elements--farsi-zwnj.html",
+  "markdownGoldenSha256": "7ebf2b4ca1cb309399c1825da7d438ef46c0aef4c3f21391ed5e7b7bda271516",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>   <h2>مقدمه</h2> <p> <strong>Bases</strong> یک <strong>افزونه‌ی اصلی</strong> است که به شما اجازه می‌دهد <strong>نمایی شبیه پایگاه‌داده</strong> از یادداشت‌هایتان بسازید. با استفاده از یک <strong>base</strong> می‌توانید <strong>فایل‌ها و ویژگی‌هایشان را مشاهده، ویرایش، مرتب‌سازی و فیلتر</strong> کنید. این قابلیت می‌تواند به شما کمک کند تا هر چیزی از <strong>پروژه‌ها</strong> گرفته تا <strong>برنامه‌های سفر</strong> ، <strong>فهرست کتاب‌های خواندنی</strong> و موارد دیگر را <strong>سازمان‌دهی</strong> کنید. </p> <p> هر <strong>base</strong> می‌تواند چندین <strong>نما (view)</strong> با چیدمان‌های مختلف مانند <strong>جدول (table)</strong> و <strong>کارت (card)</strong> داشته باشد. در تصویر زیر نمونه‌ای از <strong>نمای جدولی</strong> را می‌بینید که در آن هر <strong>ردیف</strong> نمایانگر یک <strong>فایل</strong> است و هر <strong>ستون</strong> یکی از <strong>ویژگی‌های آن فایل</strong> را نشان می‌دهد. </p>  </article>",
+    "contentMarkdown": "## مقدمه\n\n**Bases** یک **افزونه‌ی اصلی** است که به شما اجازه می‌دهد **نمایی شبیه پایگاه‌داده** از یادداشت‌هایتان بسازید. با استفاده از یک **base** می‌توانید **فایل‌ها و ویژگی‌هایشان را مشاهده، ویرایش، مرتب‌سازی و فیلتر** کنید. این قابلیت می‌تواند به شما کمک کند تا هر چیزی از **پروژه‌ها** گرفته تا **برنامه‌های سفر** ، **فهرست کتاب‌های خواندنی** و موارد دیگر را **سازمان‌دهی** کنید.\n\nهر **base** می‌تواند چندین **نما (view)** با چیدمان‌های مختلف مانند **جدول (table)** و **کارت (card)** داشته باشد. در تصویر زیر نمونه‌ای از **نمای جدولی** را می‌بینید که در آن هر **ردیف** نمایانگر یک **فایل** است و هر **ستون** یکی از **ویژگی‌های آن فایل** را نشان می‌دهد.",
+    "title": "معرفی Bases در Obsidian",
+    "author": "Obsidian",
+    "site": "Obsidian",
+    "published": "",
+    "wordCount": 105,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

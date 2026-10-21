@@ -1,0 +1,65 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Model Architecture"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The Transformer follows an encoder-decoder structure as shown in the left and right halves of Figure 1, respectively. We describe the multi-head attention in Section 3.2. The results are shown in Table 1."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Model Architecture"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The Transformer follows an encoder-decoder structure as shown in the left and right halves of Figure 1, respectively. We describe the multi-head attention in Section 3.2. The results are shown in Table 1."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "143-arxiv-cross-references",
+    "title": "arXiv Cross-References",
+    "description": "",
+    "domain": "143-arxiv-cross-references",
+    "favicon": "https://143-arxiv-cross-references/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 35,
+  "extractorType": null
+}

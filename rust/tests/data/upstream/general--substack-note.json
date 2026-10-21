@@ -1,0 +1,20 @@
+{
+  "id": "general--substack-note",
+  "url": "https://substack.com/@testuser/note/c-123456789",
+  "inputHtml": "<!-- {\"url\": \"https://substack.com/@testuser/note/c-123456789\"} -->\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"utf-8\">\n\t<title>Test User (@testuser): \"Sample note text for testing the Substack extractor.\"</title>\n\t<meta property=\"og:type\" content=\"article\">\n\t<meta property=\"og:title\" content=\"Test User (@testuser)\">\n\t<meta property=\"og:description\" content=\"Sample note text for testing the Substack extractor.\">\n\t<meta property=\"og:image\" content=\"https://example.com/image/full-res.jpg\">\n\t<meta property=\"og:site_name\" content=\"Substack\">\n\t<link rel=\"canonical\" href=\"https://substack.com/@testuser/note/c-123456789\">\n</head>\n<body>\n<div id=\"entry\">\n\t<!-- Simulated note card structure -->\n\t<div class=\"pencraft pc-display-flex pc-flexDirection-column pc-reset\">\n\n\t\t<!-- Author header row -->\n\t\t<div class=\"pencraft pc-display-flex pc-gap-8 pc-alignItems-center pc-reset\">\n\t\t\t<a href=\"/@testuser\">\n\t\t\t\t<img src=\"https://example.com/avatar.jpg\" alt=\"Test User's avatar\" width=\"36\" height=\"36\">\n\t\t\t</a>\n\t\t\t<div>\n\t\t\t\t<a href=\"/@testuser\">Test User</a>\n\t\t\t\t<a href=\"/@testuser/note/c-123456789\">2d</a>\n\t\t\t</div>\n\t\t\t<button aria-label=\"More options\">...</button>\n\t\t</div>\n\n\t\t<!-- feedCommentBody's parent wrapper -->\n\t\t<div class=\"pencraft pc-display-flex pc-flexDirection-column pc-reset\">\n\t\t\t<!-- Text content -->\n\t\t\t<div class=\"pencraft pc-display-flex pc-flexDirection-column pc-reset feedCommentBody-UWho7S\">\n\t\t\t\t<div class=\"pencraft pc-reset feedCommentBodyInner-AOzMIC\">\n\t\t\t\t\t<div dir=\"auto\" class=\"ProseMirror FeedProseMirror\">\n\t\t\t\t\t\t<p>Sample note text for testing the Substack extractor.</p>\n\t\t\t\t\t\t<p>It has multiple paragraphs to verify the content is captured correctly.</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\n\t\t<!-- Image grid (sibling of feedCommentBody's parent) -->\n\t\t<div class=\"pencraft pc-display-flex pc-gap-4 pc-reset imageGrid-TadIyX size-1-rfav9C\">\n\t\t\t<div class=\"pencraft imageBubble-PUJ2WF\" style=\"width: 520px; height: 390px;\">\n\t\t\t\t<picture>\n\t\t\t\t\t<source type=\"image/webp\" srcset=\"https://example.com/image/320w.webp 320w, https://example.com/image/640w.webp 640w, https://example.com/image/960w.webp 960w\">\n\t\t\t\t\t<img src=\"https://example.com/image/320w.jpg\"\n\t\t\t\t\t\tsrcset=\"https://example.com/image/320w.jpg 320w, https://example.com/image/640w.jpg 640w, https://example.com/image/960w.jpg 960w\"\n\t\t\t\t\t\twidth=\"520\" height=\"390\" alt=\"\" loading=\"lazy\" class=\"img-OACg1c pencraft pc-reset\">\n\t\t\t\t</picture>\n\t\t\t</div>\n\t\t</div>\n\n\t\t<!-- Engagement buttons (should be ignored) -->\n\t\t<div class=\"pencraft pc-display-flex pc-reset container-_91AK1\">\n\t\t\t<button aria-label=\"Like\">42</button>\n\t\t\t<button aria-label=\"Comment\">5</button>\n\t\t</div>\n\n\t</div>\n</div>\n</body>\n</html>\n",
+  "inputSha256": "4b83f5dfa7539d479086964ef1997900b3e8205f2339458504f30be305044b30",
+  "upstreamFixture": "tests/fixtures/general--substack-note.html",
+  "markdownGoldenSha256": "4844d3c70435d525594d5bec9f2b5ab6a091c7888947aef7a5a389c2d636f9a3",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<div dir=\"auto\">\n\t\t\t\t\t\t<p>Sample note text for testing the Substack extractor.</p>\n\t\t\t\t\t\t<p>It has multiple paragraphs to verify the content is captured correctly.</p>\n\t\t\t\t\t</div>\n<img src=\"https://example.com/image/full-res.jpg\" alt=\"\">",
+    "contentMarkdown": "Sample note text for testing the Substack extractor.\n\nIt has multiple paragraphs to verify the content is captured correctly.\n\n![](https://example.com/image/full-res.jpg)",
+    "title": "Test User (@testuser)",
+    "author": "Test User",
+    "site": "Substack",
+    "published": "",
+    "wordCount": 19,
+    "extractorType": "substack"
+  },
+  "synchronousDifferenceFields": []
+}

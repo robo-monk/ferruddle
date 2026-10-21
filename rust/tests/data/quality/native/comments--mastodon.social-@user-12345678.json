@@ -1,0 +1,893 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is a sample post about something interesting. Check out this link!"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.com/interesting"
+            ],
+            [
+              "title",
+              "https://example.com/interesting"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "example.com/interesting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "A sample screenshot showing the project"
+        ],
+        [
+          "src",
+          "https://cdn.mastodon.example/media/original/sample-image.png"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is some more context about the project"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Comments"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Bob @bob@other.social"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://mastodon.example/@bob@other.social/12345680"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2026-04-20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://mastodon.example/@alice"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "@alice"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " This is really cool! Great work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Carol @carol@third.social"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://mastodon.example/@carol@third.social/12345681"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2026-04-20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://mastodon.example/@alice"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "@alice"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " Impressive project. How does it handle edge cases?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "blockquote",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "p",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Alice @alice"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " · "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://mastodon.example/@alice/12345682"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "2026-04-20"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "p",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://mastodon.example/@carol@third.social"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "@carol"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " Good question! It uses a fallback mechanism for that."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Dave @dave@mastodon.example"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://mastodon.example/@dave/12345683"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2026-04-20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://mastodon.example/@alice"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "@alice"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " Related project here"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.com/related"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "element",
+              "name": "img",
+              "attributes": [
+                [
+                  "alt",
+                  "Related Project"
+                ],
+                [
+                  "src",
+                  "https://cdn.mastodon.example/cards/related-preview.png"
+                ]
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://example.com/related"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Related Project"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "A similar project with different goals"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is a sample post about something interesting. Check out this link!"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.com/interesting"
+            ],
+            [
+              "title",
+              "https://example.com/interesting"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "example.com/interesting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "img",
+      "attributes": [
+        [
+          "alt",
+          "A sample screenshot showing the project"
+        ],
+        [
+          "src",
+          "https://cdn.mastodon.example/media/original/sample-image.png"
+        ]
+      ],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Here is some more context about the project"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "hr",
+      "attributes": [],
+      "children": []
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Comments"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Bob @bob@other.social"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://mastodon.example/@bob@other.social/12345680"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2026-04-20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://mastodon.example/@alice"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "@alice"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " This is really cool! Great work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Carol @carol@third.social"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://mastodon.example/@carol@third.social/12345681"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2026-04-20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://mastodon.example/@alice"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "@alice"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " Impressive project. How does it handle edge cases?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "blockquote",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "p",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "strong",
+                  "attributes": [],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Alice @alice"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " · "
+                },
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://mastodon.example/@alice/12345682"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "2026-04-20"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "p",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "element",
+                  "name": "a",
+                  "attributes": [
+                    [
+                      "href",
+                      "https://mastodon.example/@carol@third.social"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "@carol"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": " Good question! It uses a fallback mechanism for that."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "blockquote",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "strong",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Dave @dave@mastodon.example"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " · "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://mastodon.example/@dave/12345683"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "2026-04-20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://mastodon.example/@alice"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "@alice"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " Related project here"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.com/related"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "element",
+              "name": "img",
+              "attributes": [
+                [
+                  "alt",
+                  "Related Project"
+                ],
+                [
+                  "src",
+                  "https://cdn.mastodon.example/cards/related-preview.png"
+                ]
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://example.com/related"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Related Project"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "p",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "A similar project with different goals"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "mastodon.example",
+    "title": "Post by Alice on mastodon.example",
+    "description": "This is a sample post about something interesting. Check out this link! https://example.com/interesting",
+    "domain": "mastodon.example",
+    "favicon": "https://mastodon.example/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "2026-04-20",
+    "author": "Alice"
+  },
+  "warnings": [],
+  "wordCount": 76,
+  "extractorType": "mastodon"
+}

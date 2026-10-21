@@ -1,0 +1,7 @@
+{
+  "source": "tests/fixtures/youtube/issues--410-default-audio.html",
+  "sha256": "7eb374690a4f03a819de2e468f8c9c00bd47eb38ec7a4349557bdeda665e7547",
+  "url": "https://www.youtube.com/watch?v=example123",
+  "sourceTest": "tests/youtube-transcript.test.ts",
+  "scope": "Offline DOM and embedded player metadata only. The upstream Japanese transcript expectation requires a separately fetched caption response that is absent from this HTML."
+}

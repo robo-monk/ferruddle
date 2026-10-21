@@ -1,0 +1,485 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The company on Thursday began removing advertisements from attorneys seeking clients that claim to have been harmed by their product."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Why it matters:"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " This comes just two weeks after the company was "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.com/verdict"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "found negligent"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " in a landmark case about product liability."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Lawyers across the country are now seeking new plaintiffs, in the hopes of bringing a class action lawsuit that could result in significant verdicts."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "It is unclear if any of them are being backed by outside funding, as the original lawsuit appears to have been."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Driving the news:"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " Reporters have identified more than a dozen such ads that were deactivated today, some of which came from large national firms."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Almost all of them ran on both platforms."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Some also appeared on additional services, plus the company's partner network which distributes ads to thousands of third-party sites."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "One such ad read: "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "\"Anxiety. Depression. Withdrawal. Self-harm. These aren't just phases — they're symptoms linked to product use in children. Platforms knew this and kept targeting kids anyway.\""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "A few of the ads still remain active, including some posted earlier this week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Zoom in:"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " The company appears to be relying on part of its terms of service that prohibit advertisements which disparage the platform or its products."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "What they're saying:"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " \"We're actively defending ourselves against these lawsuits and are removing ads that attempt to recruit plaintiffs for them,\" a company spokesperson says. \"We will not allow trial lawyers to profit from our platforms while simultaneously claiming they are harmful.\""
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "The bottom line:"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " While the company has every right to control what ads appear on its platforms, the move could draw attention from lawmakers who have accused the company of prioritizing profits over child safety."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The company on Thursday began removing advertisements from attorneys seeking clients that claim to have been harmed by their product."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Why it matters:"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " This comes just two weeks after the company was "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://example.com/verdict"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "found negligent"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " in a landmark case about product liability."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Lawyers across the country are now seeking new plaintiffs, in the hopes of bringing a class action lawsuit that could result in significant verdicts."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "It is unclear if any of them are being backed by outside funding, as the original lawsuit appears to have been."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Driving the news:"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " Reporters have identified more than a dozen such ads that were deactivated today, some of which came from large national firms."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Almost all of them ran on both platforms."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Some also appeared on additional services, plus the company's partner network which distributes ads to thousands of third-party sites."
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "One such ad read: "
+            },
+            {
+              "kind": "element",
+              "name": "em",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "\"Anxiety. Depression. Withdrawal. Self-harm. These aren't just phases — they're symptoms linked to product use in children. Platforms knew this and kept targeting kids anyway.\""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "A few of the ads still remain active, including some posted earlier this week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Zoom in:"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " The company appears to be relying on part of its terms of service that prohibit advertisements which disparage the platform or its products."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "What they're saying:"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " \"We're actively defending ourselves against these lawsuits and are removing ads that attempt to recruit plaintiffs for them,\" a company spokesperson says. \"We will not allow trial lawyers to profit from our platforms while simultaneously claiming they are harmful.\""
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "The bottom line:"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " While the company has every right to control what ads appear on its platforms, the move could draw attention from lawmakers who have accused the company of prioritizing profits over child safety."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Jane Reporter",
+    "title": "Breaking: Company Removes Ads for Product Liability Cases",
+    "description": "",
+    "domain": "gated-content--cookie-consent",
+    "favicon": "https://gated-content--cookie-consent/favicon.ico",
+    "image": "",
+    "language": "en",
+    "published": "",
+    "author": "Jane Reporter"
+  },
+  "warnings": [],
+  "wordCount": 282,
+  "extractorType": null
+}

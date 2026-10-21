@@ -1,0 +1,2533 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Whenever I buy things I try to prioritize "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Sometimes I consider other priorities such as "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per smile"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per thrill"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per externality"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", and "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per lesson"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Cost per use"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Considering "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " helps me make decisions about most non-perishable purchases such as clothes, vehicles, tools, devices, and even services. How much will something cost if I divide its price by its expected number of uses?"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " accounts for longevity. Durable and repairable things may cost more upfront, but over time they cost less than things that break and need to be replaced."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For example, I buy wool socks from a brand called "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://darntough.com/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Darn Tough"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". They cost about four times more than cheap socks, but they’re durable, comfortable, and have a lifetime guarantee."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "How many times do you wear a pair of socks before holes appear? It may sound silly, but if you amortize the price of each pair of socks over their expected number of uses, a good pair of socks is a worthwhile investment."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Quality"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Price"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Uses"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Cost per use"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Poor"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "$5"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "10"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "$0.50"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Good"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "$10"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "50"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "$0.20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Best"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "$20"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "200"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "$0.10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Durable socks save you money. Durable socks save you the hassle of throwing out old socks and buying new ones. Your time has value."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The best things asymptote to "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "zero dollars per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " over their lifetime. Not all products that have a low "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " are expensive. Some things are both affordable and durable."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " can also be used to measure the value you expect to get out of services like gym memberships, healthcare, or "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "all-you-can-eat"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " subscriptions like streaming services."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "How to assess durability"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "My aim is to have fewer but better things. These are some of the questions I ask of the things that I incorporate into my life:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Will it be as useful to me in the future as it is now?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Is it made of durable and maintainable materials?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Does it have a timeless "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://stephango.com-buy-wisely/style"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "style"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " and aesthetic?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Does it age well, wear well, build a "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://stephango.com-buy-wisely/scars"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "wabi-sabi"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " patina?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Does it retain its resale value? Would someone else want to own it?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Can it be disassembled and repaired?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Does it have replaceable, non-proprietary parts that are easy to acquire?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Can it be powered with a standard plug or replaceable batteries?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Can it be modified and upgraded?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Has the maker existed for at least as long as I hope to keep the product?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Can it perform many jobs, or only one?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Does it have a guarantee?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Does it rely on other products or technologies that aren’t durable?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Not all questions are relevant to all things. Not all things need to satisfy every requirement. However, I feel better about buying things that check many of these boxes. A movement called “buy it for life” has sprung up around similar priorities."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "How to estimate uses"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "To make purchasing decisions based on "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", you should try to guess how many times you will use the product. This sounds obvious, but it can be hard to determine, especially if it’s something you’ve never bought before."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "If you are new to a hobby, like cooking or skiing, you may not yet know how many times you will use a piece of gear. It’s easy to significantly overestimate or underestimate how many times you will use something."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "You should, however, be able to guess the frequency of use. Is this something you might use once per hour, day, week, month, year? This will help you determine your budget. How many dollars per month do you want to spend on this?"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "If you don’t know the frequency yet consider borrowing, renting, or otherwise trialing. Remember the ideal "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " trends to $0. The most cost-effective choice is to not buy something you don’t need."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "There is an opportunity cost to every dollar. A dollar you spend on a something that won’t get much use is a dollar you can’t save for something that will."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "If you’re only going to use something once, then "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " may not be the right heuristic for this decision. If you have disposable income, then the "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " lens should nonetheless guide you towards something with good resale value."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The best things to splurge on are the things you use the most. If you sit on a chair eight hours a day, then a nice chair is probably a good investment."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Reducing the cost side"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Durable things reduce "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " by giving you more uses before they break. But you can also reduce "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " by acquiring products at a discount. You may be able to buy second-hand, inherit, or barter."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Durable things can often be great second-hand purchases "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "because"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " they are durable, and may not be the current fashion."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Alternative heuristics"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " is not the only way to make buying decisions. For things like consumables and experiences, you may need to approach the decision differently."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Cost per smile"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "How much joy can you get out of each dollar? Some things bring lots of joy for a small amount of money: ice cream, sunsets, nature walks. A cheap date can bring many smiles per dollar."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some things have excellent "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " but few "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "smiles per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". I don’t smile every time I put my nice socks on. A few years ago I bought a fairly expensive electric road bike. It probably didn’t have the best "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", but it gives me the most "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "joy per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " of any product I purchased in recent memory. It’s worth it to me."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Cost per thrill"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some experiences have high "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "intensity per dollar"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". A potency, concentration, or strength of experience. For example, foods can have high "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "flavor per dollar"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " — like hot sauce, pickles, curry, garlic, or mustard. Roller coasters, bungee jumping, or skydiving may give you a "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "thrill per dollar"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " that you can’t beat."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Cost per externality"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some purchases may have externalities that are incompatible with your values. For example, you may wish to buy organic produce, pasture-raised eggs, or fair trade coffee. You may wish to buy products that preserve privacy, reduce environmental impact, or support a cause you believe in."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "You can choose to incorporate externalities into the cost that you are paying instead of letting that cost be borne by others, or by society at large. This may increase your personal "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", but it might help change how society values things, or simply make you feel good."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Cost per lesson"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Knowledge has a cost. Sometimes that cost is monetary, sometimes that cost is time, sometimes that cost is "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://stephango.com-buy-wisely/pain"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "pain"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Sometimes it’s all three."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "You might learn more about investing by purchasing a handful of shares in public companies than going to graduate school. You might learn more about making movies by trying to film one on your phone than going to film school."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Acquiring new ideas and perspectives can have a worthwhile cost. Being an early adopter of a product often has a poor "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", but its value is in the learning and experience per dollar."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Whenever I buy things I try to prioritize "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Sometimes I consider other priorities such as "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per smile"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per thrill"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per externality"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", and "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per lesson"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Cost per use"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Considering "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " helps me make decisions about most non-perishable purchases such as clothes, vehicles, tools, devices, and even services. How much will something cost if I divide its price by its expected number of uses?"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " accounts for longevity. Durable and repairable things may cost more upfront, but over time they cost less than things that break and need to be replaced."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For example, I buy wool socks from a brand called "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://darntough.com/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Darn Tough"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". They cost about four times more than cheap socks, but they’re durable, comfortable, and have a lifetime guarantee."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "How many times do you wear a pair of socks before holes appear? It may sound silly, but if you amortize the price of each pair of socks over their expected number of uses, a good pair of socks is a worthwhile investment."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "table",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Quality"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Price"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Uses"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "th",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Cost per use"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Poor"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "$5"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "10"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "$0.50"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Good"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "$10"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "50"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "$0.20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "tr",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Best"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "$20"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "200"
+                }
+              ]
+            },
+            {
+              "kind": "element",
+              "name": "td",
+              "attributes": [],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "$0.10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Durable socks save you money. Durable socks save you the hassle of throwing out old socks and buying new ones. Your time has value."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The best things asymptote to "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "zero dollars per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " over their lifetime. Not all products that have a low "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " are expensive. Some things are both affordable and durable."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " can also be used to measure the value you expect to get out of services like gym memberships, healthcare, or "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "all-you-can-eat"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " subscriptions like streaming services."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "How to assess durability"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "My aim is to have fewer but better things. These are some of the questions I ask of the things that I incorporate into my life:"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ul",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Will it be as useful to me in the future as it is now?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Is it made of durable and maintainable materials?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Does it have a timeless "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://stephango.com-buy-wisely/style"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "style"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " and aesthetic?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Does it age well, wear well, build a "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://stephango.com-buy-wisely/scars"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "wabi-sabi"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": " patina?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Does it retain its resale value? Would someone else want to own it?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Can it be disassembled and repaired?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Does it have replaceable, non-proprietary parts that are easy to acquire?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Can it be powered with a standard plug or replaceable batteries?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Can it be modified and upgraded?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Has the maker existed for at least as long as I hope to keep the product?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Can it perform many jobs, or only one?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Does it have a guarantee?"
+            }
+          ]
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Does it rely on other products or technologies that aren’t durable?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Not all questions are relevant to all things. Not all things need to satisfy every requirement. However, I feel better about buying things that check many of these boxes. A movement called “buy it for life” has sprung up around similar priorities."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "How to estimate uses"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "To make purchasing decisions based on "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", you should try to guess how many times you will use the product. This sounds obvious, but it can be hard to determine, especially if it’s something you’ve never bought before."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "If you are new to a hobby, like cooking or skiing, you may not yet know how many times you will use a piece of gear. It’s easy to significantly overestimate or underestimate how many times you will use something."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "You should, however, be able to guess the frequency of use. Is this something you might use once per hour, day, week, month, year? This will help you determine your budget. How many dollars per month do you want to spend on this?"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "If you don’t know the frequency yet consider borrowing, renting, or otherwise trialing. Remember the ideal "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " trends to $0. The most cost-effective choice is to not buy something you don’t need."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "There is an opportunity cost to every dollar. A dollar you spend on a something that won’t get much use is a dollar you can’t save for something that will."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "If you’re only going to use something once, then "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " may not be the right heuristic for this decision. If you have disposable income, then the "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " lens should nonetheless guide you towards something with good resale value."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The best things to splurge on are the things you use the most. If you sit on a chair eight hours a day, then a nice chair is probably a good investment."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Reducing the cost side"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Durable things reduce "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " by giving you more uses before they break. But you can also reduce "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " by acquiring products at a discount. You may be able to buy second-hand, inherit, or barter."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Durable things can often be great second-hand purchases "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "because"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " they are durable, and may not be the current fashion."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Alternative heuristics"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " is not the only way to make buying decisions. For things like consumables and experiences, you may need to approach the decision differently."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Cost per smile"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "How much joy can you get out of each dollar? Some things bring lots of joy for a small amount of money: ice cream, sunsets, nature walks. A cheap date can bring many smiles per dollar."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some things have excellent "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " but few "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "smiles per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". I don’t smile every time I put my nice socks on. A few years ago I bought a fairly expensive electric road bike. It probably didn’t have the best "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", but it gives me the most "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "joy per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " of any product I purchased in recent memory. It’s worth it to me."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Cost per thrill"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some experiences have high "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "intensity per dollar"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". A potency, concentration, or strength of experience. For example, foods can have high "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "flavor per dollar"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " — like hot sauce, pickles, curry, garlic, or mustard. Roller coasters, bungee jumping, or skydiving may give you a "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "thrill per dollar"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " that you can’t beat."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Cost per externality"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Some purchases may have externalities that are incompatible with your values. For example, you may wish to buy organic produce, pasture-raised eggs, or fair trade coffee. You may wish to buy products that preserve privacy, reduce environmental impact, or support a cause you believe in."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "You can choose to incorporate externalities into the cost that you are paying instead of letting that cost be borne by others, or by society at large. This may increase your personal "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", but it might help change how society values things, or simply make you feel good."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h3",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Cost per lesson"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Knowledge has a cost. Sometimes that cost is monetary, sometimes that cost is time, sometimes that cost is "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://stephango.com-buy-wisely/pain"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "pain"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ". Sometimes it’s all three."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "You might learn more about investing by purchasing a handful of shares in public companies than going to graduate school. You might learn more about making movies by trying to film one on your phone than going to film school."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Acquiring new ideas and perspectives can have a worthwhile cost. Being an early adopter of a product often has a poor "
+        },
+        {
+          "kind": "element",
+          "name": "em",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "cost per use"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", but its value is in the learning and experience per dollar."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "Steph Ango",
+    "title": "Buy wisely",
+    "description": "Whenever I buy things I try to prioritize cost per use. Sometimes I consider other priorities such as cost per smile, cost per thrill, cost per externality, ...",
+    "domain": "stephango.com-buy-wisely",
+    "favicon": "https://stephango.com/favicon.ico",
+    "image": "https://stephango.com/assets/covers/buy-wisely.png",
+    "language": "en",
+    "published": "2023-09-30T00:00:00+00:00",
+    "author": "Steph Ango"
+  },
+  "warnings": [],
+  "wordCount": 1183,
+  "extractorType": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": "metadata--author-by-prefix-and-url",
+  "url": "https://blog.example.com/2026/04/cloud-storage",
+  "inputHtml": "<!--{\"url\":\"https://blog.example.com/2026/04/cloud-storage\"}-->\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <title>The Future of Cloud Storage</title>\n  <meta name=\"author\" content=\"Dr Jane Smith - https://blog.example.com/\">\n</head>\n<body>\n<main>\n  <article>\n    <h1>The Future of Cloud Storage</h1>\n    <p>Cloud storage has evolved significantly over the past decade. What began as simple file hosting has transformed into a sophisticated platform for data management and analytics.</p>\n    <h2>Current Landscape</h2>\n    <p>Today's cloud storage solutions offer features that were unimaginable just a few years ago. From intelligent tiering to built-in machine learning capabilities, the landscape continues to evolve rapidly.</p>\n  </article>\n</main>\n</body>\n</html>\n",
+  "inputSha256": "2969db9f9fc2bd5c90df99cdc034bf26553f3572225732555f9053bc860b9a5b",
+  "upstreamFixture": "tests/fixtures/metadata--author-by-prefix-and-url.html",
+  "markdownGoldenSha256": "cd4440ed1b5ac9ecd63e8e36ce7b3828bf1f3a9157ea0779e1d0e7dab28031ab",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>Cloud storage has evolved significantly over the past decade. What began as simple file hosting has transformed into a sophisticated platform for data management and analytics.</p> <h2>Current Landscape</h2> <p>Today's cloud storage solutions offer features that were unimaginable just a few years ago. From intelligent tiering to built-in machine learning capabilities, the landscape continues to evolve rapidly.</p> </article>",
+    "contentMarkdown": "Cloud storage has evolved significantly over the past decade. What began as simple file hosting has transformed into a sophisticated platform for data management and analytics.\n\n## Current Landscape\n\nToday's cloud storage solutions offer features that were unimaginable just a few years ago. From intelligent tiering to built-in machine learning capabilities, the landscape continues to evolve rapidly.",
+    "title": "The Future of Cloud Storage",
+    "author": "Dr Jane Smith",
+    "site": "Dr Jane Smith",
+    "published": "",
+    "wordCount": 56,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

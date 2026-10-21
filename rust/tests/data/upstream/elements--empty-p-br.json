@@ -1,0 +1,20 @@
+{
+  "id": "elements--empty-p-br",
+  "url": "https://empty-p-br",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\"/>\n  <title>Empty paragraph br test</title>\n</head>\n<body>\n  <!--\n    Jekyll and similar generators often emit <p><br /></p> as visual spacers\n    between sections. These carry no content and should be removed.\n  -->\n  <article>\n    <h1>Empty paragraph br test</h1>\n\n    <p>First section content.</p>\n\n    <p><br /></p>\n\n    <p>Second section content.</p>\n\n    <p><br /></p>\n\n    <p>Third section content.</p>\n  </article>\n</body>\n</html>\n",
+  "inputSha256": "c99c85f86fdbf384d5cee56c77329d7e4eaf50ea7406b064d3bdf6dbf8f5041f",
+  "upstreamFixture": "tests/fixtures/elements--empty-p-br.html",
+  "markdownGoldenSha256": "cb35cc6acdc67479a2a930ae1db595bfce7772d43f6794a28fd6263404ed3ba8",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>First section content.</p>  <p>Second section content.</p>  <p>Third section content.</p> </article>",
+    "contentMarkdown": "First section content.\n\nSecond section content.\n\nThird section content.",
+    "title": "Empty paragraph br test",
+    "author": "",
+    "site": "empty-p-br",
+    "published": "",
+    "wordCount": 9,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

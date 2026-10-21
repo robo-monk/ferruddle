@@ -1,0 +1,379 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "PC Gamer Recommends RSS Readers"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We're lucky to have so many good RSS readers that cut through this nonsense. "
+        },
+        {
+          "kind": "anchor",
+          "id": "fnref:1"
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fn:1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "More article text here to ensure content is detected."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Footnotes"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "ol",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "anchor",
+          "id": "fn:1"
+        },
+        {
+          "kind": "element",
+          "name": "li",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://netnewswire.com/"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "NetNewsWire"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://goldenhillsoftware.com/"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Unread"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://currentreader.app/"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Current"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", and "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "https://reederapp.com/classic/"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Reeder"
+                }
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", to name a few. "
+            },
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#fnref:1"
+                ],
+                [
+                  "title",
+                  "return to article"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "↩"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "PC Gamer Recommends RSS Readers"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We're lucky to have so many good RSS readers that cut through this nonsense. "
+        },
+        {
+          "kind": "element",
+          "name": "sup",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "element",
+              "name": "a",
+              "attributes": [
+                [
+                  "href",
+                  "#note-1"
+                ]
+              ],
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "More article text here to ensure content is detected."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Footnotes"
+        }
+      ]
+    },
+    {
+      "kind": "anchor",
+      "id": "note-1"
+    },
+    {
+      "kind": "element",
+      "name": "sup",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://netnewswire.com/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "NetNewsWire"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://goldenhillsoftware.com/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Unread"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://currentreader.app/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Current"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://reederapp.com/classic/"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Reeder"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", to name a few."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "hidden-section",
+    "title": "Hidden Footnotes Section",
+    "description": "",
+    "domain": "hidden-section",
+    "favicon": "https://hidden-section/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 40,
+  "extractorType": null
+}

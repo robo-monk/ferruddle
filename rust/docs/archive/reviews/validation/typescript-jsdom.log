@@ -1,0 +1,13 @@
+
+> defuddle@0.19.5 test
+> TZ=UTC vitest run --run --maxWorkers=2
+
+
+ RUN  v5.0.1 /home/robomonk/Work/defuddle
+
+
+ Test Files  45 passed (45)
+      Tests  826 passed (826)
+   Start at  21:02:19
+   Duration  61.01s (tests 88%, import 11%, transform 1%)
+

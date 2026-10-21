@@ -1,0 +1,207 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the main content of the blog post about web development."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For more on this topic, see our "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://131-category-links/category/web-development"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Web Development"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://131-category-links/categories/javascript"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "JavaScript"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " sections."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We also have resources in "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://131-category-links/category/tutorials"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Tutorials"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is the main content of the blog post about web development."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "For more on this topic, see our "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://131-category-links/category/web-development"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Web Development"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " and "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://131-category-links/categories/javascript"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "JavaScript"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": " sections."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "We also have resources in "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://131-category-links/category/tutorials"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "Tutorials"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [],
+    "site": "131-category-links",
+    "title": "Blog Post with Categories",
+    "description": "",
+    "domain": "131-category-links",
+    "favicon": "https://131-category-links/favicon.ico",
+    "image": "",
+    "language": "",
+    "published": "",
+    "author": ""
+  },
+  "warnings": [],
+  "wordCount": 30,
+  "extractorType": null
+}

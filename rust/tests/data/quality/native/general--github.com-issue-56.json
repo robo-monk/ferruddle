@@ -1,0 +1,598 @@
+{
+  "html": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Description"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://github.com/jmorrell"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "jmorrell"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Contributor"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Example repo here: "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://github.com/jmorrell/defuddle-cloudflare-example"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "https://github.com/jmorrell/defuddle-cloudflare-example"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "I was looking forward to ditching my tenuous "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "readbilityjs"
+        },
+        {
+          "kind": "text",
+          "text": " fork in my workers project. Defuddle ultimately does run to completion, but I ran into a couple of issues. Supporting this environment fully is likely challenging since "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "JSDOM"
+        },
+        {
+          "kind": "text",
+          "text": " does not work within the Worker environment. I suspect the same will be true of the deno and bun runtimes."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "I was able to work around this by using the browser version along with "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://github.com/WebReflection/linkedom"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "linkedom"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", however this is not an exact replacement for JSDOM and doesn't implement all the CSS functionality."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Since defuddle relies on these style heuristics, "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "I'm not sure there is a great path to supporting the full functionality in this environment"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", but I wanted to open an issue for discussion and to document these issues for anyone else who might hit this."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "When running I get two errors:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "Defuddle: Error evaluating media queries: TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is due to linkedom not implementing "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "doc.styleSheets"
+        },
+        {
+          "kind": "text",
+          "text": ":"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "const sheets = Array.from(doc.styleSheets).filter(sheet => { "
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This could be silenced by falling back to "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "[]"
+        },
+        {
+          "kind": "text",
+          "text": " if "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "doc.styleSheets"
+        },
+        {
+          "kind": "text",
+          "text": " isn't present, however that may not be the desired behavior."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "const sheets = Array.from(doc.styleSheets ?? [])"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The second issue is due to "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "getComputedStyle"
+        },
+        {
+          "kind": "text",
+          "text": " not being supported by linkedom."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "Defuddle Error processing document: TypeError: e3.getComputedStyle is not a function"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "If you feel like there's nothing to do, or supporting Workers is out-of-scope for the project, feel free to close the issue"
+        }
+      ]
+    }
+  ],
+  "markdown": [
+    {
+      "kind": "element",
+      "name": "h2",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Description"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://github.com/jmorrell"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "jmorrell"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Contributor"
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Example repo here: "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://github.com/jmorrell/defuddle-cloudflare-example"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "https://github.com/jmorrell/defuddle-cloudflare-example"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "I was looking forward to ditching my tenuous "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "readbilityjs"
+        },
+        {
+          "kind": "text",
+          "text": " fork in my workers project. Defuddle ultimately does run to completion, but I ran into a couple of issues. Supporting this environment fully is likely challenging since "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "JSDOM"
+        },
+        {
+          "kind": "text",
+          "text": " does not work within the Worker environment. I suspect the same will be true of the deno and bun runtimes."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "I was able to work around this by using the browser version along with "
+        },
+        {
+          "kind": "element",
+          "name": "a",
+          "attributes": [
+            [
+              "href",
+              "https://github.com/WebReflection/linkedom"
+            ]
+          ],
+          "children": [
+            {
+              "kind": "text",
+              "text": "linkedom"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", however this is not an exact replacement for JSDOM and doesn't implement all the CSS functionality."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "Since defuddle relies on these style heuristics, "
+        },
+        {
+          "kind": "element",
+          "name": "strong",
+          "attributes": [],
+          "children": [
+            {
+              "kind": "text",
+              "text": "I'm not sure there is a great path to supporting the full functionality in this environment"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": ", but I wanted to open an issue for discussion and to document these issues for anyone else who might hit this."
+        }
+      ]
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "When running I get two errors:"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "Defuddle: Error evaluating media queries: TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This is due to linkedom not implementing "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "doc.styleSheets"
+        },
+        {
+          "kind": "text",
+          "text": ":"
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "const sheets = Array.from(doc.styleSheets).filter(sheet => { "
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "This could be silenced by falling back to "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "[]"
+        },
+        {
+          "kind": "text",
+          "text": " if "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "doc.styleSheets"
+        },
+        {
+          "kind": "text",
+          "text": " isn't present, however that may not be the desired behavior."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "const sheets = Array.from(doc.styleSheets ?? [])"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "The second issue is due to "
+        },
+        {
+          "kind": "code",
+          "block": false,
+          "language": "",
+          "text": "getComputedStyle"
+        },
+        {
+          "kind": "text",
+          "text": " not being supported by linkedom."
+        }
+      ]
+    },
+    {
+      "kind": "code",
+      "block": true,
+      "language": "",
+      "text": "Defuddle Error processing document: TypeError: e3.getComputedStyle is not a function"
+    },
+    {
+      "kind": "element",
+      "name": "p",
+      "attributes": [],
+      "children": [
+        {
+          "kind": "text",
+          "text": "If you feel like there's nothing to do, or supporting Workers is out-of-scope for the project, feel free to close the issue"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "schemaOrgData": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DiscussionForumPosting",
+        "headline": "Defuddle on Cloudflare Workers",
+        "articleBody": "Example repo here: https://github.com/jmorrell/defuddle-cloudflare-example\n\nI was looking forward to ditching my tenuous `readbilityjs` fork in my workers project. Defuddle ultimately does run to completion, but I ran into a couple of issues. Supporting this environment fully is likely challenging since `JSDOM` does not work within the Worker environment. I suspect the same will be true of the deno and bun runtimes.\n\nI was able to work around this by using the browser version along with [linkedom](https://github.com/WebReflection/linkedom), however this is not an exact replacement for JSDOM and doesn't implement all the CSS functionality.\n\nSince defuddle relies on these style heuristics, **I'm not sure there is a great path to supporting the full functionality in this environment**, but I wanted to open an issue for discussion and to document these issues for anyone else who might hit this.\n\nWhen running I get two errors:\n\n```\nDefuddle: Error evaluating media queries: TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))\n```\n\nThis is due to linkedom not implementing `doc.styleSheets`: https://github.com/kepano/defuddle/blob/cb4291db0f24cac0d0674d9e35fc0089338da2da/src/defuddle.ts#L213\n\nThis could be silenced by falling back to `[]` if `doc.styleSheets` isn't present, however that may not be the desired behavior.\n\n```ts\nconst sheets = Array.from(doc.styleSheets ?? [])\n```\n\nThe second issue is due to `getComputedStyle` not being supported by linkedom.\n\n```\nDefuddle Error processing document: TypeError: e3.getComputedStyle is not a function\n```\n\nIf you feel like there's nothing to do, or supporting Workers is out-of-scope for the project, feel free to close the issue",
+        "author": {
+          "url": "https://github.com/jmorrell",
+          "@type": "Person",
+          "name": "jmorrell"
+        },
+        "datePublished": "2025-05-25T20:35:48.000Z",
+        "interactionStatistic": {
+          "@type": "InteractionCounter",
+          "interactionType": "https://schema.org/CommentAction",
+          "userInteractionCount": 6
+        },
+        "url": "https://github.com/56/defuddle/issues/56"
+      }
+    ],
+    "site": "GitHub",
+    "title": "Defuddle on Cloudflare Workers · Issue #56",
+    "description": "Example repo here: https://github.com/jmorrell/defuddle-cloudflare-example I was looking forward to ditching my tenuous readbilityjs fork in my workers project. Defuddle ultimately does run to completion, but I ran into a couple of issue...",
+    "domain": "github.com-issue-56",
+    "favicon": "https://github.githubassets.com/favicons/favicon-dark.svg",
+    "image": "https://opengraph.githubassets.com/0e02d1d5d635552a66587cdd18495678a7a64487b7352f56f63045840fb6dd61/kepano/defuddle/issues/56",
+    "language": "en",
+    "published": "2025-05-25T20:35:48.000Z",
+    "author": "jmorrell"
+  },
+  "warnings": [],
+  "wordCount": 244,
+  "extractorType": null
+}

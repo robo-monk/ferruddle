@@ -1,0 +1,179 @@
+{
+  "verifiedAt": "2026-10-20T22:41:49.262593+00:00",
+  "status": "complete: 242 native tests, all 226 corpus gates, strict checks, independent peer checks, and two final paired/native benchmark runs; material limits recorded",
+  "upstreamRevision": "556d74e8c8fd68c49912d4b11a4ae9ec04d7b2b5",
+  "rustTests": {
+    "command": "cargo test --locked --offline --manifest-path rust/Cargo.toml",
+    "passed": 242,
+    "failed": 0,
+    "ignoredDiagnosticHelpers": 8
+  },
+  "corpus": {
+    "cases": 226,
+    "nonMathCases": 208,
+    "requiredMathWarnings": 18,
+    "referenceProsePreservedCases": 226,
+    "readableNativeSnapshots": 226,
+    "originalMathSourceContracts": 18,
+    "structuredMathSourcesPreserved": 128,
+    "reviewedHardeningSnapshotChanges": 12,
+    "mathSourceContractModes": [
+      "default extraction",
+      "debug extraction",
+      "standalone conversion"
+    ]
+  },
+  "checks": {
+    "clippyWarningsDenied": "passed",
+    "rustfmt": "passed",
+    "declaredMinimumRust188LibraryAndCli": "passed",
+    "typeScriptBuild": "passed with existing webpack size warnings",
+    "typeScriptTestsLinkedom": 826,
+    "typeScriptTestsJsdom": 826,
+    "publicApiDoctest": "passed",
+    "releaseCliJsonHtmlMarkdownWarningAndSanitizationSmoke": "passed",
+    "originalTypeScriptPackageAndFixtureHarness67HashesUnchanged": "passed",
+    "nodeBenchmarkPlanningStatisticsAndProvenance": 7,
+    "discardedPairedBenchmarkWarmColdAndFourNativeRepeats": "passed on208cases,3rounds1warmup; timings not final",
+    "directRetainedHtmlMarkerReplay40": "passed: zero active markers, exact literal text preserved",
+    "independentDualMarkdownRendererProbes2082": "passed, plus54exactsource assertions",
+    "hiddenRetryPeer": "6TSmatching probes;452complete beforeafter identical",
+    "trackedReferenceHashRecheck": "67 source/package/helper files plus two configuration files unchanged; all tracked upstream files unchanged"
+  },
+  "independentReviews": "reviews/hardening-run.json",
+  "benchmark": {
+    "status": "complete; two monitored paired runs and same-worker original/current native repeats",
+    "reference": "Defuddle 0.19.5 TypeScript source under Vitest/Vite SSR with linkedom",
+    "caseCount": 208,
+    "excludedMathCases": 18,
+    "inputBytes": 1372181,
+    "warmupsPerModePass": 2,
+    "measuredRoundsPerModePass": 7,
+    "passesPerRun": 2,
+    "samplesPerCaseModeImplementationPerRun": 14,
+    "runs": [
+      {
+        "directory": "rust/benchmarks/2026-10-21-hardening",
+        "summary": "rust/benchmarks/2026-10-21-hardening/summary.json",
+        "nativeComparison": "rust/benchmarks/2026-10-21-hardening/native-repeat-summary.json",
+        "hostMonitor": "rust/benchmarks/2026-10-21-hardening/quiet-window.json",
+        "independentRecomputation": "rust/benchmarks/2026-10-21-hardening/independent-recomputation.log",
+        "summarySha256": "ebcf30caa94cb2f1094a70fe1afc62d244192e41156ede756916e8606c506dd6",
+        "nativeComparisonSha256": "4f71b93a3a67a0b813a79669c0ee3fb629d59fa1fd215103e07b056991ed9f5b",
+        "hostMonitorSha256": "d9813ee2c3ca365fbdfdbc3a4afe413bf7e6790218c67b6b87458a2fc5d430a0",
+        "independentRecomputationSha256": "7c610d5504f3e1fd0c098e1e62f23017876ad280950b0633de75c54bae7a1322",
+        "currentExecutableSha256": "03f2927b8da8d4599ab2936ba65a99c490cbacb91961193cfc21e8969f2d706e",
+        "originalExecutableSha256": "98dfbb119c7a18dc443b6b6f9ed64359a32d53444a2e90a3d45e0defc5c11bac",
+        "cpuIdlePercentMedian": 86,
+        "swapPagesIn": 178,
+        "swapPagesOut": 1491
+      },
+      {
+        "directory": "rust/benchmarks/2026-10-21-hardening-repeat",
+        "summary": "rust/benchmarks/2026-10-21-hardening-repeat/summary.json",
+        "nativeComparison": "rust/benchmarks/2026-10-21-hardening-repeat/native-repeat-summary.json",
+        "hostMonitor": "rust/benchmarks/2026-10-21-hardening-repeat/quiet-window.json",
+        "independentRecomputation": "rust/benchmarks/2026-10-21-hardening-repeat/independent-recomputation.log",
+        "summarySha256": "d2a492ab1d63dc082c48eff506b9f7add462518d12bb51d0a3b13645028ac4af",
+        "nativeComparisonSha256": "bf499dedd5da60895fe6afb29241c307da0cec5956bc93ffd4a4a09d50c1755b",
+        "hostMonitorSha256": "265c69fe699f36caeeff13a92981518ac566860701949ee28fa7c834181dedd3",
+        "independentRecomputationSha256": "7c610d5504f3e1fd0c098e1e62f23017876ad280950b0633de75c54bae7a1322",
+        "currentExecutableSha256": "03f2927b8da8d4599ab2936ba65a99c490cbacb91961193cfc21e8969f2d706e",
+        "originalExecutableSha256": "98dfbb119c7a18dc443b6b6f9ed64359a32d53444a2e90a3d45e0defc5c11bac",
+        "cpuIdlePercentMedian": 85.0,
+        "swapPagesIn": 6586,
+        "swapPagesOut": 196
+      }
+    ],
+    "replication": "rust/benchmarks/2026-10-21-hardening/replication-summary.json",
+    "modeRanges": [
+      {
+        "mode": "html",
+        "typescriptRustSpeedupRange": [
+          7.293244028953084,
+          7.482149128506361
+        ],
+        "nativeCorpusTimeReductionPercentRange": [
+          39.43649086536469,
+          40.22583090513218
+        ],
+        "over5PercentInAllFourNativePasses": []
+      },
+      {
+        "mode": "html+markdown",
+        "typescriptRustSpeedupRange": [
+          7.377031913529595,
+          7.61203573059423
+        ],
+        "nativeCorpusTimeReductionPercentRange": [
+          38.08754494025446,
+          38.65905612710119
+        ],
+        "over5PercentInAllFourNativePasses": []
+      }
+    ],
+    "allRuntimeSourcesAndHarnessInputsStable": true,
+    "allOwnOutputProofsStableAcrossRuns": true,
+    "independentArithmetic": "reviewer-authored Python programs: ALL_MATCH for every statistic and flag in both runs",
+    "baselineSourceArchive": "rust/benchmarks/2026-10-21-hardening/original-native-benchmark-source.tar.gz",
+    "baselineSourceArchiveManifest": "rust/benchmarks/2026-10-21-hardening/original-native-source-manifest.json",
+    "baselineSourceArchiveSha256": "1c2f80c4797586caa351a3a09b6cddb258d1f18b3d1d698023b6e6eb50b1f67a",
+    "limitations": [
+      "Active paging was observed in both monitored windows. Results are descriptive measurements of this host, not isolated-host guarantees.",
+      "Per-case native regression flags differ across runs; no lack-of-regression claim follows from aggregate gain or noise flags.",
+      "Reference is TypeScript source under Vitest/Vite SSR with linkedom."
+    ]
+  },
+  "sourceHashes": {
+    "rust/src/bin/defuddle.rs": "c8ea6bc3c9b4602d1705131fc21b26562490fef74e7fe865970f26009bf7f4bd",
+    "rust/src/callouts.rs": "12fe1117acf2b862f6f39b2d3c6f63019258df38f8b46c6e825458b4de809b67",
+    "rust/src/code.rs": "2bd3150899a3b132d20615feca2e3f61a144d49cdb3cedeecbd299cc51aa4866",
+    "rust/src/constants.rs": "5046d93b670219a52ece52762da4d8dc67971d48e79f699b24a964ef9cb5407b",
+    "rust/src/dom/selectors.rs": "c34238032d1f4b5ff69cdabdc6853a6db498e67de2465250d477b249c9c7d9ab",
+    "rust/src/dom.rs": "57fc6dda6319e79d6bb9776f803247f555f38fe6697db0eea52f4e5fce0031e8",
+    "rust/src/extractors/comments.rs": "b0c7b9b201da81872de95469380f519d985c314f7a83aa0a2f56a59c647ccb4e",
+    "rust/src/extractors/conversations.rs": "fa0b567508e0a64f2cada21582ae2c9e6c0207ded69810de3f527bff392d919e",
+    "rust/src/extractors/embedded.rs": "d1eb0fe8112a9ebcfa76115b0e69e33414661944cfff25c0cf7f0019a766fac9",
+    "rust/src/extractors/rich_social.rs": "ead2ae96885b6f82b290345240db5054895eb37626d39c648bcb648513c418f1",
+    "rust/src/extractors/social.rs": "7a797c958745c584145867e2320643806de38c0bff519e7dec755998c957885e",
+    "rust/src/extractors/video.rs": "6086c196e3ad78fa70a3f76021bec2b2c0425340fb80a303f09a2d803bad293b",
+    "rust/src/extractors.rs": "1c4db664518ca60bc77205d706b45d4b6bb1fe607d619fe551a6990b4e5cd7ec",
+    "rust/src/finalize.rs": "80e692ad68b18ae84277586e3014a022948d2cdf9efa29c118d0781dd2481d80",
+    "rust/src/footnotes.rs": "da68a9ccecd1daa22739688ebc5af4f9290a746891d41db6caf0211974fab9a1",
+    "rust/src/images.rs": "215a436ce0c9babf7d5ea38a92105c4ed9599e877f65f488832505b0b5d67532",
+    "rust/src/lib.rs": "282efc8f0ac62aac382413c029ab640d05a35f7818072e9ec38d0d3b6fe7ca24",
+    "rust/src/markdown.rs": "967da51e33499e4065d6081886cf98d60825caee64d335bdb4154514e7dec61d",
+    "rust/src/math.rs": "d951f3119d6f8961a5ee4378cc69548b2dd59c15ed96153183c6c4236903f8e8",
+    "rust/src/metadata.rs": "f92e5f6a4ffbbb0ee64f9aea77c694f3cd9e2e417151698716fe5623baae1263",
+    "rust/src/patterns.rs": "e756a2b3c945c00c30d9b21153c87e3febb755e83748c9b173a8e62bbb87b66e",
+    "rust/src/pipeline.rs": "c3ac5aeb13c7f57ee5347195263339f7378465008cad187a971673aa632fe49c",
+    "rust/src/removals.rs": "0001d66520358aa3d93207568c301e5831bd7f8b6ef3412f913e8d829d1f1a96",
+    "rust/src/safety.rs": "18ecc2b806d46a6f7112d6e6125ec2d7f27253f92a05be4e22d01ab7b77e28d7",
+    "rust/src/selection.rs": "c9e40b6399af24510e3bd1c51b93abe62b4437767749ba56692f4962d1808ff4",
+    "rust/src/standardize.rs": "1afb27a1c30f899f5ad32a837fe9b669c573772357da85cfaf615b4beb263435",
+    "rust/src/types.rs": "fc5183ce4f39d562043b138a5389a2186dfc94676a7566b0abab614bbd14802f",
+    "rust/src/utils.rs": "f2c4b20a700e9f87b29d43a9ad2d8ae0da64e6fa08ae5000daf75b9da8b067ea"
+  },
+  "independentCorrectnessRecheck": "Opus 5.5 R2 provider-interrupted, without final sign-off. Its partial retained-HTML finding is fixed: root replay passes all 40 cases and independent GPT-6.1-Sol xhigh peer passes 2,082 dual-parser cases plus 54 exact-source assertions.",
+  "reviewLimitations": [
+    "The provider interrupted the second Opus 5.5 correctness review; it produced no final sign-off. The completed first correctness review and separate final GPT-6.1-Sol xhigh renderer/hidden-retry peer checks are retained."
+  ],
+  "validationLogs": "reviews/validation/manifest.json",
+  "finalReadOnlyIntegrityCheck": "reviews/validation/verify-final.py",
+  "finalReviewChecklist": "reviews/hardening-final-checklist.md",
+  "qualitySummary": "quality-report.json",
+  "scope": {
+    "mathConversion": false,
+    "detectedMathWarning": {
+      "code": "math_not_supported",
+      "message": "Math support is not yet included."
+    },
+    "offlineOnly": true,
+    "notPublished": true,
+    "byteEquivalentHtmlRequired": false
+  },
+  "optionalFutureExperiments": [
+    "bounded word counts in two remaining pattern climbs",
+    "regex-free site-name matching"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "codeblocks--chroma-line-spans",
+  "url": "https://chroma-line-spans",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head><title>Chroma Code Block</title></head>\n<body>\n<article>\n<p>Example Go code.</p>\n<div class=\"highlight\"><pre tabindex=\"0\" class=\"chroma\"><code class=\"language-go\" data-lang=\"go\"><span class=\"line\"><span class=\"cl\"><span class=\"kn\">package</span> <span class=\"nx\">main</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"kd\">type</span> <span class=\"nx\">Person</span> <span class=\"kd\">struct</span> <span class=\"p\">{</span>\n</span></span><span class=\"line\"><span class=\"cl\">    <span class=\"nx\">Name</span> <span class=\"kt\">string</span>\n</span></span><span class=\"line\"><span class=\"cl\">    <span class=\"nx\">Age</span>  <span class=\"kt\">int</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"p\">}</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"kd\">func</span> <span class=\"p\">(</span><span class=\"nx\">p</span> <span class=\"o\">*</span><span class=\"nx\">Person</span><span class=\"p\">)</span> <span class=\"nf\">Sleep</span><span class=\"p\">()</span> <span class=\"kt\">int</span> <span class=\"p\">{</span>\n</span></span><span class=\"line\"><span class=\"cl\">    <span class=\"nx\">p</span><span class=\"p\">.</span><span class=\"nx\">Age</span> <span class=\"o\">+=</span> <span class=\"mi\">1</span>\n</span></span><span class=\"line\"><span class=\"cl\">    <span class=\"k\">return</span> <span class=\"nx\">p</span><span class=\"p\">.</span><span class=\"nx\">Age</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"p\">}</span>\n</span></span></code></pre></div>\n</article>\n</body>\n</html>\n",
+  "inputSha256": "4ebf58db5e2b1c073aa7d781209637e45b134eceb876031f23e1c2ea8ed9c7f4",
+  "upstreamFixture": "tests/fixtures/codeblocks--chroma-line-spans.html",
+  "markdownGoldenSha256": "8bd9624f0ad52ce71e523eef0e75af95d6b5a76882a5905b2bc778af7041982f",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article> <p>Example Go code.</p> <pre><code class=\"language-go\" data-lang=\"go\">package main\n\ntype Person struct {\n    Name string\n    Age  int\n}\n\nfunc (p *Person) Sleep() int {\n    p.Age += 1\n    return p.Age\n}</code></pre> </article>",
+    "contentMarkdown": "Example Go code.\n\n```go\npackage main\n\ntype Person struct {\n    Name string\n    Age  int\n}\n\nfunc (p *Person) Sleep() int {\n    p.Age += 1\n    return p.Age\n}\n```",
+    "title": "Chroma Code Block",
+    "author": "",
+    "site": "chroma-line-spans",
+    "published": "",
+    "wordCount": 26,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}

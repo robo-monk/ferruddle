@@ -1,0 +1,20 @@
+{
+  "id": "elements--bootstrap-alerts",
+  "url": "https://bootstrap-alerts",
+  "inputHtml": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\"/>\n  <title>Bootstrap alerts test</title>\n</head>\n<body>\n  <article>\n    <h1>Bootstrap alerts test</h1>\n\n    <p>Here is some content before the alerts.</p>\n\n    <div class=\"alert alert-info\">\n      <p class=\"alert-heading\">Important</p>\n      <p>This is an informational alert.</p>\n    </div>\n\n    <div class=\"alert alert-warning\">\n      <p>This is a warning without a title.</p>\n    </div>\n\n    <div class=\"alert alert-danger\" role=\"alert\">\n      <p class=\"alert-title\">Danger</p>\n      <p>Something went wrong.</p>\n    </div>\n\n    <div class=\"alert alert-success\">\n      <p>Operation completed successfully.</p>\n    </div>\n\n    <p>Here is some content after the alerts.</p>\n  </article>\n</body>\n</html>\n",
+  "inputSha256": "a0b220936ab39efd346a70a5f3528bb1a4c311d59c8ea39d188e86b5fbf1ac64",
+  "upstreamFixture": "tests/fixtures/elements--bootstrap-alerts.html",
+  "markdownGoldenSha256": "98578e9eb36c401278109bbb4f03545b8977f60bfcd798c65a317cbe2fe43e30",
+  "htmlGoldenSha256": null,
+  "expected": {
+    "content": "<article>  <p>Here is some content before the alerts.</p> <div class=\"callout\" data-callout=\"info\"><div class=\"callout-title\"><div class=\"callout-title-inner\">Important</div></div>  <p>This is an informational alert.</p> </div> <div class=\"callout\" data-callout=\"warning\"><div class=\"callout-title\"><div class=\"callout-title-inner\">Warning</div></div> <p>This is a warning without a title.</p> </div> <div class=\"callout\" data-callout=\"danger\"><div class=\"callout-title\"><div class=\"callout-title-inner\">Danger</div></div>  <p>Something went wrong.</p> </div> <div class=\"callout\" data-callout=\"success\"><div class=\"callout-title\"><div class=\"callout-title-inner\">Success</div></div> <p>Operation completed successfully.</p> </div> <p>Here is some content after the alerts.</p> </article>",
+    "contentMarkdown": "Here is some content before the alerts.\n\n> [!info] Important\n> This is an informational alert.\n\n> [!warning] Warning\n> This is a warning without a title.\n\n> [!danger] Danger\n> Something went wrong.\n\n> [!success] Success\n> Operation completed successfully.\n\nHere is some content after the alerts.",
+    "title": "Bootstrap alerts test",
+    "author": "",
+    "site": "bootstrap-alerts",
+    "published": "",
+    "wordCount": 36,
+    "extractorType": null
+  },
+  "synchronousDifferenceFields": []
+}
