@@ -1,10 +1,4 @@
+/target/
+/.benchmarks/
+/docs/benchmarks/results/*/bin/
 .DS_Store
-.cursorrules
-.context
-
-node_modules/
-
-dist/
-.wrangler/
-.dev.vars
-website/public/build/

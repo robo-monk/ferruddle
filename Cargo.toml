@@ -1,0 +1,31 @@
+[package]
+name = "ferruddle"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+description = "Extract readable HTML and Markdown from web pages without a browser"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/robo-monk/ferruddle"
+documentation = "https://docs.rs/ferruddle"
+keywords = ["html", "markdown", "extraction", "readability", "scraping"]
+categories = ["text-processing", "web-programming"]
+include = ["/src/**", "/tests/**", "/examples/**", "/README.md", "/CHANGELOG.md", "/LICENSE", "/Cargo.lock"]
+
+[dependencies]
+dom_query = { version = "0.28", default-features = false }
+regex = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+thiserror = "2"
+url = "2"
+chrono = { version = "0.4", default-features = false, features = ["std"] }
+
+[dev-dependencies]
+sha2 = "0.10"
+pulldown-cmark = "0.13"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+

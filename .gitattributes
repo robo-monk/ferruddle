@@ -1,0 +1,8 @@
+# Fixture and evidence hashes must survive checkout on every platform.
+/tests/data/** -text
+/tests/fixtures/** -text
+/tests/expected/** -text
+/docs/benchmarks/results/** -text
+/docs/archive/** -text
+/docs/** linguist-documentation
+/tests/data/** linguist-vendored

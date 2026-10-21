@@ -1,0 +1,8 @@
+    Checking memchr v2.8.3
+    Checking aho-corasick v1.1.5
+    Checking serde_json v1.0.154
+    Checking regex-automata v0.4.18
+    Checking regex v1.13.1
+ Documenting ferruddle v0.1.0 (/home/robomonk/Work/defuddle)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.50s
+   Generated /home/robomonk/.cache/ferruddle-migration/target/doc/ferruddle/index.html

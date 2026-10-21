@@ -1,71 +1,75 @@
-name: CI
+name: Rust
 
 on:
   pull_request:
   push:
     branches: [main]
+    tags: ["v*"]
+  workflow_dispatch:
 
-# Cancel superseded runs on the same ref (e.g. rapid PR pushes).
+permissions:
+  contents: read
+
 concurrency:
-  group: ci-${{ github.workflow }}-${{ github.ref }}
+  group: rust-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+env:
+  CARGO_TERM_COLOR: always
+
 jobs:
-  # Run the shared fixtures and regression tests under both DOM backends.
-  # Node floor is 20: the toolchain (Vite 7) requires ^20.19 || >=22.12, so
-  # 18 can't run the suite at all.
   test:
-    name: test (node ${{ matrix.node }})
-    runs-on: ubuntu-latest
+    name: test (${{ matrix.os }}, ${{ matrix.toolchain }})
+    runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
-        node: [20, 22, 24]
+        include:
+          - os: ubuntu-latest
+            toolchain: stable
+          - os: ubuntu-latest
+            toolchain: "1.88.0"
+          - os: macos-latest
+            toolchain: stable
+          - os: windows-latest
+            toolchain: stable
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Preserve fixture bytes on Windows
+        if: runner.os == 'Windows'
+        run: git config --global core.autocrlf false
+        working-directory: ${{ runner.temp }}
+      - uses: actions/checkout@v7
         with:
-          node-version: ${{ matrix.node }}
-          cache: npm
-          cache-dependency-path: |
-            package-lock.json
-            website/package-lock.json
-      - run: npm ci
-      # The root vitest run has no `include`, so it also picks up website/tests
-      # and anything under website/src they import. website/ is a separate npm
-      # project, so its deps (@lezer/*, codemirror) need their own install.
-      - run: npm ci --prefix website
-      - run: npm test
-      - run: npm run test:jsdom
+          persist-credentials: false
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: ${{ matrix.toolchain }}
+      - run: cargo test --locked
 
-  # Tests run on TS source via Vitest and never exercise webpack or the
-  # published bundles. Build is its own gate to catch bundle-only breakage
-  # (e.g. the export:'default' / static-property UMD pitfall).
-  build:
-    name: build + bundle size
+  package:
+    name: lint, docs and package
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
         with:
-          node-version: 20
-          cache: npm
-      - run: npm ci
-      - run: npm run build
-      - name: Bundle size budget
-        run: npm run size
-
-  # Enforces the security rule from CLAUDE.md: no direct innerHTML/outerHTML
-  # assignment outside src/utils/dom.ts.
-  lint:
-    name: security lint
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+          persist-credentials: false
+      - uses: dtolnay/rust-toolchain@stable
         with:
-          node-version: 20
-          cache: npm
-      - run: npm ci
-      - run: npm run lint:innerhtml
-      - run: npm run lint:unused
+          components: clippy, rustfmt
+      - run: cargo fmt --check
+      - run: cargo clippy --locked --all-targets -- -D warnings
+      - run: cargo doc --locked --no-deps
+        env:
+          RUSTDOCFLAGS: -D warnings
+      - name: Verify Rust tag version
+        if: startsWith(github.ref, 'refs/tags/v')
+        shell: bash
+        run: |
+          package_version="$(cargo metadata --no-deps --format-version 1 | python3 -c 'import json,sys; print(json.load(sys.stdin)["packages"][0]["version"])')"
+          test "${GITHUB_REF_NAME#v}" = "$package_version"
+      - run: cargo package --locked
+      - name: Test the unpacked crate
+        shell: bash
+        run: |
+          package_version="$(cargo metadata --no-deps --format-version 1 | python3 -c 'import json,sys; print(json.load(sys.stdin)["packages"][0]["version"])')"
+          cargo test --locked --manifest-path "target/package/ferruddle-$package_version/Cargo.toml" --target-dir target/package-tests

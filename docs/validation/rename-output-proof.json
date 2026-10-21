@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "proofs": [
+    {
+      "mode": "html",
+      "matchingCompleteOutputProofs": 208
+    },
+    {
+      "mode": "html+markdown",
+      "matchingCompleteOutputProofs": 208
+    }
+  ],
+  "comparedFields": [
+    "content",
+    "contentMarkdown",
+    "title",
+    "author",
+    "site",
+    "published",
+    "wordCount",
+    "extractorType"
+  ],
+  "timings": "smoke timings discarded; original benchmark reports unchanged"
+}

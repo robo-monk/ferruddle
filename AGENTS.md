@@ -1,48 +1,58 @@
-# Defuddle
+# Ferruddle
 
-Extracts main content from web pages as clean HTML.
+Keep `README.md` short and useful to library users. Put detailed documentation
+in `docs/` and keep this index current:
 
-## Security
+- [API and options](docs/api.md)
+- [Scope and compatibility](docs/scope.md)
+- [Quality contracts and upstream fixtures](docs/quality.md)
+- [Pinned TypeScript comparison](docs/reference-bridge.md)
+- [Final benchmark report](docs/benchmarks/README.md)
+- [Benchmark method and reproduction](docs/benchmarks/methodology.md)
+- [Development and verification](docs/development.md)
+- [Release procedure](docs/releasing.md)
+- [Release verification](docs/verification.json)
+- [Historical research and review records](docs/archive/README.md)
 
-- Never use `innerHTML` directly. Use `parseHTML()` from `src/utils/dom.ts` (template-based parsing without script execution or resource loading).
-- Escape every page-derived value interpolated into HTML with `escapeHtml()`, or build nodes with `createElement`/`setAttribute` and `serializeHTML()`. Downstream sanitization does not replace escaping at the point of interpolation.
-- Strip `javascript:`, `blob:`, and non-image `data:` URLs from `href`/`src`. Allow `data:image/*` except as an iframe `src`. Strip iframe `srcdoc` and all `on*` event handlers.
-- Preserve sanitization regardless of pipeline options. See `isDangerousUrl()` in `src/utils/dom.ts` and `_stripUnsafeElements()` in `src/defuddle.ts`.
-- Cover new extractors with a poisoned-attribute case in `tests/extractor-xss.test.ts`.
+Run commands from this directory unless the documentation says otherwise:
 
-## Build and test
+```sh
+cargo test --locked
+cargo clippy --locked --all-targets -- -D warnings
+cargo fmt --check
+RUSTDOCFLAGS="-D warnings" cargo doc --locked --no-deps
+```
 
-- `npm run build` — build all bundles.
-- `npm test` — run Vitest.
-- For extraction fixes, add a minimal HTML fixture in `tests/fixtures/` with correct expected output in `tests/expected/`. Verify the same fixture fails before the fix and passes afterward; do not change expectations to match buggy behavior.
-- Anonymize fixtures: replace real names, emails, URLs, and identifying content with generic placeholders.
-- Always use `curl` to test the Worker or defuddle.md; never open those URLs in a browser.
-- Local Worker: run `cd website && npx wrangler dev`, then `curl http://localhost:8787/https://stephango.com/saw`.
-- Production: `curl https://defuddle.md/https://stephango.com/saw`.
+Preserve the upstream HTML instances, hashes and expectations. For extraction
+fixes, add anonymous minimal fixtures under `tests/fixtures/` with expected
+output under `tests/expected/`. Prove failure before and success after the fix.
+Review semantic diffs before changing any native snapshot or contract; never
+accept lost content by updating expectations.
 
-## Runtime compatibility
+Sanitization is unconditional, including disabled cleanup, selected roots,
+schema, adapters and retries. Use DOM setters or escape page values at emission.
+Strip `javascript:`, `blob:` and non-image `data:` URLs from link/source
+attributes. Allow image data where supported, except for iframe sources.
+Remove iframe `srcdoc` and every `on*` event handler. Parsing must not execute
+scripts or load resources.
+Protect literal page text when Markdown is rendered back into HTML. Cover new
+adapter behavior with poisoned attributes in the Rust regression tests.
 
-Changes must work across these environments:
+Math conversion remains excluded. Detection returns one warning with code
+`math_not_supported` and message `Math support is not yet included.` Preserve
+safe source where practical; do not add a formula conversion dependency.
 
-- Browser (`defuddle`, `defuddle/full`): native DOM.
-- Node.js (`defuddle/node`): async API accepting any DOM `Document`, including linkedom, JSDOM, and happy-dom.
-- CLI (`src/cli.ts`) and Cloudflare Worker (`website/src/convert.ts`): linkedom; the Worker is the most constrained environment.
+Benchmarks must use the same inputs, URLs, cleanup options and fresh parsing,
+without network. Keep unsupported math out of both timed implementations.
+Never edit saved raw measurements or replace their recorded hashes with current
+ones. Use a new output directory for each measurement, separate baseline/current
+Cargo targets, and retain source/input identity and host monitoring.
 
-## Debugging extraction
+Publication is a manual maintainer action described in `docs/releasing.md`;
+no CI job uploads a crate. Keep the repository root a standalone Rust crate.
+TypeScript comparison sources are reconstructed from the pinned archive under
+the ignored `.benchmarks/` directory; they are not application source.
 
-- Start with `{ debug: true }` and inspect `result.debug.removals` and `result.debug.contentSelector`. Debug mode preserves class/id/data attributes and skips div flattening.
-- Disable removal steps individually to isolate content loss. Use `contentSelector` to bypass incorrect main-content detection.
-- For selector issues, inspect `EXACT_SELECTORS` and `PARTIAL_SELECTORS` in `src/constants.ts`. Elements inside `<pre>` or `<code>` are protected from selector removal.
-- Standardize footnotes and callouts before removals: CSS sidenotes may use `display:none`, and callout classes such as `.alert` otherwise match clutter selectors.
-
-## Common pitfalls
-
-- UMD bundles use webpack `export: 'default'`; expose named exports as static properties on the default class (see `src/index.full.ts`).
-- `getElementsByTagName` returns live HTMLCollections. Use `Array.from()` before mutating the DOM.
-
-## Rust port
-
-The native library lives in `rust/`. Read [rust/AGENTS.md](rust/AGENTS.md) before
-changing it. Its human-facing entry point is [rust/README.md](rust/README.md).
-Detailed API, scope, quality, benchmark, contributor and release information is
-indexed in [rust/docs/README.md](rust/docs/README.md).
+The README targets users. Keep installation, a small example, CLI usage and real
+limits there. Put implementation notes, validation, research and detailed
+benchmarks in `docs/`, with links in this index.
