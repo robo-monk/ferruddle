@@ -5,7 +5,7 @@ use crate::{
     selection::HEADINGS,
     utils::{attribute, contains, count_words, normalize_text, tag, utf16_len, words_at_most},
 };
-use dom_query::NodeRef;
+use dom_query::{NodeData, NodeRef};
 use regex::Regex;
 use std::sync::LazyLock;
 use url::Url;
@@ -36,9 +36,31 @@ fn remove(node: NodeRef<'_>, reason: &str, debug: bool, removals: &mut Vec<Debug
     }
     node.remove_from_parent();
 }
+/// Equivalent to `closest(node, PROTECTED).is_some()` without the selector
+/// engine. Matching is never in quirks mode, so the ID comparison is exact;
+/// like the engine, it reads `id` in any namespace.
 fn protected(node: NodeRef<'_>) -> bool {
-    closest(node, "pre,code,#footnotes,[data-defuddle]").is_some()
+    std::iter::once(node)
+        .chain(node.ancestors_it(None))
+        .any(|node| {
+            node.query_or(false, |node| {
+                let NodeData::Element(element) = &node.data else {
+                    return false;
+                };
+                matches!(element.name.local.as_ref(), "pre" | "code")
+                    || element
+                        .attrs
+                        .iter()
+                        .any(|attribute| match attribute.name.local.as_ref() {
+                            "id" => attribute.value.as_ref() == "footnotes",
+                            "data-defuddle" => attribute.name.ns.is_empty(),
+                            _ => false,
+                        })
+            })
+        })
 }
+#[cfg(test)]
+const PROTECTED: &str = "pre,code,#footnotes,[data-defuddle]";
 fn words(node: NodeRef<'_>) -> usize {
     count_words(&node.text())
 }
@@ -830,6 +852,37 @@ pub fn remove_patterns(
             }
             remove(target, "related post cards", debug, removals);
             break;
+        }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use dom_query::Document;
+
+    #[test]
+    fn protection_equals_selector_on_every_real_input_and_unusual_markup() {
+        let unusual = Document::from(concat!(
+            "<div ID=footnotes><p>x</p></div><div id=Footnotes><p>x</p></div>",
+            "<div id=' footnotes'><p>x</p></div><div class=footnotes><p>x</p></div>",
+            "<span DATA-DEFUDDLE><b>x</b></span><span data-defuddle-x><b>x</b></span>",
+            "<PRE><b>x</b></PRE><CODE>x</CODE><svg><code><text>x</text></code>",
+            "<g id=footnotes><text>x</text></g><a xlink:href='#' data-defuddle>x</a></svg>",
+            "<math><pre><mi>x</mi></pre></math><template><pre>x</pre></template>",
+        ));
+        for doc in crate::tests::upstream_documents()
+            .into_iter()
+            .chain([unusual])
+        {
+            for node in crate::dom::subtree(doc.root()) {
+                assert_eq!(
+                    protected(node),
+                    closest(node, PROTECTED).is_some(),
+                    "{}",
+                    node.html()
+                );
+            }
         }
     }
 }
