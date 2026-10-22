@@ -229,8 +229,11 @@ pub fn find_main<'a>(doc: &'a Document, selector: Option<&str>) -> Option<NodeRe
         return Some(expand_extractor(node));
     }
     let mut candidates = Vec::new();
-    for (index, selector) in ENTRY_POINT_ELEMENTS.iter().enumerate() {
-        for node in select(doc.root(), selector) {
+    for (index, nodes) in crate::dom::select_entry_points(doc.root())
+        .into_iter()
+        .enumerate()
+    {
+        for node in nodes {
             let value = (ENTRY_POINT_ELEMENTS.len() - index) as f64 * 40.0 + score(node);
             candidates.push((node, value, index));
         }

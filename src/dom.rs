@@ -73,6 +73,11 @@ pub(crate) fn select_exact(root: NodeRef<'_>) -> Vec<NodeRef<'_>> {
     selectors::select_exact(root)
 }
 
+/// Matches of each entry-point selector in document order, from one walk.
+pub(crate) fn select_entry_points(root: NodeRef<'_>) -> Vec<Vec<NodeRef<'_>>> {
+    selectors::select_entry_points(root)
+}
+
 /// Retag only with names chosen by the implementation, never page text.
 pub(crate) fn retag(node: NodeRef<'_>, name: &'static str) {
     node.update(|node| {
