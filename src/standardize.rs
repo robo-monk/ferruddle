@@ -42,22 +42,20 @@ thread_local! {
 
 fn protected(node: NodeRef<'_>) -> bool {
     PROTECTED_CODE.with(|code| {
-        math::with_source_matcher(|source| {
-            let mut nearest_source_seen = false;
-            std::iter::once(node)
-                .chain(node.ancestors_it(None))
-                .filter(NodeRef::is_element)
-                .any(|ancestor| {
-                    if ancestor.is_match(code) {
-                        return true;
-                    }
-                    if !nearest_source_seen && ancestor.is_match(source) {
-                        nearest_source_seen = true;
-                        return math::is_math_source(ancestor);
-                    }
-                    false
-                })
-        })
+        let mut nearest_source_seen = false;
+        std::iter::once(node)
+            .chain(node.ancestors_it(None))
+            .filter(NodeRef::is_element)
+            .any(|ancestor| {
+                if ancestor.is_match(code) {
+                    return true;
+                }
+                if !nearest_source_seen && math::is_source_candidate(ancestor) {
+                    nearest_source_seen = true;
+                    return math::is_math_source(ancestor);
+                }
+                false
+            })
     })
 }
 fn attached(root: NodeRef<'_>, node: NodeRef<'_>) -> bool {
