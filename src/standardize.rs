@@ -798,14 +798,19 @@ fn whitespace(root: NodeRef<'_>) {
         if protected(node) {
             continue;
         }
-        let value = node.text();
-        let value = value.replace(
-            ['\u{200b}', '\u{200d}', '\u{200e}', '\u{200f}', '\u{feff}'],
-            "",
-        );
-        let value = SPACE.replace_all(&value, " ");
-        let value = BEFORE_PUNCT.replace_all(&value, "$1");
-        node.set_text(value.as_ref());
+        let original = node.text();
+        const INVISIBLE: [char; 5] = ['\u{200b}', '\u{200d}', '\u{200e}', '\u{200f}', '\u{feff}'];
+        let visible = if original.contains(INVISIBLE) {
+            std::borrow::Cow::Owned(original.replace(INVISIBLE, ""))
+        } else {
+            std::borrow::Cow::Borrowed(original.as_ref())
+        };
+        let spaced = SPACE.replace_all(&visible, " ");
+        let value = BEFORE_PUNCT.replace_all(&spaced, "$1");
+        // Rewriting identical text would only copy it.
+        if value != original.as_ref() {
+            node.set_text(value.as_ref());
+        }
         if value.is_empty() {
             node.remove_from_parent();
         }

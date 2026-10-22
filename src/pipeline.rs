@@ -223,7 +223,7 @@ pub fn extract(html: &str, page_url: Option<&str>, options: &Options) -> Result<
                 if crate::utils::attribute(node, "class").contains("math") {
                     continue;
                 }
-                let words = count_words(&node.text());
+                let words = crate::utils::text_words(node);
                 if words > best_words {
                     best = Some(node);
                     best_words = words;

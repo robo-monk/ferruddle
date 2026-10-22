@@ -62,7 +62,7 @@ fn protected(node: NodeRef<'_>) -> bool {
 #[cfg(test)]
 const PROTECTED: &str = "pre,code,#footnotes,[data-defuddle]";
 fn words(node: NodeRef<'_>) -> usize {
-    count_words(&node.text())
+    crate::utils::text_words(node)
 }
 fn wrapper<'a>(mut node: NodeRef<'a>, root: NodeRef<'a>) -> NodeRef<'a> {
     while let Some(parent) = node.parent().filter(|p| p.id != root.id) {

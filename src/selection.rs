@@ -256,7 +256,7 @@ pub fn find_main<'a>(doc: &'a Document, selector: Option<&str>) -> Option<NodeRe
     let top = candidates[0];
     let mut best = top;
     for child in candidates.iter().skip(1) {
-        if child.2 < best.2 && contains(best.0, child.0) && count_words(&child.0.text()) > 50 {
+        if child.2 < best.2 && contains(best.0, child.0) && crate::utils::text_words(child.0) > 50 {
             let sibling_count = candidates
                 .iter()
                 .filter(|c| c.2 == child.2 && contains(top.0, c.0))
@@ -303,12 +303,8 @@ fn table_content(doc: &Document) -> Option<NodeRef<'_>> {
         }
     }
     let cell = best?;
-    let body_words = doc
-        .tree
-        .body()
-        .map(|body| count_words(&body.text()))
-        .unwrap_or(0);
-    (count_words(&cell.text()) * 2 >= body_words).then_some(cell)
+    let body_words = doc.tree.body().map(crate::utils::text_words).unwrap_or(0);
+    (crate::utils::text_words(cell) * 2 >= body_words).then_some(cell)
 }
 
 pub fn is_card_grid(element: NodeRef<'_>, words: usize) -> bool {
@@ -319,7 +315,7 @@ pub fn is_card_grid(element: NodeRef<'_>, words: usize) -> bool {
     if headings.len() < 3 || select(element, "img").len() < 2 {
         return false;
     }
-    let heading_words: usize = headings.iter().map(|h| count_words(&h.text())).sum();
+    let heading_words: usize = headings.iter().map(|h| crate::utils::text_words(*h)).sum();
     words.saturating_sub(heading_words) as f64 / (headings.len() as f64) < 20.0
 }
 
