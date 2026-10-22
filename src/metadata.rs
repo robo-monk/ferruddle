@@ -709,15 +709,22 @@ fn parse_date(s: &str) -> String {
         .map(|date| format!("{date}T00:00:00+00:00"))
         .unwrap_or_default()
 }
+const TITLE_SEPARATORS: [char; 6] = ['|', '-', '–', '—', '/', '·'];
+
 fn clean_title(title: &str, site: &str) -> (String, String) {
     if title.is_empty() {
         return (String::new(), String::new());
     }
     if !site.is_empty() && site.to_lowercase() != title.to_lowercase() && words(site) <= 6 {
+        // Both patterns require a separator, which has no case variants.
+        let separated = title.contains(TITLE_SEPARATORS);
         for pattern in [
             format!(r"(?i)\s*[|\-–—/·]\s*{}\s*$", regex::escape(site)),
             format!(r"(?i)^\s*{}\s*[|\-–—/·]\s*", regex::escape(site)),
-        ] {
+        ]
+        .into_iter()
+        .filter(|_| separated)
+        {
             // Page-controlled site names can exceed the regex compilation
             // budget. Metadata cleanup is best-effort; retain the title and
             // continue with separator heuristics instead of panicking.
@@ -782,4 +789,22 @@ fn clean_title(title: &str, site: &str) -> (String, String) {
         }
     }
     (title.trim().to_string(), String::new())
+}
+
+#[cfg(test)]
+mod title_tests {
+    use super::*;
+
+    #[test]
+    fn case_insensitive_separator_class_matches_only_the_listed_characters() {
+        let class = Regex::new(r"(?i)^[|\-–—/·]$").unwrap();
+        let mut buffer = [0; 4];
+        for ch in (0..=u32::from(char::MAX)).filter_map(char::from_u32) {
+            assert_eq!(
+                class.is_match(ch.encode_utf8(&mut buffer)),
+                TITLE_SEPARATORS.contains(&ch),
+                "{ch:?}"
+            );
+        }
+    }
 }
