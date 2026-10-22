@@ -8,6 +8,7 @@ use std::collections::HashMap;
 use std::sync::OnceLock;
 use std::{cell::RefCell, rc::Rc};
 
+use ::selectors::context::SelectorCaches;
 use dom_query::{Document, Matcher, NodeData, NodeRef, Tree};
 use regex::Regex;
 
@@ -44,18 +45,27 @@ pub fn select<'a>(root: NodeRef<'a>, selector: &str) -> Vec<NodeRef<'a>> {
     let Some(matcher) = matcher(selector) else {
         return Vec::new();
     };
-    root.descendants_it()
-        .filter(|node| node.is_element() && node.is_match(&matcher))
-        .collect()
+    matching(root.descendants_it(), &matcher).collect()
+}
+
+/// Filter elements with one selector cache instead of a fresh cache per node.
+/// Use it for a single pass over an unchanged tree: the cache records sibling
+/// positions, which become stale after mutation.
+pub(crate) fn matching<'a>(
+    nodes: impl Iterator<Item = NodeRef<'a>>,
+    matcher: &Matcher,
+) -> impl Iterator<Item = NodeRef<'a>> {
+    let mut caches = SelectorCaches::default();
+    nodes.filter(move |node| {
+        node.is_element() && matcher.match_element_with_caches(node, &mut caches)
+    })
 }
 
 /// Test descendants without collecting all matches. Like `select`, this
 /// excludes the root and inert template content.
 pub(crate) fn exists(root: NodeRef<'_>, selector: &str) -> bool {
-    matcher(selector).is_some_and(|matcher| {
-        root.descendants_it()
-            .any(|node| node.is_element() && node.is_match(&matcher))
-    })
+    matcher(selector)
+        .is_some_and(|matcher| matching(root.descendants_it(), &matcher).next().is_some())
 }
 
 /// The fixed clutter list uses conservative keys to skip impossible selectors.
@@ -75,9 +85,11 @@ pub(crate) fn retag(node: NodeRef<'_>, name: &'static str) {
 /// Find the closest matching element, starting with the element itself.
 pub fn closest<'a>(node: NodeRef<'a>, selector: &str) -> Option<NodeRef<'a>> {
     let matcher = matcher(selector)?;
-    std::iter::once(node)
-        .chain(node.ancestors_it(None))
-        .find(|ancestor| ancestor.is_element() && ancestor.is_match(&matcher))
+    matching(
+        std::iter::once(node).chain(node.ancestors_it(None)),
+        &matcher,
+    )
+    .next()
 }
 
 /// All ordinary elements in preorder, including an element root.

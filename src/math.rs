@@ -330,17 +330,8 @@ mod tests {
 
     #[test]
     fn source_candidate_equals_selector_on_every_real_input() {
-        let directory =
-            std::path::Path::new(env!("CARGO_MANIFEST_DIR")).join("tests/data/upstream");
-        let manifest: serde_json::Value =
-            serde_json::from_slice(&std::fs::read(directory.join("manifest.json")).unwrap())
-                .unwrap();
-        for entry in manifest["cases"].as_array().unwrap() {
-            let case: serde_json::Value = serde_json::from_slice(
-                &std::fs::read(directory.join(entry["file"].as_str().unwrap())).unwrap(),
-            )
-            .unwrap();
-            assert_candidate_equals_selector(&Document::from(case["inputHtml"].as_str().unwrap()));
+        for doc in crate::tests::upstream_documents() {
+            assert_candidate_equals_selector(&doc);
         }
     }
 

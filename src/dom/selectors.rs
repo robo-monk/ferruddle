@@ -2,6 +2,7 @@
 //! impossible matches; the DOM library remains the authority on CSS semantics.
 use std::collections::HashMap;
 
+use ::selectors::context::SelectorCaches;
 use dom_query::{Matcher, NodeData, NodeRef};
 
 thread_local! {
@@ -46,8 +47,12 @@ impl SelectorIndex {
         index
     }
 
-    fn matches(&self, node: NodeRef<'_>) -> bool {
-        let any = |positions: &[usize]| positions.iter().any(|&i| node.is_match(&self.matchers[i]));
+    fn matches(&self, node: NodeRef<'_>, caches: &mut SelectorCaches) -> bool {
+        let mut any = |positions: &[usize]| {
+            positions
+                .iter()
+                .any(|&i| self.matchers[i].match_element_with_caches(&node, caches))
+        };
         if any(&self.always) {
             return true;
         }
@@ -88,8 +93,9 @@ impl SelectorIndex {
     }
 
     fn select<'a>(&self, root: NodeRef<'a>) -> Vec<NodeRef<'a>> {
+        let mut caches = SelectorCaches::default();
         root.descendants_it()
-            .filter(|node| node.is_element() && self.matches(*node))
+            .filter(|node| node.is_element() && self.matches(*node, &mut caches))
             .collect()
     }
 }
@@ -162,20 +168,8 @@ mod tests {
 
     #[test]
     fn fixed_index_matches_full_list_on_every_real_input() {
-        let directory =
-            std::path::Path::new(env!("CARGO_MANIFEST_DIR")).join("tests/data/upstream");
-        let manifest: serde_json::Value =
-            serde_json::from_slice(&std::fs::read(directory.join("manifest.json")).unwrap())
-                .unwrap();
-        for entry in manifest["cases"].as_array().unwrap() {
-            let case: serde_json::Value = serde_json::from_slice(
-                &std::fs::read(directory.join(entry["file"].as_str().unwrap())).unwrap(),
-            )
-            .unwrap();
-            assert_equivalent(
-                &Document::from(case["inputHtml"].as_str().unwrap()),
-                crate::constants::EXACT_SELECTORS,
-            );
+        for document in crate::tests::upstream_documents() {
+            assert_equivalent(&document, crate::constants::EXACT_SELECTORS);
         }
     }
 

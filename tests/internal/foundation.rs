@@ -485,3 +485,45 @@ fn math_detection_warns_once_without_conversion_or_currency_false_positives() {
         );
     }
 }
+
+#[test]
+fn shared_selector_caches_equal_fresh_matching_on_every_real_input() {
+    let selectors = [
+        "p",
+        "div > p:first-child",
+        "li:nth-child(2n+1)",
+        "tr:nth-last-child(1)",
+        "p:nth-of-type(2)",
+        "td:nth-last-of-type(1)",
+        "div:has(> img)",
+        "section:has(p + p), li:not(:nth-child(1))",
+    ];
+    for doc in crate::tests::upstream_documents() {
+        let nodes: Vec<NodeRef<'_>> = doc.root().descendants_it().collect();
+        for selector in selectors {
+            let matcher = dom_query::Matcher::new(selector).unwrap();
+            let fresh = |node: &NodeRef<'_>| node.is_match(&matcher);
+            let ids = |found: Vec<NodeRef<'_>>| found.iter().map(|n| n.id).collect::<Vec<_>>();
+            assert_eq!(
+                ids(dom::select(doc.root(), selector)),
+                ids(nodes.iter().copied().filter(fresh).collect()),
+                "{selector}"
+            );
+            for node in nodes.iter().copied().filter(NodeRef::is_element).step_by(7) {
+                let closest = std::iter::once(node)
+                    .chain(node.ancestors_it(None))
+                    .find(fresh);
+                assert_eq!(
+                    dom::closest(node, selector).map(|n| n.id),
+                    closest.map(|n| n.id),
+                    "{selector}"
+                );
+                assert_eq!(
+                    dom::exists(node, selector),
+                    node.descendants_it().any(|n| fresh(&n)),
+                    "{selector}"
+                );
+            }
+        }
+    }
+}

@@ -196,6 +196,7 @@ dependencies = [
  "dom_query",
  "pulldown-cmark",
  "regex",
+ "selectors",
  "serde",
  "serde_json",
  "sha2",
