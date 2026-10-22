@@ -141,12 +141,14 @@ fn partial_match(value: &str, anchored: bool) -> bool {
     }) || exceptional_partial(&value.to_lowercase(), anchored)
 }
 
+/// Returns whether partial selectors added any target. Without one, the same
+/// call with `remove_partial_selectors` disabled removes exactly the same nodes.
 pub fn remove_selectors(
     root: NodeRef<'_>,
     main: NodeRef<'_>,
     options: &Options,
     removals: &mut Vec<DebugRemoval>,
-) {
+) -> bool {
     let mut targets = Vec::new();
     let mut seen = HashSet::new();
     if options.remove_exact_selectors {
@@ -172,6 +174,7 @@ pub fn remove_selectors(
             }
         }
     }
+    let exact_targets = targets.len();
     if options.remove_partial_selectors {
         for node in select(
             root,
@@ -231,6 +234,7 @@ pub fn remove_selectors(
             }
         }
     }
+    let partial_targets = targets.len() > exact_targets;
     for (node, reason) in targets {
         if contains(node, main)
             || (tag(node) == "a" && closest(node, selection::HEADINGS).is_some())
@@ -263,6 +267,7 @@ pub fn remove_selectors(
         record(node, "removeBySelector", reason, options.debug, removals);
         node.remove_from_parent();
     }
+    partial_targets
 }
 
 pub fn remove_low_scoring(

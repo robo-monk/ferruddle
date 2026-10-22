@@ -54,6 +54,9 @@ struct Candidate {
     word_count: usize,
     metadata: Metadata,
     debug: DebugInfo,
+    /// Partial selectors found a removal target. When false, disabling them
+    /// reproduces this candidate exactly.
+    partial_targets: bool,
 }
 impl Candidate {
     fn new(
@@ -75,6 +78,7 @@ impl Candidate {
             word_count,
             metadata,
             debug,
+            partial_targets: false,
         }
     }
     fn html(&self) -> String {
@@ -192,9 +196,15 @@ pub fn extract(html: &str, page_url: Option<&str>, options: &Options) -> Result<
     if result.word_count < 200 && options.remove_partial_selectors {
         let mut retry = options.clone();
         retry.remove_partial_selectors = false;
-        let candidate = attempt(&prepared, &retry, None, page_url);
-        if candidate.word_count > result.word_count * 2 {
-            result = candidate
+        if result.partial_targets {
+            let candidate = attempt(&prepared, &retry, None, page_url);
+            if candidate.word_count > result.word_count * 2 {
+                result = candidate
+            }
+        } else {
+            // The retry would reproduce `result`; tests run it to prove that.
+            #[cfg(test)]
+            tests::assert_same_candidate(&result, &attempt(&prepared, &retry, None, page_url));
         }
     }
     if result.word_count < 50 && options.remove_hidden_elements {
@@ -358,8 +368,9 @@ fn attempt(
     if options.remove_content_patterns {
         patterns::eyebrow(root, options.debug, &mut debug.removals)
     }
+    let mut partial_targets = false;
     if options.remove_exact_selectors || options.remove_partial_selectors {
-        removals::remove_selectors(body, root, options, &mut debug.removals)
+        partial_targets = removals::remove_selectors(body, root, options, &mut debug.removals)
     }
     if options.remove_low_scoring {
         removals::remove_low_scoring(body, root, options.debug, &mut debug.removals)
@@ -383,7 +394,10 @@ fn attempt(
     } else {
         Output::Outer
     };
-    Candidate::new(clone, root_id, output, metadata, debug)
+    Candidate {
+        partial_targets,
+        ..Candidate::new(clone, root_id, output, metadata, debug)
+    }
 }
 
 fn from_html(
@@ -522,6 +536,18 @@ mod tests {
         let result = extract(&html, None, &Options::default()).unwrap();
         assert!(result.word_count >= 200);
         assert_eq!(SCHEMA_SEARCHES.with(Cell::get), 0);
+    }
+    pub(super) fn assert_same_candidate(expected: &Candidate, actual: &Candidate) {
+        assert_eq!(actual.word_count, expected.word_count);
+        assert_eq!(actual.html(), expected.html());
+        assert_eq!(
+            format!("{:?}", actual.metadata),
+            format!("{:?}", expected.metadata)
+        );
+        assert_eq!(
+            format!("{:?}", actual.debug),
+            format!("{:?}", expected.debug)
+        );
     }
     pub(super) fn count(index: usize) {
         COUNTERS.with(|counts| {
