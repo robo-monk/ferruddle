@@ -15,6 +15,8 @@ include = ["/src/**", "/tests/**", "/examples/**", "/README.md", "/CHANGELOG.md"
 [dependencies]
 dom_query = { version = "0.28", default-features = false }
 regex = "1"
+# Must match the version dom_query uses; shares its selector-cache type.
+selectors = "0.38"
 serde = { version = "1", features = ["derive"] }
 serde_json = { version = "1", features = ["preserve_order"] }
 thiserror = "2"

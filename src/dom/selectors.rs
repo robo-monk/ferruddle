@@ -1,20 +1,30 @@
-//! Conservative indexing for the fixed clutter selector list. Keys only reject
-//! impossible matches; the DOM library remains the authority on CSS semantics.
+//! Conservative indexing for fixed selector lists. Keys only reject impossible
+//! matches; the DOM library remains the authority on CSS semantics.
 use std::collections::HashMap;
 
+use ::selectors::context::SelectorCaches;
 use dom_query::{Matcher, NodeData, NodeRef};
 
 thread_local! {
     static EXACT: SelectorIndex = SelectorIndex::new(crate::constants::EXACT_SELECTORS);
+    static ENTRY_POINTS: SelectorIndex =
+        SelectorIndex::new(crate::constants::ENTRY_POINT_ELEMENTS);
 }
 
 pub(super) fn select_exact(root: NodeRef<'_>) -> Vec<NodeRef<'_>> {
     EXACT.with(|index| index.select(root))
 }
 
+pub(super) fn select_entry_points(root: NodeRef<'_>) -> Vec<Vec<NodeRef<'_>>> {
+    ENTRY_POINTS.with(|index| index.select_each(root))
+}
+
 #[derive(Default)]
 struct SelectorIndex {
+    inputs: usize,
     matchers: Vec<Matcher>,
+    /// Input position of each parsed matcher; invalid selectors are skipped.
+    sources: Vec<usize>,
     always: Vec<usize>,
     tags: HashMap<String, Vec<usize>>,
     classes: HashMap<String, Vec<usize>>,
@@ -24,13 +34,17 @@ struct SelectorIndex {
 
 impl SelectorIndex {
     fn new(selectors: &[&str]) -> Self {
-        let mut index = Self::default();
-        for selector in selectors {
+        let mut index = Self {
+            inputs: selectors.len(),
+            ..Self::default()
+        };
+        for (source, selector) in selectors.iter().enumerate() {
             let Ok(matcher) = Matcher::new(selector) else {
                 continue;
             };
             let position = index.matchers.len();
             index.matchers.push(matcher);
+            index.sources.push(source);
             let bucket = match necessary_key(selector) {
                 Some((b'.', name)) => index.classes.entry(name.to_owned()),
                 Some((b'#', name)) => index.ids.entry(name.to_owned()),
@@ -46,8 +60,16 @@ impl SelectorIndex {
         index
     }
 
-    fn matches(&self, node: NodeRef<'_>) -> bool {
-        let any = |positions: &[usize]| positions.iter().any(|&i| node.is_match(&self.matchers[i]));
+    fn matches(&self, node: NodeRef<'_>, caches: &mut SelectorCaches) -> bool {
+        self.candidates(node, |i| {
+            self.matchers[i].match_element_with_caches(&node, caches)
+        })
+    }
+
+    /// Visit each matcher whose necessary key the element has, stopping when
+    /// `visit` returns true. A matcher can be visited more than once.
+    fn candidates(&self, node: NodeRef<'_>, mut visit: impl FnMut(usize) -> bool) -> bool {
+        let mut any = |positions: &[usize]| positions.iter().any(|&i| visit(i));
         if any(&self.always) {
             return true;
         }
@@ -88,9 +110,28 @@ impl SelectorIndex {
     }
 
     fn select<'a>(&self, root: NodeRef<'a>) -> Vec<NodeRef<'a>> {
+        let mut caches = SelectorCaches::default();
         root.descendants_it()
-            .filter(|node| node.is_element() && self.matches(*node))
+            .filter(|node| node.is_element() && self.matches(*node, &mut caches))
             .collect()
+    }
+
+    /// Matches of each input selector in document order, from one walk.
+    fn select_each<'a>(&self, root: NodeRef<'a>) -> Vec<Vec<NodeRef<'a>>> {
+        let mut caches = SelectorCaches::default();
+        let mut found = vec![Vec::new(); self.inputs];
+        for node in root.descendants_it().filter(NodeRef::is_element) {
+            self.candidates(node, |i| {
+                let nodes: &mut Vec<NodeRef<'a>> = &mut found[self.sources[i]];
+                if nodes.last().is_none_or(|last| last.id != node.id)
+                    && self.matchers[i].match_element_with_caches(&node, &mut caches)
+                {
+                    nodes.push(node);
+                }
+                false
+            });
+        }
+        found
     }
 }
 
@@ -160,23 +201,43 @@ mod tests {
         );
     }
 
+    fn assert_each_equivalent(document: &Document, selectors: &[&str]) {
+        let index = SelectorIndex::new(selectors);
+        let ids = |nodes: &[NodeRef<'_>]| nodes.iter().map(|n| n.id).collect::<Vec<_>>();
+        let actual = index.select_each(document.root());
+        assert_eq!(actual.len(), selectors.len());
+        for (selector, nodes) in selectors.iter().zip(&actual) {
+            let expected = super::super::select(document.root(), selector);
+            assert_eq!(ids(nodes), ids(&expected), "{selector}");
+        }
+    }
+
     #[test]
     fn fixed_index_matches_full_list_on_every_real_input() {
-        let directory =
-            std::path::Path::new(env!("CARGO_MANIFEST_DIR")).join("tests/data/upstream");
-        let manifest: serde_json::Value =
-            serde_json::from_slice(&std::fs::read(directory.join("manifest.json")).unwrap())
-                .unwrap();
-        for entry in manifest["cases"].as_array().unwrap() {
-            let case: serde_json::Value = serde_json::from_slice(
-                &std::fs::read(directory.join(entry["file"].as_str().unwrap())).unwrap(),
-            )
-            .unwrap();
-            assert_equivalent(
-                &Document::from(case["inputHtml"].as_str().unwrap()),
-                crate::constants::EXACT_SELECTORS,
-            );
+        for document in crate::tests::upstream_documents() {
+            assert_equivalent(&document, crate::constants::EXACT_SELECTORS);
+            assert_each_equivalent(&document, crate::constants::EXACT_SELECTORS);
+            assert_each_equivalent(&document, crate::constants::ENTRY_POINT_ELEMENTS);
         }
+    }
+
+    #[test]
+    fn each_selector_reports_an_element_once_and_keeps_input_positions() {
+        let document = Document::from(
+            r#"<div id="post" class="post post Post" role="main"><p class="post">P</p></div><main class="post"></main>"#,
+        );
+        let selectors = [
+            ".post",
+            "#post",
+            "[role=\"main\"]",
+            "a[",
+            "main",
+            "div.post",
+            "*",
+        ];
+        assert_each_equivalent(&document, &selectors);
+        let index = SelectorIndex::new(&selectors);
+        assert!(index.select_each(document.root())[3].is_empty());
     }
 
     #[test]

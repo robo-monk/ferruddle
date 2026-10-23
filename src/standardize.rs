@@ -3,7 +3,7 @@
 
 use std::sync::LazyLock;
 
-use dom_query::{Document, Matcher, NodeData, NodeRef};
+use dom_query::{Document, NodeData, NodeRef};
 use regex::Regex;
 
 use crate::constants::{
@@ -36,29 +36,28 @@ fn svg(node: NodeRef<'_>) -> bool {
     node.qual_name_ref()
         .is_some_and(|name| name.ns.as_ref() == "http://www.w3.org/2000/svg")
 }
-thread_local! {
-    static PROTECTED_CODE: Matcher = Matcher::new("pre,code,svg").expect("static selector");
+/// Equivalent to `closest("pre,code,svg")`: type selectors compare local names
+/// in every namespace.
+fn code_root(node: NodeRef<'_>) -> bool {
+    node.qual_name_ref()
+        .is_some_and(|name| matches!(name.local.as_ref(), "pre" | "code" | "svg"))
 }
 
 fn protected(node: NodeRef<'_>) -> bool {
-    PROTECTED_CODE.with(|code| {
-        math::with_source_matcher(|source| {
-            let mut nearest_source_seen = false;
-            std::iter::once(node)
-                .chain(node.ancestors_it(None))
-                .filter(NodeRef::is_element)
-                .any(|ancestor| {
-                    if ancestor.is_match(code) {
-                        return true;
-                    }
-                    if !nearest_source_seen && ancestor.is_match(source) {
-                        nearest_source_seen = true;
-                        return math::is_math_source(ancestor);
-                    }
-                    false
-                })
+    let mut nearest_source_seen = false;
+    std::iter::once(node)
+        .chain(node.ancestors_it(None))
+        .filter(NodeRef::is_element)
+        .any(|ancestor| {
+            if code_root(ancestor) {
+                return true;
+            }
+            if !nearest_source_seen && math::is_source_candidate(ancestor) {
+                nearest_source_seen = true;
+                return math::is_math_source(ancestor);
+            }
+            false
         })
-    })
 }
 fn attached(root: NodeRef<'_>, node: NodeRef<'_>) -> bool {
     utils::contains(root, node)
@@ -799,14 +798,19 @@ fn whitespace(root: NodeRef<'_>) {
         if protected(node) {
             continue;
         }
-        let value = node.text();
-        let value = value.replace(
-            ['\u{200b}', '\u{200d}', '\u{200e}', '\u{200f}', '\u{feff}'],
-            "",
-        );
-        let value = SPACE.replace_all(&value, " ");
-        let value = BEFORE_PUNCT.replace_all(&value, "$1");
-        node.set_text(value.as_ref());
+        let original = node.text();
+        const INVISIBLE: [char; 5] = ['\u{200b}', '\u{200d}', '\u{200e}', '\u{200f}', '\u{feff}'];
+        let visible = if original.contains(INVISIBLE) {
+            std::borrow::Cow::Owned(original.replace(INVISIBLE, ""))
+        } else {
+            std::borrow::Cow::Borrowed(original.as_ref())
+        };
+        let spaced = SPACE.replace_all(&visible, " ");
+        let value = BEFORE_PUNCT.replace_all(&spaced, "$1");
+        // Rewriting identical text would only copy it.
+        if value != original.as_ref() {
+            node.set_text(value.as_ref());
+        }
         if value.is_empty() {
             node.remove_from_parent();
         }
@@ -1153,6 +1157,22 @@ mod boundary_tests {
             let expected = closest(node, "pre,code,svg").is_some()
                 || closest(node, math::SOURCE_SELECTOR).is_some_and(math::is_math_source);
             assert_eq!(protected(node), expected, "{}", node.html());
+        }
+    }
+
+    #[test]
+    fn code_root_equals_selector_on_every_real_input() {
+        let code = dom_query::Matcher::new("pre,code,svg").unwrap();
+        let foreign = Document::from(
+            "<svg><code>x</code><pre>x</pre><SVG>x</SVG></svg><math><code>x</code></math><PRE>x</PRE>",
+        );
+        for doc in crate::tests::upstream_documents()
+            .into_iter()
+            .chain([foreign])
+        {
+            for node in dom::subtree(doc.root()) {
+                assert_eq!(code_root(node), node.is_match(&code), "{}", node.html());
+            }
         }
     }
 

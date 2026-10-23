@@ -114,12 +114,64 @@ static TOC: LazyLock<Regex> = LazyLock::new(|| {
         .unwrap()
 });
 
+/// Descendant measurements for [`score`], gathered in one walk. Type selectors
+/// compare local names in every namespace; each footnote list runs only on
+/// elements whose tag or ID can be the subject of one of its branches.
+#[derive(Debug, Default, PartialEq)]
+struct Descendants {
+    paragraphs: usize,
+    images: usize,
+    tables: usize,
+    link_length: usize,
+    inline_reference: bool,
+    footnote_list: bool,
+}
+
+fn descendants(element: NodeRef<'_>) -> Descendants {
+    let inline = crate::dom::matcher(FOOTNOTE_INLINE_REFERENCES).expect("static selector");
+    let list = crate::dom::matcher(FOOTNOTE_LIST_SELECTORS).expect("static selector");
+    let mut caches = ::selectors::context::SelectorCaches::default();
+    let mut found = Descendants::default();
+    for node in element.descendants_it() {
+        let Some((name, footnotes_id)) = node.query_or(None, |node| {
+            let element = node.as_element()?;
+            let id = element.attrs.iter().any(|attribute| {
+                attribute.name.local.as_ref() == "id" && attribute.value.as_ref() == "footnotes"
+            });
+            Some((element.name.local.clone(), id))
+        }) else {
+            continue;
+        };
+        match name.as_ref() {
+            "p" => found.paragraphs += 1,
+            "img" => found.images += 1,
+            "table" => found.tables += 1,
+            "a" => found.link_length += utf16_len(&node.text()),
+            _ => {}
+        }
+        if !found.inline_reference
+            && matches!(name.as_ref(), "a" | "cite" | "span" | "sup")
+            && inline.match_element_with_caches(&node, &mut caches)
+        {
+            found.inline_reference = true;
+        }
+        if !found.footnote_list
+            && (matches!(name.as_ref(), "div" | "ol" | "section" | "ul") || footnotes_id)
+            && list.match_element_with_caches(&node, &mut caches)
+        {
+            found.footnote_list = true;
+        }
+    }
+    found
+}
+
 pub fn score(element: NodeRef<'_>) -> f64 {
     let text = element.text();
     let words = count_words(&text);
-    let paragraphs = select(element, "p").len();
+    let found = descendants(element);
+    let paragraphs = found.paragraphs;
     let mut score = words as f64 + paragraphs as f64 * 10.0 + text.matches(',').count() as f64;
-    score -= select(element, "img").len() as f64 / words.max(1) as f64 * 3.0;
+    score -= found.images as f64 / words.max(1) as f64 * 3.0;
     let style = attribute(element, "style");
     if style.contains("float: right")
         || style.contains("text-align: right")
@@ -140,13 +192,13 @@ pub fn score(element: NodeRef<'_>) -> f64 {
     {
         score += 15.0;
     }
-    if !select(element, FOOTNOTE_INLINE_REFERENCES).is_empty() {
+    if found.inline_reference {
         score += 10.0;
     }
-    if !select(element, FOOTNOTE_LIST_SELECTORS).is_empty() {
+    if found.footnote_list {
         score += 10.0;
     }
-    score -= select(element, "table").len() as f64 * 5.0;
+    score -= found.tables as f64 * 5.0;
     if tag(element) == "td"
         && let Some(table) = closest(element, "table")
     {
@@ -165,10 +217,7 @@ pub fn score(element: NodeRef<'_>) -> f64 {
             }
         }
     }
-    let link_length: usize = select(element, "a")
-        .iter()
-        .map(|a| utf16_len(&a.text()))
-        .sum();
+    let link_length = found.link_length;
     let density = (link_length as f64 / utf16_len(&text).max(1) as f64).min(0.5);
     score * (1.0 - density)
 }
@@ -180,8 +229,11 @@ pub fn find_main<'a>(doc: &'a Document, selector: Option<&str>) -> Option<NodeRe
         return Some(expand_extractor(node));
     }
     let mut candidates = Vec::new();
-    for (index, selector) in ENTRY_POINT_ELEMENTS.iter().enumerate() {
-        for node in select(doc.root(), selector) {
+    for (index, nodes) in crate::dom::select_entry_points(doc.root())
+        .into_iter()
+        .enumerate()
+    {
+        for node in nodes {
             let value = (ENTRY_POINT_ELEMENTS.len() - index) as f64 * 40.0 + score(node);
             candidates.push((node, value, index));
         }
@@ -204,7 +256,7 @@ pub fn find_main<'a>(doc: &'a Document, selector: Option<&str>) -> Option<NodeRe
     let top = candidates[0];
     let mut best = top;
     for child in candidates.iter().skip(1) {
-        if child.2 < best.2 && contains(best.0, child.0) && count_words(&child.0.text()) > 50 {
+        if child.2 < best.2 && contains(best.0, child.0) && crate::utils::text_words(child.0) > 50 {
             let sibling_count = candidates
                 .iter()
                 .filter(|c| c.2 == child.2 && contains(top.0, c.0))
@@ -251,12 +303,8 @@ fn table_content(doc: &Document) -> Option<NodeRef<'_>> {
         }
     }
     let cell = best?;
-    let body_words = doc
-        .tree
-        .body()
-        .map(|body| count_words(&body.text()))
-        .unwrap_or(0);
-    (count_words(&cell.text()) * 2 >= body_words).then_some(cell)
+    let body_words = doc.tree.body().map(crate::utils::text_words).unwrap_or(0);
+    (crate::utils::text_words(cell) * 2 >= body_words).then_some(cell)
 }
 
 pub fn is_card_grid(element: NodeRef<'_>, words: usize) -> bool {
@@ -267,7 +315,7 @@ pub fn is_card_grid(element: NodeRef<'_>, words: usize) -> bool {
     if headings.len() < 3 || select(element, "img").len() < 2 {
         return false;
     }
-    let heading_words: usize = headings.iter().map(|h| count_words(&h.text())).sum();
+    let heading_words: usize = headings.iter().map(|h| crate::utils::text_words(*h)).sum();
     words.saturating_sub(heading_words) as f64 / (headings.len() as f64) < 20.0
 }
 
@@ -444,6 +492,55 @@ mod tests {
                 !has_social_profile(doc.select_single("div").nodes()[0]),
                 "{href}"
             );
+        }
+    }
+}
+
+#[cfg(test)]
+mod descendant_tests {
+    use super::*;
+
+    fn by_selector(element: NodeRef<'_>) -> Descendants {
+        Descendants {
+            paragraphs: select(element, "p").len(),
+            images: select(element, "img").len(),
+            tables: select(element, "table").len(),
+            link_length: select(element, "a")
+                .iter()
+                .map(|a| utf16_len(&a.text()))
+                .sum(),
+            inline_reference: !select(element, FOOTNOTE_INLINE_REFERENCES).is_empty(),
+            footnote_list: !select(element, FOOTNOTE_LIST_SELECTORS).is_empty(),
+        }
+    }
+
+    #[test]
+    fn one_walk_equals_selector_queries_on_every_real_input_and_unusual_markup() {
+        let unusual = Document::from(concat!(
+            "<article><P>a</P><IMG><TABLE></TABLE><A>Link ünïcode 漢</A>",
+            "<svg><a href='#fn1'>1</a><p>x</p><image/><g id=footnotes></g></svg>",
+            "<math><a>m</a><sup class=reference>1</sup></math>",
+            "<p id=footnotes>not a list</p><SUP CLASS=reference>2</SUP>",
+            "<section class=Footnotes><ol><li>x</li></ol></section><ol class='references x'></ol>",
+            "<span class=easy-footnote><a href='#easy-footnote-bottom-1'>3</a></span>",
+            "<template><a href='#fn2'>4</a><ol class=footnotes></ol></template>",
+            "<a><a>nested</a></a></article>",
+        ));
+        for doc in crate::tests::upstream_documents()
+            .into_iter()
+            .chain([unusual])
+        {
+            for element in crate::dom::subtree(doc.root())
+                .into_iter()
+                .filter(NodeRef::is_element)
+            {
+                assert_eq!(
+                    descendants(element),
+                    by_selector(element),
+                    "{}",
+                    element.html()
+                );
+            }
         }
     }
 }

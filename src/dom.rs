@@ -8,6 +8,7 @@ use std::collections::HashMap;
 use std::sync::OnceLock;
 use std::{cell::RefCell, rc::Rc};
 
+use ::selectors::context::SelectorCaches;
 use dom_query::{Document, Matcher, NodeData, NodeRef, Tree};
 use regex::Regex;
 
@@ -44,23 +45,37 @@ pub fn select<'a>(root: NodeRef<'a>, selector: &str) -> Vec<NodeRef<'a>> {
     let Some(matcher) = matcher(selector) else {
         return Vec::new();
     };
-    root.descendants_it()
-        .filter(|node| node.is_element() && node.is_match(&matcher))
-        .collect()
+    matching(root.descendants_it(), &matcher).collect()
+}
+
+/// Filter elements with one selector cache instead of a fresh cache per node.
+/// Use it for a single pass over an unchanged tree: the cache records sibling
+/// positions, which become stale after mutation.
+pub(crate) fn matching<'a>(
+    nodes: impl Iterator<Item = NodeRef<'a>>,
+    matcher: &Matcher,
+) -> impl Iterator<Item = NodeRef<'a>> {
+    let mut caches = SelectorCaches::default();
+    nodes.filter(move |node| {
+        node.is_element() && matcher.match_element_with_caches(node, &mut caches)
+    })
 }
 
 /// Test descendants without collecting all matches. Like `select`, this
 /// excludes the root and inert template content.
 pub(crate) fn exists(root: NodeRef<'_>, selector: &str) -> bool {
-    matcher(selector).is_some_and(|matcher| {
-        root.descendants_it()
-            .any(|node| node.is_element() && node.is_match(&matcher))
-    })
+    matcher(selector)
+        .is_some_and(|matcher| matching(root.descendants_it(), &matcher).next().is_some())
 }
 
 /// The fixed clutter list uses conservative keys to skip impossible selectors.
 pub(crate) fn select_exact(root: NodeRef<'_>) -> Vec<NodeRef<'_>> {
     selectors::select_exact(root)
+}
+
+/// Matches of each entry-point selector in document order, from one walk.
+pub(crate) fn select_entry_points(root: NodeRef<'_>) -> Vec<Vec<NodeRef<'_>>> {
+    selectors::select_entry_points(root)
 }
 
 /// Retag only with names chosen by the implementation, never page text.
@@ -75,9 +90,11 @@ pub(crate) fn retag(node: NodeRef<'_>, name: &'static str) {
 /// Find the closest matching element, starting with the element itself.
 pub fn closest<'a>(node: NodeRef<'a>, selector: &str) -> Option<NodeRef<'a>> {
     let matcher = matcher(selector)?;
-    std::iter::once(node)
-        .chain(node.ancestors_it(None))
-        .find(|ancestor| ancestor.is_element() && ancestor.is_match(&matcher))
+    matching(
+        std::iter::once(node).chain(node.ancestors_it(None)),
+        &matcher,
+    )
+    .next()
 }
 
 /// All ordinary elements in preorder, including an element root.
@@ -120,36 +137,31 @@ pub fn is_before(node: NodeRef<'_>, other: NodeRef<'_>) -> bool {
     if !std::ptr::eq(node.tree, other.tree) || same_node(node, other) {
         return false;
     }
-    let mut left: Vec<_> = std::iter::once(node)
-        .chain(node.ancestors_it(None))
-        .collect();
-    let mut right: Vec<_> = std::iter::once(other)
-        .chain(other.ancestors_it(None))
-        .collect();
-    if !left
-        .last()
-        .zip(right.last())
-        .is_some_and(|(a, b)| same_node(*a, *b))
-    {
-        return false;
+    let depth = |node: NodeRef<'_>| node.ancestors_it(None).count();
+    let (mut left, mut right) = (node, other);
+    let (mut left_depth, mut right_depth) = (depth(left), depth(right));
+    while left_depth > right_depth {
+        left = left.parent().expect("depth counts ancestors");
+        left_depth -= 1;
     }
-    while left
-        .last()
-        .zip(right.last())
-        .is_some_and(|(a, b)| same_node(*a, *b))
-    {
-        left.pop();
-        right.pop();
+    while right_depth > left_depth {
+        right = right.parent().expect("depth counts ancestors");
+        right_depth -= 1;
     }
-    let Some(branch) = left.last() else {
-        return true;
-    };
-    let Some(other_branch) = right.last() else {
-        return false;
-    };
-    let mut sibling = branch.next_sibling();
+    // An ancestor precedes its descendants.
+    if same_node(left, right) {
+        return same_node(left, node);
+    }
+    loop {
+        match (left.parent(), right.parent()) {
+            (Some(a), Some(b)) if same_node(a, b) => break,
+            (Some(a), Some(b)) => (left, right) = (a, b),
+            _ => return false,
+        }
+    }
+    let mut sibling = left.next_sibling();
     while let Some(current) = sibling {
-        if same_node(current, *other_branch) {
+        if same_node(current, right) {
             return true;
         }
         sibling = current.next_sibling();
@@ -520,4 +532,76 @@ pub fn resolve_noscript_images(doc: &Document) -> bool {
         }
     }
     changed
+}
+
+#[cfg(test)]
+mod order_tests {
+    use super::*;
+
+    fn is_before_by_paths(node: NodeRef<'_>, other: NodeRef<'_>) -> bool {
+        if !std::ptr::eq(node.tree, other.tree) || same_node(node, other) {
+            return false;
+        }
+        let mut left: Vec<_> = std::iter::once(node)
+            .chain(node.ancestors_it(None))
+            .collect();
+        let mut right: Vec<_> = std::iter::once(other)
+            .chain(other.ancestors_it(None))
+            .collect();
+        if !left
+            .last()
+            .zip(right.last())
+            .is_some_and(|(a, b)| same_node(*a, *b))
+        {
+            return false;
+        }
+        while left
+            .last()
+            .zip(right.last())
+            .is_some_and(|(a, b)| same_node(*a, *b))
+        {
+            left.pop();
+            right.pop();
+        }
+        let Some(branch) = left.last() else {
+            return true;
+        };
+        let Some(other_branch) = right.last() else {
+            return false;
+        };
+        let mut sibling = branch.next_sibling();
+        while let Some(current) = sibling {
+            if same_node(current, *other_branch) {
+                return true;
+            }
+            sibling = current.next_sibling();
+        }
+        false
+    }
+
+    #[test]
+    fn document_order_equals_comparing_ancestor_paths() {
+        let doc = Document::from(
+            "<article><p>a<b>b</b></p><div><span>c</span><i>d</i></div><template><em>e</em></template></article><footer>f</footer>",
+        );
+        let detached = select(doc.root(), "div")[0];
+        detached.remove_from_parent();
+        let mut nodes = subtree(doc.root());
+        nodes.extend(subtree(detached));
+        for &a in &nodes {
+            for &b in &nodes {
+                assert_eq!(is_before(a, b), is_before_by_paths(a, b), "{a:?} {b:?}");
+            }
+        }
+        let other = Document::from("<p>x</p>");
+        assert!(!is_before(doc.root(), other.root()));
+        for doc in crate::tests::upstream_documents() {
+            let nodes = subtree(doc.root());
+            for &a in nodes.iter().step_by(23) {
+                for &b in nodes.iter().step_by(19) {
+                    assert_eq!(is_before(a, b), is_before_by_paths(a, b));
+                }
+            }
+        }
+    }
 }

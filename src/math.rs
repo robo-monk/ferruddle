@@ -2,13 +2,15 @@
 
 use std::sync::OnceLock;
 
-use dom_query::{Document, Matcher, NodeRef};
+use dom_query::{Document, NodeData, NodeRef};
 use regex::Regex;
 
 use crate::{Warning, WarningCode, dom};
 
 /// Formula source roots shared by cleanup and Markdown. MathJax processing
 /// controls describe prose containers; they are deliberately absent here.
+/// `is_source_candidate` implements this list; tests prove the equivalence.
+#[cfg(test)]
 pub(crate) const SOURCE_SELECTOR: &str = concat!(
     "math,mjx-container,mjx-math,",
     "[data-math],[data-latex],[data-tex],[data-mathml],[data-katex],",
@@ -21,22 +23,40 @@ pub(crate) const SOURCE_SELECTOR: &str = concat!(
     "[class~='arithmatex' i],[class~='tex-math' i],[class~='hurmet-tex' i]"
 );
 
-thread_local! {
-    static SOURCE_MATCHER: Matcher = Matcher::new(SOURCE_SELECTOR).expect("static selector");
-}
-
-/// Reuse the fixed source matcher without hashing a selector-cache key.
-pub(crate) fn with_source_matcher<T>(f: impl FnOnce(&Matcher) -> T) -> T {
-    SOURCE_MATCHER.with(f)
+/// Match exactly the elements `SOURCE_SELECTOR` matches, reading each attribute
+/// once instead of evaluating every selector branch. Type selectors match any
+/// namespace; unprefixed attribute selectors match only no-namespace attributes.
+pub(crate) fn is_source_candidate(node: NodeRef<'_>) -> bool {
+    node.query_or(false, |node| {
+        let NodeData::Element(element) = &node.data else {
+            return false;
+        };
+        let tag = element.name.local.as_ref();
+        if matches!(tag, "math" | "mjx-container" | "mjx-math") {
+            return true;
+        }
+        element.attrs.iter().any(|attribute| {
+            if !attribute.name.ns.is_empty() {
+                return false;
+            }
+            match attribute.name.local.as_ref() {
+                "data-math" | "data-latex" | "data-tex" | "data-mathml" | "data-katex" => true,
+                "type" => tag == "script" && starts_ascii_case(&attribute.value, "math/"),
+                "encoding" => {
+                    tag == "annotation" && attribute.value.eq_ignore_ascii_case("application/x-tex")
+                }
+                "class" => attribute.value.split_ascii_whitespace().any(source_class),
+                _ => false,
+            }
+        })
+    })
 }
 
 /// Test the same source candidates as `select(SOURCE_SELECTOR)`, stopping at
 /// the first accepted source and excluding the root and template fragments.
 pub(crate) fn has_source_descendant(root: NodeRef<'_>) -> bool {
-    with_source_matcher(|source| {
-        root.descendants_it()
-            .any(|node| node.is_element() && node.is_match(source) && is_math_source(node))
-    })
+    root.descendants_it()
+        .any(|node| node.is_element() && is_source_candidate(node) && is_math_source(node))
 }
 
 pub(crate) const SOURCE_ATTRIBUTES: &[&str] = &[
@@ -295,6 +315,51 @@ pub fn warnings(doc: &Document) -> Vec<Warning> {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    fn assert_candidate_equals_selector(doc: &Document) {
+        let selector = dom_query::Matcher::new(SOURCE_SELECTOR).unwrap();
+        for node in dom::subtree(doc.root()) {
+            assert_eq!(
+                is_source_candidate(node),
+                node.is_element() && node.is_match(&selector),
+                "{}",
+                node.html()
+            );
+        }
+    }
+
+    #[test]
+    fn source_candidate_equals_selector_on_every_real_input() {
+        for doc in crate::tests::upstream_documents() {
+            assert_candidate_equals_selector(&doc);
+        }
+    }
+
+    #[test]
+    fn source_candidate_equals_selector_on_unusual_markup() {
+        assert_candidate_equals_selector(&Document::from(concat!(
+            "<MATH><mi>x</mi></MATH><Mjx-Container><MJX-MATH>x</MJX-MATH></Mjx-Container>",
+            "<span DATA-MATH>x</span><span data-latex=''>x</span><span data-tex>x</span>",
+            "<span data-mathml>x</span><span data-katex>x</span><span data-maths>x</span>",
+            "<span data-math-x>x</span><span math>x</span><span class>x</span>",
+            "<script type='MATH/TeX; mode=display'>x</script><script type=' math/tex'>x</script>",
+            "<script type='math'>x</script><script type='text/math/'>x</script>",
+            "<div type='math/tex'>x</div><annotation encoding='Application/X-TeX'>x</annotation>",
+            "<annotation encoding='application/x-tex '>x</annotation>",
+            "<span encoding='application/x-tex'>x</span>",
+            "<svg><script type='math/tex'>x</script><a xlink:href='#' xml:lang='en' data-tex>x</a>",
+            "<annotation encoding='application/x-tex'>x</annotation><math>x</math></svg>",
+            "<math><script type='math/tex'>x</script><semantics><annotation encoding='application/x-tex'>x",
+            "</annotation></semantics><mtext class='katex'>x</mtext></math>",
+            "<span class='\tKaTeX\n'>x</span><span class='a\u{c}mathjax_svg_display\rb'>x</span>",
+            "<span class='katex\u{a0}'>x</span><span class='kaTex-HTML'>x</span>",
+            "<span class='mathjax_ignore'>x</span><span class='MATH-display math-blocks'>x</span>",
+            "<span class='ma\u{307}th'>x</span><span class='K\u{212a}atex'>x</span>",
+            "<span class='tex2jax_process hurmet-tex'>x</span><span class='arithmatex'>x</span>",
+            "<span class='tex-math' data-katex onclick='x'>x</span><p class='math-inline'>x</p>",
+            "<template><span class='mwe-math-element'>x</span><math>x</math></template>",
+        )));
+    }
 
     #[test]
     fn source_descendant_search_equals_collecting_selector_results() {
